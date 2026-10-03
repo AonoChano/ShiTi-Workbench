@@ -141,7 +141,7 @@ button.sidebar-close, button.mobile-menu-button, .sidebar-scrim { display: none;
 .feature-copy .button { height: 33px; font-size: 11px; padding: 0 13px; gap: 20px; }
 .continue-detail { display: flex; align-items: center; gap: 10px; font-size: 9px; color: #8a977b; margin-top: 8px; white-space: nowrap; }
 .continue-detail > span { color: #9ca68e; border-left: 1px solid #c9d4bb; padding-left: 10px; }
-.study-books { width: 345px; height: 259px; object-fit: cover; position: absolute; bottom: -12px; right: -1px; mix-blend-mode: multiply; mask-image: radial-gradient(ellipse at 52% 53%, black 55%, rgba(0,0,0,.55) 72%, transparent 88%); animation: books-reveal .9s .08s ease both; pointer-events: none; }
+.study-books { width: 345px; height: 259px; object-fit: cover; position: absolute; bottom: -12px; right: -1px; mix-blend-mode: multiply; mask-image: radial-gradient(ellipse at 52% 53%, black 64%, rgba(0,0,0,.7) 80%, transparent 97%); animation: books-reveal .9s .08s ease both; pointer-events: none; }
 .practice-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 13px; }
 .module-card { position: relative; height: 128px; border: 1px solid #e7ebdf; border-radius: 8px; background: #fff; padding: 15px 17px; text-align: left; display: flex; flex-direction: column; align-items: flex-start; transition: transform .25s, border-color .25s, background .25s; animation: module-reveal .55s .1s ease both; }
 .module-card:nth-child(2) { animation-delay: .16s; }
