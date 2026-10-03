@@ -24,10 +24,31 @@ export function Drill() {
   const [counts, setCounts] = useState<Record<string, number | null>>({});
   const [busy, setBusy] = useState<string | null>(null);
   const [err, setErr] = useState<string | null>(null);
+  // 概览「按题型练习」跳转过来的定位高光
+  const [focusKey, setFocusKey] = useState<string | null>(null);
 
   useEffect(() => {
     api<{ facets: Facet[] }>('GET', '/practice/facets').then((r) => setFacets(r.facets)).catch((e) => setErr((e as Error).message));
   }, []);
+
+  // 消费概览带过来的题型名（StrictMode 双跑下第二次读不到 key 会静默跳过，无害）
+  useEffect(() => {
+    if (!facets) return;
+    let focusName: string | null = null;
+    try { focusName = sessionStorage.getItem('shiti-drill-focus'); sessionStorage.removeItem('shiti-drill-focus'); } catch { /* 隐私模式忽略 */ }
+    if (!focusName) return;
+    const target = facets.find((f) => f.label === focusName);
+    if (!target) return;
+    setFocusKey(key(target));
+  }, [facets]);
+
+  // 高光滚动定位 + 定时消退：挂在 focusKey 上，StrictMode 双跑也会重新挂定时器
+  useEffect(() => {
+    if (!focusKey) return;
+    document.querySelector('.specialty-module.is-focus')?.scrollIntoView({ block: 'center', behavior: 'auto' });
+    const clear = setTimeout(() => setFocusKey(null), 5200);
+    return () => clearTimeout(clear);
+  }, [focusKey]);
 
   function key(f: Facet) { return `${f.sections.join(',')}|${f.type}`; }
 
@@ -57,7 +78,7 @@ export function Drill() {
           const Icon = iconFor(i);
           const chosen = counts[k] ?? null;
           const capped = COUNT_OPTIONS.filter((o) => o.value === null || o.value <= f.count);
-          return <div className="specialty-module sage" key={k}>
+          return <div className={`specialty-module sage${k === focusKey ? ' is-focus' : ''}`} key={k}>
             <div className="specialty-top"><span className="category-icon sage"><Icon size={21} strokeWidth={1.7} /></span><span>0{i + 1}</span></div>
             <span className="specialty-english">{TYPE_EN[f.type] ?? 'DRILL'}{f.sections.length > 1 ? ` · ${f.sections.length} 种卷型` : ''}</span>
             <h2>{f.label}</h2>

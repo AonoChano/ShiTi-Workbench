@@ -1034,3 +1034,6 @@ button.sidebar-close, button.mobile-menu-button, .sidebar-scrim { display: none;
 .state-error-line .state-mascot { width: 84px; margin: 0; flex-shrink: 0; }
 .search-empty { text-align: center; }
 .search-empty .state-mascot { width: 78px; margin: 8px auto 4px; }
+/* 概览「按题型练习」跳转专项后的定位高光：脉冲两次后保持描边，5 秒自动消退 */
+.specialty-module.is-focus { outline: 2px solid #87a96b; outline-offset: 4px; animation: module-focus 1.5s ease 2; }
+@keyframes module-focus { 0%, 100% { outline-color: #87a96b; } 50% { outline-color: #b7cba3; outline-offset: 8px; } }

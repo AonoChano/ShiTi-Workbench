@@ -39,6 +39,12 @@ export function Overview() {
     notify('今日打卡成功！你的坚持，值得被记录。');
   }
 
+  // 按题型练习：跳转专项页并高光定位对应卡片（不直接开始组卷）
+  function focusDrill(name: string) {
+    try { sessionStorage.setItem('shiti-drill-focus', name); } catch { /* 隐私模式忽略 */ }
+    navigate('/drill');
+  }
+
   function toggleTask(id: string) {
     setTasks((items) => items.map((task) => task.id === id ? { ...task, done: !task.done } : task));
   }
@@ -47,7 +53,7 @@ export function Overview() {
     <div className="overview-layout">
       <div className="overview-main">
         <section className="study-feature"><div className="feature-copy"><span className="feature-eyebrow"><span />拾题 · 每一道题，都算数</span><h2>每天拾一点，<br />离梦想近一点。</h2><p>不必一口气走很远，保持前进就好。</p><button className="button button-primary" onClick={() => navigate('/papers')}>开始今日练习<ArrowRight size={16} /></button><span className="continue-detail">真题题库持续更新中<span>新试卷会自动加入</span></span></div><img className="study-books" src="/images/study-books.png" alt="鼠尾草绿书籍与铅笔组成的安静学习场景" /></section>
-        <section className="quick-practice"><div className="section-heading"><h2>按题型练习</h2><button className="text-link" onClick={() => navigate('/papers')}>去真题题库<ChevronRight size={14} /></button></div><div className="practice-grid">{categories.map((category) => <button className={`module-card ${category.color}`} key={category.id} onClick={() => navigate('/papers')}><CategoryIcon category={category.id} /><ArrowRight size={15} className="module-arrow" /><strong>{category.name}</strong><span>{category.id === 'reading' ? '读懂每一个细节' : category.id === 'cloze' ? '找到语境的线索' : category.id === 'translation' ? '拆解每一个长句' : '写出清晰的表达'}</span></button>)}</div></section>
+        <section className="quick-practice"><div className="section-heading"><h2>按题型练习</h2><button className="text-link" onClick={() => navigate('/drill')}>去专项练习<ChevronRight size={14} /></button></div><div className="practice-grid">{categories.map((category) => <button className={`module-card ${category.color}`} key={category.id} onClick={() => focusDrill(category.name)}><CategoryIcon category={category.id} /><ArrowRight size={15} className="module-arrow" /><strong>{category.name}</strong><span>{category.id === 'reading' ? '读懂每一个细节' : category.id === 'cloze' ? '找到语境的线索' : category.id === 'translation' ? '拆解每一个长句' : '写出清晰的表达'}</span></button>)}</div></section>
         <LearningChart dailyCount={dailyCount} todayAccuracy={84} />
       </div>
       <aside className="overview-aside">
