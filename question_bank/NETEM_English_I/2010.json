@@ -1,0 +1,1872 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2010,
+    "paper": "英语一",
+    "title": "2010年全国硕士研究生入学统一考试英语（一）试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2010.md",
+    "source_images": "TestPaper/images/2010/",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T21:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "新题型为排序题，已按每空一个单选建模，选项 A-G 在每题重复给出；完形填空第1题选项原文缺失，已根据答案PDF补全；写作Part B配图引用原图路径。"
+  },
+  "set": {
+    "title": "2010年全国硕士研究生入学统一考试英语（一）试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · 完形填空",
+      "part": "Section I",
+      "title": "英语知识运用（完形填空）",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark [A], [B], [C] or [D] on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 阅读理解 Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions below each text by choosing [A], [B], [C] or [D]. Mark your answers on ANSWER SHEET 1. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · 新题型 Part B",
+      "part": "Section II · Part B",
+      "title": "新题型（排序）",
+      "directions": [
+        "For Questions 41-45, choose the most suitable paragraphs from the list A-G and fill them into the numbered boxes to form a coherent text. Paragraph E has been correctly placed. There is one paragraph which does not fit in with the text. Mark your answers on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 翻译 Part C",
+      "part": "Section II · Part C",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written carefully on ANSWER SHEET 2. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part A",
+      "part": "Section III · Part A",
+      "title": "应用文写作",
+      "directions": [
+        "You are supposed to write for the postgraduate association a notice to recruit volunteers for an international conference on globalization, you should conclude the basic qualification of applicant and the other information you think relative.",
+        "You should write about 100 words. Do not sign your own name at the end of the letter. Use “postgraduate association” instead. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part B",
+      "part": "Section III · Part B",
+      "title": "短文写作",
+      "directions": [
+        "Write an essay of 160-200 words based on the following drawing. In your essay, you should",
+        "1) describe the drawing briefly,",
+        "2) explain its intended meaning, and then",
+        "3) give your comments.",
+        "You should write neatly on ANSWER SHEET 2. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · 完形填空",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In 1924 America's National Research Council sent two engineers to supervise a series of industrial experiments at a large telephone-parts factory called the Hawthorne Plant near Chicago. It hoped they would learn how shop-floor lighting __1__ workers' productivity. Instead, the studies ended __2__ giving their name to the “Hawthorne effect”, the extremely influential idea that the very __3__ of being experimented upon changed subjects' behavior."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The idea arose because of the __4__ behavior of the women in the Hawthorne plant. According to __5__ of the experiments, their hourly output rose when lighting was increased, but also when it was dimmed. It did not __6__ what was done in the experiment; __7__ something was changed, productivity rose. A(n) __8__ that they were being experimented upon seemed to be __9__ to alter workers' behavior __10__ itself."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "After several decades, the same data were __11__ to econometric analysis. The Hawthorne experiments had another surprise in store. __12__ the descriptions on record, no systematic __13__ was found that levels of productivity were related to changes in lighting."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "It turns out that the peculiar way of conducting the experiments may have led to __14__ interpretations of what happened. __15__, lighting was always changed on a Sunday. When work started again on Monday, output __16__ rose compared with the previous Saturday and __17__ to rise for the next couple of days. __18__, a comparison with data for weeks when there was no experimentation showed that output always went up on Monday. Workers __19__ to be diligent for the first few days of the week in any case, before __20__ a plateau and then slackening off. This suggests that the alleged “Hawthorne effect” is hard to pin down."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Of all the changes that have taken place in English-language newspapers during the past quarter-century, perhaps the most far-reaching has been the inexorable decline in the scope and seriousness of their arts coverage."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "It is difficult to the point of impossibility for the average reader under the age of forty to imagine a time when high-quality arts criticism could be found in most big-city newspapers. Yet a considerable number of the most significant collections of criticism published in the 20th century consisted in large part of newspaper reviews. To read such books today is to marvel at the fact that their learned contents were once deemed suitable for publication in general-circulation dailies."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "We are even farther removed from the unfocused newspaper reviews published in England between the turn of the 20th century and the eve of World War II, at a time when newsprint was dirt-cheap and stylish arts criticism was considered an ornament to the publications in which it appeared. In those far-off days, it was taken for granted that the critics of major papers would write in detail and at length about the events they covered. Theirs was a serious business, and even those reviewers who wore their learning lightly, like George Bernard Shaw and Ernest Newman, could be trusted to know what they were about. These men believed in journalism as a calling, and were proud to be published in the daily press. “So few authors have brains enough or literary gift enough to keep their own end up in journalism,” Newman wrote, “that I am tempted to define ‘journalism’ as ‘a term of contempt applied by writers who are not read to writers who are.’”"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Unfortunately, these critics are virtually forgotten. Neville Cardus, who wrote for the Manchester Guardian from 1917 until shortly before his death in 1975, is now known solely as a writer of essays on the game of cricket. During his lifetime, though, he was also one of England's foremost classical-music critics, a stylist so widely admired that his Autobiography (1947) became a best-seller. He was knighted in 1967, the first music critic to be so honored. Yet only one of his books is now in print, and his vast body of writings on music is unknown save to specialists."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Is there any chance that Cardus's criticism will enjoy a revival? The prospect seems remote. Journalistic tastes had changed long before his death, and postmodern readers have little use for the richly upholstered Vicwardian prose in which he specialized. Moreover, the amateur tradition in music criticism has been in headlong retreat."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Over the past decade, thousands of patents have been granted for what are called business methods. Amazon.com received one for its “one-click” online payment system. Merrill Lynch got legal protection for an asset allocation strategy. One inventor patented a technique for lifting a box."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Now the nation's top patent court appears completely ready to scale back on business-method patents, which have been controversial ever since they were first authorized 10 years ago. In a move that has intellectual-property lawyers abuzz, the U.S. Court of Appeals for the Federal Circuit said it would use a particular case to conduct a broad review of business-method patents. In re Bilski, as the case is known, is “a very big deal,” says Dennis D. Crouch of the University of Missouri School of Law. It “has the potential to eliminate an entire class of patents.”"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Curbs on business-method claims would be a dramatic about-face, because it was the Federal Circuit itself that introduced such patents with its 1998 decision in the so-called State Street Bank case, approving a patent on a way of pooling mutual-fund assets. That ruling produced an explosion in business-method patent filings, initially by emerging Internet companies trying to stake out exclusive rights to specific types of online transactions. Later, more established companies raced to add such patents to their files, if only as a defensive move against rivals that might beat them to the punch. In 2005, IBM noted in a court filing that it had been issued more than 300 business-method patents despite the fact that it questioned the legal basis for granting them. Similarly, some Wall Street investment firms armed themselves with patents for financial products, even as they took positions in court cases opposing the practice."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The Bilski case involves a claimed patent on a method for hedging risk in the energy market. The Federal Circuit issued an unusual order stating that the case would be heard by all 12 of the court's judges, rather than a typical panel of three, and that one issue it wants to evaluate is whether it should “reconsider” its State Street Bank ruling."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "The Federal Circuit's action comes in the wake of a series of recent decisions by the Supreme Court that has narrowed the scope of protections for patent holders. Last April, for example, the justices signaled that too many patents were being upheld for “inventions” that are obvious. The judges on the Federal Circuit are “reacting to the anti-patent trend at the Supreme Court,” says Harold C. Wegner, a patent attorney and professor at George Washington University Law School."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In his book The Tipping Point, Malcolm Gladwell argues that “social epidemics” are driven in large part by the actions of a tiny minority of special individuals, often called influentials, who are unusually informed, persuasive, or well-connected. The idea is intuitively compelling, but it doesn't explain how ideas actually spread."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The supposed importance of influentials derives from a plausible-sounding but largely untested theory called the “two-step flow of communication”: Information flows from the media to the influentials and from them to everyone else. Marketers have embraced the two-step flow because it suggests that if they can just find and influence the influentials, those selected people will do most of the work for them. The theory also seems to explain the sudden and unexpected popularity of certain looks, brands, or neighborhoods. In many such cases, a cursory search for causes finds that some small group of people was wearing, promoting, or developing whatever it is before anyone else paid attention. Anecdotal evidence of this kind fits nicely with the idea that only certain special people can drive trends."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "In their recent work, however, some researchers have come up with the finding that influentials have far less impact on social epidemics than is generally supposed. In fact, they don't seem to be required at all."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The researchers' argument stems from a simple observation about social influence: With the exception of a few celebrities like Oprah Winfrey—whose outsize presence is primarily a function of media, not interpersonal, influence—even the most influential members of a population simply don't interact with that many others. Yet it is precisely these non-celebrity influentials who, according to the two-step-flow theory, are supposed to drive social epidemics, by influencing their friends and colleagues directly. For a social epidemic to occur, however, each person so affected must then influence his or her own acquaintances, who must in turn influence theirs, and so on; and just how many others pay attention to each of these people has little to do with the initial influential. If people in the network just two degrees removed from the initial influential prove resistant, for example, the cascade of change won't propagate very far or affect many people."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Building on the basic truth about interpersonal influence, the researchers studied the dynamics of social influence by conducting thousands of computer simulations of populations, manipulating a number of variables relating to people's ability to influence others and their tendency to be influenced. They found that the principal requirement for what is called “global cascades”—the widespread propagation of influence through networks—is the presence not of a few influentials but, rather, of a critical mass of easily influenced people."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Bankers have been blaming themselves for their troubles in public. Behind the scenes, they have been taking aim at someone else: the accounting standard-setters. Their rules, moan the banks, have forced them to report enormous losses, and it's just not fair. These rules say they must value some assets at the price a third party would pay, not the price managers and regulators would like them to fetch."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Unfortunately, banks' lobbying now seems to be working. The details may be unknowable, but the independence of standard-setters, essential to the proper functioning of capital markets, is being compromised. And, unless banks carry toxic assets at prices that attract buyers, reviving the banking system will be difficult."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "After a bruising encounter with Congress, America's Financial Accounting Standards Board (FASB) rushed through rule changes. These gave banks more freedom to use models to value illiquid assets and more flexibility in recognizing losses on long-term assets in their income statements. Bob Herz, the FASB's chairman, cried out against those who “question our motives.” Yet bank shares rose and the changes enhance what one lobby group politely calls “the use of judgment by management.”"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "European ministers instantly demanded that the International Accounting Standards Board (IASB) do likewise. The IASB says it does not want to act without overall planning, but the pressure to fold when it completes its reconstruction of rules later this year is strong. Charlie McCreevy, a European commissioner, warned the IASB that it did “not live in a political vacuum” but “in the real world” and that Europe could yet develop different rules."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "It was banks that were on the wrong planet, with accounts that vastly overvalued assets. Today they argue that market prices overstate losses, because they largely reflect the temporary illiquidity of markets, not the likely extent of bad debts. The truth will not be known for years. But banks' shares trade below their book value, suggesting that investors are skeptical. And dead markets partly reflect the paralysis of banks which will not sell assets for fear of booking losses, yet are reluctant to buy all those supposed bargains."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "To get the system working again, losses must be recognized and dealt with. America's new plan to buy up toxic assets will not work unless banks mark assets to levels which buyers find attractive. Successful markets require independent and even combative standard-setters. The FASB and IASB have been exactly that, cleaning up rules on stock options and pensions, for example, against hostility from special interests. But by giving in to critics now they are inviting pressure to make more concessions."
+        }
+      ]
+    },
+    {
+      "id": "newtype",
+      "title": "Section II · 新题型 Part B 短文",
+      "section": "Section II · 新题型 Part B",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "__41__"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "__42__"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "__E__"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "__43__"
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "__44__"
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "__45__"
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · 翻译 Part C 原文",
+      "section": "Section II · 翻译 Part C",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "One basic weakness in a conservation system based wholly on economic motives is that most members of the land community have no economic value. Yet these creatures are members of the biotic community and, if its stability depends on its integrity, they are entitled to continuance.\nWhen one of these noneconomic categories is threatened and, if we happen to love it, we invent excuses to give it economic importance. At the beginning of the century songbirds were supposed to be disappearing. 【46】Scientists jumped to the rescue with some distinctly shaky evidence to the effect that insects would eat us up if birds failed to control them. The evidence had to be economic in order to be valid.\nIt is painful to read these roundabout accounts today. We have no land ethic yet, 【47】but we have at least drawn nearer the point of admitting that birds should continue as a matter of intrinsic right, regardless of the presence or absence of economic advantage to us.\nA parallel situation exists in respect of predatory mammals and fish-eating birds. 【48】Time was when biologists somewhat overworded the evidence that these creatures preserve the health of game by killing the physically weak, or that they prey only on “worthless” species.\nSome species of tree have been read out of the party by economics-minded foresters because they grow too slowly, or have too low a sale value to pay as timber crops. 【49】In Europe, where forestry is ecologically more advanced, the non-commercial tree species are recognized as members of the native forest community, to be preserved as such, within reason.\nTo sum up: a system of conservation based solely on economic self-interest is hopelessly lopsided. 【50】It tends to ignore, and thus eventually to eliminate, many elements in the land community that lack commercial value, but that are essential to its healthy functioning. It assumes, falsely, I think, that the economic parts of the biotic clock will function without the uneconomic parts."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        {
+          "id": "c1-a",
+          "text": "affected"
+        },
+        {
+          "id": "c1-b",
+          "text": "achieved"
+        },
+        {
+          "id": "c1-c",
+          "text": "extracted"
+        },
+        {
+          "id": "c1-d",
+          "text": "restored"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c1-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第1空"
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        {
+          "id": "c2-a",
+          "text": "at"
+        },
+        {
+          "id": "c2-b",
+          "text": "up"
+        },
+        {
+          "id": "c2-c",
+          "text": "with"
+        },
+        {
+          "id": "c2-d",
+          "text": "off"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c2-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第2空"
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        {
+          "id": "c3-a",
+          "text": "truth"
+        },
+        {
+          "id": "c3-b",
+          "text": "sight"
+        },
+        {
+          "id": "c3-c",
+          "text": "act"
+        },
+        {
+          "id": "c3-d",
+          "text": "proof"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c3-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第3空"
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        {
+          "id": "c4-a",
+          "text": "controversial"
+        },
+        {
+          "id": "c4-b",
+          "text": "perplexing"
+        },
+        {
+          "id": "c4-c",
+          "text": "mischievous"
+        },
+        {
+          "id": "c4-d",
+          "text": "ambiguous"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c4-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第4空"
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        {
+          "id": "c5-a",
+          "text": "requirements"
+        },
+        {
+          "id": "c5-b",
+          "text": "explanations"
+        },
+        {
+          "id": "c5-c",
+          "text": "accounts"
+        },
+        {
+          "id": "c5-d",
+          "text": "assessments"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c5-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第5空"
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        {
+          "id": "c6-a",
+          "text": "conclude"
+        },
+        {
+          "id": "c6-b",
+          "text": "matter"
+        },
+        {
+          "id": "c6-c",
+          "text": "indicate"
+        },
+        {
+          "id": "c6-d",
+          "text": "work"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c6-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第6空"
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        {
+          "id": "c7-a",
+          "text": "as far as"
+        },
+        {
+          "id": "c7-b",
+          "text": "for fear that"
+        },
+        {
+          "id": "c7-c",
+          "text": "in case that"
+        },
+        {
+          "id": "c7-d",
+          "text": "so long as"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c7-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第7空"
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        {
+          "id": "c8-a",
+          "text": "awareness"
+        },
+        {
+          "id": "c8-b",
+          "text": "expectation"
+        },
+        {
+          "id": "c8-c",
+          "text": "sentiment"
+        },
+        {
+          "id": "c8-d",
+          "text": "illusion"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c8-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第8空"
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        {
+          "id": "c9-a",
+          "text": "suitable"
+        },
+        {
+          "id": "c9-b",
+          "text": "excessive"
+        },
+        {
+          "id": "c9-c",
+          "text": "enough"
+        },
+        {
+          "id": "c9-d",
+          "text": "abundant"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c9-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第9空"
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        {
+          "id": "c10-a",
+          "text": "about"
+        },
+        {
+          "id": "c10-b",
+          "text": "for"
+        },
+        {
+          "id": "c10-c",
+          "text": "on"
+        },
+        {
+          "id": "c10-d",
+          "text": "by"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c10-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第10空"
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        {
+          "id": "c11-a",
+          "text": "compared"
+        },
+        {
+          "id": "c11-b",
+          "text": "shown"
+        },
+        {
+          "id": "c11-c",
+          "text": "subjected"
+        },
+        {
+          "id": "c11-d",
+          "text": "conveyed"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c11-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第11空"
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        {
+          "id": "c12-a",
+          "text": "Contrary to"
+        },
+        {
+          "id": "c12-b",
+          "text": "Consistent with"
+        },
+        {
+          "id": "c12-c",
+          "text": "Parallel with"
+        },
+        {
+          "id": "c12-d",
+          "text": "Peculiar to"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c12-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第12空"
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        {
+          "id": "c13-a",
+          "text": "evidence"
+        },
+        {
+          "id": "c13-b",
+          "text": "guidance"
+        },
+        {
+          "id": "c13-c",
+          "text": "implication"
+        },
+        {
+          "id": "c13-d",
+          "text": "source"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c13-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第13空"
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        {
+          "id": "c14-a",
+          "text": "disputable"
+        },
+        {
+          "id": "c14-b",
+          "text": "enlightening"
+        },
+        {
+          "id": "c14-c",
+          "text": "reliable"
+        },
+        {
+          "id": "c14-d",
+          "text": "misleading"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c14-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第14空"
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        {
+          "id": "c15-a",
+          "text": "In contrast"
+        },
+        {
+          "id": "c15-b",
+          "text": "For example"
+        },
+        {
+          "id": "c15-c",
+          "text": "In consequence"
+        },
+        {
+          "id": "c15-d",
+          "text": "As usual"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c15-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第15空"
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        {
+          "id": "c16-a",
+          "text": "duly"
+        },
+        {
+          "id": "c16-b",
+          "text": "accidentally"
+        },
+        {
+          "id": "c16-c",
+          "text": "unpredictably"
+        },
+        {
+          "id": "c16-d",
+          "text": "suddenly"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c16-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第16空"
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        {
+          "id": "c17-a",
+          "text": "failed"
+        },
+        {
+          "id": "c17-b",
+          "text": "ceased"
+        },
+        {
+          "id": "c17-c",
+          "text": "started"
+        },
+        {
+          "id": "c17-d",
+          "text": "continued"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c17-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第17空"
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        {
+          "id": "c18-a",
+          "text": "Therefore"
+        },
+        {
+          "id": "c18-b",
+          "text": "Furthermore"
+        },
+        {
+          "id": "c18-c",
+          "text": "However"
+        },
+        {
+          "id": "c18-d",
+          "text": "Meanwhile"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c18-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第18空"
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        {
+          "id": "c19-a",
+          "text": "attempted"
+        },
+        {
+          "id": "c19-b",
+          "text": "tended"
+        },
+        {
+          "id": "c19-c",
+          "text": "chose"
+        },
+        {
+          "id": "c19-d",
+          "text": "intended"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c19-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第19空"
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        {
+          "id": "c20-a",
+          "text": "breaking"
+        },
+        {
+          "id": "c20-b",
+          "text": "climbing"
+        },
+        {
+          "id": "c20-c",
+          "text": "surpassing"
+        },
+        {
+          "id": "c20-d",
+          "text": "hitting"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c20-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第20空"
+    },
+    {
+      "id": "t1-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "It is indicated in Paragraphs 1 and 2 that ______.",
+      "options": [
+        {
+          "id": "t1-q1-a",
+          "text": "arts criticism has disappeared from big-city newspapers"
+        },
+        {
+          "id": "t1-q1-b",
+          "text": "English-language newspapers used to carry more arts reviews"
+        },
+        {
+          "id": "t1-q1-c",
+          "text": "high-quality newspapers retain a large body of readers"
+        },
+        {
+          "id": "t1-q1-d",
+          "text": "young readers doubt the suitability of criticism on dailies"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q1-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1-2段"
+    },
+    {
+      "id": "t1-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Newspaper reviews in England before World War II were characterized by ______.",
+      "options": [
+        {
+          "id": "t1-q2-a",
+          "text": "free themes"
+        },
+        {
+          "id": "t1-q2-b",
+          "text": "casual style"
+        },
+        {
+          "id": "t1-q2-c",
+          "text": "elaborate layout"
+        },
+        {
+          "id": "t1-q2-d",
+          "text": "radical viewpoints"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q2-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第3段"
+    },
+    {
+      "id": "t1-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Which of the following would Shaw and Newman most probably agree on?",
+      "options": [
+        {
+          "id": "t1-q3-a",
+          "text": "It is writers' duty to fulfill journalistic goals."
+        },
+        {
+          "id": "t1-q3-b",
+          "text": "It is contemptible for writers to be journalists."
+        },
+        {
+          "id": "t1-q3-c",
+          "text": "Writers are likely to be tempted into journalism."
+        },
+        {
+          "id": "t1-q3-d",
+          "text": "Not all writers are capable of journalistic writing."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q3-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第3段"
+    },
+    {
+      "id": "t1-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "What can be learned about Cardus according to the last two paragraphs?",
+      "options": [
+        {
+          "id": "t1-q4-a",
+          "text": "His music criticism may not appeal to readers today."
+        },
+        {
+          "id": "t1-q4-b",
+          "text": "His reputation as a music critic has long been in dispute."
+        },
+        {
+          "id": "t1-q4-c",
+          "text": "His style caters largely to modern specialists."
+        },
+        {
+          "id": "t1-q4-d",
+          "text": "His writings fail to follow the amateur tradition."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q4-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第4-5段"
+    },
+    {
+      "id": "t1-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "What would be the best title for the text?",
+      "options": [
+        {
+          "id": "t1-q5-a",
+          "text": "Newspapers of the Good Old Days"
+        },
+        {
+          "id": "t1-q5-b",
+          "text": "The Lost Horizon in Newspapers"
+        },
+        {
+          "id": "t1-q5-c",
+          "text": "Mournful Decline of Journalism"
+        },
+        {
+          "id": "t1-q5-d",
+          "text": "Prominent Critics in Memory"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q5-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 全文"
+    },
+    {
+      "id": "t2-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Business-method patents have recently aroused concern because of ______.",
+      "options": [
+        {
+          "id": "t2-q1-a",
+          "text": "their limited value to businesses"
+        },
+        {
+          "id": "t2-q1-b",
+          "text": "their connection with asset allocation"
+        },
+        {
+          "id": "t2-q1-c",
+          "text": "the possible restriction on their granting"
+        },
+        {
+          "id": "t2-q1-d",
+          "text": "the controversy over their authorization"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q1-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第2段"
+    },
+    {
+      "id": "t2-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Which of the following is true of the Bilski case?",
+      "options": [
+        {
+          "id": "t2-q2-a",
+          "text": "Its ruling complies with the court decisions."
+        },
+        {
+          "id": "t2-q2-b",
+          "text": "It involves a very big business transaction."
+        },
+        {
+          "id": "t2-q2-c",
+          "text": "It has been dismissed by the Federal Circuit."
+        },
+        {
+          "id": "t2-q2-d",
+          "text": "It may change the legal practices in the U.S."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q2-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第2段"
+    },
+    {
+      "id": "t2-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The word “about-face” (Line 1, Para. 3) most probably means ______.",
+      "options": [
+        {
+          "id": "t2-q3-a",
+          "text": "loss of good will"
+        },
+        {
+          "id": "t2-q3-b",
+          "text": "increase of hostility"
+        },
+        {
+          "id": "t2-q3-c",
+          "text": "change of attitude"
+        },
+        {
+          "id": "t2-q3-d",
+          "text": "enhancement of dignity"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q3-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第3段"
+    },
+    {
+      "id": "t2-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "We learn from the last two paragraphs that business-method patents ______.",
+      "options": [
+        {
+          "id": "t2-q4-a",
+          "text": "are immune to legal challenges"
+        },
+        {
+          "id": "t2-q4-b",
+          "text": "are often unnecessarily issued"
+        },
+        {
+          "id": "t2-q4-c",
+          "text": "lower the esteem for patent holders"
+        },
+        {
+          "id": "t2-q4-d",
+          "text": "increase the incidence of risks"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q4-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第4-5段"
+    },
+    {
+      "id": "t2-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Which of the following would be the subject of the text?",
+      "options": [
+        {
+          "id": "t2-q5-a",
+          "text": "A looming threat to business-method patents"
+        },
+        {
+          "id": "t2-q5-b",
+          "text": "Protection for business-method patent holders"
+        },
+        {
+          "id": "t2-q5-c",
+          "text": "A legal case regarding business-method patents"
+        },
+        {
+          "id": "t2-q5-d",
+          "text": "A prevailing trend against business-method patents"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q5-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 全文"
+    },
+    {
+      "id": "t3-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "By citing the book The Tipping Point, the author intends to ______.",
+      "options": [
+        {
+          "id": "t3-q1-a",
+          "text": "analyze the consequences of social epidemics"
+        },
+        {
+          "id": "t3-q1-b",
+          "text": "discuss influentials' function in spreading ideas"
+        },
+        {
+          "id": "t3-q1-c",
+          "text": "exemplify people's intuitive response to social epidemics"
+        },
+        {
+          "id": "t3-q1-d",
+          "text": "describe the essential characteristics of influentials"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q1-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第1段"
+    },
+    {
+      "id": "t3-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The author suggests that the “two-step-flow theory” ______.",
+      "options": [
+        {
+          "id": "t3-q2-a",
+          "text": "serves as a solution to marketing problems"
+        },
+        {
+          "id": "t3-q2-b",
+          "text": "has helped explain certain prevalent trends"
+        },
+        {
+          "id": "t3-q2-c",
+          "text": "has won support from influentials"
+        },
+        {
+          "id": "t3-q2-d",
+          "text": "requires solid evidence for its validity"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q2-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第2段"
+    },
+    {
+      "id": "t3-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "What the researchers have observed recently shows that ______.",
+      "options": [
+        {
+          "id": "t3-q3-a",
+          "text": "the power of influence goes with social interactions"
+        },
+        {
+          "id": "t3-q3-b",
+          "text": "interpersonal links can be enhanced through the media"
+        },
+        {
+          "id": "t3-q3-c",
+          "text": "influentials have more channels to reach the public"
+        },
+        {
+          "id": "t3-q3-d",
+          "text": "most celebrities enjoy wide media attention"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q3-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第3-4段"
+    },
+    {
+      "id": "t3-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The underlined phrase “these people” in Paragraph 4 refers to the ones who ______.",
+      "options": [
+        {
+          "id": "t3-q4-a",
+          "text": "stay outside the network of social influence"
+        },
+        {
+          "id": "t3-q4-b",
+          "text": "have little contact with the source of influence"
+        },
+        {
+          "id": "t3-q4-c",
+          "text": "are influenced and then influence others"
+        },
+        {
+          "id": "t3-q4-d",
+          "text": "are influenced by the initial influential"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q4-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第4段"
+    },
+    {
+      "id": "t3-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "What is the essential element in the dynamics of social influence?",
+      "options": [
+        {
+          "id": "t3-q5-a",
+          "text": "The eagerness to be accepted."
+        },
+        {
+          "id": "t3-q5-b",
+          "text": "The impulse to influence others."
+        },
+        {
+          "id": "t3-q5-c",
+          "text": "The readiness to be influenced."
+        },
+        {
+          "id": "t3-q5-d",
+          "text": "The inclination to rely on others."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q5-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第5段"
+    },
+    {
+      "id": "t4-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Bankers complained that they were forced to ______.",
+      "options": [
+        {
+          "id": "t4-q1-a",
+          "text": "follow unfavorable asset evaluation rules"
+        },
+        {
+          "id": "t4-q1-b",
+          "text": "collect payments from third parties"
+        },
+        {
+          "id": "t4-q1-c",
+          "text": "cooperate with the price managers"
+        },
+        {
+          "id": "t4-q1-d",
+          "text": "reevaluate some of their assets"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q1-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第1段"
+    },
+    {
+      "id": "t4-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to the author, the rule changes of the FASB may result in ______.",
+      "options": [
+        {
+          "id": "t4-q2-a",
+          "text": "the diminishing role of management"
+        },
+        {
+          "id": "t4-q2-b",
+          "text": "the revival of the banking system"
+        },
+        {
+          "id": "t4-q2-c",
+          "text": "the banks' long-term asset losses"
+        },
+        {
+          "id": "t4-q2-d",
+          "text": "the weakening of its independence"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q2-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第3段"
+    },
+    {
+      "id": "t4-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to Paragraph 4, McCreevy objects to the IASB's attempt to ______.",
+      "options": [
+        {
+          "id": "t4-q3-a",
+          "text": "keep away from political influences"
+        },
+        {
+          "id": "t4-q3-b",
+          "text": "evade the pressure from their peers"
+        },
+        {
+          "id": "t4-q3-c",
+          "text": "act on their own in rule-setting"
+        },
+        {
+          "id": "t4-q3-d",
+          "text": "take gradual measures in reform"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q3-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第4段"
+    },
+    {
+      "id": "t4-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The author thinks the banks were “on the wrong planet” in that they ______.",
+      "options": [
+        {
+          "id": "t4-q4-a",
+          "text": "misinterpreted market price indicators"
+        },
+        {
+          "id": "t4-q4-b",
+          "text": "exaggerated the real value of their assets"
+        },
+        {
+          "id": "t4-q4-c",
+          "text": "neglected the likely existence of bad debts"
+        },
+        {
+          "id": "t4-q4-d",
+          "text": "denied booking losses in their sale of assets"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q4-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第5段"
+    },
+    {
+      "id": "t4-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The author's attitude towards standard-setters is one of ______.",
+      "options": [
+        {
+          "id": "t4-q5-a",
+          "text": "satisfaction"
+        },
+        {
+          "id": "t4-q5-b",
+          "text": "skepticism"
+        },
+        {
+          "id": "t4-q5-c",
+          "text": "objectiveness"
+        },
+        {
+          "id": "t4-q5-d",
+          "text": "sympathy"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q5-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 全文"
+    },
+    {
+      "id": "nt-41",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 41 空：本空应填入的段落是",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "The first and more important is the consumer's growing preference for eating out; the consumption of food and drink in places other than homes has risen from about 32 percent of total consumption in 1995 to 35 percent in 2000 and is expected to approach 38 percent by 2005. This development is boosting wholesale demand from the food service segment by 4 to 5 percent a year across Europe, compared with growth in retail demand of 1 to 2 percent. Meanwhile, as the recession is looming large, people are getting anxious. They tend to keep a tighter hold on their purse and consider eating at home a realistic alternative."
+        },
+        {
+          "id": "nt-b",
+          "text": "Retail sales of food and drink in Europe's largest markets are at a standstill, leaving European grocery retailers hungry for opportunities to grow. Most leading retailers have already tried e-commerce, with limited success, and expansion abroad. But almost all have ignored the big, profitable opportunity in their own backyard: the wholesale food and drink trade, which appears to be just the kind of market retailers need."
+        },
+        {
+          "id": "nt-c",
+          "text": "Will such variations bring about a change in the overall structure of the food and drink market? Definitely not. The functioning of the market is based on flexible trends dominated by potential buyers. In other words, it is up to the buyer, rather than the seller, to decide what to buy. At any rate, this change will ultimately be acclaimed by an ever-growing number of both domestic and international consumers, regardless of how long the current consumer pattern will take hold."
+        },
+        {
+          "id": "nt-d",
+          "text": "All in all, this clearly seems to be a market in which big retailers could profitably apply their scale, existing infrastructure and proven skills in the management of product ranges, logistics, and marketing intelligence. Retailers that master the intricacies of wholesaling in Europe may well expect to rake in substantial profits thereby. At least, that is how it looks as a whole. Closer inspection reveals important differences among the biggest national markets, especially in their customer segments and wholesale structures, as well as the competitive dynamics of individual food and drink categories. Big retailers must understand these differences before they can identify the segments of European wholesaling in which their particular abilities might unseat smaller but entrenched competitors. New skills and unfamiliar business models are needed too."
+        },
+        {
+          "id": "nt-e",
+          "text": "Despite variations in detail, wholesale markets in the countries that have been closely examined—France, Germany, Italy, and Spain—are made out of the same building blocks. Demand comes mainly from two sources: independent mom-and-pop grocery stores which, unlike large retail chains, are too small to buy straight from producers, and food service operators that cater to consumers when they don't eat at home. Such food service operators range from snack machines to large institutional catering ventures, but most of these businesses are known in the trade as “horeca”: hotels, restaurants, and cafes. Overall, Europe's wholesale market for food and drink is growing at the same sluggish pace as the retail market, but the figures, when added together, mask two opposing trends."
+        },
+        {
+          "id": "nt-f",
+          "text": "For example, wholesale food and drink sales come to $268 billion in France, Germany, Italy, Spain, and the United Kingdom in 2000—more than 40 percent of retail sales. Moreover, average overall margins are higher in wholesale than in retail; wholesale demand from the food service sector is growing quickly as more Europeans eat out more often; and changes in the competitive dynamics of this fragmented industry are at last making it feasible for wholesalers to consolidate."
+        },
+        {
+          "id": "nt-g",
+          "text": "However, none of these requirements should deter large retailers (and even some large food producers and existing wholesalers) from trying their hand, for those that master the intricacies of wholesaling in Europe stand to reap considerable gains."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第41空"
+    },
+    {
+      "id": "nt-42",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 42 空：本空应填入的段落是",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "The first and more important is the consumer's growing preference for eating out; the consumption of food and drink in places other than homes has risen from about 32 percent of total consumption in 1995 to 35 percent in 2000 and is expected to approach 38 percent by 2005. This development is boosting wholesale demand from the food service segment by 4 to 5 percent a year across Europe, compared with growth in retail demand of 1 to 2 percent. Meanwhile, as the recession is looming large, people are getting anxious. They tend to keep a tighter hold on their purse and consider eating at home a realistic alternative."
+        },
+        {
+          "id": "nt-b",
+          "text": "Retail sales of food and drink in Europe's largest markets are at a standstill, leaving European grocery retailers hungry for opportunities to grow. Most leading retailers have already tried e-commerce, with limited success, and expansion abroad. But almost all have ignored the big, profitable opportunity in their own backyard: the wholesale food and drink trade, which appears to be just the kind of market retailers need."
+        },
+        {
+          "id": "nt-c",
+          "text": "Will such variations bring about a change in the overall structure of the food and drink market? Definitely not. The functioning of the market is based on flexible trends dominated by potential buyers. In other words, it is up to the buyer, rather than the seller, to decide what to buy. At any rate, this change will ultimately be acclaimed by an ever-growing number of both domestic and international consumers, regardless of how long the current consumer pattern will take hold."
+        },
+        {
+          "id": "nt-d",
+          "text": "All in all, this clearly seems to be a market in which big retailers could profitably apply their scale, existing infrastructure and proven skills in the management of product ranges, logistics, and marketing intelligence. Retailers that master the intricacies of wholesaling in Europe may well expect to rake in substantial profits thereby. At least, that is how it looks as a whole. Closer inspection reveals important differences among the biggest national markets, especially in their customer segments and wholesale structures, as well as the competitive dynamics of individual food and drink categories. Big retailers must understand these differences before they can identify the segments of European wholesaling in which their particular abilities might unseat smaller but entrenched competitors. New skills and unfamiliar business models are needed too."
+        },
+        {
+          "id": "nt-e",
+          "text": "Despite variations in detail, wholesale markets in the countries that have been closely examined—France, Germany, Italy, and Spain—are made out of the same building blocks. Demand comes mainly from two sources: independent mom-and-pop grocery stores which, unlike large retail chains, are too small to buy straight from producers, and food service operators that cater to consumers when they don't eat at home. Such food service operators range from snack machines to large institutional catering ventures, but most of these businesses are known in the trade as “horeca”: hotels, restaurants, and cafes. Overall, Europe's wholesale market for food and drink is growing at the same sluggish pace as the retail market, but the figures, when added together, mask two opposing trends."
+        },
+        {
+          "id": "nt-f",
+          "text": "For example, wholesale food and drink sales come to $268 billion in France, Germany, Italy, Spain, and the United Kingdom in 2000—more than 40 percent of retail sales. Moreover, average overall margins are higher in wholesale than in retail; wholesale demand from the food service sector is growing quickly as more Europeans eat out more often; and changes in the competitive dynamics of this fragmented industry are at last making it feasible for wholesalers to consolidate."
+        },
+        {
+          "id": "nt-g",
+          "text": "However, none of these requirements should deter large retailers (and even some large food producers and existing wholesalers) from trying their hand, for those that master the intricacies of wholesaling in Europe stand to reap considerable gains."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-f"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第42空"
+    },
+    {
+      "id": "nt-43",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 43 空：本空应填入的段落是",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "The first and more important is the consumer's growing preference for eating out; the consumption of food and drink in places other than homes has risen from about 32 percent of total consumption in 1995 to 35 percent in 2000 and is expected to approach 38 percent by 2005. This development is boosting wholesale demand from the food service segment by 4 to 5 percent a year across Europe, compared with growth in retail demand of 1 to 2 percent. Meanwhile, as the recession is looming large, people are getting anxious. They tend to keep a tighter hold on their purse and consider eating at home a realistic alternative."
+        },
+        {
+          "id": "nt-b",
+          "text": "Retail sales of food and drink in Europe's largest markets are at a standstill, leaving European grocery retailers hungry for opportunities to grow. Most leading retailers have already tried e-commerce, with limited success, and expansion abroad. But almost all have ignored the big, profitable opportunity in their own backyard: the wholesale food and drink trade, which appears to be just the kind of market retailers need."
+        },
+        {
+          "id": "nt-c",
+          "text": "Will such variations bring about a change in the overall structure of the food and drink market? Definitely not. The functioning of the market is based on flexible trends dominated by potential buyers. In other words, it is up to the buyer, rather than the seller, to decide what to buy. At any rate, this change will ultimately be acclaimed by an ever-growing number of both domestic and international consumers, regardless of how long the current consumer pattern will take hold."
+        },
+        {
+          "id": "nt-d",
+          "text": "All in all, this clearly seems to be a market in which big retailers could profitably apply their scale, existing infrastructure and proven skills in the management of product ranges, logistics, and marketing intelligence. Retailers that master the intricacies of wholesaling in Europe may well expect to rake in substantial profits thereby. At least, that is how it looks as a whole. Closer inspection reveals important differences among the biggest national markets, especially in their customer segments and wholesale structures, as well as the competitive dynamics of individual food and drink categories. Big retailers must understand these differences before they can identify the segments of European wholesaling in which their particular abilities might unseat smaller but entrenched competitors. New skills and unfamiliar business models are needed too."
+        },
+        {
+          "id": "nt-e",
+          "text": "Despite variations in detail, wholesale markets in the countries that have been closely examined—France, Germany, Italy, and Spain—are made out of the same building blocks. Demand comes mainly from two sources: independent mom-and-pop grocery stores which, unlike large retail chains, are too small to buy straight from producers, and food service operators that cater to consumers when they don't eat at home. Such food service operators range from snack machines to large institutional catering ventures, but most of these businesses are known in the trade as “horeca”: hotels, restaurants, and cafes. Overall, Europe's wholesale market for food and drink is growing at the same sluggish pace as the retail market, but the figures, when added together, mask two opposing trends."
+        },
+        {
+          "id": "nt-f",
+          "text": "For example, wholesale food and drink sales come to $268 billion in France, Germany, Italy, Spain, and the United Kingdom in 2000—more than 40 percent of retail sales. Moreover, average overall margins are higher in wholesale than in retail; wholesale demand from the food service sector is growing quickly as more Europeans eat out more often; and changes in the competitive dynamics of this fragmented industry are at last making it feasible for wholesalers to consolidate."
+        },
+        {
+          "id": "nt-g",
+          "text": "However, none of these requirements should deter large retailers (and even some large food producers and existing wholesalers) from trying their hand, for those that master the intricacies of wholesaling in Europe stand to reap considerable gains."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第43空"
+    },
+    {
+      "id": "nt-44",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 44 空：本空应填入的段落是",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "The first and more important is the consumer's growing preference for eating out; the consumption of food and drink in places other than homes has risen from about 32 percent of total consumption in 1995 to 35 percent in 2000 and is expected to approach 38 percent by 2005. This development is boosting wholesale demand from the food service segment by 4 to 5 percent a year across Europe, compared with growth in retail demand of 1 to 2 percent. Meanwhile, as the recession is looming large, people are getting anxious. They tend to keep a tighter hold on their purse and consider eating at home a realistic alternative."
+        },
+        {
+          "id": "nt-b",
+          "text": "Retail sales of food and drink in Europe's largest markets are at a standstill, leaving European grocery retailers hungry for opportunities to grow. Most leading retailers have already tried e-commerce, with limited success, and expansion abroad. But almost all have ignored the big, profitable opportunity in their own backyard: the wholesale food and drink trade, which appears to be just the kind of market retailers need."
+        },
+        {
+          "id": "nt-c",
+          "text": "Will such variations bring about a change in the overall structure of the food and drink market? Definitely not. The functioning of the market is based on flexible trends dominated by potential buyers. In other words, it is up to the buyer, rather than the seller, to decide what to buy. At any rate, this change will ultimately be acclaimed by an ever-growing number of both domestic and international consumers, regardless of how long the current consumer pattern will take hold."
+        },
+        {
+          "id": "nt-d",
+          "text": "All in all, this clearly seems to be a market in which big retailers could profitably apply their scale, existing infrastructure and proven skills in the management of product ranges, logistics, and marketing intelligence. Retailers that master the intricacies of wholesaling in Europe may well expect to rake in substantial profits thereby. At least, that is how it looks as a whole. Closer inspection reveals important differences among the biggest national markets, especially in their customer segments and wholesale structures, as well as the competitive dynamics of individual food and drink categories. Big retailers must understand these differences before they can identify the segments of European wholesaling in which their particular abilities might unseat smaller but entrenched competitors. New skills and unfamiliar business models are needed too."
+        },
+        {
+          "id": "nt-e",
+          "text": "Despite variations in detail, wholesale markets in the countries that have been closely examined—France, Germany, Italy, and Spain—are made out of the same building blocks. Demand comes mainly from two sources: independent mom-and-pop grocery stores which, unlike large retail chains, are too small to buy straight from producers, and food service operators that cater to consumers when they don't eat at home. Such food service operators range from snack machines to large institutional catering ventures, but most of these businesses are known in the trade as “horeca”: hotels, restaurants, and cafes. Overall, Europe's wholesale market for food and drink is growing at the same sluggish pace as the retail market, but the figures, when added together, mask two opposing trends."
+        },
+        {
+          "id": "nt-f",
+          "text": "For example, wholesale food and drink sales come to $268 billion in France, Germany, Italy, Spain, and the United Kingdom in 2000—more than 40 percent of retail sales. Moreover, average overall margins are higher in wholesale than in retail; wholesale demand from the food service sector is growing quickly as more Europeans eat out more often; and changes in the competitive dynamics of this fragmented industry are at last making it feasible for wholesalers to consolidate."
+        },
+        {
+          "id": "nt-g",
+          "text": "However, none of these requirements should deter large retailers (and even some large food producers and existing wholesalers) from trying their hand, for those that master the intricacies of wholesaling in Europe stand to reap considerable gains."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-g"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第44空"
+    },
+    {
+      "id": "nt-45",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 45 空：本空应填入的段落是",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "The first and more important is the consumer's growing preference for eating out; the consumption of food and drink in places other than homes has risen from about 32 percent of total consumption in 1995 to 35 percent in 2000 and is expected to approach 38 percent by 2005. This development is boosting wholesale demand from the food service segment by 4 to 5 percent a year across Europe, compared with growth in retail demand of 1 to 2 percent. Meanwhile, as the recession is looming large, people are getting anxious. They tend to keep a tighter hold on their purse and consider eating at home a realistic alternative."
+        },
+        {
+          "id": "nt-b",
+          "text": "Retail sales of food and drink in Europe's largest markets are at a standstill, leaving European grocery retailers hungry for opportunities to grow. Most leading retailers have already tried e-commerce, with limited success, and expansion abroad. But almost all have ignored the big, profitable opportunity in their own backyard: the wholesale food and drink trade, which appears to be just the kind of market retailers need."
+        },
+        {
+          "id": "nt-c",
+          "text": "Will such variations bring about a change in the overall structure of the food and drink market? Definitely not. The functioning of the market is based on flexible trends dominated by potential buyers. In other words, it is up to the buyer, rather than the seller, to decide what to buy. At any rate, this change will ultimately be acclaimed by an ever-growing number of both domestic and international consumers, regardless of how long the current consumer pattern will take hold."
+        },
+        {
+          "id": "nt-d",
+          "text": "All in all, this clearly seems to be a market in which big retailers could profitably apply their scale, existing infrastructure and proven skills in the management of product ranges, logistics, and marketing intelligence. Retailers that master the intricacies of wholesaling in Europe may well expect to rake in substantial profits thereby. At least, that is how it looks as a whole. Closer inspection reveals important differences among the biggest national markets, especially in their customer segments and wholesale structures, as well as the competitive dynamics of individual food and drink categories. Big retailers must understand these differences before they can identify the segments of European wholesaling in which their particular abilities might unseat smaller but entrenched competitors. New skills and unfamiliar business models are needed too."
+        },
+        {
+          "id": "nt-e",
+          "text": "Despite variations in detail, wholesale markets in the countries that have been closely examined—France, Germany, Italy, and Spain—are made out of the same building blocks. Demand comes mainly from two sources: independent mom-and-pop grocery stores which, unlike large retail chains, are too small to buy straight from producers, and food service operators that cater to consumers when they don't eat at home. Such food service operators range from snack machines to large institutional catering ventures, but most of these businesses are known in the trade as “horeca”: hotels, restaurants, and cafes. Overall, Europe's wholesale market for food and drink is growing at the same sluggish pace as the retail market, but the figures, when added together, mask two opposing trends."
+        },
+        {
+          "id": "nt-f",
+          "text": "For example, wholesale food and drink sales come to $268 billion in France, Germany, Italy, Spain, and the United Kingdom in 2000—more than 40 percent of retail sales. Moreover, average overall margins are higher in wholesale than in retail; wholesale demand from the food service sector is growing quickly as more Europeans eat out more often; and changes in the competitive dynamics of this fragmented industry are at last making it feasible for wholesalers to consolidate."
+        },
+        {
+          "id": "nt-g",
+          "text": "However, none of these requirements should deter large retailers (and even some large food producers and existing wholesalers) from trying their hand, for those that master the intricacies of wholesaling in Europe stand to reap considerable gains."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第45空"
+    },
+    {
+      "id": "tr-46",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Scientists jumped to the rescue with some distinctly shaky evidence to the effect that insects would eat us up if birds failed to control them.",
+      "answer_key": {
+        "reference_text": "科学家们立即拿出某些明显站不住脚的证据前来救驾，大致说的是如果鸟儿不能控制害虫的话，害虫就会把我们（的一切）吃掉。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第46句"
+    },
+    {
+      "id": "tr-47",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "but we have at least drawn nearer the point of admitting that birds should continue as a matter of intrinsic right, regardless of the presence or absence of economic advantage to us.",
+      "answer_key": {
+        "reference_text": "但是我们至少已经几乎承认了这样一种观点：不管鸟类对我们是否有经济利益，生存都是它们的固有权利。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第47句"
+    },
+    {
+      "id": "tr-48",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Time was when biologists somewhat overworded the evidence that these creatures preserve the health of game by killing the physically weak, or that they prey only on “worthless” species.",
+      "answer_key": {
+        "reference_text": "曾几何时，生物学家总是重述以下的这条证据：这些生物通过捕食弱小的动物去维持生物链的正常运行，或它们只是去捕食“没有价值的物种”。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第48句"
+    },
+    {
+      "id": "tr-49",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "In Europe, where forestry is ecologically more advanced, the non-commercial tree species are recognized as members of the native forest community, to be preserved as such, within reason.",
+      "answer_key": {
+        "reference_text": "欧洲的林业从生态上讲较为先进，它把没有成为商业化对象的树种视为原始森林群落的成员而适当地加以保护。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第49句"
+    },
+    {
+      "id": "tr-50",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "It tends to ignore, and thus eventually to eliminate, many elements in the land community that lack commercial value, but that are essential to its healthy functioning.",
+      "answer_key": {
+        "reference_text": "这一体系容易忽视并最终消灭陆地生物群落中很多缺乏商业价值的物种，然而这些物种对于整个生物群落的健康运行是至关重要的。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第50句"
+    },
+    {
+      "id": "writing-a",
+      "section": "Section III · 写作 Part A",
+      "type": "free_text",
+      "stem": "You are supposed to write for the postgraduate association a notice to recruit volunteers for an international conference on globalization, you should conclude the basic qualification of applicant and the other information you think relative.\nYou should write about 100 words. Do not sign your own name at the end of the letter. Use “postgraduate association” instead. (10 points)",
+      "answer_key": {
+        "reference_text": "Volunteers Wanted\n\nTo improve students' ability and enrich extracurricular activities, the Postgraduates' Association is recruiting volunteers for an international conference on globalization to be held in the coming winter vacation.\n\nThe basic qualifications for applicants are as follows. First, applicants should have a strong professional spirit and good communication skills. Second, those with fluent English and relevant experience of international conferences are preferred. Third, volunteers should be patient and ready to serve the delegates wholeheartedly.\n\nThose interested please contact the Postgraduates' Association before January 20, 2010. Your participation will be highly appreciated.\n\nPostgraduates' Association"
+      },
+      "max_score_units": 1000,
+      "source_ref": "Section III Writing Part A 51"
+    },
+    {
+      "id": "writing-b",
+      "section": "Section III · 写作 Part B",
+      "type": "free_text",
+      "stem": "Write an essay of 160-200 words based on the following drawing. In your essay, you should\n1) describe the drawing briefly,\n2) explain its intended meaning, and then\n3) give your comments.\nYou should write neatly on ANSWER SHEET 2. (20 points)\n画面文字描述：一个热气腾腾的火锅，里面包括“功夫”“儒”“道”“京剧”“老舍”“解构”“莎士比亚”等标志着中西文化的词，下方文字为“文化‘火锅’，既美味又营养”。",
+      "images": [
+        "images/2010/88c2a4c82b95cbf7c3bbbf205f098838b0c5d84b925bd4a8965d5fe5cb71b24a.jpg"
+      ],
+      "answer_key": {
+        "reference_text": "As is portrayed in the enlightening picture, a hot pot, with numerous ingredients in it, includes such domestic and alien cultures as literature, moral values and performing arts. It seems that the hot pot tastes very delicious because of the rich nutrition of the multi-cultures.\n\nObviously, the picture characterizes the present situation of Chinese society in which Chinese and Western culture conflict with each other but also merge into a unique form to a certain degree. Since China has opened its door widely to the outside world, many people from different countries have been deeply fascinated by Chinese culture. They will accept and love the Chinese culture as a whole. In addition, Chinese culture should be well shared with foreign people, who have shown their enthusiasm towards China. Meanwhile, the Chinese people are also exposed to foreign cultures when more foreign people come to this oriental country. In this way people from various nations in the world will be able to acquire better understanding of each other and live peacefully in this world.\n\nAs far as I am concerned, the culture of any nation is a kind of precious heritage, and belongs to the whole mankind. With economic globalization, the blending of different cultures has become inevitable trend of the time. No country is an isolated island, be it China or the western world. The clearer we grasp the current situation, the more it would be beneficial to the global villagers."
+      },
+      "max_score_units": 2000,
+      "source_ref": "Section III Writing Part B 52"
+    }
+  ]
+}

@@ -1,0 +1,947 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2004,
+    "paper": "英语统考卷",
+    "title": "2004年全国硕士研究生入学统一考试英语试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2004.md",
+    "source_images": "TestPaper/images/2004/",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T18:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "Text 1 原文开头在 2004.md 中缺失，已根据标准真题补全为 'After a slow start, the Internet is fast becoming a major force in the job market. Consider the case of lawyer David Redmon. He searched the Web for months for a job in intellectual property law.'；完形第9题选项 C 按标准答案应为 check，已修正；所有题目 explanation 从略，答案与解析详见官方解析 PDF。"
+  },
+  "set": {
+    "title": "2004年全国硕士研究生入学统一考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · 完形填空",
+      "part": "Section I",
+      "title": "英语知识运用（完形填空）",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 阅读理解 Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions below each text by choosing [A], [B], [C] or [D]. Mark your answers on ANSWER SHEET 1. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · 翻译 Part B",
+      "part": "Section II · Part B",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written clearly on ANSWER SHEET 2. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作",
+      "part": "Section III",
+      "title": "短文写作",
+      "directions": [
+        "Study the following drawing carefully and write an essay in which you should",
+        "1. describe the drawing,",
+        "2. interpret its meaning, and",
+        "3. support your view with examples.",
+        "You should write about 200 words neatly on ANSWER SHEET 2. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · 完形填空",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Many theories concerning the causes of juvenile delinquency (crimes committed by young people) focus either on the individual or on society as the major contributing influence. Theories __1__ on the individual suggest that children engage in criminal behavior __2__ they were not sufficiently penalized for previous misdeeds or that they have learned criminal behavior through __3__ with others. Theories focusing on the role of society suggest that children commit crimes in __4__ to their failure to rise above their socioeconomic status, __5__ as a rejection of middle-class values."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Most theories of juvenile delinquency have focused on children from disadvantaged families, __6__ the fact that children from wealthy homes also commit crimes. The latter may commit crimes __7__ lack of adequate parental control. All theories, however, are tentative and are __8__ to criticism."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Changes in the social structure may indirectly __9__ juvenile crime rates. For example, changes in the economy that __10__ to fewer job opportunities for youth and rising unemployment __11__ make gainful employment increasingly difficult to obtain. The resulting discontent may in __12__ lead more youths into criminal behavior."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Families have also __13__ changes these years. More families consist of one-parent households or two working parents; __14__, children are likely to have less supervision at home __15__ was common in the traditional family __16__. This lack of parental supervision is thought to be an influence on juvenile crime rates. Other __17__ causes of offensive acts include frustration or failure in school, the increased __18__ of drugs and alcohol, and the growing __19__ of child abuse and child neglect. All these conditions tend to increase the probability of a child committing a criminal act, __20__ a direct causal relationship has not yet been established."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "After a slow start, the Internet is fast becoming a major force in the job market. Consider the case of lawyer David Redmon. He searched the Web for months for a job in intellectual property law. He searched it with no success but was attracted by the site’s “personal search agent”. It’s an interactive feature that lets visitors key in job criteria such as location, title, and salary, then E-mails them when a matching position is posted in the database. Redmon chose the keywords legal, intellectual property and Washington, D.C. Three weeks later, he got his first notification of an opening. “I struck gold,” says Redmon, who E-mailed his resume to the employer and won a position as in-house counsel for a company."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "With thousands of career-related sites on the Internet, finding promising openings can be time-consuming and inefficient. Search agents reduce the need for repeated visits to the databases. But although a search agent worked for Redmon, career experts see drawbacks. Narrowing your criteria, for example, may work against you: “Every time you answer a question you eliminate a possibility,” says one expert."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "For any job search, you should start with a narrow concept—what you think you want to do—then broaden it. “None of these programs do that,” says another expert. “There’s no career counseling implicit in all of this.” Instead, the best strategy is to use the agent as a kind of tip service to keep abreast of jobs in a particular database; when you get E-mail, consider it a reminder to check the database again. “I would not rely on agents for finding everything that is added to a database that might interest me,” says the author of a job-searching guide."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Some sites design their agents to tempt job hunters to return. When CareerSite’s agent sends out messages to those who have signed up for its service, for example, it includes only three potential jobs—those it considers the best matches. There may be more matches in the database; job hunters will have to visit the site again to find them—and they do. “On the day after we send our messages, we see a sharp increase in our traffic,” says Seth Peets, vice president of marketing for CareerSite."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Even those who aren’t hunting for jobs may find search agents worthwhile. Some use them to keep a close watch on the demand for their line of work or gather information on compensation to arm themselves when negotiating for a raise. Although happily employed, Redmon maintains his agent at CareerBuilder. “You always keep your eyes open,” he says. Working with a personal search agent means having another set of eyes looking out for you."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Over the past century, all kinds of unfairness and discrimination have been condemned or made illegal. But one insidious form continues to thrive: alphabetism. This, for those as yet unaware of such a disadvantage, refers to discrimination against those whose surnames begin with a letter in the lower half of the alphabet."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "It has long been known that a taxi firm called AAAA cars has a big advantage over Zodiac cars when customers thumb through their phone directories. Less well known is the advantage that Adam Abbott has in life over Zoë Zysman. English names are fairly evenly spread between the halves of the alphabet. Yet a suspiciously large number of top people have surnames beginning with letters between A and K."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Thus the American president and vice-president have surnames starting with B and C respectively; and 26 of George Bush’s predecessors (including his father) had surnames in the first half of the alphabet against just 16 in the second half. Even more striking, six of the seven heads of government of the G7 rich countries are alphabetically advantaged (Berlusconi, Blair, Bush, Chirac, Chrétien and Koizumi). The world’s three top central bankers (Greenspan, Duisenberg and Hayami) are all close to the top of the alphabet, even if one of them really uses Japanese characters. As are the world’s five richest men (Gates, Buffett, Allen, Ellison and Albrecht)."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Can this merely be coincidence? One theory, dreamt up in all the spare time enjoyed by the alphabetically disadvantaged, is that the rot sets in early. At the start of the first year in infant school, teachers seat pupils alphabetically from the front, to make it easier to remember their names. So short-sighted Zysman junior gets stuck in the back row, and is rarely asked the improving questions posed by those insensitive teachers. At the time the alphabetically disadvantaged may think they have had a lucky escape. Yet the result may be worse qualifications, because they get less individual attention, as well as less confidence in speaking publicly."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "The humiliation continues. At university graduation ceremonies, the ABCs proudly get their awards first; by the time they reach the Zysmans most people are literally having a ZZZ. Shortlists for job interviews, election ballot papers, lists of conference speakers and attendees: all tend to be drawn up alphabetically, and their recipients lose interest as they plough through them."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "When it comes to the slowing economy, Ellen Spero isn’t biting her nails just yet. But the 47-year-old manicurist isn’t cutting, filing or polishing as many nails as she’d like to, either. Most of her clients spend $12 to $50 weekly, but last month two longtime customers suddenly stopped showing up. Spero blames the softening economy. “I’m a good economic indicator,” she says. “I provide a service that people can do without when they’re concerned about saving some dollars.” So Spero is downscaling, shopping at middle-brow Dillard’s department store near her suburban Cleveland home, instead of Neiman Marcus. “I don’t know if other clients are going to abandon me, too,” she says."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Even before Alan Greenspan’s admission that America’s red-hot economy is cooling, lots of working folks had already seen signs of the slowdown themselves. From car dealerships to Gap outlets, sales have been lagging for months as shoppers temper their spending. For retailers, who last year took in 24 percent of their revenue between Thanksgiving and Christmas, the cautious approach is coming at a crucial time. Already, experts say, holiday sales are off 7 percent from last year’s pace. But don’t sound any alarms just yet. Consumers seem only mildly concerned, not panicked, and many say they remain optimistic about the economy’s long-term prospects even as they do some modest belt-tightening."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Consumers say they’re not in despair because, despite the dreadful headlines, their own fortunes still feel pretty good. Home prices are holding steady in most regions. In Manhattan, “there’s a new gold rush happening in the $4 million to $10 million range, predominantly fed by Wall Street bonuses,” says broker Barbara Corcoran. In San Francisco, prices are still rising even as frenzied overbidding quiets. “Instead of 20 to 30 offers, now maybe you only get two or three,” says John Tealdi, a Bay Area real-estate broker. And most folks still feel pretty comfortable about their ability to find and keep a job."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Many folks see silver linings to this slowdown. Potential home buyers would cheer for lower interest rates. Employers wouldn’t mind a little fewer bubbles in the job market. Many consumers seem to have been influenced by stock-market swings, which investors now view as a necessary ingredient to a sustained boom. Diners might see an upside, too. Getting a table at Manhattan’s hot new Alain Ducasse restaurant used to be impossible. Not anymore. For that, Greenspan & Co. may still be worth toasting."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Americans today don’t place a very high value on intellect. Our heroes are athletes, entertainers, and entrepreneurs, not scholars. Even our schools are where we send our children to get a practical education—not to pursue knowledge for the sake of knowledge. Symptoms of pervasive anti-intellectualism in our schools aren’t difficult to find."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "“Schools have always been in a society where practical is more important than intellectual,” says education writer Diane Ravitch. “Schools could be a counterbalance.” Ravitch’s latest book, Left Back: A Century of Failed School Reforms, traces the roots of anti-intellectualism in our schools, concluding they are anything but a counterbalance to the American distaste for intellectual pursuits."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "But they could and should be. Encouraging kids to reject the life of the mind leaves them vulnerable to exploitation and control. Without the ability to think critically, to defend their ideas and understand the ideas of others, they cannot fully participate in our democracy. Continuing along this path, says writer Earl Shorris, “We will become a second-rate country. We will have a less civil society.”"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "“Intellect is resented as a form of power or privilege,” writes historian and professor Richard Hofstadter in Anti-intellectualism in American Life, a Pulitzer-Prize winning book on the roots of anti-intellectualism in US politics, religion, and education. From the beginning of our history, says Hofstadter, our democratic and populist urges have driven us to reject anything that smells of elitism. Practicality, common sense, and native intelligence have been considered more noble qualities than anything you could learn from a book."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Ralph Waldo Emerson and other Transcendentalist philosophers thought schooling and rigorous book learning put unnatural restraints on children: “We are shut up in schools and college recitation rooms for 10 or 15 years and come out at last with a bellyful of words and do not know a thing.” Mark Twain’s Huckleberry Finn exemplified American anti-intellectualism. Its hero avoids being civilized—going to school and learning to read—so he can preserve his innate goodness."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Intellect, according to Hofstadter, is different from native intelligence, a quality we reluctantly admire. Intellect is the critical, creative, and contemplative side of the mind. Intelligence seeks to grasp, manipulate, re-order, and adjust, while intellect examines, ponders, wonders, theorizes, criticizes, and imagines."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "School remains a place where intellect is mistrusted. Hofstadter says our country’s educational system is in the grips of people who “joyfully and militantly proclaim their hostility to intellect and their eagerness to identify with children who show the least intellectual promise.”"
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · 翻译 Part B 原文",
+      "section": "Section II · 翻译 Part B",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Human beings in all times and places think about their world and wonder at their place in it. Humans are thoughtful and creative, possessed of insatiable curiosity. 【41】Furthermore, humans have the ability to modify the environment in which they live, thus subjecting all other life forms to their own peculiar ideas and fancies. Therefore, it is important to study humans in all their richness and diversity in a calm and systematic manner, with the hope that the knowledge resulting from such studies can lead humans to a more harmonious way of living with themselves and with all other life forms on this planet Earth.\n“Anthropology” derives from the Greek words anthropos “human” and logos “the study of.” By its very name, anthropology encompasses the study of all humankind.\nAnthropology is one of the social sciences. 【42】Social science is that branch of intellectual enquiry which seeks to study humans and their endeavors in the same reasoned, orderly, systematic, and dispassioned manner that natural scientists use for the study of natural phenomena.\nSocial science disciplines include geography, economics, political science, psychology, and sociology. Each of these social sciences has a subfield or specialization which lies particularly close to anthropology.\nAll the social sciences focus upon the study of humanity. Anthropology is a field-study oriented discipline which makes extensive use of the comparative method in analysis. 【43】The emphasis on data gathered first-hand, combined with a cross-cultural perspective brought to the analysis of cultures past and present, makes this study a unique and distinctly important social science.\nAnthropological analyses rest heavily upon the concept of culture. Sir Edward Tylor’s formulation of the concept of culture was one of the great intellectual achievements of 19th century science. 【44】Tylor defined culture as “...that complex whole which includes belief, art, morals, law, custom, and any other capabilities and habits acquired by man as a member of society.” This insight, so profound in its simplicity, opened up an entirely new way of perceiving and understanding human life. Implicit within Tylor’s definition is the concept that culture is learned, shared, and patterned behavior.\n【45】Thus, the anthropological concept of “culture,” like the concept of “set” in mathematics, is an abstract concept which makes possible immense amounts of concrete research and understanding."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "acting" },
+        { "id": "c1-b", "text": "relying" },
+        { "id": "c1-c", "text": "centering" },
+        { "id": "c1-d", "text": "commenting" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-c"] },
+      "max_score_units": 50,
+      "source_ref": "第1空"
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "before" },
+        { "id": "c2-b", "text": "unless" },
+        { "id": "c2-c", "text": "until" },
+        { "id": "c2-d", "text": "because" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-d"] },
+      "max_score_units": 50,
+      "source_ref": "第2空"
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "interaction" },
+        { "id": "c3-b", "text": "assimilation" },
+        { "id": "c3-c", "text": "cooperation" },
+        { "id": "c3-d", "text": "consultation" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-a"] },
+      "max_score_units": 50,
+      "source_ref": "第3空"
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "return" },
+        { "id": "c4-b", "text": "reply" },
+        { "id": "c4-c", "text": "reference" },
+        { "id": "c4-d", "text": "response" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-d"] },
+      "max_score_units": 50,
+      "source_ref": "第4空"
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "or" },
+        { "id": "c5-b", "text": "but rather" },
+        { "id": "c5-c", "text": "but" },
+        { "id": "c5-d", "text": "or else" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-a"] },
+      "max_score_units": 50,
+      "source_ref": "第5空"
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "considering" },
+        { "id": "c6-b", "text": "ignoring" },
+        { "id": "c6-c", "text": "highlighting" },
+        { "id": "c6-d", "text": "discarding" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-b"] },
+      "max_score_units": 50,
+      "source_ref": "第6空"
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "on" },
+        { "id": "c7-b", "text": "in" },
+        { "id": "c7-c", "text": "for" },
+        { "id": "c7-d", "text": "with" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-c"] },
+      "max_score_units": 50,
+      "source_ref": "第7空"
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "immune" },
+        { "id": "c8-b", "text": "resistant" },
+        { "id": "c8-c", "text": "sensitive" },
+        { "id": "c8-d", "text": "subject" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-d"] },
+      "max_score_units": 50,
+      "source_ref": "第8空"
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "affect" },
+        { "id": "c9-b", "text": "reduce" },
+        { "id": "c9-c", "text": "check" },
+        { "id": "c9-d", "text": "reflect" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-a"] },
+      "max_score_units": 50,
+      "source_ref": "第9空"
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "point" },
+        { "id": "c10-b", "text": "lead" },
+        { "id": "c10-c", "text": "come" },
+        { "id": "c10-d", "text": "amount" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-b"] },
+      "max_score_units": 50,
+      "source_ref": "第10空"
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        { "id": "c11-a", "text": "in general" },
+        { "id": "c11-b", "text": "on average" },
+        { "id": "c11-c", "text": "by contrast" },
+        { "id": "c11-d", "text": "at length" }
+      ],
+      "answer_key": { "selected_option_ids": ["c11-a"] },
+      "max_score_units": 50,
+      "source_ref": "第11空"
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        { "id": "c12-a", "text": "case" },
+        { "id": "c12-b", "text": "short" },
+        { "id": "c12-c", "text": "turn" },
+        { "id": "c12-d", "text": "essence" }
+      ],
+      "answer_key": { "selected_option_ids": ["c12-c"] },
+      "max_score_units": 50,
+      "source_ref": "第12空"
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        { "id": "c13-a", "text": "survived" },
+        { "id": "c13-b", "text": "noticed" },
+        { "id": "c13-c", "text": "undertaken" },
+        { "id": "c13-d", "text": "experienced" }
+      ],
+      "answer_key": { "selected_option_ids": ["c13-d"] },
+      "max_score_units": 50,
+      "source_ref": "第13空"
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        { "id": "c14-a", "text": "contrarily" },
+        { "id": "c14-b", "text": "consequently" },
+        { "id": "c14-c", "text": "similarly" },
+        { "id": "c14-d", "text": "simultaneously" }
+      ],
+      "answer_key": { "selected_option_ids": ["c14-b"] },
+      "max_score_units": 50,
+      "source_ref": "第14空"
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        { "id": "c15-a", "text": "than" },
+        { "id": "c15-b", "text": "that" },
+        { "id": "c15-c", "text": "which" },
+        { "id": "c15-d", "text": "as" }
+      ],
+      "answer_key": { "selected_option_ids": ["c15-a"] },
+      "max_score_units": 50,
+      "source_ref": "第15空"
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        { "id": "c16-a", "text": "system" },
+        { "id": "c16-b", "text": "structure" },
+        { "id": "c16-c", "text": "concept" },
+        { "id": "c16-d", "text": "heritage" }
+      ],
+      "answer_key": { "selected_option_ids": ["c16-b"] },
+      "max_score_units": 50,
+      "source_ref": "第16空"
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        { "id": "c17-a", "text": "assessable" },
+        { "id": "c17-b", "text": "identifiable" },
+        { "id": "c17-c", "text": "negligible" },
+        { "id": "c17-d", "text": "incredible" }
+      ],
+      "answer_key": { "selected_option_ids": ["c17-b"] },
+      "max_score_units": 50,
+      "source_ref": "第17空"
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        { "id": "c18-a", "text": "expense" },
+        { "id": "c18-b", "text": "restriction" },
+        { "id": "c18-c", "text": "allocation" },
+        { "id": "c18-d", "text": "availability" }
+      ],
+      "answer_key": { "selected_option_ids": ["c18-d"] },
+      "max_score_units": 50,
+      "source_ref": "第18空"
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        { "id": "c19-a", "text": "incidence" },
+        { "id": "c19-b", "text": "awareness" },
+        { "id": "c19-c", "text": "exposure" },
+        { "id": "c19-d", "text": "popularity" }
+      ],
+      "answer_key": { "selected_option_ids": ["c19-a"] },
+      "max_score_units": 50,
+      "source_ref": "第19空"
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        { "id": "c20-a", "text": "provided" },
+        { "id": "c20-b", "text": "since" },
+        { "id": "c20-c", "text": "although" },
+        { "id": "c20-d", "text": "supposing" }
+      ],
+      "answer_key": { "selected_option_ids": ["c20-c"] },
+      "max_score_units": 50,
+      "source_ref": "第20空"
+    },
+    {
+      "id": "t1-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "How did Redmon find his job?",
+      "options": [
+        { "id": "t1-q1-a", "text": "By searching openings in a job database." },
+        { "id": "t1-q1-b", "text": "By posting a matching position in a database." },
+        { "id": "t1-q1-c", "text": "By using a special service of a database." },
+        { "id": "t1-q1-d", "text": "By E-mailing his resume to a database." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q1-c"] },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1段"
+    },
+    {
+      "id": "t1-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Which of the following can be a disadvantage of search agents?",
+      "options": [
+        { "id": "t1-q2-a", "text": "Lack of counseling." },
+        { "id": "t1-q2-b", "text": "Limited number of visits." },
+        { "id": "t1-q2-c", "text": "Lower efficiency." },
+        { "id": "t1-q2-d", "text": "Fewer successful matches." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q2-a"] },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第3段"
+    },
+    {
+      "id": "t1-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The expression “tip service” (Line 4, Paragraph 3) most probably means ______.",
+      "options": [
+        { "id": "t1-q3-a", "text": "advisory" },
+        { "id": "t1-q3-b", "text": "compensation" },
+        { "id": "t1-q3-c", "text": "interaction" },
+        { "id": "t1-q3-d", "text": "reminder" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q3-d"] },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第3段"
+    },
+    {
+      "id": "t1-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Why does CareerSite’s agent offer each job hunter only three job options?",
+      "options": [
+        { "id": "t1-q4-a", "text": "To focus on better job matches." },
+        { "id": "t1-q4-b", "text": "To attract more returning visits." },
+        { "id": "t1-q4-c", "text": "To reserve space for more messages." },
+        { "id": "t1-q4-d", "text": "To increase the rate of success." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q4-b"] },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第4段"
+    },
+    {
+      "id": "t1-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Which of the following is true according to the text?",
+      "options": [
+        { "id": "t1-q5-a", "text": "Personal search agents are indispensable to job-hunters." },
+        { "id": "t1-q5-b", "text": "Some sites keep E-mailing job seekers to trace their demands." },
+        { "id": "t1-q5-c", "text": "Personal search agents are also helpful to those already employed." },
+        { "id": "t1-q5-d", "text": "Some agents stop sending information to people once they are employed." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q5-c"] },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第5段"
+    },
+    {
+      "id": "t2-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "What does the author intend to illustrate with AAAA cars and Zodiac cars?",
+      "options": [
+        { "id": "t2-q1-a", "text": "A kind of overlooked inequality." },
+        { "id": "t2-q1-b", "text": "A type of conspicuous bias." },
+        { "id": "t2-q1-c", "text": "A type of personal prejudice." },
+        { "id": "t2-q1-d", "text": "A kind of brand discrimination." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q1-a"] },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第2段"
+    },
+    {
+      "id": "t2-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "What can we infer from the first three paragraphs?",
+      "options": [
+        { "id": "t2-q2-a", "text": "In both East and West, names are essential to success." },
+        { "id": "t2-q2-b", "text": "The alphabet is to blame for the failure of Zoë Zysman." },
+        { "id": "t2-q2-c", "text": "Customers often pay a lot of attention to companies’ names." },
+        { "id": "t2-q2-d", "text": "Some form of discrimination is too subtle to recognize." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q2-d"] },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第1-3段"
+    },
+    {
+      "id": "t2-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The 4th paragraph suggests that ______.",
+      "options": [
+        { "id": "t2-q3-a", "text": "questions are often put to the more intelligent students" },
+        { "id": "t2-q3-b", "text": "alphabetically disadvantaged students often escape from class" },
+        { "id": "t2-q3-c", "text": "teachers should pay attention to all of their students" },
+        { "id": "t2-q3-d", "text": "students should be seated according to their eyesight" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q3-c"] },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第4段"
+    },
+    {
+      "id": "t2-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "What does the author mean by “most people are literally having a ZZZ” (Lines 2-3, Paragraph 5)?",
+      "options": [
+        { "id": "t2-q4-a", "text": "They are getting impatient." },
+        { "id": "t2-q4-b", "text": "They are noisily dozing off." },
+        { "id": "t2-q4-c", "text": "They are feeling humiliated." },
+        { "id": "t2-q4-d", "text": "They are busy with word puzzles." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q4-b"] },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第5段"
+    },
+    {
+      "id": "t2-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Which of the following is true according to the text?",
+      "options": [
+        { "id": "t2-q5-a", "text": "People with surnames beginning with N to Z are often ill-treated." },
+        { "id": "t2-q5-b", "text": "VIPs in the Western world gain a great deal from alphabetism." },
+        { "id": "t2-q5-c", "text": "The campaign to eliminate alphabetism still has a long way to go." },
+        { "id": "t2-q5-d", "text": "Putting things alphabetically may lead to unintentional bias." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q5-d"] },
+      "max_score_units": 200,
+      "source_ref": "Text 2 全文"
+    },
+    {
+      "id": "t3-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "By “Ellen Spero isn’t biting her nails just yet” (Line 1, Paragraph 1), the author means ______.",
+      "options": [
+        { "id": "t3-q1-a", "text": "Spero can hardly maintain her business." },
+        { "id": "t3-q1-b", "text": "Spero is too much engaged in her work." },
+        { "id": "t3-q1-c", "text": "Spero has grown out of her bad habit." },
+        { "id": "t3-q1-d", "text": "Spero is not in a desperate situation." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q1-d"] },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第1段"
+    },
+    {
+      "id": "t3-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "How do the public feel about the current economic situation?",
+      "options": [
+        { "id": "t3-q2-a", "text": "Optimistic." },
+        { "id": "t3-q2-b", "text": "Confused." },
+        { "id": "t3-q2-c", "text": "Carefree." },
+        { "id": "t3-q2-d", "text": "Panicked." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q2-a"] },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第2段"
+    },
+    {
+      "id": "t3-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "When mentioning “the $4 million to $10 million range” (Lines 3, Paragraph 3), the author is talking about ______.",
+      "options": [
+        { "id": "t3-q3-a", "text": "gold market" },
+        { "id": "t3-q3-b", "text": "real estate" },
+        { "id": "t3-q3-c", "text": "stock exchange" },
+        { "id": "t3-q3-d", "text": "venture investment" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q3-b"] },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第3段"
+    },
+    {
+      "id": "t3-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Why can many people see “silver linings” to the economic slowdown?",
+      "options": [
+        { "id": "t3-q4-a", "text": "They would benefit in certain ways." },
+        { "id": "t3-q4-b", "text": "The stock market shows signs of recovery." },
+        { "id": "t3-q4-c", "text": "Such a slowdown usually precedes a boom." },
+        { "id": "t3-q4-d", "text": "The purchasing power would be enhanced." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q4-a"] },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第4段"
+    },
+    {
+      "id": "t3-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "To which of the following is the author likely to agree?",
+      "options": [
+        { "id": "t3-q5-a", "text": "A new boom, on the horizon." },
+        { "id": "t3-q5-b", "text": "Tighten the belt, the single remedy." },
+        { "id": "t3-q5-c", "text": "Caution all right, panic not." },
+        { "id": "t3-q5-d", "text": "The more ventures, the more chances." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q5-c"] },
+      "max_score_units": 200,
+      "source_ref": "Text 3 全文"
+    },
+    {
+      "id": "t4-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "What do American parents expect their children to acquire in school?",
+      "options": [
+        { "id": "t4-q1-a", "text": "The habit of thinking independently." },
+        { "id": "t4-q1-b", "text": "Profound knowledge of the world." },
+        { "id": "t4-q1-c", "text": "Practical abilities for future career." },
+        { "id": "t4-q1-d", "text": "The confidence in intellectual pursuits." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q1-c"] },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第1段"
+    },
+    {
+      "id": "t4-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "We can learn from the text that Americans have a history of ______.",
+      "options": [
+        { "id": "t4-q2-a", "text": "undervaluing intellect" },
+        { "id": "t4-q2-b", "text": "favoring intellectualism" },
+        { "id": "t4-q2-c", "text": "supporting school reform" },
+        { "id": "t4-q2-d", "text": "suppressing native intelligence" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q2-a"] },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第4段"
+    },
+    {
+      "id": "t4-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The views of Ravitch and Emerson on schooling are ______.",
+      "options": [
+        { "id": "t4-q3-a", "text": "identical" },
+        { "id": "t4-q3-b", "text": "similar" },
+        { "id": "t4-q3-c", "text": "complementary" },
+        { "id": "t4-q3-d", "text": "opposite" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q3-d"] },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第2、5段"
+    },
+    {
+      "id": "t4-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Emerson, according to the text, is probably ______.",
+      "options": [
+        { "id": "t4-q4-a", "text": "a pioneer of education reform" },
+        { "id": "t4-q4-b", "text": "an opponent of intellectualism" },
+        { "id": "t4-q4-c", "text": "a scholar in favor of intellect" },
+        { "id": "t4-q4-d", "text": "an advocate of regular schooling" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q4-b"] },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第5段"
+    },
+    {
+      "id": "t4-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "What does the author think of intellect?",
+      "options": [
+        { "id": "t4-q5-a", "text": "It is second to intelligence." },
+        { "id": "t4-q5-b", "text": "It evolves from common sense." },
+        { "id": "t4-q5-c", "text": "It is to be pursued." },
+        { "id": "t4-q5-d", "text": "It underlies power." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q5-c"] },
+      "max_score_units": 200,
+      "source_ref": "Text 4 全文"
+    },
+    {
+      "id": "tr-41",
+      "section": "Section II · 翻译 Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Furthermore, humans have the ability to modify the environment in which they live, thus subjecting all other life forms to their own peculiar ideas and fancies.",
+      "answer_key": {
+        "reference_text": "而且，人类还有能力改变自己的生存环境，从而让所有其他生命形态服从人类自己独特的想法和想象。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第41句"
+    },
+    {
+      "id": "tr-42",
+      "section": "Section II · 翻译 Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Social science is that branch of intellectual enquiry which seeks to study humans and their endeavors in the same reasoned, orderly, systematic, and dispassioned manner that natural scientists use for the study of natural phenomena.",
+      "answer_key": {
+        "reference_text": "社会科学是知识探索的一个分支，它力图像自然科学家研究自然现象那样，用理性的、有序的、系统的和冷静的方式去研究人类及其行为。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第42句"
+    },
+    {
+      "id": "tr-43",
+      "section": "Section II · 翻译 Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The emphasis on data gathered first-hand, combined with a cross-cultural perspective brought to the analysis of cultures past and present, makes this study a unique and distinctly important social science.",
+      "answer_key": {
+        "reference_text": "强调收集第一手资料，加上在分析过去和现在文化形态时采用跨文化视角，使得这一研究成为一门独特并且非常重要的社会科学。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第43句"
+    },
+    {
+      "id": "tr-44",
+      "section": "Section II · 翻译 Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Tylor defined culture as “...that complex whole which includes belief, art, morals, law, custom, and any other capabilities and habits acquired by man as a member of society.”",
+      "answer_key": {
+        "reference_text": "泰勒把文化定义为“……一个复合整体，它包括人作为社会成员获得的信仰、艺术、道德、法律、风俗以及其他能力和习惯。”"
+      },
+      "max_score_units": 200,
+      "source_ref": "第44句"
+    },
+    {
+      "id": "tr-45",
+      "section": "Section II · 翻译 Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Thus, the anthropological concept of “culture,” like the concept of “set” in mathematics, is an abstract concept which makes possible immense amounts of concrete research and understanding.",
+      "answer_key": {
+        "reference_text": "因此，人类学中的“文化”概念就像数学中“集”的概念一样，是一个抽象概念。它使大量的具体研究和认识成为可能。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第45句"
+    },
+    {
+      "id": "writing-46",
+      "section": "Section III · 写作",
+      "type": "free_text",
+      "stem": "Study the following drawing carefully and write an essay in which you should\n1. describe the drawing,\n2. interpret its meaning, and\n3. support your view with examples.\nYou should write about 200 words neatly on ANSWER SHEET 2. (20 points)\n画面文字描述：一个赛跑者正冲向终点线，但终点线前立着“起点”的牌子，寓意终点又是新的起点。",
+      "images": [
+        "images/2004/2f454cbd22f1ddb6a75c13449a33b7e3cc66ed8f95078c0997faaf72438d8a7b.jpg"
+      ],
+      "answer_key": {
+        "reference_text": "The Ending Point: a New Starting Line\n\nAs is shown in the picture, a runner is dashing to the finishing line, with smile and sweat on his face. When he is congratulating himself on finishing such a task, there are two huge Chinese characters, which read “Starting Point”, in front of the line.\n\nFrom the drawing we can easily define what the author of the drawing tries to reveal to us: a finishing line always leads to another starting point. This is true not only in a race, but also in one’s life. One track represents no more than one stage in the process of life, while the finishing line is merely the realization of one short-term goal. Therefore, this line rather marks the starting of another race than announces the finishing of one.\n\nThis drawing reminds me of a lot of stimulating stories. The most persuasive example is the discovery of radium by Madame Curie, which is regarded as the long-awaited final answer to the mystery of radiation. On the other hand, it triggers off the study of other radioactive elements and their applications, which starts a brand new chapter in physics. Another example that occurs to me is the safe return of Shenzhou V spaceship, which marks the triumphant end of the launch and at the same time, begins a new era for China’s space exploration. A third example is relevant to ourselves. Four years’ college life is now approaching an end and each of us is standing at a new starting point, either pursuing further study or starting a career. Only when we are well-prepared for this change, can we face the challenge in the future and be the winner of the next stage."
+      },
+      "max_score_units": 2000,
+      "source_ref": "Section III Writing 46"
+    }
+  ]
+}

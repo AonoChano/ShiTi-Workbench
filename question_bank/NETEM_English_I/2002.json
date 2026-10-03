@@ -1,0 +1,996 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2002,
+    "paper": "英语统考卷",
+    "title": "2002年全国攻读硕士学位研究生入学考试英语试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2002.md",
+    "source_images": "TestPaper/images/2002/",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "2002.md 翻译原文末尾截断，已按答案PDF补全；写作配图按原图路径引用；第39题标准答案为A。"
+  },
+  "set": {
+    "title": "2002年全国攻读硕士学位研究生入学考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · 完形填空",
+      "part": "Section I",
+      "title": "英语知识运用（完形填空）",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C OR D on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 阅读理解 Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions below each text by choosing [A], [B], [C] or [D]. Mark your answers on ANSWER SHEET 1. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · 翻译 Part B",
+      "part": "Section II · Part B",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written clearly on ANSWER SHEET 2. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作",
+      "part": "Section III",
+      "title": "短文写作",
+      "directions": [
+        "Study the following picture carefully and write an essay entitled “Cultures National and International”. In the essay you should",
+        "1. describe the picture and interpret its meaning, and",
+        "2. give your comment on the phenomenon.",
+        "You should write about 200 words neatly on ANSWER SHEET 2. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · 完形填空",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Comparisons were drawn between the development of television in the 20th century and the diffusion of printing in the 15th and 16th centuries. Yet much had happened __1__. As was discussed before, it was not __2__ the 19th century that the newspaper became the dominant pre-electronic __3__, following in the wake of the pamphlet and the book and in the __4__ of the periodical. It was during the same time that the communications revolution __5__ up, beginning with transport, the railway, and leading __6__ through the telegraph, the telephone, radio, and motion pictures __7__ the 20th century world of the motor car and the air plane. Not everyone sees that process in __8__. It is important to do so."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "It is generally recognized, __9__, that the introduction of the computer in the early 20th century, __10__ by the invention of the integrated circuit during the 1960s, radically changed the process, __11__ its impact on the media was not immediately __12__. As time went by, computers became smaller and more powerful, and they became “personal” too, as well as __13__, with display becoming sharper and storage __14__ increasing. They were thought of, like people, __15__ generations, with the distance between generations much __16__."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "It was within the computer age that the term “information society” began to be widely used to describe the __17__ within which we now live. The communications revolution has __18__ both work and leisure and how we think and feel both about place and time, but there have been __19__ view about its economic, political, social and cultural implications. “Benefits” have been weighed __20__ “harmful” outcomes. And generalizations have proved difficult."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "If you intend using humor in your talk to make people smile, you must know how to identify shared experiences and problems. Your humor must be relevant to the audience and should help to show them that you are one of them or that you understand their situation and are in sympathy with their point of view. Depending on whom you are addressing, the problems will be different. If you are talking to a group of managers, you may refer to the disorganized methods of their secretaries; alternatively if you are addressing secretaries, you may want to comment on their disorganized bosses."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Here is an example, which I heard at a nurses’ convention, of a story which works well because the audience all shared the same view of doctors. A man arrives in heaven and is being shown around by St. Peter. He sees wonderful accommodations, beautiful gardens, sunny weather, and so on. Everyone is very peaceful, polite and friendly until, waiting in a line for lunch, the new arrival is suddenly pushed aside by a man in a white coat, who rushes to the head of the line, grabs his food and stomps over to a table by himself. “Who is that?” the new arrival asked St. Peter. “Oh, that’s God,” came the reply, “but sometimes he thinks he’s a doctor.”"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "If you are part of the group which you are addressing, you will be in a position to know the experiences and problems which are common to all of you and it’ll be appropriate for you to make a passing remark about the inedible canteen food or the chairman’s notorious bad taste in ties. With other audiences you mustn’t attempt to cut in with humor as they will resent an outsider making disparaging remarks about their canteen or their chairman. You will be on safer ground if you stick to scapegoats like the Post Office or the telephone system."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "If you feel awkward being humorous, you must practice so that it becomes more natural. Include a few casual and apparently off-the-cuff remarks which you can deliver in a relaxed and unforced manner. Often it’s the delivery which causes the audience to smile, so speak slowly and remember that a raised eyebrow or an unbelieving look may help to show that you are making a light-hearted remark."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Look for the humor. It often comes from the unexpected. A twist on a familiar quote “If at first you don’t succeed, give up” or a play on words or on a situation. Search for exaggeration and understatement. Look at your talk and pick out a few words or sentences which you can turn about and inject with humor."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Since the dawn of human ingenuity, people have devised ever more cunning tools to cope with work that is dangerous, boring, burdensome, or just plain nasty. That compulsion has resulted in robotics—the science of conferring various human capabilities on machines. And if scientists have yet to create the mechanical version of science fiction, they have begun to come close."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "As a result, the modern world is increasingly populated by intelligent gizmos whose presence we barely notice but whose universal existence has removed much human labor. Our factories hum to the rhythm of robot assembly arms. Our banking is done at automated teller terminals that thank us with mechanical politeness for the transaction. Our subway trains are controlled by tireless robot-drivers. And thanks to the continual miniaturization of electronics and micro-mechanics, there are already robot systems that can perform some kinds of brain and bone surgery with submillimeter accuracy—far greater precision than highly skilled physicians can achieve with their hands alone."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "But if robots are to reach the next stage of laborsaving utility, they will have to operate with less human supervision and be able to make at least a few decisions for themselves—goals that pose a real challenge. “While we know how to tell a robot to handle a specific error,” says Dave Lavery, manager of a robotics program at NASA, “we can’t yet give a robot enough ‘common sense’ to reliably interact with a dynamic world.”"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Indeed the quest for true artificial intelligence has produced very mixed results. Despite a spell of initial optimism in the 1960s and 1970s when it appeared that transistor circuits and microprocessors might be able to copy the action of the human brain by the year 2010, researchers lately have begun to extend that forecast by decades if not centuries."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "What they found, in attempting to model thought, is that the human brain’s roughly one hundred billion nerve cells are much more talented—and human perception far more complicated—than previously imagined. They have built robots that can recognize the error of a machine panel by a fraction of a millimeter in a controlled factory environment. But the human mind can glimpse a rapidly changing scene and immediately disregard the 98 percent that is irrelevant, instantaneously focusing on the monkey at the side of a winding forest road or the single suspicious face in a big crowd. The most advanced computer systems on Earth can’t approach that kind of ability, and neuroscientists still don’t know quite how we do it."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Could the bad old days of economic decline be about to return? Since OPEC agreed to supply-cuts in March, the price of crude oil has jumped to almost $26 a barrel, up from less than $10 last December. This near-tripling of oil prices calls up scary memories of the 1973 oil shock, when prices quadrupled, and 1979-1980, when they also almost tripled. Both previous shocks resulted in double-digit inflation and global economic decline. So where are the headlines warning of gloom and doom this time?"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The oil price was given another push up this week when Iraq suspended oil exports. Strengthening economic growth, at the same time as winter grips the northern hemisphere, could push the price higher still in the short term."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Yet there are good reasons to expect the economic consequences now to be less severe than in the 1970s. In most countries the cost of crude oil now accounts for a smaller share of the price of petrol than it did in the 1970s. In Europe, taxes account for up to four-fifths of the retail price, so even quite big changes in the price of crude have a more muted effect on pump prices than in the past."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Rich economies are also less dependent on oil than they were, and so less sensitive to swings in the oil price. Energy conservation, a shift to other fuels and a decline in the importance of heavy, energy-intensive industries have reduced oil consumption. Software, consultancy and mobile telephones use far less oil than steel or car production. For each dollar of GDP (in constant prices) rich economies now use nearly 50% less oil than in 1973. The OECD estimates in its latest Economic Outlook that, if oil prices averaged $22 a barrel for a full year, compared with $13 in 1998, this would increase the oil import bill in rich economies by only 0.25-0.5% of GDP. That is less than one-quarter of the income loss in 1974 or 1980. On the other hand, oil-importing emerging economies—to which heavy industry has shifted—have become more energy-intensive, and so could be more seriously squeezed."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "One more reason not to lose sleep over the rise in oil prices is that, unlike the rises in the 1970s, it has not occurred against the background of general commodity-price inflation and global excess demand. A sizable portion of the world is only just emerging from economic decline. The Economist’s commodity price index is broadly unchanging from a year ago. In 1973 commodity prices jumped by 70%, and in 1979 by almost 30%."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The Supreme Court’s decisions on physician-assisted suicide carry important implications for how medicine seeks to relieve dying patients of pain and suffering."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Although it ruled that there is no constitutional right to physician-assisted suicide, the Court in effect supported the medical principle of “double effect”, a centuries-old moral principle holding that an action having two effects—a good one that is intended and a harmful one that is foreseen—is permissible if the actor intends only the good effect."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Doctors have used that principle in recent years to justify using high doses of morphine to control terminally ill patients’ pain, even though increasing dosages will eventually kill the patient."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Nancy Dubler, director of Montefiore Medical Center, contends that the principle will shield doctors who “until now have very, very strongly insisted that they could not give patients sufficient medication to control their pain if that might hasten death”."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "George Annas, chair of the health law department at Boston University, maintains that, as long as a doctor prescribes a drug for a legitimate medical purpose, the doctor has done nothing illegal even if the patient uses the drug to hasten death. “It’s like surgery,” he says. “We don’t call those deaths homicides because the doctors didn’t intend to kill their patients, although they risked their death. If you’re a physician, you can risk your patient’s suicide as long as you don’t intend their suicide.”"
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "On another level, many in the medical community acknowledge that the assisted-suicide debate has been fueled in part by the despair of patients for whom modern medicine has prolonged the physical agony of dying."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "Just three weeks before the Court’s ruling on physician-assisted suicide, the National Academy of Science (NAS) released a two-volume report, Approaching Death: Improving Care at the End of Life. It identifies the undertreatment of pain and the aggressive use of “ineffectual and forced medical procedures that may prolong and even dishonor the period of dying” as the twin problems of end-of-life care."
+        },
+        {
+          "id": "p8",
+          "type": "paragraph",
+          "text": "The profession is taking steps to require young doctors to train in hospices, to test knowledge of aggressive pain management therapies, to develop a Medicare billing code for hospital-based care, and to develop new standards for assessing and treating pain at the end of life."
+        },
+        {
+          "id": "p9",
+          "type": "paragraph",
+          "text": "Annas says lawyers can play a key role in insisting that these well-meaning medical initiatives translate into better care. “Large numbers of physicians seem unconcerned with the pain their patients are needlessly and predictably suffering”, to the extent that it constitutes “systematic patient abuse”. He says medical licensing boards “must make it clear... that painful deaths are presumptively ones that are incompetently managed and should result in license suspension”."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · 翻译 Part B 原文",
+      "section": "Section II · 翻译 Part B",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Almost all our major problems involve human behavior, and they cannot be solved by physical and biological technology alone. What is needed is a technology of behavior, but we have been slow to develop the science from which such a technology might be drawn. 【41】One difficulty is that almost all of what is called behavioral science continues to trace behavior to states of mind, feelings, traits of character, human nature, and so on. Physics and biology once followed similar practices and advanced only when they discarded them. 【42】The behavioral sciences have been slow to change partly because the explanatory items often seem to be directly observed and partly because other kinds of explanations have been hard to find. The environment is obviously important, but its role has remained obscure. It does not push or pull, it selects, and this function is difficult to discover and analyze. 【43】The role of natural selection in evolution was formulated only a little more than a hundred years ago, and the selective role of the environment in shaping and maintaining the behavior of the individual is only beginning to be recognized and studied. As the interaction between organism and environment has come to be understood, however, effects once assigned to states of mind, feelings, and traits are beginning to be traced to accessible conditions, and a technology of behavior may therefore become available. It will not solve our problems, however, until it replaces traditional prescientific views, and these are strongly entrenched. Freedom and dignity illustrate the difficulty. 【44】They are the possessions of the autonomous (self-governing) man of traditional theory, and they are essential to practices in which a person is held responsible for his conduct and given credit for his achievements. A scientific analysis shifts both the responsibility and the achievement to the environment. It also raises questions concerning “values”. Who will use a technology and to what ends? 【45】Until these issues are resolved, a technology of behavior will continue to be rejected, and with it possibly the only way to solve our problems."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "between" },
+        { "id": "c1-b", "text": "before" },
+        { "id": "c1-c", "text": "since" },
+        { "id": "c1-d", "text": "later" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-a"] },
+      "explanation": "与第一句中两个时间段相呼应，表示“在两者之间”。",
+      "max_score_units": 50,
+      "source_ref": "第1空"
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "after" },
+        { "id": "c2-b", "text": "by" },
+        { "id": "c2-c", "text": "during" },
+        { "id": "c2-d", "text": "until" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-d"] },
+      "explanation": "not until 强调句型：直到19世纪报纸才成为主要媒介。",
+      "max_score_units": 50,
+      "source_ref": "第2空"
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "means" },
+        { "id": "c3-b", "text": "method" },
+        { "id": "c3-c", "text": "medium" },
+        { "id": "c3-d", "text": "measure" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-c"] },
+      "explanation": "报纸、小册子、书籍都是传播媒介，选 medium。",
+      "max_score_units": 50,
+      "source_ref": "第3空"
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "process" },
+        { "id": "c4-b", "text": "company" },
+        { "id": "c4-c", "text": "light" },
+        { "id": "c4-d", "text": "form" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-b"] },
+      "explanation": "in the company of 表示“与……同时出现”。",
+      "max_score_units": 50,
+      "source_ref": "第4空"
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "gathered" },
+        { "id": "c5-b", "text": "speeded" },
+        { "id": "c5-c", "text": "worked" },
+        { "id": "c5-d", "text": "picked" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-b"] },
+      "explanation": "speed up 表示通信革命加速发展。",
+      "max_score_units": 50,
+      "source_ref": "第5空"
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "on" },
+        { "id": "c6-b", "text": "out" },
+        { "id": "c6-c", "text": "over" },
+        { "id": "c6-d", "text": "off" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-a"] },
+      "explanation": "lead on 表示继续向前发展。",
+      "max_score_units": 50,
+      "source_ref": "第6空"
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "of" },
+        { "id": "c7-b", "text": "for" },
+        { "id": "c7-c", "text": "beyond" },
+        { "id": "c7-d", "text": "into" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-d"] },
+      "explanation": "lead into 表示进入20世纪汽车和飞机时代。",
+      "max_score_units": 50,
+      "source_ref": "第7空"
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "concept" },
+        { "id": "c8-b", "text": "dimension" },
+        { "id": "c8-c", "text": "effect" },
+        { "id": "c8-d", "text": "perspective" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-d"] },
+      "explanation": "in perspective 表示正确地、如实地看待。",
+      "max_score_units": 50,
+      "source_ref": "第8空"
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "indeed" },
+        { "id": "c9-b", "text": "hence" },
+        { "id": "c9-c", "text": "however" },
+        { "id": "c9-d", "text": "therefore" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-c"] },
+      "explanation": "前后为转折关系，选 however。",
+      "max_score_units": 50,
+      "source_ref": "第9空"
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "brought" },
+        { "id": "c10-b", "text": "followed" },
+        { "id": "c10-c", "text": "stimulated" },
+        { "id": "c10-d", "text": "characterized" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-b"] },
+      "explanation": "计算机出现后，集成电路发明紧随其后，选 followed。",
+      "max_score_units": 50,
+      "source_ref": "第10空"
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        { "id": "c11-a", "text": "unless" },
+        { "id": "c11-b", "text": "since" },
+        { "id": "c11-c", "text": "lest" },
+        { "id": "c11-d", "text": "although" }
+      ],
+      "answer_key": { "selected_option_ids": ["c11-d"] },
+      "explanation": "前后为让步关系：虽然对媒体影响没有立即显现。",
+      "max_score_units": 50,
+      "source_ref": "第11空"
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        { "id": "c12-a", "text": "apparent" },
+        { "id": "c12-b", "text": "desirable" },
+        { "id": "c12-c", "text": "negative" },
+        { "id": "c12-d", "text": "plausible" }
+      ],
+      "answer_key": { "selected_option_ids": ["c12-a"] },
+      "explanation": "影响不是立即明显的，选 apparent。",
+      "max_score_units": 50,
+      "source_ref": "第12空"
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        { "id": "c13-a", "text": "institutional" },
+        { "id": "c13-b", "text": "universal" },
+        { "id": "c13-c", "text": "fundamental" },
+        { "id": "c13-d", "text": "instrumental" }
+      ],
+      "answer_key": { "selected_option_ids": ["c13-a"] },
+      "explanation": "与 personal 相对，表示不仅是个人工具，也是机构工具。",
+      "max_score_units": 50,
+      "source_ref": "第13空"
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        { "id": "c14-a", "text": "ability" },
+        { "id": "c14-b", "text": "capability" },
+        { "id": "c14-c", "text": "capacity" },
+        { "id": "c14-d", "text": "faculty" }
+      ],
+      "answer_key": { "selected_option_ids": ["c14-c"] },
+      "explanation": "storage capacity 为固定搭配，存储容量。",
+      "max_score_units": 50,
+      "source_ref": "第14空"
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        { "id": "c15-a", "text": "by means of" },
+        { "id": "c15-b", "text": "in terms of" },
+        { "id": "c15-c", "text": "with regard to" },
+        { "id": "c15-d", "text": "in line with" }
+      ],
+      "answer_key": { "selected_option_ids": ["c15-b"] },
+      "explanation": "in terms of generations 表示按“代”来划分。",
+      "max_score_units": 50,
+      "source_ref": "第15空"
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        { "id": "c16-a", "text": "deeper" },
+        { "id": "c16-b", "text": "fewer" },
+        { "id": "c16-c", "text": "nearer" },
+        { "id": "c16-d", "text": "smaller" }
+      ],
+      "answer_key": { "selected_option_ids": ["c16-d"] },
+      "explanation": "距离用 smaller 表示“更小”。",
+      "max_score_units": 50,
+      "source_ref": "第16空"
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        { "id": "c17-a", "text": "context" },
+        { "id": "c17-b", "text": "range" },
+        { "id": "c17-c", "text": "scope" },
+        { "id": "c17-d", "text": "territory" }
+      ],
+      "answer_key": { "selected_option_ids": ["c17-a"] },
+      "explanation": "information society 描述我们所生活的环境/背景，选 context。",
+      "max_score_units": 50,
+      "source_ref": "第17空"
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        { "id": "c18-a", "text": "regarded" },
+        { "id": "c18-b", "text": "impressed" },
+        { "id": "c18-c", "text": "influenced" },
+        { "id": "c18-d", "text": "effected" }
+      ],
+      "answer_key": { "selected_option_ids": ["c18-c"] },
+      "explanation": "通信革命影响了工作和休闲方式，选 influenced。",
+      "max_score_units": 50,
+      "source_ref": "第18空"
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        { "id": "c19-a", "text": "competitive" },
+        { "id": "c19-b", "text": "controversial" },
+        { "id": "c19-c", "text": "distracting" },
+        { "id": "c19-d", "text": "irrational" }
+      ],
+      "answer_key": { "selected_option_ids": ["c19-b"] },
+      "explanation": "关于影响存在争议，选 controversial。",
+      "max_score_units": 50,
+      "source_ref": "第19空"
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        { "id": "c20-a", "text": "above" },
+        { "id": "c20-b", "text": "upon" },
+        { "id": "c20-c", "text": "against" },
+        { "id": "c20-d", "text": "with" }
+      ],
+      "answer_key": { "selected_option_ids": ["c20-c"] },
+      "explanation": "weigh A against B 表示权衡利弊。",
+      "max_score_units": 50,
+      "source_ref": "第20空"
+    },
+    {
+      "id": "t1-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "To make your humor work, you should ______.",
+      "options": [
+        { "id": "t1-q1-a", "text": "take advantage of different kinds of audience" },
+        { "id": "t1-q1-b", "text": "make fun of the disorganized people" },
+        { "id": "t1-q1-c", "text": "address different problems to different people" },
+        { "id": "t1-q1-d", "text": "show sympathy for your listeners" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q1-c"] },
+      "explanation": "第一段指出针对不同听众谈不同问题。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1段"
+    },
+    {
+      "id": "t1-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The joke about doctors implies that, in the eyes of nurses, they are ______.",
+      "options": [
+        { "id": "t1-q2-a", "text": "impolite to new arrivals" },
+        { "id": "t1-q2-b", "text": "very conscious of their godlike role" },
+        { "id": "t1-q2-c", "text": "entitled to some privileges" },
+        { "id": "t1-q2-d", "text": "very busy even during lunch hours" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q2-b"] },
+      "explanation": "医生像上帝一样自视甚高。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第2段"
+    },
+    {
+      "id": "t1-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "It can be inferred from the text that public services ______.",
+      "options": [
+        { "id": "t1-q3-a", "text": "have benefited many people" },
+        { "id": "t1-q3-b", "text": "are the focus of public attention" },
+        { "id": "t1-q3-c", "text": "are an inappropriate subject for humor" },
+        { "id": "t1-q3-d", "text": "have often been the laughing stock" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q3-d"] },
+      "explanation": "邮局、电话系统等公共服务常被当作笑料。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第3段"
+    },
+    {
+      "id": "t1-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "To achieve the desired result, humorous stories should be delivered ______.",
+      "options": [
+        { "id": "t1-q4-a", "text": "in well-worded language" },
+        { "id": "t1-q4-b", "text": "as awkwardly as possible" },
+        { "id": "t1-q4-c", "text": "in exaggerated statements" },
+        { "id": "t1-q4-d", "text": "as casually as possible" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q4-d"] },
+      "explanation": "第四段强调自然、随意地讲述幽默。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第4段"
+    },
+    {
+      "id": "t1-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The best title for the text may be ______.",
+      "options": [
+        { "id": "t1-q5-a", "text": "Use Humor Effectively" },
+        { "id": "t1-q5-b", "text": "Various Kinds of Humor" },
+        { "id": "t1-q5-c", "text": "Add Humor to Speech" },
+        { "id": "t1-q5-d", "text": "Different Humor Strategies" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q5-a"] },
+      "explanation": "全文围绕如何有效使用幽默展开。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 全文"
+    },
+    {
+      "id": "t2-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Human ingenuity was initially demonstrated in ______.",
+      "options": [
+        { "id": "t2-q1-a", "text": "the use of machines to produce science fiction" },
+        { "id": "t2-q1-b", "text": "the wide use of machines in manufacturing industry" },
+        { "id": "t2-q1-c", "text": "the invention of tools for difficult and dangerous work" },
+        { "id": "t2-q1-d", "text": "the elite’s cunning tackling of dangerous and boring work" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q1-c"] },
+      "explanation": "首段指出人类发明工具处理危险、枯燥等工作。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第1段"
+    },
+    {
+      "id": "t2-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The word “gizmos” (Line 1, Paragraph 2) most probably means ______.",
+      "options": [
+        { "id": "t2-q2-a", "text": "programs" },
+        { "id": "t2-q2-b", "text": "experts" },
+        { "id": "t2-q2-c", "text": "devices" },
+        { "id": "t2-q2-d", "text": "creatures" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q2-c"] },
+      "explanation": "上下文列举机器人、自动柜员机等，指设备装置。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第2段"
+    },
+    {
+      "id": "t2-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "According to the text, what is beyond man’s ability now is to design a robot that can ______.",
+      "options": [
+        { "id": "t2-q3-a", "text": "fulfill delicate tasks like performing brain surgery" },
+        { "id": "t2-q3-b", "text": "interact with human beings verbally" },
+        { "id": "t2-q3-c", "text": "have a little common sense" },
+        { "id": "t2-q3-d", "text": "respond independently to a changing world" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q3-d"] },
+      "explanation": "机器人尚不能独立应对动态世界。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第3段"
+    },
+    {
+      "id": "t2-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Besides reducing human labor, robots can also ______.",
+      "options": [
+        { "id": "t2-q4-a", "text": "make a few decisions for themselves" },
+        { "id": "t2-q4-b", "text": "deal with some errors with human intervention" },
+        { "id": "t2-q4-c", "text": "improve factory environments" },
+        { "id": "t2-q4-d", "text": "cultivate human creativity" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q4-b"] },
+      "explanation": "机器人可在人工干预下处理某些错误。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第3段"
+    },
+    {
+      "id": "t2-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The author uses the example of a monkey to argue that robots are ______.",
+      "options": [
+        { "id": "t2-q5-a", "text": "expected to copy human brain in internal structure" },
+        { "id": "t2-q5-b", "text": "able to perceive abnormalities immediately" },
+        { "id": "t2-q5-c", "text": "far less able than human brain in focusing on relevant information" },
+        { "id": "t2-q5-d", "text": "best used in a controlled environment" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q5-c"] },
+      "explanation": "人脑能迅速聚焦相关信息，机器人远不能及。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第5段"
+    },
+    {
+      "id": "t3-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The main reason for the latest rise of oil price is ______.",
+      "options": [
+        { "id": "t3-q1-a", "text": "global inflation" },
+        { "id": "t3-q1-b", "text": "reduction in supply" },
+        { "id": "t3-q1-c", "text": "fast growth in economy" },
+        { "id": "t3-q1-d", "text": "Iraq’s suspension of exports" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q1-b"] },
+      "explanation": "OPEC 减产是最近油价上涨的主要原因。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第1段"
+    },
+    {
+      "id": "t3-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "It can be inferred from the text that the retail price of petrol will go up dramatically if ______.",
+      "options": [
+        { "id": "t3-q2-a", "text": "price of crude rises" },
+        { "id": "t3-q2-b", "text": "commodity prices rise" },
+        { "id": "t3-q2-c", "text": "consumption rises" },
+        { "id": "t3-q2-d", "text": "oil taxes rise" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q2-d"] },
+      "explanation": "欧洲汽油零售价中税收占大头，税收上涨影响最大。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第3段"
+    },
+    {
+      "id": "t3-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The estimates in Economic Outlook show that in rich countries ______.",
+      "options": [
+        { "id": "t3-q3-a", "text": "heavy industry becomes more energy-intensive" },
+        { "id": "t3-q3-b", "text": "income loss mainly results from fluctuating crude oil prices" },
+        { "id": "t3-q3-c", "text": "manufacturing industry has been seriously squeezed" },
+        { "id": "t3-q3-d", "text": "oil price changes have no significant impact on GDP" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q3-d"] },
+      "explanation": "油价变化对发达国家 GDP 影响很小。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第4段"
+    },
+    {
+      "id": "t3-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "We can draw a conclusion from the text that ______.",
+      "options": [
+        { "id": "t3-q4-a", "text": "oil-price shocks are less shocking now" },
+        { "id": "t3-q4-b", "text": "inflation seems irrelevant to oil-price shocks" },
+        { "id": "t3-q4-c", "text": "energy conservation can keep down the oil prices" },
+        { "id": "t3-q4-d", "text": "the price rise of crude leads to the shrinking of heavy industry" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q4-a"] },
+      "explanation": "全文说明此次油价冲击没有以前严重。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 全文"
+    },
+    {
+      "id": "t3-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "From the text we can see that the writer seems ______.",
+      "options": [
+        { "id": "t3-q5-a", "text": "optimistic" },
+        { "id": "t3-q5-b", "text": "sensitive" },
+        { "id": "t3-q5-c", "text": "gloomy" },
+        { "id": "t3-q5-d", "text": "scared" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q5-a"] },
+      "explanation": "作者认为此次油价上涨后果不严重，态度乐观。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 全文"
+    },
+    {
+      "id": "t4-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "From the first three paragraphs, we learn that ______.",
+      "options": [
+        { "id": "t4-q1-a", "text": "doctors used to increase drug dosages to control their patients’ pain" },
+        { "id": "t4-q1-b", "text": "it is still illegal for doctors to help the dying end their lives" },
+        { "id": "t4-q1-c", "text": "the Supreme Court strongly opposes physician-assisted suicide" },
+        { "id": "t4-q1-d", "text": "patients have no constitutional right to commit suicide" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q1-b"] },
+      "explanation": "法院裁定医生协助自杀无宪法权利，仍不合法。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第1-3段"
+    },
+    {
+      "id": "t4-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Which of the following statements is true according to the text?",
+      "options": [
+        { "id": "t4-q2-a", "text": "Doctors will be held guilty if they risk their patients’ death." },
+        { "id": "t4-q2-b", "text": "Modern medicine has assisted terminally ill patients in painless recovery." },
+        { "id": "t4-q2-c", "text": "The Court ruled that high-dosage pain-relieving medication can be prescribed." },
+        { "id": "t4-q2-d", "text": "A doctor’s medication is no longer justified by his intentions." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q2-c"] },
+      "explanation": "法院支持“双重效果”原则，高剂量止痛药可开。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第2-3段"
+    },
+    {
+      "id": "t4-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to the NAS’s report, one of the problems in end-of-life care is ______.",
+      "options": [
+        { "id": "t4-q3-a", "text": "prolonged medical procedures" },
+        { "id": "t4-q3-b", "text": "inadequate treatment of pain" },
+        { "id": "t4-q3-c", "text": "systematic drug abuse" },
+        { "id": "t4-q3-d", "text": "insufficient hospital care" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q3-b"] },
+      "explanation": "NAS 报告指出临终关怀问题之一是对疼痛治疗不足。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第7段"
+    },
+    {
+      "id": "t4-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Which of the following best defines the word “aggressive” (Line 4, Paragraph 7)?",
+      "options": [
+        { "id": "t4-q4-a", "text": "Bold." },
+        { "id": "t4-q4-b", "text": "Harmful." },
+        { "id": "t4-q4-c", "text": "Careless." },
+        { "id": "t4-q4-d", "text": "Desperate." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q4-a"] },
+      "explanation": "此处 aggressive 意为大胆的、冒进的，选 Bold。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第7段"
+    },
+    {
+      "id": "t4-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "George Annas would probably agree that doctors should be punished if they ______.",
+      "options": [
+        { "id": "t4-q5-a", "text": "manage their patients incompetently" },
+        { "id": "t4-q5-b", "text": "give patients more medicine than needed" },
+        { "id": "t4-q5-c", "text": "reduce drug dosages for their patients" },
+        { "id": "t4-q5-d", "text": "prolong the needless suffering of the patients" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q5-d"] },
+      "explanation": "Annas 认为让病人遭受不必要的痛苦应受处罚。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第9段"
+    },
+    {
+      "id": "tr-41",
+      "section": "Section II · 翻译 Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "One difficulty is that almost all of what is called behavioral science continues to trace behavior to states of mind, feelings, traits of character, human nature, and so on.",
+      "answer_key": {
+        "reference_text": "难题之一在于所谓的行为科学几乎全都依然从心态、情感、性格特征、人性等方面去寻找行为的根源。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第41句"
+    },
+    {
+      "id": "tr-42",
+      "section": "Section II · 翻译 Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The behavioral sciences have been slow to change partly because the explanatory items often seem to be directly observed and partly because other kinds of explanations have been hard to find.",
+      "answer_key": {
+        "reference_text": "行为科学之所以发展缓慢，部分原因是用来解释行为的依据似乎往往是直接观察到的，部分原因是其他的解释方式一直难以找到。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第42句"
+    },
+    {
+      "id": "tr-43",
+      "section": "Section II · 翻译 Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The role of natural selection in evolution was formulated only a little more than a hundred years ago, and the selective role of the environment in shaping and maintaining the behavior of the individual is only beginning to be recognized and studied.",
+      "answer_key": {
+        "reference_text": "自然选择在进化中的作用仅在一百多年前才得以阐明，而环境在塑造和保持个体行为时的选择作用则刚刚开始被认识和研究。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第43句"
+    },
+    {
+      "id": "tr-44",
+      "section": "Section II · 翻译 Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "They are the possessions of the autonomous (self-governing) man of traditional theory, and they are essential to practices in which a person is held responsible for his conduct and given credit for his achievements.",
+      "answer_key": {
+        "reference_text": "它们是传统理论定义的自主人拥有的，是要求一个人对自己的行为负责并因其业绩而给予肯定的必不可少的前提。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第44句"
+    },
+    {
+      "id": "tr-45",
+      "section": "Section II · 翻译 Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Until these issues are resolved, a technology of behavior will continue to be rejected, and with it possibly the only way to solve our problems.",
+      "answer_key": {
+        "reference_text": "（如果）这些问题得不到解决，研究行为的技术手段就会继续受到排斥，解决问题的惟一方式可能也随之继续受到排斥。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第45句"
+    },
+    {
+      "id": "writing-46",
+      "section": "Section III · 写作",
+      "type": "free_text",
+      "stem": "Study the following picture carefully and write an essay entitled “Cultures National and International”. In the essay you should\n1. describe the picture and interpret its meaning, and\n2. give your comment on the phenomenon.\nYou should write about 200 words neatly on ANSWER SHEET 2. (20 points)\n画面文字描述：一位美国女孩身穿传统中国服装，面带微笑。",
+      "images": [
+        "images/2002/32ff1975506314f1256d170153317511a86c59a52050bf69821b2c68f70d91da.jpg"
+      ],
+      "answer_key": {
+        "reference_text": "This unique picture shows an American girl in traditional Chinese costume. The jeweled headdress, beaded necklace and earrings with tassels, and silk attire with ribbons characterize the traditional costume of Chinese minority nationality girls. The costume adds oriental charm to her beauty. Her radiant smile is as much a tribute to Chinese culture as to the progress China has recently made. Like this American girl who shows a special interest in Chinese costumes, more and more foreigners have begun to understand and accept the Chinese culture.\n\nObviously, we can deduce from this picture that with the development of China, the increasing charm of Chinese tradition appeals to more and more foreigners who come to China. On the one hand, it highlights the glamour of our culture—now universally accepted as the invaluable treasure of all human beings. Attracted by the splendid Chinese culture, now many a foreigner floods into China to study or to work. On the other hand, it reflects our great achievements. When China was then engulfed in poverty, backwardness, corruption and foreign invasion, who cared about the culture associated with the pigtailed coolies? But during the last two decades one can hardly ignore the rapid progress of China. Three months after China won the right to host their first Olympics in 2008, China capped the most significant year in its sporting history when the national soccer team reached the World Cup finals for the first time. How can one resist being appealed to such an energetic country with a long and colorful culture!\n\nIt goes without saying that culture exchange does good to people in many ways. Firstly, it effectively reduces the misunderstanding between people from different cultures. Moreover, this kind exchange has mutual benefits to people from different cultures because it enables them to learn from each other. As a result, culture exchange has become more and more common in our life."
+      },
+      "max_score_units": 2000,
+      "source_ref": "Section III Writing 46"
+    }
+  ]
+}

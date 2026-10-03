@@ -1,0 +1,97 @@
+{
+  "set": { "title": "阅读专项 · Reading beyond the headline（原创演示）" },
+  "materials": [
+    {
+      "id": "mat-headline",
+      "title": "Reading beyond the headline",
+      "source_note": "原创演示材料，供拾题 M1 验收使用，非真实考题",
+      "blocks": [
+        { "id": "p1", "type": "paragraph", "text": "Online headlines can make a small study sound like a universal rule. Careful readers look beyond the headline and ask who took part in the research." },
+        { "id": "p2", "type": "paragraph", "text": "A result may describe one group – without explaining every community. More evidence can change an early conclusion." },
+        { "id": "p3", "type": "paragraph", "text": "Good reading is therefore not a hunt for certainty. It is a habit of matching each claim to the evidence that supports it." }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single_choice",
+      "material_id": "mat-headline",
+      "stem": "According to the first paragraph, careful readers mainly ______.",
+      "options": [
+        { "id": "q1-a", "text": "trust headlines written by researchers" },
+        { "id": "q1-b", "text": "ask who took part in the research" },
+        { "id": "q1-c", "text": "avoid reading online news" },
+        { "id": "q1-d", "text": "repeat every study they read" }
+      ],
+      "answer_key": { "selected_option_ids": ["q1-b"] },
+      "explanation": "P1 明确说 careful readers 会追问研究者是谁，B 为同义转述。",
+      "max_score_units": 200,
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "q2",
+      "type": "single_choice",
+      "material_id": "mat-headline",
+      "stem": "The phrase \"one group\" in Paragraph 2 suggests that a study result may ______.",
+      "options": [
+        { "id": "q2-a", "text": "cover every community" },
+        { "id": "q2-b", "text": "be completely wrong" },
+        { "id": "q2-c", "text": "fail to explain every community" },
+        { "id": "q2-d", "text": "need no further evidence" }
+      ],
+      "answer_key": { "selected_option_ids": ["q2-c"] },
+      "explanation": "P2 原文 \"without explaining every community\" 对应 C。",
+      "max_score_units": 200,
+      "tags": ["阅读理解", "词义题"]
+    },
+    {
+      "id": "q3",
+      "type": "single_choice",
+      "material_id": "mat-headline",
+      "stem": "What does the writer suggest about an early conclusion?",
+      "options": [
+        { "id": "q3-a", "text": "It always applies to every community." },
+        { "id": "q3-b", "text": "It may change when more evidence appears." },
+        { "id": "q3-c", "text": "It should replace the original research." },
+        { "id": "q3-d", "text": "It is useful only when it is certain." }
+      ],
+      "answer_key": { "selected_option_ids": ["q3-b"] },
+      "explanation": "P2 \"More evidence can change an early conclusion\" 对应 B。",
+      "max_score_units": 200,
+      "tags": ["阅读理解", "推断题"]
+    },
+    {
+      "id": "q4",
+      "type": "single_choice",
+      "material_id": "mat-headline",
+      "stem": "According to Paragraph 3, good reading is described as ______.",
+      "options": [
+        { "id": "q4-a", "text": "a hunt for certainty" },
+        { "id": "q4-b", "text": "a memory test" },
+        { "id": "q4-c", "text": "a speed competition" },
+        { "id": "q4-d", "text": "a habit of matching claims to evidence" }
+      ],
+      "answer_key": { "selected_option_ids": ["q4-d"] },
+      "explanation": "P3 \"a habit of matching each claim to the evidence\" 对应 D。",
+      "max_score_units": 200,
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "q5",
+      "type": "single_choice",
+      "material_id": "mat-headline",
+      "stem": "The passage is mainly written to ______.",
+      "options": [
+        { "id": "q5-a", "text": "encourage readers to check the evidence behind claims" },
+        { "id": "q5-b", "text": "warn readers against all online studies" },
+        { "id": "q5-c", "text": "praise reporters for their accuracy" },
+        { "id": "q5-d", "text": "explain how research is designed" }
+      ],
+      "answer_key": { "selected_option_ids": ["q5-a"] },
+      "explanation": "全文主旨：把每个论断与支持它的证据对应起来，A 正确。",
+      "max_score_units": 200,
+      "tags": ["阅读理解", "主旨题"]
+    }
+  ]
+}

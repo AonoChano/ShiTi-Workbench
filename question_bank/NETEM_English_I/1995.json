@@ -1,0 +1,835 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 1995,
+    "paper": "英语统考卷",
+    "title": "1995年全国硕士研究生入学统一考试英语试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/1995.md",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "1995年为旧题型：Section I 完形填空10题、Section II 阅读理解5篇20题、Part III 英译汉5句、Part IV 短文写作1题。原卷未逐题标注分值，按旧卷通行分值建模：完形填空每题1分（100 units）、阅读理解每题2分（200 units）、翻译每句3分（300 units）、写作15分（1500 units）。为控制篇幅，客观题未逐题填写 explanation，答案以 answer_key 为准。"
+  },
+  "set": {
+    "title": "1995年全国硕士研究生入学统一考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · Use of English",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "For each numbered blank in the following passage, there are four choices marked [A], [B], [C] and [D]. Choose the best one and put your choice in the ANSWER SHEET. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · Reading Comprehension",
+      "part": "Section II",
+      "title": "阅读理解",
+      "directions": [
+        "Each of the passages below is followed by some questions. For each question four answers are given. Read the passages carefully and choose the best answer to each of the questions. Put your choice in the ANSWER SHEET. (40 points)"
+      ]
+    },
+    {
+      "id": "Part III · English-Chinese Translation",
+      "part": "Part III",
+      "title": "英译汉",
+      "directions": [
+        "Read the following passage carefully and then translate the underlined sentences into Chinese. (15 points)"
+      ]
+    },
+    {
+      "id": "Part IV · Writing",
+      "part": "Part IV",
+      "title": "短文写作",
+      "directions": [
+        "A. Title: THE “PROJECT HOPE”",
+        "B. Time limit: 40 minutes",
+        "C. Word limit: 120 - 150 words (not including the given opening sentence)",
+        "D. Your composition should be based on the OUTLINE below and should start with the given opening sentence: “Education plays a very important role in the modernization of our country”.",
+        "E. Your composition must be written neatly on the ANSWER SHEET.",
+        "OUTLINE:",
+        "1. Present situation",
+        "2. Necessity of the project",
+        "3. My suggestion"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · Use of English",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Sleep is divided into periods of so-called REM sleep, characterized by rapid eye movements and dreaming, and longer periods of non-REM sleep. __1__ kind of sleep is at all well-understood, but REM sleep is __2__ to serve some restorative function of the brain. The purpose of non-REM sleep is even more __3__. The new experiments, such as these __4__ for the first time at a recent meeting of the Society for Sleep Research in Minneapolis, suggest fascinating explanations __5__ of non-REM sleep."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "For example, it has long been known that total sleep __6__ is 100 percent fatal to rats, yet, __7__ examinations of the dead bodies, the animals look completely normal. A researcher has now __8__ the mystery of why the animals die. The rats __9__ bacterial infections of the blood, __10__ their immune systems—the self-protecting mechanism against disease—had crashed."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Passage 1",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Money spent on advertising is money spent as well as any I know of. It serves directly to assist a rapid distribution of goods at reasonable price, thereby establishing a firm home market and so making it possible to provide for export at competitive prices. By drawing attention to new ideas it helps enormously to raise standards of living. By helping to increase demand it ensures an increased need for labor, and is therefore an effective way to fight unemployment. It lowers the costs of many services: without advertisements your daily newspaper would cost four times as much, the price of your television licence would need to be doubled, and travel by bus or tube would cost 20 per cent more."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "And perhaps most important of all, advertising provides a guarantee of reasonable value in the products and services you buy. Apart from the fact that twenty-seven Acts of Parliament govern the terms of advertising, no regular advertiser dare promote a product that fails to live up to the promise of his advertisements. He might fool some people for a little while through misleading advertising. He will not do so for long, for mercifully the public has the good sense not to buy the inferior article more than once. If you see an article consistently advertised, it is the surest proof I know that the article does what is claimed for it, and that it represents good value."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Advertising does more for the material benefit of the community than any other force I can think of."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "There is one more point I feel I ought to touch on. Recently I heard a well-known television personality declare that he was against advertising because it persuades rather than informs. He was drawing excessively fine distinctions. Of course advertising seeks to persuade."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "If its message were confined merely to information—and that in itself would be difficult if not impossible to achieve, for even a detail such as the choice of the colour of a shirt is subtly persuasive—advertising would be so boring that no one would pay any attention. But perhaps that is what the well-known television personality wants."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Passage 2",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "There are two basic ways to see growth: one as a product, the other as a process. People have generally viewed personal growth as an external result or product that can easily be identified and measured. The worker who gets a promotion, the student whose grades improve, the foreigner who learns a new language—all these are examples of people who have measurable results to show for their efforts."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "By contrast, the process of personal growth is much more difficult to determine, since by definition it is a journey and not the specific signposts or landmarks along the way. The process is not the road itself, but rather the attitudes and feelings people have, their caution or courage, as they encounter new experiences and unexpected obstacles. In this process, the journey never really ends; there are always new ways to experience the world, new ideas to try, new challenges to accept."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "In order to grow, to travel new roads, people need to have a willingness to take risks, to confront the unknown, and to accept the possibility that they may “fail” at first. How we see ourselves as we try a new way of being is essential to our ability to grow. Do we perceive ourselves as quick and curious? If so, then we tend to take more chances and to be more open to unfamiliar experiences. Do we think we’re shy and indecisive? Then our sense of timidity can cause us to hesitate, to move slowly, and not to take a step until we know the ground is safe. Do we think we’re slow to adapt to change or that we’re not smart enough to cope with a new challenge? Then we are likely to take a more passive role or not try at all."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "These feelings of insecurity and self-doubt are both unavoidable and necessary if we are to change and grow. If we do not confront and overcome these internal fears and doubts, if we protect ourselves too much, then we cease to grow. We become trapped inside a shell of our own making."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Passage 3",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In such a changing, complex society formerly simple solutions to informational needs become complicated. Many of life’s problems which were solved by asking family members, friends or colleagues are beyond the capability of the extended family to resolve. Where to turn for expert information and how to determine which expert advice to accept are questions facing many people today."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "In addition to this, there is the growing mobility of people since World War Ⅱ. As families move away from their stable community, their friends of many years, their extended family relationships, the informal flow of information is cut off, and with it the confidence that information will be available when needed and will be trustworthy and reliable. The almost unconscious flow of information about the simplest aspects of living can be cut off. Thus, things once learned subconsciously through the casual communications of the extended family must be consciously learned."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Adding to societal changes today is an enormous stockpile of information. The individual now has more information available than any generation, and the task of finding that one piece of information relevant to his or her specific problem is complicated, time-consuming and sometimes even overwhelming."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Coupled with the growing quantity of information is the development of technologies which enable the storage and delivery of more information with greater speed to more locations than has ever been possible before. Computer technology makes it possible to store vast amounts of data in machine-readable files, and to program computers to locate specific information. Telecommunications developments enable the sending of messages via television, radio, and very shortly, electronic mail to bombard people with multitudes of messages. Satellites have extended the power of communications to report events at the instant of occurrence. Expertise can be shared world wide through teleconferencing, and problems in dispute can be settled without the participants leaving their homes and/or jobs to travel to a distant conference site. Technology has facilitated the sharing of information and the storage and delivery of information, thus making more information available to more people."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "In this world of change and complexity, the need for information is of greatest importance. Those people who have accurate, reliable up-to-date information to solve the day-to-day problems, the critical problems of their business, social and family life, will survive and succeed. “Knowledge is power” may well be the truest saying and access to information may be the most critical requirement of all people."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Passage 4",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Personality is to a large extent inherent—A-type parents usually bring about A-type offspring. But the environment must also have a profound effect, since if competition is important to the parents, it is likely to become a major factor in the lives of their children."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "One place where children soak up A-characteristics is school, which is, by its very nature, a highly competitive institution. Too many schools adopt the ‘win at all costs’ moral standard and measure their success by sporting achievements. The current passion for making children compete against their classmates or against the clock produces a two-layer system, in which competitive A types seem in some way better than their B-type fellows. Being too keen to win can have dangerous consequences: remember that Pheidippides, the first marathon runner, dropped dead seconds after saying: “Rejoice, we conquer!”"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "By far the worst form of competition in schools is the disproportionate emphasis on examinations. It is a rare school that allows pupils to concentrate on those things they do well. The merits of competition by examination are somewhat questionable, but competition in the certain knowledge of failure is positively harmful."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Obviously, it is neither practical nor desirable that all A youngsters change into B’s. The world needs types, and schools have an important duty to try to fit a child’s personality to his possible future employment. It is top management."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "If the preoccupation of schools with academic work was lessened, more time might be spent teaching children surer values. Perhaps selection for the caring professions, especially medicine, could be made less by good grades in chemistry and more by such considerations as sensitivity and sympathy. It is surely a mistake to choose our doctors exclusively from A type stock. B’s are important and should be encouraged."
+        }
+      ]
+    },
+    {
+      "id": "reading-text5",
+      "title": "Passage 5",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "That experiences influence subsequent behaviour is evidence of an obvious but nevertheless remarkable activity called remembering. Learning could not occur without the function popularly named memory. Constant practice has such an effect on memory as to lead to skillful performance on the piano, to recitation of a poem, and even to reading and understanding these words. So-called intelligent behaviour demands memory, remembering being a primary requirement for reasoning. The ability to solve any problem or even to recognize that a problem exists depends on memory. Typically, the decision to cross a street is based on remembering many earlier experiences."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Practice (or review) tends to build and maintain memory for a task or for any learned material. Over a period of no practice what has been learned tends to be forgotten; and the adaptive consequences may not seem obvious. Yet, dramatic instances of sudden forgetting can seem to be adaptive. In this sense, the ability to forget can be interpreted to have survived through a process of natural selection in animals. Indeed, when one’s memory of an emotionally painful experience leads to serious anxiety, forgetting may produce relief. Nevertheless, an evolutionary interpretation might make it difficult to understand how the commonly gradual process of forgetting survived natural selection."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "In thinking about the evolution of memory together with all its possible aspects, it is helpful to consider what would happen if memories failed to fade. Forgetting clearly aids orientation in time, since old memories weaken and the new tend to stand out, providing clues for inferring duration. Without forgetting, adaptive ability would suffer; for example, learned behaviour that might have been correct a decade ago may no longer be. Cases are recorded of people who (by ordinary standards) forgot so little that their everyday activities were full of confusion. This forgetting seems to serve the survival of the individual and the species."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Another line of thought assumes a memory storage system of limited capacity that provides adaptive flexibility specifically through forgetting. In this view, continual adjustments are made between learning or memory storage (input) and forgetting (output). Indeed, there is evidence that the rate at which individuals forget is directly related to how much they have learned. Such data offers gross support of contemporary models of memory that assume an input-output balance."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Part III · 翻译原文",
+      "section": "Part III · English-Chinese Translation",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The standardized educational or psychological tests that are widely used to aid in selecting, classifying, assigning, or promoting students, employees, and military personnel have been the target of recent attacks in books, magazines, the daily press, and even in congress. 【31】The target is wrong, for in attacking the tests, critics divert attention from the fault that lies with ill-informed or incompetent users. The tests themselves are merely tools, with characteristics that can be measured with reasonable precision under specified conditions. Whether the results will be valuable, meaningless, or even misleading depends partly upon the tool itself but largely upon the user."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "All informed predictions of future performance are based upon some knowledge of relevant past performance: school grades, research productivity, sales records, or whatever is appropriate. 【32】How well the predictions will be validated by later performance depends upon the amount, reliability, and appropriateness of the information used and on the skill and wisdom with which it is interpreted. Anyone who keeps careful score knows that the information available is always incomplete and that the predictions are always subject to error."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Standardized tests should be considered in this context. They provide a quick, objective method of getting some kinds of information about what a person learned, the skills he has developed, or the kind of person he is. The information so obtained has, qualitatively, the same advantages and shortcomings as other kinds of information. 【33】Whether to use tests, other kinds of information, or both in a particular situation depends, therefore, upon the evidence from experience concerning comparative validity and upon such factors as cost and availability."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "【34】In general, the tests work most effectively when the qualities to be measured can be most precisely defined and least effectively when what is to be measured or predicted cannot be well defined. Properly used, they provide a rapid means of getting comparable information about many people. Sometimes they identify students whose high potential has not been previously recognized, but there are many things they do not do. 【35】For example, they do not compensate for gross social inequality, and thus do not tell how able an underprivileged youngster might have been had he grown up under more favorable circumstances."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "Either" },
+        { "id": "c1-b", "text": "Neither" },
+        { "id": "c1-c", "text": "Each" },
+        { "id": "c1-d", "text": "Any" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-b"] },
+      "max_score_units": 100,
+      "source_ref": "第1空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "intended" },
+        { "id": "c2-b", "text": "required" },
+        { "id": "c2-c", "text": "assumed" },
+        { "id": "c2-d", "text": "inferred" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-c"] },
+      "max_score_units": 100,
+      "source_ref": "第2空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "subtle" },
+        { "id": "c3-b", "text": "obvious" },
+        { "id": "c3-c", "text": "mysterious" },
+        { "id": "c3-d", "text": "doubtful" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-c"] },
+      "max_score_units": 100,
+      "source_ref": "第3空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "maintained" },
+        { "id": "c4-b", "text": "described" },
+        { "id": "c4-c", "text": "settled" },
+        { "id": "c4-d", "text": "afforded" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-b"] },
+      "max_score_units": 100,
+      "source_ref": "第4空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "in the light" },
+        { "id": "c5-b", "text": "by virtue" },
+        { "id": "c5-c", "text": "with the exception" },
+        { "id": "c5-d", "text": "for the purpose" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-d"] },
+      "max_score_units": 100,
+      "source_ref": "第5空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "reduction" },
+        { "id": "c6-b", "text": "destruction" },
+        { "id": "c6-c", "text": "deprivation" },
+        { "id": "c6-d", "text": "restriction" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-c"] },
+      "max_score_units": 100,
+      "source_ref": "第6空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "upon" },
+        { "id": "c7-b", "text": "by" },
+        { "id": "c7-c", "text": "through" },
+        { "id": "c7-d", "text": "with" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-a"] },
+      "max_score_units": 100,
+      "source_ref": "第7空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "paid attention to" },
+        { "id": "c8-b", "text": "caught sight of" },
+        { "id": "c8-c", "text": "laid emphasis on" },
+        { "id": "c8-d", "text": "cast light on" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-d"] },
+      "max_score_units": 100,
+      "source_ref": "第8空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "develop" },
+        { "id": "c9-b", "text": "produce" },
+        { "id": "c9-c", "text": "stimulate" },
+        { "id": "c9-d", "text": "induce" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-a"] },
+      "max_score_units": 100,
+      "source_ref": "第9空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "if" },
+        { "id": "c10-b", "text": "as if" },
+        { "id": "c10-c", "text": "only if" },
+        { "id": "c10-d", "text": "if only" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-b"] },
+      "max_score_units": 100,
+      "source_ref": "第10空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "t1-q11",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "By the first sentence of the passage the author means that ______.",
+      "options": [
+        { "id": "t1-q11-a", "text": "he is fairly familiar with the cost of advertising" },
+        { "id": "t1-q11-b", "text": "everybody knows well that advertising is money consuming" },
+        { "id": "t1-q11-c", "text": "advertising costs money like everything else" },
+        { "id": "t1-q11-d", "text": "it is worthwhile to spend money on advertising" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q11-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第1句",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q12",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "In the passage, which of the following is NOT included in the advantages of advertising?",
+      "options": [
+        { "id": "t1-q12-a", "text": "Securing greater fame." },
+        { "id": "t1-q12-b", "text": "Providing more jobs." },
+        { "id": "t1-q12-c", "text": "Enhancing living standards." },
+        { "id": "t1-q12-d", "text": "Reducing newspaper cost." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q12-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q13",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The author deems that the well-known TV personality is ______.",
+      "options": [
+        { "id": "t1-q13-a", "text": "very precise in passing his judgment on advertising" },
+        { "id": "t1-q13-b", "text": "interested in nothing but the buyers’ attention" },
+        { "id": "t1-q13-c", "text": "correct in telling the difference between persuasion and information" },
+        { "id": "t1-q13-d", "text": "obviously partial in his views on advertising" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q13-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q14",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "In the author’s opinion, ______.",
+      "options": [
+        { "id": "t1-q14-a", "text": "advertising can seldom bring material benefit to man by providing information" },
+        { "id": "t1-q14-b", "text": "advertising informs people of new ideas rather than wins them over" },
+        { "id": "t1-q14-c", "text": "there is nothing wrong with advertising in persuading the buyer" },
+        { "id": "t1-q14-d", "text": "the buyer is not interested in getting information from an advertisement" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q14-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 全文",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q15",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "A person is generally believed to achieve personal growth when ______.",
+      "options": [
+        { "id": "t2-q15-a", "text": "he has given up his smoking habit" },
+        { "id": "t2-q15-b", "text": "he has made great efforts in his work" },
+        { "id": "t2-q15-c", "text": "he is keen on learning anything new" },
+        { "id": "t2-q15-d", "text": "he has tried to determine where he is on his journey" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q15-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q16",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "In the author’s eyes, one who views personal growth as a process would ______.",
+      "options": [
+        { "id": "t2-q16-a", "text": "succeed in climbing up the social ladder" },
+        { "id": "t2-q16-b", "text": "judge his ability to grow from his own achievements" },
+        { "id": "t2-q16-c", "text": "face difficulties and take up challenges" },
+        { "id": "t2-q16-d", "text": "aim high and reach his goal each time" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q16-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q17",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "When the author says “a new way of being” (line 3, Para. 3) he is referring to ______.",
+      "options": [
+        { "id": "t2-q17-a", "text": "a new approach to experiencing the world" },
+        { "id": "t2-q17-b", "text": "a new way of taking risks" },
+        { "id": "t2-q17-c", "text": "a new method of perceiving ourselves" },
+        { "id": "t2-q17-d", "text": "a new system of adaptation to change" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q17-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q18",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "For personal growth, the author advocates all of the following except ______.",
+      "options": [
+        { "id": "t2-q18-a", "text": "curiosity about more chances" },
+        { "id": "t2-q18-b", "text": "promptness in self-adaptation" },
+        { "id": "t2-q18-c", "text": "open-mindedness to new experiences" },
+        { "id": "t2-q18-d", "text": "avoidance of internal fears and doubts" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q18-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第3、4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q19",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The word “it” (line 3, Para. 2) most probably refers to ______.",
+      "options": [
+        { "id": "t3-q19-a", "text": "the lack of stable communities" },
+        { "id": "t3-q19-b", "text": "the breakdown of informal information channels" },
+        { "id": "t3-q19-c", "text": "the increased mobility of families" },
+        { "id": "t3-q19-d", "text": "the growing number of people moving from place to place" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q19-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q20",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The main problem people may encounter today arises from the fact that ______.",
+      "options": [
+        { "id": "t3-q20-a", "text": "they have to learn new things consciously" },
+        { "id": "t3-q20-b", "text": "they lack the confidence of securing reliable and trustworthy information" },
+        { "id": "t3-q20-c", "text": "they have difficulty obtaining the needed information readily" },
+        { "id": "t3-q20-d", "text": "they can hardly carry out casual communications with an extended family." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q20-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第1-3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q21",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "From the passage we can infer that ______.",
+      "options": [
+        { "id": "t3-q21-a", "text": "electronic mail will soon play a dominant role in transmitting messages" },
+        { "id": "t3-q21-b", "text": "it will become more difficult for people to keep secrets in an information era" },
+        { "id": "t3-q21-c", "text": "people will spend less time holding meetings or conferences" },
+        { "id": "t3-q21-d", "text": "events will be reported on the spot mainly through satellites" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q21-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q22",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "We can learn from the last paragraph that ______.",
+      "options": [
+        { "id": "t3-q22-a", "text": "it is necessary to obtain as much knowledge as possible" },
+        { "id": "t3-q22-b", "text": "people should make the best use of the information" },
+        { "id": "t3-q22-c", "text": "we should realize the importance of accumulating information" },
+        { "id": "t3-q22-d", "text": "it is of vital importance to acquire needed information efficiently" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q22-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第5段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q23",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to the passage, A-type individuals are usually ______.",
+      "options": [
+        { "id": "t4-q23-a", "text": "impatient" },
+        { "id": "t4-q23-b", "text": "considerate" },
+        { "id": "t4-q23-c", "text": "aggressive" },
+        { "id": "t4-q23-d", "text": "agreeable" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q23-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 4 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q24",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The author is strongly opposed to the practice of examinations at schools because ______.",
+      "options": [
+        { "id": "t4-q24-a", "text": "the pressure is too great on the students" },
+        { "id": "t4-q24-b", "text": "some students are bound to fail" },
+        { "id": "t4-q24-c", "text": "failure rates are too high" },
+        { "id": "t4-q24-d", "text": "the results of examinations are doubtful" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q24-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 4 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q25",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The selection of medical professionals are currently based on ______.",
+      "options": [
+        { "id": "t4-q25-a", "text": "candidates’ sensitivity" },
+        { "id": "t4-q25-b", "text": "academic achievements" },
+        { "id": "t4-q25-c", "text": "competitive spirit" },
+        { "id": "t4-q25-d", "text": "surer values" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q25-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 4 第5段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q26",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "From the passage we can draw the conclusion that ______.",
+      "options": [
+        { "id": "t4-q26-a", "text": "the personality of a child is well established at birth" },
+        { "id": "t4-q26-b", "text": "family influence dominates the shaping of one’s characteristics" },
+        { "id": "t4-q26-c", "text": "the development of one’s personality is due to multiple factors" },
+        { "id": "t4-q26-d", "text": "B-type characteristics can find no place in competitive society" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q26-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 4 全文",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t5-q27",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "From the evolutionary point of view, ______.",
+      "options": [
+        { "id": "t5-q27-a", "text": "forgetting for lack of practice tends to be obviously inadaptive" },
+        { "id": "t5-q27-b", "text": "if a person gets very forgetful all of a sudden he must be very adaptive" },
+        { "id": "t5-q27-c", "text": "the gradual process of forgetting is an indication of an individual’s adaptability" },
+        { "id": "t5-q27-d", "text": "sudden forgetting may bring about adaptive consequences" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q27-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 5 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q28",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "According to the passage, if a person never forgot ______.",
+      "options": [
+        { "id": "t5-q28-a", "text": "he would survive best" },
+        { "id": "t5-q28-b", "text": "he would have a lot of trouble" },
+        { "id": "t5-q28-c", "text": "his ability to learn would be enhanced" },
+        { "id": "t5-q28-d", "text": "the evolution of memory would stop" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q28-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 5 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q29",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "From the last paragraph we know that ______.",
+      "options": [
+        { "id": "t5-q29-a", "text": "forgetfulness is a response to learning" },
+        { "id": "t5-q29-b", "text": "the memory storage system is an exactly balanced input-output system" },
+        { "id": "t5-q29-c", "text": "memory is a compensation for forgetting" },
+        { "id": "t5-q29-d", "text": "the capacity of a memory storage system is limited because forgetting occurs" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q29-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 5 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q30",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "In this article, the author tries to interpret the function of ______.",
+      "options": [
+        { "id": "t5-q30-a", "text": "remembering" },
+        { "id": "t5-q30-b", "text": "forgetting" },
+        { "id": "t5-q30-c", "text": "adapting" },
+        { "id": "t5-q30-d", "text": "experiencing" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q30-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 5 全文",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "tr-31",
+      "section": "Part III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The target is wrong, for in attacking the tests, critics divert attention from the fault that lies with ill-informed or incompetent users.",
+      "answer_key": { "reference_text": "把标准化测试作为抨击目标是错误的，因为在抨击这类测试时，批评者未考虑其弊病是来自人们对测试不甚了解或使用不当。" },
+      "max_score_units": 300,
+      "source_ref": "第31句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-32",
+      "section": "Part III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "How well the predictions will be validated by later performance depends upon the amount, reliability, and appropriateness of the information used and on the skill and wisdom with which it is interpreted.",
+      "answer_key": { "reference_text": "这些预测在多大程度上被后来的表现证实，这取决于被采用信息的数量、可靠性和适宜性以及解释这些信息的技能和才智。" },
+      "max_score_units": 300,
+      "source_ref": "第32句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-33",
+      "section": "Part III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Whether to use tests, other kinds of information, or both in a particular situation depends, therefore, upon the evidence from experience concerning comparative validity and upon such factors as cost and availability.",
+      "answer_key": { "reference_text": "因此，究竟是采用测试还是其他种类的信息，或是在某一特定情况下两者同时使用，须凭有关相对效度的经验依据而定，也取决于诸如费用和现有条件等因素。" },
+      "max_score_units": 300,
+      "source_ref": "第33句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-34",
+      "section": "Part III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "In general, the tests work most effectively when the qualities to be measured can be most precisely defined and least effectively when what is to be measured or predicted cannot be well defined.",
+      "answer_key": { "reference_text": "一般来说，当被测定的特征能够被很准确地界定时，测试最为有效；而当被测定或被预测的东西不能够被明确地界定时，测试的效果则最差。" },
+      "max_score_units": 300,
+      "source_ref": "第34句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-35",
+      "section": "Part III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "For example, they do not compensate for gross social inequality, and thus do not tell how able an underprivileged youngster might have been had he grown up under more favorable circumstances.",
+      "answer_key": { "reference_text": "例如，测试并不弥补明显的社会不公；因此，它们不能说明一个物质条件差的年轻人，如果在较好的环境下成长，会有多大才干。" },
+      "max_score_units": 300,
+      "source_ref": "第35句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "writing",
+      "section": "Part IV · Writing",
+      "type": "free_text",
+      "stem": "A. Title: THE “PROJECT HOPE”\nB. Time limit: 40 minutes\nC. Word limit: 120 - 150 words (not including the given opening sentence)\nD. Your composition should be based on the OUTLINE below and should start with the given opening sentence: “Education plays a very important role in the modernization of our country”.\nE. Your composition must be written neatly on the ANSWER SHEET.\nOUTLINE:\n1. Present situation\n2. Necessity of the project\n3. My suggestion",
+      "answer_key": {
+        "reference_text": "Education plays a very important role in the modernization of our country. China cannot achieve its planned economic growth and catch up with those developed nations without a well-educated population. However, more than 37 million primary and secondary school students in the poverty-stricken areas of the countryside are obliged to quit school. Many of them are joining the ranks of new illiterates. Thus, a financial plan called Project Hope is carried on to rescue those children from a life of illiteracy and ignorance.\n\nThe project, which brings the hope for children and promises a bright future for China, is quite necessary. As we know, being deprived of education will not only result in exhaustion of human resources in those poverty-stricken areas, but also hold back the economic development of the whole country. Developing education to arm youngsters with knowledge is an urgent task and a responsibility of the entire society. But it is impossible for the Chinese government to afford such a sum of money for hundreds of thousands of school dropouts. So a nation-wide drive, Project Hope, is the best solution.\n\nAs Project Hope aims to raise funds from all walks of life, we should finance the project with money. Moreover, it is a noble cause and deserves our support. I hope everyone can do what he or she can to help the poor children to go back to school."
+      },
+      "max_score_units": 1500,
+      "source_ref": "Part IV Writing",
+      "tags": ["写作"]
+    }
+  ]
+}

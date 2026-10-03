@@ -1,0 +1,1911 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2012,
+    "paper": "英语一",
+    "title": "2012年全国硕士研究生招生考试英语（一）试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2012.md",
+    "source_images": "TestPaper/images/2012/",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T23:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "完形填空第1题题干选项原文缺失，已根据答案PDF补全；新题型为7选5，同一组选项在每空重复给出；写作Part A为电子邮件，Part B配图引用原图路径。"
+  },
+  "set": {
+    "title": "2012年全国硕士研究生招生考试英语（一）试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · 完形填空",
+      "part": "Section I",
+      "title": "英语知识运用（完形填空）",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 阅读理解 Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions below each text by choosing A, B, C or D. Mark your answers on ANSWER SHEET 1. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · 新题型 Part B",
+      "part": "Section II · Part B",
+      "title": "新题型（7选5）",
+      "directions": [
+        "In the following text, some sentences have been removed. For Questions 41-45, choose the most suitable one from the list A-G to fit into each of the numbered blanks. There are two extra choices, which do not fit in any of the blanks. Mark your answers on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 翻译 Part C",
+      "part": "Section II · Part C",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written clearly on ANSWER SHEET 2. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part A",
+      "part": "Section III · Part A",
+      "title": "应用文写作",
+      "directions": [
+        "Some international students are coming to your university. Write them an email in the name of the Students' Union to",
+        "1) extend your welcome and",
+        "2) provide some suggestions for their campus life here.",
+        "You should write about 100 words on ANSWER SHEET 2.",
+        "Do not sign your own name at the end of the letter. Use “Li Ming” instead.",
+        "Do not write the address. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part B",
+      "part": "Section III · Part B",
+      "title": "短文写作",
+      "directions": [
+        "Write an essay of 160-200 words based on the following drawing. In your essay, you should",
+        "1) describe the drawing briefly,",
+        "2) explain its intended meaning, and",
+        "3) give your comments.",
+        "You should write neatly on ANSWER SHEET 2. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · 完形填空",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The ethical judgments of the Supreme Court justices have become an important issue recently. The court cannot __1__ its legitimacy as guardian of the rule of law __2__ justices behave like politicians. Yet, in several instances, justices acted in ways that __3__ the court's reputation for being independent and impartial."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Justice Antonin Scalia, for example, appeared at political events. That kind of activity makes it less likely that the court's decisions will be __4__ as impartial judgments. Part of the problem is that the justices are not __5__ by an ethics code. At the very least, the court should make itself __6__ to the code of conduct that __7__ to the rest of the federal judiciary."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "This and other similar cases __8__ the question of whether there is still a __9__ between the court and politics."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The framers of the Constitution envisioned law __10__ having authority apart from politics. They gave justices permanent positions __11__ they would be free to __12__ those in power and have no need to __13__ political support. Our legal system was designed to set law apart from politics precisely because they are so closely __14__."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Constitutional law is political because it results from choices rooted in fundamental social __15__ like liberty and property. When the court deals with social policy decisions, the law it __16__ is inescapably political—which is why decisions split along ideological lines are so easily __17__ as unjust."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "The justices must __18__ doubts about the court's legitimacy by making themselves __19__ to the code of conduct. That would make their rulings more likely to be seen as separate from politics and, __20__, convincing as law."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Come on — Everybody's doing it. That whispered message, half invitation and half forcing, is what most of us think of when we hear the words peer pressure. It usually leads to no good — drinking, drugs and casual sex. But in her new book Join the Club, Tina Rosenberg contends that peer pressure can also be a positive force through what she calls the social cure, in which organizations and officials use the power of group dynamics to help individuals improve their lives and possibly the world."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Rosenberg, the recipient of a Pulitzer Prize, offers a host of examples of the social cure in action: In South Carolina, a state-sponsored antismoking program called Rage Against the Haze sets out to make cigarettes uncool. In South Africa, an HIV-prevention initiative known as loveLife recruits young people to promote safe sex among their peers."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The idea seems promising, and Rosenberg is a perceptive observer. Her critique of the lameness of many public-health campaigns is spot-on: they fail to mobilize peer pressure for healthy habits, and they demonstrate a seriously flawed understanding of psychology. “Dare to be different, please don't smoke!” pleads one billboard campaign aimed at reducing smoking among teenagers — teenagers, who desire nothing more than fitting in. Rosenberg argues convincingly that public-health advocates ought to take a page from advertisers, so skilled at applying peer pressure."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "But on the general effectiveness of the social cure, Rosenberg is less persuasive. Join the Club is filled with too much irrelevant detail and not enough exploration of the social and biological factors that make peer pressure so powerful. The most glaring flaw of the social cure as it's presented here is that it doesn't work very well for very long. Rage Against the Haze failed once state funding was cut. Evidence that the loveLife program produces lasting changes is limited and mixed."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "There's no doubt that our peer groups exert enormous influence on our behavior. An emerging body of research shows that positive health habits — as well as negative ones — spread through networks of friends via social communication. This is a subtle form of peer pressure: we unconsciously imitate the behavior we see every day."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Far less certain, however, is how successfully experts and bureaucrats can select our peer groups and steer their activities in virtuous directions. It's like the teacher who breaks up the troublemakers in the back row by pairing them with better-behaved classmates. The tactic never really works. And that's the problem with a social cure engineered from the outside: in the real world, as in school, we insist on choosing our own friends."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "A deal is a deal — except, apparently, when Entergy is involved. The company, a major energy supplier in New England, provoked justified outrage in Vermont last week when it announced it was reneging on a longstanding commitment to abide by the strict nuclear regulations."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Instead, the company has done precisely what it had long promised it would not: challenge the constitutionality of Vermont's rules in the federal court, as part of a desperate effort to keep its Vermont Yankee nuclear power plant running. It's a stunning move."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The conflict has been surfacing since 2002, when the corporation bought Vermont's only nuclear power plant, an aging reactor in Vernon. As a condition of receiving state approval for the sale, the company agreed to seek permission from state regulators to operate past 2012. In 2006, the state went a step further, requiring that any extension of the plant's license be subject to Vermont legislature's approval. Then, too, the company went along."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Either Entergy never really intended to live by those commitments, or it simply didn't foresee what would happen next. A string of accidents, including the partial collapse of a cooling tower in 2007 and the discovery of an underground pipe system leakage, raised serious questions about both Vermont Yankee's safety and Entergy's management — especially after the company made misleading statements about the pipe. Enraged by Entergy's behavior, the Vermont Senate voted 26 to 4 last year against allowing an extension."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Now the company is suddenly claiming that the 2002 agreement is invalid because of the 2006 legislation, and that only the federal government has regulatory power over nuclear issues. The legal issues in the case are obscure: whereas the Supreme Court has ruled that states do have some regulatory authority over nuclear power, legal scholars say that Vermont case will offer a precedent-setting test of how far those powers extend. Certainly, there are valid concerns about the patchwork regulations that could result if every state sets its own rules. But had Entergy kept its word, that debate would be beside the point."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "The company seems to have concluded that its reputation in Vermont is already so damaged that it has nothing left to lose by going to war with the state. But there should be consequences. Permission to run a nuclear plant is a public trust. Entergy runs 11 other reactors in the United States, including Pilgrim Nuclear station in Plymouth. Pledging to run Pilgrim safely, the company has applied for federal permission to keep it open for another 20 years. But as the Nuclear Regulatory Commission (NRC) reviews the company's application, it should keep in mind what promises from Entergy are worth."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In the idealized version of how science is done, facts about the world are waiting to be observed and collected by objective researchers who use the scientific method to carry out their work. But in the everyday practice of science, discovery frequently follows an ambiguous and complicated route. We aim to be objective, but we cannot escape the context of our unique life experiences. Prior knowledge and interests influence what we experience, what we think our experiences mean, and the subsequent actions we take. Opportunities for misinterpretation, error, and self-deception abound."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Consequently, discovery claims should be thought of as protoscience. Similar to newly staked mining claims, they are full of potential. But it takes collective scrutiny and acceptance to transform a discovery claim into a mature discovery. This is the credibility process, through which the individual researcher's me, here, now becomes the community's anyone, anywhere, anytime. Objective knowledge is the goal, not the starting point."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Once a discovery claim becomes public, the discoverer receives intellectual credit. But, unlike with mining claims, the community takes control of what happens next. Within the complex social structure of the scientific community, researchers make discoveries; editors and reviewers act as gatekeepers by controlling the publication process; other scientists use the new finding to suit their own purposes; and finally, the public (including other scientists) receives the new discovery and possibly accompanying technology. As a discovery claim works its way through the community, the interaction and confrontation between shared and competing beliefs about the science and the technology involved transforms an individual's discovery claim into the community's credible discovery."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Two paradoxes exist throughout this credibility process. First, scientific work tends to focus on some aspect of prevailing knowledge that is viewed as incomplete or incorrect. Little reward accompanies duplication and confirmation of what is already known and believed. The goal is new-search, not re-search. Not surprisingly, newly published discovery claims and credible discoveries that appear to be important and convincing will always be open to challenge and potential modification or refutation by future researchers. Second, novelty itself frequently provokes disbelief. Nobel Laureate and physiologist Albert Szent-Györgyi once described discovery as “seeing what everybody has seen and thinking what nobody has thought.” But thinking what nobody else has thought and telling others what they have missed may not change their views. Sometimes years are required for truly novel discovery claims to be accepted and appreciated."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "In the end, credibility “happens” to a discovery claim — a process that corresponds to what philosopher Annette Baier has described as the commons of the mind. “We reason together, challenge, revise, and complete each other's reasoning and each other's conceptions of reason.”"
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "If the trade unionist Jimmy Hoffa were alive today, he would probably represent civil servants. When Hoffa's Teamsters were in their prime in 1960, only one in ten American government workers belonged to a union; now 36% do. In 2009 the number of unionists in America's public sector passed that of their fellow members in the private sector. In Britain, more than half of public-sector workers but only about 15% of private-sector ones are unionized."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "There are three reasons for the public-sector unions' thriving. First, they can shut things down without suffering much in the way of consequences. Second, they are mostly bright and well-educated. A quarter of America's public-sector workers have a university degree. Third, they now dominate left-of-centre politics. Some of their ties go back a long way. Britain's Labor Party, as its name implies, has long been associated with trade unionism. Its current leader, Ed Miliband, owes his position to votes from public-sector unions."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "At the state level their influence can be even more fearsome. Mark Baldassare of the Public Policy Institute of California points out that much of the state's budget is patrolled by unions. The teachers' unions keep an eye on schools, the CCPOA on prisons and a variety of labor groups on health care."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "In many rich countries average wages in the state sector are higher than in the private one. But the real gains come in benefits and work practices. Politicians have repeatedly “backloaded” public-sector pay deals, keeping the pay increases modest but adding to holidays and especially pensions that are already generous."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Reform has been vigorously opposed, perhaps most egregiously in education, where charter schools, academies and merit pay all faced drawn-out battles. Even though there is plenty of evidence that the quality of the teachers is the most important variable, teachers' unions have fought against getting rid of bad ones and promoting good ones."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "As the cost to everyone else has become clearer, politicians have begun to clamp down. In Wisconsin the unions have rallied thousands of supporters against Scott Walker, the hardline Republican governor. But many within the public sector suffer under the current system, too."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "John Donahue at Harvard's Kennedy School points out that the norms of culture in Western civil services suit those who want to stay put but is bad for high achievers. The only American public-sector workers who earn well above $250,000 a year are university sports coaches and the president of the United States. Bankers' fat pay packets have attracted much criticism, but a public-sector system that does not reward high achievers may be a much bigger problem for America."
+        }
+      ]
+    },
+    {
+      "id": "newtype",
+      "title": "Section II · 新题型 Part B 短文",
+      "section": "Section II · 新题型 Part B",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Think of those fleeting moments when you look out of an aeroplane window and realise that you are flying, higher than a bird. Now think of your laptop, thinner than a brown-paper envelope, or your cellphone in the palm of your hand. Take a moment or two to wonder at those marvels. You are the lucky inheritor of a dream come true."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The second half of the 20th century saw a collection of geniuses, warriors, entrepreneurs and visionaries labour to create a fabulous machine that could function as a typewriter and printing press, studio and theatre, paintbrush and gallery, piano and radio, the mail as well as the mail carrier. __41__"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The networked computer is an amazing device, the first media machine that serves as the mode of production, means of distribution, site of reception, and place of praise and critique. The computer is the 21st century's culture machine."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "But for all the reasons there are to celebrate the computer, we must also act with caution. __42__ I call it a secret war for two reasons. First, most people do not realise that there are strong commercial agendas at work to keep them in passive consumption mode. Second, the majority of people who use networked computers to upload are not even aware of the significance of what they are doing."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "All animals download, but only a few upload. Beavers build dams and birds make nests. Yet for the most part, the animal kingdom moves through the world downloading. Humans are unique in their capacity to not only make tools but then turn around and use them to create superfluous material goods— paintings, sculpture and architecture — and superfluous experiences — music, literature, religion and philosophy. __43__"
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "For all the possibilities of our new culture machines, most people are still stuck in download mode. Even after the advent of widespread social media, a pyramid of production remains, with a small number of people uploading material, a slightly larger group commenting on or modifying that content, and a huge percentage remaining content to just consume. __44__"
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "Television is a one-way tap flowing into our homes. The hardest task that television asks of anyone is to turn the power off after he has turned it on. __45__"
+        },
+        {
+          "id": "p8",
+          "type": "paragraph",
+          "text": "What counts as meaningful uploading? My definition revolves around the concept of “stickiness” — creations and experiences to which others adhere."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · 翻译 Part C 原文",
+      "section": "Section II · 翻译 Part C",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Since the days of Aristotle, a search for universal principles has characterized the scientific enterprise. In some ways, this quest for commonalities defines science. Newton's laws of motion and Darwinian evolution each bind a host of different phenomena into a single explicatory framework.\n【46】In physics, one approach takes this impulse for unification to its extreme, and seeks a theory of everything — a single generative equation for all we see. It is becoming less clear, however, that such a theory would be a simplification, given the dimensions and universes that it might entail. Nonetheless, unification of sorts remains a major goal.\nThis tendency in the natural sciences has long been evident in the social sciences too. 【47】Here, Darwinism seems to offer justification, for if all humans share common origins, it seems reasonable to suppose that cultural diversity could also be traced to more constrained beginnings. Just as the bewildering variety of human courtship rituals might all be considered forms of sexual selection, perhaps the world's languages, music, social and religious customs and even history are governed by universal features. 【48】To filter out what is unique from what is shared might enable us to understand how complex cultural behavior arose and what guides it in evolutionary or cognitive terms.\nThat, at least, is the hope. But a comparative study of linguistic traits published online today supplies a reality check. Russell Gray at the University of Auckland and his colleagues consider the evolution of grammars in the light of two previous attempts to find universality in language.\nThe most famous of these efforts was initiated by Noam Chomsky, who suggested that humans are born with an innate language-acquisition capacity that dictates a universal grammar. A few generative rules are then sufficient to unfold the entire fundamental structure of a language, which is why children can learn it so quickly.\n【49】The second, by Joshua Greenberg, takes a more empirical approach to universality, identifying traits (particularly in word order) shared by many languages, which are considered to represent biases that result from cognitive constraints.\nGray and his colleagues have put them to the test by examining four family trees that between them represent more than 2,000 languages. 【50】Chomsky's grammar should show patterns of language change that are independent of the family tree or the pathway tracked through it, whereas Greenbergian universality predicts strong co-dependencies between particular types of word-order relations. Neither of these patterns is borne out by the analysis, suggesting that the structures of the languages are lineage-specific and not governed by universals."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        {
+          "id": "c1-a",
+          "text": "emphasize"
+        },
+        {
+          "id": "c1-b",
+          "text": "maintain"
+        },
+        {
+          "id": "c1-c",
+          "text": "modify"
+        },
+        {
+          "id": "c1-d",
+          "text": "recognize"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c1-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第1空"
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        {
+          "id": "c2-a",
+          "text": "when"
+        },
+        {
+          "id": "c2-b",
+          "text": "lest"
+        },
+        {
+          "id": "c2-c",
+          "text": "before"
+        },
+        {
+          "id": "c2-d",
+          "text": "unless"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c2-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第2空"
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        {
+          "id": "c3-a",
+          "text": "restored"
+        },
+        {
+          "id": "c3-b",
+          "text": "weakened"
+        },
+        {
+          "id": "c3-c",
+          "text": "established"
+        },
+        {
+          "id": "c3-d",
+          "text": "eliminated"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c3-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第3空"
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        {
+          "id": "c4-a",
+          "text": "challenged"
+        },
+        {
+          "id": "c4-b",
+          "text": "compromised"
+        },
+        {
+          "id": "c4-c",
+          "text": "suspected"
+        },
+        {
+          "id": "c4-d",
+          "text": "accepted"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c4-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第4空"
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        {
+          "id": "c5-a",
+          "text": "advanced"
+        },
+        {
+          "id": "c5-b",
+          "text": "caught"
+        },
+        {
+          "id": "c5-c",
+          "text": "bound"
+        },
+        {
+          "id": "c5-d",
+          "text": "founded"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c5-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第5空"
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        {
+          "id": "c6-a",
+          "text": "resistant"
+        },
+        {
+          "id": "c6-b",
+          "text": "subject"
+        },
+        {
+          "id": "c6-c",
+          "text": "immune"
+        },
+        {
+          "id": "c6-d",
+          "text": "prone"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c6-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第6空"
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        {
+          "id": "c7-a",
+          "text": "resorts"
+        },
+        {
+          "id": "c7-b",
+          "text": "sticks"
+        },
+        {
+          "id": "c7-c",
+          "text": "leads"
+        },
+        {
+          "id": "c7-d",
+          "text": "applies"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c7-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第7空"
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        {
+          "id": "c8-a",
+          "text": "evade"
+        },
+        {
+          "id": "c8-b",
+          "text": "raise"
+        },
+        {
+          "id": "c8-c",
+          "text": "deny"
+        },
+        {
+          "id": "c8-d",
+          "text": "settle"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c8-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第8空"
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        {
+          "id": "c9-a",
+          "text": "line"
+        },
+        {
+          "id": "c9-b",
+          "text": "barrier"
+        },
+        {
+          "id": "c9-c",
+          "text": "similarity"
+        },
+        {
+          "id": "c9-d",
+          "text": "conflict"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c9-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第9空"
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        {
+          "id": "c10-a",
+          "text": "by"
+        },
+        {
+          "id": "c10-b",
+          "text": "as"
+        },
+        {
+          "id": "c10-c",
+          "text": "through"
+        },
+        {
+          "id": "c10-d",
+          "text": "towards"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c10-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第10空"
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        {
+          "id": "c11-a",
+          "text": "so"
+        },
+        {
+          "id": "c11-b",
+          "text": "since"
+        },
+        {
+          "id": "c11-c",
+          "text": "provided"
+        },
+        {
+          "id": "c11-d",
+          "text": "though"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c11-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第11空"
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        {
+          "id": "c12-a",
+          "text": "serve"
+        },
+        {
+          "id": "c12-b",
+          "text": "satisfy"
+        },
+        {
+          "id": "c12-c",
+          "text": "upset"
+        },
+        {
+          "id": "c12-d",
+          "text": "replace"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c12-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第12空"
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        {
+          "id": "c13-a",
+          "text": "confirm"
+        },
+        {
+          "id": "c13-b",
+          "text": "express"
+        },
+        {
+          "id": "c13-c",
+          "text": "cultivate"
+        },
+        {
+          "id": "c13-d",
+          "text": "offer"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c13-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第13空"
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        {
+          "id": "c14-a",
+          "text": "guarded"
+        },
+        {
+          "id": "c14-b",
+          "text": "followed"
+        },
+        {
+          "id": "c14-c",
+          "text": "studied"
+        },
+        {
+          "id": "c14-d",
+          "text": "tied"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c14-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第14空"
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        {
+          "id": "c15-a",
+          "text": "concepts"
+        },
+        {
+          "id": "c15-b",
+          "text": "theories"
+        },
+        {
+          "id": "c15-c",
+          "text": "divisions"
+        },
+        {
+          "id": "c15-d",
+          "text": "conventions"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c15-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第15空"
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        {
+          "id": "c16-a",
+          "text": "excludes"
+        },
+        {
+          "id": "c16-b",
+          "text": "questions"
+        },
+        {
+          "id": "c16-c",
+          "text": "shapes"
+        },
+        {
+          "id": "c16-d",
+          "text": "controls"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c16-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第16空"
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        {
+          "id": "c17-a",
+          "text": "dismissed"
+        },
+        {
+          "id": "c17-b",
+          "text": "released"
+        },
+        {
+          "id": "c17-c",
+          "text": "ranked"
+        },
+        {
+          "id": "c17-d",
+          "text": "distorted"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c17-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第17空"
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        {
+          "id": "c18-a",
+          "text": "suppress"
+        },
+        {
+          "id": "c18-b",
+          "text": "exploit"
+        },
+        {
+          "id": "c18-c",
+          "text": "address"
+        },
+        {
+          "id": "c18-d",
+          "text": "ignore"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c18-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第18空"
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        {
+          "id": "c19-a",
+          "text": "accessible"
+        },
+        {
+          "id": "c19-b",
+          "text": "amiable"
+        },
+        {
+          "id": "c19-c",
+          "text": "agreeable"
+        },
+        {
+          "id": "c19-d",
+          "text": "accountable"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c19-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第19空"
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        {
+          "id": "c20-a",
+          "text": "by all means"
+        },
+        {
+          "id": "c20-b",
+          "text": "at all costs"
+        },
+        {
+          "id": "c20-c",
+          "text": "in a word"
+        },
+        {
+          "id": "c20-d",
+          "text": "as a result"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c20-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第20空"
+    },
+    {
+      "id": "t1-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to the first paragraph, peer pressure often emerges as ______.",
+      "options": [
+        {
+          "id": "t1-q1-a",
+          "text": "a supplement to the social cure"
+        },
+        {
+          "id": "t1-q1-b",
+          "text": "a stimulus to group dynamics"
+        },
+        {
+          "id": "t1-q1-c",
+          "text": "an obstacle to social progress"
+        },
+        {
+          "id": "t1-q1-d",
+          "text": "a cause of undesirable behaviors"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q1-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1段"
+    },
+    {
+      "id": "t1-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Rosenberg holds that public advocates should ______.",
+      "options": [
+        {
+          "id": "t1-q2-a",
+          "text": "recruit professional advertisers"
+        },
+        {
+          "id": "t1-q2-b",
+          "text": "learn from advertisers' experience"
+        },
+        {
+          "id": "t1-q2-c",
+          "text": "stay away from commercial advertisers"
+        },
+        {
+          "id": "t1-q2-d",
+          "text": "recognize the limitations of advertisements"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q2-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第3段"
+    },
+    {
+      "id": "t1-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "In the author's view, Rosenberg's book fails to ______.",
+      "options": [
+        {
+          "id": "t1-q3-a",
+          "text": "adequately probe social and biological factors"
+        },
+        {
+          "id": "t1-q3-b",
+          "text": "effectively evade the flaws of the social cure"
+        },
+        {
+          "id": "t1-q3-c",
+          "text": "illustrate the functions of state funding"
+        },
+        {
+          "id": "t1-q3-d",
+          "text": "produce a long-lasting social effect"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q3-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第4段"
+    },
+    {
+      "id": "t1-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Paragraph 5 shows that our imitation of behaviors ______.",
+      "options": [
+        {
+          "id": "t1-q4-a",
+          "text": "is harmful to our networks of friends"
+        },
+        {
+          "id": "t1-q4-b",
+          "text": "will mislead behavioral studies"
+        },
+        {
+          "id": "t1-q4-c",
+          "text": "occurs without our realizing it"
+        },
+        {
+          "id": "t1-q4-d",
+          "text": "can produce negative health habits"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q4-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第5段"
+    },
+    {
+      "id": "t1-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The author suggests in the last paragraph that the effect of peer pressure is ______.",
+      "options": [
+        {
+          "id": "t1-q5-a",
+          "text": "harmful"
+        },
+        {
+          "id": "t1-q5-b",
+          "text": "desirable"
+        },
+        {
+          "id": "t1-q5-c",
+          "text": "profound"
+        },
+        {
+          "id": "t1-q5-d",
+          "text": "questionable"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q5-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第6段"
+    },
+    {
+      "id": "t2-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The phrase “reneging on” (Line 3, Para. 1) is closest in meaning to ______.",
+      "options": [
+        {
+          "id": "t2-q1-a",
+          "text": "condemning"
+        },
+        {
+          "id": "t2-q1-b",
+          "text": "reaffirming"
+        },
+        {
+          "id": "t2-q1-c",
+          "text": "dishonoring"
+        },
+        {
+          "id": "t2-q1-d",
+          "text": "securing"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q1-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第1段"
+    },
+    {
+      "id": "t2-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "By entering into the 2002 agreement, Entergy intended to ______.",
+      "options": [
+        {
+          "id": "t2-q2-a",
+          "text": "obtain protection from Vermont regulators"
+        },
+        {
+          "id": "t2-q2-b",
+          "text": "seek favor from the federal legislature"
+        },
+        {
+          "id": "t2-q2-c",
+          "text": "acquire an extension of its business license"
+        },
+        {
+          "id": "t2-q2-d",
+          "text": "get permission to purchase a power plant"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q2-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第3段"
+    },
+    {
+      "id": "t2-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "According to Paragraph 4, Entergy seems to have problems with its ______.",
+      "options": [
+        {
+          "id": "t2-q3-a",
+          "text": "managerial practices"
+        },
+        {
+          "id": "t2-q3-b",
+          "text": "technical innovativeness"
+        },
+        {
+          "id": "t2-q3-c",
+          "text": "financial goals"
+        },
+        {
+          "id": "t2-q3-d",
+          "text": "business vision"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q3-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第4段"
+    },
+    {
+      "id": "t2-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "In the author's view, the Vermont case will test ______.",
+      "options": [
+        {
+          "id": "t2-q4-a",
+          "text": "Entergy's capacity to fulfill all its promises"
+        },
+        {
+          "id": "t2-q4-b",
+          "text": "the nature of states' patchwork regulations"
+        },
+        {
+          "id": "t2-q4-c",
+          "text": "the federal authority over nuclear issues"
+        },
+        {
+          "id": "t2-q4-d",
+          "text": "the limits of states' power over nuclear issues"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q4-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第5段"
+    },
+    {
+      "id": "t2-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "It can be inferred from the last paragraph that ______.",
+      "options": [
+        {
+          "id": "t2-q5-a",
+          "text": "Entergy's business elsewhere might be affected"
+        },
+        {
+          "id": "t2-q5-b",
+          "text": "the authority of the NRC will be defied"
+        },
+        {
+          "id": "t2-q5-c",
+          "text": "Entergy will withdraw its Plymouth application"
+        },
+        {
+          "id": "t2-q5-d",
+          "text": "Vermont's reputation might be damaged"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q5-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第6段"
+    },
+    {
+      "id": "t3-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "According to the first paragraph, the process of discovery is characterized by its ______.",
+      "options": [
+        {
+          "id": "t3-q1-a",
+          "text": "uncertainty and complexity"
+        },
+        {
+          "id": "t3-q1-b",
+          "text": "misconception and deceptiveness"
+        },
+        {
+          "id": "t3-q1-c",
+          "text": "logicality and objectivity"
+        },
+        {
+          "id": "t3-q1-d",
+          "text": "systematicness and regularity"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q1-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第1段"
+    },
+    {
+      "id": "t3-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "It can be inferred from Paragraph 2 that credibility process requires ______.",
+      "options": [
+        {
+          "id": "t3-q2-a",
+          "text": "strict inspection"
+        },
+        {
+          "id": "t3-q2-b",
+          "text": "shared efforts"
+        },
+        {
+          "id": "t3-q2-c",
+          "text": "individual wisdom"
+        },
+        {
+          "id": "t3-q2-d",
+          "text": "persistent innovation"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q2-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第2段"
+    },
+    {
+      "id": "t3-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Paragraph 3 shows that a discovery claim becomes credible after it ______.",
+      "options": [
+        {
+          "id": "t3-q3-a",
+          "text": "has attracted the attention of the general public"
+        },
+        {
+          "id": "t3-q3-b",
+          "text": "has been examined by the scientific community"
+        },
+        {
+          "id": "t3-q3-c",
+          "text": "has received recognition from editors and reviewers"
+        },
+        {
+          "id": "t3-q3-d",
+          "text": "has been frequently quoted by peer scientists"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q3-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第3段"
+    },
+    {
+      "id": "t3-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Albert Szent-Györgyi would most likely agree that ______.",
+      "options": [
+        {
+          "id": "t3-q4-a",
+          "text": "scientific claims will survive challenges"
+        },
+        {
+          "id": "t3-q4-b",
+          "text": "discoveries today inspire future research"
+        },
+        {
+          "id": "t3-q4-c",
+          "text": "efforts to make discoveries are justified"
+        },
+        {
+          "id": "t3-q4-d",
+          "text": "scientific work calls for a critical mind"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q4-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第4段"
+    },
+    {
+      "id": "t3-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Which of the following would be the best title of the text?",
+      "options": [
+        {
+          "id": "t3-q5-a",
+          "text": "Novelty as an Engine of Scientific Development"
+        },
+        {
+          "id": "t3-q5-b",
+          "text": "Collective Scrutiny in Scientific Discovery"
+        },
+        {
+          "id": "t3-q5-c",
+          "text": "Evolution of Credibility in Doing Science"
+        },
+        {
+          "id": "t3-q5-d",
+          "text": "Challenge to Credibility at the Gate to Science"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q5-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 全文"
+    },
+    {
+      "id": "t4-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "It can be learned from the first paragraph that ______.",
+      "options": [
+        {
+          "id": "t4-q1-a",
+          "text": "Teamsters still have a large body of members"
+        },
+        {
+          "id": "t4-q1-b",
+          "text": "Jimmy Hoffa used to work as a civil servant"
+        },
+        {
+          "id": "t4-q1-c",
+          "text": "unions have enlarged their public-sector membership"
+        },
+        {
+          "id": "t4-q1-d",
+          "text": "the government has improved its relationship with unionists"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q1-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第1段"
+    },
+    {
+      "id": "t4-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Which of the following is true of Paragraph 2?",
+      "options": [
+        {
+          "id": "t4-q2-a",
+          "text": "Public-sector unions are prudent in taking actions."
+        },
+        {
+          "id": "t4-q2-b",
+          "text": "Education is required for public-sector union membership."
+        },
+        {
+          "id": "t4-q2-c",
+          "text": "Labor Party has long been fighting against public-sector unions."
+        },
+        {
+          "id": "t4-q2-d",
+          "text": "Public-sector unions seldom get in trouble for their actions."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q2-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第2段"
+    },
+    {
+      "id": "t4-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "It can be learned from Paragraph 4 that the income in the state sector is ______.",
+      "options": [
+        {
+          "id": "t4-q3-a",
+          "text": "illegally secured"
+        },
+        {
+          "id": "t4-q3-b",
+          "text": "indirectly augmented"
+        },
+        {
+          "id": "t4-q3-c",
+          "text": "excessively increased"
+        },
+        {
+          "id": "t4-q3-d",
+          "text": "fairly adjusted"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q3-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第4段"
+    },
+    {
+      "id": "t4-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The example of the unions in Wisconsin shows that unions ______.",
+      "options": [
+        {
+          "id": "t4-q4-a",
+          "text": "often run against the current political system"
+        },
+        {
+          "id": "t4-q4-b",
+          "text": "can change people's political attitudes"
+        },
+        {
+          "id": "t4-q4-c",
+          "text": "may be a barrier to public-sector reforms"
+        },
+        {
+          "id": "t4-q4-d",
+          "text": "are dominant in the government"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q4-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第6段"
+    },
+    {
+      "id": "t4-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "John Donahue's attitude towards the public-sector system is one of ______.",
+      "options": [
+        {
+          "id": "t4-q5-a",
+          "text": "disapproval"
+        },
+        {
+          "id": "t4-q5-b",
+          "text": "appreciation"
+        },
+        {
+          "id": "t4-q5-c",
+          "text": "tolerance"
+        },
+        {
+          "id": "t4-q5-d",
+          "text": "indifference"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q5-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第7段"
+    },
+    {
+      "id": "nt-41",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 41 空：从下列句子中选出填入本空的选项",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity."
+        },
+        {
+          "id": "nt-b",
+          "text": "Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others."
+        },
+        {
+          "id": "nt-c",
+          "text": "Not only did they develop such a device but by the turn of the millennium they had also managed to embed it in a worldwide system accessed by billions of people every day."
+        },
+        {
+          "id": "nt-d",
+          "text": "This is because the networked computer has sparked a secret war between downloading and uploading — between passive consumption and active creation — whose outcome will shape our collective future in ways we can only begin to imagine."
+        },
+        {
+          "id": "nt-e",
+          "text": "The challenge the computer mounts to television thus bears little similarity to one format being replaced by another in the manner of record players being replaced by CD players."
+        },
+        {
+          "id": "nt-f",
+          "text": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world's media culture has been defined by a single medium — television — and television is defined by downloading."
+        },
+        {
+          "id": "nt-g",
+          "text": "The networked computer offers the first chance in 50 years to reverse the flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第41空"
+    },
+    {
+      "id": "nt-42",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 42 空：从下列句子中选出填入本空的选项",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity."
+        },
+        {
+          "id": "nt-b",
+          "text": "Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others."
+        },
+        {
+          "id": "nt-c",
+          "text": "Not only did they develop such a device but by the turn of the millennium they had also managed to embed it in a worldwide system accessed by billions of people every day."
+        },
+        {
+          "id": "nt-d",
+          "text": "This is because the networked computer has sparked a secret war between downloading and uploading — between passive consumption and active creation — whose outcome will shape our collective future in ways we can only begin to imagine."
+        },
+        {
+          "id": "nt-e",
+          "text": "The challenge the computer mounts to television thus bears little similarity to one format being replaced by another in the manner of record players being replaced by CD players."
+        },
+        {
+          "id": "nt-f",
+          "text": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world's media culture has been defined by a single medium — television — and television is defined by downloading."
+        },
+        {
+          "id": "nt-g",
+          "text": "The networked computer offers the first chance in 50 years to reverse the flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第42空"
+    },
+    {
+      "id": "nt-43",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 43 空：从下列句子中选出填入本空的选项",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity."
+        },
+        {
+          "id": "nt-b",
+          "text": "Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others."
+        },
+        {
+          "id": "nt-c",
+          "text": "Not only did they develop such a device but by the turn of the millennium they had also managed to embed it in a worldwide system accessed by billions of people every day."
+        },
+        {
+          "id": "nt-d",
+          "text": "This is because the networked computer has sparked a secret war between downloading and uploading — between passive consumption and active creation — whose outcome will shape our collective future in ways we can only begin to imagine."
+        },
+        {
+          "id": "nt-e",
+          "text": "The challenge the computer mounts to television thus bears little similarity to one format being replaced by another in the manner of record players being replaced by CD players."
+        },
+        {
+          "id": "nt-f",
+          "text": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world's media culture has been defined by a single medium — television — and television is defined by downloading."
+        },
+        {
+          "id": "nt-g",
+          "text": "The networked computer offers the first chance in 50 years to reverse the flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第43空"
+    },
+    {
+      "id": "nt-44",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 44 空：从下列句子中选出填入本空的选项",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity."
+        },
+        {
+          "id": "nt-b",
+          "text": "Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others."
+        },
+        {
+          "id": "nt-c",
+          "text": "Not only did they develop such a device but by the turn of the millennium they had also managed to embed it in a worldwide system accessed by billions of people every day."
+        },
+        {
+          "id": "nt-d",
+          "text": "This is because the networked computer has sparked a secret war between downloading and uploading — between passive consumption and active creation — whose outcome will shape our collective future in ways we can only begin to imagine."
+        },
+        {
+          "id": "nt-e",
+          "text": "The challenge the computer mounts to television thus bears little similarity to one format being replaced by another in the manner of record players being replaced by CD players."
+        },
+        {
+          "id": "nt-f",
+          "text": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world's media culture has been defined by a single medium — television — and television is defined by downloading."
+        },
+        {
+          "id": "nt-g",
+          "text": "The networked computer offers the first chance in 50 years to reverse the flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-f"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第44空"
+    },
+    {
+      "id": "nt-45",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 45 空：从下列句子中选出填入本空的选项",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity."
+        },
+        {
+          "id": "nt-b",
+          "text": "Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others."
+        },
+        {
+          "id": "nt-c",
+          "text": "Not only did they develop such a device but by the turn of the millennium they had also managed to embed it in a worldwide system accessed by billions of people every day."
+        },
+        {
+          "id": "nt-d",
+          "text": "This is because the networked computer has sparked a secret war between downloading and uploading — between passive consumption and active creation — whose outcome will shape our collective future in ways we can only begin to imagine."
+        },
+        {
+          "id": "nt-e",
+          "text": "The challenge the computer mounts to television thus bears little similarity to one format being replaced by another in the manner of record players being replaced by CD players."
+        },
+        {
+          "id": "nt-f",
+          "text": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world's media culture has been defined by a single medium — television — and television is defined by downloading."
+        },
+        {
+          "id": "nt-g",
+          "text": "The networked computer offers the first chance in 50 years to reverse the flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-g"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第45空"
+    },
+    {
+      "id": "tr-46",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "In physics, one approach takes this impulse for unification to its extreme, and seeks a theory of everything — a single generative equation for all we see.",
+      "answer_key": {
+        "reference_text": "在物理学中，有一种方法将这种对同一性的诉求推向极致，并试图找到一种万有法则——用一个生成等式来解释我们所见万物。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第46句"
+    },
+    {
+      "id": "tr-47",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Here, Darwinism seems to offer justification, for if all humans share common origins, it seems reasonable to suppose that cultural diversity could also be traced to more constrained beginnings.",
+      "answer_key": {
+        "reference_text": "对此，达尔文主义似乎提供了一个合理的解释，因为如果全人类拥有共同的起源，那么似乎有理由认为文化多样性也可以追溯到有限的几个源头。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第47句"
+    },
+    {
+      "id": "tr-48",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "To filter out what is unique from what is shared might enable us to understand how complex cultural behavior arose and what guides it in evolutionary or cognitive terms.",
+      "answer_key": {
+        "reference_text": "将事物的特性从共性中筛除掉也许能让我们理解复杂的文化行为是如何产生的，以及是什么在进化或认知方面引导着它。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第48句"
+    },
+    {
+      "id": "tr-49",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The second, by Joshua Greenberg, takes a more empirical approach to universality, identifying traits (particularly in word order) shared by many languages, which are considered to represent biases that result from cognitive constraints.",
+      "answer_key": {
+        "reference_text": "第二个知名的尝试是由约瑟·格林伯格进行的，他采用更为经验主义的方法来研究普遍性，识别多种语言所共有的特征（特别是语序方面的特征），人们认为这些特征代表了认知局限所导致的偏见。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第49句"
+    },
+    {
+      "id": "tr-50",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Chomsky's grammar should show patterns of language change that are independent of the family tree or the pathway tracked through it, whereas Greenbergian universality predicts strong co-dependencies between particular types of word-order relations.",
+      "answer_key": {
+        "reference_text": "乔姆斯基的语法应该能显示语言变化的模式，这些模式独立于语言谱系或其传承路径，而格林伯格的普遍性理论则预言特定种类的语序关系之间具有很强的相互依赖性。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第50句"
+    },
+    {
+      "id": "writing-a",
+      "section": "Section III · 写作 Part A",
+      "type": "free_text",
+      "stem": "Some international students are coming to your university. Write them an email in the name of the Students' Union to\n1) extend your welcome and\n2) provide some suggestions for their campus life here.\nYou should write about 100 words on ANSWER SHEET 2.\nDo not sign your own name at the end of the letter. Use “Li Ming” instead.\nDo not write the address. (10 points)",
+      "answer_key": {
+        "reference_text": "Dear friends,\n\nOn behalf of the Students' Union, I would like to extend my warmest welcome to all of you who have come to study at our university.\n\nTo help you adapt to the new environment, I would like to offer several practical suggestions. First of all, learning some basic Chinese will greatly facilitate your communication and daily life. Secondly, you are encouraged to take part in various campus activities, such as the English Corner and international cultural festivals, where you can make new friends and experience Chinese culture. Last but not least, if you have any difficulties, do not hesitate to contact the Students' Union, which is always ready to help.\n\nWe sincerely hope you will enjoy your stay here and wish you a fruitful and pleasant experience in China.\n\nYours sincerely,\nLi Ming\nChairman of the Students' Union"
+      },
+      "max_score_units": 1000,
+      "source_ref": "Section III Writing Part A 51"
+    },
+    {
+      "id": "writing-b",
+      "section": "Section III · 写作 Part B",
+      "type": "free_text",
+      "stem": "Write an essay of 160-200 words based on the following drawing. In your essay, you should\n1) describe the drawing briefly,\n2) explain its intended meaning, and\n3) give your comments.\nYou should write neatly on ANSWER SHEET 2. (20 points)\n画面文字描述：一个瓶子倒在地上，水洒了一部分，两个人面对同一个瓶子，一个人悲观地说“全完了”，另一个人乐观地说“幸好还剩点儿”。",
+      "images": [
+        "images/2012/6a22f2baf874b93603a896fce6f80f9abdbe5e62084f83eb4fda5f65ec7aba9f.jpg"
+      ],
+      "answer_key": {
+        "reference_text": "As is unfolded in the cartoon above, in front of a knocked-over bottle of water with most water flowing out stand two men. One man, looking rather upset, says “There is nothing left. How unlucky I am!”, while the other one quickly picks up the bottle, saying “I'm such a lucky dog, and there is still some left”. How vivid the cartoon is! The two men show quite different attitudes toward the same situation.\n\nWithout any doubt, the purpose of the cartoon is to show us that we should keep optimistic no matter what circumstances we undergo. First and foremost, it is universally held that life is by no means perfect and in the course of life we are bound to experience and encounter a variety of difficulties. In order to achieve our goal, we should tackle the obstacles positively rather than in a negative way. In the second place, according to some research findings, a positive attitude does good to our life in that it will assist us in solving the tough issues.\n\nFrom what has been argued above, we may reasonably arrive at the conclusion that we should embrace positive attitudes and behave confidently. Only in this way can we solve the issues confronting us successfully."
+      },
+      "max_score_units": 2000,
+      "source_ref": "Section III Writing Part B 52"
+    }
+  ]
+}

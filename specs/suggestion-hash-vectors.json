@@ -1,0 +1,22 @@
+{
+  "algorithm": "suggestion-hash-v1",
+  "normalization": "字符串NFC+LF、不trim；question_ids/evidence_ids集合排序；RFC8785 JCS UTF-8；SHA-256。样本仅含ASCII键、整数、无特殊控制字符，规范JSON与JCS字节一致。",
+  "vectors": [
+    {
+      "name": "baseline",
+      "input": {"question_ids": ["q03"], "evidence_ids": ["mat-demo-p2", "ans-q03"], "text": "核对范围。", "acceptance_check": "区分one group与every community。", "suggested_interval_days": 1},
+      "canonical": "{\"acceptance_check\":\"区分one group与every community。\",\"evidence_ids\":[\"ans-q03\",\"mat-demo-p2\"],\"hash_schema\":\"suggestion-hash-v1\",\"question_ids\":[\"q03\"],\"suggested_interval_days\":1,\"text\":\"核对范围。\"}",
+      "sha256": "e16033978c81768a584e66258e207ebcb0f61ac741dab638bebe75bdb4e04f2a"
+    },
+    {
+      "name": "same_evidence_different_order",
+      "input": {"question_ids": ["q03"], "evidence_ids": ["ans-q03", "mat-demo-p2"], "text": "核对范围。", "acceptance_check": "区分one group与every community。", "suggested_interval_days": 1},
+      "sha256": "e16033978c81768a584e66258e207ebcb0f61ac741dab638bebe75bdb4e04f2a"
+    },
+    {
+      "name": "interval_changed_requires_new_confirmation",
+      "input": {"question_ids": ["q03"], "evidence_ids": ["mat-demo-p2", "ans-q03"], "text": "核对范围。", "acceptance_check": "区分one group与every community。", "suggested_interval_days": 3},
+      "sha256": "636865631f6827ca9390a69139dea0cd7d468f150d4ec2656a71710c8ce5473f"
+    }
+  ]
+}

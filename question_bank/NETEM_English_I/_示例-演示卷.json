@@ -1,0 +1,131 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2026,
+    "paper": "英语一（原创演示卷）",
+    "title": "2026 拾题演示卷 · Reading beyond the headline",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "shiti-workbench/samples/golden-five.json",
+    "converted_by": "拾题内置示例",
+    "converted_at": "2026-09-30T12:00:00+08:00",
+    "license_note": "原创演示内容，仅用于功能验证，非真实考题",
+    "notes": "演示卷仅含 5 道阅读单选，用于展示全部字段；真实年份卷应为 52 个元素。"
+  },
+  "set": { "title": "2026 拾题演示卷 · Reading beyond the headline" },
+  "sections": [
+    {
+      "id": "Section II · 阅读理解 Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following text. Answer the questions below the text by choosing A, B, C or D. Mark your answers on the ANSWER SHEET 1. (10 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "reading-text1",
+      "title": "Text 1 · Reading beyond the headline",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "演示材料第 1 页",
+      "blocks": [
+        { "id": "p1", "type": "paragraph", "text": "Online headlines can make a small study sound like a universal rule. Careful readers look beyond the headline and ask who took part in the research." },
+        { "id": "p2", "type": "paragraph", "text": "A result may describe one group – without explaining every community. More evidence can change an early conclusion." },
+        { "id": "p3", "type": "paragraph", "text": "Good reading is therefore not a hunt for certainty. It is a habit of matching each claim to the evidence that supports it." }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "t1-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to the first paragraph, careful readers mainly ______.",
+      "options": [
+        { "id": "t1-q1-a", "text": "trust headlines written by researchers" },
+        { "id": "t1-q1-b", "text": "ask who took part in the research" },
+        { "id": "t1-q1-c", "text": "avoid reading online news" },
+        { "id": "t1-q1-d", "text": "repeat every study they read" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q1-b"] },
+      "explanation": "P1 明确说 careful readers 会追问研究者是谁，B 为同义转述。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第 1 段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t1-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The phrase \"one group\" in Paragraph 2 suggests that a study result may ______.",
+      "options": [
+        { "id": "t1-q2-a", "text": "cover every community" },
+        { "id": "t1-q2-b", "text": "be completely wrong" },
+        { "id": "t1-q2-c", "text": "fail to explain every community" },
+        { "id": "t1-q2-d", "text": "need no further evidence" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q2-c"] },
+      "explanation": "P2 原文 \"without explaining every community\" 对应 C。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第 2 段",
+      "tags": ["阅读理解", "词义题"]
+    },
+    {
+      "id": "t1-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "What does the writer suggest about an early conclusion?",
+      "options": [
+        { "id": "t1-q3-a", "text": "It always applies to every community." },
+        { "id": "t1-q3-b", "text": "It may change when more evidence appears." },
+        { "id": "t1-q3-c", "text": "It should replace the original research." },
+        { "id": "t1-q3-d", "text": "It is useful only when it is certain." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q3-b"] },
+      "explanation": "P2 \"More evidence can change an early conclusion\" 对应 B。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第 2 段",
+      "tags": ["阅读理解", "推断题"]
+    },
+    {
+      "id": "t1-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to Paragraph 3, good reading is described as ______.",
+      "options": [
+        { "id": "t1-q4-a", "text": "a hunt for certainty" },
+        { "id": "t1-q4-b", "text": "a memory test" },
+        { "id": "t1-q4-c", "text": "a speed competition" },
+        { "id": "t1-q4-d", "text": "a habit of matching claims to evidence" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q4-d"] },
+      "explanation": "P3 \"a habit of matching each claim to the evidence\" 对应 D。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第 3 段",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t1-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The passage is mainly written to ______.",
+      "options": [
+        { "id": "t1-q5-a", "text": "encourage readers to check the evidence behind claims" },
+        { "id": "t1-q5-b", "text": "warn readers against all online studies" },
+        { "id": "t1-q5-c", "text": "praise reporters for their accuracy" },
+        { "id": "t1-q5-d", "text": "explain how research is designed" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q5-a"] },
+      "explanation": "全文主旨：把每个论断与支持它的证据对应起来，A 正确。",
+      "max_score_units": 200,
+      "source_ref": "全文主旨",
+      "tags": ["阅读理解", "主旨题"]
+    }
+  ]
+}

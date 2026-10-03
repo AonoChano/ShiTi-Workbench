@@ -1,0 +1,586 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 1989,
+    "paper": "英语统考卷",
+    "title": "1989年全国硕士研究生入学统一考试英语试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/1989.md",
+    "converted_by": "AI 转换任务 2026-10-03",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "本文件由 1989.md 转换。原卷含完形填空（10题，10分）、阅读理解（3篇共10题，10分）、英译汉（8句，20分），满分40分，无写作题。按原卷实际题数建模；meta.total_score_units 按规格建议值填 10000，各题 max_score_units 按原卷分值折算。答案与解析来自 1986-1990 年真题答案 PDF。"
+  },
+  "set": {
+    "title": "1989年全国硕士研究生入学统一考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · Cloze Test",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "For each numbered blank in the following passage there are four choices labeled [A], [B], [C] and [D]. Choose the best one and put your choice in the ANSWER SHEET. Read the whole passage before making your choice. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · Reading Comprehension",
+      "part": "Section II",
+      "title": "阅读理解",
+      "directions": [
+        "Each of the two passages below is followed by five questions. For each question there are four answers. Read the passages carefully and choose the best answer to each of the questions. Put your choice in the brackets on the left. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · English-Chinese Translation",
+      "part": "Section III",
+      "title": "英译汉",
+      "directions": [
+        "Translate the following passage into Chinese. Only the underlined sentences are to be translated. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · Cloze Test 原文",
+      "section": "Section I · Cloze Test",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "One day drought may be a thing of the past at least in coastal cities. Vast areas of desert throughout the world may for the first time __1__ and provide millions of hectares of land where now nothing grows."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "By the end of this century this may not be mere __2__. Scientists are already looking into the possibility of using some of the available ice in the Arctic and Antarctic. In these regions there are vast ice-caps formed by snow that has fallen over the past 50,000 years. Layer __3__ layer of deep snow means that, when melted, the snow water would be pure, not salty as sea-ice would be. There is so much __4__ pure water here that it would need only a fraction of it to turn much of the desert or poorly irrigated parts of the world into rich farmland. And what useful packages it would come in! It should be possible to cut off a bit of ice and transport it! Alternatively perhaps a passing iceberg could be __5__. They are always breaking away from the main caps and floating around, pushed by currents, until they eventually melt and are wasted."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Many icebergs are, of course, far too small to be towed __6__ distance, and would melt before they reached a country that needed them anywhere. It would be necessary to locate one that was __7__ and that was big enough to provide a good supply of ice when it reached us. Engineers think that an iceberg up to seven miles long and one and a half miles wide could be transported if the tug pulling it was as big as a supertanker! Even then they would cover only twenty miles every day. However, __8__ the iceberg was at its destination, more than 7,000 million cubic metres of water could be taken from it! That would probably be more than enough for any medium-sized city even in the hottest summer! But no doubt a use could be found for it. __9__, scientists say, there would not be too much wastage in such a journey. The larger the iceberg, the slower it melts, even if it is towed through the tropics. This is because when the sun has a bigger area to warm __10__, less heat actually gets into the iceberg. The vast frozen centre would be unaffected."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "A scientist once said: “I have concluded that the earth is being visited by intelligently controlled vehicles from outer space.”"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "If we take this as a reasonable explanation for UFOs (unidentified flying objects), questions immediately come up."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "“Why don’t they get in touch with us, then? Why don’t they land right on the White House lawn and declare themselves?” people asked."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "In reply, scientists say that, while this may be what we want, it may not necessarily be what they want."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "“The most likely explanation, it seems to me,” said Dr. Mead, “is that they are simply watching what we are up to -- that responsible society outside our solar system is keeping an eye on us to see that we don’t set in motion a chain reaction that might have unexpected effects for outside our solar system.”"
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Opinions from other scientists might go like this: “Why should they want to get in touch with us? We may feel we’re more important than we really are! They may want to observe us only and not interfere with the development of our civilization. They may not care if we see them but they also may not care to say ‘hello’.”"
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "Some scientists have also suggested that Earth is a kind of zoo or wildlife reserve. Just as we set aside wilderness areas and wildlife reserves to allow animals and growing things to develop naturally while we observe them, so perhaps Earth was set aside ages ago for the same purpose."
+        },
+        {
+          "id": "p8",
+          "type": "paragraph",
+          "text": "Are we being observed by intelligent beings from other civilizations in the universe? Are they watching our progress in space travel? Do we live in a gigantic “zoo” observed by our “keepers,” but having no communication with them?"
+        },
+        {
+          "id": "p9",
+          "type": "paragraph",
+          "text": "Never before in our history have we had to confront ideas like these. The simple fact is that we, who have always regarded ourselves as supreme in the universe, may not be so. Now we have to recognize that, among the stars in the heavens, there may very well be worlds inhabited by beings who are to us as we are to ants."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The use of the motor is becoming more and more widespread in the twentieth century; as an increasing number of countries develop both technically and economically, so a larger proportion of the world’s population is able to buy and use a car. Possessing a car gives a much greater degree of mobility, enabling the driver to move around freely. The owner of a car is no longer forced to rely on public transport and is, therefore, not compelled to work locally. He can choose from different jobs and probably changes his work more frequently as he is not restricted to a choice within a small radius. Travelling to work by car is also more comfortable than having to use public transport; the driver can adjust the heating in winter and the air conditioning in the summer to suit his own needs and preference. There is no irritation caused by waiting for trains, buses or underground trains, standing in long patient queues, or sitting on windy platforms, for as long as half an hour sometimes. With the building of good, fast motorways long distances can be covered rapidly and pleasantly. For the first time in this century also, many people are now able to enjoy their leisure time to the full by making trips to the country or seaside at the weekends, instead of being confined to their immediate neighbourhood. This feeling of independence, and the freedom to go where you please, is perhaps the greatest advantage of the car."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "When considering the drawbacks, perhaps pollution is of prime importance. As more and more cars are produced and used, so the emission from their exhaust-pipes contains an ever larger volume of poisonous gas. Some of the contents of this gas, such as lead, not only pollute the atmosphere but cause actual harm to the health of people. Many of the minor illnesses of modern industrial society, headaches, tiredness, and stomach upsets are thought to arise from breathing polluted air; doctors’ surgeries are full of people suffering from illnesses caused by pollution. It is also becoming increasingly difficult to deal with the problem of traffic in towns; most of the important cities of the world suffer from traffic congestion. In fact any advantage gained in comfort is often cancelled out in city driving by the frustration caused by traffic jams: endless queues of cars crawling one after another through all the main streets. As an increasing number of traffic regulation schemes are devised, the poor bewildered driver finds himself diverted and forced into one-way systems which cause even greater delays than the traffic jams they are supposed to prevent. The mounting cost of petrol and the increased license fees and road tax all add to the driver’s worries. In fact, he must sometimes wonder if the motor car is such a blessing and not just a menace."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Manners nowadays in metropolitan cities like London are practically non-existent. It is nothing for a big, strong schoolboy to elbow an elderly woman aside in the dash for the last remaining seat on the tube or bus, much less stand up and offer his seat to her, as he ought. In fact, it is saddening to note that if a man does offer his seat to an older woman, it is nearly always a Continental man or one from the older generation."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "This question of giving up seats in public transport is much argued about by young men, who say that, since women have claimed equality, they no longer deserve to be treated with courtesy and that those who go out to work should take their turn in the rat race like anyone else. Women have never claimed to be physically as strong as men. Even if it is not agreed, however, that young men should stand up for younger women, the fact remains that courtesy should be shown to the old, the sick and the burdened. Are we really so lost to all ideals of unselfishness that we can sit there indifferently reading the paper or a book, saying to ourselves “First come, first served,” while a grey-haired woman, a mother with a young child or a cripple stands? Yet this is all too often seen."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Conditions in travel are really very hard on everyone, we know, but hardship is surely no excuse. Sometimes one wonders what would have been the behaviour of these stout young men in a packed refugee train or a train on its way to a prison-camp during the War. Would they have considered it only right and their proper due to keep the best places for themselves then?"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Older people, tired and irritable from a day’s work, are not angels, either — far from it. Many a brisk argument or an insulting quarrel breaks out as the weary queues push and shove each other to get on buses and tubes. One cannot commend this, of course, but one does feel there is just a little more excuse."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "If cities are to remain pleasant places to live in at all, however, it seems imperative, not only that communications in transport should be improved, but also that communication between human beings should be kept smooth and polite. All over cities, it seems that people are too tired and too rushed to be polite. Shop assistants won’t bother to assist, taxi drivers growl at each other as they dash dangerously round corners, bus conductor pull the bell before their desperate passengers have had time to get on or off the bus, and so on and so on. It seems to us that it is up to the young and strong to do their small part to stop such deterioration."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section III · 英译汉原文",
+      "section": "Section III · English-Chinese Translation",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "When Jane Matheson started work at Advanced Electronics Inc. 12 years ago, 【21】she laboured over a microscope, hand-welding tiny electronic computers and turned out 18 per hour. Now she tends the computerized machinery that turns out high capacity memory chips at the rate of 2,600 per hour. Production is up, profits are up, her income is up and Mrs. Matheson says the work is far less strain on her eyes."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "But the most significant effect of the changes at AEI was felt by the workers who are no longer there. Before the new computerized equipment was introduced, there were 940 workers at the plant. Now there are 121. 【22】A plant follow-up survey showed that one year after the layoffs only 38% of the released workers found new employment at the same or better wages. Nearly half finally settled for lower pay and more than 13% are still out of work. The AEI example is only one of hundreds around the country which forge intelligently ahead into the latest technology, but leave the majority of their workers behind."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "【23】Its beginnings obscured by unemployment caused by the world economic slow-down, the new technological unemployment may emerge as the great socio-economic challenge of the end of the 20th century. One corporation economist says the growth of “machine job replacement” has been with us since the beginning of the industrial revolution, but never at the pace it is now. The human costs will be astonishing. 【24】“It’s humiliating to be done out of your job by a machine and there is no way to fight back, but it is the effort to find a new job that really hurts.” Some workers, like Jane Matheson, are retrained to handle the new equipment, but often a whole new set of skills is required and that means a new, and invariably smaller set of workers. 【25】The old workers, trapped by their limited skills, often never regain their old status and employment. Many drift into marginal areas. They feel no pride in their new work. They get badly paid for it and they feel miserable, but still they are luckier than those who never find it."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "【26】The social costs go far beyond the welfare and unemployment payments made by the government. Unemployment increases the chances of divorce, child abuse, and alcoholism, a new federal survey shows. Some experts say the problem is only temporary... that new technology will eventually create as many jobs as it destroys. 【27】But futurologist Hymen Seymour says the astonishing efficiency of the new technology means there will be a simple and direct net reduction in the amount of human labor that needs to be done. “We should treat this as an opportunity to give people more leisure. It may not be easy, but society will have to reach a new unanimity on the division and distribution of labor,” Seymour says. He predicts most people will work only six-hour days and four-day weeks by the end of the century. But the concern of the unemployed is for now. 【28】Federally funded training and free back-to-school programs for laid-off workers are under way, but few experts believe they will be able to keep up with the pace of the new technology. For the next few years, for a substantial portion of the workforce, times are going to be very tough indeed."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "cloze-01-a", "text": "come to life" },
+        { "id": "cloze-01-b", "text": "come into existence" },
+        { "id": "cloze-01-c", "text": "come into activity" },
+        { "id": "cloze-01-d", "text": "come round" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-01-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "cloze-02-a", "text": "speculation" },
+        { "id": "cloze-02-b", "text": "imagination" },
+        { "id": "cloze-02-c", "text": "computation" },
+        { "id": "cloze-02-d", "text": "expectation" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-02-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "cloze-03-a", "text": "above" },
+        { "id": "cloze-03-b", "text": "of" },
+        { "id": "cloze-03-c", "text": "upon" },
+        { "id": "cloze-03-d", "text": "over" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-03-c"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "cloze-04-a", "text": "essential" },
+        { "id": "cloze-04-b", "text": "potential" },
+        { "id": "cloze-04-c", "text": "claimable" },
+        { "id": "cloze-04-d", "text": "obtainable" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-04-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "cloze-05-a", "text": "seized" },
+        { "id": "cloze-05-b", "text": "snatched" },
+        { "id": "cloze-05-c", "text": "grabbed" },
+        { "id": "cloze-05-d", "text": "captured" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-05-d"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "cloze-06-a", "text": "much" },
+        { "id": "cloze-06-b", "text": "any" },
+        { "id": "cloze-06-c", "text": "some" },
+        { "id": "cloze-06-d", "text": "certain" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-06-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "cloze-07-a", "text": "manageable" },
+        { "id": "cloze-07-b", "text": "manipulative" },
+        { "id": "cloze-07-c", "text": "operable" },
+        { "id": "cloze-07-d", "text": "controllable" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-07-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "cloze-08-a", "text": "after" },
+        { "id": "cloze-08-b", "text": "while" },
+        { "id": "cloze-08-c", "text": "since" },
+        { "id": "cloze-08-d", "text": "once" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-08-d"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "cloze-09-a", "text": "Apparently" },
+        { "id": "cloze-09-b", "text": "Noticeably" },
+        { "id": "cloze-09-c", "text": "Distinctly" },
+        { "id": "cloze-09-d", "text": "Notably" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-09-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "cloze-10-a", "text": "round" },
+        { "id": "cloze-10-b", "text": "over" },
+        { "id": "cloze-10-c", "text": "up" },
+        { "id": "cloze-10-d", "text": "through" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-10-c"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t1-q11",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "People who ask the question “Why don’t they get in touch with us... and declare themselves?” think that ____.",
+      "options": [
+        { "id": "t1-q11-a", "text": "there are no such things as UFOs" },
+        { "id": "t1-q11-b", "text": "UFOs are visitors from solar system" },
+        { "id": "t1-q11-c", "text": "there’s no reason for UFOs sooner or later" },
+        { "id": "t1-q11-d", "text": "we are bound to see UFOs sooner or later" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q11-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t1-q12",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to Dr. Mead, the attitude of beings from outer space toward us is one of ____.",
+      "options": [
+        { "id": "t1-q12-a", "text": "unfriendliness" },
+        { "id": "t1-q12-b", "text": "suspicion" },
+        { "id": "t1-q12-c", "text": "superiority" },
+        { "id": "t1-q12-d", "text": "hostility" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q12-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t1-q13",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The tone of the writer is that of ____.",
+      "options": [
+        { "id": "t1-q13-a", "text": "doubt" },
+        { "id": "t1-q13-b", "text": "warning" },
+        { "id": "t1-q13-c", "text": "indifference" },
+        { "id": "t1-q13-d", "text": "criticism" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q13-d"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t2-q14",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "More and more people can afford to buy and use cars because ____.",
+      "options": [
+        { "id": "t2-q14-a", "text": "an increasing number of cars are being produced" },
+        { "id": "t2-q14-b", "text": "the cost of cars is getting cheaper with the development of technology" },
+        { "id": "t2-q14-c", "text": "lots of countries have become more developed" },
+        { "id": "t2-q14-d", "text": "the use of cars has proved to be more economical" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q14-c"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t2-q15",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The advantages of having a car are best experienced in the driver’s ____.",
+      "options": [
+        { "id": "t2-q15-a", "text": "freedom in choosing his job" },
+        { "id": "t2-q15-b", "text": "comfort during the travels" },
+        { "id": "t2-q15-c", "text": "enjoyment of his leisure time" },
+        { "id": "t2-q15-d", "text": "feeling of self-reliance" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q15-d"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t2-q16",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "What is considered by the writer as the greatest menace to the people caused by the widespread use of motor cars?",
+      "options": [
+        { "id": "t2-q16-a", "text": "air pollution" },
+        { "id": "t2-q16-b", "text": "traffic jams" },
+        { "id": "t2-q16-c", "text": "fatal diseases" },
+        { "id": "t2-q16-d", "text": "high cost" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q16-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t3-q17",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "From what you have read, would you expect manners to improve among people ____?",
+      "options": [
+        { "id": "t3-q17-a", "text": "who are physically weak or crippled" },
+        { "id": "t3-q17-b", "text": "who once lived in a prison-camp during the War" },
+        { "id": "t3-q17-c", "text": "who live in big modern cities" },
+        { "id": "t3-q17-d", "text": "who live only in metropolitan cities" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q17-c"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t3-q18",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "What is the writer’s opinion concerning courteous manners towards women?",
+      "options": [
+        { "id": "t3-q18-a", "text": "Now that women have claimed equality, they no longer need to be treated differently from men." },
+        { "id": "t3-q18-b", "text": "It is generally considered old-fashioned for young men to give up their seats to young women." },
+        { "id": "t3-q18-c", "text": "“Lady First” should be universally practiced." },
+        { "id": "t3-q18-d", "text": "Special consideration ought to be shown them." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q18-d"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t3-q19",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "According to the author communication between human beings would be smoother if ____.",
+      "options": [
+        { "id": "t3-q19-a", "text": "people were more considerate towards each other" },
+        { "id": "t3-q19-b", "text": "people were not so tired and irritable" },
+        { "id": "t3-q19-c", "text": "women were treated with more courtesy" },
+        { "id": "t3-q19-d", "text": "public transport could be improved" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q19-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t3-q20",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "What is the possible meaning of the word “deterioration” in the last paragraph?",
+      "options": [
+        { "id": "t3-q20-a", "text": "worsening of general situation" },
+        { "id": "t3-q20-b", "text": "lowering of moral standards" },
+        { "id": "t3-q20-c", "text": "declining of physical constitution" },
+        { "id": "t3-q20-d", "text": "spreading of evil conduct" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q20-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "tr-21",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "she laboured over a microscope, hand-welding tiny electronic computers and turned out 18 per hour.",
+      "answer_key": {
+        "reference_text": "她吃力地伏在显微镜上干活，手焊体积很小的电子计算机，每小时能焊好18个。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-22",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "A plant follow-up survey showed that one year after the layoffs only 38% of the released workers found new employment at the same or better wages.",
+      "answer_key": {
+        "reference_text": "一家工厂的跟踪调查表明，被解雇的工人中一年后只有38%的人找到了与原工资相等或优于原工资的新工作。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-23",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Its beginnings obscured by unemployment caused by the world economic slow-down, the new technological unemployment may emerge as the great socio-economic challenge of the end of the 20th century.",
+      "answer_key": {
+        "reference_text": "虽然它（新技术的采用导致失业上升）一开始被全球性的经济衰退所引起的失业所掩盖，但到20世纪末，新技术所引起的失业问题可能会构成对社会经济的巨大挑战。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-24",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "“It’s humiliating to be done out of your job by a machine and there is no way to fight back, but it is the effort to find a new job that really hurts.”",
+      "answer_key": {
+        "reference_text": "被一台机器抢走你的工作是很伤自尊心的，可又没法还击，但真正伤我心的是要费很大的劲去寻找新的工作。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-25",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The old workers, trapped by their limited skills, often never regain their old status and employment.",
+      "answer_key": {
+        "reference_text": "老工人由于处于技术掌握得很有限的困境，往往不能重新获得其原有的地位和就业机会。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-26",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The social costs go far beyond the welfare and unemployment payments made by the government.",
+      "answer_key": {
+        "reference_text": "要付出的社会代价远远超过政府在福利与失业救济方面的开支。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-27",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "But futurologist Hymen Seymour says the astonishing efficiency of the new technology means there will be a simple and direct net reduction in the amount of human labor that needs to be done.",
+      "answer_key": {
+        "reference_text": "但是未来学家海曼·西摩说，新技术所具有的惊人效率意味着所需要的劳力将出现一个绝对的和直接的净减数。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-28",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Federally funded training and free back-to-school programs for laid-off workers are under way, but few experts believe they will be able to keep up with the pace of the new technology.",
+      "answer_key": {
+        "reference_text": "为失业工人提供的由联邦政府资助的培训计划和免费重返学校学习的计划目前都在实施中，但很少有专家认为这些计划能跟得上新技术的发展步伐。"
+      },
+      "max_score_units": 250
+    }
+  ]
+}

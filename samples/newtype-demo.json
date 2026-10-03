@@ -1,0 +1,97 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2026,
+    "paper": "英语一（原创演示卷）",
+    "title": "2026 拾题演示卷 · 新题型（7选5）交互验证",
+    "total_score_units": 1000,
+    "duration_minutes": 40,
+    "source_file": "shiti-workbench/samples/newtype-demo.json",
+    "converted_by": "拾题内置示例",
+    "converted_at": "2026-10-01T12:00:00+08:00",
+    "license_note": "原创演示内容，仅用于功能验证，非真实考题",
+    "notes": "演示 7选5 新题型的建模与界面：每空一题的单选，同一组选项在各空重复给出；材料含 __41__ 样式空位。"
+  },
+  "set": { "title": "2026 拾题演示卷 · 新题型（7选5）交互验证（演示）" },
+  "sections": [
+    {
+      "id": "Section II · 新题型 Part B",
+      "part": "Section II · Part B",
+      "title": "新题型（7选5）",
+      "directions": [
+        "In the following text, some sentences have been removed. Choose the most suitable one from the list A–E to fit into each of the numbered blanks. There are two extra choices, which do not fit in any of the blanks. Mark your answers on the ANSWER SHEET 1. (10 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "newtype",
+      "title": "Part B · 7选5 原文",
+      "section": "Section II · 新题型 Part B",
+      "blocks": [
+        { "id": "p1", "type": "paragraph", "text": "Habit formation is often described as a matter of willpower, yet the evidence points elsewhere. __41__ When the sight of running shoes by the door becomes part of the morning scenery, the decision to exercise has already been half made." },
+        { "id": "p2", "type": "paragraph", "text": "Environment beats motivation over the long run. __42__ A reader who keeps a book on the pillow reads more pages a year than one who relies on evening enthusiasm." },
+        { "id": "p3", "type": "paragraph", "text": "None of this happens overnight. __43__ The point is not to design a perfect system on the first day, but to let a modest one survive its first boring week." }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "nt-41",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 41 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "Design your surroundings so that the good choice is also the convenient one." },
+        { "id": "nt-b", "text": "Researchers who track daily routines find that context, not character, decides most repeated actions." },
+        { "id": "nt-c", "text": "The same principle explains why few people succeed by keeping a rigid hourly schedule." },
+        { "id": "nt-d", "text": "Small, repeated cues gradually turn an intention into an automatic habit." },
+        { "id": "nt-e", "text": "Critics argue that such methods reduce rich lives to checklists." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-d"] },
+      "explanation": "P1 先否定意志力，再引出环境线索使行动自动化的观点，D 承接语义。",
+      "max_score_units": 200,
+      "source_ref": "P1 空位",
+      "tags": ["新题型", "7选5"]
+    },
+    {
+      "id": "nt-42",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 42 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "Design your surroundings so that the good choice is also the convenient one." },
+        { "id": "nt-b", "text": "Researchers who track daily routines find that context, not character, decides most repeated actions." },
+        { "id": "nt-c", "text": "The same principle explains why few people succeed by keeping a rigid hourly schedule." },
+        { "id": "nt-d", "text": "Small, repeated cues gradually turn an intention into an automatic habit." },
+        { "id": "nt-e", "text": "Critics argue that such methods reduce rich lives to checklists." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-a"] },
+      "explanation": "P2 主题是环境胜过动力，A 的 surroundings 对应 Environment。",
+      "max_score_units": 200,
+      "source_ref": "P2 空位",
+      "tags": ["新题型", "7选5"]
+    },
+    {
+      "id": "nt-43",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 43 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "Design your surroundings so that the good choice is also the convenient one." },
+        { "id": "nt-b", "text": "Researchers who track daily routines find that context, not character, decides most repeated actions." },
+        { "id": "nt-c", "text": "The same principle explains why few people succeed by keeping a rigid hourly schedule." },
+        { "id": "nt-d", "text": "Small, repeated cues gradually turn an intention into an automatic habit." },
+        { "id": "nt-e", "text": "Critics argue that such methods reduce rich lives to checklists." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-c"] },
+      "explanation": "P3 强调不追求一步到位，C 的 rigid hourly schedule 与 perfect system 相对。",
+      "max_score_units": 200,
+      "source_ref": "P3 空位",
+      "tags": ["新题型", "7选5"]
+    }
+  ]
+}

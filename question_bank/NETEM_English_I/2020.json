@@ -1,0 +1,1122 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2020,
+    "paper": "英语一",
+    "title": "2020年全国硕士研究生入学统一考试英语（一）试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2020.md",
+    "source_images": "TestPaper/images/2020/",
+    "converted_by": "AI 转译任务 2026-10-03",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "源 md 无答案区，45 道客观题答案全部取自配套答案 PDF（KaoYan-English/答案解析/2020年考研英语真题答案及解析.pdf）。源 md 为 OCR 件，已修复明显误植：完形空位裸数字改为 __N__ 并按原卷复位第3空；worming/warming→warning、eve→eye、fist→list、Unite Sates→United States、curren→current、eye-cotching→eye-catching；Text 4 重复段落已去重；全角标点转半角。Part B 为7选5（B、F 为多余项），第45空后的段落源 md 缺失，材料截至第45空。大作文 Directions 末行 You should write neatly on the ANSWER SHEET. (20 points) 按标准卷补回。参考译文/范文按答案 PDF 誊录、个别语句略作顺滑。全部题目解析从略（产生52条 NO_EXPLANATION 警告）。"
+  },
+  "set": {
+    "title": "2020年全国硕士研究生入学统一考试英语（一）试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · Use of English",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · Reading Comprehension Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions below each text by choosing A, B, C or D. Mark your answers on the ANSWER SHEET. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · Reading Comprehension Part B",
+      "part": "Section II · Part B",
+      "title": "新题型",
+      "directions": [
+        "In the following text, some sentences have been removed. For Questions 41-45, choose the most suitable one from the list A-G to fit into each of the numbered blanks. There are two extra choices, which do not fit in any of the gaps. Mark your answers on ANSWER SHEET. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · Reading Comprehension Part C",
+      "part": "Section II · Part C",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written neatly on the ANSWER SHEET. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · Writing Part A",
+      "part": "Section III · Part A",
+      "title": "应用文写作",
+      "directions": [
+        "The student union of your university has assigned you to inform the international students about an upcoming singing contest. Write a notice in about 100 words.",
+        "Write your answer on the ANSWER SHEET.",
+        "Do not use your own name in the notice. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · Writing Part B",
+      "part": "Section III · Part B",
+      "title": "短文写作",
+      "directions": [
+        "Write an essay of 160-200 words based on the pictures below. In your essay, you should",
+        "1) describe the picture briefly.",
+        "2) interpret the implied meaning, and",
+        "3) give your comments.",
+        "You should write neatly on the ANSWER SHEET. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · Use of English 原文",
+      "section": "Section I · Use of English",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Even if families don’t sit down to eat together as frequently as before, millions of Britons will nonetheless have got a share this weekend of one of that nation’s great traditions: the Sunday roast. __1__ a cold winter’s day, few culinary pleasures can __2__ it. Yet as we report now, the food police are determined that this __3__ should be rendered yet another guilty pleasure __4__ to damage our health."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The Food Standards Authority (FSA) has __5__ a public warning about the risks of a compound called acrylamide that forms in some foods cooked __6__ high temperatures. This means that people should __7__ crisping their roast potatoes, reject thin-crust pizzas and only __8__ toast their bread. But where is the evidence to support such alarmist advice? __9__ studies have shown that acrylamide can cause neurological damage in mice, there is no __10__ evidence that it causes cancer in humans."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Scientists say the compound is __11__ to cause cancer but have no hard scientific proof. __12__ the precautionary principle, it could be argued that it is __13__ to follow the FSA advice. __14__, it was rumoured that smoking caused cancer for years before the evidence was found to prove a __15__."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Doubtless a piece of boiled beef can always be __16__ up on Sunday alongside some steamed vegetables, without the Yorkshire pudding and no wine. But would life be worth living? __17__, the FSA says it is not telling people to cut out roast foods __18__, but reduce their lifetime intake. However its __19__ risks coming across as being pushy and overprotective. Constant health scares just __20__ with no one listening."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · Reading Comprehension Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "A group of labour MPs, among them Yvette Cooper, are bringing in the new year with a call to institute a UK “town of culture” award. The proposal is that it should sit alongside the existing city of culture title, which was held by Hull in 2017 and has been awarded to Coventry for 2021. Cooper and her colleagues argue that the success of the crown for Hull, where it brought in £220m of investment and an avalanche of arts, ought not to be confined to cities. Britain’s towns, it is true, are not prevented from applying, but they generally lack the resources to put together a bid to beat their bigger competitions. A town of culture award could, it is argued, become an annual event, attracting funding and creating jobs."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Some might see the proposal as a booby prize for the fact that Britain is no longer able to apply for the much more prestigious title of European capital of culture, a sought-after award bagged by Glasgow in 1990 and Liverpool in 2008. A cynic might speculate that the UK is on the verge of disappearing into an endless fever of self-celebration in its desperation to reinvent itself for the post-Brexit world: after town of culture, who knows what will follow—village of culture? Suburb of culture? Hamlet of culture?"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "It is also wise to recall that such titles are not a cure-all. A badly run “year of culture” washes in and out of a place like the tide, bringing prominence for a spell but leaving no lasting benefits to the community. The really successful holders of such titles are those that do a great deal more than fill hotel bedrooms and bring in high-profile arts events and good press for a year. They transform the aspirations of the people who live there; they nudge the self-image of the city into a bolder and more optimistic light. It is hard to get right, and requires a remarkable degree of vision, as well as cooperation between city authorities, the private sector, community groups and cultural organisations. But it can be done: Glasgow’s year as European capital of culture can certainly be seen as one of complex series of factors that have turned the city into the power of art, music and theatre that it remains today."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "A “town of culture” could be not just about the arts but about honouring a town’s peculiarities—helping sustain its high street, supporting local facilities and above all celebrating its people and turn it into action."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · Reading Comprehension Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Scientific publishing has long been a licence to print money. Scientists need journals in which to publish their research, so they will supply the articles without monetary reward. Other scientists perform the specialised work of peer review also for free, because it is a central element in the acquisition of status and the production of scientific knowledge."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "With the content of papers secured for free, the publisher needs only find a market for its journal. Until this century, university libraries were not very price sensitive. Scientific publishers routinely report profit margins approaching 40% on their operations, at a time when the rest of the publishing industry is in an existential crisis."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The Dutch giant Elsevier, which claims to publish 25% of the scientific papers produced in the world, made profits of more than £900m last year, while UK universities alone spent more than £210m in 2016 to enable researchers to access their own publicly funded research: both figures seem to rise unstoppably despite increasingly desperate efforts to change them."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The most drastic, and thoroughly illegal, reaction has been the emergence of Sci-Hub, a kind of global photocopier for scientific papers, set up in 2012, which now claims to offer access to every paywalled article published since 2015. The success of Sci-Hub, which relies on researchers passing on copies they have themselves legally accessed, shows the legal ecosystem has lost legitimacy among its users and must be transformed so that it works for all participants."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "In Britain the move towards open access publishing has been driven by funding bodies. In some ways it has been very successful. More than half of all British scientific research is now published under open access terms: either freely available from the moment of publication, or paywalled for a year or more so that the publishers can make a profit before being placed on general release."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Yet the new system has not worked out any cheaper for the universities. Publishers have responded to the demand that they make their product free to readers by charging their writers fees to cover the costs of preparing an article. These range from around £500 to £5,000. A report last year pointed out that the costs both of subscriptions and of these “article preparation costs” had been steadily rising at a rate above inflation. In some ways the scientific publishing model resembles the economy of the social internet: labour is provided free in exchange for the hope of status, while huge profits are made by a few big firms who run the market places. In both cases, we need a rebalancing of power."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · Reading Comprehension Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Progressives often support diversity mandates as a path to equality and a way to level the playing field. But all too often such policies are an insincere form of virtue-signaling that benefits only the most privileged and does little to help average people."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "A pair of bills sponsored by Massachusetts state Senator Jason Lewis and House Speaker Pro Tempore Patricia Haddad, to ensure “gender parity” on boards and commissions, provide a case in point."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Haddad and Lewis are concerned that more than half the state-government boards are less than 40 percent female. In order to ensure that elite women have more such opportunities, they have proposed imposing government quotas. If the bills become law, state boards and commissions will be required to set aside 50 percent of board seats for women by 2022."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The bills are similar to a measure recently adopted in California, which last year became the first state to require gender quotas for private companies. In signing the measure, California Governor Jerry Brown admitted that the law, which expressly classifies people on the basis of sex, is probably unconstitutional."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "The US Supreme Court frowns on sex-based classifications unless they are designed to address an “important” policy interest. Because the California law applies to all boards, even where there is no history of prior discrimination, courts are likely to rule that the law violates the constitutional guarantee of “equal protection”."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "But are such government mandates even necessary? Female participation on corporate boards may not currently mirror the percentage of women in the general population, but so what?"
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "The number of women on corporate boards has been steadily increasing without government interference. According to a study by Catalyst, between 2010 and 2015 the share of women on the boards of global corporations increased by 54 percent."
+        },
+        {
+          "id": "p8",
+          "type": "paragraph",
+          "text": "Requiring companies to make gender the primary qualification for board membership will inevitably lead to less experienced private sector boards. That is exactly what happened when Norway adopted a nationwide corporate gender quota."
+        },
+        {
+          "id": "p9",
+          "type": "paragraph",
+          "text": "Writing in The New Republic, Alice Lee notes that increasing the number of opportunities for board membership without increasing the pool of qualified women to serve on such boards has led to a “golden skirt” phenomenon, where the same elite women scoop up multiple seats on a variety of boards."
+        },
+        {
+          "id": "p10",
+          "type": "paragraph",
+          "text": "Next time somebody pushes corporate quotas as a way to promote gender equity, remember that such policies are largely self-serving measures that make their sponsors feel good but do little to help average women."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · Reading Comprehension Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Last Thursday, the French Senate passed a digital services tax, which would impose an entirely new tax on large multinationals that provide digital services to consumers or users in France. Digital services include everything from providing a platform for selling goods and services online to targeting advertising based on user data, and the tax applies to gross revenue from such services. Many French politicians and media outlets have referred to this as a “GAFA tax,” meaning that it is designed to apply primarily to companies such as Google, Apple, Facebook and Amazon—in other words, multinational tech companies based in the United States."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The digital services tax now awaits the signature of President Emmanuel Macron, who has expressed support for the measure, and it could go into effect within the next few weeks. But it has already sparked significant controversy, with the United States trade representative opening an investigation into whether the tax discriminates against American companies, which in turn could lead to trade sanctions against France."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The French tax is not just a unilateral move by one country in need of revenue. Instead, the digital services tax is part of a much larger trend, with countries over the past few years proposing or putting in place an alphabet soup of new international tax provisions. These have included Britain’s DPT (diverted profits tax), Australia’s MAAL (multinational antiavoidance law), and India’s SEP (significant economic presence) test, to name but a few. At the same time, the European Union, Spain, Britain and several other countries have all seriously contemplated digital services taxes."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "These unilateral developments differ in their specifics, but they are all designed to tax multinationals on income and revenue that countries believe they should have a right to tax, even if international tax rules do not grant them that right. In other words, they all share a view that the international tax system has failed to keep up with the current economy."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "In response to these many unilateral measures, the Organization for Economic Cooperation and Development (OECD) is currently working with 131 countries to reach a consensus by the end of 2020 on an international solution. Both France and the United States are involved in the organization’s work, but France’s digital services tax and the American response raise questions about what the future holds for the international tax system."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "France’s planned tax is a clear warning: Unless a broad consensus can be reached on reforming the international tax system, other nations are likely to follow suit, and American companies will face a cascade of different taxes from dozens of nations that will prove burdensome and costly."
+        }
+      ]
+    },
+    {
+      "id": "newtype",
+      "title": "Section II · Part B 7选5原文",
+      "section": "Section II · Reading Comprehension Part B",
+      "source_ref": "源 md 缺失第45空后的段落，语境不完整，详见 meta.notes",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In a social situation, eye contact with another person can show that you are paying attention in a friendly way. But it can also be antagonistic, such as when a political candidate turns toward their competitor during a debate and makes eye contact that signals hostility. Here’s what hard science reveals about eye contact:"
+        },
+        {
+          "id": "g41",
+          "type": "paragraph",
+          "text": "__41__"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "We know that a typical infant will instinctively gaze into its mother’s eyes, and she will look back. This mutual gaze is a major part of the attachment between mother and child. In adulthood, looking someone else in a pleasant way can be a complimentary sign of paying attention. It can catch someone’s attention in a crowded room. “Eye contact and smile” can signal availability and confidence, a common-sense notion supported in studies by psychologist Monica Moore."
+        },
+        {
+          "id": "g42",
+          "type": "paragraph",
+          "text": "__42__"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Neuroscientist Bonnie Augeung found that the hormone oxytocin increased the amount of eye contact from men toward the interviewer during a brief interview when the direction of their gaze was recorded. This was also found in high-functioning men with some autistic spectrum symptoms, who may tend to avoid eye contact. Specific brain regions that respond during direct gaze are being explored by other researchers, using advanced methods of brain scanning."
+        },
+        {
+          "id": "g43",
+          "type": "paragraph",
+          "text": "__43__"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "With the use of eye-tracking technology, Julia Minson of the Harvard Kennedy School of Government concluded that eye contact can signal very different kinds of messages, depending on the situation. While eye contact may be a sign of connection or trust in friendly situations, it’s more likely to be associated with dominance or intimidation in adversarial situations. “Whether you’re a politician or a parent, it might be helpful to keep in mind that trying to maintain eye contact may backfire if you’re trying to convince someone who has a different set of beliefs than you,” said Minson."
+        },
+        {
+          "id": "g44",
+          "type": "paragraph",
+          "text": "__44__"
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "When we look at a face or a picture, our eyes pause on one spot at a time, often on the eyes or mouth. These pauses typically occur at about three per second, and the eyes then jump to another spot, until several important points in the image are registered like a series of snapshots. How the whole image is then assembled and perceived is still a mystery although it is the subject of current research."
+        },
+        {
+          "id": "g45",
+          "type": "paragraph",
+          "text": "__45__"
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · Part C 翻译原文",
+      "section": "Section II · Reading Comprehension Part C",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Following the explosion of creativity in Florence during the 14th century known as the Renaissance, the modern world saw a departure from what it had once known. It turned from God and the authority of the Roman Catholic Church and instead favoured a more humanistic approach to being. Renaissance ideas had spread throughout Europe well into the 17th century, with the arts and sciences flourishing extraordinarily among those with a more logical disposition. 【46】 With the Church’s teachings and ways of thinking eclipsed by the Renaissance, the gap between the Medieval and modern periods had been bridged leading to new and unexplored intellectual territories."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "During the Renaissance, the great minds of Nicolaus Copernicus, Johannes Kepler and Galileo Galilei demonstrated the power of scientific study and discovery. 【47】 Before each of their revelations, many thinkers at the time had sustained more ancient ways of thinking, including the geo-centric view that the Earth was at the centre of our universe. Copernicus theorized in 1543 that all of the planets that we knew of revolved not around the Earth, but the Sun, a system that was later upheld by Galileo at his own expense. Offering up such a theory during a time of high tension between scientific and religious minds was branded as heresy, and any such heretics that continued to spread these lies were to be punished by imprisonment or even death."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "【48】 Despite attempts by the Church to suppress this new generation of logicians and rationalists, more explanations for how the universe functioned were being made at a rate that the people could no longer ignore. It was with these great revelations that a new kind of philosophy founded in reason was born."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The Church’s long-standing dogma was losing the great battle for truth to rationalists and scientists. This very fact embodied the new ways of thinking that swept through Europe during most of the 17th century. 【49】 As many took on the duty of trying to integrate reasoning and scientific philosophies into the world, the Renaissance was over and it was time for a new era—the Age of Reason."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "The 17th and 18th centuries were times of radical change and curiosity. Scientific method, reductionism and the questioning of Church ideals was to be encouraged, as were ideas of liberty, tolerance and progress. 【50】 Such actions to seek knowledge and to understand what information we already knew were captured by the Latin phrase ‘sapere aude’ or ‘dare to know’, after Immanuel Kant used it in his essay “An Answer to the Question: What is Enlightenment?”. It was the purpose and responsibility of great minds to go forth and seek out the truth, which they believed to be founded in knowledge."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "cloze-01-a", "text": "In" },
+        { "id": "cloze-01-b", "text": "Towards" },
+        { "id": "cloze-01-c", "text": "On" },
+        { "id": "cloze-01-d", "text": "Till" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-01-c"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "cloze-02-a", "text": "match" },
+        { "id": "cloze-02-b", "text": "express" },
+        { "id": "cloze-02-c", "text": "satisfy" },
+        { "id": "cloze-02-d", "text": "influence" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-02-a"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "cloze-03-a", "text": "patience" },
+        { "id": "cloze-03-b", "text": "enjoyment" },
+        { "id": "cloze-03-c", "text": "surprise" },
+        { "id": "cloze-03-d", "text": "concern" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-03-b"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "cloze-04-a", "text": "intensified" },
+        { "id": "cloze-04-b", "text": "privileged" },
+        { "id": "cloze-04-c", "text": "compelled" },
+        { "id": "cloze-04-d", "text": "guaranteed" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-04-d"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "cloze-05-a", "text": "issued" },
+        { "id": "cloze-05-b", "text": "received" },
+        { "id": "cloze-05-c", "text": "ignored" },
+        { "id": "cloze-05-d", "text": "cancelled" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-05-a"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "cloze-06-a", "text": "under" },
+        { "id": "cloze-06-b", "text": "at" },
+        { "id": "cloze-06-c", "text": "for" },
+        { "id": "cloze-06-d", "text": "by" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-06-b"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "cloze-07-a", "text": "forget" },
+        { "id": "cloze-07-b", "text": "regret" },
+        { "id": "cloze-07-c", "text": "finish" },
+        { "id": "cloze-07-d", "text": "avoid" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-07-d"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "cloze-08-a", "text": "partially" },
+        { "id": "cloze-08-b", "text": "regularly" },
+        { "id": "cloze-08-c", "text": "easily" },
+        { "id": "cloze-08-d", "text": "initially" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-08-a"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "cloze-09-a", "text": "Unless" },
+        { "id": "cloze-09-b", "text": "Since" },
+        { "id": "cloze-09-c", "text": "If" },
+        { "id": "cloze-09-d", "text": "While" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-09-d"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "cloze-10-a", "text": "secondary" },
+        { "id": "cloze-10-b", "text": "external" },
+        { "id": "cloze-10-c", "text": "conclusive" },
+        { "id": "cloze-10-d", "text": "negative" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-10-c"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        { "id": "cloze-11-a", "text": "insufficient" },
+        { "id": "cloze-11-b", "text": "bound" },
+        { "id": "cloze-11-c", "text": "likely" },
+        { "id": "cloze-11-d", "text": "slow" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-11-c"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        { "id": "cloze-12-a", "text": "On the basis of" },
+        { "id": "cloze-12-b", "text": "At the cost of" },
+        { "id": "cloze-12-c", "text": "In addition to" },
+        { "id": "cloze-12-d", "text": "In contrast to" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-12-a"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        { "id": "cloze-13-a", "text": "interesting" },
+        { "id": "cloze-13-b", "text": "advisable" },
+        { "id": "cloze-13-c", "text": "urgent" },
+        { "id": "cloze-13-d", "text": "fortunate" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-13-b"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        { "id": "cloze-14-a", "text": "As usual" },
+        { "id": "cloze-14-b", "text": "In particular" },
+        { "id": "cloze-14-c", "text": "By definition" },
+        { "id": "cloze-14-d", "text": "After all" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-14-d"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        { "id": "cloze-15-a", "text": "resemblance" },
+        { "id": "cloze-15-b", "text": "combination" },
+        { "id": "cloze-15-c", "text": "connection" },
+        { "id": "cloze-15-d", "text": "pattern" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-15-c"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        { "id": "cloze-16-a", "text": "made" },
+        { "id": "cloze-16-b", "text": "served" },
+        { "id": "cloze-16-c", "text": "saved" },
+        { "id": "cloze-16-d", "text": "used" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-16-b"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        { "id": "cloze-17-a", "text": "To be fair" },
+        { "id": "cloze-17-b", "text": "For instance" },
+        { "id": "cloze-17-c", "text": "To be brief" },
+        { "id": "cloze-17-d", "text": "In general" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-17-a"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        { "id": "cloze-18-a", "text": "reluctantly" },
+        { "id": "cloze-18-b", "text": "entirely" },
+        { "id": "cloze-18-c", "text": "gradually" },
+        { "id": "cloze-18-d", "text": "carefully" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-18-b"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        { "id": "cloze-19-a", "text": "promise" },
+        { "id": "cloze-19-b", "text": "experience" },
+        { "id": "cloze-19-c", "text": "campaign" },
+        { "id": "cloze-19-d", "text": "competition" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-19-c"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        { "id": "cloze-20-a", "text": "follow up" },
+        { "id": "cloze-20-b", "text": "pick up" },
+        { "id": "cloze-20-c", "text": "open up" },
+        { "id": "cloze-20-d", "text": "end up" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-20-d"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "t1-q21",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Cooper and her colleagues argue that a “town of culture” award could",
+      "options": [
+        { "id": "t1-q21-a", "text": "consolidate the town-city ties in Britain." },
+        { "id": "t1-q21-b", "text": "promote cooperation among Britain’s towns." },
+        { "id": "t1-q21-c", "text": "increase the economic strength of Britain’s towns." },
+        { "id": "t1-q21-d", "text": "focus Britain’s limited resources on cultural events." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q21-c"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t1-q22",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to Paragraph 2, the proposal might be regarded by some as",
+      "options": [
+        { "id": "t1-q22-a", "text": "a sensible compromise." },
+        { "id": "t1-q22-b", "text": "a self-deceiving attempt." },
+        { "id": "t1-q22-c", "text": "an eye-catching bonus." },
+        { "id": "t1-q22-d", "text": "an inaccessible target." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q22-b"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t1-q23",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The author suggests that a title holder is successful only if it",
+      "options": [
+        { "id": "t1-q23-a", "text": "endeavours to maintain its image." },
+        { "id": "t1-q23-b", "text": "meets the aspirations of its people." },
+        { "id": "t1-q23-c", "text": "brings its local arts to prominence." },
+        { "id": "t1-q23-d", "text": "commits to its long-term growth." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q23-d"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t1-q24",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Glasgow is mentioned in Paragraph 3 to present",
+      "options": [
+        { "id": "t1-q24-a", "text": "a contrasting case." },
+        { "id": "t1-q24-b", "text": "a supporting example." },
+        { "id": "t1-q24-c", "text": "a background story." },
+        { "id": "t1-q24-d", "text": "a related topic." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q24-b"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t1-q25",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "What is the author’s attitude towards the proposal?",
+      "options": [
+        { "id": "t1-q25-a", "text": "Skeptical" },
+        { "id": "t1-q25-b", "text": "Objective" },
+        { "id": "t1-q25-c", "text": "Favourable" },
+        { "id": "t1-q25-d", "text": "Critical" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q25-c"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t2-q26",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Scientific publishing is seen as “a licence to print money” partly because",
+      "options": [
+        { "id": "t2-q26-a", "text": "its content acquisition costs nothing." },
+        { "id": "t2-q26-b", "text": "its marketing strategy has been successful." },
+        { "id": "t2-q26-c", "text": "its payment for peer review is reduced." },
+        { "id": "t2-q26-d", "text": "its funding has enjoyed a steady increase." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q26-a"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t2-q27",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "According to Paragraphs 2 and 3, scientific publishers Elsevier have",
+      "options": [
+        { "id": "t2-q27-a", "text": "financed researchers generously." },
+        { "id": "t2-q27-b", "text": "gone through an existential crisis." },
+        { "id": "t2-q27-c", "text": "revived the publishing industry." },
+        { "id": "t2-q27-d", "text": "thrived mainly on university libraries." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q27-d"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t2-q28",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "How does the author feel about the success of Sci-Hub?",
+      "options": [
+        { "id": "t2-q28-a", "text": "Relieved." },
+        { "id": "t2-q28-b", "text": "Concerned." },
+        { "id": "t2-q28-c", "text": "Puzzled." },
+        { "id": "t2-q28-d", "text": "Encouraged." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q28-b"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t2-q29",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "It can be learned from Paragraphs 5 and 6 that open access terms",
+      "options": [
+        { "id": "t2-q29-a", "text": "free universities from financial burdens." },
+        { "id": "t2-q29-b", "text": "render publishing much easier for scientists." },
+        { "id": "t2-q29-c", "text": "reduce the cost of publication substantially." },
+        { "id": "t2-q29-d", "text": "allow publishers some room to make money." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q29-d"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t2-q30",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Which of the following characterises the scientific publishing model?",
+      "options": [
+        { "id": "t2-q30-a", "text": "Trial subscription is offered." },
+        { "id": "t2-q30-b", "text": "Labour triumphs over status." },
+        { "id": "t2-q30-c", "text": "The few feed on the many." },
+        { "id": "t2-q30-d", "text": "Costs are well controlled." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q30-c"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t3-q31",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The author believes that the bills sponsored by Lewis and Haddad will",
+      "options": [
+        { "id": "t3-q31-a", "text": "help little to reduce gender bias." },
+        { "id": "t3-q31-b", "text": "pose a threat to the state government." },
+        { "id": "t3-q31-c", "text": "raise women’s position in politics." },
+        { "id": "t3-q31-d", "text": "greatly broaden career options." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q31-a"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t3-q32",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Which of the following is true of the California measure?",
+      "options": [
+        { "id": "t3-q32-a", "text": "It has irritated private business owners." },
+        { "id": "t3-q32-b", "text": "It is welcomed by the Supreme Court." },
+        { "id": "t3-q32-c", "text": "It may go against the Constitution." },
+        { "id": "t3-q32-d", "text": "It will settle the prior controversies." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q32-c"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t3-q33",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The author mentions the study by Catalyst to illustrate",
+      "options": [
+        { "id": "t3-q33-a", "text": "the harm from arbitrary board decision." },
+        { "id": "t3-q33-b", "text": "the importance of constitutional guarantees." },
+        { "id": "t3-q33-c", "text": "the pressure on women in global corporations." },
+        { "id": "t3-q33-d", "text": "the needlessness of government interventions." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q33-d"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t3-q34",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Norway’s adoption of a nationwide corporate gender quota has led to",
+      "options": [
+        { "id": "t3-q34-a", "text": "the underestimation of elite women’s role." },
+        { "id": "t3-q34-b", "text": "the objection to female participation on boards." },
+        { "id": "t3-q34-c", "text": "the entry of unqualified candidates into the board." },
+        { "id": "t3-q34-d", "text": "the growing tension between labor and management." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q34-c"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t3-q35",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Which of the following can be inferred from the text?",
+      "options": [
+        { "id": "t3-q35-a", "text": "Women’s need in employment should be considered." },
+        { "id": "t3-q35-b", "text": "Feasibility should be a prime concern in policymaking." },
+        { "id": "t3-q35-c", "text": "Everyone should try hard to promote social justice." },
+        { "id": "t3-q35-d", "text": "Major social issues should be the focus of legislation." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q35-b"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t4-q36",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The French Senate has passed a bill to",
+      "options": [
+        { "id": "t4-q36-a", "text": "regulate digital services platforms." },
+        { "id": "t4-q36-b", "text": "protect French companies’ interests." },
+        { "id": "t4-q36-c", "text": "impose a levy on tech multinationals." },
+        { "id": "t4-q36-d", "text": "curb the influence of advertising." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q36-c"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t4-q37",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "It can be learned from Paragraph 2 that the digital services tax",
+      "options": [
+        { "id": "t4-q37-a", "text": "may trigger countermeasures against France." },
+        { "id": "t4-q37-b", "text": "is apt to arouse criticism at home and abroad." },
+        { "id": "t4-q37-c", "text": "aims to ease international trade tensions." },
+        { "id": "t4-q37-d", "text": "will prompt the tech giants to quit France." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q37-a"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t4-q38",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The countries adopting the unilateral measures share the opinion that",
+      "options": [
+        { "id": "t4-q38-a", "text": "redistribution of tech giants’ revenue must be ensured." },
+        { "id": "t4-q38-b", "text": "the current international tax system needs upgrading." },
+        { "id": "t4-q38-c", "text": "tech multinationals’ monopoly should be prevented." },
+        { "id": "t4-q38-d", "text": "all countries ought to enjoy equal taxing rights." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q38-b"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t4-q39",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "It can be learned from Para 5 that the OECD’s current work",
+      "options": [
+        { "id": "t4-q39-a", "text": "is being resisted by US companies." },
+        { "id": "t4-q39-b", "text": "needs to be readjusted immediately." },
+        { "id": "t4-q39-c", "text": "is faced with uncertain prospects." },
+        { "id": "t4-q39-d", "text": "needs to involve more countries." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q39-c"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t4-q40",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Which of the following might be the best title for this text?",
+      "options": [
+        { "id": "t4-q40-a", "text": "France Is Confronted with Trade Sanctions" },
+        { "id": "t4-q40-b", "text": "France leads the charge on Digital Tax" },
+        { "id": "t4-q40-c", "text": "France Says “NO” to Tech Multinationals" },
+        { "id": "t4-q40-d", "text": "France Demands a Role in the Digital Economy" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q40-b"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "nt-41",
+      "section": "Section II · Reading Comprehension Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 41 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "A. Eye fixations are brief" },
+        { "id": "nt-b", "text": "B. Too much eye contact is instinctively felt to be rude" },
+        { "id": "nt-c", "text": "C. Eye contact can be a friendly social signal" },
+        { "id": "nt-d", "text": "D. Personality can affect how a person reacts to eye contact" },
+        { "id": "nt-e", "text": "E. Biological factors behind eye contact are being investigated" },
+        { "id": "nt-f", "text": "F. Most people are not comfortable holding eye contact with strangers" },
+        { "id": "nt-g", "text": "G. Eye contact can also be aggressive." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-c"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "nt-42",
+      "section": "Section II · Reading Comprehension Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 42 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "A. Eye fixations are brief" },
+        { "id": "nt-b", "text": "B. Too much eye contact is instinctively felt to be rude" },
+        { "id": "nt-c", "text": "C. Eye contact can be a friendly social signal" },
+        { "id": "nt-d", "text": "D. Personality can affect how a person reacts to eye contact" },
+        { "id": "nt-e", "text": "E. Biological factors behind eye contact are being investigated" },
+        { "id": "nt-f", "text": "F. Most people are not comfortable holding eye contact with strangers" },
+        { "id": "nt-g", "text": "G. Eye contact can also be aggressive." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-e"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "nt-43",
+      "section": "Section II · Reading Comprehension Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 43 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "A. Eye fixations are brief" },
+        { "id": "nt-b", "text": "B. Too much eye contact is instinctively felt to be rude" },
+        { "id": "nt-c", "text": "C. Eye contact can be a friendly social signal" },
+        { "id": "nt-d", "text": "D. Personality can affect how a person reacts to eye contact" },
+        { "id": "nt-e", "text": "E. Biological factors behind eye contact are being investigated" },
+        { "id": "nt-f", "text": "F. Most people are not comfortable holding eye contact with strangers" },
+        { "id": "nt-g", "text": "G. Eye contact can also be aggressive." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-g"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "nt-44",
+      "section": "Section II · Reading Comprehension Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 44 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "A. Eye fixations are brief" },
+        { "id": "nt-b", "text": "B. Too much eye contact is instinctively felt to be rude" },
+        { "id": "nt-c", "text": "C. Eye contact can be a friendly social signal" },
+        { "id": "nt-d", "text": "D. Personality can affect how a person reacts to eye contact" },
+        { "id": "nt-e", "text": "E. Biological factors behind eye contact are being investigated" },
+        { "id": "nt-f", "text": "F. Most people are not comfortable holding eye contact with strangers" },
+        { "id": "nt-g", "text": "G. Eye contact can also be aggressive." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-a"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "nt-45",
+      "section": "Section II · Reading Comprehension Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 45 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "A. Eye fixations are brief" },
+        { "id": "nt-b", "text": "B. Too much eye contact is instinctively felt to be rude" },
+        { "id": "nt-c", "text": "C. Eye contact can be a friendly social signal" },
+        { "id": "nt-d", "text": "D. Personality can affect how a person reacts to eye contact" },
+        { "id": "nt-e", "text": "E. Biological factors behind eye contact are being investigated" },
+        { "id": "nt-f", "text": "F. Most people are not comfortable holding eye contact with strangers" },
+        { "id": "nt-g", "text": "G. Eye contact can also be aggressive." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-d"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "tr-46",
+      "section": "Section II · Reading Comprehension Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "With the Church’s teachings and ways of thinking eclipsed by the Renaissance, the gap between the Medieval and modern periods had been bridged leading to new and unexplored intellectual territories.",
+      "answer_key": {
+        "reference_text": "文艺复兴使教会的教义与思维方式黯然失色，弥合了中世纪与现代之间的鸿沟，从而开辟了新的、从未被探索的知识领域。"
+      },
+      "max_score_units": 200
+    },
+    {
+      "id": "tr-47",
+      "section": "Section II · Reading Comprehension Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Before each of their revelations, many thinkers at the time had sustained more ancient ways of thinking, including the geo-centric view that the Earth was at the centre of our universe.",
+      "answer_key": {
+        "reference_text": "在他们的每一个重大发现公布之前，当时许多思想家都固守着更古老的思维方式，其中包括认为地球是我们宇宙中心的地心说。"
+      },
+      "max_score_units": 200
+    },
+    {
+      "id": "tr-48",
+      "section": "Section II · Reading Comprehension Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Despite attempts by the Church to suppress this new generation of logicians and rationalists, more explanations for how the universe functioned were being made at a rate that the people could no longer ignore.",
+      "answer_key": {
+        "reference_text": "尽管教会试图镇压这些新一代的逻辑学家和理性主义者，但是关于宇宙运行方式的解释却越来越多地涌现，其出现速度之快已让人无法忽视。"
+      },
+      "max_score_units": 200
+    },
+    {
+      "id": "tr-49",
+      "section": "Section II · Reading Comprehension Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "As many took on the duty of trying to integrate reasoning and scientific philosophies into the world, the Renaissance was over and it was time for a new era—the Age of Reason.",
+      "answer_key": {
+        "reference_text": "当许多人承担起将推理和科学哲学融入世界的责任时，文艺复兴就结束了，随之而来的是一个新时代——理性时代。"
+      },
+      "max_score_units": 200
+    },
+    {
+      "id": "tr-50",
+      "section": "Section II · Reading Comprehension Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Such actions to seek knowledge and to understand what information we already knew were captured by the Latin phrase ‘sapere aude’ or ‘dare to know’, after Immanuel Kant used it in his essay “An Answer to the Question: What is Enlightenment?”.",
+      "answer_key": {
+        "reference_text": "这种寻求知识、理解我们已知信息的行为被拉丁语短语‘sapere aude’（即‘敢于求知’）所概括——此前伊曼努尔·康德曾在文章《回答这个问题：什么是启蒙？》中使用过它。"
+      },
+      "max_score_units": 200
+    },
+    {
+      "id": "writing-a",
+      "section": "Section III · Writing Part A",
+      "type": "free_text",
+      "stem": "The student union of your university has assigned you to inform the international students about an upcoming singing contest. Write a notice in about 100 words.\nWrite your answer on the ANSWER SHEET.\nDo not use your own name in the notice. (10 points)",
+      "answer_key": {
+        "reference_text": "Notice\n\nIn order to celebrate the Chinese New Year, the Students’ Union will hold a Chinese song contest. The details of this contest are listed as follows.\n\nTo begin with, the singing contest will be held at 3:00 p.m. next Friday in the auditorium of our university and it will last for two and a half hours. In addition, professors from the college of music in our university will be the judges, including the most famous one Mr. Dai Yuqiang. And in the competition, you will also enjoy some professors’ wonderful performances. So, it would be great pity if you missed this opportunity. Last but not the least, please arrive on time or ahead of time if you are sure to attend this activity.\n\nWelcome to join us and enjoy the singing contest for the new year!\n\nStudents’ Union\nDecember 21st, 2019"
+      },
+      "max_score_units": 1000
+    },
+    {
+      "id": "writing-b",
+      "section": "Section III · Writing Part B",
+      "type": "free_text",
+      "stem": "Write an essay of 160-200 words based on the pictures below. In your essay, you should\n1) describe the picture briefly.\n2) interpret the implied meaning, and\n3) give your comments.\nYou should write neatly on the ANSWER SHEET. (20 points)\n画面描述：题为“习惯”的两格漫画——左图一名学生坐在堆满书籍的书桌前埋头书写，心想“尽早完成才放心”；右图另一名学生斜靠座椅、双脚搭上桌边，迟迟不动笔，心想“不到最后不动手”。",
+      "images": [
+        "images/2020/93c790d31596af6c1eec2f4ea277d0f7936848df8bf9c2662928a9519a1b8108.jpg"
+      ],
+      "answer_key": {
+        "reference_text": "Emerging from the cartoons is a thought-provoking scene: in the left picture, sitting in front of a desk, a girl is absorbed in her work, trying to get it done as soon as possible. By contrast, in the right picture, a boy, dozing off in a comfortable sofa, leaves his homework untouched since he is accustomed to waiting until the last minute.\nHabit, the very theme reflected in the cartoons, bears great significance, which may be further analyzed from the following aspect. With the development of economy and society, competition is becoming increasingly fierce. Therefore, it is impossible for anyone to seize the opportunity and achieve success without developing a good habit, especially the habit of prompt action. In fact, it has been universally acknowledged that the habit of prompt action is the most essential qualification that anyone who wants to achieve success should possess. I cannot help thinking of Jack Ma, the founder of Alibaba. It is his habit of putting his thoughts into practice that contributes significantly to his ultimate success.\nWith action, it is likely that a person can accomplish more in this increasingly independent society. Actions speak louder than words. Only by developing the habit of acting promptly can we achieve ultimate success."
+      },
+      "max_score_units": 2000
+    }
+  ]
+}

@@ -1,0 +1,825 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 1994,
+    "paper": "英语统考卷",
+    "title": "1994年全国硕士研究生入学统一考试英语试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/1994.md",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "1994年为旧题型：Section I 完形填空10题、Section II 阅读理解5篇20题、Part III 英译汉5句、Part IV 短文写作1题。原卷未逐题标注分值，按旧卷通行分值建模：完形填空每题1分（100 units）、阅读理解每题2分（200 units）、翻译每句3分（300 units）、写作15分（1500 units）。为控制篇幅，客观题未逐题填写 explanation，答案以 answer_key 为准。"
+  },
+  "set": {
+    "title": "1994年全国硕士研究生入学统一考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · Use of English",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "For each numbered blank in the following passage, there are four choices marked [A], [B], [C] and [D]. Choose the best one and put your choice in the ANSWER SHEET. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · Reading Comprehension",
+      "part": "Section II",
+      "title": "阅读理解",
+      "directions": [
+        "Each of the passages below is followed by some questions. For each question four answers are given. Read the passages carefully and choose the best answer to each of the questions. Put your choice in the ANSWER SHEET. (30 points)"
+      ]
+    },
+    {
+      "id": "Part III · English-Chinese Translation",
+      "part": "Part III",
+      "title": "英译汉",
+      "directions": [
+        "Read the following passage carefully and then translate the underlined sentences into Chinese. (15 points)"
+      ]
+    },
+    {
+      "id": "Part IV · Writing",
+      "part": "Part IV",
+      "title": "短文写作",
+      "directions": [
+        "A. Title: ON MAKING FRIENDS",
+        "B. TIME LIMIT: 40 minutes",
+        "C. Word limit: 120 - 150 words (not including the given opening sentence)",
+        "D. Your composition should be based on the OUTLINE below and should start with the given opening sentence: “As a human being, one can hardly do without a friend.”",
+        "E. Your composition must be written clearly on the ANSWER SHEET.",
+        "OUTLINE:",
+        "1. The need for friends",
+        "2. True friendship",
+        "3. My principle in making friends"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · Use of English",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The first and smallest unit that can be discussed in relation to language is the word. In speaking, the choice of words is __1__ the utmost importance. Proper selection will eliminate one source of __2__ breakdown in the communication cycle. Too often, careless use of words __3__ a meeting of the minds of the speaker and listener. The words used by the speaker may __4__ unfavorable reactions in the listener __5__ interfere with his comprehension; hence, the transmission-reception system breaks down."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "__6__, inaccurate or indefinite words may make __7__ difficult for the listener to understand the __8__ which is being transmitted to him. The speaker who does not have specific words in his working vocabulary may be __9__ to explain or describe in a __10__ that can be understood by his listeners."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Passage 1",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The American economic system is organized around a basically private-enterprise, market-oriented economy in which consumers largely determine what shall be produced by spending their money in the marketplace for those goods and services that they want most. Private businessmen, striving to make profits, produce these goods and services in competition with other businessmen; and the profit motive, operating under competitive pressures, largely determines how these goods and services are produced. Thus, in the American economic system it is the demand of individual consumers, coupled with the desire of businessmen to maximize profits and the desire of individuals to maximize their incomes, that together determine what shall be produced and how resources are used to produce it."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "An important factor in a market-oriented economy is the mechanism by which consumer demands can be expressed and responded to by producers. In the American economy, this mechanism is provided by a price system, a process in which prices rise and fall in response to relative demands of consumers and supplies offered by seller-producers. If the product is in short supply relative to the demand, the price will be bid up and some consumers will be eliminated from the market. If, on the other hand, producing more of a commodity results in reducing its cost, this will tend to increase the supply offered by seller-producers, which in turn will lower the price and permit more consumers to buy the product. Thus, price is the regulating mechanism in the American economic system."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The important factor in a private enterprise economy is that individuals are allowed to own productive resources (private property), and they are permitted to hire labor, gain control over natural resources, and produce goods and services for sale at a profit. In the American economy, the concept of private property embraces not only the ownership of productive resources but also certain rights, including the right to determine the price of a product or to make a free contract with another private individual."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Passage 2",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "One hundred and thirteen million Americans have at least one bank-issued credit card. They give their owners automatic credit in stores, restaurants, and hotels, at home, across the country, and even abroad, and they make many banking services available as well. More and more of these credit cards can be read automatically, making it possible to withdraw or deposit money in scattered locations, whether or not the local branch bank is open. For many of us the “cashless society” is not on the horizon—it’s already here."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "While computers offer these conveniences to consumers, they have many advantages for sellers too. Electronic cash registers can do much more than simply ring up sales. They can keep a wide range of records, including who sold what, when, and to whom. This information allows businessmen to keep track of their list of goods by showing which items are being sold and how fast they are moving. Decisions to reorder or return goods to suppliers can then be made. At the same time these computers record which hours are busiest and which employees are the most efficient, allowing personnel and staffing assignments to be made accordingly. And they also identify preferred customers for promotional. Computers are relied on by manufacturers for similar reasons. Computer-analyzed marketing reports can help to decide which products to emphasize now, which to develop for the future, and which to drop. Computers keep track of goods in stock, of raw materials on hand, and even of the production process itself."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Numerous other commercial enterprises, from theaters to magazine publishers, from gas and electric utilities to milk processors, bring better and more efficient services to consumers through the use of computers."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Passage 3",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Exceptional children are different in some significant way from others of the same age. For these children to develop to their full adult potential, their education must be adapted to those differences."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Although we focus on the needs of exceptional children, we find ourselves describing their environment as well. While the leading actor on the stage captures our attention, we are aware of the importance of the supporting players and the scenery of the play itself. Both the family and the society in which exceptional children live are often the key to their growth and development. And it is in the public schools that we find the full expression of society’s understanding—the knowledge, hopes, and fears that are passed on to the next generation."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Education in any society is a mirror of that society. In that mirror we can see the strengths, the weaknesses, the hopes, the prejudices, and the central values of the culture itself. The great interest in exceptional children shown in public education over the past three decades indicates the strong feeling in our society that all citizens, whatever their special conditions, deserve the opportunity to fully develop their capabilities."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "“All men are created equal.” We’ve heard it many times, but it still has important meaning for education in a democratic society. Although the phrase was used by this country’s founders to denote equality before the law, it has also been interpreted to mean equality of opportunity. That concept implies educational opportunity for all children—the right of each child to receive help in learning to the limits of his or her capacity, whether that capacity be small or great. Recent court decisions have confirmed the right of all children—disabled or not—to an appropriate education, and have ordered that public schools take the necessary steps to provide that education. In response, schools are modifying their programs, adapting instruction to children who are exceptional, to those who cannot profit substantially from regular programs."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Passage 4",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "“I have great confidence that by the end of the decade we’ll know in vast detail how cancer cells arise,” says microbiologist Robert Weinberg, an expert on cancer. “But,” he cautions, “Some people have the idea that once one understands the causes, the cure will rapidly follow. Consider Pasteur. He discovered the causes of many kinds of infections, but it was fifty or sixty years before cures were available.”"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "This year, 50 percent of the 910,000 people who suffer from cancer will survive at least five years. In the year 2000, the National Cancer Institute estimates, that figure will be 75 percent. For some skin cancers, the five-year survival rate is as high as 90 percent. But other survival statistics are still discouraging—13 percent for lung cancer and 2 percent for cancer of the pancreas (胰腺)."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "With as many as 120 varieties in existence, discovering how cancer works is not easy. The researchers made great progress in the early 1970s, when they discovered that oncogenes, which are cancer-causing genes (基因), are inactive in normal cells. Anything from cosmic rays to radiation to diet may activate a dormant oncogene, but how remains unknown. If several oncogenes are driven into action, the cell, unable to turn them off, becomes cancerous."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The exact mechanisms involved are still mysterious, but the likelihood that many cancers are initiated at the level of genes suggests that we will never prevent all cancers. “Changes are a normal part of the evolutionary process,” says oncologist William Hayward. Environmental factors can never be totally eliminated; as Hayward points out, “We can’t prepare a medicine against cosmic rays.”"
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "The prospects for cure, though still distant, are brighter."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "“First, we need to understand how the normal cell controls itself. Second, we have to determine whether there are a limited number of genes in cells which are always responsible for at least part of the trouble. If we can understand how cancer works, we can counteract its action.”"
+        }
+      ]
+    },
+    {
+      "id": "reading-text5",
+      "title": "Passage 5",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Discoveries in science and technology are thought by “untaught minds” to come in blinding flashes or as the result of dramatic accidents. Sir Alexander Fleming did not, as legend would have it, look at the mold (霉) on a piece of cheese and get the idea for penicillin there and then. He experimented with antibacterial substances for nine years before he made his discovery. Inventions and innovations almost always come out of laborious trial and error. Innovation is like soccer; even the best players miss the goal and have their shots blocked much more frequently than they score."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The point is that the players who score most are the ones who take most shots at the goal—and so it goes with innovation in any field of activity. The prime difference between innovation and others is one of approach. Everybody gets ideas, but innovators work consciously on theirs and they follow them through until they prove practicable or otherwise. What ordinary people see as fanciful abstractions, professional innovators see as solid possibilities."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "“Creative thinking may mean simply the realization that there’s no particular virtue in doing things the way they have always been done,” wrote Rudolph Flesch, a language authority. This accounts for our reaction to seemingly simple innovations like plastic garbage bags and suitcases on wheels that make life more convenient: “How come nobody thought of that before?”"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The creative approach begins with the proposition that nothing is as it appears. Innovators will not accept that there is only one way to do anything. Faced with getting from A to B, the average person will automatically set out on the best-known and apparently simplest route. The innovator will search for alternate courses, which may prove easier in the long run and are bound to be more interesting and challenging even if they lead to dead ends."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Highly creative individuals really do march to a different drummer."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Part III · 翻译原文",
+      "section": "Part III · English-Chinese Translation",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "According to the new school of scientists, technology is an overlooked force in expanding the horizons of scientific knowledge. 【31】Science moves forward, they say, not so much through the insights of great men of genius as because of more ordinary things like improved techniques and tools. 【32】“In short”, a leader of the new school contends, “the scientific revolution, as we call it, was largely the improvement and invention and use of a series of instruments that expanded the reach of science in innumerable directions.”"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "【33】Over the years, tools and technology themselves as a source of fundamental innovation have largely been ignored by historians and philosophers of science. The modern school that hails technology argues that such masters as Galileo, Newton, Maxwell, Einstein, and inventors such as Edison attached great importance to, and derived great benefit from, craft information and technological devices of different kinds that were usable in scientific experiments."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The centerpiece of the argument of a technology-yes, genius-no advocate was an analysis of Galileo’s role at the start of the scientific revolution. The wisdom of the day was derived from Ptolemy, an astronomer of the second century, whose elaborate system of the sky put Earth at the center of all heavenly motions. 【34】Galileo’s greatest glory was that in 1609 he was the first person to turn the newly invented telescope on the heavens to prove that the planets revolve around the sun rather than around the Earth. But the real hero of the story, according to the new school of scientists, was the long evolution in the improvement of machinery for making eye-glasses."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Federal policy is necessarily involved in the technology vs. genius dispute. 【35】Whether the Government should increase the financing of pure science at the expense of technology or vice versa (反之) often depends on the issue of which is seen as the driving force."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "of" },
+        { "id": "c1-b", "text": "at" },
+        { "id": "c1-c", "text": "for" },
+        { "id": "c1-d", "text": "on" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-a"] },
+      "max_score_units": 100,
+      "source_ref": "第1空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "inaccessible" },
+        { "id": "c2-b", "text": "timely" },
+        { "id": "c2-c", "text": "likely" },
+        { "id": "c2-d", "text": "invalid" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-c"] },
+      "max_score_units": 100,
+      "source_ref": "第2空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "encourages" },
+        { "id": "c3-b", "text": "prevents" },
+        { "id": "c3-c", "text": "destroys" },
+        { "id": "c3-d", "text": "offers" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-b"] },
+      "max_score_units": 100,
+      "source_ref": "第3空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "pass out" },
+        { "id": "c4-b", "text": "take away" },
+        { "id": "c4-c", "text": "back up" },
+        { "id": "c4-d", "text": "stir up" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-d"] },
+      "max_score_units": 100,
+      "source_ref": "第4空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "who" },
+        { "id": "c5-b", "text": "as" },
+        { "id": "c5-c", "text": "which" },
+        { "id": "c5-d", "text": "what" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-c"] },
+      "max_score_units": 100,
+      "source_ref": "第5空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "Moreover" },
+        { "id": "c6-b", "text": "However" },
+        { "id": "c6-c", "text": "Preliminarily" },
+        { "id": "c6-d", "text": "Unexpectedly" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-a"] },
+      "max_score_units": 100,
+      "source_ref": "第6空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "that" },
+        { "id": "c7-b", "text": "it" },
+        { "id": "c7-c", "text": "so" },
+        { "id": "c7-d", "text": "this" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-b"] },
+      "max_score_units": 100,
+      "source_ref": "第7空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "speech" },
+        { "id": "c8-b", "text": "sense" },
+        { "id": "c8-c", "text": "message" },
+        { "id": "c8-d", "text": "meaning" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-c"] },
+      "max_score_units": 100,
+      "source_ref": "第8空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "obscure" },
+        { "id": "c9-b", "text": "difficult" },
+        { "id": "c9-c", "text": "impossible" },
+        { "id": "c9-d", "text": "unable" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-d"] },
+      "max_score_units": 100,
+      "source_ref": "第9空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "case" },
+        { "id": "c10-b", "text": "means" },
+        { "id": "c10-c", "text": "method" },
+        { "id": "c10-d", "text": "way" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-d"] },
+      "max_score_units": 100,
+      "source_ref": "第10空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "t1-q11",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "In Line 11, Para 1, “the desire of individuals to maximize their incomes” means ______.",
+      "options": [
+        { "id": "t1-q11-a", "text": "Americans are never satisfied with their incomes" },
+        { "id": "t1-q11-b", "text": "Americans tend to overstate their incomes" },
+        { "id": "t1-q11-c", "text": "Americans want to have their incomes increased" },
+        { "id": "t1-q11-d", "text": "Americans want to increase the purchasing power of their incomes" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q11-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q12",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The first two sentences in the second paragraph tell us that ______.",
+      "options": [
+        { "id": "t1-q12-a", "text": "producers can satisfy the consumers by mechanized production" },
+        { "id": "t1-q12-b", "text": "consumers can express their demands through producers" },
+        { "id": "t1-q12-c", "text": "producers decide the prices of products" },
+        { "id": "t1-q12-d", "text": "supply and demand regulate prices" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q12-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q13",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to the passage, a private-enterprise economy is characterized by ______.",
+      "options": [
+        { "id": "t1-q13-a", "text": "private property and rights concerned" },
+        { "id": "t1-q13-b", "text": "manpower and natural resources control" },
+        { "id": "t1-q13-c", "text": "ownership of productive resources" },
+        { "id": "t1-q13-d", "text": "free contracts and prices" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q13-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q14",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The passage is mainly about ______.",
+      "options": [
+        { "id": "t1-q14-a", "text": "how American goods are produced" },
+        { "id": "t1-q14-b", "text": "how American consumers buy their goods" },
+        { "id": "t1-q14-c", "text": "how American economic system works" },
+        { "id": "t1-q14-d", "text": "how American businessmen make their profits" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q14-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 全文",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t2-q15",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "According to the passage, the credit card enables its owner to ______.",
+      "options": [
+        { "id": "t2-q15-a", "text": "withdraw as much money from the bank as he wishes" },
+        { "id": "t2-q15-b", "text": "obtain more convenient services than other people do" },
+        { "id": "t2-q15-c", "text": "enjoy greater trust from the storekeeper" },
+        { "id": "t2-q15-d", "text": "cash money wherever he wishes to" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q15-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q16",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "From the last sentence of the first paragraph we learn that ______.",
+      "options": [
+        { "id": "t2-q16-a", "text": "in the future all the Americans will use credit cards" },
+        { "id": "t2-q16-b", "text": "credit cards are mainly used in the United States today" },
+        { "id": "t2-q16-c", "text": "nowadays many Americans do not pay in cash" },
+        { "id": "t2-q16-d", "text": "it is now more convenient to use credit cards than before" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q16-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q17",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The phrase “ring up sales” (Line 3, Para. 2) most probably means “______”.",
+      "options": [
+        { "id": "t2-q17-a", "text": "make an order of goods" },
+        { "id": "t2-q17-b", "text": "record sales on a cash register" },
+        { "id": "t2-q17-c", "text": "call the sales manager" },
+        { "id": "t2-q17-d", "text": "keep track of the goods in stock" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q17-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q18",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "What is this passage mainly about?",
+      "options": [
+        { "id": "t2-q18-a", "text": "Approaches to the commercial use of computers." },
+        { "id": "t2-q18-b", "text": "Conveniences brought about by computers in business." },
+        { "id": "t2-q18-c", "text": "Significance of automation in commercial enterprises." },
+        { "id": "t2-q18-d", "text": "Advantages of credit cards in business." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q18-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 全文",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t3-q19",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "In Paragraph 2, the author cites the example of the leading actor on the stage to show that ______.",
+      "options": [
+        { "id": "t3-q19-a", "text": "the growth of exceptional children has much to do with their family and the society" },
+        { "id": "t3-q19-b", "text": "exceptional children are more influenced by their families than normal children are" },
+        { "id": "t3-q19-c", "text": "exceptional children are the key interest of the family and society" },
+        { "id": "t3-q19-d", "text": "the needs of the society weigh much heavier than the needs of the exceptional children" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q19-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q20",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The reason that the exceptional children receive so much concern in education is that ______.",
+      "options": [
+        { "id": "t3-q20-a", "text": "they are expected to be leaders of the society" },
+        { "id": "t3-q20-b", "text": "they might become a burden of the society" },
+        { "id": "t3-q20-c", "text": "they should fully develop their potentials" },
+        { "id": "t3-q20-d", "text": "disabled children deserve special consideration" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q20-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q21",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "This passage mainly deals with ______.",
+      "options": [
+        { "id": "t3-q21-a", "text": "the differences of children in their learning capabilities" },
+        { "id": "t3-q21-b", "text": "the definition of exceptional children in modern society" },
+        { "id": "t3-q21-c", "text": "the special educational programs for exceptional children" },
+        { "id": "t3-q21-d", "text": "the necessity of adapting education to exceptional children" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q21-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 全文",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t3-q22",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "From this passage we learn that the educational concern for exceptional children ______.",
+      "options": [
+        { "id": "t3-q22-a", "text": "is now enjoying legal support" },
+        { "id": "t3-q22-b", "text": "disagrees with the tradition of the country" },
+        { "id": "t3-q22-c", "text": "was clearly stated by the country’s founders" },
+        { "id": "t3-q22-d", "text": "will exert great influence over court decisions" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q22-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q23",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The example of Pasteur in the passage is used to ______.",
+      "options": [
+        { "id": "t4-q23-a", "text": "predict that the secret of cancer will be disclosed in a decade" },
+        { "id": "t4-q23-b", "text": "indicate that the prospects for curing cancer are bright" },
+        { "id": "t4-q23-c", "text": "prove that cancer will be cured in fifty to sixty years" },
+        { "id": "t4-q23-d", "text": "warn that there is still a long way to go before cancer can be conquered" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q23-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 4 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q24",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The author implies that by the year 2000, ______.",
+      "options": [
+        { "id": "t4-q24-a", "text": "there will be a drastic rise in the five-year survival rate of skin-cancer patients" },
+        { "id": "t4-q24-b", "text": "90 percent of the skin-cancer patients today will still be living" },
+        { "id": "t4-q24-c", "text": "the survival statistics will be fairly even among patients with various cancers" },
+        { "id": "t4-q24-d", "text": "there won’t be a drastic increase of survival rate of all cancer patients" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q24-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 4 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q25",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Oncogenes are cancer-causing genes ______.",
+      "options": [
+        { "id": "t4-q25-a", "text": "that are always in operation in a healthy person" },
+        { "id": "t4-q25-b", "text": "which remain unharmful so long as they are not activated" },
+        { "id": "t4-q25-c", "text": "that can be driven out of normal cells" },
+        { "id": "t4-q25-d", "text": "which normal cells can’t turn off" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q25-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 4 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q26",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The word “dormant” in the third paragraph most probably means ______.",
+      "options": [
+        { "id": "t4-q26-a", "text": "dead" },
+        { "id": "t4-q26-b", "text": "ever-present" },
+        { "id": "t4-q26-c", "text": "inactive" },
+        { "id": "t4-q26-d", "text": "potential" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q26-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 4 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q27",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "What does the author probably mean by “untaught mind” in the first paragraph?",
+      "options": [
+        { "id": "t5-q27-a", "text": "A person ignorant of the hard work involved in experimentation." },
+        { "id": "t5-q27-b", "text": "A citizen of a society that restricts personal creativity." },
+        { "id": "t5-q27-c", "text": "A person who has had no education." },
+        { "id": "t5-q27-d", "text": "An individual who often comes up with new ideas by accident." }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q27-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 5 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q28",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "According to the author, what distinguishes innovators from non-innovators?",
+      "options": [
+        { "id": "t5-q28-a", "text": "The variety of ideas they have." },
+        { "id": "t5-q28-b", "text": "The intelligence they possess." },
+        { "id": "t5-q28-c", "text": "The way they deal with problems." },
+        { "id": "t5-q28-d", "text": "The way they present their findings." }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q28-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 5 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q29",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "The author quotes Rudolph Flesch in Paragraph 3 because ______.",
+      "options": [
+        { "id": "t5-q29-a", "text": "Rudolph Flesch is the best-known expert in the study of human creativity" },
+        { "id": "t5-q29-b", "text": "the quotation strengthens the assertion that creative individuals look for new ways of doing things" },
+        { "id": "t5-q29-c", "text": "the reader is familiar with Rudolph Flesch’s point of view" },
+        { "id": "t5-q29-d", "text": "the quotation adds a new idea to the information previously presented" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q29-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 5 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q30",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "The phrase “march to a different drummer” (the last line of the passage) suggests that highly creative individuals are ______.",
+      "options": [
+        { "id": "t5-q30-a", "text": "diligent in pursuing their goals" },
+        { "id": "t5-q30-b", "text": "reluctant to follow common ways of doing things" },
+        { "id": "t5-q30-c", "text": "devoted to the progress of science" },
+        { "id": "t5-q30-d", "text": "concerned about the advance of society" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q30-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 5 第5段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "tr-31",
+      "section": "Part III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Science moves forward, they say, not so much through the insights of great men of genius as because of more ordinary things like improved techniques and tools.",
+      "answer_key": { "reference_text": "他们（新学派科学家们）说，科学的发展与其说源于天才伟人的真知灼见，不如说源于改进了的技术和工具等等更为普通的东西。" },
+      "max_score_units": 300,
+      "source_ref": "第31句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-32",
+      "section": "Part III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "“In short”, a leader of the new school contends, “the scientific revolution, as we call it, was largely the improvement and invention and use of a series of instruments that expanded the reach of science in innumerable directions.”",
+      "answer_key": { "reference_text": "“简言之”，新学派的一位领袖人物主张：“我们所称的科学革命，主要是指一系列器具的改进、发明和使用，这些改进、发明和应用使科学向各个方向发展。”" },
+      "max_score_units": 300,
+      "source_ref": "第32句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-33",
+      "section": "Part III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Over the years, tools and technology themselves as a source of fundamental innovation have largely been ignored by historians and philosophers of science.",
+      "answer_key": { "reference_text": "工具和技术本身作为根本性创新的源泉多年来在很大程度上被史学家和哲学家忽视了。" },
+      "max_score_units": 300,
+      "source_ref": "第33句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-34",
+      "section": "Part III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Galileo’s greatest glory was that in 1609 he was the first person to turn the newly invented telescope on the heavens to prove that the planets revolve around the sun rather than around the Earth.",
+      "answer_key": { "reference_text": "伽利略最光辉的业绩在于他在1609年第一个把新发明的望远镜对准天空，旨在证实行星围绕太阳旋转而不是围绕地球旋转。" },
+      "max_score_units": 300,
+      "source_ref": "第34句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-35",
+      "section": "Part III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Whether the Government should increase the financing of pure science at the expense of technology or vice versa (反之) often depends on the issue of which is seen as the driving force.",
+      "answer_key": { "reference_text": "政府究竟是以减少对技术的经费投入来增加对纯理论科学的经费投入，还是相反，这往往取决于把哪一方看作是驱动力量。" },
+      "max_score_units": 300,
+      "source_ref": "第35句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "writing",
+      "section": "Part IV · Writing",
+      "type": "free_text",
+      "stem": "A. Title: ON MAKING FRIENDS\nB. TIME LIMIT: 40 minutes\nC. Word limit: 120 - 150 words (not including the given opening sentence)\nD. Your composition should be based on the OUTLINE below and should start with the given opening sentence: “As a human being, one can hardly do without a friend.”\nE. Your composition must be written clearly on the ANSWER SHEET.\nOUTLINE:\n1. The need for friends\n2. True friendship\n3. My principle in making friends",
+      "answer_key": {
+        "reference_text": "As a human being, one can hardly do without a friend and the fact has been self-evident. Without the help of honest friends, we can hardly get over the difficulties and hardships we come across. Moreover, having no friends also means that there is nobody in the world with whom we can share our joy and sorrow. Thus loneliness is the only thing left for us.\n\nBut not all who are friendly to each other and enjoy each other's company in the social gatherings can be called true friends. Based on mutual understanding instead of on mutual benefit, true friendship must be sincere and unconditional. It consists in sincerity, mutual trust, and self-sacrifice, both in times of happiness and at moments of crisis. A true friend does not just tell us what we want to hear but will do what he thinks is best for us in the long run. False friendship, however, will flatter us when we are crowned with success while desert us when we are in deep waters. Therefore, true friendship is to make people help each other and learn from each other.\n\nMy principle in making friends is to make as many good friends as possible. So when I make a friend, I first of all make sure whether he is honest or wicked. As long as he is honest and sincere, I know that I find another company in the way of improving."
+      },
+      "max_score_units": 1500,
+      "source_ref": "Part IV Writing",
+      "tags": ["写作"]
+    }
+  ]
+}

@@ -1,0 +1,626 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 1987,
+    "paper": "英语统考卷",
+    "title": "1987年全国硕士研究生入学统一考试英语试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/1987.md",
+    "converted_by": "AI 转换任务 2026-10-03",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "本文件由 1987.md 转换。原卷含完形填空（10题，10分）、阅读理解（3篇共15题，15分）、英译汉（8句，20分），满分45分，无写作题。按原卷实际题数建模；meta.total_score_units 按规格建议值填 10000，各题 max_score_units 按原卷分值折算。答案与解析来自 1986-1990 年真题答案 PDF。"
+  },
+  "set": {
+    "title": "1987年全国硕士研究生入学统一考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · Cloze Test",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "For each numbered blank in the following passage there are four choices labeled [A], [B], [C] and [D]. Choose the best one and put your choice in the ANSWER SHEET. Read the whole passage before making your choice. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · Reading Comprehension",
+      "part": "Section II",
+      "title": "阅读理解",
+      "directions": [
+        "Each of the two passages below is followed by five questions. For each question there are four answers. Read the passages carefully and choose the best answer to each of the questions. Put your choice in the brackets on the left. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · English-Chinese Translation",
+      "part": "Section III",
+      "title": "英译汉",
+      "directions": [
+        "Translate the following passage into Chinese. Only the underlined sentences are to be translated. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · Cloze Test 原文",
+      "section": "Section I · Cloze Test",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Cheques have __1__ replaced money as a means of exchange for they are widely accepted everywhere. Though this is very convenient for both buyer and seller, it should not be forgotten that cheques are not real money: they are quite valueless in themselves. A shop-keeper always runs a certain __2__ when he accepts a cheque and he is quite __3__ his rights if on occasion, he refuses to do so."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "People do not always know this and are shocked if their good faith is called __4__. An old and very wealthy friend of mine told me he had an extremely unpleasant experience. He went to a famous jewelry shop which keeps a large __5__ of precious stones and asked to be shown some pearl necklaces. After examining several trays, he decided to buy a particularly fine string of pearls and asked if he could pay by Cheques. The assistant said that this was quite __6__ but the moment my friend signed his name, he was invited into the manager’s office."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The manager was very polite, but he explained that someone with exactly the same name had presented them with a worthless Cheque not long ago. My friend got very angry when he heard this and said he would buy a necklace somewhere else. When he got up to go, the manager told him that the police would arrive at any moment and he had better stay __7__ he wanted to get into serious trouble. __8__, the police arrived soon afterwards. They apologized to my friend for the __9__, but explained that a person who had used the same name as his was responsible for a number of recent robberies. Then the police asked my friend to copy out a note which had been used by the thief in a number of shops. The note __10__: “I have a gun in my pocket. Ask no questions and give me all the money in the safe.” Fortunately, my friend’s handwriting was quite unlike the thief’s. He was not only allowed to go without further delay, but to take the string of pearls with him."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "For centuries men dreamed of achieving vertical flight. In 400 A.D. Chinese children played with a fan-like toy that spun upwards and fell back to earth as rotation ceased. Leonardo da Vinci conceived the first mechanical apparatus, called a “Helix,” which could carry man straight up, but was only a design and was never tested."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The ancient dream was finally realized in 1940 when a Russian engineer piloted a strange looking craft of steel tubing with a rotating fan on top. It rose awkwardly and vertically into the air from a standing start, hovered a few feet above the ground, went sideways and backwards, and then settled back to earth. The vehicle was called a helicopter."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Imaginations were fired. Men dreamed of going to work in their own personal helicopters. People anticipate that vertical flight transports would carry millions of passengers as do the airliners of today. Such fantastic expectations were not fulfilled."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The helicopter has now become an extremely useful machine. It excels in military missions, carrying troops, guns and strategic instruments where other aircraft cannot go. Corporations use them as airborne offices, many metropolitan areas use them in police work, construction and logging companies employ them in various advantageous ways, engineers use them for site selection and surveying, and oil companies use them as the best way to make offshore and remote work stations accessible to crews and supplies. Any urgent mission to a hard-to-get-to place is a likely task for a helicopter. Among their other multitude of uses: deliver people across town, fly to and from airports, assist in rescue work, and aid in the search for missing or wanted persons."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In ancient Greece athletic festivals were very important and had strong religious associations. The Olympian athletic festival held every four years in honor of Zeus, king of the Olympian Gods, eventually lost its local character, became first a national event and then, after the rules against foreign competitors had been abolished, international. No one knows exactly how far back the Olympic Games go, but some official records date from 776 B.C."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The games took place in August on the plain by Mount Olympus. Many thousands of spectators gathered from all parts of Greece, but no married woman was admitted even as a spectator. Slaves, women and dishonored persons were not allowed to compete. The exact sequence of events uncertain, but events included boy’s gymnastics, boxing, wrestling, horse racing and field events, though there were fewer sports involved than in the modern Olympic Games."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "On the last day of the Games, all the winners were honored by having a ring of holy olive leaves placed on their heads. So great was the honor that the winner of the foot race gave his name to the year of his victory. Although Olympic winners received no prize money, they were, in fact, richly rewarded by their state authorities. How their results compared with modern standards, we unfortunately have no means of telling."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "After an uninterrupted history of almost 1,200 years, the Games were suspended by the Romans in 394 A.D. They continued for such a long time because people believed in the philosophy behind the Olympics: the idea that a healthy body produced a healthy mind, and that the spirit of competition in sports and games was preferable to the competition that caused wars. It was over 1,500 years before another such international athletic gathering took place in Athens in 1896."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Nowadays, the Games are held in different countries in turn. The host country provides vast facilities, including a stadium, swimming pools and living accommodation, but competing countries pay their own athletes expenses."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "The Olympics start with the arrival in the stadium of a torch, lighted on Mount Olympus by the sun’s rays. It is carried by a succession of runners to the stadium. The torch symbolized the continuation of the ancient Greek athletic ideals, and it burns throughout the Games until the closing ceremony. The well-known Olympic flag, however, is a modern conception: the five interlocking rings symbolize the uniting of all five continents participating in the Games."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In science the meaning of the word “explain” suffers with civilization’s every step in search of reality. Science cannot really explain electricity, magnetism, and gravitation; their effects can be measured and predicted, but of their nature no more is known to the modern scientist than to Thales who first looked into the nature of the electrification of amber, a hard yellowish-brown gum. Most contemporary physicists reject the notion that man can ever discover what these mysterious forces “really” are. “Electricity,” Bertrand Russell says, “is not a thing, like St. Paul’s Cathedral; it is a way in which things behave. When we have told how things behave when they are electrified, and under what circumstances they are electrified, we have told all there is to tell.” Until recently scientists would have disapproved of such an idea. Aristotle, for example, whose natural science dominated Western thought for two thousand years, believed that man could arrive at an understanding of reality by reasoning from self-evident principles. He felt, for example, that it is a self-evident principle that everything in the universe has its proper place, hence one can deduce that objects fall to the ground because that’s where they belong, and smoke goes up because that’s where it belongs. The goal of Aristotelian science was to explain why things happen. Modern science was born when Galileo began trying to explain how things happen and thus originated the method of controlled experiment which now forms the basis of scientific investigation."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section III · 英译汉原文",
+      "section": "Section III · English-Chinese Translation",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "It would be interesting to discover how many young people go to university without any clear idea of what they are going to do afterwards. 【21】If one considers the enormous variety of courses offered, it is not hard to see how difficult it is for a student to select the course most suited to his interests and abilities. 【22】If a student goes to university to acquire a broader perspective of life, to enlarge his ideas and to learn to think for himself, he will undoubtedly benefit. 【23】Schools often have too restricting an atmosphere, with its time tables and disciplines, to allow him much time for independent assessment of the work he is asked to do. 【24】Most students would, I believe, profit by a year of such exploration of different academic studies, especially those “all rounders” with no particular interest. They should have longer time to decide in what subject they want to take their degrees, so that in later life, they do not look back and say, “I should like to have been an archaeologist. If I hadn’t taken a degree in Modern Languages, I shouldn’t have ended up as an interpreter, but it’s too late now. I couldn’t go back and begin all over again.”"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "【25】There is, of course, another side to the question of how to make the best use of one’s time at university. 【26】This is the case of the student who excels in a particular branch of learning. 【27】He is immediately accepted by the University of his choice, and spends his three or four years becoming a specialist, emerging with a first-class Honour Degree and very little knowledge of what the rest of the world is all about. 【28】It therefore becomes more and more important that, if students are not to waste their opportunities, there will have to be much more detailed information about courses and more advice. Only in this way can we be sure that we are not to have, on the one hand, a band of specialists ignorant of anything outside of their own subject, and on the other hand, an ever increasing number of graduates qualified in subjects for which there is little or no demand in the working world."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "cloze-01-a", "text": "exactly" },
+        { "id": "cloze-01-b", "text": "really" },
+        { "id": "cloze-01-c", "text": "largely" },
+        { "id": "cloze-01-d", "text": "thoroughly" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-01-c"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "cloze-02-a", "text": "danger" },
+        { "id": "cloze-02-b", "text": "chance" },
+        { "id": "cloze-02-c", "text": "risk" },
+        { "id": "cloze-02-d", "text": "opportunity" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-02-c"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "cloze-03-a", "text": "within" },
+        { "id": "cloze-03-b", "text": "beyond" },
+        { "id": "cloze-03-c", "text": "without" },
+        { "id": "cloze-03-d", "text": "out of" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-03-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "cloze-04-a", "text": "in difficulty" },
+        { "id": "cloze-04-b", "text": "in doubt" },
+        { "id": "cloze-04-c", "text": "in earnest" },
+        { "id": "cloze-04-d", "text": "in question" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-04-d"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "cloze-05-a", "text": "amount" },
+        { "id": "cloze-05-b", "text": "stock" },
+        { "id": "cloze-05-c", "text": "number" },
+        { "id": "cloze-05-d", "text": "store" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-05-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "cloze-06-a", "text": "in order" },
+        { "id": "cloze-06-b", "text": "in need" },
+        { "id": "cloze-06-c", "text": "in use" },
+        { "id": "cloze-06-d", "text": "in common" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-06-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "cloze-07-a", "text": "whether" },
+        { "id": "cloze-07-b", "text": "if" },
+        { "id": "cloze-07-c", "text": "otherwise" },
+        { "id": "cloze-07-d", "text": "unless" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-07-d"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "cloze-08-a", "text": "Really" },
+        { "id": "cloze-08-b", "text": "Sure enough" },
+        { "id": "cloze-08-c", "text": "Certainly" },
+        { "id": "cloze-08-d", "text": "However" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-08-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "cloze-09-a", "text": "treatment" },
+        { "id": "cloze-09-b", "text": "manner" },
+        { "id": "cloze-09-c", "text": "inconvenience" },
+        { "id": "cloze-09-d", "text": "behaviour" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-09-c"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "cloze-10-a", "text": "read" },
+        { "id": "cloze-10-b", "text": "told" },
+        { "id": "cloze-10-c", "text": "wrote" },
+        { "id": "cloze-10-d", "text": "informed" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-10-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t1-q11",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "People expect that ____.",
+      "options": [
+        { "id": "t1-q11-a", "text": "the airliners of today would eventually be replaced by helicopters" },
+        { "id": "t1-q11-b", "text": "helicopters would someday be able to transport large number of people from place to place as airliners are now doing" },
+        { "id": "t1-q11-c", "text": "the imaginations fired by the Russian engineer’s invention would become a reality in the future" },
+        { "id": "t1-q11-d", "text": "their fantastic expectations about helicopters could be fulfilled by airliners of today" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q11-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t1-q12",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Helicopters work with the aid of ____.",
+      "options": [
+        { "id": "t1-q12-a", "text": "a combination of rotating devices in front and on top" },
+        { "id": "t1-q12-b", "text": "a rotating device topside" },
+        { "id": "t1-q12-c", "text": "one rotating fan in the center of the aircraft and others at each end" },
+        { "id": "t1-q12-d", "text": "a rotating fan underneath for lifting" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q12-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t1-q13",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "What is said about the development of the helicopter?",
+      "options": [
+        { "id": "t1-q13-a", "text": "Helicopters have only been worked on by man since 1940." },
+        { "id": "t1-q13-b", "text": "Chinese children were the first to achieve flight in helicopters." },
+        { "id": "t1-q13-c", "text": "Helicopters were considered more dangerous than the early airplanes." },
+        { "id": "t1-q13-d", "text": "Some people thought they would become widely used by average individuals." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q13-d"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t1-q14",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "How has the use of helicopters developed?",
+      "options": [
+        { "id": "t1-q14-a", "text": "They have been widely used for various purposes." },
+        { "id": "t1-q14-b", "text": "They are taking the place of high-flying jets." },
+        { "id": "t1-q14-c", "text": "They are used for rescue work." },
+        { "id": "t1-q14-d", "text": "They are now used exclusively for commercial projects." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q14-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t1-q15",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Under what conditions are helicopters found to be absolutely essential?",
+      "options": [
+        { "id": "t1-q15-a", "text": "For overseas passenger transportation." },
+        { "id": "t1-q15-b", "text": "For extremely high altitude flights." },
+        { "id": "t1-q15-c", "text": "For high-speed transportation." },
+        { "id": "t1-q15-d", "text": "For urgent mission to places inaccessible to other kinds of craft." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q15-d"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t2-q16",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "In ancient Greece, the Olympic Games ____.",
+      "options": [
+        { "id": "t2-q16-a", "text": "were merely national athletic festivals" },
+        { "id": "t2-q16-b", "text": "were in the nature of a national event with a strong religious colour" },
+        { "id": "t2-q16-c", "text": "had rules which put foreign participants in a disadvantageous position" },
+        { "id": "t2-q16-d", "text": "were primarily national events with few foreign participants" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q16-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t2-q17",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "In the early days of ancient Olympic Games ____.",
+      "options": [
+        { "id": "t2-q17-a", "text": "only male Greek athletes were allowed to participate in the games" },
+        { "id": "t2-q17-b", "text": "all Greeks, irrespective of sex, religion or social status, were allowed to take part" },
+        { "id": "t2-q17-c", "text": "all Greeks, with the exception of women, were allowed to compete in Games" },
+        { "id": "t2-q17-d", "text": "all male Greeks were qualified to compete in the Games" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q17-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t2-q18",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The order of athletic events at the ancient Olympics ____.",
+      "options": [
+        { "id": "t2-q18-a", "text": "has not definitely been established" },
+        { "id": "t2-q18-b", "text": "varied according to the number of foreign competitors" },
+        { "id": "t2-q18-c", "text": "was decided by Zeus, in whose honor the Games were held" },
+        { "id": "t2-q18-d", "text": "was considered unimportant" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q18-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t2-q19",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Modern athletes’ results cannot be compared with those of ancient runners because ____.",
+      "options": [
+        { "id": "t2-q19-a", "text": "the Greeks had no means of recording the results" },
+        { "id": "t2-q19-b", "text": "they are much better" },
+        { "id": "t2-q19-c", "text": "details such as the time were not recorded in the past" },
+        { "id": "t2-q19-d", "text": "they are much worse" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q19-c"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t2-q20",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Nowadays, the athletes’ expenses are paid for ____.",
+      "options": [
+        { "id": "t2-q20-a", "text": "out of the prize money of the winners" },
+        { "id": "t2-q20-b", "text": "out of the funds raised by the competing nations" },
+        { "id": "t2-q20-c", "text": "by the athletes themselves" },
+        { "id": "t2-q20-d", "text": "by contributions" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q20-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t3-q21",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The aim of controlled scientific experiments is ____.",
+      "options": [
+        { "id": "t3-q21-a", "text": "to explain why things happen" },
+        { "id": "t3-q21-b", "text": "to explain how things happen" },
+        { "id": "t3-q21-c", "text": "to describe self-evident principles" },
+        { "id": "t3-q21-d", "text": "to support Aristotelian science" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q21-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t3-q22",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "What principles most influenced scientific thought for two thousand years?",
+      "options": [
+        { "id": "t3-q22-a", "text": "the speculations of Thales" },
+        { "id": "t3-q22-b", "text": "the forces of electricity, magnetism, and gravity" },
+        { "id": "t3-q22-c", "text": "Aristotle’s natural science" },
+        { "id": "t3-q22-d", "text": "Galileo’s discoveries" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q22-c"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t3-q23",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Bertrand Russell’s notion about electricity is ____.",
+      "options": [
+        { "id": "t3-q23-a", "text": "disapproved of by most modern scientists" },
+        { "id": "t3-q23-b", "text": "in agreement with Aristotle’s theory of self-evident principles" },
+        { "id": "t3-q23-c", "text": "in agreement with scientific investigation directed toward “how” things happen" },
+        { "id": "t3-q23-d", "text": "in agreement with scientific investigation directed toward “why” things happen" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q23-c"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t3-q24",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The passage says that until recently scientists disagreed with the idea ____.",
+      "options": [
+        { "id": "t3-q24-a", "text": "that there are mysterious forces in the universe" },
+        { "id": "t3-q24-b", "text": "that man cannot discover what forces “really” are" },
+        { "id": "t3-q24-c", "text": "that there are self-evident principles" },
+        { "id": "t3-q24-d", "text": "that we can discover why things behave as they do" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q24-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t3-q25",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Modern science came into being ____.",
+      "options": [
+        { "id": "t3-q25-a", "text": "when the method of controlled experiment was first introduced" },
+        { "id": "t3-q25-b", "text": "when Galileo succeeded in explaining how things happen" },
+        { "id": "t3-q25-c", "text": "when Aristotelian scientists tried to explain why things happen" },
+        { "id": "t3-q25-d", "text": "when scientists were able to acquire an understanding of reality by reasoning" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q25-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "tr-21",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "If one considers the enormous variety of courses offered, it is not hard to see how difficult it is for a student to select the course most suited to his interests and abilities.",
+      "answer_key": {
+        "reference_text": "如果想一想那些为学生设置的门类繁多的课程，我们就不难发现，对一个学生来说，要选一门符合他的兴趣和能力的课程是多么困难。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-22",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "If a student goes to university to acquire a broader perspective of life, to enlarge his ideas and to learn to think for himself, he will undoubtedly benefit.",
+      "answer_key": {
+        "reference_text": "如果一个学生进大学是为了想获得一个对生活前景更广泛的认识，为了扩大思想境界和学会独立思考，那么毫无疑问，进大学对他是有好处的。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-23",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Schools often have too restricting an atmosphere, with its time tables and disciplines, to allow him much time for independent assessment of the work he is asked to do.",
+      "answer_key": {
+        "reference_text": "学校由于受课程表和纪律的约束，气氛往往令人感到过于拘束，使学生没有充分时间对规定要他做的事情有独立的见解。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-24",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Most students would, I believe, profit by a year of such exploration of different academic studies, especially those “all rounders” with no particular interest.",
+      "answer_key": {
+        "reference_text": "我认为大多数学生，尤其是那些没有偏重某一门课程的“全面发展”的学生，经过一年左右的时间对各门不同学科的钻研，将会从中获益。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-25",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "There is, of course, another side to the question of how to make the best use of one’s time at university.",
+      "answer_key": {
+        "reference_text": "当然，关于一个人如何最充分地利用上大学的时间，还有另外一个方面。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-26",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "This is the case of the student who excels in a particular branch of learning.",
+      "answer_key": {
+        "reference_text": "某一学科中出类拔萃的学生就属于这种情况。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-27",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "He is immediately accepted by the University of his choice, and spends his three or four years becoming a specialist, emerging with a first-class Honour Degree and very little knowledge of what the rest of the world is all about.",
+      "answer_key": {
+        "reference_text": "他一毕业马上就被一所他自己选中的大学所接受，再花三、四年时间成为一名专家。结果他以优异的成绩取得荣誉学位，但对外界的一切却几乎一无所知。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-28",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "It therefore becomes more and more important that, if students are not to waste their opportunities, there will have to be much more detailed information about courses and more advice.",
+      "answer_key": {
+        "reference_text": "因此，如果要学生好好利用他们上大学的机会，就应该为他们提供大量关于课程方面更为详尽的信息和更多的建议。这个问题显得越来越重要了。"
+      },
+      "max_score_units": 250
+    }
+  ]
+}

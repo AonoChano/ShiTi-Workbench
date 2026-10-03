@@ -1,0 +1,1924 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2005,
+    "paper": "英语统考卷",
+    "title": "2005年全国硕士研究生入学统一考试英语试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2005.md",
+    "source_images": "TestPaper/images/2005/",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T20:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "2005年新题型为7选5，同一组选项在每空重复给出；写作Part A无官方范文，answer_key为null；Part B图片为养老足球赛，已按原图路径引用。"
+  },
+  "set": {
+    "title": "2005年全国硕士研究生入学统一考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · 完形填空",
+      "part": "Section I",
+      "title": "英语知识运用（完形填空）",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark [A], [B], [C] or [D] on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 阅读理解 Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions below each text by choosing [A], [B], [C] or [D]. Mark your answers on ANSWER SHEET 1. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · 新题型 Part B",
+      "part": "Section II · Part B",
+      "title": "新题型（7选5）",
+      "directions": [
+        "In the following text, some sentences have been removed. For Questions 41-45, choose the most suitable one from the list A-G to fit into each of the numbered blanks. There are two extra choices, which do not fit in any of the gaps. Mark your answers on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 翻译 Part C",
+      "part": "Section II · Part C",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written clearly on ANSWER SHEET 2. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part A",
+      "part": "Section III · Part A",
+      "title": "应用文写作",
+      "directions": [
+        "Two months ago you got a job as an editor for the magazine Designs & Fashions. But now you find that the work is not what you expected. You decide to quit. Write a letter to your boss, Mr. Wang, telling him your decision, stating your reason(s), and making an apology.",
+        "Write your letter with no less than 100 words. Write it neatly on ANSWER SHEET 2. Do not sign your own name at the end of the letter; use “Li Ming” instead. You do not need to write the address. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part B",
+      "part": "Section III · Part B",
+      "title": "短文写作",
+      "directions": [
+        "Write an essay of 160-200 words based on the following drawing. In your essay, you should first describe the drawing, then interpret its meaning, and give your comment on it.",
+        "You should write neatly on ANSWER SHEET 2. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · 完形填空",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The human nose is an underrated tool. Humans are often thought to be insensitive smellers compared with animals, __1__ this is largely because, __2__ animals, we stand upright. This means that our noses are __3__ to perceiving those smells which float through the air, __4__ the majority of smells which stick to surfaces. In fact, __5__, we are extremely sensitive to smells, __6__ we do not generally realize it. Our noses are capable of __7__ human smells even when these are __8__ to far below one part in one million."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Strangely, some people find that they can smell one type of flower but not another, __9__ others are sensitive to the smells of both flowers. This may be because some people do not have the genes necessary to generate __10__ smell receptors in the nose. These receptors are the cells which sense smells and send __11__ to the brain. However, it has been found that even people insensitive to a certain smell __12__ can suddenly become sensitive to it when __13__ to it often enough."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The explanation for insensitivity to smell seems to be that the brain finds it __14__ to keep all smell receptors working all the time but can __15__ new receptors if necessary. This may __16__ explain why we are not usually sensitive to our own smells—we simply do not need to be. We are not __17__ of the usual smell of our own house, but we __18__ new smells when we visit someone else's. The brain finds it best to keep smell receptors __19__ for unfamiliar and emergency signals __20__ the smell of smoke, which might indicate the danger of fire."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Everybody loves a fat pay rise. Yet pleasure at your own can vanish if you learn that a colleague has been given a bigger one. Indeed, if he has a reputation for slacking, you might even be outraged. Such behaviour is regarded as “all too human”, with the underlying assumption that other animals would not be capable of this finely developed sense of grievance. But a study by Sarah Brosnan and Frans de Waal of Emory University in Atlanta, Georgia, which has just been published in Nature, suggests that it is all too monkey, as well."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The researchers studied the behaviour of female brown capuchin monkeys. They look cute. They are good-natured, co-operative creatures, and they share their food readily. Above all, like their female human counterparts, they tend to pay much closer attention to the value of “goods and services” than males."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Such characteristics make them perfect candidates for Dr. Brosnan's and Dr. de Waal's study. The researchers spent two years teaching their monkeys to exchange tokens for food. Normally, the monkeys were happy enough to exchange pieces of rock for slices of cucumber. However, when two monkeys were placed in separate but adjoining chambers, so that each could observe what the other was getting in return for its rock, their behaviour became markedly different."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "In the world of capuchins grapes are luxury goods (and much preferable to cucumbers). So when one monkey was handed a grape in exchange for her token, the second was reluctant to hand hers over for a mere piece of cucumber. And if one received a grape without having to provide her token in exchange at all, the other either tossed her own token at the researcher or out of the chamber, or refused to accept the slice of cucumber. Indeed, the mere presence of a grape in the other chamber (without an actual monkey to eat it) was enough to induce resentment in a female capuchin."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "The researchers suggest that capuchin monkeys, like humans, are guided by social emotions. In the wild, they are a co-operative, group-living species. Such co-operation is likely to be stable only when each animal feels it is not being cheated. Feelings of righteous indignation, it seems, are not the preserve of people alone. Refusing a lesser reward completely makes these feelings abundantly clear to other members of the group. However, whether such a sense of fairness evolved independently in capuchins and humans, or whether it stems from the common ancestor that the species had 35 million years ago, is, as yet, an unanswered question."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Do you remember all those years when scientists argued that smoking would kill us but the doubters insisted that we didn't know for sure? That the evidence was inconclusive, the science uncertain? That the antismoking lobby was out to destroy our way of life and the government should stay out of the way? Lots of Americans bought that nonsense, and over three decades, some 10 million smokers went to early graves."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "There are upsetting parallels today, as scientists in one wave after another try to awaken us to the growing threat of global warming. The latest was a panel from the National Academy of Sciences, enlisted by the White House, to tell us that the Earth's atmosphere is definitely warming and that the problem is largely man-made. The clear message is that we should get moving to protect ourselves. The president of the National Academy, Bruce Alberts, added this key point in the preface to the panel's report: “Science never has all the answers. But science does provide us with the best available guide to the future, and it is critical that our nation and the world base important policies on the best judgments that science can provide concerning the future consequences of present actions.”"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Just as on smoking, voices now come from many quarters insisting that the science about global warming is incomplete, that it's OK to keep pouring fumes into the air until we know for sure. This is a dangerous game: by the time 100 percent of the evidence is in, it may be too late. With the risks obvious and growing, a prudent people would take out an insurance policy now."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Fortunately, the White House is starting to pay attention. But it's obvious that a majority of the president's advisers still don't take global warming seriously. Instead of a plan of action, they continue to press for more research—a classic case of “paralysis by analysis”."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "To serve as responsible stewards of the planet, we must press forward on deeper atmospheric and oceanic research. But research alone is inadequate. If the Administration won't take the legislative initiative, Congress should help to begin fashioning conservation measures. A bill by Democratic Senator Robert Byrd of West Virginia, which would offer financial incentives for private industry, is a promising start. Many see that the country is getting ready to build lots of new power plants to meet our energy needs. If we are ever going to protect the atmosphere, it is crucial that those new plants be environmentally sound."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Of all the components of a good night's sleep, dreams seem to be least within our control. In dreams, a window opens into a world where logic is suspended and dead people speak. A century ago, Freud formulated his revolutionary theory that dreams were the disguised shadows of our unconscious desires and fears; by the late 1970s, neurologists had switched to thinking of them as just “mental noise”—the random byproducts of the neural-repair work that goes on during sleep. Now researchers suspect that dreams are part of the mind's emotional thermostat, regulating moods while the brain is “off-line.” And one leading authority says that these intensely powerful mental events can be not only harnessed but actually brought under conscious control, to help us sleep and feel better. “It's your dream,” says Rosalind Cartwright, chair of psychology at Chicago's Medical Center. “If you don't like it, change it.”"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Evidence from brain imaging supports this view. The brain is as active during REM (rapid eye movement) sleep—when most vivid dreams occur—as it is when fully awake, says Dr. Eric Nofzinger at the University of Pittsburgh. But not all parts of the brain are equally involved; the limbic system (the “emotional brain”) is especially active, while the prefrontal cortex (the center of intellect and reasoning) is relatively quiet. “We wake up from dreams happy or depressed, and those feelings can stay with us all day,” says Stanford sleep researcher Dr. William Dement."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The link between dreams and emotions shows up among the patients in Cartwright's clinic. Most people seem to have more bad dreams early in the night, progressing toward happier ones before awakening, suggesting that they are working through negative feelings generated during the day. Because our conscious mind is occupied with daily life we don't always think about the emotional significance of the day's events—until, it appears, we begin to dream."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "And this process need not be left to the unconscious. Cartwright believes one can exercise conscious control over recurring bad dreams. As soon as you awaken, identify what is upsetting about the dream. Visualize how you would like it to end instead; the next time it occurs, try to wake up just enough to control its course. With much practice people can learn to, literally, do it in their sleep."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "At the end of the day, there's probably little reason to pay attention to our dreams at all unless they keep us from sleeping or “we wake up in a panic,” Cartwright says. Terrorism, economic uncertainties and general feelings of insecurity have increased people's anxiety. Those suffering from persistent nightmares should seek help from a therapist. For the rest of us, the brain has its ways of working through bad feelings. Sleep—or rather dream—on it and you'll feel better in the morning."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Americans no longer expect public figures, whether in speech or in writing, to command the English language with skill and gift. Nor do they aspire to such command themselves. In his latest book, Doing Our Own Thing: The Degradation of Language and Music and Why We Should Like, Care, John McWhorter, a linguist and controversialist of mixed liberal and conservative views, sees the triumph of 1960s counter-culture as responsible for the decline of formal English."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Blaming the permissive 1960s is nothing new, but this is not yet another criticism against the decline in education. Mr. McWhorter's academic speciality is language history and change, and he sees the gradual disappearance of “whom”, for example, to be natural and no more regrettable than the loss of the case-endings of Old English."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "But the cult of the authentic and the personal, “doing our own thing”, has spelt the death of formal speech, writing, poetry and music. While even the modestly educated sought an elevated tone when they put pen to paper before the 1960s, even the most well regarded writing since then has sought to capture spoken English on the page. Equally, in poetry, the highly personal, performative genre is the only form that could claim real liveliness. In both oral and written English, talking is triumphing over speaking, spontaneity over craft."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Illustrated with an entertaining array of examples from both high and low culture, the trend that Mr. McWhorter documents is unmistakable. But it is less clear, to take the question of his subtitle, why we should, like, care. As a linguist, he acknowledges that all varieties of human language, including non-standard ones like Black English, can be powerfully expressive—there exists no language or dialect in the world that cannot convey complex ideas. He is not arguing, as many do, that we can no longer think straight because we do not talk proper."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Russians have a deep love for their own language and carry large chunks of memorized poetry in their heads, while Italian politicians tend to elaborate speech that would seem old-fashioned to most English-speakers. Mr. McWhorter acknowledges that formal language is not strictly necessary, and proposes no radical education reforms—he is really grieving over the loss of something beautiful more than useful. We now take our English “on paper plates instead of china”. A shame, perhaps, but probably an inevitable one."
+        }
+      ]
+    },
+    {
+      "id": "newtype",
+      "title": "Section II · 新题型 Part B 短文",
+      "section": "Section II · 新题型 Part B",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Canada's premiers (the leaders of provincial governments), if they have any breath left after complaining about Ottawa at their late July annual meeting, might spare a moment to do something, together, to reduce health-care costs."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "They're all groaning about soaring health budgets, the fastest-growing component of which are pharmaceutical costs."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "__41__"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "What to do? Both the Romanow commission and the Kirby committee on health care—to say nothing of reports from other experts—recommended the creation of a national drug agency. Instead of each province having its own list of approved drugs, bureaucracy, procedures and limited bargaining power, all would pool resources, work with Ottawa, and create a national institution."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "__42__"
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "But “national” doesn't have to mean that. “National” could mean interprovincial—provinces combining efforts to create one body."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "Either way, one benefit of a “national” organization would be to negotiate better prices, if possible, with drug manufacturers. Instead of having one province—or a series of hospitals within a province—negotiate a price for a given drug on the provincial list, the national agency would negotiate on behalf of all provinces."
+        },
+        {
+          "id": "p8",
+          "type": "paragraph",
+          "text": "Rather than, say, Quebec, negotiating on behalf of seven million people, the national agency would negotiate on behalf of 31 million people. Basic economics suggests the greater the potential consumers, the higher the likelihood of a better price."
+        },
+        {
+          "id": "p9",
+          "type": "paragraph",
+          "text": "__43__"
+        },
+        {
+          "id": "p10",
+          "type": "paragraph",
+          "text": "A small step has been taken in the direction of a national agency with the creation of the Canadian Co-ordinating Office for Health Technology Assessment, funded by Ottawa and the provinces. Under it, a Common Drug Review recommends to provincial lists which new drugs should be included. Predictably, and regrettably, Quebec refused to join."
+        },
+        {
+          "id": "p11",
+          "type": "paragraph",
+          "text": "A few premiers are suspicious of any federal-provincial deal-making. They (particularly Quebec and Alberta) just want Ottawa to fork over additional billions with few, if any, strings attached. That's one reason why the idea of a national list hasn't gone anywhere, while drug costs keep rising fast."
+        },
+        {
+          "id": "p12",
+          "type": "paragraph",
+          "text": "__44__"
+        },
+        {
+          "id": "p13",
+          "type": "paragraph",
+          "text": "Premiers love to quote Mr. Romanow's report selectively, especially the parts about more federal money. Perhaps they should read what he had to say about drugs: “A national drug agency would provide governments more influence on pharmaceutical companies in order to constrain the ever-increasing cost of drugs.”"
+        },
+        {
+          "id": "p14",
+          "type": "paragraph",
+          "text": "__45__"
+        },
+        {
+          "id": "p15",
+          "type": "paragraph",
+          "text": "So when the premiers gather in Niagara Falls to assemble their usual complaint list, they should also get cracking about something in their jurisdiction that would help their budgets and patients."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · 翻译 Part C 原文",
+      "section": "Section II · 翻译 Part C",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "It is not easy to talk about the role of the mass media in this overwhelmingly significant phase in European history. History and news become confused, and one's impressions tend to be a mixture of skepticism and optimism. 【46】Television is one of the means by which these feelings are created and conveyed—and perhaps never before has it served so much to connect different peoples and nations as in the recent events in Europe. The Europe that is now forming cannot be anything other than its peoples, their cultures and national identities. With this in mind we can begin to analyze the European television scene. 【47】In Europe, as elsewhere, multi-media groups have been increasingly successful; groups which bring together television, radio, newspapers, magazines and publishing houses that work in relation to one another. One Italian example would be the Berlusconi group, while abroad Maxwell and Murdoch come to mind."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Clearly, only the biggest and most flexible television companies are going to be able to compete in such a rich and hotly-contested market. 【48】This alone demonstrates that the television business is not an easy world to survive in, a fact underlined by statistics that show that out of eighty European television networks, no less than 50% took a loss in 1989."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Moreover, the integration of the European community will oblige television companies to cooperate more closely in terms of both production and distribution."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "【49】Creating a “European identity” that respects the different cultures and traditions which go to make up the connecting fabric of the Old Continent is no easy task and demands a strategic choice—that of producing programs in Europe for Europe. This entails reducing our dependence on the North American market, whose programs relate to experiences and cultural traditions which are different from our own."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "In order to achieve these objectives, we must concentrate more on co-productions, the exchange of news, documentary services and training. This also involves the agreements between European countries for the creation of a European bank for Television Production which, on the model of the European Investments Bank, will handle the finances necessary for production costs. 【50】In dealing with a challenge on such a scale, it is no exaggeration to say, “United we stand, divided we fall”—and if I had to choose a slogan it would be “Unity in our diversity.” A unity of objectives that nonetheless respect the varied peculiarities of each country."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        {
+          "id": "c1-a",
+          "text": "although"
+        },
+        {
+          "id": "c1-b",
+          "text": "as"
+        },
+        {
+          "id": "c1-c",
+          "text": "but"
+        },
+        {
+          "id": "c1-d",
+          "text": "while"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c1-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第1空"
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        {
+          "id": "c2-a",
+          "text": "above"
+        },
+        {
+          "id": "c2-b",
+          "text": "unlike"
+        },
+        {
+          "id": "c2-c",
+          "text": "excluding"
+        },
+        {
+          "id": "c2-d",
+          "text": "besides"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c2-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第2空"
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        {
+          "id": "c3-a",
+          "text": "limited"
+        },
+        {
+          "id": "c3-b",
+          "text": "committed"
+        },
+        {
+          "id": "c3-c",
+          "text": "dedicated"
+        },
+        {
+          "id": "c3-d",
+          "text": "confined"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c3-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第3空"
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        {
+          "id": "c4-a",
+          "text": "catching"
+        },
+        {
+          "id": "c4-b",
+          "text": "ignoring"
+        },
+        {
+          "id": "c4-c",
+          "text": "missing"
+        },
+        {
+          "id": "c4-d",
+          "text": "tracking"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c4-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第4空"
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        {
+          "id": "c5-a",
+          "text": "anyway"
+        },
+        {
+          "id": "c5-b",
+          "text": "though"
+        },
+        {
+          "id": "c5-c",
+          "text": "instead"
+        },
+        {
+          "id": "c5-d",
+          "text": "therefore"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c5-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第5空"
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        {
+          "id": "c6-a",
+          "text": "even if"
+        },
+        {
+          "id": "c6-b",
+          "text": "if only"
+        },
+        {
+          "id": "c6-c",
+          "text": "only if"
+        },
+        {
+          "id": "c6-d",
+          "text": "as if"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c6-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第6空"
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        {
+          "id": "c7-a",
+          "text": "distinguishing"
+        },
+        {
+          "id": "c7-b",
+          "text": "discovering"
+        },
+        {
+          "id": "c7-c",
+          "text": "determining"
+        },
+        {
+          "id": "c7-d",
+          "text": "detecting"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c7-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第7空"
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        {
+          "id": "c8-a",
+          "text": "diluted"
+        },
+        {
+          "id": "c8-b",
+          "text": "dissolved"
+        },
+        {
+          "id": "c8-c",
+          "text": "dispersed"
+        },
+        {
+          "id": "c8-d",
+          "text": "diffused"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c8-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第8空"
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        {
+          "id": "c9-a",
+          "text": "when"
+        },
+        {
+          "id": "c9-b",
+          "text": "since"
+        },
+        {
+          "id": "c9-c",
+          "text": "for"
+        },
+        {
+          "id": "c9-d",
+          "text": "whereas"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c9-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第9空"
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        {
+          "id": "c10-a",
+          "text": "unusual"
+        },
+        {
+          "id": "c10-b",
+          "text": "particular"
+        },
+        {
+          "id": "c10-c",
+          "text": "unique"
+        },
+        {
+          "id": "c10-d",
+          "text": "typical"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c10-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第10空"
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        {
+          "id": "c11-a",
+          "text": "signs"
+        },
+        {
+          "id": "c11-b",
+          "text": "stimuli"
+        },
+        {
+          "id": "c11-c",
+          "text": "messages"
+        },
+        {
+          "id": "c11-d",
+          "text": "impulses"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c11-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第11空"
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        {
+          "id": "c12-a",
+          "text": "at first"
+        },
+        {
+          "id": "c12-b",
+          "text": "at all"
+        },
+        {
+          "id": "c12-c",
+          "text": "at large"
+        },
+        {
+          "id": "c12-d",
+          "text": "at times"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c12-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第12空"
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        {
+          "id": "c13-a",
+          "text": "subjected"
+        },
+        {
+          "id": "c13-b",
+          "text": "left"
+        },
+        {
+          "id": "c13-c",
+          "text": "drawn"
+        },
+        {
+          "id": "c13-d",
+          "text": "exposed"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c13-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第13空"
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        {
+          "id": "c14-a",
+          "text": "ineffective"
+        },
+        {
+          "id": "c14-b",
+          "text": "incompetent"
+        },
+        {
+          "id": "c14-c",
+          "text": "inefficient"
+        },
+        {
+          "id": "c14-d",
+          "text": "insufficient"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c14-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第14空"
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        {
+          "id": "c15-a",
+          "text": "introduce"
+        },
+        {
+          "id": "c15-b",
+          "text": "summon"
+        },
+        {
+          "id": "c15-c",
+          "text": "trigger"
+        },
+        {
+          "id": "c15-d",
+          "text": "create"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c15-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第15空"
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        {
+          "id": "c16-a",
+          "text": "still"
+        },
+        {
+          "id": "c16-b",
+          "text": "also"
+        },
+        {
+          "id": "c16-c",
+          "text": "otherwise"
+        },
+        {
+          "id": "c16-d",
+          "text": "nevertheless"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c16-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第16空"
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        {
+          "id": "c17-a",
+          "text": "sure"
+        },
+        {
+          "id": "c17-b",
+          "text": "sick"
+        },
+        {
+          "id": "c17-c",
+          "text": "aware"
+        },
+        {
+          "id": "c17-d",
+          "text": "tired"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c17-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第17空"
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        {
+          "id": "c18-a",
+          "text": "tolerate"
+        },
+        {
+          "id": "c18-b",
+          "text": "repel"
+        },
+        {
+          "id": "c18-c",
+          "text": "neglect"
+        },
+        {
+          "id": "c18-d",
+          "text": "notice"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c18-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第18空"
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        {
+          "id": "c19-a",
+          "text": "available"
+        },
+        {
+          "id": "c19-b",
+          "text": "reliable"
+        },
+        {
+          "id": "c19-c",
+          "text": "identifiable"
+        },
+        {
+          "id": "c19-d",
+          "text": "suitable"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c19-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第19空"
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        {
+          "id": "c20-a",
+          "text": "similar to"
+        },
+        {
+          "id": "c20-b",
+          "text": "such as"
+        },
+        {
+          "id": "c20-c",
+          "text": "along with"
+        },
+        {
+          "id": "c20-d",
+          "text": "aside from"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c20-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第20空"
+    },
+    {
+      "id": "t1-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "In the opening paragraph, the author introduces his topic by ______.",
+      "options": [
+        {
+          "id": "t1-q1-a",
+          "text": "posing a contrast"
+        },
+        {
+          "id": "t1-q1-b",
+          "text": "justifying an assumption"
+        },
+        {
+          "id": "t1-q1-c",
+          "text": "making a comparison"
+        },
+        {
+          "id": "t1-q1-d",
+          "text": "explaining a phenomenon"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q1-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1段"
+    },
+    {
+      "id": "t1-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The statement “it is all too monkey” (Last line, Paragraph 1) implies that ______.",
+      "options": [
+        {
+          "id": "t1-q2-a",
+          "text": "monkeys are also outraged by slack rivals"
+        },
+        {
+          "id": "t1-q2-b",
+          "text": "resenting unfairness is also monkeys' nature"
+        },
+        {
+          "id": "t1-q2-c",
+          "text": "monkeys, like humans, tend to be jealous of each other"
+        },
+        {
+          "id": "t1-q2-d",
+          "text": "no animals other than monkeys can develop such emotions"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q2-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1段"
+    },
+    {
+      "id": "t1-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Female capuchin monkeys were chosen for the research most probably because they are ______.",
+      "options": [
+        {
+          "id": "t1-q3-a",
+          "text": "more inclined to weigh what they get"
+        },
+        {
+          "id": "t1-q3-b",
+          "text": "attentive to researchers' instructions"
+        },
+        {
+          "id": "t1-q3-c",
+          "text": "nice in both appearance and temperament"
+        },
+        {
+          "id": "t1-q3-d",
+          "text": "more generous than their male companions"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q3-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第2段"
+    },
+    {
+      "id": "t1-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Dr. Brosnan and Dr. de Waal have eventually found in their study that the monkeys ______.",
+      "options": [
+        {
+          "id": "t1-q4-a",
+          "text": "prefer grapes to cucumbers"
+        },
+        {
+          "id": "t1-q4-b",
+          "text": "can be taught to exchange things"
+        },
+        {
+          "id": "t1-q4-c",
+          "text": "will not be co-operative if feeling cheated"
+        },
+        {
+          "id": "t1-q4-d",
+          "text": "are unhappy when separated from others"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q4-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第5段"
+    },
+    {
+      "id": "t1-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "What can we infer from the last paragraph?",
+      "options": [
+        {
+          "id": "t1-q5-a",
+          "text": "Monkeys can be trained to develop social emotions."
+        },
+        {
+          "id": "t1-q5-b",
+          "text": "Human indignation evolved from an uncertain source."
+        },
+        {
+          "id": "t1-q5-c",
+          "text": "Animals usually show their feelings openly as humans do."
+        },
+        {
+          "id": "t1-q5-d",
+          "text": "Cooperation among monkeys remains stable only in the wild."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q5-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第5段"
+    },
+    {
+      "id": "t2-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "An argument made by supporters of smoking was that ______.",
+      "options": [
+        {
+          "id": "t2-q1-a",
+          "text": "there was no scientific evidence of the correlation between smoking and death"
+        },
+        {
+          "id": "t2-q1-b",
+          "text": "the number of early deaths of smokers in the past decades was insignificant"
+        },
+        {
+          "id": "t2-q1-c",
+          "text": "people had the freedom to choose their own way of life"
+        },
+        {
+          "id": "t2-q1-d",
+          "text": "antismoking people were usually talking nonsense"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q1-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第1段"
+    },
+    {
+      "id": "t2-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "According to Bruce Alberts, science can serve as ______.",
+      "options": [
+        {
+          "id": "t2-q2-a",
+          "text": "a protector"
+        },
+        {
+          "id": "t2-q2-b",
+          "text": "a judge"
+        },
+        {
+          "id": "t2-q2-c",
+          "text": "a critic"
+        },
+        {
+          "id": "t2-q2-d",
+          "text": "a guide"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q2-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第2段"
+    },
+    {
+      "id": "t2-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "What does the author mean by “paralysis by analysis” (Last line, Paragraph 4)?",
+      "options": [
+        {
+          "id": "t2-q3-a",
+          "text": "Endless studies kill action."
+        },
+        {
+          "id": "t2-q3-b",
+          "text": "Careful investigation reveals truth."
+        },
+        {
+          "id": "t2-q3-c",
+          "text": "Prudent planning hinders progress."
+        },
+        {
+          "id": "t2-q3-d",
+          "text": "Extensive research helps decision-making."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q3-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第4段"
+    },
+    {
+      "id": "t2-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "According to the author, what should the Administration do about global warming?",
+      "options": [
+        {
+          "id": "t2-q4-a",
+          "text": "Offer aid to build cleaner power plants."
+        },
+        {
+          "id": "t2-q4-b",
+          "text": "Raise public awareness of conservation."
+        },
+        {
+          "id": "t2-q4-c",
+          "text": "Press for further scientific research."
+        },
+        {
+          "id": "t2-q4-d",
+          "text": "Take some legislative measures."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q4-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第5段"
+    },
+    {
+      "id": "t2-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The author associates the issue of global warming with that of smoking because ______.",
+      "options": [
+        {
+          "id": "t2-q5-a",
+          "text": "they both suffered from the government's negligence"
+        },
+        {
+          "id": "t2-q5-b",
+          "text": "a lesson from the latter is applicable to the former"
+        },
+        {
+          "id": "t2-q5-c",
+          "text": "the outcome of the latter aggravates the former"
+        },
+        {
+          "id": "t2-q5-d",
+          "text": "both of them have turned from bad to worse"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q5-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 全文"
+    },
+    {
+      "id": "t3-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Researchers have come to believe that dreams ______.",
+      "options": [
+        {
+          "id": "t3-q1-a",
+          "text": "can be modified in their courses"
+        },
+        {
+          "id": "t3-q1-b",
+          "text": "are susceptible to emotional changes"
+        },
+        {
+          "id": "t3-q1-c",
+          "text": "reflect our innermost desires and fears"
+        },
+        {
+          "id": "t3-q1-d",
+          "text": "are a random outcome of neural repairs"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q1-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第1段"
+    },
+    {
+      "id": "t3-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "By referring to the limbic system, the author intends to show ______.",
+      "options": [
+        {
+          "id": "t3-q2-a",
+          "text": "its function in our dreams"
+        },
+        {
+          "id": "t3-q2-b",
+          "text": "the mechanism of REM sleep"
+        },
+        {
+          "id": "t3-q2-c",
+          "text": "the relation of dreams to emotions"
+        },
+        {
+          "id": "t3-q2-d",
+          "text": "its difference from the prefrontal cortex"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q2-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第2段"
+    },
+    {
+      "id": "t3-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The negative feelings generated during the day tend to ______.",
+      "options": [
+        {
+          "id": "t3-q3-a",
+          "text": "aggravate in our unconscious mind"
+        },
+        {
+          "id": "t3-q3-b",
+          "text": "develop into happy dreams"
+        },
+        {
+          "id": "t3-q3-c",
+          "text": "persist till the time we fall asleep"
+        },
+        {
+          "id": "t3-q3-d",
+          "text": "show up in dreams early at night"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q3-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第3段"
+    },
+    {
+      "id": "t3-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Cartwright seems to suggest that ______.",
+      "options": [
+        {
+          "id": "t3-q4-a",
+          "text": "waking up in time is essential to the ridding of bad dreams"
+        },
+        {
+          "id": "t3-q4-b",
+          "text": "visualizing bad dreams helps bring them under control"
+        },
+        {
+          "id": "t3-q4-c",
+          "text": "dreams should be left to their natural progression"
+        },
+        {
+          "id": "t3-q4-d",
+          "text": "dreaming may not entirely belong to the unconscious"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q4-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第4段"
+    },
+    {
+      "id": "t3-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "What advice might Cartwright give to those who sometimes have bad dreams?",
+      "options": [
+        {
+          "id": "t3-q5-a",
+          "text": "Lead your life as usual."
+        },
+        {
+          "id": "t3-q5-b",
+          "text": "Seek professional help."
+        },
+        {
+          "id": "t3-q5-c",
+          "text": "Exercise conscious control."
+        },
+        {
+          "id": "t3-q5-d",
+          "text": "Avoid anxiety in the daytime."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q5-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第5段"
+    },
+    {
+      "id": "t4-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to McWhorter, the decline of formal English ______.",
+      "options": [
+        {
+          "id": "t4-q1-a",
+          "text": "is inevitable in radical education reforms"
+        },
+        {
+          "id": "t4-q1-b",
+          "text": "is but all too natural in language development"
+        },
+        {
+          "id": "t4-q1-c",
+          "text": "has caused the controversy over the counter-culture"
+        },
+        {
+          "id": "t4-q1-d",
+          "text": "brought about changes in public attitudes in the 1960s"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q1-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第2段"
+    },
+    {
+      "id": "t4-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The word “talking” (Line 6, Paragraph 3) denotes ______.",
+      "options": [
+        {
+          "id": "t4-q2-a",
+          "text": "modesty"
+        },
+        {
+          "id": "t4-q2-b",
+          "text": "personality"
+        },
+        {
+          "id": "t4-q2-c",
+          "text": "liveliness"
+        },
+        {
+          "id": "t4-q2-d",
+          "text": "informality"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q2-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第3段"
+    },
+    {
+      "id": "t4-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "To which of the following statements would McWhorter most likely agree?",
+      "options": [
+        {
+          "id": "t4-q3-a",
+          "text": "Logical thinking is not necessarily related to the way we talk."
+        },
+        {
+          "id": "t4-q3-b",
+          "text": "Black English can be more expressive than standard English."
+        },
+        {
+          "id": "t4-q3-c",
+          "text": "Non-standard varieties of human language are just as entertaining."
+        },
+        {
+          "id": "t4-q3-d",
+          "text": "Of all the varieties, standard English can best convey complex ideas."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q3-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第4段"
+    },
+    {
+      "id": "t4-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The description of Russians' love of memorizing poetry shows the author's ______.",
+      "options": [
+        {
+          "id": "t4-q4-a",
+          "text": "interest in their language"
+        },
+        {
+          "id": "t4-q4-b",
+          "text": "appreciation of their efforts"
+        },
+        {
+          "id": "t4-q4-c",
+          "text": "admiration for their memory"
+        },
+        {
+          "id": "t4-q4-d",
+          "text": "contempt for their old-fashionedness"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q4-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第5段"
+    },
+    {
+      "id": "t4-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to the last paragraph, “paper plates” is to “china” as ______.",
+      "options": [
+        {
+          "id": "t4-q5-a",
+          "text": "“temporary” is to “permanent”"
+        },
+        {
+          "id": "t4-q5-b",
+          "text": "“radical” is to “conservative”"
+        },
+        {
+          "id": "t4-q5-c",
+          "text": "“functional” is to “artistic”"
+        },
+        {
+          "id": "t4-q5-d",
+          "text": "“humble” is to “noble”"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q5-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第5段"
+    },
+    {
+      "id": "nt-41",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 41 空：从下列句子中选出填入本空的选项",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "Quebec's resistance to a national agency is provincialist ideology. One of the first advocates for a national list was a researcher at Laval University. Quebec's Drug Insurance Fund has seen its costs skyrocket with annual increases from 14.3 per cent to 26.8 per cent!"
+        },
+        {
+          "id": "nt-b",
+          "text": "Or they could read Mr. Kirby's report: “the substantial buying power of such an agency would strengthen the public prescription-drug insurance plans to negotiate the lowest possible purchase prices from drug companies.”"
+        },
+        {
+          "id": "nt-c",
+          "text": "What does “national” mean? Roy Romanow and Senator Michael Kirby recommended a federal-provincial body much like the recently created National Health Council."
+        },
+        {
+          "id": "nt-d",
+          "text": "The problem is simple and stark: health-care costs have been, are, and will continue to increase faster than government revenues."
+        },
+        {
+          "id": "nt-e",
+          "text": "According to the Canadian Institute for Health Information, prescription drug costs have risen since 1997 at twice the rate of overall health-care spending. Part of the increase comes from drugs being used to replace other kinds of treatments. Part of it arises from new drugs costing more than older kinds. Part of it is higher prices."
+        },
+        {
+          "id": "nt-f",
+          "text": "So, if the provinces want to run the health-care show, they should prove they can run it, starting with an interprovincial health list that would end duplication, save administrative costs, prevent one province from being played off against another, and bargain for better drug prices."
+        },
+        {
+          "id": "nt-g",
+          "text": "Of course, the pharmaceutical companies will scream. They like divided buyers; they can lobby better that way. They can use the threat of removing jobs from one province to another. They can hope that, if one province includes a drug on its list, the pressure will cause others to include it on theirs. They wouldn't like a national agency, but self-interest would lead them to deal with it."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-e"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第41空"
+    },
+    {
+      "id": "nt-42",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 42 空：从下列句子中选出填入本空的选项",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "Quebec's resistance to a national agency is provincialist ideology. One of the first advocates for a national list was a researcher at Laval University. Quebec's Drug Insurance Fund has seen its costs skyrocket with annual increases from 14.3 per cent to 26.8 per cent!"
+        },
+        {
+          "id": "nt-b",
+          "text": "Or they could read Mr. Kirby's report: “the substantial buying power of such an agency would strengthen the public prescription-drug insurance plans to negotiate the lowest possible purchase prices from drug companies.”"
+        },
+        {
+          "id": "nt-c",
+          "text": "What does “national” mean? Roy Romanow and Senator Michael Kirby recommended a federal-provincial body much like the recently created National Health Council."
+        },
+        {
+          "id": "nt-d",
+          "text": "The problem is simple and stark: health-care costs have been, are, and will continue to increase faster than government revenues."
+        },
+        {
+          "id": "nt-e",
+          "text": "According to the Canadian Institute for Health Information, prescription drug costs have risen since 1997 at twice the rate of overall health-care spending. Part of the increase comes from drugs being used to replace other kinds of treatments. Part of it arises from new drugs costing more than older kinds. Part of it is higher prices."
+        },
+        {
+          "id": "nt-f",
+          "text": "So, if the provinces want to run the health-care show, they should prove they can run it, starting with an interprovincial health list that would end duplication, save administrative costs, prevent one province from being played off against another, and bargain for better drug prices."
+        },
+        {
+          "id": "nt-g",
+          "text": "Of course, the pharmaceutical companies will scream. They like divided buyers; they can lobby better that way. They can use the threat of removing jobs from one province to another. They can hope that, if one province includes a drug on its list, the pressure will cause others to include it on theirs. They wouldn't like a national agency, but self-interest would lead them to deal with it."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第42空"
+    },
+    {
+      "id": "nt-43",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 43 空：从下列句子中选出填入本空的选项",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "Quebec's resistance to a national agency is provincialist ideology. One of the first advocates for a national list was a researcher at Laval University. Quebec's Drug Insurance Fund has seen its costs skyrocket with annual increases from 14.3 per cent to 26.8 per cent!"
+        },
+        {
+          "id": "nt-b",
+          "text": "Or they could read Mr. Kirby's report: “the substantial buying power of such an agency would strengthen the public prescription-drug insurance plans to negotiate the lowest possible purchase prices from drug companies.”"
+        },
+        {
+          "id": "nt-c",
+          "text": "What does “national” mean? Roy Romanow and Senator Michael Kirby recommended a federal-provincial body much like the recently created National Health Council."
+        },
+        {
+          "id": "nt-d",
+          "text": "The problem is simple and stark: health-care costs have been, are, and will continue to increase faster than government revenues."
+        },
+        {
+          "id": "nt-e",
+          "text": "According to the Canadian Institute for Health Information, prescription drug costs have risen since 1997 at twice the rate of overall health-care spending. Part of the increase comes from drugs being used to replace other kinds of treatments. Part of it arises from new drugs costing more than older kinds. Part of it is higher prices."
+        },
+        {
+          "id": "nt-f",
+          "text": "So, if the provinces want to run the health-care show, they should prove they can run it, starting with an interprovincial health list that would end duplication, save administrative costs, prevent one province from being played off against another, and bargain for better drug prices."
+        },
+        {
+          "id": "nt-g",
+          "text": "Of course, the pharmaceutical companies will scream. They like divided buyers; they can lobby better that way. They can use the threat of removing jobs from one province to another. They can hope that, if one province includes a drug on its list, the pressure will cause others to include it on theirs. They wouldn't like a national agency, but self-interest would lead them to deal with it."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-g"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第43空"
+    },
+    {
+      "id": "nt-44",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 44 空：从下列句子中选出填入本空的选项",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "Quebec's resistance to a national agency is provincialist ideology. One of the first advocates for a national list was a researcher at Laval University. Quebec's Drug Insurance Fund has seen its costs skyrocket with annual increases from 14.3 per cent to 26.8 per cent!"
+        },
+        {
+          "id": "nt-b",
+          "text": "Or they could read Mr. Kirby's report: “the substantial buying power of such an agency would strengthen the public prescription-drug insurance plans to negotiate the lowest possible purchase prices from drug companies.”"
+        },
+        {
+          "id": "nt-c",
+          "text": "What does “national” mean? Roy Romanow and Senator Michael Kirby recommended a federal-provincial body much like the recently created National Health Council."
+        },
+        {
+          "id": "nt-d",
+          "text": "The problem is simple and stark: health-care costs have been, are, and will continue to increase faster than government revenues."
+        },
+        {
+          "id": "nt-e",
+          "text": "According to the Canadian Institute for Health Information, prescription drug costs have risen since 1997 at twice the rate of overall health-care spending. Part of the increase comes from drugs being used to replace other kinds of treatments. Part of it arises from new drugs costing more than older kinds. Part of it is higher prices."
+        },
+        {
+          "id": "nt-f",
+          "text": "So, if the provinces want to run the health-care show, they should prove they can run it, starting with an interprovincial health list that would end duplication, save administrative costs, prevent one province from being played off against another, and bargain for better drug prices."
+        },
+        {
+          "id": "nt-g",
+          "text": "Of course, the pharmaceutical companies will scream. They like divided buyers; they can lobby better that way. They can use the threat of removing jobs from one province to another. They can hope that, if one province includes a drug on its list, the pressure will cause others to include it on theirs. They wouldn't like a national agency, but self-interest would lead them to deal with it."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-f"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第44空"
+    },
+    {
+      "id": "nt-45",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 45 空：从下列句子中选出填入本空的选项",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "Quebec's resistance to a national agency is provincialist ideology. One of the first advocates for a national list was a researcher at Laval University. Quebec's Drug Insurance Fund has seen its costs skyrocket with annual increases from 14.3 per cent to 26.8 per cent!"
+        },
+        {
+          "id": "nt-b",
+          "text": "Or they could read Mr. Kirby's report: “the substantial buying power of such an agency would strengthen the public prescription-drug insurance plans to negotiate the lowest possible purchase prices from drug companies.”"
+        },
+        {
+          "id": "nt-c",
+          "text": "What does “national” mean? Roy Romanow and Senator Michael Kirby recommended a federal-provincial body much like the recently created National Health Council."
+        },
+        {
+          "id": "nt-d",
+          "text": "The problem is simple and stark: health-care costs have been, are, and will continue to increase faster than government revenues."
+        },
+        {
+          "id": "nt-e",
+          "text": "According to the Canadian Institute for Health Information, prescription drug costs have risen since 1997 at twice the rate of overall health-care spending. Part of the increase comes from drugs being used to replace other kinds of treatments. Part of it arises from new drugs costing more than older kinds. Part of it is higher prices."
+        },
+        {
+          "id": "nt-f",
+          "text": "So, if the provinces want to run the health-care show, they should prove they can run it, starting with an interprovincial health list that would end duplication, save administrative costs, prevent one province from being played off against another, and bargain for better drug prices."
+        },
+        {
+          "id": "nt-g",
+          "text": "Of course, the pharmaceutical companies will scream. They like divided buyers; they can lobby better that way. They can use the threat of removing jobs from one province to another. They can hope that, if one province includes a drug on its list, the pressure will cause others to include it on theirs. They wouldn't like a national agency, but self-interest would lead them to deal with it."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第45空"
+    },
+    {
+      "id": "tr-46",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Television is one of the means by which these feelings are created and conveyed—and perhaps never before has it served so much to connect different peoples and nations as in the recent events in Europe.",
+      "answer_key": {
+        "reference_text": "电视是引发和传递这些感受的手段之一——在欧洲近来发生的事件中，它把不同的民族和国家连到一起，其作用之大，前所未有。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第46句"
+    },
+    {
+      "id": "tr-47",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "In Europe, as elsewhere, multi-media groups have been increasingly successful; groups which bring together television, radio, newspapers, magazines and publishing houses that work in relation to one another.",
+      "answer_key": {
+        "reference_text": "在欧洲，像在其他地方一样，传媒集团越来越成功：这些集团将相关的电视、广播、报纸、杂志和出版社组合在一起。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第47句"
+    },
+    {
+      "id": "tr-48",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "This alone demonstrates that the television business is not an easy world to survive in, a fact underlined by statistics that show that out of eighty European television networks, no less than 50% took a loss in 1989.",
+      "answer_key": {
+        "reference_text": "这一点就足以表明，要在电视行业里生存下来并非易事。统计数字尤其说明了这一事实，在80个欧洲电视网中，多达一半在1989年亏损。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第48句"
+    },
+    {
+      "id": "tr-49",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Creating a “European identity” that respects the different cultures and traditions which go to make up the connecting fabric of the Old Continent is no easy task and demands a strategic choice—that of producing programs in Europe for Europe.",
+      "answer_key": {
+        "reference_text": "不同的文化和传统把欧洲大陆编织成一体，要创造出一种尊重这些不同文化和传统的“欧洲品牌”绝非易事，需要人们做出战略性的选择——也就是选择在欧洲为欧洲制作节目。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第49句"
+    },
+    {
+      "id": "tr-50",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "In dealing with a challenge on such a scale, it is no exaggeration to say, “United we stand, divided we fall”—and if I had to choose a slogan it would be “Unity in our diversity.”",
+      "answer_key": {
+        "reference_text": "在应对如此规模的挑战时，可以毫不夸张地说，“联合，我们就生存；分裂，我们就灭亡。”——如果我不得不选择一个口号的话，它应该是“多样中的统一”。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第50句"
+    },
+    {
+      "id": "writing-a",
+      "section": "Section III · 写作 Part A",
+      "type": "free_text",
+      "stem": "Two months ago you got a job as an editor for the magazine Designs & Fashions. But now you find that the work is not what you expected. You decide to quit. Write a letter to your boss, Mr. Wang, telling him your decision, stating your reason(s), and making an apology.\nWrite your letter with no less than 100 words. Write it neatly on ANSWER SHEET 2. Do not sign your own name at the end of the letter; use “Li Ming” instead. You do not need to write the address. (10 points)",
+      "answer_key": {
+        "reference_text": "Dear Mr. Wang,\n\nWith regret, I am writing this letter to inform you of my decision to resign from my current position as an editor of the magazine Designs & Fashions.\n\nI have been greatly appreciative of the opportunities and guidance you have given me during the past two months. However, after much deliberation, I have concluded that the job does not suit me well. First of all, I find the work demanding but far from rewarding — it takes me too much time to commute between my home and the office every day. Moreover, what disappoints me most is that my major, which is law, has little to do with editorial work, so I am unable to make full use of what I have learned at university. Therefore, I have decided to quit the job and pursue a career more relevant to my field of study.\n\nI sincerely apologize for any inconvenience my resignation may cause you and the magazine. I would be grateful if you could approve my request at your earliest convenience.\n\nYours sincerely,\nLi Ming"
+      },
+      "max_score_units": 1000,
+      "source_ref": "Section III Writing Part A 51"
+    },
+    {
+      "id": "writing-b",
+      "section": "Section III · 写作 Part B",
+      "type": "free_text",
+      "stem": "Write an essay of 160-200 words based on the following drawing. In your essay, you should first describe the drawing, then interpret its meaning, and give your comment on it.\nYou should write neatly on ANSWER SHEET 2. (20 points)\n画面文字描述：四个子女把老人当足球踢来踢去，谁也不愿赡养老人。",
+      "images": [
+        "images/2005/b8921a2f9fc7d4f94064f5457de52c80a78b79aac85ebc40837ce17af46590e1.jpg"
+      ],
+      "answer_key": {
+        "reference_text": "As can be seen from the picture, four children are playing a “football game” with their old father, kicking him from one corner of a football field to another. The eldest son kicks out the father, who huddles up into a ball. The other children are prepared to ward him off. It is sad to see none of them is willing to receive their father.\n\nThe picture is thought-provoking, and what it illustrates is a common phenomenon in today's society: many grown-up children refuse to support their aging parents. While they are enjoying a comfortable life, their parents are neglected and reduced to utter poverty, as these elderly people have grown so physically weak that they no longer have the means to support themselves. I think these children have betrayed their own conscience and therefore may subject themselves to social contempt and criticism.\n\nAccording to Chinese culture, to be kind to one's parents is the height of virtue. We owe so much to our parents in that they not only gave us lives but also have done much in bringing us up. It is against nature for us to shirk the responsibility of taking care of our parents when they are old. Rather, we have the duty to pay back their love by making their later years enjoyable and happy."
+      },
+      "max_score_units": 2000,
+      "source_ref": "Section III Writing Part B 52"
+    }
+  ]
+}

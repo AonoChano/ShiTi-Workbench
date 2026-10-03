@@ -1,0 +1,786 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 1999,
+    "paper": "英语统考卷",
+    "title": "1999年全国攻读硕士学位研究生入学考试英语试题",
+    "total_score_units": 8000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/1999.md",
+    "source_images": "TestPaper/images/1999/",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T13:30:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "1999年为统一卷，完形10题、阅读20题、翻译5题、写作1题，合计80分，故 total_score_units=8000。完形每题1分（100），阅读每题2分（200），翻译每题3分（300），写作15分（1500）。未逐题提供 explanation，客观题答案依据《1999年考研英语真题答案及解析》。作文图片路径为 images/1999/5476e4213004fe326e97883198f51dc8a90dbe823cb719deb3b501c3982cb20f.jpg。"
+  },
+  "set": {
+    "title": "1999年全国攻读硕士学位研究生入学考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Part I · 完形填空",
+      "part": "Part I",
+      "title": "完形填空",
+      "directions": [
+        "For each numbered blank in the following passage, there are four choices marked ［A］, ［B］, ［C］ and ［D］. Choose the best one and mark your answer on ANSWER SHEET 1 by blackening the corresponding letter in the brackets with a pencil. (10 points)"
+      ]
+    },
+    {
+      "id": "Part II · 阅读理解",
+      "part": "Part II",
+      "title": "阅读理解",
+      "directions": [
+        "Each of the passages below is followed by some questions. For each question there are four answers marked ［A］, ［B］, ［C］ and ［D］. Read the passages carefully and choose the best answer to each of the questions. Then mark your answer on ANSWER SHEET 1 by blackening the corresponding letter in the brackets with a pencil. (40 points)"
+      ]
+    },
+    {
+      "id": "Part III · 英译汉",
+      "part": "Part III",
+      "title": "英译汉",
+      "directions": [
+        "Read the following passage carefully and then translate the underlined segments into Chinese. Your translation must be written clearly on ANSWER SHEET 2. (15 points)"
+      ]
+    },
+    {
+      "id": "Section IV · 短文写作",
+      "part": "Section IV",
+      "title": "短文写作",
+      "directions": [
+        "A. Study the following graphs carefully and write an essay in at least 150 words.",
+        "B. Your essay must be written clearly on the ANSWER SHEET 2. (15 points)",
+        "C. Your essay should cover three points:",
+        "a. effect of the country's growing human population on its wildlife,",
+        "b. possible reasons for the effect,",
+        "c. your suggestion for wildlife protection"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Part I · 完形填空原文",
+      "section": "Part I · 完形填空",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Industrial safety does not just happen. Companies __1__ low accident rates plan their safety programs, work hard to organize them, and continue working to keep them __2__ and active. When the work is well done, a __3__ of accident free operations is established __4__ time lost due to injuries is kept at a minimum."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Successful safety programs may __5__ greatly in the emphasis placed on certain aspects of the program. Some place great emphasis on mechanical guarding. Others stress safe work practices by __6__ rules or regulations. __7__ others depend on an emotional appeal to the worker. But, there are certain basic ideas that must be used in every program if maximum results are to be obtained."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "There can be no question about the value of a safety program. From a financial standpoint alone, safety __8__. The fewer the injury __9__, the better the workman's insurance rate. This may mean the difference between operating at __10__ or at a loss."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Passage 1",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "It's a rough world out there. Step outside and you could break a leg slipping on your doormat. Light up the stove and you could burn down the house. Luckily, if the doormat or stove failed to warn of coming disaster, a successful lawsuit might compensate you for your troubles. Or so the thinking has gone since the early 1980s, when juries began holding more companies liable for their customers' misfortunes."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Feeling threatened, companies responded by writing ever longer warning labels, trying to anticipate every possible accident. Today, stepladders carry labels several inches long that warn, among other things, that you might—surprise!—fall off. The label on a child's Batman cape cautions that the toy “does not enable user to fly”."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "While warnings are often appropriate and necessary—the dangers of drug interactions, for example—and many are required by state or federal regulations, it isn't clear that they actually protect the manufacturers and sellers from liability if a customer is injured. About 50 percent of the companies lose when injured customers take them to court."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Now the tide appears to be turning. As personal injury claims continue as before, some courts are beginning to side with defendants, especially in cases where a warning label probably wouldn't have changed anything. In May, Julie Nimmons, president of Schutt Sports in Illinois, successfully fought a lawsuit involving a football player who was paralyzed in a game while wearing a Schutt helmet. “We're really sorry he has become paralyzed, but helmets aren't designed to prevent those kinds of injuries,” says Nimmons. The jury agreed that the nature of the game, not the helmet, was the reason for the athlete's injury. At the same time, the American Law Institute—a group of judges, lawyers, and academics whose recommendations carry substantial weight—issued new guidelines for tort law stating that companies need not warn customers of obvious dangers or bombard them with a lengthy list of possible ones. “Important information can get buried in a sea of trivialities,” says a law professor at Cornell Law School who helped draft the new guidelines. If the moderate end of the legal community has its way, the information on products might actually be provided for the benefit of customers and not as protection against legal liability."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Passage 2",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In the first year or so of Web business, most of the action has revolved around efforts to tap the consumer market. More recently, as the Web proved to be more than a fashion, companies have started to buy and sell products and services with one another. Such business to business sales make sense because business people typically know what product they're looking for."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Nonetheless, many companies still hesitate to use the Web because of doubts about its reliability. “Businesses need to feel they can trust the pathway between them and the supplier,” says senior analyst Blane Erwin of Forrester Research. Some companies are limiting the risk by conducting online transactions only with established business partners who are given access to the company's private intranet."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Another major shift in the model for Internet commerce concerns the technology available for marketing. Until recently, Internet marketing activities have focused on strategies to “pull” customers into sites. In the past year however, software companies have developed tools that allow companies to “push” information directly out to consumers, transmitting marketing messages directly to targeted customers. Most notably, the Pointcast Network uses a screen saver to deliver a continually updated stream of news and advertisements to subscribers' computer monitors. Subscribers can customize the information they want to receive and proceed directly to a company's Web site. Companies such as Virtual Vineyards are already starting to use similar technologies to push messages to customers about special sales, product offerings, or other events. But push technology has earned the contempt of many Web users. Online culture thinks highly of the notion that the information flowing onto the screen comes there by specific request. Once commercial promotion begins to fill the screen uninvited, the distinction between the Web and television fades. That's a prospect that horrifies Net purists."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "But it is hardly inevitable that companies on the Web will need to resort to push strategies to make money. The examples of Virtual Vineyards, Amazon.com, and other pioneers show that a Web site selling the right kind of products with the right mix of interactivity, hospitality, and security will attract online customers. And the cost of computing power continues to free fall, which is a good sign for any enterprise setting up shop in silicon. People looking back 5 or 10 years from now may well wonder why so few companies took the online plunge."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Passage 3",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "An invisible border divides those arguing for computers in the classroom on the behalf of students' career prospects and those arguing for computers in the classroom for broader reasons of radical educational reform. Very few writers on the subject have explored this distinction—indeed, contradiction—which goes to the heart of what is wrong with the campaign to put computers in the classroom."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "An education that aims at getting a student a certain kind of job is a technical education, justified for reasons radically different from why education is universally required by law. It is not simply to raise everyone's job prospects that all children are legally required to attend school into their teens. Rather, we have a certain conception of the American citizen, a character who is incomplete if he cannot competently assess how his livelihood and happiness are affected by things outside of himself. But this was not always the case; before it was legally required for all children to attend school until a certain age, it was widely accepted that some were just not equipped by nature to pursue this kind of education. With optimism characteristic of all industrialized countries, we came to accept that everyone is fit to be educated. Computer education advocates forsake this optimistic notion for a pessimism that betrays their otherwise cheery outlook. Banking on the confusion between educational and vocational reasons for bringing computers into schools, computered advocates often emphasize the job prospects of graduates over their educational achievement."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "There are some good arguments for a technical education given the right kind of student. Many European schools introduce the concept of professional training early on in order to make sure children are properly equipped for the professions they want to join. It is, however, presumptuous to insist that there will only be so many jobs for so many scientists, so many businessmen, so many accountants. Besides, this is unlikely to produce the needed number of every kind of professional in a country as large as ours and where the economy is spread over so many states and involves so many international corporations."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "But, for a small group of students, professional training might be the way to go since well developed skills, all other factors being equal, can be the difference between having a job and not. Of course, the basics of using any computer these days are very simple. It does not take a lifelong acquaintance to pick up various software programs. If one wanted to become a computer engineer, that is, of course, an entirely different story. Basic computer skills take—at the very longest—a couple of months to learn. In any case, basic computer skills are only complementary to the host of real skills that are necessary to becoming any kind of professional. It should be observed, of course, that no school, vocational or not, is helped by a confusion over its purpose."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Passage 4",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "When a Scottish research team startled the world by revealing 3 months ago that it had cloned an adult sheep, President Clinton moved swiftly. Declaring that he was opposed to using this unusual animal husbandry technique to clone humans, he ordered that federal funds not be used for such an experiment—although no one had proposed to do so—and asked an independent panel of experts chaired by Princeton President Harold Shapiro to report back to the White House in 90 days with recommendations for a national policy on human cloning. That group—the National Bioethics Advisory Commission (NBAC)—has been working feverishly to put its wisdom on paper, and at a meeting on 17 May, members agreed on a near final draft of their recommendations."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "NBAC will ask that Clinton's 90 day ban on federal funds for human cloning be extended indefinitely, and possibly that it be made law. But NBAC members are planning to word the recommendation narrowly to avoid new restrictions on research that involves the cloning of human DNA or cells—routine in molecular biology. The panel has not yet reached agreement on a crucial question, however, whether to recommend legislation that would make it a crime for private funding to be used for human cloning."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "In a draft preface to the recommendations, discussed at the 17 May meeting, Shapiro suggested that the panel had found a broad consensus that it would be “morally unacceptable to attempt to create a human child by adult nuclear cloning.” Shapiro explained during the meeting that the moral doubt stems mainly from fears about the risk to the health of the child. The panel then informally accepted several general conclusions, although some details have not been settled."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "NBAC plans to call for a continued ban on federal government funding for any attempt to clone body cell nuclei to create a child. Because current federal law already forbids the use of federal funds to create embryos (the earliest stage of human offspring before birth) for research or to knowingly endanger an embryo's life, NBAC will remain silent on embryo research."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "NBAC members also indicated that they would appeal to privately funded researchers and clinics not to try to clone humans by body cell nuclear transfer. But they were divided on whether to go further by calling for a federal law that would impose a complete ban on human cloning. Shapiro and most members favored an appeal for such legislation, but in a phone interview, he said this issue was still “up in the air”."
+        }
+      ]
+    },
+    {
+      "id": "reading-text5",
+      "title": "Passage 5",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Science, in practice, depends far less on the experiments it prepares than on the preparedness of the minds of the men who watch the experiments. Sir Isaac Newton supposedly discovered gravity through the fall of an apple. Apples had been falling in many places for centuries and thousands of people had seen them fall. But Newton for years had been curious about the cause of the orbital motion of the moon and planets. What kept them in place? Why didn't they fall out of the sky? The fact that the apple fell down toward the earth and not up into the tree answered the question he had been asking himself about those larger fruits of the heavens, the moon and the planets."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "How many men would have considered the possibility of an apple falling up into the tree? Newton did because he was not trying to predict anything. He was just wondering. His mind was ready for the unpredictable. Unpredictability is part of the essential nature of research. If you don't have unpredictable things, you don't have research. Scientists tend to forget this when writing their cut and dried reports for the technical journals, but history is filled with examples of it."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "In talking to some scientists, particularly younger ones, you might gather the impression that they find the “scientific method” a substitute for imaginative thought. I've attended research conferences where a scientist has been asked what he thinks about the advisability of continuing a certain experiment. The scientist has frowned, looked at the graphs, and said, “the data are still inconclusive.” “We know that,” the men from the budget office have said, “but what do you think? Is it worthwhile going on? What do you think we might expect?” The scientist has been shocked at having even been asked to speculate."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "What this amounts to, of course, is that the scientist has become the victim of his own writings. He has put forward unquestioned claims so consistently that he not only believes them himself, but has convinced industrial and business management that they are true. If experiments are planned and carried out according to plan as faithfully as the reports in the science journals indicate, then it is perfectly logical for management to expect research to produce results measurable in dollars and cents. It is entirely reasonable for auditors to believe that scientists who know exactly where they are going and how they will get there should not be distracted by the necessity of keeping one eye on the cash register while the other eye is on the microscope. Nor, if regularity and conformity to a standard pattern are as desirable to the scientist as the writing of his papers would appear to reflect, is management to be blamed for discriminating against the “odd balls” among researchers in favor of more conventional thinkers who “work well with the team”."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Part III · 英译汉原文",
+      "section": "Part III · 英译汉",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "【31】While there are almost as many definitions of history as there are historians, modern practice most closely conforms to one that sees history as the attempt to recreate and explain the significant events of the past. Caught in the web of its own time and place, each generation of historians determines anew what is significant for it in the past. In this search the evidence found is always incomplete and scattered; it is also frequently partial or partisan. The irony of the historian's craft is that its practitioners always know that their efforts are but contributions to an unending process."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "【32】Interest in historical methods has arisen less through external challenge to the validity of history as an intellectual discipline and more from internal quarrels among historians themselves. While history once revered its affinity to literature and philosophy, the emerging social sciences seemed to afford greater opportunities for asking new questions and providing rewarding approaches to an understanding of the past. Social science methodologies had to be adapted to a discipline governed by the primacy of historical sources rather than the imperatives of the contemporary world. 【33】During this transfer, traditional historical methods were augmented by additional methodologies designed to interpret the new forms of evidence in the historical study."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Methodology is a term that remains inherently ambiguous in the historical profession. 【34】There is no agreement whether methodology refers to the concepts peculiar to historical work in general or to the research techniques appropriate to the various branches of historical inquiry. Historians, especially those so blinded by their research interests that they have been accused of “tunnel method,” frequently fall victim to the “technical fallacy.” Also common in the natural sciences, the technicist fallacy mistakenly identifies the discipline as a whole with certain parts of its technical implementation. 【35】It applies equally to traditional historians who view history as only the external and internal criticism of sources, and to social science historians who equate their activity with specific techniques."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "at" },
+        { "id": "c1-b", "text": "in" },
+        { "id": "c1-c", "text": "on" },
+        { "id": "c1-d", "text": "with" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-d"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-02",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "alive" },
+        { "id": "c2-b", "text": "vivid" },
+        { "id": "c2-c", "text": "mobile" },
+        { "id": "c2-d", "text": "diverse" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-a"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-03",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "regulation" },
+        { "id": "c3-b", "text": "climate" },
+        { "id": "c3-c", "text": "circumstance" },
+        { "id": "c3-d", "text": "requirement" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-b"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-04",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "where" },
+        { "id": "c4-b", "text": "how" },
+        { "id": "c4-c", "text": "what" },
+        { "id": "c4-d", "text": "unless" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-a"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-05",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "alter" },
+        { "id": "c5-b", "text": "differ" },
+        { "id": "c5-c", "text": "shift" },
+        { "id": "c5-d", "text": "distinguish" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-b"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-06",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "constituting" },
+        { "id": "c6-b", "text": "aggravating" },
+        { "id": "c6-c", "text": "observing" },
+        { "id": "c6-d", "text": "justifying" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-c"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-07",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "Some" },
+        { "id": "c7-b", "text": "Many" },
+        { "id": "c7-c", "text": "Even" },
+        { "id": "c7-d", "text": "Still" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-d"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-08",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "comes off" },
+        { "id": "c8-b", "text": "turns up" },
+        { "id": "c8-c", "text": "pays off" },
+        { "id": "c8-d", "text": "holds up" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-c"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-09",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "claims" },
+        { "id": "c9-b", "text": "reports" },
+        { "id": "c9-c", "text": "declarations" },
+        { "id": "c9-d", "text": "proclamations" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-a"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-10",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "an advantage" },
+        { "id": "c10-b", "text": "a benefit" },
+        { "id": "c10-c", "text": "an interest" },
+        { "id": "c10-d", "text": "a profit" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-d"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "t1-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "What were things like in 1980s when accidents happened?",
+      "options": [
+        { "id": "t1-q1-a", "text": "Customers might be relieved of their disasters through lawsuits." },
+        { "id": "t1-q1-b", "text": "Injured customers could expect protection from the legal system." },
+        { "id": "t1-q1-c", "text": "Companies would avoid being sued by providing new warnings." },
+        { "id": "t1-q1-d", "text": "Juries tended to find fault with the compensations companies promised." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q1-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Manufacturers as mentioned in the passage tend to",
+      "options": [
+        { "id": "t1-q2-a", "text": "satisfy customers by writing long warnings on products" },
+        { "id": "t1-q2-b", "text": "become honest in describing the inadequacies of their products" },
+        { "id": "t1-q2-c", "text": "make the best use of labels to avoid legal liability" },
+        { "id": "t1-q2-d", "text": "feel obliged to view customers' safety as their first concern" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q2-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The case of Schutt helmet demonstrated that",
+      "options": [
+        { "id": "t1-q3-a", "text": "some injury claims were no longer supported by law" },
+        { "id": "t1-q3-b", "text": "helmets were not designed to prevent injuries" },
+        { "id": "t1-q3-c", "text": "product labels would eventually be discarded" },
+        { "id": "t1-q3-d", "text": "some sports games might lose popularity with athletes" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q3-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The author's attitude towards the issue seems to be",
+      "options": [
+        { "id": "t1-q4-a", "text": "biased" },
+        { "id": "t1-q4-b", "text": "indifferent" },
+        { "id": "t1-q4-c", "text": "puzzling" },
+        { "id": "t1-q4-d", "text": "objective" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q4-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "We learn from the beginning of the passage that Web business",
+      "options": [
+        { "id": "t2-q1-a", "text": "has been striving to expand its market" },
+        { "id": "t2-q1-b", "text": "intended to follow a fanciful fashion" },
+        { "id": "t2-q1-c", "text": "tried but in vain to control the market" },
+        { "id": "t2-q1-d", "text": "has been booming for one year or so" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q1-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Speaking of the online technology available for marketing, the author implies that",
+      "options": [
+        { "id": "t2-q2-a", "text": "the technology is popular with many Web users" },
+        { "id": "t2-q2-b", "text": "businesses have faith in the reliability of online transactions" },
+        { "id": "t2-q2-c", "text": "there is a radical change in strategy" },
+        { "id": "t2-q2-d", "text": "it is accessible limitedly to established partners" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q2-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "In the view of Net purists,",
+      "options": [
+        { "id": "t2-q3-a", "text": "there should be no marketing messages in online culture" },
+        { "id": "t2-q3-b", "text": "money making should be given priority to on the Web" },
+        { "id": "t2-q3-c", "text": "the Web should be able to function as the television set" },
+        { "id": "t2-q3-d", "text": "there should be no online commercial information without requests" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q3-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "We learn from the last paragraph that",
+      "options": [
+        { "id": "t2-q4-a", "text": "pushing information on the Web is essential to Internet commerce" },
+        { "id": "t2-q4-b", "text": "interactivity, hospitality and security are important to online customers" },
+        { "id": "t2-q4-c", "text": "leading companies began to take the online plunge decades ago" },
+        { "id": "t2-q4-d", "text": "setting up shops in silicon is independent of the cost of computing power" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q4-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The author thinks the present rush to put computers in the classroom is",
+      "options": [
+        { "id": "t3-q1-a", "text": "far reaching" },
+        { "id": "t3-q1-b", "text": "dubiously oriented" },
+        { "id": "t3-q1-c", "text": "self contradictory" },
+        { "id": "t3-q1-d", "text": "radically reformatory" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q1-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The belief that education is indispensable to all children",
+      "options": [
+        { "id": "t3-q2-a", "text": "is indicative of a pessimism in disguise" },
+        { "id": "t3-q2-b", "text": "came into being along with the arrival of computers" },
+        { "id": "t3-q2-c", "text": "is deeply rooted in the minds of computer ed advocates" },
+        { "id": "t3-q2-d", "text": "originated from the optimistic attitude of industrialized countries" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q2-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "It could be inferred from the passage that in the author's country the European model of professional training is",
+      "options": [
+        { "id": "t3-q3-a", "text": "dependent upon the starting age of candidates" },
+        { "id": "t3-q3-b", "text": "worth trying in various social sections" },
+        { "id": "t3-q3-c", "text": "of little practical value" },
+        { "id": "t3-q3-d", "text": "attractive to every kind of professional" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q3-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "According to the author, basic computer skills should be",
+      "options": [
+        { "id": "t3-q4-a", "text": "included as an auxiliary course in school" },
+        { "id": "t3-q4-b", "text": "highlighted in acquisition of professional qualifications" },
+        { "id": "t3-q4-c", "text": "mastered through a life long course" },
+        { "id": "t3-q4-d", "text": "equally emphasized by any school, vocational or otherwise" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q4-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "We can learn from the first paragraph that",
+      "options": [
+        { "id": "t4-q1-a", "text": "federal funds have been used in a project to clone humans" },
+        { "id": "t4-q1-b", "text": "the White House responded strongly to the news of cloning" },
+        { "id": "t4-q1-c", "text": "NBAC was authorized to control the misuse of cloning technique" },
+        { "id": "t4-q1-d", "text": "the White House has got the panel's recommendations on cloning" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q1-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The panel agreed on all of the following except that",
+      "options": [
+        { "id": "t4-q2-a", "text": "the ban on federal funds for human cloning should be made a law" },
+        { "id": "t4-q2-b", "text": "the cloning of human DNA is not to be put under more control" },
+        { "id": "t4-q2-c", "text": "it is criminal to use private funding for human cloning" },
+        { "id": "t4-q2-d", "text": "it would be against ethical values to clone a human being" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q2-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "NBAC will leave the issue of embryo research undiscussed because",
+      "options": [
+        { "id": "t4-q3-a", "text": "embryo research is just a current development of cloning" },
+        { "id": "t4-q3-b", "text": "the health of the child is not the main concern of embryo research" },
+        { "id": "t4-q3-c", "text": "an embryo's life will not be endangered in embryo research" },
+        { "id": "t4-q3-d", "text": "the issue is explicitly stated and settled in the law" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q3-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "It can be inferred from the last paragraph that",
+      "options": [
+        { "id": "t4-q4-a", "text": "some NBAC members hesitate to ban human cloning completely" },
+        { "id": "t4-q4-b", "text": "a law banning human cloning is to be passed in no time" },
+        { "id": "t4-q4-c", "text": "privately funded researchers will respond positively to NBAC's appeal" },
+        { "id": "t4-q4-d", "text": "the issue of human cloning will soon be settled" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q4-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "The author wants to prove with the example of Isaac Newton that",
+      "options": [
+        { "id": "t5-q1-a", "text": "inquiring minds are more important than scientific experiments" },
+        { "id": "t5-q1-b", "text": "science advances when fruitful researches are conducted" },
+        { "id": "t5-q1-c", "text": "scientists seldom forget the essential nature of research" },
+        { "id": "t5-q1-d", "text": "unpredictability weighs less than prediction in scientific research" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q1-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "The author asserts that scientists",
+      "options": [
+        { "id": "t5-q2-a", "text": "shouldn't replace “scientific method” with imaginative thought" },
+        { "id": "t5-q2-b", "text": "shouldn't neglect to speculate on unpredictable things" },
+        { "id": "t5-q2-c", "text": "should write more concise reports for technical journals" },
+        { "id": "t5-q2-d", "text": "should be confident about their research findings" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q2-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "It seems that some young scientists",
+      "options": [
+        { "id": "t5-q3-a", "text": "have a keen interest in prediction" },
+        { "id": "t5-q3-b", "text": "often speculate on the future" },
+        { "id": "t5-q3-c", "text": "think highly of creative thinking" },
+        { "id": "t5-q3-d", "text": "stick to “scientific method”" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q3-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "The author implies that the results of scientific research",
+      "options": [
+        { "id": "t5-q4-a", "text": "may not be as profitable as they are expected" },
+        { "id": "t5-q4-b", "text": "can be measured in dollars and cents" },
+        { "id": "t5-q4-c", "text": "rely on conformity to a standard pattern" },
+        { "id": "t5-q4-d", "text": "are mostly underestimated by management" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q4-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "tr-31",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "While there are almost as many definitions of history as there are historians, modern practice most closely conforms to one that sees history as the attempt to recreate and explain the significant events of the past.",
+      "answer_key": { "reference_text": "几乎每个历史学家对史学都有自己的界定，但是现代史学家的实践最趋于认为历史学试图重现过去的重大史实并对其做出解释。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-32",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Interest in historical methods has arisen less through external challenge to the validity of history as an intellectual discipline and more from internal quarrels among historians themselves.",
+      "answer_key": { "reference_text": "人们之所以关注历史研究的方法论，主要是因为史学界内部意见不一，其次是因为外界并不认为历史是一门学问。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-33",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "During this transfer, traditional historical methods were augmented by additional methodologies designed to interpret the new forms of evidence in the historical study.",
+      "answer_key": { "reference_text": "在这种转变中，历史学家研究历史时，那些解释新史料的新方法充实了传统的历史研究方法。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-34",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "There is no agreement whether methodology refers to the concepts peculiar to historical work in general or to the research techniques appropriate to the various branches of historical inquiry.",
+      "answer_key": { "reference_text": "所谓方法论是指一般的历史研究中的特有概念，还是指历史探究中各个具体领域适用的研究手段，人们对此意见不一。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-35",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "It applies equally to traditional historians who view history as only the external and internal criticism of sources, and to social science historians who equate their activity with specific techniques.",
+      "answer_key": { "reference_text": "这种谬误同样存在于历史传统派和历史社科派：前者认为历史就是史学界内部和外部人士对各种史料来源的评论，后者则认为历史的研究是具体方法的研究。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "writing-36",
+      "section": "Section IV · 短文写作",
+      "type": "free_text",
+      "stem": "A. Study the following graphs carefully and write an essay in at least 150 words.\nB. Your essay must be written clearly on the ANSWER SHEET 2. (15 points)\nC. Your essay should cover three points:\na. effect of the country's growing human population on its wildlife,\nb. possible reasons for the effect,\nc. your suggestion for wildlife protection\n图题为 THE UPS AND DOWNS OF POPULATION GROWTH。第一幅折线图显示美国人口自1800年至2000年持续增长；第二幅折线图显示美国野生动物物种灭绝数量在1800—1900年间急剧上升，此后继续增加。",
+      "images": ["images/1999/5476e4213004fe326e97883198f51dc8a90dbe823cb719deb3b501c3982cb20f.jpg"],
+      "answer_key": { "reference_text": "It is clear from the first graph that the two hundred years from 1800 to 2000 saw a continuous increase in American population. In the second graph we can see that about 70 wild life species had become extinct in a span of three hundred years and the situation was especially serious from 1800 to 1900, with about 50 to 60 species disappearing from the planet. With these two graphs, we can conclude that the growth of population in the United States is closely related to the drop in the number of wild species. In other words, the population explosion has given rise to the mass destructive effect on the wild life.\n\nAs we all know, the problem of the extinction of wild life results from several factors. In the first place, the ever increasing population has taken up a large area of space, which used to be the home of many kinds of wild life. Besides, the process of urbanization and industrialization has driven many kinds of wild life away from their shelter to other places where they cannot survive due to the harsh environment.\n\nConcerning the extinction of the wild life, some actions should be taken to tackle this problem. First of all, population should be controlled within a reasonable range with effective measures. Moreover, efforts should be made to protect our environment. In a word, it is not easy to find a solution to this frustrating problem." },
+      "max_score_units": 1500,
+      "tags": ["短文写作"]
+    }
+  ]
+}

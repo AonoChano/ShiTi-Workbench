@@ -1,0 +1,1880 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2014,
+    "paper": "英语一",
+    "title": "2014年全国硕士研究生入学统一考试英语（一）试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2014.md",
+    "source_images": "TestPaper/images/2014/",
+    "converted_by": "Claude（转换任务 2026-10-04）",
+    "converted_at": "2026-10-04T01:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "完形填空第4、5、7、8、14、17题选项原文缺失，已根据答案PDF补全；新题型为排序题，已按每空一个单选建模，选项 A-G 在每题重复给出，A、E 已固定；写作Part B配图引用原图路径。"
+  },
+  "set": {
+    "title": "2014年全国硕士研究生入学统一考试英语（一）试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · 完形填空",
+      "part": "Section I",
+      "title": "英语知识运用（完形填空）",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 阅读理解 Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions after each text by choosing A, B, C or D. Mark your answers on ANSWER SHEET 1. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · 新题型 Part B",
+      "part": "Section II · Part B",
+      "title": "新题型（排序）",
+      "directions": [
+        "The following paragraphs are given in a wrong order. For Questions 41-45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A-G and filling them into the numbered boxes. Paragraphs A and E have been correctly placed. Mark your answers on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 翻译 Part C",
+      "part": "Section II · Part C",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written on the ANSWER SHEET. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part A",
+      "part": "Section III · Part A",
+      "title": "应用文写作",
+      "directions": [
+        "Write a letter of about 100 words to the president of your university, suggesting how to improve students' physical condition.",
+        "You should include the details you think necessary.",
+        "You should write neatly on the ANSWER SHEET.",
+        "Do not sign your own name at the end of the letter. Use “Li Ming” instead.",
+        "Do not write the address. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part B",
+      "part": "Section III · Part B",
+      "title": "短文写作",
+      "directions": [
+        "Write an essay of 160-200 words based on the following drawing. In your essay, you should",
+        "1) describe the drawing briefly,",
+        "2) interpret its intended meaning, and",
+        "3) give your comments.",
+        "You should write neatly on the ANSWER SHEET. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · 完形填空",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "As many people hit middle age, they often start to notice that their memory and mental clarity are not what they used to be. We suddenly can't remember __1__ we put the keys just a moment ago, or an old acquaintance's name, or the name of an old band we used to love. As the brain __2__, we refer to these occurrences as “senior moments.” __3__ seemingly innocent, this loss of mental focus can potentially have a(n) __4__ impact on our professional, social, and personal __5__."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Neuroscientists, experts who study the nervous system, are increasingly showing that there's actually a lot that can be done. It __6__ out that the brain needs exercise in much the same way our muscles do, and the right mental __7__ can significantly improve our basic cognitive __8__. Thinking is essentially a __9__ of making connections in the brain. To a certain extent, our ability to __10__ in making the connections that drive intelligence is inherited. __11__, because these connections are made through effort and practice, scientists believe that intelligence can expand and fluctuate __12__ mental effort."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Now, a new Web-based company has taken it a step __13__ and developed the first “brain training program” designed to actually help people improve and regain their mental __14__."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The Web-based program __15__ you to systematically improve your memory and attention skills. The program keeps __16__ of your progress and provides detailed feedback __17__ your performance and improvement. Most importantly, it __18__ modifies and enhances the games you play to __19__ on the strengths you are developing—much like a(n) __20__ exercise routine requires you to increase resistance and vary your muscle use."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In order to “change lives for the better” and reduce “dependency,” George Osborne, Chancellor of the Exchequer, introduced the “upfront work search” scheme. Only if the jobless arrive at the jobcentre with a CV, register for online job search, and start looking for work will they be eligible for benefit—and then they should report weekly rather than fortnightly. What could be more reasonable?"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "More apparent reasonableness followed. There will now be a seven-day wait for the jobseeker's allowance. “Those first few days should be spent looking for work, not looking to sign on,” he claimed. “We're doing these things because we know they help people stay off benefits and help those on benefits get into work faster.” Help? Really? On first hearing, this was the socially concerned chancellor, trying to change lives for the better, complete with “reforms” to an obviously indulgent system that demands too little effort from the newly unemployed to find work, and subsidises laziness. What motivated him, we were to understand, was his zeal for “fundamental fairness”—protecting the taxpayer, controlling spending and ensuring that only the most deserving claimants received their benefits."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Losing a job is hurting: you don't skip down to the jobcentre with a song in your heart, delighted at the prospect of doubling your income from the generous state. It is financially terrifying, psychologically embarrassing and you know that support is minimal and extraordinarily hard to get. You are now not wanted; you are now excluded from the work environment that offers purpose and structure in your life. Worse, the crucial income to feed yourself and your family and pay the bills has disappeared. Ask anyone newly unemployed what they want and the answer is always: a job."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "But in Osborneland, your first instinct is to fall into dependency—permanent dependency if you can get it—supported by a state only too ready to indulge your falsehood. It is as though 20 years of ever-tougher reforms of the job search and benefit administration system never happened. The principle of British welfare is no longer that you can insure yourself against the risk of unemployment and receive unconditional payments if the disaster happens. Even the very phrase “jobseeker's allowance”—invented in 1996—is about redefining the unemployed as a “jobseeker” who had no mandatory right to a benefit he or she has earned through making national insurance contributions. Instead, the claimant receives a time-limited “allowance,” conditional on actively seeking a job; no entitlement and no insurance, at £71.70 a week, one of the least generous in the EU."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "All around the world, lawyers generate more hostility than the members of any other profession—with the possible exception of journalism. But there are few places where clients have more grounds for complaint than America."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "During the decade before the economic crisis, spending on legal services in America grew twice as fast as inflation. The best lawyers made skyscrapers-full of money, tempting ever more students to pile into law schools. But most law graduates never get a big-firm job. Many of them instead become the kind of nuisance-lawsuit filer that makes the tort system a costly nightmare."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "There are many reasons for this. One is the excessive costs of a legal education. There is just one path for a lawyer in most American states: a four-year undergraduate degree in some unrelated subject, then a three-year law degree at one of 200 law schools authorized by the American Bar Association and an expensive preparation for the bar exam. This leaves today's average law-school graduate with $100,000 of debt on top of undergraduate debts. Law-school debt means that they have to work fearsomely hard."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Reforming the system would help both lawyers and their customers. Sensible ideas have been around for a long time, but the state-level bodies that govern the profession have been too conservative to implement them. One idea is to allow people to study law as an undergraduate degree. Another is to let students sit for the bar after only two years of law school. If the bar exam is truly a stern enough test for a would-be lawyer, those who can sit it earlier should be allowed to do so. Students who do not need the extra training could cut their debt mountain by a third."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "The other reason why costs are so high is the restrictive guild-like ownership structure of the business. Except in the District of Columbia, non-lawyers may not own any share of a law firm. This keeps fees high and innovation slow. There is pressure for change from within the profession, but opponents of change among the regulators insist that keeping outsiders out of a law firm isolates lawyers from the pressure to make money rather than serve clients ethically."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "In fact, allowing non-lawyers to own shares in law firms would reduce costs and improve services to customers, by encouraging law firms to use technology and to employ professional managers to focus on improving firms' efficiency. After all, other countries, such as Australia and Britain, have started liberalizing their legal professions. America should follow."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The US$3-million Fundamental Physics Prize is indeed an interesting experiment, as Alexander Polyakov said when he accepted this year's award in March. And it is far from the only one of its type. As a News Feature article in Nature discusses, a string of lucrative awards for researchers have joined the Nobel Prizes in recent years. Many, like the Fundamental Physics Prize, are funded from the telephone-number-sized bank accounts of Internet entrepreneurs. These benefactors have succeeded in their chosen fields, they say, and they want to use their wealth to draw attention to those who have succeeded in science."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "What's not to like? Quite a lot, according to a handful of scientists quoted in the News Feature. You cannot buy class, as the old saying goes, and these upstart entrepreneurs cannot buy their prizes the prestige of the Nobels. The new awards are an exercise in self-promotion for those behind them, say scientists. They could distort the achievement-based system of peer-review-led research. They could cement the status quo of peer-reviewed research. They do not fund peer-reviewed research. They perpetuate the myth of the lone genius."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The goals of the prize-givers seem as scattered as the criticism. Some want to shock, others to draw people into science, or to better reward those who have made their careers in research."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "As Nature has pointed out before, there are some legitimate concerns about how science prizes—both new and old—are distributed. The Breakthrough Prize in Life Sciences, launched this year, takes an unrepresentative view of what the life sciences include. But the Nobel Foundation's limit of three recipients per prize, each of whom must still be living, has long been outgrown by the collaborative nature of modern research—as will be demonstrated by the inevitable row over who is ignored when it comes to acknowledging the discovery of the Higgs boson. The Nobels were, of course, themselves set up by a very rich individual who had decided what he wanted to do with his own money. Time, rather than intention, has given them legitimacy."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "As much as some scientists may complain about the new awards, two things seem clear. First, most researchers would accept such a prize if they were offered one. Second, it is surely a good thing that the money and attention come to science rather than go elsewhere. It is fair to criticize and question the mechanism—that is the culture of research, after all—but it is the prize-givers' money to do with as they please. It is wise to take such gifts with gratitude and grace."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "“The Heart of the Matter,” the just-released report by the American Academy of Arts and Sciences (AAAS), deserves praise for affirming the importance of the humanities and social sciences to the prosperity and security of liberal democracy in America. Regrettably, however, the report's failure to address the true nature of the crisis facing liberal education may cause more harm than good."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "In 2010, leading congressional Democrats and Republicans sent letters to the AAAS asking that it identify actions that could be taken by “federal, state and local governments, universities, foundations, educators, individual benefactors and others” to “maintain national excellence in humanities and social scientific scholarship and education.” In response, the American Academy formed the Commission on the Humanities and Social Sciences. Among the commission's 51 members are top-tier-university presidents, scholars, lawyers, judges, and business executives, as well as prominent figures from diplomacy, filmmaking, music and journalism."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The goals identified in the report are generally admirable. Because representative government presupposes an informed citizenry, the report supports full literacy; stresses the study of history and government, particularly American history and American government; and encourages the use of new digital technologies. To encourage innovation and competition, the report calls for increased investment in research, the crafting of coherent curricula that improve students' ability to solve problems and communicate effectively in the 21st century, increased funding for teachers and the encouragement of scholars to bring their learning to bear on the great challenges of the day. The report also advocates greater study of foreign languages, international affairs and the expansion of study abroad programs."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Unfortunately, despite 2½ years in the making, “The Heart of the Matter” never gets to the heart of the matter: the illiberal nature of liberal education at our leading colleges and universities. The commission ignores that for several decades America's colleges and universities have produced graduates who don't know the content and character of liberal education and are thus deprived of its benefits. Sadly, the spirit of inquiry once at home on campus has been replaced by the use of the humanities and social sciences as vehicles for publicizing “progressive,” or left-liberal propaganda."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Today, professors routinely treat the progressive interpretation of history and progressive public policy as the proper subject of study while portraying conservative or classical liberal ideas—such as free markets or self-reliance—as falling outside the boundaries of routine, and sometimes legitimate, intellectual investigation."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "The AAAS displays great enthusiasm for liberal education. Yet its report may well set back reform by obscuring the depth and breadth of the challenge that Congress asked it to illuminate."
+        }
+      ]
+    },
+    {
+      "id": "newtype",
+      "title": "Section II · 新题型 Part B 短文",
+      "section": "Section II · 新题型 Part B",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "__A__"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "__41__"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "__42__"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "__43__"
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "__E__"
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "__44__"
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "__45__"
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · 翻译 Part C 原文",
+      "section": "Section II · 翻译 Part C",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Music means different things to different people and sometimes even different things to the same person at different moments of his life. It might be poetic, philosophical, sensual, or mathematical, but in any case it must, in my view, have something to do with the soul of the human being. Hence it is metaphysical; but the means of expression is purely and exclusively physical: sound. I believe it is precisely this permanent coexistence of metaphysical message through physical means that is the strength of music. 【46】It is also the reason why when we try to describe music with words, all we can do is articulate our reactions to it, and not grasp music itself.\nBeethoven's importance in music has been principally defined by the revolutionary nature of his compositions. He freed music from hitherto prevailing conventions of harmony and structure. Sometimes I feel in his late works a will to break all signs of continuity. The music is abrupt and seemingly disconnected, as in the last piano sonata. In musical expression, he did not feel restrained by the weight of convention. 【47】By all accounts he was a freethinking person, and a courageous one, and I find courage an essential quality for the understanding, let alone the performance, of his works.\nThis courageous attitude in fact becomes a requirement for the performers of Beethoven's music. His compositions demand the performer to show courage, for example in the use of dynamics. 【48】Beethoven's habit of increasing the volume with an extreme intensity and then abruptly following it with a sudden soft passage was only rarely used by composers before him.\nBeethoven was a deeply political man in the broadest sense of the word. He was not interested in daily politics, but concerned with questions of moral behavior and the larger questions of right and wrong affecting the entire society. 【49】Especially significant was his view of freedom, which, for him, was associated with the rights and responsibilities of the individual: he advocated freedom of thought and of personal expression.\nBeethoven's music tends to move from chaos to order as if order were an imperative of human existence. For him, order does not result from forgetting or ignoring the disorders that plague our existence; order is a necessary development, an improvement that may lead to the Greek ideal of spiritual elevation. It is not by chance that the Funeral March is not the last movement of the Eroica Symphony, but the second, so that suffering does not have the last word. 【50】One could interpret much of the work of Beethoven by saying that suffering is inevitable, but the courage to fight it renders life worth living."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        {
+          "id": "c1-a",
+          "text": "why"
+        },
+        {
+          "id": "c1-b",
+          "text": "when"
+        },
+        {
+          "id": "c1-c",
+          "text": "that"
+        },
+        {
+          "id": "c1-d",
+          "text": "where"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c1-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第1空"
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        {
+          "id": "c2-a",
+          "text": "improves"
+        },
+        {
+          "id": "c2-b",
+          "text": "fades"
+        },
+        {
+          "id": "c2-c",
+          "text": "collapses"
+        },
+        {
+          "id": "c2-d",
+          "text": "recovers"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c2-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第2空"
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        {
+          "id": "c3-a",
+          "text": "While"
+        },
+        {
+          "id": "c3-b",
+          "text": "Unless"
+        },
+        {
+          "id": "c3-c",
+          "text": "Once"
+        },
+        {
+          "id": "c3-d",
+          "text": "If"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c3-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第3空"
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        {
+          "id": "c4-a",
+          "text": "uneven"
+        },
+        {
+          "id": "c4-b",
+          "text": "limited"
+        },
+        {
+          "id": "c4-c",
+          "text": "damaging"
+        },
+        {
+          "id": "c4-d",
+          "text": "obscure"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c4-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第4空"
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        {
+          "id": "c5-a",
+          "text": "relationship"
+        },
+        {
+          "id": "c5-b",
+          "text": "environment"
+        },
+        {
+          "id": "c5-c",
+          "text": "wellbeing"
+        },
+        {
+          "id": "c5-d",
+          "text": "outlook"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c5-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第5空"
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        {
+          "id": "c6-a",
+          "text": "turns"
+        },
+        {
+          "id": "c6-b",
+          "text": "finds"
+        },
+        {
+          "id": "c6-c",
+          "text": "points"
+        },
+        {
+          "id": "c6-d",
+          "text": "figures"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c6-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第6空"
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        {
+          "id": "c7-a",
+          "text": "responses"
+        },
+        {
+          "id": "c7-b",
+          "text": "roundabouts"
+        },
+        {
+          "id": "c7-c",
+          "text": "workouts"
+        },
+        {
+          "id": "c7-d",
+          "text": "associations"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c7-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第7空"
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        {
+          "id": "c8-a",
+          "text": "genre"
+        },
+        {
+          "id": "c8-b",
+          "text": "criterion"
+        },
+        {
+          "id": "c8-c",
+          "text": "circumstances"
+        },
+        {
+          "id": "c8-d",
+          "text": "functions"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c8-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第8空"
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        {
+          "id": "c9-a",
+          "text": "channel"
+        },
+        {
+          "id": "c9-b",
+          "text": "process"
+        },
+        {
+          "id": "c9-c",
+          "text": "sequence"
+        },
+        {
+          "id": "c9-d",
+          "text": "condition"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c9-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第9空"
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        {
+          "id": "c10-a",
+          "text": "excel"
+        },
+        {
+          "id": "c10-b",
+          "text": "feature"
+        },
+        {
+          "id": "c10-c",
+          "text": "persist"
+        },
+        {
+          "id": "c10-d",
+          "text": "believe"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c10-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第10空"
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        {
+          "id": "c11-a",
+          "text": "However"
+        },
+        {
+          "id": "c11-b",
+          "text": "Moreover"
+        },
+        {
+          "id": "c11-c",
+          "text": "Otherwise"
+        },
+        {
+          "id": "c11-d",
+          "text": "Therefore"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c11-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第11空"
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        {
+          "id": "c12-a",
+          "text": "instead of"
+        },
+        {
+          "id": "c12-b",
+          "text": "regardless of"
+        },
+        {
+          "id": "c12-c",
+          "text": "apart from"
+        },
+        {
+          "id": "c12-d",
+          "text": "according to"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c12-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第12空"
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        {
+          "id": "c13-a",
+          "text": "back"
+        },
+        {
+          "id": "c13-b",
+          "text": "further"
+        },
+        {
+          "id": "c13-c",
+          "text": "aside"
+        },
+        {
+          "id": "c13-d",
+          "text": "around"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c13-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第13空"
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        {
+          "id": "c14-a",
+          "text": "framework"
+        },
+        {
+          "id": "c14-b",
+          "text": "stability"
+        },
+        {
+          "id": "c14-c",
+          "text": "sharpness"
+        },
+        {
+          "id": "c14-d",
+          "text": "flexibility"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c14-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第14空"
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        {
+          "id": "c15-a",
+          "text": "hurries"
+        },
+        {
+          "id": "c15-b",
+          "text": "reminds"
+        },
+        {
+          "id": "c15-c",
+          "text": "forces"
+        },
+        {
+          "id": "c15-d",
+          "text": "allows"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c15-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第15空"
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        {
+          "id": "c16-a",
+          "text": "order"
+        },
+        {
+          "id": "c16-b",
+          "text": "track"
+        },
+        {
+          "id": "c16-c",
+          "text": "hold"
+        },
+        {
+          "id": "c16-d",
+          "text": "pace"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c16-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第16空"
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        {
+          "id": "c17-a",
+          "text": "to"
+        },
+        {
+          "id": "c17-b",
+          "text": "on"
+        },
+        {
+          "id": "c17-c",
+          "text": "for"
+        },
+        {
+          "id": "c17-d",
+          "text": "with"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c17-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第17空"
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        {
+          "id": "c18-a",
+          "text": "constantly"
+        },
+        {
+          "id": "c18-b",
+          "text": "habitually"
+        },
+        {
+          "id": "c18-c",
+          "text": "irregularly"
+        },
+        {
+          "id": "c18-d",
+          "text": "unusually"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c18-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第18空"
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        {
+          "id": "c19-a",
+          "text": "carry"
+        },
+        {
+          "id": "c19-b",
+          "text": "put"
+        },
+        {
+          "id": "c19-c",
+          "text": "build"
+        },
+        {
+          "id": "c19-d",
+          "text": "take"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c19-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第19空"
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        {
+          "id": "c20-a",
+          "text": "risky"
+        },
+        {
+          "id": "c20-b",
+          "text": "familiar"
+        },
+        {
+          "id": "c20-c",
+          "text": "idle"
+        },
+        {
+          "id": "c20-d",
+          "text": "effective"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c20-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第20空"
+    },
+    {
+      "id": "t1-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "George Osborne's scheme was intended to ______.",
+      "options": [
+        {
+          "id": "t1-q1-a",
+          "text": "motivate the unemployed to report voluntarily"
+        },
+        {
+          "id": "t1-q1-b",
+          "text": "provide the unemployed with easier access to benefits"
+        },
+        {
+          "id": "t1-q1-c",
+          "text": "encourage jobseekers' active engagement in job seeking"
+        },
+        {
+          "id": "t1-q1-d",
+          "text": "guarantee jobseekers' legitimate right to benefits"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q1-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1段"
+    },
+    {
+      "id": "t1-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The phrase “to sign on” (Line 3, Para. 2) most probably means ______.",
+      "options": [
+        {
+          "id": "t1-q2-a",
+          "text": "to register for an allowance from the government"
+        },
+        {
+          "id": "t1-q2-b",
+          "text": "to accept the government's restrictions on the allowance"
+        },
+        {
+          "id": "t1-q2-c",
+          "text": "to check on the availability of jobs at the jobcentre"
+        },
+        {
+          "id": "t1-q2-d",
+          "text": "to attend a governmental job-training program"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q2-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第2段"
+    },
+    {
+      "id": "t1-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "What prompted the chancellor to develop his scheme?",
+      "options": [
+        {
+          "id": "t1-q3-a",
+          "text": "A desire to secure a better life for all."
+        },
+        {
+          "id": "t1-q3-b",
+          "text": "An eagerness to protect the unemployed."
+        },
+        {
+          "id": "t1-q3-c",
+          "text": "An urge to be generous to the claimants."
+        },
+        {
+          "id": "t1-q3-d",
+          "text": "A passion to ensure fairness for taxpayers."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q3-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第2段"
+    },
+    {
+      "id": "t1-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to Paragraph 3, being unemployed makes one feel ______.",
+      "options": [
+        {
+          "id": "t1-q4-a",
+          "text": "insulted"
+        },
+        {
+          "id": "t1-q4-b",
+          "text": "uneasy"
+        },
+        {
+          "id": "t1-q4-c",
+          "text": "enraged"
+        },
+        {
+          "id": "t1-q4-d",
+          "text": "guilty"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q4-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第3段"
+    },
+    {
+      "id": "t1-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "To which of the following would the author most probably agree?",
+      "options": [
+        {
+          "id": "t1-q5-a",
+          "text": "Unemployment benefits should not be made conditional."
+        },
+        {
+          "id": "t1-q5-b",
+          "text": "The British welfare system indulges jobseekers' laziness."
+        },
+        {
+          "id": "t1-q5-c",
+          "text": "The jobseekers' allowance has met their actual needs."
+        },
+        {
+          "id": "t1-q5-d",
+          "text": "Osborne's reforms will reduce the risk of unemployment."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q5-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第4段"
+    },
+    {
+      "id": "t2-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "A lot of students take up law as their profession due to ______.",
+      "options": [
+        {
+          "id": "t2-q1-a",
+          "text": "the growing demand from clients"
+        },
+        {
+          "id": "t2-q1-b",
+          "text": "the increasing pressure of inflation"
+        },
+        {
+          "id": "t2-q1-c",
+          "text": "the prospect of working in big firms"
+        },
+        {
+          "id": "t2-q1-d",
+          "text": "the attraction of financial rewards"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q1-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第2段"
+    },
+    {
+      "id": "t2-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Which of the following adds to the costs of legal education in most American states?",
+      "options": [
+        {
+          "id": "t2-q2-a",
+          "text": "Higher tuition fees for undergraduate studies."
+        },
+        {
+          "id": "t2-q2-b",
+          "text": "Pursuing a bachelor's degree in another major."
+        },
+        {
+          "id": "t2-q2-c",
+          "text": "Admissions approval from the bar association."
+        },
+        {
+          "id": "t2-q2-d",
+          "text": "Receiving training by professional associations."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q2-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第3段"
+    },
+    {
+      "id": "t2-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Hindrance to the reform of the legal system originates from ______.",
+      "options": [
+        {
+          "id": "t2-q3-a",
+          "text": "non-professionals' sharp criticism"
+        },
+        {
+          "id": "t2-q3-b",
+          "text": "lawyers' and clients' strong resistance"
+        },
+        {
+          "id": "t2-q3-c",
+          "text": "the rigid bodies governing the profession"
+        },
+        {
+          "id": "t2-q3-d",
+          "text": "the stern exam for would-be lawyers"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q3-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第4段"
+    },
+    {
+      "id": "t2-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The guild-like ownership structure is considered “restrictive” partly because it ______.",
+      "options": [
+        {
+          "id": "t2-q4-a",
+          "text": "prevents lawyers from gaining due profits"
+        },
+        {
+          "id": "t2-q4-b",
+          "text": "keeps lawyers from holding law-firm shares"
+        },
+        {
+          "id": "t2-q4-c",
+          "text": "aggravates the ethical situation in the trade"
+        },
+        {
+          "id": "t2-q4-d",
+          "text": "bans outsiders' involvement in the profession"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q4-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第5段"
+    },
+    {
+      "id": "t2-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "In this text, the author mainly discusses ______.",
+      "options": [
+        {
+          "id": "t2-q5-a",
+          "text": "flawed ownership of America's law firms and its causes"
+        },
+        {
+          "id": "t2-q5-b",
+          "text": "the factors that help make a successful lawyer in America"
+        },
+        {
+          "id": "t2-q5-c",
+          "text": "a problem in America's legal profession and solutions to it"
+        },
+        {
+          "id": "t2-q5-d",
+          "text": "the role of undergraduate studies in America's legal education"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q5-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 全文"
+    },
+    {
+      "id": "t3-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The Fundamental Physics Prize is seen as ______.",
+      "options": [
+        {
+          "id": "t3-q1-a",
+          "text": "a symbol of the entrepreneurs' wealth"
+        },
+        {
+          "id": "t3-q1-b",
+          "text": "a possible replacement of the Nobel Prizes"
+        },
+        {
+          "id": "t3-q1-c",
+          "text": "a handsome reward for researchers"
+        },
+        {
+          "id": "t3-q1-d",
+          "text": "an example of bankers' investments"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q1-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第1段"
+    },
+    {
+      "id": "t3-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The critics think that the new awards will most benefit ______.",
+      "options": [
+        {
+          "id": "t3-q2-a",
+          "text": "the profit-oriented scientists"
+        },
+        {
+          "id": "t3-q2-b",
+          "text": "the founders of the awards"
+        },
+        {
+          "id": "t3-q2-c",
+          "text": "the achievement-based system"
+        },
+        {
+          "id": "t3-q2-d",
+          "text": "peer-review-led research"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q2-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第2段"
+    },
+    {
+      "id": "t3-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The discovery of the Higgs boson is a typical case which involves ______.",
+      "options": [
+        {
+          "id": "t3-q3-a",
+          "text": "the joint effort of modern researchers"
+        },
+        {
+          "id": "t3-q3-b",
+          "text": "controversies over the recipients' status"
+        },
+        {
+          "id": "t3-q3-c",
+          "text": "the demonstration of research findings"
+        },
+        {
+          "id": "t3-q3-d",
+          "text": "legitimate concerns over the new prizes"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q3-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第4段"
+    },
+    {
+      "id": "t3-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "According to Paragraph 4, which of the following is true of the Nobels?",
+      "options": [
+        {
+          "id": "t3-q4-a",
+          "text": "History has never cast doubt on them."
+        },
+        {
+          "id": "t3-q4-b",
+          "text": "They are the most representative honor."
+        },
+        {
+          "id": "t3-q4-c",
+          "text": "Their legitimacy has long been in dispute."
+        },
+        {
+          "id": "t3-q4-d",
+          "text": "Their endurance has done justice to them."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q4-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第4段"
+    },
+    {
+      "id": "t3-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The author believes that the new awards are ______.",
+      "options": [
+        {
+          "id": "t3-q5-a",
+          "text": "harmful to the culture of research"
+        },
+        {
+          "id": "t3-q5-b",
+          "text": "acceptable despite the criticism"
+        },
+        {
+          "id": "t3-q5-c",
+          "text": "subject to undesirable changes"
+        },
+        {
+          "id": "t3-q5-d",
+          "text": "unworthy of public attention"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q5-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第5段"
+    },
+    {
+      "id": "t4-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to Paragraph 1, what is the author's attitude toward the AAAS's report?",
+      "options": [
+        {
+          "id": "t4-q1-a",
+          "text": "Critical"
+        },
+        {
+          "id": "t4-q1-b",
+          "text": "Appreciative"
+        },
+        {
+          "id": "t4-q1-c",
+          "text": "Contemptuous"
+        },
+        {
+          "id": "t4-q1-d",
+          "text": "Tolerant"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q1-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第1段"
+    },
+    {
+      "id": "t4-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Influential figures in the Congress required that the AAAS report on how to ______.",
+      "options": [
+        {
+          "id": "t4-q2-a",
+          "text": "safeguard individuals' rights to education"
+        },
+        {
+          "id": "t4-q2-b",
+          "text": "define the government's role in education"
+        },
+        {
+          "id": "t4-q2-c",
+          "text": "retain people's interest in liberal education"
+        },
+        {
+          "id": "t4-q2-d",
+          "text": "keep a leading position in liberal education"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q2-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第2段"
+    },
+    {
+      "id": "t4-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to Paragraph 3, the report suggests ______.",
+      "options": [
+        {
+          "id": "t4-q3-a",
+          "text": "an exclusive study of American history"
+        },
+        {
+          "id": "t4-q3-b",
+          "text": "a greater emphasis on theoretical subjects"
+        },
+        {
+          "id": "t4-q3-c",
+          "text": "the application of emerging technologies"
+        },
+        {
+          "id": "t4-q3-d",
+          "text": "funding for the study of foreign languages"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q3-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第3段"
+    },
+    {
+      "id": "t4-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The author implies in Paragraph 5 that professors are ______.",
+      "options": [
+        {
+          "id": "t4-q4-a",
+          "text": "supportive of free markets"
+        },
+        {
+          "id": "t4-q4-b",
+          "text": "biased against classical liberal ideas"
+        },
+        {
+          "id": "t4-q4-c",
+          "text": "cautious about intellectual investigation"
+        },
+        {
+          "id": "t4-q4-d",
+          "text": "conservative about public policy"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q4-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第5段"
+    },
+    {
+      "id": "t4-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Which of the following would be the best title for the text?",
+      "options": [
+        {
+          "id": "t4-q5-a",
+          "text": "Illiberal Education and “The Heart of the Matter”"
+        },
+        {
+          "id": "t4-q5-b",
+          "text": "The AAAS's Contribution to Liberal Education"
+        },
+        {
+          "id": "t4-q5-c",
+          "text": "Ways to Grasp “The Heart of the Matter”"
+        },
+        {
+          "id": "t4-q5-d",
+          "text": "Progressive Policy vs. Liberal Education"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q5-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 全文"
+    },
+    {
+      "id": "nt-41",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 41 空：本空应填入的段落是",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "Some archaeological sites have always been easily observable—for example, the Parthenon in Athens, Greece; the pyramids of Giza in Egypt; and the megaliths of Stonehenge in southern England. But these sites are exceptions to the norm. Most archaeological sites have been located by means of careful searching, while many others have been discovered by accident. Olduvai Gorge, fell into its deep valley in 1911. Thousands of Aztec artifacts came to light during the digging of the Mexico City subway in the 1970s."
+        },
+        {
+          "id": "nt-b",
+          "text": "In another case, American archaeologists Rene Million and George Cowgill spent years systematically mapping the entire city of Teotihuacan in the valley of Mexico near what is now Mexico City. At its peak around AD 600, this city was one of the largest human settlements in the world. The researchers mapped not only the city's vast and ornate ceremonial areas, but also hundreds of simpler apartment complexes where common people lived."
+        },
+        {
+          "id": "nt-c",
+          "text": "How do archaeologists know where to find what they are looking for when there is nothing visible on the surface of the ground? Typically, they survey and sample (make test excavations on) large areas of terrain to determine where excavation will yield useful information. Surveys and test samples have also become important for understanding the larger landscapes that contain archaeological sites."
+        },
+        {
+          "id": "nt-d",
+          "text": "Surveys can cover a single large settlement or entire landscapes. In one case, many researchers working around the ancient Maya city of Copán, Honduras, have located hundreds of small rural villages and individual dwellings by using aerial photographs and by making surveys on foot. The resulting settlement maps show how the distribution and density of the rural population around the city changed dramatically between AD 500 and 850, when Copán collapsed."
+        },
+        {
+          "id": "nt-e",
+          "text": "To find their sites, archaeologists today rely heavily on systematic survey methods and a variety of high-technology tools and techniques. Airborne technologies, such as different types of radar and photographic equipment carried by airplanes or spacecraft, allow archaeologists to learn about what lies beneath the ground without digging. Aerial surveys locate general areas of interest or larger buried features, such as ancient buildings or fields."
+        },
+        {
+          "id": "nt-f",
+          "text": "Most archaeological sites, however, are discovered by archaeologists who have set out to look for them. Such searches can take years. British archaeologist Howard Carter knew that the tomb of the Egyptian pharaoh Tutankhamen existed from information found in other sites. Carter sifted through rubble in the Valley of the Kings for seven years before he located the tomb in 1922. In the late 1800s British archaeologist Sir Arthur Evans combed antique dealers' stores in Athens, Greece. He was searching for tiny engraved seals attributed to the ancient Mycenaean culture that dominated Greece from the 1400s to 1200s BC. Evans's interpretations of those engravings eventually led them to find the Minoan palace at Knossos on the island of Crete, in 1900."
+        },
+        {
+          "id": "nt-g",
+          "text": "Ground surveys allow archaeologists to pinpoint the places where digs will be successful. Most ground surveys involve a lot of walking, looking for surface clues such as small fragments of pottery. They often include a certain amount of digging to test for buried materials at selected points across a landscape. Archaeologists also may locate buried remains by using such technologies as ground radar, magnetic-field recording, and metal detectors. Archaeologists commonly use computers to map sites and the landscapes around sites. Two- and three-dimensional maps are helpful tools in planning excavations, illustrating how sites look, and presenting the results of archaeological research."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-f"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第41空"
+    },
+    {
+      "id": "nt-42",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 42 空：本空应填入的段落是",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "Some archaeological sites have always been easily observable—for example, the Parthenon in Athens, Greece; the pyramids of Giza in Egypt; and the megaliths of Stonehenge in southern England. But these sites are exceptions to the norm. Most archaeological sites have been located by means of careful searching, while many others have been discovered by accident. Olduvai Gorge, fell into its deep valley in 1911. Thousands of Aztec artifacts came to light during the digging of the Mexico City subway in the 1970s."
+        },
+        {
+          "id": "nt-b",
+          "text": "In another case, American archaeologists Rene Million and George Cowgill spent years systematically mapping the entire city of Teotihuacan in the valley of Mexico near what is now Mexico City. At its peak around AD 600, this city was one of the largest human settlements in the world. The researchers mapped not only the city's vast and ornate ceremonial areas, but also hundreds of simpler apartment complexes where common people lived."
+        },
+        {
+          "id": "nt-c",
+          "text": "How do archaeologists know where to find what they are looking for when there is nothing visible on the surface of the ground? Typically, they survey and sample (make test excavations on) large areas of terrain to determine where excavation will yield useful information. Surveys and test samples have also become important for understanding the larger landscapes that contain archaeological sites."
+        },
+        {
+          "id": "nt-d",
+          "text": "Surveys can cover a single large settlement or entire landscapes. In one case, many researchers working around the ancient Maya city of Copán, Honduras, have located hundreds of small rural villages and individual dwellings by using aerial photographs and by making surveys on foot. The resulting settlement maps show how the distribution and density of the rural population around the city changed dramatically between AD 500 and 850, when Copán collapsed."
+        },
+        {
+          "id": "nt-e",
+          "text": "To find their sites, archaeologists today rely heavily on systematic survey methods and a variety of high-technology tools and techniques. Airborne technologies, such as different types of radar and photographic equipment carried by airplanes or spacecraft, allow archaeologists to learn about what lies beneath the ground without digging. Aerial surveys locate general areas of interest or larger buried features, such as ancient buildings or fields."
+        },
+        {
+          "id": "nt-f",
+          "text": "Most archaeological sites, however, are discovered by archaeologists who have set out to look for them. Such searches can take years. British archaeologist Howard Carter knew that the tomb of the Egyptian pharaoh Tutankhamen existed from information found in other sites. Carter sifted through rubble in the Valley of the Kings for seven years before he located the tomb in 1922. In the late 1800s British archaeologist Sir Arthur Evans combed antique dealers' stores in Athens, Greece. He was searching for tiny engraved seals attributed to the ancient Mycenaean culture that dominated Greece from the 1400s to 1200s BC. Evans's interpretations of those engravings eventually led them to find the Minoan palace at Knossos on the island of Crete, in 1900."
+        },
+        {
+          "id": "nt-g",
+          "text": "Ground surveys allow archaeologists to pinpoint the places where digs will be successful. Most ground surveys involve a lot of walking, looking for surface clues such as small fragments of pottery. They often include a certain amount of digging to test for buried materials at selected points across a landscape. Archaeologists also may locate buried remains by using such technologies as ground radar, magnetic-field recording, and metal detectors. Archaeologists commonly use computers to map sites and the landscapes around sites. Two- and three-dimensional maps are helpful tools in planning excavations, illustrating how sites look, and presenting the results of archaeological research."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-g"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第42空"
+    },
+    {
+      "id": "nt-43",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 43 空：本空应填入的段落是",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "Some archaeological sites have always been easily observable—for example, the Parthenon in Athens, Greece; the pyramids of Giza in Egypt; and the megaliths of Stonehenge in southern England. But these sites are exceptions to the norm. Most archaeological sites have been located by means of careful searching, while many others have been discovered by accident. Olduvai Gorge, fell into its deep valley in 1911. Thousands of Aztec artifacts came to light during the digging of the Mexico City subway in the 1970s."
+        },
+        {
+          "id": "nt-b",
+          "text": "In another case, American archaeologists Rene Million and George Cowgill spent years systematically mapping the entire city of Teotihuacan in the valley of Mexico near what is now Mexico City. At its peak around AD 600, this city was one of the largest human settlements in the world. The researchers mapped not only the city's vast and ornate ceremonial areas, but also hundreds of simpler apartment complexes where common people lived."
+        },
+        {
+          "id": "nt-c",
+          "text": "How do archaeologists know where to find what they are looking for when there is nothing visible on the surface of the ground? Typically, they survey and sample (make test excavations on) large areas of terrain to determine where excavation will yield useful information. Surveys and test samples have also become important for understanding the larger landscapes that contain archaeological sites."
+        },
+        {
+          "id": "nt-d",
+          "text": "Surveys can cover a single large settlement or entire landscapes. In one case, many researchers working around the ancient Maya city of Copán, Honduras, have located hundreds of small rural villages and individual dwellings by using aerial photographs and by making surveys on foot. The resulting settlement maps show how the distribution and density of the rural population around the city changed dramatically between AD 500 and 850, when Copán collapsed."
+        },
+        {
+          "id": "nt-e",
+          "text": "To find their sites, archaeologists today rely heavily on systematic survey methods and a variety of high-technology tools and techniques. Airborne technologies, such as different types of radar and photographic equipment carried by airplanes or spacecraft, allow archaeologists to learn about what lies beneath the ground without digging. Aerial surveys locate general areas of interest or larger buried features, such as ancient buildings or fields."
+        },
+        {
+          "id": "nt-f",
+          "text": "Most archaeological sites, however, are discovered by archaeologists who have set out to look for them. Such searches can take years. British archaeologist Howard Carter knew that the tomb of the Egyptian pharaoh Tutankhamen existed from information found in other sites. Carter sifted through rubble in the Valley of the Kings for seven years before he located the tomb in 1922. In the late 1800s British archaeologist Sir Arthur Evans combed antique dealers' stores in Athens, Greece. He was searching for tiny engraved seals attributed to the ancient Mycenaean culture that dominated Greece from the 1400s to 1200s BC. Evans's interpretations of those engravings eventually led them to find the Minoan palace at Knossos on the island of Crete, in 1900."
+        },
+        {
+          "id": "nt-g",
+          "text": "Ground surveys allow archaeologists to pinpoint the places where digs will be successful. Most ground surveys involve a lot of walking, looking for surface clues such as small fragments of pottery. They often include a certain amount of digging to test for buried materials at selected points across a landscape. Archaeologists also may locate buried remains by using such technologies as ground radar, magnetic-field recording, and metal detectors. Archaeologists commonly use computers to map sites and the landscapes around sites. Two- and three-dimensional maps are helpful tools in planning excavations, illustrating how sites look, and presenting the results of archaeological research."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第43空"
+    },
+    {
+      "id": "nt-44",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 44 空：本空应填入的段落是",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "Some archaeological sites have always been easily observable—for example, the Parthenon in Athens, Greece; the pyramids of Giza in Egypt; and the megaliths of Stonehenge in southern England. But these sites are exceptions to the norm. Most archaeological sites have been located by means of careful searching, while many others have been discovered by accident. Olduvai Gorge, fell into its deep valley in 1911. Thousands of Aztec artifacts came to light during the digging of the Mexico City subway in the 1970s."
+        },
+        {
+          "id": "nt-b",
+          "text": "In another case, American archaeologists Rene Million and George Cowgill spent years systematically mapping the entire city of Teotihuacan in the valley of Mexico near what is now Mexico City. At its peak around AD 600, this city was one of the largest human settlements in the world. The researchers mapped not only the city's vast and ornate ceremonial areas, but also hundreds of simpler apartment complexes where common people lived."
+        },
+        {
+          "id": "nt-c",
+          "text": "How do archaeologists know where to find what they are looking for when there is nothing visible on the surface of the ground? Typically, they survey and sample (make test excavations on) large areas of terrain to determine where excavation will yield useful information. Surveys and test samples have also become important for understanding the larger landscapes that contain archaeological sites."
+        },
+        {
+          "id": "nt-d",
+          "text": "Surveys can cover a single large settlement or entire landscapes. In one case, many researchers working around the ancient Maya city of Copán, Honduras, have located hundreds of small rural villages and individual dwellings by using aerial photographs and by making surveys on foot. The resulting settlement maps show how the distribution and density of the rural population around the city changed dramatically between AD 500 and 850, when Copán collapsed."
+        },
+        {
+          "id": "nt-e",
+          "text": "To find their sites, archaeologists today rely heavily on systematic survey methods and a variety of high-technology tools and techniques. Airborne technologies, such as different types of radar and photographic equipment carried by airplanes or spacecraft, allow archaeologists to learn about what lies beneath the ground without digging. Aerial surveys locate general areas of interest or larger buried features, such as ancient buildings or fields."
+        },
+        {
+          "id": "nt-f",
+          "text": "Most archaeological sites, however, are discovered by archaeologists who have set out to look for them. Such searches can take years. British archaeologist Howard Carter knew that the tomb of the Egyptian pharaoh Tutankhamen existed from information found in other sites. Carter sifted through rubble in the Valley of the Kings for seven years before he located the tomb in 1922. In the late 1800s British archaeologist Sir Arthur Evans combed antique dealers' stores in Athens, Greece. He was searching for tiny engraved seals attributed to the ancient Mycenaean culture that dominated Greece from the 1400s to 1200s BC. Evans's interpretations of those engravings eventually led them to find the Minoan palace at Knossos on the island of Crete, in 1900."
+        },
+        {
+          "id": "nt-g",
+          "text": "Ground surveys allow archaeologists to pinpoint the places where digs will be successful. Most ground surveys involve a lot of walking, looking for surface clues such as small fragments of pottery. They often include a certain amount of digging to test for buried materials at selected points across a landscape. Archaeologists also may locate buried remains by using such technologies as ground radar, magnetic-field recording, and metal detectors. Archaeologists commonly use computers to map sites and the landscapes around sites. Two- and three-dimensional maps are helpful tools in planning excavations, illustrating how sites look, and presenting the results of archaeological research."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第44空"
+    },
+    {
+      "id": "nt-45",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 45 空：本空应填入的段落是",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "Some archaeological sites have always been easily observable—for example, the Parthenon in Athens, Greece; the pyramids of Giza in Egypt; and the megaliths of Stonehenge in southern England. But these sites are exceptions to the norm. Most archaeological sites have been located by means of careful searching, while many others have been discovered by accident. Olduvai Gorge, fell into its deep valley in 1911. Thousands of Aztec artifacts came to light during the digging of the Mexico City subway in the 1970s."
+        },
+        {
+          "id": "nt-b",
+          "text": "In another case, American archaeologists Rene Million and George Cowgill spent years systematically mapping the entire city of Teotihuacan in the valley of Mexico near what is now Mexico City. At its peak around AD 600, this city was one of the largest human settlements in the world. The researchers mapped not only the city's vast and ornate ceremonial areas, but also hundreds of simpler apartment complexes where common people lived."
+        },
+        {
+          "id": "nt-c",
+          "text": "How do archaeologists know where to find what they are looking for when there is nothing visible on the surface of the ground? Typically, they survey and sample (make test excavations on) large areas of terrain to determine where excavation will yield useful information. Surveys and test samples have also become important for understanding the larger landscapes that contain archaeological sites."
+        },
+        {
+          "id": "nt-d",
+          "text": "Surveys can cover a single large settlement or entire landscapes. In one case, many researchers working around the ancient Maya city of Copán, Honduras, have located hundreds of small rural villages and individual dwellings by using aerial photographs and by making surveys on foot. The resulting settlement maps show how the distribution and density of the rural population around the city changed dramatically between AD 500 and 850, when Copán collapsed."
+        },
+        {
+          "id": "nt-e",
+          "text": "To find their sites, archaeologists today rely heavily on systematic survey methods and a variety of high-technology tools and techniques. Airborne technologies, such as different types of radar and photographic equipment carried by airplanes or spacecraft, allow archaeologists to learn about what lies beneath the ground without digging. Aerial surveys locate general areas of interest or larger buried features, such as ancient buildings or fields."
+        },
+        {
+          "id": "nt-f",
+          "text": "Most archaeological sites, however, are discovered by archaeologists who have set out to look for them. Such searches can take years. British archaeologist Howard Carter knew that the tomb of the Egyptian pharaoh Tutankhamen existed from information found in other sites. Carter sifted through rubble in the Valley of the Kings for seven years before he located the tomb in 1922. In the late 1800s British archaeologist Sir Arthur Evans combed antique dealers' stores in Athens, Greece. He was searching for tiny engraved seals attributed to the ancient Mycenaean culture that dominated Greece from the 1400s to 1200s BC. Evans's interpretations of those engravings eventually led them to find the Minoan palace at Knossos on the island of Crete, in 1900."
+        },
+        {
+          "id": "nt-g",
+          "text": "Ground surveys allow archaeologists to pinpoint the places where digs will be successful. Most ground surveys involve a lot of walking, looking for surface clues such as small fragments of pottery. They often include a certain amount of digging to test for buried materials at selected points across a landscape. Archaeologists also may locate buried remains by using such technologies as ground radar, magnetic-field recording, and metal detectors. Archaeologists commonly use computers to map sites and the landscapes around sites. Two- and three-dimensional maps are helpful tools in planning excavations, illustrating how sites look, and presenting the results of archaeological research."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第45空"
+    },
+    {
+      "id": "tr-46",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "It is also the reason why when we try to describe music with words, all we can do is articulate our reactions to it, and not grasp music itself.",
+      "answer_key": {
+        "reference_text": "这也解释了为什么当我们尝试用语言描述音乐的时候，充其量只能是说清楚自己的感受，而无法抓住音乐本身。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第46句"
+    },
+    {
+      "id": "tr-47",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "By all accounts he was a freethinking person, and a courageous one, and I find courage an essential quality for the understanding, let alone the performance, of his works.",
+      "answer_key": {
+        "reference_text": "总而言之，他是一个思想不受束缚的人，而且是一个富有勇气的人。我认为勇气是理解——更是演奏——其作品不可或缺的品格。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第47句"
+    },
+    {
+      "id": "tr-48",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Beethoven's habit of increasing the volume with an extreme intensity and then abruptly following it with a sudden soft passage was only rarely used by composers before him.",
+      "answer_key": {
+        "reference_text": "贝多芬习惯以超凡的力度加大音响，随后突然进入一个意想不到的柔和乐段。这种手法在前人的作品中极为罕见。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第48句"
+    },
+    {
+      "id": "tr-49",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Especially significant was his view of freedom, which, for him, was associated with the rights and responsibilities of the individual: he advocated freedom of thought and of personal expression.",
+      "answer_key": {
+        "reference_text": "尤具深意的是他的自由观，在他看来自由关系到个人的权利和责任：他主张思想和个人表达的自由。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第49句"
+    },
+    {
+      "id": "tr-50",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "One could interpret much of the work of Beethoven by saying that suffering is inevitable, but the courage to fight it renders life worth living.",
+      "answer_key": {
+        "reference_text": "苦难是不可避免的，但与之抗争的勇气正是生活的意义所在。对贝多芬的诸多作品，我们都可做此解读。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第50句"
+    },
+    {
+      "id": "writing-a",
+      "section": "Section III · 写作 Part A",
+      "type": "free_text",
+      "stem": "Write a letter of about 100 words to the president of your university, suggesting how to improve students' physical condition.\nYou should include the details you think necessary.\nYou should write neatly on the ANSWER SHEET.\nDo not sign your own name at the end of the letter. Use “Li Ming” instead.\nDo not write the address. (10 points)",
+      "answer_key": {
+        "reference_text": "Dear Mr. President,\n\nI am writing to put forward some suggestions as to how to improve students' physical condition, as an increasing number of students are suffering from poor health due to a lack of exercise.\n\nTo begin with, it is advisable for the university to organize more sports activities, such as ball games and jogging competitions, which can motivate students to take part in physical exercise. In addition, more investment should be made in the gymnasium and playgrounds so that students will have access to better sports facilities. Finally, PE classes could be made more attractive by introducing a wider variety of courses, such as yoga, swimming and martial arts.\n\nI sincerely hope that my suggestions will be taken into consideration. Thank you for your time and attention.\n\nYours sincerely,\nLi Ming"
+      },
+      "max_score_units": 1000,
+      "source_ref": "Section III Writing Part A 51"
+    },
+    {
+      "id": "writing-b",
+      "section": "Section III · 写作 Part B",
+      "type": "free_text",
+      "stem": "Write an essay of 160-200 words based on the following drawing. In your essay, you should\n1) describe the drawing briefly,\n2) interpret its intended meaning, and\n3) give your comments.\nYou should write neatly on the ANSWER SHEET. (20 points)\n画面文字描述：左边一幅图中，一位年轻的母亲牵着年幼女儿的手；右边一幅图中，当年迈的母亲拄着拐杖时，长大成人的女儿搀扶着母亲，两幅图下方文字为“三十年前”和“现在”。",
+      "images": [
+        "images/2014/6aa5c8b265be8f9343fe63d7adaa01908e288d95fe6f1024fe731cbc0c456306.jpg"
+      ],
+      "answer_key": {
+        "reference_text": "As can be seen, love between a mother and a daughter is reflected by the drawing: in the left one, a young and amiable mother is holding one hand of her little daughter, while in the right photo, when the mother is aged, her daughter, who has grown up, is supporting her, just as the mother did thirty years ago.\n\nJust as the caption below summarizes, the implication conveyed in the picture is self-evident: we need to show our concern and love to our parents. However, most of us fail to do this job. As our pace of life gallops along, increasingly our society is seeing a decline in traditional moral values. It is revealed in the fact that we always put back filial piety. As young men now deem the career as the priority, they often choose to migrate with their jobs, and work around the clock, leaving parents in empty-nests. Besides, many people are used to substituting their care for parents with money or gifts. While it is beyond dispute that material support can improve our parents' living standards, what these aged people need most is company and love from us, such as a simple call, a short time at home.\n\nIt is easy to draw this conclusion that, to our parents, nothing can be better than the filial piety from children. Whenever possible, we should gather around the table for a “reunion dinner” with our parents; whether busy or not, we need to give our parents a call and tell them we are fine. Only with our full awareness of caring our parents with gratitude can our parents lead a really happy life."
+      },
+      "max_score_units": 2000,
+      "source_ref": "Section III Writing Part B 52"
+    }
+  ]
+}

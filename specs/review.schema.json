@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "拾题外部复盘元信息 v1",
+  "description": "只校验review.md的YAML元信息；Markdown章节、上下文hash、证据归属、ID去重与base_revision由领域校验补充。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["review_schema_version", "attempt_id", "context_revision", "context_sha256", "base_revision", "status", "producer", "coverage", "question_reviews", "suggested_actions", "grading_concerns"],
+  "properties": {
+    "review_schema_version": {"const": "1.0.0"},
+    "attempt_id": {"type": "string", "minLength": 1, "maxLength": 100},
+    "context_revision": {"type": "integer", "minimum": 1},
+    "context_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "base_revision": {"type": "integer", "minimum": 0},
+    "status": {"enum": ["draft", "complete"]},
+    "producer": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "name", "model"],
+      "properties": {
+        "kind": {"const": "external_agent"},
+        "name": {"type": "string", "minLength": 1, "maxLength": 200},
+        "model": {"type": ["string", "null"], "maxLength": 200}
+      }
+    },
+    "coverage": {
+      "type": "object", "additionalProperties": false,
+      "required": ["question_ids"],
+      "properties": {"question_ids": {"$ref": "#/$defs/questionIds"}}
+    },
+    "question_reviews": {
+      "type": "array", "minItems": 1, "maxItems": 500,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["question_id", "evidence_ids", "tags", "epistemic_status"],
+        "properties": {
+          "question_id": {"$ref": "#/$defs/id"},
+          "evidence_ids": {"type": "array", "uniqueItems": true, "maxItems": 100, "items": {"$ref": "#/$defs/id"}},
+          "tags": {"type": "array", "uniqueItems": true, "maxItems": 10, "items": {"type": "string", "minLength": 1, "maxLength": 40}},
+          "epistemic_status": {"enum": ["supported", "hypothesis", "insufficient_context"]}
+        },
+        "allOf": [{
+          "if": {"properties": {"epistemic_status": {"enum": ["supported", "hypothesis"]}}, "required": ["epistemic_status"]},
+          "then": {"properties": {"evidence_ids": {"minItems": 1}}}
+        }]
+      }
+    },
+    "suggested_actions": {
+      "type": "array", "maxItems": 50,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "question_ids", "evidence_ids", "text", "acceptance_check", "suggested_interval_days"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9-]{1,64}$"},
+          "question_ids": {"$ref": "#/$defs/questionIds"},
+          "evidence_ids": {"$ref": "#/$defs/evidenceIds"},
+          "text": {"type": "string", "minLength": 1, "maxLength": 2000},
+          "acceptance_check": {"type": "string", "minLength": 1, "maxLength": 2000},
+          "suggested_interval_days": {"type": "integer", "minimum": 1, "maximum": 365}
+        }
+      }
+    },
+    "grading_concerns": {
+      "type": "array", "maxItems": 50,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["question_id", "evidence_ids", "reason"],
+        "properties": {
+          "question_id": {"$ref": "#/$defs/id"},
+          "evidence_ids": {"$ref": "#/$defs/evidenceIds"},
+          "reason": {"type": "string", "minLength": 1, "maxLength": 2000}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[A-Za-z0-9_-]{1,100}$"},
+    "questionIds": {"type": "array", "minItems": 1, "maxItems": 500, "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+    "evidenceIds": {"type": "array", "minItems": 1, "maxItems": 100, "uniqueItems": true, "items": {"$ref": "#/$defs/id"}}
+  }
+}

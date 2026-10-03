@@ -1,0 +1,29 @@
+{
+  "name": "shiti-workbench",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:server": "npm run dev -w apps/server",
+    "dev:web": "npm run dev -w apps/web",
+    "dev": "node scripts/dev.mjs",
+    "build": "npm run build -w packages/shared && npm run build -w apps/server && npm run build -w apps/web",
+    "typecheck": "npm run typecheck -w packages/shared && npm run typecheck -w apps/server && npm run typecheck -w apps/web",
+    "test": "npm run test -w packages/shared && npm run test -w apps/server",
+    "check-json": "tsx scripts/check-json.ts",
+    "start": "npm run start -w apps/server"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true,
+    "esbuild@0.25.12": true,
+    "esbuild@0.28.2": true
+  }
+}

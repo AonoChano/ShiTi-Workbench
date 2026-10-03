@@ -1,0 +1,797 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 1991,
+    "paper": "英语统考卷",
+    "title": "1991年全国硕士研究生入学统一考试英语试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/1991.md",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "1991年为旧题型：Section I 完形填空15题（每题1分）、Section II Part A 阅读3篇15题（每题2分）、Part B 英译汉5句（每句3分）、Section III 短文写作1题（15分）。为控制篇幅，客观题未逐题填写 explanation，答案以 answer_key 为准；分值按原卷实际标注。"
+  },
+  "set": {
+    "title": "1991年全国硕士研究生入学统一考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · Use of English",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "For each numbered blank in the following passage there are four choices labelled [A], [B], [C] and [D]. Choose the best one and put your choice in the ANSWER SHEET. (15 points)"
+      ]
+    },
+    {
+      "id": "Section II · Reading Comprehension Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Each of the passages below is followed by some questions. For each question four answers are given. Read the passages carefully and choose the best answer to each of the questions. Put your choice in the ANSWER SHEET. (30 points)"
+      ]
+    },
+    {
+      "id": "Section II · Reading Comprehension Part B",
+      "part": "Section II · Part B",
+      "title": "英译汉",
+      "directions": [
+        "Read the following passage carefully and then translate the underlined sentences into Chinese. (15 points)"
+      ]
+    },
+    {
+      "id": "Section III · Writing",
+      "part": "Section III",
+      "title": "短文写作",
+      "directions": [
+        "A) Title: WHERE TO LIVE—IN THE CITY OR THE COUNTRY?",
+        "B) Time limit: 40 minutes",
+        "C) Word limit: 120 -150 words (not including the given opening sentence)",
+        "D) Your composition should be based on the OUTLINE below and should start with the given opening sentence.",
+        "E) Your composition must be written clearly in the ANSWER SHEET.",
+        "OUTLINE:",
+        "1. Conveniences of the city",
+        "2. Attractions of the country",
+        "3. Disadvantages of both",
+        "4. My preference"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · Use of English",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "When television first began to expand, very few of the people who had become famous as radio commentators were able to be equally effective on television. Some of the difficulties they experienced when they were trying to __1__ themselves to the new medium were technical. When working __2__ radio, for example, they had become __3__ to seeing on behalf of the listener."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "This __4__ of seeing for others means that the commentator has to be very good at talking. __5__ all, he has to be able to __6__ a continuous sequence of visual images which __7__ meaning to the sounds which the listener hears. In the __8__ of television, however, the commentator sees everything with the viewer. His role, therefore, is __9__ different. He is there to make __10__ that the viewer does not miss some point of interest, to help him __11__ on particular things, and to __12__ the images on the television screen. __13__ his radio colleague, he must know the __14__ of silence and how to use it at those moments __15__ the pictures speak for themselves."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Passage 1",
+      "section": "Section II · Reading Comprehension Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "A wise man once said that the only thing necessary for the triumph of evil is for good men to do nothing. So, as a police officer, I have some urgent things to say to good people."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Day after day my men and I struggle to hold back a tidal wave of crime. Something has gone terribly wrong with our once proud American way of life. It has happened in the area of values. A key ingredient is disappearing, and I think I know what it is: accountability."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Accountability isn’t hard to define. It means that every person is responsible for his or her actions and liable for their consequences."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Of the many values that hold civilization together—honesty, kindness, and so on—accountability may be the most important of all. Without it, there can be no respect, no trust, no law—and, ultimately, no society."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "My job as a police officer is to impose accountability on people who refuse, or have never learned, to impose it on themselves. But as every policeman knows, external controls on people’s behavior are far less effective than internal restraints such as guilt, shame and embarrassment."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Fortunately there are still communities—smaller towns, usually—where schools maintain discipline and where parents hold up standards that proclaim: “In this family certain things are not tolerated—they simply are not done!”"
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "Yet more and more, especially in our larger cities and suburbs, these inner restraints are loosening. Your typical robber has none. He considers your property his property; he takes what he wants, including your life if you enrage him."
+        },
+        {
+          "id": "p8",
+          "type": "paragraph",
+          "text": "The main cause of this break-down is a radical shift in attitudes. Thirty years ago, if a crime was committed, society was considered the victim. Now, in a shocking reversal, it’s the criminal who is considered victimized: by his underprivileged upbringing, by the school that didn’t teach him to read, by the church that failed to reach him with moral guidance, by the parents who didn’t provide a stable home."
+        },
+        {
+          "id": "p9",
+          "type": "paragraph",
+          "text": "I don’t believe it. Many others in equally disadvantaged circumstances choose not to engage in criminal activities. If we free the criminal, even partly, from accountability, we become a society of endless excuses where no one accepts responsibility for anything."
+        },
+        {
+          "id": "p10",
+          "type": "paragraph",
+          "text": "We in America desperately need more people who believe that the person who commits a crime is the one responsible for it."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Passage 2",
+      "section": "Section II · Reading Comprehension Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The period of adolescence, i. e., the period between childhood and adulthood, may be long or short, depending on social expectations and on society’s definition as to what constitutes maturity and adulthood. In primitive societies adolescence is frequently a relatively short period of time, while in industrial societies with patterns of prolonged education coupled with laws against child labor, the period of adolescence is much longer and may include most of the second decade of one’s life. Furthermore, the length of the adolescent period and the definition of adulthood status may change in a given society as social and economic conditions change. Examples of this type of change are the disappearance of the frontier in the latter part of the nineteenth century in the United States, and more universally the industrialization of an agricultural society."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "In modern society, ceremonies for adolescence have lost their formal recognition and symbolic significance and there no longer is agreement as to what constitutes initiation ceremonies. Social ones have been replaced by a sequence of steps that lead to increased recognition and social status. For example, grade school graduation, high school graduation and college graduation constitute such a sequence, and while each step implies certain behavioral changes and social recognition, the significance of each depends on the socio-economic status and the educational ambition of the individual. Ceremonies for adolescence have also been replaced by legal definitions of status roles, rights, privileges and responsibilities. It is during the nine years from the twelfth birthday to the twenty-first that the protective and restrictive aspects of childhood and minor status are removed and adult privileges and responsibilities are granted. The twelve-year-old is no longer considered a child and has to pay full fare for train, airplane, theater and movie tickets. Basically, the individual at this age loses childhood privileges without gaining significant adult rights. At the age of sixteen the adolescent is granted certain adult rights which increase his social status by providing him with more freedom and choices. He now can obtain a driver’s license; he can leave public schools; and he can work without the restrictions of child labor laws. At the age of eighteen the law provides adult responsibilities as well as rights; the young man can now be a soldier, but he also can marry without parental permission. At the age of twenty-one the individual obtains his full legal rights as an adult. He now can vote, he can buy liquor, he can enter into financial contracts, and he is entitled to run for public office. No additional basic rights are acquired as a function of age after majority status has been attained. None of these legal provisions determine at what point adulthood has been reached but they do point to the prolonged period of adolescence."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Passage 3",
+      "section": "Section II · Reading Comprehension Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Most growing plants contain much more water than all other materials combined. C. R. Barnes has suggested that it is as proper to term the plant a water structure as to call a house composed mainly of brick a brick building. Certain it is that all essential processes of plant growth and development occur in water. The mineral elements from the soil that are usable by the plant must be dissolved in the soil solution before they can be taken into the root. They are carried to all parts of the growing plant and are built into essential plant materials while in a dissolved state. The carbon dioxide (CO2) from the air may enter the leaf as a gas but is dissolved in water in the leaf before it is combined with a part of the water to form simple sugars—the base material from which the plant body is mainly built. Actively growing plant parts are generally 75 to 90 percent water. Structural parts of plants, such as woody stems no longer actively growing, may have much less water than growing tissues."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The actual amount of water in the plant at any one time, however, is only a very small part of what passes through it during its development. The processes of photosynthesis, by which carbon dioxide and water are combined—in the presence of chlorophyll (叶绿素) and with energy derived from light—to form sugars, require that carbon dioxide from the air enter the plant. This occurs mainly in the leaves. The leaf surface is not solid but contains great numbers of minute openings, through which the carbon dioxide enters. The same structure that permits the one gas to enter the leaf, however, permits another gas—water vapor—to be lost from it. Since carbon dioxide is present in the air only in trace quantities (3 to 4 parts in 10,000 parts of air) and water vapor is near saturation in the air spaces within the leaf (at 80℉, saturated air would contain about 186 parts of water vapor in 10,000 parts of air), the total amount of water vapor lost is many times the carbon dioxide intake. Actually, because of wind and other factors, the loss of water in proportion to carbon dioxide intake may be even greater than the relative concentrations of the two gases. Also, not all of the carbon dioxide that enters the leaf is synthesized into carbohydrates (碳水化合物)."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · Part B · 翻译原文",
+      "section": "Section II · Reading Comprehension Part B",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The fact is that the energy crisis, which has suddenly been officially announced, has been with us for a long time now, and will be with us for an even longer time. Whether Arab oil flows freely or not, it is clear to everyone that world industry cannot be allowed to depend on so fragile a base. 【31】The supply of oil can be shut off unexpectedly at any time, and in any case, the oil wells will all run dry in thirty years or so at the present rate of use."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "【32】New sources of energy must be found, and this will take time, but it is not likely to result in any situation that will ever restore that sense of cheap and plentiful energy we have had in the times past. For an indefinite period from here on, mankind is going to advance cautiously, and consider itself lucky that it can advance at all."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "To make the situation worse, there is as yet no sign that any slowing of the world’s population is in sight. Although the birth-rate has dropped in some nations, including the United States, the population of the world seems sure to pass six billion and perhaps even seven billion as the twenty-first century opens."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "【33】The food supply will not increase nearly enough to match this, which means that we are heading into a crisis in the matter of producing and marketing food."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Taking all this into account, what might we reasonably estimate supermarkets to be like in the year 2001?"
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "To begin with, the world food supply is going to become steadily tighter over the next thirty years—even here in the United States. By 2001, the population of the United States will be at least two hundred fifty million and possibly two hundred seventy million, and the nation will find it difficult to expand food production to fill the additional mouths. 【34】This will be particularly true since energy pinch will make it difficult to continue agriculture in the high-energy American fashion that makes it possible to combine few farmers with high yields."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "It seems almost certain that by 2001 the United States will no longer be a great food exporting nation and that, if necessity forces exports, it will be at the price of belt-tightening at home."
+        },
+        {
+          "id": "p8",
+          "type": "paragraph",
+          "text": "In fact, as food items will tend to decline in quality and decrease in variety, there is very likely to be increasing use of flavouring additives. 【35】Until such time as mankind has the sense to lower its population to the point where the planet can provide a comfortable support for all, people will have to accept more “unnatural food”."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "turn" },
+        { "id": "c1-b", "text": "adapt" },
+        { "id": "c1-c", "text": "alter" },
+        { "id": "c1-d", "text": "modify" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-b"] },
+      "max_score_units": 100,
+      "source_ref": "第1空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "on" },
+        { "id": "c2-b", "text": "at" },
+        { "id": "c2-c", "text": "with" },
+        { "id": "c2-d", "text": "behind" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-a"] },
+      "max_score_units": 100,
+      "source_ref": "第2空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "experienced" },
+        { "id": "c3-b", "text": "determined" },
+        { "id": "c3-c", "text": "established" },
+        { "id": "c3-d", "text": "accustomed" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-d"] },
+      "max_score_units": 100,
+      "source_ref": "第3空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "efficiency" },
+        { "id": "c4-b", "text": "technology" },
+        { "id": "c4-c", "text": "art" },
+        { "id": "c4-d", "text": "performance" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-c"] },
+      "max_score_units": 100,
+      "source_ref": "第4空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "Of" },
+        { "id": "c5-b", "text": "For" },
+        { "id": "c5-c", "text": "Above" },
+        { "id": "c5-d", "text": "In" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-c"] },
+      "max_score_units": 100,
+      "source_ref": "第5空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "inspire" },
+        { "id": "c6-b", "text": "create" },
+        { "id": "c6-c", "text": "cause" },
+        { "id": "c6-d", "text": "perceive" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-b"] },
+      "max_score_units": 100,
+      "source_ref": "第6空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "add" },
+        { "id": "c7-b", "text": "apply" },
+        { "id": "c7-c", "text": "affect" },
+        { "id": "c7-d", "text": "reflect" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-a"] },
+      "max_score_units": 100,
+      "source_ref": "第7空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "occasion" },
+        { "id": "c8-b", "text": "event" },
+        { "id": "c8-c", "text": "fact" },
+        { "id": "c8-d", "text": "case" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-d"] },
+      "max_score_units": 100,
+      "source_ref": "第8空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "equally" },
+        { "id": "c9-b", "text": "completely" },
+        { "id": "c9-c", "text": "initially" },
+        { "id": "c9-d", "text": "hardly" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-b"] },
+      "max_score_units": 100,
+      "source_ref": "第9空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "definite" },
+        { "id": "c10-b", "text": "possible" },
+        { "id": "c10-c", "text": "sure" },
+        { "id": "c10-d", "text": "clear" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-c"] },
+      "max_score_units": 100,
+      "source_ref": "第10空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        { "id": "c11-a", "text": "focus" },
+        { "id": "c11-b", "text": "attend" },
+        { "id": "c11-c", "text": "follow" },
+        { "id": "c11-d", "text": "insist" }
+      ],
+      "answer_key": { "selected_option_ids": ["c11-a"] },
+      "max_score_units": 100,
+      "source_ref": "第11空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        { "id": "c12-a", "text": "exhibit" },
+        { "id": "c12-b", "text": "demonstrate" },
+        { "id": "c12-c", "text": "expose" },
+        { "id": "c12-d", "text": "interpret" }
+      ],
+      "answer_key": { "selected_option_ids": ["c12-d"] },
+      "max_score_units": 100,
+      "source_ref": "第12空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        { "id": "c13-a", "text": "Like" },
+        { "id": "c13-b", "text": "Unlike" },
+        { "id": "c13-c", "text": "As" },
+        { "id": "c13-d", "text": "For" }
+      ],
+      "answer_key": { "selected_option_ids": ["c13-b"] },
+      "max_score_units": 100,
+      "source_ref": "第13空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        { "id": "c14-a", "text": "purpose" },
+        { "id": "c14-b", "text": "goal" },
+        { "id": "c14-c", "text": "value" },
+        { "id": "c14-d", "text": "intention" }
+      ],
+      "answer_key": { "selected_option_ids": ["c14-c"] },
+      "max_score_units": 100,
+      "source_ref": "第14空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        { "id": "c15-a", "text": "if" },
+        { "id": "c15-b", "text": "when" },
+        { "id": "c15-c", "text": "which" },
+        { "id": "c15-d", "text": "as" }
+      ],
+      "answer_key": { "selected_option_ids": ["c15-b"] },
+      "max_score_units": 100,
+      "source_ref": "第15空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "t1-q16",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "What the wise man said suggests that ______.",
+      "options": [
+        { "id": "t1-q16-a", "text": "it’s unnecessary for good people to do anything in face of evil" },
+        { "id": "t1-q16-b", "text": "it’s certain that evil will prevail if good men do nothing about it" },
+        { "id": "t1-q16-c", "text": "it’s only natural for virtue to defeat evil" },
+        { "id": "t1-q16-d", "text": "it’s desirable for good men to keep away from evil" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q16-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q17",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to the author, if a person is found guilty of a crime, ______.",
+      "options": [
+        { "id": "t1-q17-a", "text": "society is to be held responsible" },
+        { "id": "t1-q17-b", "text": "modern civilization is responsible for it" },
+        { "id": "t1-q17-c", "text": "the criminal himself should bear the blame" },
+        { "id": "t1-q17-d", "text": "the standards of living should be improved" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q17-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q18",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Compared with those in small towns, people in large cities have ______.",
+      "options": [
+        { "id": "t1-q18-a", "text": "less self-discipline" },
+        { "id": "t1-q18-b", "text": "better sense of discipline" },
+        { "id": "t1-q18-c", "text": "more mutual respect" },
+        { "id": "t1-q18-d", "text": "less effective government" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q18-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第6、7段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q19",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The writer is sorry to have noticed that ______.",
+      "options": [
+        { "id": "t1-q19-a", "text": "people in large cities tend to excuse criminals" },
+        { "id": "t1-q19-b", "text": "people in small towns still stick to old discipline and standards" },
+        { "id": "t1-q19-c", "text": "today’s society lacks sympathy for people in difficulty" },
+        { "id": "t1-q19-d", "text": "people in disadvantaged circumstances are engaged in criminal activities" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q19-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第8段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q20",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The key point of the passage is that ______.",
+      "options": [
+        { "id": "t1-q20-a", "text": "stricter discipline should be maintained in schools and families" },
+        { "id": "t1-q20-b", "text": "more good examples should be set for people to follow" },
+        { "id": "t1-q20-c", "text": "more restrictions should be imposed on people’s behavior" },
+        { "id": "t1-q20-d", "text": "more people should accept the value of accountability" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q20-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 全文",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t2-q21",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The period of adolescence is much longer in industrial societies because ______.",
+      "options": [
+        { "id": "t2-q21-a", "text": "the definition of maturity has changed" },
+        { "id": "t2-q21-b", "text": "the industrialized society is more developed" },
+        { "id": "t2-q21-c", "text": "more education is provided and laws against child labor are made" },
+        { "id": "t2-q21-d", "text": "ceremonies for adolescence have lost their formal recognition and symbolic significance" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q21-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q22",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Former social ceremonies that used to mark adolescence have given place to ______.",
+      "options": [
+        { "id": "t2-q22-a", "text": "graduations from schools and colleges" },
+        { "id": "t2-q22-b", "text": "social recognition" },
+        { "id": "t2-q22-c", "text": "socio-economic status" },
+        { "id": "t2-q22-d", "text": "certain behavioral changes" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q22-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q23",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "No one can expect to fully enjoy the adulthood privileges until he is ______.",
+      "options": [
+        { "id": "t2-q23-a", "text": "eleven years old" },
+        { "id": "t2-q23-b", "text": "sixteen years old" },
+        { "id": "t2-q23-c", "text": "twenty-one years old" },
+        { "id": "t2-q23-d", "text": "between twelve and twenty-one years old" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q23-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q24",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Starting from 22, ______.",
+      "options": [
+        { "id": "t2-q24-a", "text": "one will obtain more basic rights" },
+        { "id": "t2-q24-b", "text": "the older one becomes, the more basic rights he will have" },
+        { "id": "t2-q24-c", "text": "one won’t get more basic rights than when he is 21" },
+        { "id": "t2-q24-d", "text": "one will enjoy more rights granted by society" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q24-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q25",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "According to the passage, it is true that ______.",
+      "options": [
+        { "id": "t2-q25-a", "text": "in the late 19th century in the United States the dividing line between adolescence and adulthood no longer existed" },
+        { "id": "t2-q25-b", "text": "no one can marry without the permission of his parents until the age of twenty-one" },
+        { "id": "t2-q25-c", "text": "one is considered to have reached adulthood when he has a driver’s license" },
+        { "id": "t2-q25-d", "text": "one is not free from the restrictions of child labor laws until he can join the army" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q25-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q26",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "A growing plant needs water for all of the following except ______.",
+      "options": [
+        { "id": "t3-q26-a", "text": "forming sugars" },
+        { "id": "t3-q26-b", "text": "sustaining woody stems" },
+        { "id": "t3-q26-c", "text": "keeping green" },
+        { "id": "t3-q26-d", "text": "producing carbon dioxide" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q26-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q27",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The essential function of photosynthesis in terms of plant needs is ______.",
+      "options": [
+        { "id": "t3-q27-a", "text": "to form sugars" },
+        { "id": "t3-q27-b", "text": "to derive energy from light" },
+        { "id": "t3-q27-c", "text": "to preserve water" },
+        { "id": "t3-q27-d", "text": "to combine carbon dioxide with water" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q27-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第1、2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q28",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The second paragraph uses facts to develop the essential idea that ______.",
+      "options": [
+        { "id": "t3-q28-a", "text": "a plant efficiently utilizes most of the water it absorbs" },
+        { "id": "t3-q28-b", "text": "carbon dioxide is the essential substance needed for plant development" },
+        { "id": "t3-q28-c", "text": "a plant needs more water than is found in its composition" },
+        { "id": "t3-q28-d", "text": "the stronger the wind, the more the water vapor loss" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q28-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第2段",
+      "tags": ["阅读理解", "段落主旨题"]
+    },
+    {
+      "id": "t3-q29",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "According to the passage, which of the following statements is true?",
+      "options": [
+        { "id": "t3-q29-a", "text": "The mineral elements will not be absorbed by the plant unless they are dissolved in its root." },
+        { "id": "t3-q29-b", "text": "The woody stems contain more water than the leaves." },
+        { "id": "t3-q29-c", "text": "Air existing around the leaf is found to be saturated." },
+        { "id": "t3-q29-d", "text": "Only part of the carbon dioxide in the plant is synthesized." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q29-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q30",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "This passage is mainly about ______.",
+      "options": [
+        { "id": "t3-q30-a", "text": "the functions of carbon dioxide and water" },
+        { "id": "t3-q30-b", "text": "the role of water in a growing plant" },
+        { "id": "t3-q30-c", "text": "the process of simple sugar formation" },
+        { "id": "t3-q30-d", "text": "the synthesis of water with carbon dioxide" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q30-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 全文",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "tr-31",
+      "section": "Section II · Reading Comprehension Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The supply of oil can be shut off unexpectedly at any time, and in any case, the oil wells will all run dry in thirty years or so at the present rate of use.",
+      "answer_key": { "reference_text": "石油供应可能随时会被切断；不管怎样，以目前这种消费速度，只需30年左右，所有的油井都会枯竭。" },
+      "max_score_units": 300,
+      "source_ref": "第31句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-32",
+      "section": "Section II · Reading Comprehension Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "New sources of energy must be found, and this will take time, but it is not likely to result in any situation that will ever restore that sense of cheap and plentiful energy we have had in the times past.",
+      "answer_key": { "reference_text": "必须找到新的能源，这需要时间；而过去我们感觉到的那种能源价廉而充足的情况将不可能再出现了。" },
+      "max_score_units": 300,
+      "source_ref": "第32句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-33",
+      "section": "Section II · Reading Comprehension Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The food supply will not increase nearly enough to match this, which means that we are heading into a crisis in the matter of producing and marketing food.",
+      "answer_key": { "reference_text": "食品供应的增加将赶不上人口的增长，这就意味着我们在粮食的生产和购销方面正陷入危机。" },
+      "max_score_units": 300,
+      "source_ref": "第33句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-34",
+      "section": "Section II · Reading Comprehension Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "This will be particularly true since energy pinch will make it difficult to continue agriculture in the high-energy American fashion that makes it possible to combine few farmers with high yields.",
+      "answer_key": { "reference_text": "这种困境将是确定无疑的，因为能源的匮乏使农业无法以高能量消耗这种美国耕种方式继续下去了，而这种耕种方式使投入少数农民就可获得高产成为可能。" },
+      "max_score_units": 300,
+      "source_ref": "第34句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-35",
+      "section": "Section II · Reading Comprehension Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Until such time as mankind has the sense to lower its population to the point where the planet can provide a comfortable support for all, people will have to accept more “unnatural food”.",
+      "answer_key": { "reference_text": "除非人类终于意识到要把人口减少到这样的程度：使地球能为所有人提供足够的饮食，否则人们将不得不接受更多的“人造食品”。" },
+      "max_score_units": 300,
+      "source_ref": "第35句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "writing",
+      "section": "Section III · Writing",
+      "type": "free_text",
+      "stem": "A) Title: WHERE TO LIVE—IN THE CITY OR THE COUNTRY?\nB) Time limit: 40 minutes\nC) Word limit: 120 -150 words (not including the given opening sentence)\nD) Your composition should be based on the OUTLINE below and should start with the given opening sentence.\nE) Your composition must be written clearly in the ANSWER SHEET.\nOUTLINE:\n1. Conveniences of the city\n2. Attractions of the country\n3. Disadvantages of both\n4. My preference",
+      "answer_key": {
+        "reference_text": "Many people appreciate the conveniences of the city. With so many supermarkets, shopping malls and recreation facilities within easy reach, for example, city dwellers find it easy to enjoy themselves. Also, they are well-informed and have access to better education and better job opportunities. Besides, the city has better transportation service and health care. So, those who live in cities tend to have better sense of security.\n\nBut country life is also attractive. With the fresh air, the green trees and the singing birds, country people are close to nature and live a quiet life. They can enjoy the peace and calmness of the pastoral environment there. They can easily make friends with the warmhearted and honest people there.\n\nBoth the country and the city, however, have their own disadvantages. Cities are being tortured by many problems, such as heavy traffic and serious pollution. And urban citizens are often under pressure. As for rural inhabitants, they may find life far from being convenient, colorful or vigorous.\n\nAs far as I’m concerned, I hate the hustle and bustle of the city. I like the peace and beauty of the country. As to the inconveniences, countryside in China is undergoing great changes, leaving more and more disadvantages behind. So, given the chance, I would prefer to live in the country."
+      },
+      "max_score_units": 1500,
+      "source_ref": "Section III Writing",
+      "tags": ["写作"]
+    }
+  ]
+}

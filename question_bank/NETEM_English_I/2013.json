@@ -1,0 +1,1910 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2013,
+    "paper": "英语一",
+    "title": "2013年全国硕士研究生招生考试英语（一）试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2013.md",
+    "source_images": "TestPaper/images/2013/",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-04T00:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "完形填空第2-7、11题选项原文排序错乱，已按答案PDF重排；新题型为7选5，同一组选项在每空重复给出；写作Part B配图引用原图路径。"
+  },
+  "set": {
+    "title": "2013年全国硕士研究生招生考试英语（一）试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · 完形填空",
+      "part": "Section I",
+      "title": "英语知识运用（完形填空）",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 阅读理解 Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions below each text by choosing A, B, C or D. Mark your answers on ANSWER SHEET 1. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · 新题型 Part B",
+      "part": "Section II · Part B",
+      "title": "新题型（7选5）",
+      "directions": [
+        "In the following article, some sentences have been removed. For Questions 41-45, choose the most suitable one from the list A-G to fit into each of the numbered blanks. There are two extra choices, which do not fit in any of the gaps. Mark your answers on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 翻译 Part C",
+      "part": "Section II · Part C",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written clearly on ANSWER SHEET 2. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part A",
+      "part": "Section III · Part A",
+      "title": "应用文写作",
+      "directions": [
+        "Write an e-mail of about 100 words to a foreign teacher in your college, inviting him/her to be a judge for the upcoming English speech contest.",
+        "You should include the details you think necessary.",
+        "You should write neatly on the ANSWER SHEET 2.",
+        "Do not sign your own name at the end of the e-mail. Use “Li Ming” instead.",
+        "Do not write the address. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part B",
+      "part": "Section III · Part B",
+      "title": "短文写作",
+      "directions": [
+        "Write an essay of 160-200 words based on the following drawing. In your essay you should",
+        "1) describe the drawing briefly",
+        "2) explain its intended meaning, and",
+        "3) give your comments",
+        "You should write neatly on the ANSWER SHEET 2. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · 完形填空",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "People are, on the whole, poor at considering background information when making individual decisions. At first glance this might seem like a strength that __1__ the ability to make judgments which are unbiased by __2__ factors. But Dr. Uri Simonsohn speculated that an inability to consider the big __3__ was leading decision-makers to be biased by the daily samples of information they were working with. __4__, he theorised that a judge __5__ of appearing too soft __6__ crime might be more likely to send someone to prison __7__ he had already sentenced five or six other defendants only to forced community service on that day."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "To __8__ this idea, he turned to the university-admissions process. In theory, the __9__ of an applicant should not depend on the few others __10__ randomly for interview during the same day, but Dr. Simonsohn suspected the truth was __11__."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "He studied the results of 9,323 MBA interviews __12__ by 31 admissions officers. The interviewers had __13__ applicants on a scale of one to five. This scale __14__ numerous factors into consideration. The scores were __15__ used in conjunction with an applicant's score on the Graduate Management Admission Test, or GMAT, a standardized exam which is __16__ out of 800 points, to make a decision on whether to accept him or her."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Dr. Simonsohn found if the score of the previous candidate in a daily series of interviewees was 0.75 points or more higher than that of the one __17__ that, then the score for the next applicant would __18__ by an average of 0.075 points. This might sound small, but to __19__ the effects of such a decrease a candidate would need 30 more GMAT points than would otherwise have been __20__."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In the 2006 film version of The Devil Wears Prada, Miranda Priestly, played by Meryl Streep, scolds her unattractive assistant for imagining that high fashion doesn't affect her. Priestly explains how the deep blue color of the assistant's sweater descended over the years from fashion shows to department stores and to the bargain bin in which the poor girl doubtless found her garment."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "This top-down conception of the fashion business couldn't be more out of date or at odds with the feverish world described in Overdressed, Elizabeth Cline's three-year indictment of “fast fashion.” In the last decade or so, advances in technology have allowed mass-market labels such as Zara, H&M, and Uniqlo to react to trends more quickly and anticipate demand more precisely. Quicker turnarounds mean less wasted inventory, more frequent releases, and more profit. These labels encourage style-conscious consumers to see clothes as disposable—meant to last only a wash or two, although they don't advertise that—and to renew their wardrobe every few weeks. By offering on-trend items at dirt-cheap prices, Cline argues, these brands have hijacked fashion cycles, shaking an industry long accustomed to a seasonal pace."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The victims of this revolution, of course, are not limited to designers. For H&M to offer a $5.95 knit miniskirt in all its 2,300-plus stores around the world, it must rely on low-wage overseas labor, order in volumes that strain natural resources, and use massive amounts of harmful chemicals."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Overdressed is the fashion world's answer to consumer-activist bestsellers like Michael Pollan's The Omnivore's Dilemma. “Mass-produced clothing, like fast food, fills a hunger and need, yet is non-durable and wasteful,” Cline argues. Americans, she finds, buy roughly 20 billion garments a year—about 64 items per person—and no matter how much they give away, this excess leads to waste."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Towards the end of Overdressed, Cline introduced her ideal, a Brooklyn woman named Sarah Kate Beaumont, who since 2008 has made all of her own clothes—and beautifully. But as Cline is the first to note, it took Beaumont decades to perfect her craft; her example can't be knocked off."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Though several fast-fashion companies have made efforts to curb their impact on labor and the environment—including H&M, with its green Conscious Collection line—Cline believes lasting change can only be effected by the customer. She exhibits the idealism common to many advocates of sustainability, be it in food or in energy. Vanity is a constant; people will only start shopping more sustainably when they can't afford not to."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "An old saying has it that half of all advertising budgets are wasted—the trouble is, no one knows which half. In the internet age, at least in theory, this fraction can be much reduced. By watching what people search for, click on and say online, companies can aim “behavioral” ads at those most likely to buy."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "In the past couple of weeks a quarrel has illustrated the value to advertisers of such fine-grained information: Should advertisers assume that people are happy to be tracked and sent behavioral ads? Or should they have explicit permission?"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "In December 2010 America's Federal Trade Commission (FTC) proposed adding a “do not track” (DNT) option to internet browsers, so that users could tell advertisers that they did not want to be followed. Microsoft's Internet Explorer and Apple's Safari both offer DNT; Google's Chrome is due to do so this year. In February the FTC and Digital Advertising Alliance (DAA) agreed that the industry would get cracking on responding to DNT requests."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "On May 31st Microsoft set off the row: It said that Internet Explorer 10, the version due to appear Windows 8, would have DNT as a default."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Advertisers are horrified. Human nature being what it is, most people stick with default settings. Few switch DNT on now, but if tracking is off it will stay off. Bob Liodice, the chief executive of the Association of National Advertisers, says consumers will be worse off if the industry cannot collect information about their preferences. People will not get fewer ads, he says, “they'll get less meaningful, less targeted ads.”"
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "It is not yet clear how advertisers will respond. Getting a DNT signal does not oblige anyone to stop tracking, although some companies have promised to do so. Unable to tell whether someone really objects to behavioral ads or whether they are sticking with Microsoft's default, some may ignore a DNT signal and press on anyway."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "Also unclear is why Microsoft has gone it alone. After all, it has an ad business too, which it says will comply with DNT requests, though it is still working out how. If it is trying to upset Google, which relies almost wholly on advertising, it has chosen an indirect method: There is no guarantee that DNT by default will become the norm. DNT does not seem an obviously huge selling point for Windows 8—though the firm has compared some of its other products favorably with Google's on that count before. Brendon Lynch, Microsoft's chief privacy officer, blogged: “we believe consumers should have more control.” Could it really be that simple?"
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Up until a few decades ago, our visions of the future were largely—though by no means uniformly—glowingly positive. Science and technology would cure all the ills of humanity, leading to lives of fulfillment and opportunity for all."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Now utopia has grown unfashionable, as we have gained a deeper appreciation of the range of threats facing us, from asteroid strike to epidemic flu to climate change. You might even be tempted to assume that humanity has little future to look forward to."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "But such gloominess is misplaced. The fossil record shows that many species have endured for millions of years—so why shouldn't we? Take a broader look at our species' place in the universe, and it becomes clear that we have an excellent chance of surviving for tens, if not hundreds, of thousands of years. Look up Homo sapiens in the “Red List” of threatened species of the International Union for the Conservation of Nature (IUCN), and you will read: “Listed as Least Concern as the species is very widely distributed, adaptable, currently increasing, and there are no major threats resulting in an overall population decline.”"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "So what does our deep future hold? A growing number of researchers and organizations are now thinking seriously about that question. For example, the Long Now Foundation has as its flagship project a mechanical clock that is designed to still be marking time thousands of years hence."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Perhaps willfully, it may be easier to think about such lengthy timescales than about the more immediate future. The potential evolution of today's technology, and its social consequences, is dazzlingly complicated, and it's perhaps best left to science-fiction writers and futurologists to explore the many possibilities we can envisage. That's one reason why we have launched Arc, a new publication dedicated to the near future."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "But take a longer view and there is a surprising amount that we can say with considerable assurance. As so often, the past holds the key to the future: we have now identified enough of the long-term patterns shaping the history of the planet, and our species, to make evidence-based forecasts about the situations in which our descendants will find themselves."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "This long perspective makes the pessimistic view of our prospects seem more likely to be a passing fad. To be sure, the future is not all rosy. But we are now knowledgeable enough to reduce many of the risks that threatened the existence of earlier humans, and to improve the lot of those to come."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "On a five to three vote, the Supreme Court knocked out much of Arizona's immigration law Monday—a modest policy victory for the Obama Administration. But on the more important matter of the Constitution, the decision was an 8-0 defeat for the Administration's effort to upset the balance of power between the federal government and the states."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "In Arizona v. United States, the majority overturned three of the four contested provisions of Arizona's controversial plan to have state and local police enforce federal immigration law. The Constitutional principles that Washington alone has the power to “establish a uniform Rule of Naturalization” and that federal laws precede state laws are noncontroversial. Arizona had attempted to fashion state policies that ran parallel to the existing federal ones."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Justice Anthony Kennedy, joined by Chief Justice John Roberts and the Court's liberals, ruled that the state flew too close to the federal sun. On the overturned provisions the majority held that Congress had deliberately “occupied the field” and Arizona has thus intruded on the federal's privileged powers."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "However, the Justices said that Arizona police would be allowed to verify the legal status of people who come in contact with law enforcement. That's because Congress has always envisioned joint federal-state immigration enforcement and explicitly encourages state officers to share information and cooperate with federal colleagues."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Two of the three objecting Justices—Samuel Alito and Clarence Thomas—agreed with this Constitutional logic but disagreed about which Arizona rules conflicted with the federal statute. The only major objection came from Justice Antonin Scalia, who offered an even more robust defense of state privileges going back to the Alien and Sedition Acts."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "The 8-0 objection to President Obama turns on what Justice Samuel Alito describes in his objection as “a shocking assertion of federal executive power”. The White House argued that Arizona's laws conflicted with its enforcement priorities, even if state laws complied with federal statutes to the letter. In effect, the White House claimed that it could invalidate any otherwise legitimate state law that it disagrees with."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "Some powers do belong exclusively to the federal government, and control of citizenship and the borders is among them. But if Congress wanted to prevent states from using their own resources to check immigration status, it could. It never did so. The Administration was in essence asserting that because it didn't want to carry out Congress's immigration wishes, no state should be allowed to do so either. Every Justice rightly rejected this remarkable claim."
+        }
+      ]
+    },
+    {
+      "id": "newtype",
+      "title": "Section II · 新题型 Part B 短文",
+      "section": "Section II · 新题型 Part B",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The social sciences are flourishing. As of 2005, there were almost half a million professional social scientists from all fields in the world, working both inside and outside academia. According to the World Social Science Report 2010, the number of social-science students worldwide has swollen by about 11% every year since 2000."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Yet this enormous resource is not contributing enough to today's global challenges, including climate change, security, sustainable development and health. __41__ Humanity has the necessary agro-technological tools to eradicate hunger, from genetically engineered crops to artificial fertilizers. Here, too, the problems are social: the organization and distribution of food, wealth and prosperity."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "__42__ This is a shame—the community should be grasping the opportunity to raise its influence in the real world. To paraphrase the great social scientist Joseph Schumpeter: there is no radical innovation without creative destruction."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Today, the social sciences are largely focused on disciplinary problems and internal scholarly debates, rather than on topics with external impact. Analyses reveal that the number of papers including the keywords “environmental change” or “climate change” have increased rapidly since 2004. __43__"
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "When social scientists do tackle practical issues, their scope is often local: Belgium is interested mainly in the effects of poverty on Belgium, for example. And whether the community's work contributes much to an overall accumulation of knowledge is doubtful."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "The problem is not necessarily the amount of available funding. __44__ This is an adequate amount so long as it is aimed in the right direction. Social scientists who complain about a lack of funding should not expect more in today's economic climate."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "The trick is to direct these funds better. The European Union Framework funding programs have long had a category specifically targeted at social scientists. This year, it was proposed that the system be changed: Horizon 2020, a new program to be enacted in 2014, would not have such a category. This has resulted in protests from social scientists. But the intention is not to neglect social science; rather, the complete opposite. __45__ That should create more collaborative endeavors and help to develop projects aimed directly at solving global problems."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · 翻译 Part C 原文",
+      "section": "Section II · 翻译 Part C",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "It is speculated that gardens arise from a basic human need in the individuals who made them: the need for creative expression. There is no doubt that gardens evidence an irrepressible urge to create, express, fashion, and beautify and that self-expression is a basic human urge; 【46】yet when one looks at the photographs of the gardens created by the homeless, it strikes one that, for all their diversity of styles, these gardens speak of various other fundamental urges, beyond that of decoration and creative expression.\nOne of these urges has to do with creating a state of peace in the midst of turbulence, a “still point of the turning world,” to borrow a phrase from T. S. Eliot. 【47】A sacred place of peace, however crude it may be, is a distinctly human need, as opposed to shelter, which is a distinctly animal need. This distinction is so much so that where the latter is lacking, as it is for these unlikely gardens, the former becomes all the more urgent. Composure is a state of mind made possible by the structuring of one's relation to one's environment. 【48】The gardens of the homeless, which are in effect homeless gardens, introduce form into an urban environment where it either didn't exist or was not discernible as such. In so doing they give composure to a segment of the inarticulate environment in which they take their stand.\nAnother urge or need that these gardens appear to respond to, or to arise from, is so intrinsic that we are barely ever conscious of its abiding claims on us. When we are deprived of green, of plants, of trees, 【49】most of us give in to a demoralization of spirit which we usually blame on some psychological conditions, until one day we find ourselves in a garden and feel the oppression vanish as if by magic. In most of the homeless gardens of New York City the actual cultivation of plants is unfeasible, yet even so the compositions often seem to represent attempts to call forth the spirit of plant and animal life, if only symbolically, through a clumplike arrangement of materials, an introduction of colors, small pools of water, and a frequent presence of petals or leaves as well as of stuffed animals. On display here are various fantasy elements whose reference, at some basic level, seems to be the natural world. 【50】It is this implicit or explicit reference to nature that fully justifies the use of the word garden, though in a “liberated” sense, to describe these synthetic constructions. In them we can see biophilia—a yearning for contact with nonhuman life—assuming uncanny representational forms."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        {
+          "id": "c1-a",
+          "text": "grants"
+        },
+        {
+          "id": "c1-b",
+          "text": "submits"
+        },
+        {
+          "id": "c1-c",
+          "text": "transmits"
+        },
+        {
+          "id": "c1-d",
+          "text": "delivers"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c1-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第1空"
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        {
+          "id": "c2-a",
+          "text": "minor"
+        },
+        {
+          "id": "c2-b",
+          "text": "external"
+        },
+        {
+          "id": "c2-c",
+          "text": "crucial"
+        },
+        {
+          "id": "c2-d",
+          "text": "objective"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c2-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第2空"
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        {
+          "id": "c3-a",
+          "text": "issue"
+        },
+        {
+          "id": "c3-b",
+          "text": "vision"
+        },
+        {
+          "id": "c3-c",
+          "text": "picture"
+        },
+        {
+          "id": "c3-d",
+          "text": "moment"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c3-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第3空"
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        {
+          "id": "c4-a",
+          "text": "Above all"
+        },
+        {
+          "id": "c4-b",
+          "text": "On average"
+        },
+        {
+          "id": "c4-c",
+          "text": "In principle"
+        },
+        {
+          "id": "c4-d",
+          "text": "For example"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c4-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第4空"
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        {
+          "id": "c5-a",
+          "text": "fond"
+        },
+        {
+          "id": "c5-b",
+          "text": "fearful"
+        },
+        {
+          "id": "c5-c",
+          "text": "capable"
+        },
+        {
+          "id": "c5-d",
+          "text": "thoughtless"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c5-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第5空"
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        {
+          "id": "c6-a",
+          "text": "in"
+        },
+        {
+          "id": "c6-b",
+          "text": "for"
+        },
+        {
+          "id": "c6-c",
+          "text": "to"
+        },
+        {
+          "id": "c6-d",
+          "text": "on"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c6-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第6空"
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        {
+          "id": "c7-a",
+          "text": "if"
+        },
+        {
+          "id": "c7-b",
+          "text": "until"
+        },
+        {
+          "id": "c7-c",
+          "text": "though"
+        },
+        {
+          "id": "c7-d",
+          "text": "unless"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c7-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第7空"
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        {
+          "id": "c8-a",
+          "text": "test"
+        },
+        {
+          "id": "c8-b",
+          "text": "emphasize"
+        },
+        {
+          "id": "c8-c",
+          "text": "share"
+        },
+        {
+          "id": "c8-d",
+          "text": "promote"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c8-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第8空"
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        {
+          "id": "c9-a",
+          "text": "decision"
+        },
+        {
+          "id": "c9-b",
+          "text": "quality"
+        },
+        {
+          "id": "c9-c",
+          "text": "status"
+        },
+        {
+          "id": "c9-d",
+          "text": "success"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c9-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第9空"
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        {
+          "id": "c10-a",
+          "text": "found"
+        },
+        {
+          "id": "c10-b",
+          "text": "studied"
+        },
+        {
+          "id": "c10-c",
+          "text": "chosen"
+        },
+        {
+          "id": "c10-d",
+          "text": "identified"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c10-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第10空"
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        {
+          "id": "c11-a",
+          "text": "otherwise"
+        },
+        {
+          "id": "c11-b",
+          "text": "defensible"
+        },
+        {
+          "id": "c11-c",
+          "text": "replaceable"
+        },
+        {
+          "id": "c11-d",
+          "text": "exceptional"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c11-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第11空"
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        {
+          "id": "c12-a",
+          "text": "inspired"
+        },
+        {
+          "id": "c12-b",
+          "text": "expressed"
+        },
+        {
+          "id": "c12-c",
+          "text": "conducted"
+        },
+        {
+          "id": "c12-d",
+          "text": "secured"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c12-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第12空"
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        {
+          "id": "c13-a",
+          "text": "assigned"
+        },
+        {
+          "id": "c13-b",
+          "text": "rated"
+        },
+        {
+          "id": "c13-c",
+          "text": "matched"
+        },
+        {
+          "id": "c13-d",
+          "text": "arranged"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c13-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第13空"
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        {
+          "id": "c14-a",
+          "text": "put"
+        },
+        {
+          "id": "c14-b",
+          "text": "got"
+        },
+        {
+          "id": "c14-c",
+          "text": "took"
+        },
+        {
+          "id": "c14-d",
+          "text": "gave"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c14-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第14空"
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        {
+          "id": "c15-a",
+          "text": "instead"
+        },
+        {
+          "id": "c15-b",
+          "text": "then"
+        },
+        {
+          "id": "c15-c",
+          "text": "ever"
+        },
+        {
+          "id": "c15-d",
+          "text": "rather"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c15-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第15空"
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        {
+          "id": "c16-a",
+          "text": "selected"
+        },
+        {
+          "id": "c16-b",
+          "text": "passed"
+        },
+        {
+          "id": "c16-c",
+          "text": "marked"
+        },
+        {
+          "id": "c16-d",
+          "text": "introduced"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c16-c"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第16空"
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        {
+          "id": "c17-a",
+          "text": "below"
+        },
+        {
+          "id": "c17-b",
+          "text": "after"
+        },
+        {
+          "id": "c17-c",
+          "text": "above"
+        },
+        {
+          "id": "c17-d",
+          "text": "before"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c17-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第17空"
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        {
+          "id": "c18-a",
+          "text": "jump"
+        },
+        {
+          "id": "c18-b",
+          "text": "float"
+        },
+        {
+          "id": "c18-c",
+          "text": "fluctuate"
+        },
+        {
+          "id": "c18-d",
+          "text": "drop"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c18-d"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第18空"
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        {
+          "id": "c19-a",
+          "text": "achieve"
+        },
+        {
+          "id": "c19-b",
+          "text": "undo"
+        },
+        {
+          "id": "c19-c",
+          "text": "maintain"
+        },
+        {
+          "id": "c19-d",
+          "text": "disregard"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c19-b"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第19空"
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        {
+          "id": "c20-a",
+          "text": "necessary"
+        },
+        {
+          "id": "c20-b",
+          "text": "possible"
+        },
+        {
+          "id": "c20-c",
+          "text": "promising"
+        },
+        {
+          "id": "c20-d",
+          "text": "helpful"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "c20-a"
+        ]
+      },
+      "max_score_units": 50,
+      "source_ref": "第20空"
+    },
+    {
+      "id": "t1-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Priestly criticizes her assistant for her ______.",
+      "options": [
+        {
+          "id": "t1-q1-a",
+          "text": "lack of imagination"
+        },
+        {
+          "id": "t1-q1-b",
+          "text": "poor bargaining skill"
+        },
+        {
+          "id": "t1-q1-c",
+          "text": "obsession with high fashion"
+        },
+        {
+          "id": "t1-q1-d",
+          "text": "insensitivity to fashion"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q1-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1段"
+    },
+    {
+      "id": "t1-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to Cline, mass-market labels urge consumers to ______.",
+      "options": [
+        {
+          "id": "t1-q2-a",
+          "text": "combat unnecessary waste"
+        },
+        {
+          "id": "t1-q2-b",
+          "text": "shop for their garments more frequently"
+        },
+        {
+          "id": "t1-q2-c",
+          "text": "resist the influence of advertisements"
+        },
+        {
+          "id": "t1-q2-d",
+          "text": "shut out the feverish fashion world"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q2-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第2段"
+    },
+    {
+      "id": "t1-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The word “indictment” (Line 3, Para. 2) is closest in meaning to ______.",
+      "options": [
+        {
+          "id": "t1-q3-a",
+          "text": "accusation"
+        },
+        {
+          "id": "t1-q3-b",
+          "text": "enthusiasm"
+        },
+        {
+          "id": "t1-q3-c",
+          "text": "indifference"
+        },
+        {
+          "id": "t1-q3-d",
+          "text": "tolerance"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q3-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第2段"
+    },
+    {
+      "id": "t1-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Which of the following can be inferred from the last paragraph?",
+      "options": [
+        {
+          "id": "t1-q4-a",
+          "text": "Vanity has more often been found in idealists."
+        },
+        {
+          "id": "t1-q4-b",
+          "text": "The fast-fashion industry ignores sustainability."
+        },
+        {
+          "id": "t1-q4-c",
+          "text": "Pricing is vital to environment-friendly purchasing."
+        },
+        {
+          "id": "t1-q4-d",
+          "text": "People are more interested in unaffordable garments."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q4-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 第6段"
+    },
+    {
+      "id": "t1-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "What is the subject of the text?",
+      "options": [
+        {
+          "id": "t1-q5-a",
+          "text": "Satire on an extravagant lifestyle."
+        },
+        {
+          "id": "t1-q5-b",
+          "text": "Challenge to a high-fashion myth."
+        },
+        {
+          "id": "t1-q5-c",
+          "text": "Criticism of the fast-fashion industry."
+        },
+        {
+          "id": "t1-q5-d",
+          "text": "Exposure of a mass-market secret."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t1-q5-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 1 全文"
+    },
+    {
+      "id": "t2-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "It is suggested in Paragraph 1 that “behavioral” ads help advertisers to ______.",
+      "options": [
+        {
+          "id": "t2-q1-a",
+          "text": "lower their operational costs"
+        },
+        {
+          "id": "t2-q1-b",
+          "text": "ease competition among themselves"
+        },
+        {
+          "id": "t2-q1-c",
+          "text": "avoid complaints from consumers"
+        },
+        {
+          "id": "t2-q1-d",
+          "text": "provide better online services"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q1-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第1段"
+    },
+    {
+      "id": "t2-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "“The industry” (Line 5, Para. 3) refers to ______.",
+      "options": [
+        {
+          "id": "t2-q2-a",
+          "text": "online advertisers"
+        },
+        {
+          "id": "t2-q2-b",
+          "text": "e-commerce conductors"
+        },
+        {
+          "id": "t2-q2-c",
+          "text": "digital information analysis"
+        },
+        {
+          "id": "t2-q2-d",
+          "text": "internet browser developers"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q2-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第3段"
+    },
+    {
+      "id": "t2-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Bob Liodice holds that setting DNT as a default ______.",
+      "options": [
+        {
+          "id": "t2-q3-a",
+          "text": "goes against human nature"
+        },
+        {
+          "id": "t2-q3-b",
+          "text": "fails to affect the ad industry"
+        },
+        {
+          "id": "t2-q3-c",
+          "text": "will not benefit consumers"
+        },
+        {
+          "id": "t2-q3-d",
+          "text": "may cut the number of junk ads"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q3-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第5段"
+    },
+    {
+      "id": "t2-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Which of the following is true according to Paragraph 6?",
+      "options": [
+        {
+          "id": "t2-q4-a",
+          "text": "Advertisers are obliged to offer behavioral ads."
+        },
+        {
+          "id": "t2-q4-b",
+          "text": "DNT may not serve its intended purpose."
+        },
+        {
+          "id": "t2-q4-c",
+          "text": "DNT is losing its popularity among consumers."
+        },
+        {
+          "id": "t2-q4-d",
+          "text": "Advertisers are willing to implement DNT."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q4-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第6段"
+    },
+    {
+      "id": "t2-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The author's attitude towards what Brendon Lynch said in his blog is one of ______.",
+      "options": [
+        {
+          "id": "t2-q5-a",
+          "text": "appreciation"
+        },
+        {
+          "id": "t2-q5-b",
+          "text": "understanding"
+        },
+        {
+          "id": "t2-q5-c",
+          "text": "indulgence"
+        },
+        {
+          "id": "t2-q5-d",
+          "text": "skepticism"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t2-q5-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 2 第7段"
+    },
+    {
+      "id": "t3-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Our vision of the future used to be inspired by ______.",
+      "options": [
+        {
+          "id": "t3-q1-a",
+          "text": "our desire for lives of fulfillment"
+        },
+        {
+          "id": "t3-q1-b",
+          "text": "our faith in science and technology"
+        },
+        {
+          "id": "t3-q1-c",
+          "text": "our awareness of potential risks"
+        },
+        {
+          "id": "t3-q1-d",
+          "text": "our belief in equal opportunity"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q1-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第1段"
+    },
+    {
+      "id": "t3-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The IUCN's “Red List” suggests that human beings are ______.",
+      "options": [
+        {
+          "id": "t3-q2-a",
+          "text": "a misplaced race"
+        },
+        {
+          "id": "t3-q2-b",
+          "text": "a sustained species"
+        },
+        {
+          "id": "t3-q2-c",
+          "text": "the world's dominant power"
+        },
+        {
+          "id": "t3-q2-d",
+          "text": "a threat to the environment"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q2-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第3段"
+    },
+    {
+      "id": "t3-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Which of the following is true according to Paragraph 5?",
+      "options": [
+        {
+          "id": "t3-q3-a",
+          "text": "The interest in science fiction is on the rise."
+        },
+        {
+          "id": "t3-q3-b",
+          "text": "Arc helps limit the scope of futurological studies."
+        },
+        {
+          "id": "t3-q3-c",
+          "text": "Technology offers solutions to social problems."
+        },
+        {
+          "id": "t3-q3-d",
+          "text": "Our immediate future is hard to conceive."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q3-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第5段"
+    },
+    {
+      "id": "t3-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "To ensure the future of mankind, it is crucial to ______.",
+      "options": [
+        {
+          "id": "t3-q4-a",
+          "text": "draw on our experience from the past"
+        },
+        {
+          "id": "t3-q4-b",
+          "text": "adopt an optimistic view of the world"
+        },
+        {
+          "id": "t3-q4-c",
+          "text": "explore our planet's abundant resources"
+        },
+        {
+          "id": "t3-q4-d",
+          "text": "curb our ambition to reshape history"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q4-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 第6段"
+    },
+    {
+      "id": "t3-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Which of the following would be the best title for the text?",
+      "options": [
+        {
+          "id": "t3-q5-a",
+          "text": "Uncertainty about Our Future"
+        },
+        {
+          "id": "t3-q5-b",
+          "text": "Evolution of the Human Species"
+        },
+        {
+          "id": "t3-q5-c",
+          "text": "The Ever-bright Prospects of Mankind"
+        },
+        {
+          "id": "t3-q5-d",
+          "text": "Science, Technology and Humanity"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t3-q5-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 3 全文"
+    },
+    {
+      "id": "t4-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Three provisions of Arizona's plan were overturned because they ______.",
+      "options": [
+        {
+          "id": "t4-q1-a",
+          "text": "overstepped the authority of federal immigration law"
+        },
+        {
+          "id": "t4-q1-b",
+          "text": "disturbed the power balance between different states"
+        },
+        {
+          "id": "t4-q1-c",
+          "text": "deprived the federal police of Constitutional powers"
+        },
+        {
+          "id": "t4-q1-d",
+          "text": "contradicted both the federal and state policies"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q1-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第2段"
+    },
+    {
+      "id": "t4-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "On which of the following did the Justices agree, according to Paragraph 4?",
+      "options": [
+        {
+          "id": "t4-q2-a",
+          "text": "States' independence from federal immigration law."
+        },
+        {
+          "id": "t4-q2-b",
+          "text": "Federal officers' duty to withhold immigrants' information."
+        },
+        {
+          "id": "t4-q2-c",
+          "text": "States' legitimate role in immigration enforcement."
+        },
+        {
+          "id": "t4-q2-d",
+          "text": "Congress's intervention in immigration enforcement."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q2-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第4段"
+    },
+    {
+      "id": "t4-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "It can be inferred from Paragraph 5 that the Alien and Sedition Acts ______.",
+      "options": [
+        {
+          "id": "t4-q3-a",
+          "text": "violated the Constitution"
+        },
+        {
+          "id": "t4-q3-b",
+          "text": "stood in favor of the states"
+        },
+        {
+          "id": "t4-q3-c",
+          "text": "supported the federal statute"
+        },
+        {
+          "id": "t4-q3-d",
+          "text": "undermined the states' interests"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q3-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第5段"
+    },
+    {
+      "id": "t4-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The White House claims that its power of enforcement ______.",
+      "options": [
+        {
+          "id": "t4-q4-a",
+          "text": "outweighs that held by the states"
+        },
+        {
+          "id": "t4-q4-b",
+          "text": "is established by federal statutes"
+        },
+        {
+          "id": "t4-q4-c",
+          "text": "is dependent on the states' support"
+        },
+        {
+          "id": "t4-q4-d",
+          "text": "rarely goes against state laws"
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q4-a"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第6段"
+    },
+    {
+      "id": "t4-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "What can be learned from the last paragraph?",
+      "options": [
+        {
+          "id": "t4-q5-a",
+          "text": "Immigration issues are usually decided by Congress."
+        },
+        {
+          "id": "t4-q5-b",
+          "text": "The Administration is dominant over immigration issues."
+        },
+        {
+          "id": "t4-q5-c",
+          "text": "Justices wanted to strengthen its coordination with Congress."
+        },
+        {
+          "id": "t4-q5-d",
+          "text": "Justices intended to check the power of the Administration."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "t4-q5-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "Text 4 第7段"
+    },
+    {
+      "id": "nt-41",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 41 空：从下列句子中选出填入本空的选项",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "It could be that we are evolving two communities of social scientists: one that is discipline-oriented and publishing in highly specialized journals, and one that is problem-oriented and publishing elsewhere, such as policy briefs."
+        },
+        {
+          "id": "nt-b",
+          "text": "However, the numbers are still small: in 2010, about 1,600 of the 100,000 social-sciences papers published globally included one of these keywords."
+        },
+        {
+          "id": "nt-c",
+          "text": "Despite these factors, many social scientists seem reluctant to tackle such problems. And in Europe, some are up in arms over a proposal to drop a specific funding category for social-science research and to integrate it within cross-cutting topics of sustainable development."
+        },
+        {
+          "id": "nt-d",
+          "text": "During the late 1990s, national spending on social sciences and the humanities as a percentage of all research and development funds—including government, higher education, non-profit and corporate—varied from around 4% to 25%; in most European nations, it is about 15%."
+        },
+        {
+          "id": "nt-e",
+          "text": "The idea is to force social scientists to integrate their work with other categories, including health and demographic change; food security; marine research and the bio-economy; clean, efficient energy; and inclusive, innovative and secure societies."
+        },
+        {
+          "id": "nt-f",
+          "text": "The solution is to change the mindset of the academic community, and what it considers to be its main goal. Global challenges and social innovation ought to receive much more attention from scientists, especially the young ones."
+        },
+        {
+          "id": "nt-g",
+          "text": "These issues all have root causes in human behavior: all require behavioral change and social innovations, as well as technological development. Stemming climate change, for example, is as much about changing consumption patterns and promoting tax acceptance as it is about developing clean energy."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-g"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第41空"
+    },
+    {
+      "id": "nt-42",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 42 空：从下列句子中选出填入本空的选项",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "It could be that we are evolving two communities of social scientists: one that is discipline-oriented and publishing in highly specialized journals, and one that is problem-oriented and publishing elsewhere, such as policy briefs."
+        },
+        {
+          "id": "nt-b",
+          "text": "However, the numbers are still small: in 2010, about 1,600 of the 100,000 social-sciences papers published globally included one of these keywords."
+        },
+        {
+          "id": "nt-c",
+          "text": "Despite these factors, many social scientists seem reluctant to tackle such problems. And in Europe, some are up in arms over a proposal to drop a specific funding category for social-science research and to integrate it within cross-cutting topics of sustainable development."
+        },
+        {
+          "id": "nt-d",
+          "text": "During the late 1990s, national spending on social sciences and the humanities as a percentage of all research and development funds—including government, higher education, non-profit and corporate—varied from around 4% to 25%; in most European nations, it is about 15%."
+        },
+        {
+          "id": "nt-e",
+          "text": "The idea is to force social scientists to integrate their work with other categories, including health and demographic change; food security; marine research and the bio-economy; clean, efficient energy; and inclusive, innovative and secure societies."
+        },
+        {
+          "id": "nt-f",
+          "text": "The solution is to change the mindset of the academic community, and what it considers to be its main goal. Global challenges and social innovation ought to receive much more attention from scientists, especially the young ones."
+        },
+        {
+          "id": "nt-g",
+          "text": "These issues all have root causes in human behavior: all require behavioral change and social innovations, as well as technological development. Stemming climate change, for example, is as much about changing consumption patterns and promoting tax acceptance as it is about developing clean energy."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-c"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第42空"
+    },
+    {
+      "id": "nt-43",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 43 空：从下列句子中选出填入本空的选项",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "It could be that we are evolving two communities of social scientists: one that is discipline-oriented and publishing in highly specialized journals, and one that is problem-oriented and publishing elsewhere, such as policy briefs."
+        },
+        {
+          "id": "nt-b",
+          "text": "However, the numbers are still small: in 2010, about 1,600 of the 100,000 social-sciences papers published globally included one of these keywords."
+        },
+        {
+          "id": "nt-c",
+          "text": "Despite these factors, many social scientists seem reluctant to tackle such problems. And in Europe, some are up in arms over a proposal to drop a specific funding category for social-science research and to integrate it within cross-cutting topics of sustainable development."
+        },
+        {
+          "id": "nt-d",
+          "text": "During the late 1990s, national spending on social sciences and the humanities as a percentage of all research and development funds—including government, higher education, non-profit and corporate—varied from around 4% to 25%; in most European nations, it is about 15%."
+        },
+        {
+          "id": "nt-e",
+          "text": "The idea is to force social scientists to integrate their work with other categories, including health and demographic change; food security; marine research and the bio-economy; clean, efficient energy; and inclusive, innovative and secure societies."
+        },
+        {
+          "id": "nt-f",
+          "text": "The solution is to change the mindset of the academic community, and what it considers to be its main goal. Global challenges and social innovation ought to receive much more attention from scientists, especially the young ones."
+        },
+        {
+          "id": "nt-g",
+          "text": "These issues all have root causes in human behavior: all require behavioral change and social innovations, as well as technological development. Stemming climate change, for example, is as much about changing consumption patterns and promoting tax acceptance as it is about developing clean energy."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-b"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第43空"
+    },
+    {
+      "id": "nt-44",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 44 空：从下列句子中选出填入本空的选项",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "It could be that we are evolving two communities of social scientists: one that is discipline-oriented and publishing in highly specialized journals, and one that is problem-oriented and publishing elsewhere, such as policy briefs."
+        },
+        {
+          "id": "nt-b",
+          "text": "However, the numbers are still small: in 2010, about 1,600 of the 100,000 social-sciences papers published globally included one of these keywords."
+        },
+        {
+          "id": "nt-c",
+          "text": "Despite these factors, many social scientists seem reluctant to tackle such problems. And in Europe, some are up in arms over a proposal to drop a specific funding category for social-science research and to integrate it within cross-cutting topics of sustainable development."
+        },
+        {
+          "id": "nt-d",
+          "text": "During the late 1990s, national spending on social sciences and the humanities as a percentage of all research and development funds—including government, higher education, non-profit and corporate—varied from around 4% to 25%; in most European nations, it is about 15%."
+        },
+        {
+          "id": "nt-e",
+          "text": "The idea is to force social scientists to integrate their work with other categories, including health and demographic change; food security; marine research and the bio-economy; clean, efficient energy; and inclusive, innovative and secure societies."
+        },
+        {
+          "id": "nt-f",
+          "text": "The solution is to change the mindset of the academic community, and what it considers to be its main goal. Global challenges and social innovation ought to receive much more attention from scientists, especially the young ones."
+        },
+        {
+          "id": "nt-g",
+          "text": "These issues all have root causes in human behavior: all require behavioral change and social innovations, as well as technological development. Stemming climate change, for example, is as much about changing consumption patterns and promoting tax acceptance as it is about developing clean energy."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-d"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第44空"
+    },
+    {
+      "id": "nt-45",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 45 空：从下列句子中选出填入本空的选项",
+      "options": [
+        {
+          "id": "nt-a",
+          "text": "It could be that we are evolving two communities of social scientists: one that is discipline-oriented and publishing in highly specialized journals, and one that is problem-oriented and publishing elsewhere, such as policy briefs."
+        },
+        {
+          "id": "nt-b",
+          "text": "However, the numbers are still small: in 2010, about 1,600 of the 100,000 social-sciences papers published globally included one of these keywords."
+        },
+        {
+          "id": "nt-c",
+          "text": "Despite these factors, many social scientists seem reluctant to tackle such problems. And in Europe, some are up in arms over a proposal to drop a specific funding category for social-science research and to integrate it within cross-cutting topics of sustainable development."
+        },
+        {
+          "id": "nt-d",
+          "text": "During the late 1990s, national spending on social sciences and the humanities as a percentage of all research and development funds—including government, higher education, non-profit and corporate—varied from around 4% to 25%; in most European nations, it is about 15%."
+        },
+        {
+          "id": "nt-e",
+          "text": "The idea is to force social scientists to integrate their work with other categories, including health and demographic change; food security; marine research and the bio-economy; clean, efficient energy; and inclusive, innovative and secure societies."
+        },
+        {
+          "id": "nt-f",
+          "text": "The solution is to change the mindset of the academic community, and what it considers to be its main goal. Global challenges and social innovation ought to receive much more attention from scientists, especially the young ones."
+        },
+        {
+          "id": "nt-g",
+          "text": "These issues all have root causes in human behavior: all require behavioral change and social innovations, as well as technological development. Stemming climate change, for example, is as much about changing consumption patterns and promoting tax acceptance as it is about developing clean energy."
+        }
+      ],
+      "answer_key": {
+        "selected_option_ids": [
+          "nt-e"
+        ]
+      },
+      "max_score_units": 200,
+      "source_ref": "第45空"
+    },
+    {
+      "id": "tr-46",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "yet when one looks at the photographs of the gardens created by the homeless, it strikes one that, for all their diversity of styles, these gardens speak of various other fundamental urges, beyond that of decoration and creative expression.",
+      "answer_key": {
+        "reference_text": "然而，看着无家可归者绘制出的花园图片时，人们会突然想到，尽管这些花园风格多样，它们都显示了人类除了装饰和创造性表达之外的其他各种基本诉求。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第46句"
+    },
+    {
+      "id": "tr-47",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "A sacred place of peace, however crude it may be, is a distinctly human need, as opposed to shelter, which is a distinctly animal need.",
+      "answer_key": {
+        "reference_text": "无论地方是多么简陋不堪，寻求一片静谧圣土是人类特有的需求，而不仅仅是一个避难栖息之地，那是动物的需求。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第47句"
+    },
+    {
+      "id": "tr-48",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The gardens of the homeless, which are in effect homeless gardens, introduce form into an urban environment where it either didn't exist or was not discernible as such.",
+      "answer_key": {
+        "reference_text": "无家可归者描绘的花园实质上是无所依附的，这些花园把一种形式引入城市环境中，而这样的城市环境中，形式要么根本不存在，要么就不是以这种明显的方式存在。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第48句"
+    },
+    {
+      "id": "tr-49",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "most of us give in to a demoralization of spirit which we usually blame on some psychological conditions, until one day we find ourselves in a garden and feel the oppression vanish as if by magic.",
+      "answer_key": {
+        "reference_text": "我们大多数人会深陷于精神萎靡的状态，并常常将此归咎为一些心理原因，直到某天我们发现自己置身花园中，感到如魔法般烦闷尽消。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第49句"
+    },
+    {
+      "id": "tr-50",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "It is this implicit or explicit reference to nature that fully justifies the use of the word garden, though in a “liberated” sense, to describe these synthetic constructions.",
+      "answer_key": {
+        "reference_text": "正是对自然的这种或隐晦含蓄或清晰直白的关联，充分证明了用“花园”一词来描述这些人造建筑是合乎情理的，即使是从毫无拘泥的意义来讲的。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第50句"
+    },
+    {
+      "id": "writing-a",
+      "section": "Section III · 写作 Part A",
+      "type": "free_text",
+      "stem": "Write an e-mail of about 100 words to a foreign teacher in your college, inviting him/her to be a judge for the upcoming English speech contest.\nYou should include the details you think necessary.\nYou should write neatly on the ANSWER SHEET 2.\nDo not sign your own name at the end of the e-mail. Use “Li Ming” instead.\nDo not write the address. (10 points)",
+      "answer_key": {
+        "reference_text": "Dear Professor Smith,\n\nOn behalf of the Students' Union, I am writing to invite you to be a judge for our upcoming English speech contest, which will be held in the auditorium of our university at 2:00 p.m. on June 15th.\n\nThe theme of the contest is \"Youth and Dreams\". About twenty contestants will deliver their speeches, and we would be honored if you could serve as one of the judges and comment on their performances, as your rich experience and profound knowledge of the English language will make the contest more authoritative and successful.\n\nWe would appreciate it very much if you could accept our invitation. Looking forward to your reply.\n\nYours sincerely,\nLi Ming"
+      },
+      "max_score_units": 1000,
+      "source_ref": "Section III Writing Part A 51"
+    },
+    {
+      "id": "writing-b",
+      "section": "Section III · 写作 Part B",
+      "type": "free_text",
+      "stem": "Write an essay of 160-200 words based on the following drawing. In your essay you should\n1) describe the drawing briefly\n2) explain its intended meaning, and\n3) give your comments\nYou should write neatly on the ANSWER SHEET 2. (20 points)\n画面文字描述：一群毕业生站在人生的十字路口，面临求职、考研、出国、创业等多条人生道路，需要做出“选择”。",
+      "images": [
+        "images/2013/a20fb67caaf7d95be88c471edabf1e6a85cbc5fccc5db57a3225f7820c4bdf54.jpg"
+      ],
+      "answer_key": {
+        "reference_text": "Emerging from the cartoon is an eye-catching scene that a mass of graduates are at a critical turning point on the way to the future. A variety of choices, such as finding a job, going further education or abroad, and doing pioneering work, lie in front of them.\n\nThe implication echoed by this cartoon can be summarized as a philosophic topic in our daily life: the success of a man is directly related to the choice made by himself. Nevertheless, I cherish a belief that we cannot tell whether the selection is good or not, and as long as we adhere to our decision, success will be realized step by step. Although making choice is essential to helping determine the direction of our way, judged from the personal aspect, persistence functions as an indispensable driving force to keep up our spirit and to assist us to fulfill our study and work. However, some people, pacing up and down, are not industrious and try to find a short-cut success. In fact, only those who are hard-working and brave enough to encounter obstacles of all sorts are most likely to reach the summit of success.\n\nIt occurs to many that the most fundamental thing to success is making a good choice. But I recommend that graduates as well as all the citizens should struggle to make their choice be a reality."
+      },
+      "max_score_units": 2000,
+      "source_ref": "Section III Writing Part B 52"
+    }
+  ]
+}

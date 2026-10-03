@@ -1,0 +1,1252 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2015,
+    "paper": "英语一",
+    "title": "2015年全国硕士研究生入学考试英语（一）试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2015.md",
+    "source_images": "TestPaper/images/2015/",
+    "converted_by": "Assistant（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "2015年完形填空原文部分选项缺失，已根据解析补充；新题型为7选5；大作文配图已填写。"
+  },
+  "set": {
+    "title": "2015年全国硕士研究生入学考试英语（一）试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · 完形填空",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 阅读理解 Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions below each text by choosing A, B, C or D. Mark your answers on ANSWER SHEET 1. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · 新题型 Part B",
+      "part": "Section II · Part B",
+      "title": "新题型",
+      "directions": [
+        "In the following text, some sentences have been removed. For Questions 41-45, choose the most suitable one from the list A-G to fit into each of the numbered blanks. There are two extra choices, which do not fit in any of the gaps. Mark your answers on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 翻译 Part C",
+      "part": "Section II · Part C",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written neatly on ANSWER SHEET 2. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part A",
+      "part": "Section III · Part A",
+      "title": "应用文写作",
+      "directions": [
+        "You are going to host a club reading session. Write an email of about 100 words recommending a book to the club members.",
+        "You should state reasons for your recommendation.",
+        "You should write neatly on the ANSWER SHEET.",
+        "Do not sign your own name at the end of the letter. Use Li Ming instead.",
+        "Do not write the address. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part B",
+      "part": "Section III · Part B",
+      "title": "短文写作",
+      "directions": [
+        "Write an essay of 160-200 words based on the following drawing. In your essay you should",
+        "1) describe the drawing briefly",
+        "2) explain its intended meaning, and",
+        "3) give your comments",
+        "You should write neatly on the ANSWER SHEET. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · 完形填空",
+      "source_ref": "2015.md Section I",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Though not biologically related, friends are as \"related\" as fourth cousins, sharing about 1% of genes. That is __1__ a study, published from the University of California and Yale University in the Proceedings of the National Academy of Sciences, has __2__."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The study is a genome-wide analysis conducted __3__ 1932 unique subjects which __4__ pairs of unrelated friends and unrelated strangers. The same people were used in both __5__."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "While 1% may seem __6__, it is not so to a geneticist. As co-author of the study James Fowler, professor of medical genetics at UC San Diego, says, \"Most people do not even __7__ their fourth cousins but somehow manage to select as friends the people who __8__ our kin.\""
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The study __9__ found that the genes for smell were something shared in friends but not genes for immunity. Why this similarity exists in smell genes is difficult to explain, for now. __10__, as the team suggests, it draws us to similar environments but there is more __11__ it. There could be many mechanisms working together that __12__ us in choosing genetically similar friends __13__ \"functional kinship\" of being friends with __14__!"
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "One of the remarkable findings of the study was that the similar genes seem to be evolving __15__ than other genes. Studying this could help __16__ why human evolution picked pace in the last 30,000 years, with social environment being a major __17__ factor."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "The findings do not simply explain people's __18__ to befriend those of similar __19__ backgrounds, say the researchers. Though all the subjects were drawn from a population of European extraction, care was taken to __20__ that all subjects, friends and strangers were taken from the same population."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2015.md Text 1",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "King Juan Carlos of Spain once insisted \"kings don't abdicate, they die in their sleep.\" But embarrassing scandals and the popularity of the republican left in the recent Euro-elections have forced him to eat his words and stand down. So, does the Spanish crisis suggest that monarchy is seeing its last days? Does that mean the writing is on the wall for all European royals, with their magnificent uniforms and majestic lifestyles?"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The Spanish case provides arguments both for and against monarchy. When public opinion is particularly polarised, as it was following the end of the Franco regime, monarchs can rise above \"mere\" politics and \"embody\" a spirit of national unity."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "It is this apparent transcendence of politics that explains monarchs' continuing popularity as heads of state. And so, the Middle East excepted, Europe is the most monarch-infested region in the world, with 10 kingdoms (not counting Vatican City and Andorra). But unlike their absolutist counterparts in the Gulf and Asia, most royal families have survived because they allow voters to avoid the difficult search for a non-controversial but respected public figure."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Even so, kings and queens undoubtedly have a downside. Symbolic of national unity as they claim to be, their very history—and sometimes the way they behave today—embodies outdated and indefensible privileges and inequalities. At a time when Thomas Piketty and other economists are warning of rising inequality and the increasing power of inherited wealth, it is bizarre that wealthy aristocratic families should still be the symbolic heart of modern democratic states."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "The most successful monarchies strive to abandon or hide their old aristocratic ways. Princes and princesses have day-jobs and ride bicycles, not horses (or helicopters). Even so, these are wealthy families who party with the international 1%, and media intrusiveness makes it increasingly difficult to maintain the right image."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "While Europe's monarchies will no doubt be smart enough to survive for some time to come, it is the British royals who have most to fear from the Spanish example."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "It is only the Queen who has preserved the monarchy's reputation with her rather ordinary (if well-heeled) granny style. The danger will come with Charles, who has both an expensive taste of lifestyle and a pretty hierarchical view of the world. He has failed to understand that monarchies have largely survived because they provide a service—as non-controversial and non-political heads of state. Charles ought to know that as English history shows, it is kings, not republicans, who are the monarchy's worst enemies."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2015.md Text 2",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Just how much does the Constitution protect your digital data? The Supreme Court will now consider whether police can search the contents of a mobile phone without a warrant if the phone is on or around a person during an arrest."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "California has asked the justices to refrain from a sweeping ruling, particularly one that upsets the old assumption that authorities may search through the possessions of suspects at the time of their arrest. It is hard, the state argues, for judges to assess the implications of new and rapidly changing technologies."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The court would be recklessly modest if it followed California's advice. Enough of the implications are discernable, even obvious, so that the justices can and should provide updated guidelines to police, lawyers and defendants."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "They should start by discarding California's lame argument that exploring the contents of a smartphone — a vast storehouse of digital information — is similar to, say, going through a suspect's purse. The court has ruled that police don't violate the Fourth Amendment when they go through the wallet or pocketbook of an arrestee without a warrant. But exploring one's smartphone is more like entering his or her home. A smartphone may contain an arrestee's reading history, financial history, medical history and comprehensive records of recent correspondence. The development of \"cloud computing,\" meanwhile, has made that exploration so much the easier."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Americans should take steps to protect their digital privacy. But keeping sensitive information on these devices is increasingly a requirement of normal life. Citizens still have a right to expect private documents to remain private and protected by the Constitution's prohibition on unreasonable searches."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "As so often is the case, stating that principle doesn't ease the challenge of line-drawing. In many cases, it would not be overly burdensome for authorities to obtain a warrant to search through phone contents. They could still invalidate Fourth Amendment protections when facing severe, urgent circumstances, and they could take reasonable measures to ensure that phone data are not erased or altered while waiting for a warrant. The court, though, may want to allow room for police to cite situations where they are entitled to more freedom."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "But the justices should not swallow California's argument whole. New, disruptive technology sometimes demands novel applications of the Constitution's protections. Orin Kerr, a law professor, compares the explosion and accessibility of digital information in the 21st century with the establishment of automobile use as a virtual necessity of life in the 20th: The justices had to specify novel rules for the new personal domain of the passenger car then; they must sort out how the Fourth Amendment applies to digital information now."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2015.md Text 3",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The journal Science is adding an extra round of statistical checks to its peer-review process, editor-in-chief Marcia McNutt announced today. The policy follows similar efforts from other journals, after widespread concern that basic mistakes in data analysis are contributing to the irreproducibility of many published research findings."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "\"Readers must have confidence in the conclusions published in our journal,\" writes McNutt in an editorial. Working with the American Statistical Association, the journal has appointed seven experts to a statistics board of reviewing editors (SBoRE). Manuscript will be flagged up for additional scrutiny by the journal's internal editors, or by its existing Board of Reviewing Editors or by outside peer reviewers. The SBoRE panel will then find external statisticians to review these manuscripts."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Asked whether any particular papers had impelled the change, McNutt said: \"The creation of the 'statistics board' was motivated by concerns broadly with the application of statistics and data analysis in scientific research and is part of Science's overall drive to increase reproducibility in the research we publish.\""
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Giovanni Parmigiani, a biostatistician at the Harvard School of Public Health, a member of the SBoRE group, says he expects the board to \"play primarily an advisory role.\" He agreed to join because he \"found the foresight behind the establishment of the SBoRE to be novel, unique and likely to have a lasting impact. This impact will not only be through the publications in Science itself, but hopefully through a larger group of publishing places that may want to model their approach after Science.\""
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "John Ioannidis, a physician who studies research methodology, says that the policy is \"a most welcome step forward\" and \"long overdue.\" \"Most journals are weak in statistical review, and this damages the quality of what they publish. I think that, for the majority of scientific papers nowadays, statistical review is more essential than expert review,\" he says. But he noted that biomedical journals such as Annals of Internal Medicine, the Journal of the American Medical Association and The Lancet pay strong attention to statistical review."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Professional scientists are expected to know how to analyze data, but statistical errors are alarmingly common in published research, according to David Vaux, a cell biologist. Researchers should improve their standards, he wrote in 2012, but journals should also take a tougher line, \"engaging reviewers who are statistically literate and editors who can verify the process.\" Vaux says that Science's idea to pass some papers to statisticians \"has some merit, but a weakness is that it relies on the board of reviewing editors to identify 'the papers that need scrutiny' in the first place.\""
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2015.md Text 4",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Two years ago, Rupert Murdoch's daughter, Elisabeth, spoke of the \"unsettling dearth of integrity across so many of our institutions.\" Integrity had collapsed, she argued, because of a collective acceptance that the only \"sorting mechanism\" in society should be profit and the market. But \"it's us, human beings, we the people who create the society we want, not profit.\""
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Driving her point home, she continued: \"It's increasingly apparent that the absence of purpose, of a moral language within government, media or business could become one of the most dangerous goals for capitalism and freedom.\" This same absence of moral purpose was wounding companies such as News International, she thought, making it more likely that it would lose its way as it had with widespread illegal telephone hacking."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "As the hacking trial concludes — finding guilty one ex-editor of the News of the World, Andy Coulson, for conspiring to hack phones, and finding his predecessor, Rebekah Brooks, innocent of the same charge — the wider issue of dearth of integrity still stands. Journalists are known to have hacked the phones of up to 5,500 people. This is hacking on an industrial scale, as was acknowledged by Glenn Mulcaire, the man hired by the News of the World in 2001 to be the point person for phone hacking. Others await trial. This long story still unfolds."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "In many respects, the dearth of moral purpose frames not only the fact of such widespread phone hacking but the terms on which the trial took place. One of the astonishing revelations was how little Rebekah Brooks knew of what went on in her newsroom, how little she thought to ask and the fact that she never inquired how the stories arrived. The core of her successful defence was that she knew nothing."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "In today's world, it has become normal that well-paid executives should not be accountable for what happens in the organizations that they run. Perhaps we should not be so surprised. For a generation, the collective doctrine has been that the sorting mechanism of society should be profit. The words that have mattered are efficiency, flexibility, shareholder value, business–friendly, wealth generation, sales, impact and, in newspapers, circulation. Words degraded to the margin have been justice, fairness, tolerance, proportionality and accountability."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "The purpose of editing the News of the World was not to promote reader understanding, to be fair in what was written or to betray any common humanity. It was to ruin lives in the quest for circulation and impact. Ms Brooks may or may not have had suspicions about how her journalists got their stories, but she asked no questions, gave no instructions—nor received traceable, recorded answers."
+        }
+      ]
+    },
+    {
+      "id": "newtype",
+      "title": "Section II · 新题型 Part B 短文",
+      "section": "Section II · 新题型 Part B",
+      "source_ref": "2015.md Part B",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "How does your reading proceed? Clearly you try to comprehend, in the sense of identifying meanings for individual words and working out relationships between them, drawing on your implicit knowledge of English grammar. __41__. You begin to infer a context for the text, for instance, by making decisions about what kind of speech event is involved. Who is making the utterance, to whom, when and where."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The ways of reading indicated here are without doubt kinds of comprehension. But they show comprehension to consist not just of passive assimilation but of active engagement in inference and problem-solving. You infer information you feel the writer has invited you to grasp by presenting you with specific evidence and clues. __42__"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Conceived in this way, comprehension will not follow exactly the same track for each reader. What is in question is not the retrieval of an absolute, fixed or \"true\" meaning that can be read off and checked for accuracy, or some timeless relation of the text to the world. __43__"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Such background material inevitably reflects who we are. __44__. This doesn't, however, make interpretation merely relative or even pointless. Precisely because readers from different historical periods, places and social experiences produce different but overlapping readings of the same words on the page—including for texts that engage with fundamental human concerns—debates about texts can play an important role in social discussion of beliefs and values."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "How we read a given text also depends to some extent on our particular interest in reading it. __45__ Such dimensions of reading suggest—as others introduced later in the book will also do—that we bring an implicit (often unacknowledged) agenda to any act of reading. It doesn't then necessarily follow that one kind of reading is fuller, more advanced or more worthwhile than another. Ideally, different kinds of reading inform each other, and act as useful reference points for and counterbalances to one another. Together, they make up the reading component of your overall literacy, or relationship to your surrounding textual environment."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · 翻译 Part C 原文",
+      "section": "Section II · 翻译 Part C",
+      "source_ref": "2015.md Part C",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Within the span of a hundred years, in the seventeenth and early eighteenth centuries, a tide of emigration—one of the great folk wanderings of history—swept from Europe to America. 【46】This movement, driven by powerful and diverse motivations, built a nation out of a wilderness and, by its nature, shaped the character and destiny of an uncharted continent."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "【47】The United States is the product of two principal forces—the immigration of European peoples with their varied ideas, customs, and national characteristics and the impact of a new country which modified these traits. Of necessity, colonial America was a projection of Europe. Across the Atlantic came successive groups of Englishmen, Frenchmen, Germans, Scots, Irishmen, Dutchmen, Swedes, and many others who attempted to transplant their habits and traditions to the new world. 【48】But the force of geographic conditions peculiar to America, the interplay of the varied national groups upon one another, and the sheer difficulty of maintaining old-world ways in a raw, new continent caused significant changes. These changes were gradual and at first scarcely visible. But the result was a new social pattern which, although it resembled European society in many ways, had a character that was distinctly American."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "【49】The first shiploads of immigrants bound for the territory which is now the United States crossed the Atlantic more than a hundred years after the 15th-and-16th-century explorations of North America. In the meantime, thriving Spanish colonies had been established in Mexico, the West Indies, and South America. These travelers to North America came in small, unmercifully overcrowded craft. During their six- to twelve-week voyage, they survived on barely enough food allotted to them. Many of the ships were lost in storms, many passengers died of disease, and infants rarely survived the journey. Sometimes storms blew the vessels far off their course, and often calm brought unbearably long delay."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "To the anxious travelers the sight of the American shore brought almost inexpressible relief. Said one recorder of events, \"The air at twelve leagues' distance smelt as sweet as a new-blown garden.\" The colonists' first glimpse of the new land was a sight of dense woods. 【50】The virgin forest with its richness and variety of trees was a real treasure-house which extended from Maine all the way down to Georgia. Here was abundant fuel and lumber. Here was the raw material of houses and furniture, ships and potash, dyes and naval stores."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "when" },
+        { "id": "c1-b", "text": "why" },
+        { "id": "c1-c", "text": "how" },
+        { "id": "c1-d", "text": "what" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-d"] },
+      "explanation": "what 引导表语从句，指研究内容。",
+      "max_score_units": 50,
+      "source_ref": "第1空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "defended" },
+        { "id": "c2-b", "text": "concluded" },
+        { "id": "c2-c", "text": "withdrawn" },
+        { "id": "c2-d", "text": "advised" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-b"] },
+      "explanation": "研究得出结论，concluded。",
+      "max_score_units": 50,
+      "source_ref": "第2空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "for" },
+        { "id": "c3-b", "text": "with" },
+        { "id": "c3-c", "text": "on" },
+        { "id": "c3-d", "text": "by" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-c"] },
+      "explanation": "conduct analysis on... 固定搭配。",
+      "max_score_units": 50,
+      "source_ref": "第3空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "compared" },
+        { "id": "c4-b", "text": "sought" },
+        { "id": "c4-c", "text": "separated" },
+        { "id": "c4-d", "text": "connected" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-a"] },
+      "explanation": "比较朋友和陌生人，compared。",
+      "max_score_units": 50,
+      "source_ref": "第4空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "tests" },
+        { "id": "c5-b", "text": "objects" },
+        { "id": "c5-c", "text": "samples" },
+        { "id": "c5-d", "text": "examples" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-c"] },
+      "explanation": "实验样本，samples。",
+      "max_score_units": 50,
+      "source_ref": "第5空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "insignificant" },
+        { "id": "c6-b", "text": "unexpected" },
+        { "id": "c6-c", "text": "unreliable" },
+        { "id": "c6-d", "text": "incredible" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-a"] },
+      "explanation": "1%看似微不足道，insignificant。",
+      "max_score_units": 50,
+      "source_ref": "第6空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "visit" },
+        { "id": "c7-b", "text": "miss" },
+        { "id": "c7-c", "text": "seek" },
+        { "id": "c7-d", "text": "know" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-d"] },
+      "explanation": "甚至不认识远亲，know。",
+      "max_score_units": 50,
+      "source_ref": "第7空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "resemble" },
+        { "id": "c8-b", "text": "influence" },
+        { "id": "c8-c", "text": "favor" },
+        { "id": "c8-d", "text": "surpass" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-a"] },
+      "explanation": "选择像亲戚的人做朋友，resemble。",
+      "max_score_units": 50,
+      "source_ref": "第8空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "again" },
+        { "id": "c9-b", "text": "also" },
+        { "id": "c9-c", "text": "instead" },
+        { "id": "c9-d", "text": "thus" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-b"] },
+      "explanation": "研究还发现，also。",
+      "max_score_units": 50,
+      "source_ref": "第9空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "Meanwhile" },
+        { "id": "c10-b", "text": "Furthermore" },
+        { "id": "c10-c", "text": "Likewise" },
+        { "id": "c10-d", "text": "Perhaps" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-d"] },
+      "explanation": "表示推测，Perhaps。",
+      "max_score_units": 50,
+      "source_ref": "第10空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        { "id": "c11-a", "text": "about" },
+        { "id": "c11-b", "text": "to" },
+        { "id": "c11-c", "text": "from" },
+        { "id": "c11-d", "text": "like" }
+      ],
+      "answer_key": { "selected_option_ids": ["c11-b"] },
+      "explanation": "there is more to it，to。",
+      "max_score_units": 50,
+      "source_ref": "第11空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        { "id": "c12-a", "text": "drive" },
+        { "id": "c12-b", "text": "observe" },
+        { "id": "c12-c", "text": "confuse" },
+        { "id": "c12-d", "text": "limit" }
+      ],
+      "answer_key": { "selected_option_ids": ["c12-a"] },
+      "explanation": "驱使我们选择，drive。",
+      "max_score_units": 50,
+      "source_ref": "第12空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        { "id": "c13-a", "text": "according to" },
+        { "id": "c13-b", "text": "rather than" },
+        { "id": "c13-c", "text": "regardless of" },
+        { "id": "c13-d", "text": "along with" }
+      ],
+      "answer_key": { "selected_option_ids": ["c13-b"] },
+      "explanation": "而不是功能亲属，rather than。",
+      "max_score_units": 50,
+      "source_ref": "第13空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        { "id": "c14-a", "text": "chances" },
+        { "id": "c14-b", "text": "responses" },
+        { "id": "c14-c", "text": "missions" },
+        { "id": "c14-d", "text": "benefits" }
+      ],
+      "answer_key": { "selected_option_ids": ["c14-d"] },
+      "explanation": "为了利益交友，benefits。",
+      "max_score_units": 50,
+      "source_ref": "第14空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        { "id": "c15-a", "text": "later" },
+        { "id": "c15-b", "text": "slower" },
+        { "id": "c15-c", "text": "faster" },
+        { "id": "c15-d", "text": "earlier" }
+      ],
+      "answer_key": { "selected_option_ids": ["c15-c"] },
+      "explanation": "进化更快，faster。",
+      "max_score_units": 50,
+      "source_ref": "第15空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        { "id": "c16-a", "text": "forecast" },
+        { "id": "c16-b", "text": "remember" },
+        { "id": "c16-c", "text": "understand" },
+        { "id": "c16-d", "text": "express" }
+      ],
+      "answer_key": { "selected_option_ids": ["c16-c"] },
+      "explanation": "帮助理解，understand。",
+      "max_score_units": 50,
+      "source_ref": "第16空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        { "id": "c17-a", "text": "unpredictable" },
+        { "id": "c17-b", "text": "contributory" },
+        { "id": "c17-c", "text": "controllable" },
+        { "id": "c17-d", "text": "disruptive" }
+      ],
+      "answer_key": { "selected_option_ids": ["c17-b"] },
+      "explanation": "促进因素，contributory。",
+      "max_score_units": 50,
+      "source_ref": "第17空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        { "id": "c18-a", "text": "endeavor" },
+        { "id": "c18-b", "text": "decision" },
+        { "id": "c18-c", "text": "arrangement" },
+        { "id": "c18-d", "text": "tendency" }
+      ],
+      "answer_key": { "selected_option_ids": ["c18-d"] },
+      "explanation": "倾向，tendency。",
+      "max_score_units": 50,
+      "source_ref": "第18空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        { "id": "c19-a", "text": "political" },
+        { "id": "c19-b", "text": "religious" },
+        { "id": "c19-c", "text": "ethnic" },
+        { "id": "c19-d", "text": "economic" }
+      ],
+      "answer_key": { "selected_option_ids": ["c19-c"] },
+      "explanation": "种族背景，ethnic。",
+      "max_score_units": 50,
+      "source_ref": "第19空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        { "id": "c20-a", "text": "see" },
+        { "id": "c20-b", "text": "show" },
+        { "id": "c20-c", "text": "prove" },
+        { "id": "c20-d", "text": "tell" }
+      ],
+      "answer_key": { "selected_option_ids": ["c20-a"] },
+      "explanation": "see that 确保。",
+      "max_score_units": 50,
+      "source_ref": "第20空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "t1-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to the first two paragraphs, King Juan Carlos of Spain",
+      "options": [
+        { "id": "t1-q1-a", "text": "used to enjoy high public support" },
+        { "id": "t1-q1-b", "text": "was unpopular among European royals" },
+        { "id": "t1-q1-c", "text": "eased his relationship with his rivals" },
+        { "id": "t1-q1-d", "text": "ended his reign in embarrassment" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q1-d"] },
+      "explanation": "迫于丑闻退位，embarrassment。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Monarchs are kept as heads of state in Europe mostly ______",
+      "options": [
+        { "id": "t1-q2-a", "text": "owing to their undoubted and respectable status" },
+        { "id": "t1-q2-b", "text": "to achieve a balance between tradition and reality" },
+        { "id": "t1-q2-c", "text": "to give voters more public figures to look up to" },
+        { "id": "t1-q2-d", "text": "due to their everlasting political embodiment" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q2-a"] },
+      "explanation": "无争议且受尊敬的地位。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Which of the following is shown to be odd, according to Paragraph 4?",
+      "options": [
+        { "id": "t1-q3-a", "text": "Aristocrats’ excessive reliance on inherited wealth." },
+        { "id": "t1-q3-b", "text": "The role of the nobility in modern democracies." },
+        { "id": "t1-q3-c", "text": "The simple lifestyle of the aristocratic families." },
+        { "id": "t1-q3-d", "text": "The nobility’s adherence to their privileges." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q3-b"] },
+      "explanation": "贵族在现代民主中的角色很奇怪。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The British royals “have most to fear” because Charles",
+      "options": [
+        { "id": "t1-q4-a", "text": "takes a rough line on political issues" },
+        { "id": "t1-q4-b", "text": "fails to change his lifestyle as advised" },
+        { "id": "t1-q4-c", "text": "takes republicans as his potential allies" },
+        { "id": "t1-q4-d", "text": "fails to adapt himself to his future role" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q4-d"] },
+      "explanation": "未能适应未来角色。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第7段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Which of the following is the best title of the text?",
+      "options": [
+        { "id": "t1-q5-a", "text": "Carlos, Glory and Disgrace Combined" },
+        { "id": "t1-q5-b", "text": "Charles, Anxious to Succeed to the Throne" },
+        { "id": "t1-q5-c", "text": "Carlos, a Lesson for All European Monarchs" },
+        { "id": "t1-q5-d", "text": "Charles, Slow to React to the Coming Threats" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q5-c"] },
+      "explanation": "卡洛斯成为欧洲君主的教训。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 全文",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The Supreme Court will work out whether, during an arrest, it is legitimate to ______",
+      "options": [
+        { "id": "t2-q1-a", "text": "prevent suspects from deleting their phone contents" },
+        { "id": "t2-q1-b", "text": "search for suspects’ mobile phones without a warrant" },
+        { "id": "t2-q1-c", "text": "check suspects’ phone contents without being authorized" },
+        { "id": "t2-q1-d", "text": "prohibit suspects from using their mobile phones" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q1-c"] },
+      "explanation": "未经授权检查手机内容。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The author’s attitude toward California’s argument is one of",
+      "options": [
+        { "id": "t2-q2-a", "text": "disapproval" },
+        { "id": "t2-q2-b", "text": "indifference" },
+        { "id": "t2-q2-c", "text": "tolerance" },
+        { "id": "t2-q2-d", "text": "cautiousness" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q2-a"] },
+      "explanation": "作者不赞成加州论点。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The author believes that exploring one’s phone contents is comparable to",
+      "options": [
+        { "id": "t2-q3-a", "text": "getting into one’s residence" },
+        { "id": "t2-q3-b", "text": "handling one’s historical records" },
+        { "id": "t2-q3-c", "text": "scanning one’s correspondences" },
+        { "id": "t2-q3-d", "text": "going through one’s wallet" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q3-a"] },
+      "explanation": "更像进入住宅。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "In Paragraph 5 and 6, the author shows his concern that",
+      "options": [
+        { "id": "t2-q4-a", "text": "principles are hard to be clearly expressed" },
+        { "id": "t2-q4-b", "text": "the court is giving police less room for action" },
+        { "id": "t2-q4-c", "text": "citizens’ privacy is not effectively protected" },
+        { "id": "t2-q4-d", "text": "phones are used to store sensitive information" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q4-c"] },
+      "explanation": "公民隐私未得到有效保护。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第5-6段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Orin Kerr’s comparison is quoted to indicate that",
+      "options": [
+        { "id": "t2-q5-a", "text": "the Constitution should be implemented flexibly" },
+        { "id": "t2-q5-b", "text": "new technology requires reinterpretation of the Constitution" },
+        { "id": "t2-q5-c", "text": "California’s argument violates principles of the Constitution" },
+        { "id": "t2-q5-d", "text": "principles of the Constitution should never be altered" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q5-b"] },
+      "explanation": "新技术需要重新解释宪法。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第7段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "It can be learned from Paragraph 1 that",
+      "options": [
+        { "id": "t3-q1-a", "text": "Science intends to simplify its peer-review process" },
+        { "id": "t3-q1-b", "text": "journals are strengthening their statistical checks" },
+        { "id": "t3-q1-c", "text": "few journals are blamed for mistakes in data analysis" },
+        { "id": "t3-q1-d", "text": "lack of data analysis is common in research" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q1-b"] },
+      "explanation": "期刊正在加强统计检查。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The phrase “flagged up” (Para. 2) is the closest in meaning to",
+      "options": [
+        { "id": "t3-q2-a", "text": "found" },
+        { "id": "t3-q2-b", "text": "marked" },
+        { "id": "t3-q2-c", "text": "revised" },
+        { "id": "t3-q2-d", "text": "stored" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q2-b"] },
+      "explanation": "标记，marked。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Giovanni Parmigiani believes that the establishment of the SBoRE may",
+      "options": [
+        { "id": "t3-q3-a", "text": "pose a threat to all its peers" },
+        { "id": "t3-q3-b", "text": "meet with strong opposition" },
+        { "id": "t3-q3-c", "text": "increase Science’s circulation" },
+        { "id": "t3-q3-d", "text": "set an example for other journals" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q3-d"] },
+      "explanation": "为其他期刊树立榜样。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "David Vaux holds that what Science is doing now",
+      "options": [
+        { "id": "t3-q4-a", "text": "adds to researchers’ workload" },
+        { "id": "t3-q4-b", "text": "diminishes the role of reviewers" },
+        { "id": "t3-q4-c", "text": "has room for further improvement" },
+        { "id": "t3-q4-d", "text": "is to fail in the foreseeable future" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q4-c"] },
+      "explanation": "仍有改进空间。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第6段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Which of the following is the best title of the text?",
+      "options": [
+        { "id": "t3-q5-a", "text": "Science Joins Push to Screen Statistics in Papers" },
+        { "id": "t3-q5-b", "text": "Professional Statisticians Deserve More Respect" },
+        { "id": "t3-q5-c", "text": "Data Analysis Finds Its Way onto Editors’ Desks" },
+        { "id": "t3-q5-d", "text": "Statisticians Are Coming Back with Science" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q5-a"] },
+      "explanation": "《科学》加入论文统计审查。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 全文",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to the first two paragraphs, Elisabeth was upset by",
+      "options": [
+        { "id": "t4-q1-a", "text": "the consequences of the current sorting mechanism" },
+        { "id": "t4-q1-b", "text": "companies’ financial loss due to immoral practices" },
+        { "id": "t4-q1-c", "text": "governmental ineffectiveness on moral issues" },
+        { "id": "t4-q1-d", "text": "the wide misuse of integrity among institutions" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q1-a"] },
+      "explanation": "当前分类机制的后果。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第1-2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "It can be inferred from Paragraph 3 that",
+      "options": [
+        { "id": "t4-q2-a", "text": "Glenn Mulcaire may deny phone hacking as a crime" },
+        { "id": "t4-q2-b", "text": "more journalists may be found guilty of phone hacking" },
+        { "id": "t4-q2-c", "text": "Andy Coulson should be held innocent of the charge" },
+        { "id": "t4-q2-d", "text": "phone hacking will be accepted on certain occasions" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q2-b"] },
+      "explanation": "更多记者可能被判有罪。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The author believes the Rebekah Brooks’s defence",
+      "options": [
+        { "id": "t4-q3-a", "text": "revealed a cunning personality" },
+        { "id": "t4-q3-b", "text": "centered on trivial issues" },
+        { "id": "t4-q3-c", "text": "was hardly convincing" },
+        { "id": "t4-q3-d", "text": "was part of a conspiracy" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q3-c"] },
+      "explanation": "辩护难以令人信服。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The author holds that the current collective doctrine shows",
+      "options": [
+        { "id": "t4-q4-a", "text": "generally distorted values" },
+        { "id": "t4-q4-b", "text": "unfair wealth distribution" },
+        { "id": "t4-q4-c", "text": "a marginalized lifestyle" },
+        { "id": "t4-q4-d", "text": "a rigid moral code" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q4-a"] },
+      "explanation": "普遍扭曲的价值观。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第5段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Which of the following is suggested in the last paragraph?",
+      "options": [
+        { "id": "t4-q5-a", "text": "The quality of writing is of primary importance." },
+        { "id": "t4-q5-b", "text": "Common humanity is central to news reporting." },
+        { "id": "t4-q5-c", "text": "Moral awareness matters in editing a newspaper." },
+        { "id": "t4-q5-d", "text": "Journalists need stricter industrial regulations." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q5-c"] },
+      "explanation": "编辑报纸时道德意识很重要。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第6段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "nt-41",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 41 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room." },
+        { "id": "nt-b", "text": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and social class will encourage us towards certain interpretations but at the same time obscure or even close off others." },
+        { "id": "nt-c", "text": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues presented in the context. On the assumption that they will become relevant later, you make a mental note of discourse entities as well as possible links between them." },
+        { "id": "nt-d", "text": "In effect, you try to reconstruct the likely meanings or effects that any given sentence, image or reference might have had: These might be the ones the author intended." },
+        { "id": "nt-e", "text": "You make further inferences, for instance, about how the text may be significant to you, or about its validity—inferences that form the basis of a personal response for which the author will inevitably be far less responsible." },
+        { "id": "nt-f", "text": "In plays, novels and narrative poems, characters speak as constructs created by the author, not necessarily as mouthpieces for the author’s own thoughts." },
+        { "id": "nt-g", "text": "Rather, we ascribe meanings to texts on the basis of interaction between what we might call textual and contextual material: between kinds of organization or patterning we perceive in a text’s formal structures (so especially its language structures) and various kinds of background, social knowledge, belief and attitude that we bring to the text." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-c"] },
+      "explanation": "C项衔接单词含义和上下文线索。",
+      "max_score_units": 200,
+      "source_ref": "第41空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-42",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 42 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room." },
+        { "id": "nt-b", "text": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and social class will encourage us towards certain interpretations but at the same time obscure or even close off others." },
+        { "id": "nt-c", "text": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues presented in the context. On the assumption that they will become relevant later, you make a mental note of discourse entities as well as possible links between them." },
+        { "id": "nt-d", "text": "In effect, you try to reconstruct the likely meanings or effects that any given sentence, image or reference might have had: These might be the ones the author intended." },
+        { "id": "nt-e", "text": "You make further inferences, for instance, about how the text may be significant to you, or about its validity—inferences that form the basis of a personal response for which the author will inevitably be far less responsible." },
+        { "id": "nt-f", "text": "In plays, novels and narrative poems, characters speak as constructs created by the author, not necessarily as mouthpieces for the author’s own thoughts." },
+        { "id": "nt-g", "text": "Rather, we ascribe meanings to texts on the basis of interaction between what we might call textual and contextual material: between kinds of organization or patterning we perceive in a text’s formal structures (so especially its language structures) and various kinds of background, social knowledge, belief and attitude that we bring to the text." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-e"] },
+      "explanation": "E项关于进一步推断，形成个人反应基础。",
+      "max_score_units": 200,
+      "source_ref": "第42空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-43",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 43 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room." },
+        { "id": "nt-b", "text": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and social class will encourage us towards certain interpretations but at the same time obscure or even close off others." },
+        { "id": "nt-c", "text": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues presented in the context. On the assumption that they will become relevant later, you make a mental note of discourse entities as well as possible links between them." },
+        { "id": "nt-d", "text": "In effect, you try to reconstruct the likely meanings or effects that any given sentence, image or reference might have had: These might be the ones the author intended." },
+        { "id": "nt-e", "text": "You make further inferences, for instance, about how the text may be significant to you, or about its validity—inferences that form the basis of a personal response for which the author will inevitably be far less responsible." },
+        { "id": "nt-f", "text": "In plays, novels and narrative poems, characters speak as constructs created by the author, not necessarily as mouthpieces for the author’s own thoughts." },
+        { "id": "nt-g", "text": "Rather, we ascribe meanings to texts on the basis of interaction between what we might call textual and contextual material: between kinds of organization or patterning we perceive in a text’s formal structures (so especially its language structures) and various kinds of background, social knowledge, belief and attitude that we bring to the text." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-g"] },
+      "explanation": "G项关于文本和语境材料的相互作用。",
+      "max_score_units": 200,
+      "source_ref": "第43空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-44",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 44 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room." },
+        { "id": "nt-b", "text": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and social class will encourage us towards certain interpretations but at the same time obscure or even close off others." },
+        { "id": "nt-c", "text": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues presented in the context. On the assumption that they will become relevant later, you make a mental note of discourse entities as well as possible links between them." },
+        { "id": "nt-d", "text": "In effect, you try to reconstruct the likely meanings or effects that any given sentence, image or reference might have had: These might be the ones the author intended." },
+        { "id": "nt-e", "text": "You make further inferences, for instance, about how the text may be significant to you, or about its validity—inferences that form the basis of a personal response for which the author will inevitably be far less responsible." },
+        { "id": "nt-f", "text": "In plays, novels and narrative poems, characters speak as constructs created by the author, not necessarily as mouthpieces for the author’s own thoughts." },
+        { "id": "nt-g", "text": "Rather, we ascribe meanings to texts on the basis of interaction between what we might call textual and contextual material: between kinds of organization or patterning we perceive in a text’s formal structures (so especially its language structures) and various kinds of background, social knowledge, belief and attitude that we bring to the text." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-b"] },
+      "explanation": "B项关于背景因素影响解读。",
+      "max_score_units": 200,
+      "source_ref": "第44空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-45",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 45 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room." },
+        { "id": "nt-b", "text": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and social class will encourage us towards certain interpretations but at the same time obscure or even close off others." },
+        { "id": "nt-c", "text": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues presented in the context. On the assumption that they will become relevant later, you make a mental note of discourse entities as well as possible links between them." },
+        { "id": "nt-d", "text": "In effect, you try to reconstruct the likely meanings or effects that any given sentence, image or reference might have had: These might be the ones the author intended." },
+        { "id": "nt-e", "text": "You make further inferences, for instance, about how the text may be significant to you, or about its validity—inferences that form the basis of a personal response for which the author will inevitably be far less responsible." },
+        { "id": "nt-f", "text": "In plays, novels and narrative poems, characters speak as constructs created by the author, not necessarily as mouthpieces for the author’s own thoughts." },
+        { "id": "nt-g", "text": "Rather, we ascribe meanings to texts on the basis of interaction between what we might call textual and contextual material: between kinds of organization or patterning we perceive in a text’s formal structures (so especially its language structures) and various kinds of background, social knowledge, belief and attitude that we bring to the text." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-a"] },
+      "explanation": "A项关于阅读兴趣和目的。",
+      "max_score_units": 200,
+      "source_ref": "第45空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "tr-46",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "This movement, driven by powerful and diverse motivations, built a nation out of a wilderness and, by its nature, shaped the character and destiny of an uncharted continent.",
+      "answer_key": { "reference_text": "在多种强大的动机驱动下，这次（移民）运动在一片荒野上建立了一个国家，并且就本质而言，塑造了一个未知大陆的性格和命运。" },
+      "explanation": "过去分词作定语，by its nature。",
+      "max_score_units": 200,
+      "source_ref": "第46句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-47",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The United States is the product of two principal forces—the immigration of European peoples with their varied ideas, customs, and national characteristics and the impact of a new country which modified these traits.",
+      "answer_key": { "reference_text": "美国是两股力量相互作用的产物：一是欧洲民族带来的不同思想、风俗和民族特征，二是这个新国家在改变这些特征之后造成的影响。" },
+      "explanation": "并列结构，定语从句。",
+      "max_score_units": 200,
+      "source_ref": "第47句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-48",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "But the force of geographic conditions peculiar to America, the interplay of the varied national groups upon one another, and the sheer difficulty of maintaining old-world ways in a raw, new continent caused significant changes.",
+      "answer_key": { "reference_text": "但是，美国特有的地理条件、不同种族间的相互影响、以及在这片蛮荒的新大陆上维持旧秩序的万分艰难，带来了巨大的变化。" },
+      "explanation": "并列主语。",
+      "max_score_units": 200,
+      "source_ref": "第48句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-49",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The first shiploads of immigrants bound for the territory which is now the United States crossed the Atlantic more than a hundred years after the 15th-and-16th-century explorations of North America.",
+      "answer_key": { "reference_text": "十五、十六世纪的探索发现了北美洲，又过了一百多年，第一艘满载移民的航船跨过大西洋驶向这片土地，即现在的美国。" },
+      "explanation": "定语从句，时间状语。",
+      "max_score_units": 200,
+      "source_ref": "第49句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-50",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The virgin forest with its richness and variety of trees was a real treasure-house which extended from Maine all the way down to Georgia.",
+      "answer_key": { "reference_text": "拥有丰富多样树木的原始深林是真正的宝库，它从缅因州向南一直延伸至乔治亚州。" },
+      "explanation": "定语从句。",
+      "max_score_units": 200,
+      "source_ref": "第50句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "writing-a",
+      "section": "Section III · 写作 Part A",
+      "type": "free_text",
+      "stem": "You are going to host a club reading session. Write an email of about 100 words recommending a book to the club members.\nYou should state reasons for your recommendation.\nYou should write neatly on the ANSWER SHEET.\nDo not sign your own name at the end of the letter. Use Li Ming instead.\nDo not write the address. (10 points)",
+      "answer_key": { "reference_text": "Dear Friends,\n\nI am writing to recommend to you a wonderful book, The Seventh Key, which is not only conductive to your study but also beneficial to your life.\n\nThe book tells a story of a young man who overcomes various difficulties and finally finds his own key to success. It is inspiring and thought-provoking. I believe you will benefit a lot from reading it.\n\nI hope you would enjoy the book and share your opinion on the next reading session.\n\nYours sincerely,\nLi Ming" },
+      "explanation": "推荐信：说明推荐书目及理由。",
+      "max_score_units": 1000,
+      "source_ref": "Section III Part A",
+      "tags": ["写作", "应用文"]
+    },
+    {
+      "id": "writing-b",
+      "section": "Section III · 写作 Part B",
+      "type": "free_text",
+      "stem": "Write an essay of 160-200 words based on the following drawing. In your essay you should\n1) describe the drawing briefly\n2) explain its intended meaning, and\n3) give your comments\n图中显示：四个年轻人围坐聚餐，但每个人都在看手机，标题为“手机时代的聚会”。\nYou should write neatly on the ANSWER SHEET. (20 points)",
+      "images": [
+        "images/2015/b0c023fab6175bc82a545ef680d44184ba77cfc74f53ce6cd83c14ef12e5c229.jpg"
+      ],
+      "answer_key": { "reference_text": "Unfolded in the elaborately painted cartoon is a thought-provoking scene: four youngsters are sitting together to have their gathering feast. However, much of their attention has been attached to their mobile cell phones, totally forgetting what they are gathering for. Just as is put in the caption of this cartoon, it is typically a \"Dinner party in mobile era.\"\n\nThis picture is naturally associated with a wide-spreading phenomenon in contemporary society — too much addiction to the mobile phones. Indeed, we have all stepped into an era of getting and staying in touch with others through telecommunication. Each of us seems close to another under this circumstance, but we have to look at the side-effect of the technology: the high-tech electronic products also cut off the face-to-face communication. To be specific, in our daily life, it's not uncommon that on buses or in the subways, or walking on the road, we are all playing with phones or pads for recreation, such as reading novels, watching videos or movies, surfing the Internet, and so on, even though we travel with our friends, parents or loved one.\n\nEvidently, we should take a rational attitude towards this issue, but how? The media should promote the awareness of healthy lifestyle among the public, especially the young. Meanwhile, social activities, either in communities or on campuses, should be launched so that people can get back to the real world." },
+      "explanation": "看图作文：手机时代的聚会，分析手机对人际交往的影响，提出建议。",
+      "max_score_units": 2000,
+      "source_ref": "Section III Part B",
+      "tags": ["写作", "短文写作"]
+    }
+  ]
+}

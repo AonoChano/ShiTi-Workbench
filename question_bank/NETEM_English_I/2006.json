@@ -1,0 +1,1252 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2006,
+    "paper": "英语一",
+    "title": "2006年全国硕士研究生招生考试英语（一）试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2006.md",
+    "source_images": "TestPaper/images/2006/",
+    "converted_by": "Assistant（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "2006年新题型为7选5；大作文配图两张，已按原路径填写。部分题目解析为简写。"
+  },
+  "set": {
+    "title": "2006年全国硕士研究生招生考试英语（一）试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · 完形填空",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark [A], [B], [C] or [D] on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 阅读理解 Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions below each text by choosing [A], [B], [C], or [D]. Mark your answers on ANSWER SHEET 1. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · 新题型 Part B",
+      "part": "Section II · Part B",
+      "title": "新题型",
+      "directions": [
+        "In the following article, some sentences have been removed. For Questions 41-45, choose the most suitable one from the list A-G to fit into each of numbered gaps. There are two extra choices, which you do not need to use. Mark your answers on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 翻译 Part C",
+      "part": "Section II · Part C",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written clearly on ANSWER SHEET 2. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part A",
+      "part": "Section III · Part A",
+      "title": "应用文写作",
+      "directions": [
+        "You want to contribute to Project Hope by offering financial aid to a child in a remote area. Write a letter to the department concerned, asking them to help find a candidate. You should specify what kind of child you want to help and how you will carry out your plan.",
+        "Write your letter with no less than 100 words. Write it neatly on ANSWER SHEET 2.",
+        "Do not sign your name at the end of the letter; use “Li Ming” instead.",
+        "Do not write the address. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part B",
+      "part": "Section III · Part B",
+      "title": "短文写作",
+      "directions": [
+        "Study the following photos carefully and write an essay in which you should",
+        "1. describe the photos briefly,",
+        "2. interpret the social phenomenon reflected by them, and",
+        "3. give your point of view.",
+        "You should write 160-200 words neatly on ANSWER SHEET 2. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · 完形填空",
+      "source_ref": "2006.md Section I",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The homeless make up a growing percentage of America’s population. __1__, homelessness has reached such proportions that local governments can’t possibly __2__. To help homeless people __3__ independence, the federal government must support job training programs, __4__ the minimum wage, and fund more low-cost housing."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "__5__ everyone agrees on the number of Americans who are homeless. Estimates __6__ anywhere from 600,000 to 3 million. __7__ the figure may vary, analysts do agree on another matter: that the number of the homeless is __8__. One of the federal government’s studies __9__ that the number of the homeless will reach nearly 19 million by the end of this decade."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Finding ways to __10__ this growing homeless population has become increasingly difficult. __11__ when homeless individuals manage to find a __12__ that will give them three meals a day and a place to sleep at night, a good number still spend the bulk of each day __13__ the street. Part of the problem is that many homeless adults are addicted to alcohol or drugs. And a significant number of the homeless have serious mental disorders. Many others, __14__ not addicted or mentally ill, simply lack the everyday __15__ skills needed to turn their lives __16__. Boston Globe reporter Chris Reidy notes that the situation will improve only when there are __17__ programs that address the many needs of the homeless. __18__ Edward Zlotkowski, director of community service at Bentley College in Massachusetts, __19__ it, “There has to be __20__ of programs. What’s needed is a package deal.”"
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2006.md Text 1",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In spite of “endless talk of difference,” American society is an amazing machine for homogenizing people. There is “the democratizing uniformity of dress and discourse, and the casualness and absence of deference” characteristic of popular culture. People are absorbed into “a culture of consumption” launched by the 19th-century department stores that offered “vast arrays of goods in an elegant atmosphere. Instead of intimate shops catering to a knowledgeable elite” these were stores “anyone could enter, regardless of class or background. This turned shopping into a public and democratic act.” The mass media, advertising and sports are other forces for homogenization."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Immigrants are quickly fitting into this common culture, which may not be altogether elevating but is hardly poisonous. Writing for the National Immigration Forum, Gregory Rodriguez reports that today’s immigration is neither at unprecedented levels nor resistant to assimilation. In 1998 immigrants were 9.8 percent of the population; in 1900, 13.6 percent. In the 10 years prior to 1990, 3.1 immigrants arrived for every 1,000 residents; in the 10 years prior to 1890, 9.2 for every 1,000. Now, consider three indices of assimilation—language, home ownership and intermarriage."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The 1990 Census revealed that “a majority of immigrants from each of the fifteen most common countries of origin spoke English ‘well’ or ‘very well’ after ten years of residence.” The children of immigrants tend to be bilingual and proficient in English. “By the third generation, the original language is lost in the majority of immigrant families.” Hence the description of America as a “graveyard” for languages. By 1996 foreign-born immigrants who had arrived before 1970 had a home ownership rate of 75.6 percent, higher than the 69.8 percen rate among native-born Americans."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Foreign-born Asians and Hispanics “have higher rates of intermarriage than do U.S.-born whites and blacks.” By the third generation, one third of Hispanic women are married to non-Hispanics, and 41 percent of Asian-American women are married to non-Asians."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Rodriguez notes that children in remote villages around the world are fans of superstars like Arnold Schwarzenegger and Garth Brooks, yet “some Americans fear that immigrants living within the United States remain somehow immune to the nation’s assimilative power.”"
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Are there divisive issues and pockets of seething anger in America? Indeed. It is big enough to have a bit of everything. But particularly when viewed against America’s turbulent past, today’s social indices hardly suggest a dark and deteriorating social environment."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2006.md Text 2",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Stratford-on-Avon, as we all know, has only one industry—William Shakespeare—but there are two distinctly separate and increasingly hostile branches. There is the Royal Shakespeare Company (RSC), which presents superb productions of the plays at the Shakespeare Memorial Theatre on the Avon. And there are the townsfolk who largely live off the tourists who come, not to see the plays, but to look at Anne Hathaway’s Cottage, Shakespeare’s birthplace and the other sights."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The worthy residents of Stratford doubt that the theatre adds a penny to their revenue. They frankly dislike the RSC’s actors, them with their long hair and beards and sandals and noisiness. It’s all deliciously ironic when you consider that Shakespeare, who earns their living, was himself an actor (with a beard) and did his share of noise-making."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The tourist streams are not entirely separate. The sightseers who come by bus—and often take in Warwick Castle and Blenheim Palace on the side—don’t usually see the plays, and some of them are even surprised to find a theatre in Stratford. However, the playgoers do manage a little sight-seeing along with their playgoing. It is the playgoers, the RSC contends, who bring in much of the town’s revenue because they spend the night (some of them four or five nights) pouring cash into the hotels and restaurants. The sightseers can take in everything and get out of town by nightfall."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The townsfolk don’t see it this way and the local council does not contribute directly to the subsidy of the Royal Shakespeare Company. Stratford cries poor traditionally. Nevertheless every hotel in town seems to be adding a new wing or cocktail lounge. Hilton is building its own hotel there, which you may be sure will be decorated with Hamlet Hamburger Bars, the Lear Lounge, the Banquo Banqueting Room, and so forth, and will be very expensive."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Anyway, the townsfolk can’t understand why the Royal Shakespeare Company needs a subsidy. (The theatre has broken attendance records for three years in a row. Last year its 1,431 seats were 94 per cent occupied all year long and this year they’ll do better.) The reason, of course, is that costs have rocketed and ticket prices have stayed low."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "It would be a shame to raise prices too much because it would drive away the young people who are Stratford’s most attractive clientele. They come entirely for the plays, not the sights. They all seem to look alike (though they come from all over)—lean, pointed, dedicated faces, wearing jeans and sandals, eating their buns and bedding down for the night on the flagstones outside the theatre to buy the 20 seats and 80 standing-room tickets held for the sleepers and sold to them when the box office opens at 10:30 a.m."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2006.md Text 3",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "When prehistoric man arrived in new parts of the world, something strange happened to the large animals: they suddenly became extinct. Smaller species survived. The large, slow-growing animals were easy game, and were quickly hunted to extinction. Now something similar could be happening in the oceans."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "That the seas are being overfished has been known for years. What researchers such as Ransom Myers and Boris Worm have shown is just how fast things are changing. They have looked at half a century of data from fisheries around the world. Their methods do not attempt to estimate the actual biomass (the amount of living biological matter) of fish species in particular parts of the ocean, but rather changes in that biomass over time. According to their latest paper published in Nature, the biomass of large predators (animals that kill and eat other animals) in a new fishery is reduced on average by 80% within 15 years of the start of exploitation. In some long-fished areas, it has halved again since then."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Dr. Worm acknowledges that these figures are conservative. One reason for this is that fishing technology has improved. Today’s vessels can find their prey using satellites and sonar, which were not available 50 years ago. That means a higher proportion of what is in the sea is being caught, so the real difference between present and past is likely to be worse than the one recorded by changes in catch sizes. In the early days, too, longlines would have been more saturated with fish. Some individuals would therefore not have been caught, since no baited hooks would have been available to trap them, leading to an underestimate of fish stocks in the past. Furthermore, in the early days of longline fishing, a lot of fish were lost to sharks after they had been hooked. That is no longer a problem, because there are fewer sharks around now."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Dr. Myers and Dr. Worm argue that their work gives a correct baseline, which future management efforts must take into account. They believe the data support an idea current among marine biologists, that of the “shifting baseline”. The notion is that people have failed to detect the massive changes which have happened in the ocean because they have been looking back only a relatively short time into the past. That matters because theory suggests that the maximum sustainable yield that can be cropped from a fishery comes when the biomass of a target species is about 50% of its original levels. Most fisheries are well below that, which is a bad way to do business."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2006.md Text 4",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Many things make people think artists are weird. But the weirdest may be this: artists’ only job is to explore emotions, and yet they choose to focus on the ones that feel bad."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "This wasn’t always so. The earliest forms of art, like painting and music, are those best suited for expressing joy. But somewhere from the 19th century onward, more artists began seeing happiness as meaningless, phony or, worst of all, boring, as we went from Wordsworth’s daffodils to Baudelaire’s flowers of evil."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "You could argue that art became more skeptical of happiness because modern times have seen so much misery. But it’s not as if earlier times didn’t know perpetual war, disaster and the massacre of innocents. The reason, in fact, may be just the opposite: there is too much damn happiness in the world today."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "After all, what is the one modern form of expression almost completely dedicated to depicting happiness? Advertising. The rise of anti-happy art almost exactly tracks the emergence of mass media, and with it, a commercial culture in which happiness is not just an ideal but an ideology."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "People in earlier eras were surrounded by reminders of misery. They worked until exhausted, lived with few protections and died young. In the West, before mass communication and literacy, the most powerful mass medium was the church, which reminded worshippers that their souls were in danger and that they would someday be meat for worms. Given all this, they did not exactly need their art to be a bummer too."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Today the messages the average Westerner is surrounded with are not religious but commercial, and forever happy. Fast-food eaters, news anchors, text messengers, all smiling, smiling, smiling. Our magazines feature beaming celebrities and happy families in perfect homes. And since these messages have an agenda—to lure us to open our wallets—they make the very idea of happiness seem unreliable. “Celebrate!” commanded the ads for the arthritis drug Celebrex, before we found out it could increase the risk of heart attacks."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "But what we forget—what our economy depends on us forgetting—is that happiness is more than pleasure without pain. The things that bring the greatest joy carry the greatest potential for loss and disappointment. Today, surrounded by promises of easy happiness, we need art to tell us, as religion once did, Memento mori: remember that you will die, that everything ends, and that happiness comes not in denying this but in living with it. It’s a message even more bitter than a clove cigarette, yet, somehow, a breath of fresh air."
+        }
+      ]
+    },
+    {
+      "id": "newtype",
+      "title": "Section II · 新题型 Part B 短文",
+      "section": "Section II · 新题型 Part B",
+      "source_ref": "2006.md Part B",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "On the north bank of the Ohio river sits Evansville, Ind., home of David Williams, 52, and of a riverboat casino (a place where gambling games are played). During several years of gambling in that casino, Williams, a state auditor earning $35,000 a year, lost approximately $175,000. He had never gambled before the casino sent him a coupon for $20 worth of gambling."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "He visited the casino, lost the $20 and left. On his second visit he lost $800. The casino issued to him, as a good customer, a “Fun Card”, which when used in the casino earns points for meals and drinks, and enables the casino to track the user’s gambling activities. For Williams, these activities become what he calls “electronic heroin”."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "__41__. In 1997 he lost $21,000 to one slot machine in two days. In March 1997 he lost $72,186. He sometimes played two slot machines at a time, all night, until the boat docked at 5 a.m., then went back aboard when the casino opened at 9 a.m. Now he is suing the casino, charging that it should have refused his patronage because it knew he was addicted. It did know he had a problem."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "In March 1998 a friend of Williams’s got him involuntarily confined to a treatment center for addictions, and wrote to inform the casino of Williams’s gambling problem. The casino included a photo of Williams among those of banned gamblers, and wrote to him a “cease admissions” letter. Noting the “medical/psychological” nature of problem gambling behavior, the letter said that before being readmitted to the casino he would have to present medical/psychological information demonstrating that patronizing the casino would pose no threat to his safety or well-being."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "__42__"
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "The Wall Street Journal reports that the casino has 24 signs warning: “Enjoy the fun... and always bet with your head, not over it.” Every entrance ticket lists a toll-free number for counseling from the Indiana Department of Mental Health. Nevertheless, Williams’s suit charges that the casino, knowing he was “helplessly addicted to gambling,” intentionally worked to “lure” him to “engage in conduct against his will.” Well."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "__43__"
+        },
+        {
+          "id": "p8",
+          "type": "paragraph",
+          "text": "The fourth edition of the Diagnostic and Statistical Manual of Mental Disorders says “pathological gambling” involves persistent, recurring and uncontrollable pursuit less of money than of the thrill of taking risks in quest of a windfall."
+        },
+        {
+          "id": "p9",
+          "type": "paragraph",
+          "text": "__44__. Pushed by science, or what claims to be science, society is reclassifying what once were considered character flaws or moral failings as personality disorders akin to physical disabilities."
+        },
+        {
+          "id": "p10",
+          "type": "paragraph",
+          "text": "__45__"
+        },
+        {
+          "id": "p11",
+          "type": "paragraph",
+          "text": "Forty-four states have lotteries, 29 have casinos, and most of these states are to varying degrees dependent on—you might say addicted to—revenues from wagering. And since the first Internet gambling site was created in 1995, competition for gamblers’ dollars has become intense. The Oct. 28 issue of Newsweek reported that 2 million gamblers patronize 1,800 virtual casinos every week. With $3.5 billion being lost on Internet wagers this year, gambling has passed pornography as the Web’s most profitable business."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · 翻译 Part C 原文",
+      "section": "Section II · 翻译 Part C",
+      "source_ref": "2006.md Part C",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Is it true that the American intellectual is rejected and considered of no account in his society? I am going to suggest that it is not true. Father Bruckberger told part of the story when he observed that it is the intellectuals who have rejected America. But they have done more than that. They have grown dissatisfied with the role of the intellectual. It is they, not America, who have become anti-intellectual."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "First, the object of our study pleads for definition. What is an intellectual? 【46】I shall define him as an individual who has elected as his primary duty and pleasure in life the activity of thinking in a Socratic (苏格拉底) way about moral problems. He explores such problems consciously, articulately, and frankly, first by asking factual questions, then by asking moral questions, finally by suggesting action which seems appropriate in the ligh of the factual and moral information which he has obtained. 【47】His function is analogous to that of a judge, who must accept the obligation of revealing in as obvious a matter as possible the course of reasoning which led him to his decision."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "This definition excludes many individuals usually referred to as intellectuals—the average scientist, for one. 【48】I have excluded him because, while his accomplishments may contribute to the solution of moral problems, he has not been charged with the task of approaching any but the factual aspects of those problems. Like other human beings, he encounters moral issues even in the everyday performance of his routine duties—he is not supposed to cook his experiments, manufacture evidence, or doctor his reports. 【49】But his primary task is not to think about the moral code which governs his activity, any more than a businessman is expected to dedicate his energies to an exploration of rules of conduct in business. During most of his waking life he will take his code for granted, as the businessman takes his ethics."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The definition also excludes the majority of teachers, despite the fact that teaching has traditionally been the method whereby many intellectuals earn their living. 【50】They may teach very well, and more than earn their salaries, but most of them make little or no independent reflections on human problems which involve moral judgment. This description even fits the majority of eminent scholars. Being learned in some branch of human knowledge is one thing; living in “public and illustrious thoughts,” as Emerson would say, is something else."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "Indeed" },
+        { "id": "c1-b", "text": "Likewise" },
+        { "id": "c1-c", "text": "Therefore" },
+        { "id": "c1-d", "text": "Furthermore" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-a"] },
+      "explanation": "前后为肯定与强调关系，Indeed 表示“实际上、确实”。",
+      "max_score_units": 50,
+      "source_ref": "第1空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "stand" },
+        { "id": "c2-b", "text": "cope" },
+        { "id": "c2-c", "text": "approve" },
+        { "id": "c2-d", "text": "retain" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-b"] },
+      "explanation": "地方政府无法“应对”这一规模，cope 符合。",
+      "max_score_units": 50,
+      "source_ref": "第2空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "in" },
+        { "id": "c3-b", "text": "for" },
+        { "id": "c3-c", "text": "with" },
+        { "id": "c3-d", "text": "toward" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-d"] },
+      "explanation": "help sb. toward independence 表示“帮助某人走向独立”。",
+      "max_score_units": 50,
+      "source_ref": "第3空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "raise" },
+        { "id": "c4-b", "text": "add" },
+        { "id": "c4-c", "text": "take" },
+        { "id": "c4-d", "text": "keep" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-a"] },
+      "explanation": "raise the minimum wage 表示“提高最低工资”。",
+      "max_score_units": 50,
+      "source_ref": "第4空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "Generally" },
+        { "id": "c5-b", "text": "Almost" },
+        { "id": "c5-c", "text": "Hardly" },
+        { "id": "c5-d", "text": "Not" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-d"] },
+      "explanation": "下文说明估计数字不一致，故用 Not everyone agrees。",
+      "max_score_units": 50,
+      "source_ref": "第5空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "cover" },
+        { "id": "c6-b", "text": "change" },
+        { "id": "c6-c", "text": "range" },
+        { "id": "c6-d", "text": "differ" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-c"] },
+      "explanation": "range from...to... 表示范围。",
+      "max_score_units": 50,
+      "source_ref": "第6空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "Now that" },
+        { "id": "c7-b", "text": "Although" },
+        { "id": "c7-c", "text": "Provided" },
+        { "id": "c7-d", "text": "Except that" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-b"] },
+      "explanation": "前后为让步转折关系，Although 正确。",
+      "max_score_units": 50,
+      "source_ref": "第7空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "inflating" },
+        { "id": "c8-b", "text": "expanding" },
+        { "id": "c8-c", "text": "increasing" },
+        { "id": "c8-d", "text": "extending" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-c"] },
+      "explanation": "数量增长用 increasing。",
+      "max_score_units": 50,
+      "source_ref": "第8空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "predicts" },
+        { "id": "c9-b", "text": "displays" },
+        { "id": "c9-c", "text": "proves" },
+        { "id": "c9-d", "text": "discovers" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-a"] },
+      "explanation": "对将来数字的估计用 predicts。",
+      "max_score_units": 50,
+      "source_ref": "第9空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "assist" },
+        { "id": "c10-b", "text": "track" },
+        { "id": "c10-c", "text": "sustain" },
+        { "id": "c10-d", "text": "dismiss" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-a"] },
+      "explanation": "找到帮助日益增多的无家可归者的方法，assist 正确。",
+      "max_score_units": 50,
+      "source_ref": "第10空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        { "id": "c11-a", "text": "Hence" },
+        { "id": "c11-b", "text": "But" },
+        { "id": "c11-c", "text": "Even" },
+        { "id": "c11-d", "text": "Only" }
+      ],
+      "answer_key": { "selected_option_ids": ["c11-c"] },
+      "explanation": "Even 表示让步，“即使……仍然……”。",
+      "max_score_units": 50,
+      "source_ref": "第11空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        { "id": "c12-a", "text": "lodging" },
+        { "id": "c12-b", "text": "shelter" },
+        { "id": "c12-c", "text": "dwelling" },
+        { "id": "c12-d", "text": "house" }
+      ],
+      "answer_key": { "selected_option_ids": ["c12-b"] },
+      "explanation": "为无家可归者提供的“庇护所”用 shelter。",
+      "max_score_units": 50,
+      "source_ref": "第12空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        { "id": "c13-a", "text": "searching" },
+        { "id": "c13-b", "text": "strolling" },
+        { "id": "c13-c", "text": "crowding" },
+        { "id": "c13-d", "text": "wandering" }
+      ],
+      "answer_key": { "selected_option_ids": ["c13-d"] },
+      "explanation": "无家可归者漫无目的地在街上游荡，wandering 最贴切。",
+      "max_score_units": 50,
+      "source_ref": "第13空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        { "id": "c14-a", "text": "when" },
+        { "id": "c14-b", "text": "once" },
+        { "id": "c14-c", "text": "while" },
+        { "id": "c14-d", "text": "whereas" }
+      ],
+      "answer_key": { "selected_option_ids": ["c14-c"] },
+      "explanation": "while 表示“虽然”，引导让步。",
+      "max_score_units": 50,
+      "source_ref": "第14空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        { "id": "c15-a", "text": "life" },
+        { "id": "c15-b", "text": "existence" },
+        { "id": "c15-c", "text": "survival" },
+        { "id": "c15-d", "text": "maintenance" }
+      ],
+      "answer_key": { "selected_option_ids": ["c15-c"] },
+      "explanation": "survival skills 表示“生存技能”。",
+      "max_score_units": 50,
+      "source_ref": "第15空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        { "id": "c16-a", "text": "around" },
+        { "id": "c16-b", "text": "over" },
+        { "id": "c16-c", "text": "on" },
+        { "id": "c16-d", "text": "up" }
+      ],
+      "answer_key": { "selected_option_ids": ["c16-a"] },
+      "explanation": "turn their lives around 表示“使生活好转”。",
+      "max_score_units": 50,
+      "source_ref": "第16空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        { "id": "c17-a", "text": "complex" },
+        { "id": "c17-b", "text": "comprehensive" },
+        { "id": "c17-c", "text": "complementary" },
+        { "id": "c17-d", "text": "compensating" }
+      ],
+      "answer_key": { "selected_option_ids": ["c17-b"] },
+      "explanation": "能解决多种需求的应是“综合的”programs，comprehensive。",
+      "max_score_units": 50,
+      "source_ref": "第17空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        { "id": "c18-a", "text": "So" },
+        { "id": "c18-b", "text": "Since" },
+        { "id": "c18-c", "text": "As" },
+        { "id": "c18-d", "text": "Thus" }
+      ],
+      "answer_key": { "selected_option_ids": ["c18-c"] },
+      "explanation": "as sb. puts it 为固定表达，“正如……所说”。",
+      "max_score_units": 50,
+      "source_ref": "第18空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        { "id": "c19-a", "text": "puts" },
+        { "id": "c19-b", "text": "interprets" },
+        { "id": "c19-c", "text": "assumes" },
+        { "id": "c19-d", "text": "makes" }
+      ],
+      "answer_key": { "selected_option_ids": ["c19-a"] },
+      "explanation": "as...puts it 固定搭配。",
+      "max_score_units": 50,
+      "source_ref": "第19空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        { "id": "c20-a", "text": "supervision" },
+        { "id": "c20-b", "text": "manipulation" },
+        { "id": "c20-c", "text": "regulation" },
+        { "id": "c20-d", "text": "coordination" }
+      ],
+      "answer_key": { "selected_option_ids": ["c20-d"] },
+      "explanation": "一揽子计划需要各种规划的“协调”，coordination。",
+      "max_score_units": 50,
+      "source_ref": "第20空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "t1-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The word “homogenizing” (Line 2, Paragraph 1) most probably means",
+      "options": [
+        { "id": "t1-q1-a", "text": "identifying" },
+        { "id": "t1-q1-b", "text": "associating" },
+        { "id": "t1-q1-c", "text": "assimilating" },
+        { "id": "t1-q1-d", "text": "monopolizing" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q1-c"] },
+      "explanation": "homogenizing 与 assimilating 同义，表示同化。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1段",
+      "tags": ["阅读理解", "词义题"]
+    },
+    {
+      "id": "t1-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to the author, the department stores of the 19th century ______",
+      "options": [
+        { "id": "t1-q2-a", "text": "played a role in the spread of popular culture" },
+        { "id": "t1-q2-b", "text": "became intimate shops for common consumers" },
+        { "id": "t1-q2-c", "text": "satisfied the needs of a knowledgeable elite" },
+        { "id": "t1-q2-d", "text": "owed its emergence to the culture of consumption" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q2-a"] },
+      "explanation": "19世纪百货商店推动大众文化传播。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t1-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The text suggests that immigrants now in the U.S.",
+      "options": [
+        { "id": "t1-q3-a", "text": "are resistant to homogenization" },
+        { "id": "t1-q3-b", "text": "exert a great influence on American culture" },
+        { "id": "t1-q3-c", "text": "are hardly a threat to the common culture" },
+        { "id": "t1-q3-d", "text": "constitute the majority of the population" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q3-c"] },
+      "explanation": "原文说 hardly poisonous，即几乎不构成威胁。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第2段",
+      "tags": ["阅读理解", "推断题"]
+    },
+    {
+      "id": "t1-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Why are Arnold Schwarzenegger and Garth Brooks mentioned in Paragraph 5?",
+      "options": [
+        { "id": "t1-q4-a", "text": "To prove their popularity around the world." },
+        { "id": "t1-q4-b", "text": "To reveal the public’s fear of immigrants." },
+        { "id": "t1-q4-c", "text": "To give examples of successful immigrants." },
+        { "id": "t1-q4-d", "text": "To show the powerful influence of American culture." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q4-d"] },
+      "explanation": "举例说明美国文化的强大同化/影响力。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第5段",
+      "tags": ["阅读理解", "例证题"]
+    },
+    {
+      "id": "t1-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "In the author’s opinion, the absorption of immigrants into American society is",
+      "options": [
+        { "id": "t1-q5-a", "text": "rewarding" },
+        { "id": "t1-q5-b", "text": "successful" },
+        { "id": "t1-q5-c", "text": "fruitless" },
+        { "id": "t1-q5-d", "text": "harmful" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q5-b"] },
+      "explanation": "作者认为移民同化总体是成功的。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 全文",
+      "tags": ["阅读理解", "观点题"]
+    },
+    {
+      "id": "t2-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "From the first two paragraphs, we learn that",
+      "options": [
+        { "id": "t2-q1-a", "text": "the townsfolk deny the RSC’s contribution to the town’s revenue" },
+        { "id": "t2-q1-b", "text": "the actors of the RSC imitate Shakespeare on and off stage" },
+        { "id": "t2-q1-c", "text": "the two branches of the RSC are not on good terms" },
+        { "id": "t2-q1-d", "text": "the townsfolk earn little from tourism" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q1-a"] },
+      "explanation": "居民怀疑剧院对小镇收入有贡献。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第1-2段",
+      "tags": ["阅读理解", "推断题"]
+    },
+    {
+      "id": "t2-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "It can be inferred from Paragraph 3 that",
+      "options": [
+        { "id": "t2-q2-a", "text": "the sightseers cannot visit the Castle and the Palace separately" },
+        { "id": "t2-q2-b", "text": "the playgoers spend more money than the sightseers" },
+        { "id": "t2-q2-c", "text": "the sightseers do more shopping than the playgoers" },
+        { "id": "t2-q2-d", "text": "the playgoers go to no other places in town than the theater" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q2-b"] },
+      "explanation": "看戏者过夜消费，给小镇带来更多收入。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第3段",
+      "tags": ["阅读理解", "推断题"]
+    },
+    {
+      "id": "t2-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "By saying “Stratford cries poor traditionally” (Line 2, Paragraph 4), the author implies that ______",
+      "options": [
+        { "id": "t2-q3-a", "text": "Stratford cannot afford the expansion projects" },
+        { "id": "t2-q3-b", "text": "Stratford has long been in financial difficulties" },
+        { "id": "t2-q3-c", "text": "the town is not really short of money" },
+        { "id": "t2-q3-d", "text": "the townsfolk used to be poorly paid" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q3-c"] },
+      "explanation": "小镇其实并不缺钱，只是传统上“哭穷”。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第4段",
+      "tags": ["阅读理解", "词义题"]
+    },
+    {
+      "id": "t2-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "According to the townsfolk, the RSC deserves no subsidy because",
+      "options": [
+        { "id": "t2-q4-a", "text": "ticket prices can be raised to cover the spending" },
+        { "id": "t2-q4-b", "text": "the company is financially ill-managed" },
+        { "id": "t2-q4-c", "text": "the behavior of the actors is not socially acceptable" },
+        { "id": "t2-q4-d", "text": "the theatre attendance is on the rise" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q4-d"] },
+      "explanation": "居民认为上座率连年上升，不需要补贴。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第5段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t2-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "From the text we can conclude that the author",
+      "options": [
+        { "id": "t2-q5-a", "text": "is supportive of both sides" },
+        { "id": "t2-q5-b", "text": "favors the townsfolk’s view" },
+        { "id": "t2-q5-c", "text": "takes a detached attitude" },
+        { "id": "t2-q5-d", "text": "is sympathetic to the RSC" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q5-d"] },
+      "explanation": "作者对 RSC 持同情态度。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 全文",
+      "tags": ["阅读理解", "态度题"]
+    },
+    {
+      "id": "t3-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The extinction of large prehistoric animals is noted to suggest that",
+      "options": [
+        { "id": "t3-q1-a", "text": "large animals were vulnerable to the changing environment" },
+        { "id": "t3-q1-b", "text": "small species survived as large animals disappeared" },
+        { "id": "t3-q1-c", "text": "large sea animals may face the same threat today" },
+        { "id": "t3-q1-d", "text": "slow-growing fish outlive fast-growing ones" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q1-c"] },
+      "explanation": "用史前大型动物灭绝类比海洋大型动物面临威胁。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第1段",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t3-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "We can infer from Dr. Myers and Dr. Worm’s paper that",
+      "options": [
+        { "id": "t3-q2-a", "text": "the stock of large predators in some old fisheries has reduced by 90%" },
+        { "id": "t3-q2-b", "text": "there are only half as many fisheries as there were 15 years ago" },
+        { "id": "t3-q2-c", "text": "the catch sizes in new fisheries are only 20% of the original amount" },
+        { "id": "t3-q2-d", "text": "the number of large predators dropped faster in new fisheries than in the old" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q2-a"] },
+      "explanation": "新渔场平均减少80%，老渔场再减半，总减少约90%。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第2段",
+      "tags": ["阅读理解", "推断题"]
+    },
+    {
+      "id": "t3-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "By saying “these figures are conservative” (Line 1, paragraph 3), Dr. Worm means that",
+      "options": [
+        { "id": "t3-q3-a", "text": "fishing technology has improved rapidly" },
+        { "id": "t3-q3-b", "text": "the catch-sizes are actually smaller than recorded" },
+        { "id": "t3-q3-c", "text": "the marine biomass has suffered a greater loss" },
+        { "id": "t3-q3-d", "text": "the data collected so far are out of date" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q3-c"] },
+      "explanation": "实际海洋生物量损失比数据更大。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第3段",
+      "tags": ["阅读理解", "词义题"]
+    },
+    {
+      "id": "t3-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Dr. Myers and other researchers hold that",
+      "options": [
+        { "id": "t3-q4-a", "text": "people should look for a baseline that can work for a longer time" },
+        { "id": "t3-q4-b", "text": "fisheries should keep their yields below 50% of the biomass" },
+        { "id": "t3-q4-c", "text": "the ocean biomass should be restored to its original level" },
+        { "id": "t3-q4-d", "text": "people should adjust the fishing baseline to the changing situation" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q4-d"] },
+      "explanation": "支持“变化中的基线”，应随情况调整。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第4段",
+      "tags": ["阅读理解", "观点题"]
+    },
+    {
+      "id": "t3-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The author seems to be mainly concerned with most fisheries’",
+      "options": [
+        { "id": "t3-q5-a", "text": "management efficiency" },
+        { "id": "t3-q5-b", "text": "biomass level" },
+        { "id": "t3-q5-c", "text": "catch-size limits" },
+        { "id": "t3-q5-d", "text": "technological application" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q5-b"] },
+      "explanation": "全文关注海洋生物量水平。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 全文",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t4-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "By citing the examples of poets Wordsworth and Baudelaire, the author intends to show that",
+      "options": [
+        { "id": "t4-q1-a", "text": "poetry is not as expressive of joy as painting or music" },
+        { "id": "t4-q1-b", "text": "art grows out of both positive and negative feelings" },
+        { "id": "t4-q1-c", "text": "poets today are less skeptical of happiness" },
+        { "id": "t4-q1-d", "text": "artists have changed their focus of interest" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q1-d"] },
+      "explanation": "说明艺术家关注点从快乐转向痛苦。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第2段",
+      "tags": ["阅读理解", "例证题"]
+    },
+    {
+      "id": "t4-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The word “bummer” (Line 5, paragraph 5) most probably means something",
+      "options": [
+        { "id": "t4-q2-a", "text": "religious" },
+        { "id": "t4-q2-b", "text": "unpleasant" },
+        { "id": "t4-q2-c", "text": "entertaining" },
+        { "id": "t4-q2-d", "text": "commercial" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q2-b"] },
+      "explanation": "bummer 指令人不愉快的事物。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第5段",
+      "tags": ["阅读理解", "词义题"]
+    },
+    {
+      "id": "t4-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "In the author’s opinion, advertising ______",
+      "options": [
+        { "id": "t4-q3-a", "text": "emerges in the wake of the anti-happy art" },
+        { "id": "t4-q3-b", "text": "is a cause of disappointment for the general public" },
+        { "id": "t4-q3-c", "text": "replaces the church as a major source of information" },
+        { "id": "t4-q3-d", "text": "creates an illusion of happiness rather than happiness itself" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q3-d"] },
+      "explanation": "广告制造幸福的假象。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第6段",
+      "tags": ["阅读理解", "观点题"]
+    },
+    {
+      "id": "t4-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "We can learn from the last paragraph that the author believes",
+      "options": [
+        { "id": "t4-q4-a", "text": "happiness more often than not ends in sadness" },
+        { "id": "t4-q4-b", "text": "the anti-happy art is distasteful but refreshing" },
+        { "id": "t4-q4-c", "text": "misery should be enjoyed rather than denied" },
+        { "id": "t4-q4-d", "text": "the anti-happy art flourishes when economy booms" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q4-b"] },
+      "explanation": "反快乐艺术令人不快却带来清新空气。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第7段",
+      "tags": ["阅读理解", "观点题"]
+    },
+    {
+      "id": "t4-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Which of the following is true of the text?",
+      "options": [
+        { "id": "t4-q5-a", "text": "Religion once functioned as a reminder of misery." },
+        { "id": "t4-q5-b", "text": "Art provides a balance between expectation and reality." },
+        { "id": "t4-q5-c", "text": "People feel disappointed at the realities of modern society." },
+        { "id": "t4-q5-d", "text": "Mass media are inclined to cover disasters and deaths." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q5-a"] },
+      "explanation": "文中指出宗教曾提醒人们苦难与死亡。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第5段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "nt-41",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 41 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "Although no such evidence was presented, the casino’s marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected." },
+        { "id": "nt-b", "text": "It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?" },
+        { "id": "nt-c", "text": "By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit." },
+        { "id": "nt-d", "text": "Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government." },
+        { "id": "nt-e", "text": "David Williams’s suit should trouble this gambling nation. But don’t bet on it." },
+        { "id": "nt-f", "text": "It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will." },
+        { "id": "nt-g", "text": "The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?" }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-c"] },
+      "explanation": "该段描述威廉姆斯越输越赌，C项承接“电子海洛因”。",
+      "max_score_units": 200,
+      "source_ref": "第41空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-42",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 42 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "Although no such evidence was presented, the casino’s marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected." },
+        { "id": "nt-b", "text": "It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?" },
+        { "id": "nt-c", "text": "By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit." },
+        { "id": "nt-d", "text": "Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government." },
+        { "id": "nt-e", "text": "David Williams’s suit should trouble this gambling nation. But don’t bet on it." },
+        { "id": "nt-f", "text": "It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will." },
+        { "id": "nt-g", "text": "The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?" }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-a"] },
+      "explanation": "赌场虽发禁入信，却仍继续寄邮件且未检测，A项衔接。",
+      "max_score_units": 200,
+      "source_ref": "第42空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-43",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 43 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "Although no such evidence was presented, the casino’s marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected." },
+        { "id": "nt-b", "text": "It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?" },
+        { "id": "nt-c", "text": "By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit." },
+        { "id": "nt-d", "text": "Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government." },
+        { "id": "nt-e", "text": "David Williams’s suit should trouble this gambling nation. But don’t bet on it." },
+        { "id": "nt-f", "text": "It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will." },
+        { "id": "nt-g", "text": "The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?" }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-b"] },
+      "explanation": "B项质疑“引诱”和“意志”的说法，与上文起诉内容衔接。",
+      "max_score_units": 200,
+      "source_ref": "第43空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-44",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 44 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "Although no such evidence was presented, the casino’s marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected." },
+        { "id": "nt-b", "text": "It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?" },
+        { "id": "nt-c", "text": "By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit." },
+        { "id": "nt-d", "text": "Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government." },
+        { "id": "nt-e", "text": "David Williams’s suit should trouble this gambling nation. But don’t bet on it." },
+        { "id": "nt-f", "text": "It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will." },
+        { "id": "nt-g", "text": "The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?" }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-f"] },
+      "explanation": "F项讨论社会将行为问题医学化，与下文“重新分类”衔接。",
+      "max_score_units": 200,
+      "source_ref": "第44空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-45",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 45 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "Although no such evidence was presented, the casino’s marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected." },
+        { "id": "nt-b", "text": "It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?" },
+        { "id": "nt-c", "text": "By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit." },
+        { "id": "nt-d", "text": "Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government." },
+        { "id": "nt-e", "text": "David Williams’s suit should trouble this gambling nation. But don’t bet on it." },
+        { "id": "nt-f", "text": "It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will." },
+        { "id": "nt-g", "text": "The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?" }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-d"] },
+      "explanation": "D项从历史转向政府推动赌博，与下文各州依赖赌博收入衔接。",
+      "max_score_units": 200,
+      "source_ref": "第45空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "tr-46",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "I shall define him as an individual who has elected as his primary duty and pleasure in life the activity of thinking in a Socratic (苏格拉底) way about moral problems.",
+      "answer_key": { "reference_text": "我将他（知识分子）定义为一个对道德问题进行苏格拉底式思考并将此作为自己人生首要责任和快乐的人。" },
+      "explanation": "注意 define...as、elect...as 以及宾语后置。",
+      "max_score_units": 200,
+      "source_ref": "第46句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-47",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "His function is analogous to that of a judge, who must accept the obligation of revealing in as obvious a matter as possible the course of reasoning which led him to his decision.",
+      "answer_key": { "reference_text": "他的职责与法官相似，必须承担这样的责任：用尽可能明了的方式来展示自己做出决定的推理过程。" },
+      "explanation": "analogous to、obligation of、宾语后置。",
+      "max_score_units": 200,
+      "source_ref": "第47句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-48",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "I have excluded him because, while his accomplishments may contribute to the solution of moral problems, he has not been charged with the task of approaching any but the factual aspects of those problems.",
+      "answer_key": { "reference_text": "我之所以将他（普通科学家）排除在外，是因为尽管他的成果可能会有助于解决道德问题，但他承担的任务只不过是研究这些问题的事实方面。" },
+      "explanation": "not...any but 表示“仅仅”。",
+      "max_score_units": 200,
+      "source_ref": "第48句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-49",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "But his primary task is not to think about the moral code which governs his activity, any more than a businessman is expected to dedicate his energies to an exploration of rules of conduct in business.",
+      "answer_key": { "reference_text": "但是，他的首要任务并不是考虑支配自己行动的道德规范，就如同不能指望商人专注于探索行业规范一样。" },
+      "explanation": "not...any more than 表示两者都否定。",
+      "max_score_units": 200,
+      "source_ref": "第49句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-50",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "They may teach very well, and more than earn their salaries, but most of them make little or no independent reflections on human problems which involve moral judgment.",
+      "answer_key": { "reference_text": "他们（知识分子）可以教得很好，而且不仅仅是为了挣薪水，但他们大多数人却很少或没有对需要进行道德判断的人类问题进行独立思考。" },
+      "explanation": "more than、little or no、independent reflections。",
+      "max_score_units": 200,
+      "source_ref": "第50句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "writing-a",
+      "section": "Section III · 写作 Part A",
+      "type": "free_text",
+      "stem": "You want to contribute to Project Hope by offering financial aid to a child in a remote area. Write a letter to the department concerned, asking them to help find a candidate. You should specify what kind of child you want to help and how you will carry out your plan.\nWrite your letter with no less than 100 words. Write it neatly on ANSWER SHEET 2.\nDo not sign your name at the end of the letter; use “Li Ming” instead.\nDo not write the address. (10 points)",
+      "answer_key": { "reference_text": "Dear Sir or Madam,\n\nI am writing to ask if you can recommend a child as the recipient of my financial assistance.\n\nI would be much grateful if the child is a girl from a remote area in Southwest China who drops out of school because of poverty. My aid plan will be as follows. First, I will be in charge of her tuition fee until she finishes college. Besides, an extra one-hundred yuan will be given every month for her living expenses.\n\nI believe you can realize my wish to contribute a little in helping more children back to school. If you find a proper candidate, please contact me in time. It will be better if you send me a photo and personal information about her. Your early reply will be highly appreciated.\n\nYours sincerely,\nLi Ming" },
+      "explanation": "请求信：说明目的、受助儿童类型、资助计划、期待回复。",
+      "max_score_units": 1000,
+      "source_ref": "Section III Part A",
+      "tags": ["写作", "应用文"]
+    },
+    {
+      "id": "writing-b",
+      "section": "Section III · 写作 Part B",
+      "type": "free_text",
+      "stem": "Study the following photos carefully and write an essay in which you should\n1. describe the photos briefly,\n2. interpret the social phenomenon reflected by them, and\n3. give your point of view.\n图中两张照片分别显示：一名年轻人在脸上写有 Beckham；另一人在理发店花300元做“小贝头”。\nYou should write 160-200 words neatly on ANSWER SHEET 2. (20 points)",
+      "images": [
+        "images/2006/361155d1409205fd7c7b66f9babc3519ece3044ca6ba79ca86702497e682188c.jpg",
+        "images/2006/d40d43c0c68d6c2f5d7b887e9b99571106a65f1158217275c2be20bf29395a11.jpg"
+      ],
+      "answer_key": { "reference_text": "The two photos show that people are enthusiastic about football stars such as the English football player Beckham. Some, like the young man in the photo, express their enthusiasm by writing his name on their faces, while others, like the one in the hair studio, spend as much as 300 yuan for a hair style modeling on that of Beckham.\n\nIn fact, that kind of star-worshipping is not uncommon nowadays among the Chinese people. For example, the so-called “Super Girls” become fashionable almost overnight, with fans chasing after them in a kind of blind worship. It seems as if people are badly in need of someone to whom to pay their respect, and to realize their own aspirations of an immediate success or stardom.\n\nFamous football players won our favor and earned our respect by their hard work and excellent performance on the football field. What, then, deserves to be worshipped, their diligence and perseverance, or their hairstyle and ways of living? The answer seems self-evident: what we should learn is their spirit, not the superficial styles of living. Fashion is often short-lived, but the ever-lasting memory of a courageous, undaunted and skillful football player is what inspires us in our pursuit for better life and brighter future." },
+      "explanation": "看图作文：描述偶像崇拜现象，分析原因，提出应学习精神而非表面。",
+      "max_score_units": 2000,
+      "source_ref": "Section III Part B",
+      "tags": ["写作", "短文写作"]
+    }
+  ]
+}

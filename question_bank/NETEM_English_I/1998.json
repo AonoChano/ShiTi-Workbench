@@ -1,0 +1,855 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 1998,
+    "paper": "英语统考卷",
+    "title": "1998年全国攻读硕士学位研究生入学考试英语试题",
+    "total_score_units": 8000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/1998.md",
+    "source_images": "TestPaper/images/1998/",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T13:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "1998年为统一卷，题面提供完形10题、阅读20题、翻译5题、写作1题，合计80分，故 total_score_units=8000。完形10题每题1分，故 max_score_units=100；翻译5句每题3分，故 max_score_units=300；写作15分，max_score_units=1500。第29题答案依据解析正文为 D（热点理论解释新海洋的形成），与答案列表中的 C 不一致，采用解析正文。未逐题提供 explanation，客观题答案依据《1998年考研英语真题答案及解析》。作文图片路径为 images/1998/18bcbfa391dfb8e9e26600a7167a0868920c417b0546252b3bb2cf595d84a05b.jpg。"
+  },
+  "set": {
+    "title": "1998年全国攻读硕士学位研究生入学考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Part I · 完形填空",
+      "part": "Part I",
+      "title": "完形填空",
+      "directions": [
+        "For each numbered blank in the following passage, there are four choices marked [A], [B], [C], and [D]. Choose the best one and mark your answer on ANSWER SHEET 1 by blackening the corresponding letter in the brackets with a pencil. (10 points)"
+      ]
+    },
+    {
+      "id": "Part II · 阅读理解",
+      "part": "Part II",
+      "title": "阅读理解",
+      "directions": [
+        "Each of the passages below is followed by some questions. For each question there are four answers marked [A], [B], [C] and [D]. Read the passages carefully and choose the best answer to each of the questions. Then mark your answer on the ANSWER SHEET 1 by blackening the corresponding letter in the brackets. (40 points)"
+      ]
+    },
+    {
+      "id": "Part III · 英译汉",
+      "part": "Part III",
+      "title": "英译汉",
+      "directions": [
+        "Read the following passage carefully and then translate the underlined sentences into Chinese. Your translation must be written clearly on the ANSWER SHEET 2. (15 points)"
+      ]
+    },
+    {
+      "id": "Section IV · 短文写作",
+      "part": "Section IV",
+      "title": "短文写作",
+      "directions": [
+        "A. Study the following cartoon carefully and write an essay in no less than 150 words.",
+        "B. Your essay must be written clearly on the ANSWER SHEET 2. (15 points)",
+        "C. Your essay should meet the requirements below:",
+        "1. Write out the messages conveyed by the cartoon.",
+        "2. Give your comments."
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Part I · 完形填空原文",
+      "section": "Part I · 完形填空",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Until recently most historians spoke very critically of the Industrial Revolution. They __1__ that in the long run industrialization greatly raised the standard of living for the __2__ man. But they insisted that its __3__ results during the period from 1750 to 1850 were widespread poverty and misery for the __4__ of the English population. __5__ contrast, they saw in the preceding hundred years from 1650 to 1750, when England was still a __6__ agricultural country, a period of great abundance and prosperity."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "This view, __7__, is generally thought to be wrong. Specialists __8__ history and economics, have __9__ two things: that the period from 1650 to 1750 was __10__ by great poverty, and that industrialization certainly did not worsen and may have actually improved the conditions for the majority of the populace."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Few creations of big technology capture the imagination like giant dams. Perhaps it is humankind’s long suffering at the mercy of flood and drought that makes the idea of forcing the waters to do our bidding so fascinating. But to be fascinated is also, sometimes, to be blind. Several giant dam projects threaten to do more harm than good."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The lesson from dams is that big is not always beautiful. It doesn’t help that building a big, powerful dam has become a symbol of achievement for nations and people striving to assert themselves. Egypt’s leadership in the Arab world was cemented by the Aswan High Dam. Turkey’s bid for First World status includes the giant Ataturk Dam."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "But big dams tend not to work as intended. The Aswan Dam, for example, stopped the Nile flooding but deprived Egypt of the fertile silt that floods left -- all in return for a giant reservoir of disease which is now so full of silt that it barely generates electricity."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "And yet, the myth of controlling the waters persists. This week, in the heart of civilized Europe, Slovaks and Hungarians stopped just short of sending in the troops in their contention over a dam on the Danube. The huge complex will probably have all the usual problems of big dams. But Slovakia is bidding for independence from the Czechs, and now needs a dam to prove itself."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Meanwhile, in India, the World Bank has given the go-ahead to the even more wrong-headed Narmada Dam. And the bank has done this even though its advisors say the dam will cause hardship for the powerless and environmental destruction. The benefits are for the powerful, but they are far from guaranteed."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Proper, scientific study of the impacts of dams and of the cost and benefits of controlling water can help to resolve these conflicts. Hydroelectric power and flood control and irrigation are possible without building monster dams. But when you are dealing with myths, it is hard to be either proper, or scientific. It is time that the world learned the lessons of Aswan. You don’t need a dam to be saved."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Well, no gain without pain, they say. But what about pain without gain? Everywhere you go in America, you hear tales of corporate revival. What is harder to establish is whether the productivity revolution that businessmen assume they are presiding over is for real."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The official statistics are mildly discouraging. They show that, if you lump manufacturing and services together, productivity has grown on average by 1.2% since 1987. That is somewhat faster than the average during the previous decade. And since 1991, productivity has increased by about 2% a year, which is more than twice the 1978-87 average. The trouble is that part of the recent acceleration is due to the usual rebound that occurs at this point in a business cycle, and so is not conclusive evidence of a revival in the underlying trend. There is, as Robert Rubin, the treasury secretary, says, a “disjunction” between the mass of business anecdote that points to a leap in productivity and the picture reflected by the statistics."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Some of this can be easily explained. New ways of organizing the workplace -- all that re-engineering and downsizing -- are only one contribution to the overall productivity of an economy, which is driven by many other factors such as joint investment in equipment and machinery, new technology, and investment in education and training. Moreover, most of the changes that companies make are intended to keep them profitable, and this need not always mean increasing productivity: switching to new markets or improving quality can matter just as much."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Two other explanations are more speculative. First, some of the business restructuring of recent years may have been ineptly done. Second, even if it was well done, it may have spread much less widely than people suppose."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Leonard Schlesinger, a Harvard academic and former chief executive of Au Bong Pain, a rapidly growing chain of bakery cafes, says that much “re-engineering” has been crude. In many cases, he believes, the loss of revenue has been greater than the reductions in cost. His colleague, Michael Beer, says that far too many companies have applied re-engineering in a mechanistic fashion, chopping out costs without giving sufficient thought to long-term profitability. BBDO’s Al Rosenshine is blunter. He dismisses a lot of the work of re-engineering consultants as mere rubbish -- “the worst sort of ambulance chasing.”"
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Science has long had an uneasy relationship with other aspects of culture. Think of Galileo’s 17th-century trial for his rebelling belief before the Catholic Church or poet William Blake’s harsh remarks against the mechanistic worldview of Isaac Newton. The schism between science and the humanities has, if anything, deepened in this century."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Until recently, the scientific community was so powerful that it could afford to ignore its critics -- but no longer. As funding for science has declined, scientists have attacked “anti-science” in several books, notably Higher Superstition, by Paul R. Gross, a biologist at the University of Virginia, and Norman Levitt, a mathematician at Rutgers University; and The Demon-Haunted World, by Carl Sagan of Cornell University."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Defenders of science have also voiced their concerns at meetings such as “The Flight from Science and Reason,” held in New York City in 1995, and “Science in the Age of (Mis) information,” which assembled last June near Buffalo."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Anti-science clearly means different things to different people. Gross and Levitt find fault primarily with sociologists, philosophers and other academics who have questioned science’s objectivity. Sagan is more concerned with those who believe in ghosts, creationism and other phenomena that contradict the scientific worldview."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "A survey of news stories in 1996 reveals that the anti-science tag has been attached to many other groups as well, from authorities who advocated the elimination of the last remaining stocks of smallpox virus to Republicans who advocated decreased funding for basic research."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Few would dispute that the term applies to the Unabomber, whose manifesto, published in 1995, scorns science and longs for return to a pre-technological utopia. But surely that does not mean environmentalists concerned about uncontrolled industrial growth are anti-science, as an essay in US News & World Report last May seemed to suggest."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "The environmentalists, inevitably, respond to such critics. The true enemies of science, argues Paul Ehrlich of Stanford University, a pioneer of environmental studies, are those who question the evidence supporting global warming, the depletion of the ozone layer and other consequences of industrial growth."
+        },
+        {
+          "id": "p8",
+          "type": "paragraph",
+          "text": "Indeed, some observers fear that the anti-science epithet is in danger of becoming meaningless. “The term ‘anti-science’ can lump together too many, quite different things,” notes Harvard University philosopher Gerald Holton in his 1993 work Science and Anti-Science. “They have in common only one thing that they tend to annoy or threaten those who regard themselves as more enlightened.”"
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Emerging from the 1980 census is the picture of a nation developing more and more regional competition, as population growth in the Northeast and Midwest reaches a near standstill."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "This development -- and its strong implications for US politics and economy in years ahead -- has enthroned the South as America’s most densely populated region for the first time in the history of the nation’s head counting."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Altogether, the US population rose in the 1970s by 23.2 million people -- numerically the third-largest growth ever recorded in a single decade. Even so, that gain adds up to only 11.4 percent, lowest in American annual records except for the Depression years."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Americans have been migrating south and west in larger numbers since World War II, and the pattern still prevails."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Three sun-belt states -- Florida, Texas and California -- together had nearly 10 million more people in 1980 than a decade earlier. Among large cities, San Diego moved from 14th to 8th and San Antonio from 15th to 10th -- with Cleveland and Washington, D.C., dropping out of the top 10."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Not all that shift can be attributed to the movement out of the snow belt, census officials say. Nonstop waves of immigrants played a role, too -- and so did bigger crops of babies as yesterday’s “baby boom” generation reached its child bearing years."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "Moreover, demographers see the continuing shift south and west as joined by a related but newer phenomenon: More and more, Americans apparently are looking not just for places with more jobs but with fewer people, too. Some instances—"
+        },
+        {
+          "id": "p8",
+          "type": "paragraph",
+          "text": "■Regionally, the Rocky Mountain states reported the most rapid growth rate -- 37.1 percent since 1970 in a vast area with only 5 percent of the US population."
+        },
+        {
+          "id": "p9",
+          "type": "paragraph",
+          "text": "■Among states, Nevada and Arizona grew fastest of all: 63.5 and 53.1 percent respectively. Except for Florida and Texas, the top 10 in rate of growth is composed of Western states with 7.5 million people -- about 9 per square mile."
+        },
+        {
+          "id": "p10",
+          "type": "paragraph",
+          "text": "The flight from overcrowdedness affects the migration from snow belt to more bearable climates."
+        },
+        {
+          "id": "p11",
+          "type": "paragraph",
+          "text": "Nowhere do 1980 census statistics dramatize more the American search for spacious living than in the Far West. There, California added 3.7 million to its population in the 1970s, more than any other state."
+        },
+        {
+          "id": "p12",
+          "type": "paragraph",
+          "text": "In that decade, however, large numbers also migrated from California, mostly to other parts of the West. Often they chose -- and still are choosing -- somewhat colder climates such as Oregon, Idaho and Alaska in order to escape smog, crime and other plagues of urbanization in the Golden State."
+        },
+        {
+          "id": "p13",
+          "type": "paragraph",
+          "text": "As a result, California’s growth rate dropped during the 1970s, to 18.5 percent -- little more than two thirds the 1960s’ growth figure and considerably below that of other Western states."
+        }
+      ]
+    },
+    {
+      "id": "reading-text5",
+      "title": "Text 5",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Scattered around the globe are more than 100 small regions of isolated volcanic activity known to geologists as hot spots. Unlike most of the world’s volcanoes, they are not always found at the boundaries of the great drifting plates that make up the earth’s surface; on the contrary, many of them lie deep in the interior of a plate. Most of the hot spots move only slowly, and in some cases the movement of the plates past them has left trails of dead volcanoes. The hot spots and their volcanic trails are milestones that mark the passage of the plates."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "That the plates are moving is now beyond dispute. Africa and South America, for example, are moving away from each other as new material is injected into the sea floor between them. The complementary coastlines and certain geological features that seem to span the ocean are reminders of where the two continents were once joined. The relative motion of the plates carrying these continents has been constructed in detail, but the motion of one plate with respect to another cannot readily be translated into motion with respect to the earth’s interior. It is not possible to determine whether both continents are moving in opposite directions or whether one continent is stationary and the other is drifting away from it. Hot spots, anchored in the deeper layers of the earth, provide the measuring instruments needed to resolve the question. From an analysis of the hot-spot population it appears that the African plate is stationary and that it has not moved during the past 30 million years."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The significance of hot spots is not confined to their role as a frame of reference. It now appears that they also have an important influence on the geophysical processes that propel the plates across the globe. When a continental plate come to rest over a hot spot, the material rising from deeper layers creates a broad dome. As the dome grows, it develops deep fissures (cracks); in at least a few cases the continent may break entirely along some of these fissures, so that the hot spot initiates the formation of a new ocean. Thus just as earlier theories have explained the mobility of the continents, so hot spots may explain their mutability (inconstancy)."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Part III · 英译汉原文",
+      "section": "Part III · 英译汉",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "They were, by far, the largest and most distant objects that scientists had ever detected: a strip of enormous cosmic clouds some 15 billion light-years from earth. 【31】But even more important, it was the farthest that scientists had been able to look into the past, for what they were seeing were the patterns and structures that existed 15 billion years ago. That was just about the moment that the universe was born. What the researchers found was at once both amazing and expected: the US National Aeronautics and Space Administration’s Cosmic Background Explorer satellite -- Cobe -- had discovered landmark evidence that the universe did in fact begin with the primeval explosion that has become known as the Big Bang (the theory that the universe originated in an explosion from a single mass of energy)."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "【32】The existence of the giant clouds was virtually required for the Big Bang, first put forward in the 1920s, to maintain its reign as the dominant explanation of the cosmos. According to the theory, the universe burst into being as a submicroscopic, unimaginably dense knot of pure energy that flew outward in all directions, emitting radiation as it went, condensing into particles and then into atoms of gas. Over billions of years, the gas was compressed by gravity into galaxies, stars, plants and eventually, even humans."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Cobe is designed to see just the biggest structures, but astronomers would like to see much smaller hot spots as well, the seeds of local objects like clusters and superclusters of galaxies. They shouldn’t have long to wait. 【33】Astrophysicists working with ground-based detectors at the South Pole and balloon-borne instruments are closing in on such structures, and may report their findings soon."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "【34】If the small hot spots look as expected, that will be a triumph for yet another scientific idea, a refinement of the Big Bang called the inflationary universe theory. Inflation says that very early on, the universe expanded in size by more than a trillion trillion trillion trillion fold in much less than a second, propelled by a sort of antigravity. 【35】Odd though it sounds, cosmic inflation is a scientifically plausible consequence of some respected ideas in elementary particle physics, and many astrophysicists have been convinced for the better part of a decade that it is true."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "admitted" },
+        { "id": "c1-b", "text": "believed" },
+        { "id": "c1-c", "text": "claimed" },
+        { "id": "c1-d", "text": "predicted" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-a"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-02",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "plain" },
+        { "id": "c2-b", "text": "average" },
+        { "id": "c2-c", "text": "mean" },
+        { "id": "c2-d", "text": "normal" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-b"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-03",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "momentary" },
+        { "id": "c3-b", "text": "prompt" },
+        { "id": "c3-c", "text": "instant" },
+        { "id": "c3-d", "text": "immediate" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-d"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-04",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "bulk" },
+        { "id": "c4-b", "text": "host" },
+        { "id": "c4-c", "text": "gross" },
+        { "id": "c4-d", "text": "magnitude" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-a"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-05",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "On" },
+        { "id": "c5-b", "text": "With" },
+        { "id": "c5-c", "text": "For" },
+        { "id": "c5-d", "text": "By" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-d"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-06",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "broadly" },
+        { "id": "c6-b", "text": "thoroughly" },
+        { "id": "c6-c", "text": "generally" },
+        { "id": "c6-d", "text": "completely" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-d"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-07",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "however" },
+        { "id": "c7-b", "text": "meanwhile" },
+        { "id": "c7-c", "text": "therefore" },
+        { "id": "c7-d", "text": "moreover" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-a"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-08",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "at" },
+        { "id": "c8-b", "text": "in" },
+        { "id": "c8-c", "text": "about" },
+        { "id": "c8-d", "text": "for" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-b"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-09",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "manifested" },
+        { "id": "c9-b", "text": "approved" },
+        { "id": "c9-c", "text": "shown" },
+        { "id": "c9-d", "text": "speculated" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-c"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-10",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "noted" },
+        { "id": "c10-b", "text": "impressed" },
+        { "id": "c10-c", "text": "labeled" },
+        { "id": "c10-d", "text": "marked" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-d"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "t1-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The third sentence of Paragraph 1 implies that",
+      "options": [
+        { "id": "t1-q1-a", "text": "people would be happy if they shut their eyes to reality" },
+        { "id": "t1-q1-b", "text": "the blind could be happier than the sighted" },
+        { "id": "t1-q1-c", "text": "over-excited people tend to neglect vital things" },
+        { "id": "t1-q1-d", "text": "fascination makes people lose their eyesight" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q1-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "In Paragraph 5, “the powerless” probably refers to",
+      "options": [
+        { "id": "t1-q2-a", "text": "areas short of electricity" },
+        { "id": "t1-q2-b", "text": "dams without power stations" },
+        { "id": "t1-q2-c", "text": "poor countries around India" },
+        { "id": "t1-q2-d", "text": "common people in the Narmada Dam area" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q2-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "What is the myth concerning giant dams?",
+      "options": [
+        { "id": "t1-q3-a", "text": "They bring in more fertile soil." },
+        { "id": "t1-q3-b", "text": "They help defend the country." },
+        { "id": "t1-q3-c", "text": "They strengthen international ties." },
+        { "id": "t1-q3-d", "text": "They have universal control of the waters." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q3-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "What the author tries to suggest may best be interpreted as",
+      "options": [
+        { "id": "t1-q4-a", "text": "“It’s no use crying over spilt milk”" },
+        { "id": "t1-q4-b", "text": "“More haste, less speed”" },
+        { "id": "t1-q4-c", "text": "“Look before you leap”" },
+        { "id": "t1-q4-d", "text": "“He who laughs last laughs best”" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q4-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "According to the author, the American economic situation is",
+      "options": [
+        { "id": "t2-q1-a", "text": "not as good as it seems" },
+        { "id": "t2-q1-b", "text": "at its turning point" },
+        { "id": "t2-q1-c", "text": "much better than it seems" },
+        { "id": "t2-q1-d", "text": "near to complete recovery" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q1-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The official statistics on productivity growth",
+      "options": [
+        { "id": "t2-q2-a", "text": "exclude the usual rebound in a business cycle" },
+        { "id": "t2-q2-b", "text": "fall short of businessmen’s anticipation" },
+        { "id": "t2-q2-c", "text": "meet the expectation of business people" },
+        { "id": "t2-q2-d", "text": "fail to reflect the true state of economy" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q2-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The author raises the question “what about pain without gain?” because",
+      "options": [
+        { "id": "t2-q3-a", "text": "he questions the truth of “no gain without pain”" },
+        { "id": "t2-q3-b", "text": "he does not think the productivity revolution works" },
+        { "id": "t2-q3-c", "text": "he wonders if the official statistics are misleading" },
+        { "id": "t2-q3-d", "text": "he has conclusive evidence for the revival of businesses" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q3-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Which of the following statements is NOT mentioned in the passage?",
+      "options": [
+        { "id": "t2-q4-a", "text": "Radical reforms are essential for the increase of productivity." },
+        { "id": "t2-q4-b", "text": "New ways of organizing workplaces may help to increase productivity." },
+        { "id": "t2-q4-c", "text": "The reduction of costs is not a sure way to gain long-term profitability." },
+        { "id": "t2-q4-d", "text": "The consultants are a bunch of good-for-nothings." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q4-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The word “schism” (Line 4, Paragraph 1) in the context probably means",
+      "options": [
+        { "id": "t3-q1-a", "text": "confrontation" },
+        { "id": "t3-q1-b", "text": "dissatisfaction" },
+        { "id": "t3-q1-c", "text": "separation" },
+        { "id": "t3-q1-d", "text": "contempt" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q1-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Paragraphs 2 and 3 are written to",
+      "options": [
+        { "id": "t3-q2-a", "text": "discuss the cause of the decline of science’s power" },
+        { "id": "t3-q2-b", "text": "show the author’s sympathy with scientists" },
+        { "id": "t3-q2-c", "text": "explain the way in which science develops" },
+        { "id": "t3-q2-d", "text": "exemplify the division of science and the humanities" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q2-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Which of the following is true according to the passage?",
+      "options": [
+        { "id": "t3-q3-a", "text": "Environmentalists were blamed for anti-science in an essay." },
+        { "id": "t3-q3-b", "text": "Politicians are not subject to the labeling of anti-science." },
+        { "id": "t3-q3-c", "text": "The “more enlightened” tend to tag others as anti-science." },
+        { "id": "t3-q3-d", "text": "Tagging environmentalists as “anti-science” is justifiable." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q3-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The author’s attitude toward the issue of “science vs. anti-science” is",
+      "options": [
+        { "id": "t3-q4-a", "text": "impartial" },
+        { "id": "t3-q4-b", "text": "subjective" },
+        { "id": "t3-q4-c", "text": "biased" },
+        { "id": "t3-q4-d", "text": "puzzling" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q4-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Discerned from the perplexing picture of population growth the 1980 census provided, America in 1970s",
+      "options": [
+        { "id": "t4-q1-a", "text": "enjoyed the lowest net growth of population in history" },
+        { "id": "t4-q1-b", "text": "witnessed a southwestern shift of population" },
+        { "id": "t4-q1-c", "text": "underwent an unparalleled period of population growth" },
+        { "id": "t4-q1-d", "text": "brought to a standstill its pattern of migration since World War II" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q1-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The census distinguished itself from previous studies on population movement in that",
+      "options": [
+        { "id": "t4-q2-a", "text": "it stresses the climatic influence on population distribution" },
+        { "id": "t4-q2-b", "text": "it highlights the contribution of continuous waves of immigrants" },
+        { "id": "t4-q2-c", "text": "it reveals the Americans’ new pursuit of spacious living" },
+        { "id": "t4-q2-d", "text": "it elaborates the delayed effects of yesterday’s “baby boom”" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q2-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "We can see from the available statistics that",
+      "options": [
+        { "id": "t4-q3-a", "text": "California was once the most thinly populated area in the whole US" },
+        { "id": "t4-q3-b", "text": "the top 10 states in growth rate of population were all located in the West" },
+        { "id": "t4-q3-c", "text": "cities with better climates benefited unanimously from migration" },
+        { "id": "t4-q3-d", "text": "Arizona ranked second of all states in its growth rate of population" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q3-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The word “demographers” (Line 1, Paragraph 8) most probably means",
+      "options": [
+        { "id": "t4-q4-a", "text": "people in favor of the trend of democracy" },
+        { "id": "t4-q4-b", "text": "advocates of migration between states" },
+        { "id": "t4-q4-c", "text": "scientists engaged in the study of population" },
+        { "id": "t4-q4-d", "text": "conservatives clinging to old patterns of life" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q4-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "The author believes that",
+      "options": [
+        { "id": "t5-q1-a", "text": "the motion of the plates corresponds to that of the earth’s interior" },
+        { "id": "t5-q1-b", "text": "the geological theory about drifting plates has been proved to be true" },
+        { "id": "t5-q1-c", "text": "the hot spots and the plates move slowly in opposite directions" },
+        { "id": "t5-q1-d", "text": "the movement of hot spots proves the continents are moving apart" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q1-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "That Africa and South America were once joined can be deduced from the fact that",
+      "options": [
+        { "id": "t5-q2-a", "text": "the two continents are still moving in opposite directions" },
+        { "id": "t5-q2-b", "text": "they have been found to share certain geological features" },
+        { "id": "t5-q2-c", "text": "the African plate has been stable for 30 million years" },
+        { "id": "t5-q2-d", "text": "over 100 hot spots are scattered all around the globe" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q2-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "The hot spot theory may prove useful in explaining",
+      "options": [
+        { "id": "t5-q3-a", "text": "the structure of the African plates" },
+        { "id": "t5-q3-b", "text": "the revival of dead volcanoes" },
+        { "id": "t5-q3-c", "text": "the mobility of the continents" },
+        { "id": "t5-q3-d", "text": "the formation of new oceans" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q3-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "The passage is mainly about",
+      "options": [
+        { "id": "t5-q4-a", "text": "the features of volcanic activities" },
+        { "id": "t5-q4-b", "text": "the importance of the theory about drifting plates" },
+        { "id": "t5-q4-c", "text": "the significance of hot spots in geophysical studies" },
+        { "id": "t5-q4-d", "text": "the process of the formation of volcanoes" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q4-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "tr-31",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "But even more important, it was the farthest that scientists had been able to look into the past, for what they were seeing were the patterns and structures that existed 15 billion years ago.",
+      "answer_key": { "reference_text": "更为重要的是，这是科学家们能够观测到的最遥远的过去的景象，因为他们看到的是150亿年前宇宙云的形状和结构。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-32",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The existence of the giant clouds was virtually required for the Big Bang, first put forward in the 1920s, to maintain its reign as the dominant explanation of the cosmos.",
+      "answer_key": { "reference_text": "巨大的宇宙云的存在，实际上是20年代首创的大爆炸论得以保持其宇宙起源论的主导地位不可缺少的。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-33",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Astrophysicists working with ground-based detectors at the South Pole and balloon-borne instruments are closing in on such structures, and may report their findings soon.",
+      "answer_key": { "reference_text": "天体物理学家使用南极陆基探测器和球载仪器，正在越来越近地观测这些云系，也许不久会报告他们的观测结果。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-34",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "If the small hot spots look as expected, that will be a triumph for yet another scientific idea, a refinement of the Big Bang called the inflationary universe theory.",
+      "answer_key": { "reference_text": "假如这些小热点看上去同预计的一致，那就意味着又一种科学论说的胜利，这种论说即更完美的大爆炸论，亦称宇宙膨胀说。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-35",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Odd though it sounds, cosmic inflation is a scientifically plausible consequence of some respected ideas in elementary particle physics, and many astrophysicists have been convinced for the better part of a decade that it is true.",
+      "answer_key": { "reference_text": "宇宙膨胀说虽然听似奇特，但是它是基本粒子物理学中一些公认的理论产生的在科学上看来似乎可信的结论。许多天体物理学家近十年来一直确信这一论说是正确的。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "writing-36",
+      "section": "Section IV · 短文写作",
+      "type": "free_text",
+      "stem": "A. Study the following cartoon carefully and write an essay in no less than 150 words.\nB. Your essay must be written clearly on the ANSWER SHEET 2. (15 points)\nC. Your essay should meet the requirements below:\n1. Write out the messages conveyed by the cartoon.\n2. Give your comments.\n图中一只母鸡举着告示，承诺“本鸡下蛋不见棱不见角；保证有蛋皮、蛋黄和蛋清”。旁边有打油诗：“如此承诺 各行各业兴承诺 欢迎监督不推托 原本皆为份内事 何须高唱‘文明歌’”。",
+      "images": ["images/1998/18bcbfa391dfb8e9e26600a7167a0868920c417b0546252b3bb2cf595d84a05b.jpg"],
+      "answer_key": { "reference_text": "Whoever sees this cartoon can’t help laughing. How funny it is— A hen is holding a notice promising that her eggs would be round and surely would contain everything a normal egg contains. But at second thought, it is anything but funny because the picture reveals a prevalent phenomenon in our society: Many of these promises are meaningless since the promise provided is nothing but the normal responsibility of the promise maker.\n\nOdd and funny as they sound, such false promises are so prevalent that we cannot afford to ignore them. Manufacturing units guarantee to turn out products of good quality; commercial enterprises swear to provide genuine commodities and enthusiastic services; administration departments assure to perform their tasks effectively and fairly without taking any bribery. As a matter of fact, these cannot be called promises at all since they are no more than their normal duties and obligations. It seems that we should be grateful to them because they just do what they are supposed to do.\n\nI dare say these empty promises are causing great damage to our society both materially and morally. But the hen and her likes should know that by dishonest words no one could survive the intense competition under market economy system. People engaged in providing all kinds of services should honestly inform their customers of the service that they can enjoy because mutual trust is the foundation of business. They should remember the old saying, “Honesty is the best policy.” On the other hand, necessary laws and regulations should be adopted and enforced to ensure a trust worthy economic and social environment. Only in this way, can both parties, service providers and those served, enjoy a healthy atmosphere of mutual trust." },
+      "max_score_units": 1500,
+      "tags": ["短文写作"]
+    }
+  ]
+}

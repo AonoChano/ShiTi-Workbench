@@ -1,0 +1,1213 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2008,
+    "paper": "英语一",
+    "title": "2008年全国硕士研究生招生考试英语（一）试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2008.md",
+    "source_images": "TestPaper/images/2008/",
+    "converted_by": "Assistant（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "2008年新题型为7选5；大作文配图已填写。完形填空第3空原文为 works independently3 any institution，已改为 __3__。翻译原文划线句标记为【46】-【50】。"
+  },
+  "set": {
+    "title": "2008年全国硕士研究生招生考试英语（一）试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · 完形填空",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark [A], [B], [C] or [D] on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 阅读理解 Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions below each text by choosing [A], [B], [C] or [D]. Mark your answers on ANSWER SHEET 1. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · 新题型 Part B",
+      "part": "Section II · Part B",
+      "title": "新题型",
+      "directions": [
+        "In the following text, some segments have been removed. For Questions 41-45, choose the most suitable one from the list A-G to fit into each of the numbered blanks. There are two extra choices, which do not fit in any of the blanks. Mark your answers on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 翻译 Part C",
+      "part": "Section II · Part C",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written neatly on ANSWER SHEET 2. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part A",
+      "part": "Section III · Part A",
+      "title": "应用文写作",
+      "directions": [
+        "You have just come back from Canada and found a music CD in your luggage that you forgot to return to Bob, your landlord there. Write him a letter to",
+        "1) make an apology, and",
+        "2) suggest a solution.",
+        "You should write about 100 words on ANSWER SHEET 2.",
+        "Do not sign your own name at the end of the letter. Use “Li Ming” instead.",
+        "Do not write the address. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part B",
+      "part": "Section III · Part B",
+      "title": "短文写作",
+      "directions": [
+        "Write an essay of 160-200 words based on the following drawing. In your essay, you should",
+        "1) describe the drawing briefly,",
+        "2) explain its intended meaning, and then",
+        "3) give your comments.",
+        "You should write neatly on ANSWER SHEET 2. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · 完形填空",
+      "source_ref": "2008.md Section I",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The idea that some groups of people may be more intelligent than others is one of those hypotheses that dare not speak its name. But Gregory Cochran is __1__ to say it anyway. He is that __2__ bird, a scientist who works independently __3__ any institution. He helped popularize the idea that some diseases not __4__ thought to have a bacteria cause were actually infections, which aroused much controversy when it was first suggested."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "__5__ he, however, might tremble at the __6__ of what he is about to do. Together with another two scientists, he is publishing a paper which not only __7__ that one group of humanity is more intelligent than the others, but explains the process that has brought this about. The group in __8__ are a particular people originated from central Europe. The process is natural selection."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "This group generally do well in IQ test, __9__ 12-15 points above the __10__ value of 100, and have contributed __11__ to the intellectual and cultural life of the West, as the __12__ of their elites, including several world-renowned scientists, __13__. They also suffer more often than most people from a number of nasty genetic diseases, such as breast cancer. These facts, __14__, have previously been thought unrelated. The former has been __15__ to social effects, such as a strong tradition of __16__ education. The latter was seen as a (an) __17__ of genetic isolation. Dr. Cochran suggests that the intelligence and diseases are intimately __18__. His argument is that the unusual history of these people has __19__ them to unique evolutionary pressures that have resulted in this __20__ state of affairs."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2008.md Text 1",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "While still catching up to men in some spheres of modern life, women appear to be way ahead in at least one undesirable category. “Women are particularly susceptible to developing depression and anxiety disorders in response to stress compared to men,” according to Dr. Yehuda, chief psychiatrist at New York’s Veteran’s Administration Hospital."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Studies of both animals and humans have shown that sex hormones somehow affect the stress response, causing females under stress to produce more of the trigger chemicals than do males under the same conditions. In several of the studies, when stressed-out female rats had their ovaries (the female reproductive organs) removed, their chemical responses became equal to those of the males."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Adding to a woman’s increased dose of stress chemicals, are her increased “opportunities” for stress. “It’s not necessarily that women don’t cope as well. It’s just that they have so much more to cope with,” says Dr. Yehuda. “Their capacity for tolerating stress may even be greater than men’s,” she observes, “it’s just that they’re dealing with so many more things that they become worn out from it more visibly and sooner.”"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Dr. Yehuda notes another difference between the sexes. “I think that the kinds of things that women are exposed to tend to be in more of a chronic or repeated nature. Men go to war and are exposed to combat stress. Men are exposed to more acts of random physical violence. The kinds of interpersonal violence that women are exposed to tend to be in domestic situations, by, unfortunately, parents or other family members, and they tend not to be one-shot deals. The wear-and-tear that comes from these longer relationships can be quite devastating.”"
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Adeline Alvarez married at 18 and gave birth to a son, but was determined to finish college. “I struggled a lot to get the college degree. I was living in so much frustration that that was my escape, to go to school, and get ahead and do better.” Later, her marriage ended and she became a single mother. “It’s the hardest thing to take care of a teenager, have a job, pay the rent, pay the car payment, and pay the debt. I lived from paycheck to paycheck.”"
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Not everyone experiences the kinds of severe chronic stresses Alvarez describes. But most women today are coping with a lot of obligations, with few breaks, and feeling the strain. Alvarez’s experience demonstrates the importance of finding ways to diffuse stress before it threatens your health and your ability to function."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2008.md Text 2",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "It used to be so straightforward. A team of researchers working together in the laboratory would submit the results of their research to a journal. A journal editor would then remove the author’s names and affiliations from the paper and send it to their peers for review. Depending on the comments received, the editor would accept the paper for publication or decline it. Copyright rested with the journal publisher, and researchers seeking knowledge of the results would have to subscribe to the journal."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "No longer. The Internet—and pressure from funding agencies, who are questioning why commercial publishers are making money from government–funded research by restricting access to it—is making access to scientific results a reality. The Organization for Economic Co-operation and Development (OECD) has just issued a report describing the far-reaching consequences of this. The report, by John Houghton of Victoria University in Australia and Graham Vickery of the OECD, makes heavy reading for publishers who have, so far, made handsome profits. But it goes further than that. It signals a change in what has, until now, been a key element of scientific endeavor."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The value of knowledge and the return on the public investment in research depends, in part, upon wide distribution and ready access. It is big business. In America, the core scientific publishing market is estimated at between $7 billion and $11 billion. The International Association of Scientific, Technical and Medical Publishers says that there are more than 2,000 publishers worldwide specializing in these subjects. They publish more than 1.2 million articles each year in some 16,000 journals."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "This is now changing. According to the OECD report, some 75% of scholarly journals are now online. Entirely new business models are emerging; three main ones were identified by the report’s authors. There is the so-called big deal, where institutional subscribers pay for access to a collection of online journal titles through site-licensing agreements. There is open-access publishing, typically supported by asking the author (or his employer) to pay for the paper to be published. Finally, there are open-access archives, where organizations such as universities or international laboratories support institutional repositories. Other models exist that are hybrids of these three, such as delayed open-access, where journals allow only subscribers to read a paper for the first six months, before making it freely available to everyone who wishes to see it. All this could change the traditional form of the peer-review process, at least for the publication of papers."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2008.md Text 3",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In the early 1960s Wilt Chamberlain was one of the only three players in the National Basketball Association (NBA) listed at over seven feet. If he had played last season, however, he would have been one of 42. The bodies playing major professional sports have changed dramatically over the years, and managers have been more than willing to adjust team uniforms to fit the growing numbers of bigger, longer frames."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The trend in sports, though, may be obscuring an unrecognized reality: Americans have generally stopped growing. Though typically about two inches taller now than 140 years ago, today’s people—especially those born to families who have lived in the U.S. for many generations—apparently reached their limit in the early 1960s. And they aren’t likely to get any taller. “In the general population today, at this genetic, environmental level, we’ve pretty much gone as far as we can go,” says anthropologist William Cameron Chumlea of Wright State University. In the case of NBA players, their increase in height appears to result from the increasingly common practice of recruiting players from all over the world."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Growth, which rarely continues beyond the age of 20, demands calories and nutrients—notably, protein—to feed expanding tissues. At the start of the 20th century, under-nutrition and childhood infections got in the way. But as diet and health improved, children and adolescents have, on average, increased in height by about an inch and a half every 20 years, a pattern known as the secular trend in height. Yet according to the Centers for Disease Control and Prevention, average height—5'9\" for men, 5'4\" for women—hasn’t really changed since 1960."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Genetically speaking, there are advantages to avoiding substantial height. During childbirth, larger babies have more difficulty passing through the birth canal. Moreover, even though humans have been upright for millions of years, our feet and back continue to struggle with bipedal posture and cannot easily withstand repeated strain imposed by oversize limbs. “There are some real constraints that are set by the genetic architecture of the individual organism,” says anthropologist William Leonard of Northwestern University."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Genetic maximums can change, but don’t expect this to happen soon. Claire C. Gordon, senior anthropologist at the Army Research Center in Natick, Mass., ensures that 90 percent of the uniforms and workstations fit recruits without alteration. She says that, unlike those for basketball, the length of military uniforms has not changed for some time. And if you need to predict human height in the near future to design a piece of equipment, Gordon says that by and large, “you could use today's data and feel fairly confident.”"
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2008.md Text 4",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In 1784, five years before he became president of the United States, George Washington, 52, was nearly toothless. So he hired a dentist to transplant nine teeth into his jaw—having extracted them from the mouths of his slaves."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "That’s a far different image from the cherry-tree-chopping George most people remember from their history books. But recently, many historians have begun to focus on the role slavery played in the lives of the founding generation. They have been spurred in part by DNA evidence made available in 1998, which almost certainly proved Thomas Jefferson had fathered at least one child with his slave Sally Hemings. And only over the past 30 years have scholars examined history from the bottom up. Works of several historians reveal the moral compromises made by the nation’s early leaders and the fragile nature of the country’s infancy. More significant, they argue that many of the Founding Fathers knew slavery was wrong—and yet most did little to fight it."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "More than anything, the historians say, the founders were hampered by the culture of their time. While Washington and Jefferson privately expressed distaste for slavery, they also understood that it was part of the political and economic bedrock of the country they helped to create."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "For one thing, the South could not afford to part with its slaves. Owning slaves was “like having a large bank account,” says Wiencek, author of An Imperfect God: George Washington, His Slaves, and the Creation of America. The southern states would not have signed the Constitution without protections for the “peculiar institution,” including a clause that counted a slave as three fifths of a man for purposes of congressional representation."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "And the statesmen’s political lives depended on slavery. The three-fifths formula handed Jefferson his narrow victory in the presidential election of 1800 by inflating the votes of the southern states in the Electoral College. Once in office, Jefferson extended slavery with the Louisiana Purchase in 1803; the new land was carved into 13 states, including three slave states."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Still, Jefferson freed Hemings’s children—though not Hemings herself or his approximately 150 other slaves. Washington, who had begun to believe that all men were created equal after observing the bravery of the black soldiers during the Revolutionary War, overcame the strong opposition of his relatives to grant his slaves their freedom in his will. Only a decade earlier, such an act would have required legislative approval in Virginia."
+        }
+      ]
+    },
+    {
+      "id": "newtype",
+      "title": "Section II · 新题型 Part B 短文",
+      "section": "Section II · 新题型 Part B",
+      "source_ref": "2008.md Part B",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The time for sharpening pencils, arranging your desk, and doing almost anything else instead of writing has ended. The first draft will appear on the page only if you stop avoiding the inevitable and sit, stand up, or lie down to write. __41__"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Be flexible. Your outline should smoothly conduct you from one point to the next, but do not permit it to railroad you. If a relevant and important idea occurs to you now, work it into the draft. __42__ Grammar, punctuation, and spelling can wait until you revise. Concentrate on what you are saying. Good writing most often occurs when you are in hot pursuit of an idea rather than in a nervous search for errors."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "__43__ Your pages will be easier to keep track of that way, and, if you have to clip a paragraph to place it elsewhere, you will not lose any writing on either side."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "If you are working on a word processor, you can take advantage of its capacity to make additions and deletions as well as move entire paragraphs by making just a few simple keyboard commands. Some software programs can also check spelling and certain grammatical elements in your writing. __44__ These printouts are also easier to read than the screen when you work on revisions."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Once you have a first draft on paper, you can delete material that is unrelated to your thesis and add material necessary to illustrate your points and make your paper convincing. The student who wrote “The A&P as a State of Mind” wisely dropped a paragraph that questioned whether Sammy displays chauvinistic attitudes toward women. __45__"
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Remember that your initial draft is only that. You should go through the paper many times— and then again—working to substantiate and clarify your ideas. You may even end up with several entire versions of the paper. Rewrite. The sentences within each paragraph should be related to a single topic. Transitions should connect one paragraph to the next so that there are no abrupt or confusing shifts. Awkward or wordy phrasing or unclear sentences and paragraphs should be mercilessly poked and prodded into shape."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · 翻译 Part C 原文",
+      "section": "Section II · 翻译 Part C",
+      "source_ref": "2008.md Part C",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In his autobiography, Darwin himself speaks of his intellectual powers with extraordinary modesty. He points out that he always experienced much difficulty in expressing himself clearly and concisely, but 【46】he believes that this very difficulty may have had the compensating advantage of forcing him to think long and intently about every sentence, and thus enabling him to detect errors in reasoning and in his own observations. He disclaimed the possession of any great quickness of apprehension or wit, such as distinguished Huxley. 【47】He asserted, also, that his power to follow a long and purely abstract train of thought was very limited, for which reason he felt certain that he never could have succeeded with mathematics. His memory, too, he described as extensive, but hazy. So poor in one sense was it that he never could remember for more than a few days a single date or a line of poetry."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "【48】On the other hand, he did not accept as well founded the charge made by some of his critics that, while he was a good observer, he had no power of reasoning. This, he thought, could not be true, because the “Origin of Species” is one long argument from the beginning to the end, and has convinced many able men. No one, he submits, could have written it without possessing some power of reasoning. He was willing to assert that “I have a fair share of invention, and of common sense or judgment, such as every fairly successful lawyer or doctor must have, but not, I believe, in any higher degree.” 【49】He adds humbly that perhaps he was “superior to the common run of men in noticing things which easily escape attention, and in observing them carefully.”"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Writing in the last year of his life, he expressed the opinion that in two or three respects his mind had changed during the preceding twenty or thirty years. Up to the age of thirty or beyond it poetry of many kinds gave him great pleasure. Formerly, too, pictures had given him considerable, and music very great, delight. In 1881, however, he said: “Now for many years I cannot endure to read a line of poetry. I have also almost lost my taste for pictures or music.” 【50】Darwin was convinced that the loss of these tastes was not only a loss of happiness, but might possibly be injurious to the intellect, and more probably to the moral character."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "selected" },
+        { "id": "c1-b", "text": "prepared" },
+        { "id": "c1-c", "text": "obliged" },
+        { "id": "c1-d", "text": "pleased" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-b"] },
+      "explanation": "be prepared to do sth. 表示“愿意做某事”。",
+      "max_score_units": 50,
+      "source_ref": "第1空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "unique" },
+        { "id": "c2-b", "text": "particular" },
+        { "id": "c2-c", "text": "special" },
+        { "id": "c2-d", "text": "rare" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-d"] },
+      "explanation": "a rare bird 是固定搭配，指“稀有的人，特立独行的人”。",
+      "max_score_units": 50,
+      "source_ref": "第2空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "of" },
+        { "id": "c3-b", "text": "with" },
+        { "id": "c3-c", "text": "in" },
+        { "id": "c3-d", "text": "against" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-a"] },
+      "explanation": "independently of 表示“独立于……”。",
+      "max_score_units": 50,
+      "source_ref": "第3空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "subsequently" },
+        { "id": "c4-b", "text": "presently" },
+        { "id": "c4-c", "text": "previously" },
+        { "id": "c4-d", "text": "lately" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-c"] },
+      "explanation": "以前被认为不是由细菌引起的疾病，previously 正确。",
+      "max_score_units": 50,
+      "source_ref": "第4空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "Only" },
+        { "id": "c5-b", "text": "So" },
+        { "id": "c5-c", "text": "Even" },
+        { "id": "c5-d", "text": "Hence" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-c"] },
+      "explanation": "Even 表示递进，“即使是他，也可能……”。",
+      "max_score_units": 50,
+      "source_ref": "第5空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "thought" },
+        { "id": "c6-b", "text": "sight" },
+        { "id": "c6-c", "text": "cost" },
+        { "id": "c6-d", "text": "risk" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-a"] },
+      "explanation": "at the thought of 表示“一想到……”。",
+      "max_score_units": 50,
+      "source_ref": "第6空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "advises" },
+        { "id": "c7-b", "text": "suggests" },
+        { "id": "c7-c", "text": "protests" },
+        { "id": "c7-d", "text": "objects" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-b"] },
+      "explanation": "论文表明/提出一个观点，suggests 正确。",
+      "max_score_units": 50,
+      "source_ref": "第7空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "progress" },
+        { "id": "c8-b", "text": "fact" },
+        { "id": "c8-c", "text": "need" },
+        { "id": "c8-d", "text": "question" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-d"] },
+      "explanation": "in question 表示“正被讨论的”。",
+      "max_score_units": 50,
+      "source_ref": "第8空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "attaining" },
+        { "id": "c9-b", "text": "scoring" },
+        { "id": "c9-c", "text": "reaching" },
+        { "id": "c9-d", "text": "calculating" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-b"] },
+      "explanation": "得分用 scoring。",
+      "max_score_units": 50,
+      "source_ref": "第9空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "normal" },
+        { "id": "c10-b", "text": "common" },
+        { "id": "c10-c", "text": "mean" },
+        { "id": "c10-d", "text": "total" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-c"] },
+      "explanation": "mean value 表示“平均值”。",
+      "max_score_units": 50,
+      "source_ref": "第10空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        { "id": "c11-a", "text": "unconsciously" },
+        { "id": "c11-b", "text": "disproportionately" },
+        { "id": "c11-c", "text": "indefinitely" },
+        { "id": "c11-d", "text": "unaccountably" }
+      ],
+      "answer_key": { "selected_option_ids": ["c11-b"] },
+      "explanation": "不成比例地做出巨大贡献，disproportionately 正确。",
+      "max_score_units": 50,
+      "source_ref": "第11空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        { "id": "c12-a", "text": "missions" },
+        { "id": "c12-b", "text": "fortunes" },
+        { "id": "c12-c", "text": "interests" },
+        { "id": "c12-d", "text": "careers" }
+      ],
+      "answer_key": { "selected_option_ids": ["c12-d"] },
+      "explanation": "他们精英的事业，careers 正确。",
+      "max_score_units": 50,
+      "source_ref": "第12空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        { "id": "c13-a", "text": "affirm" },
+        { "id": "c13-b", "text": "witness" },
+        { "id": "c13-c", "text": "observe" },
+        { "id": "c13-d", "text": "approve" }
+      ],
+      "answer_key": { "selected_option_ids": ["c13-a"] },
+      "explanation": "事实证实了这一点，affirm 正确。",
+      "max_score_units": 50,
+      "source_ref": "第13空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        { "id": "c14-a", "text": "moreover" },
+        { "id": "c14-b", "text": "therefore" },
+        { "id": "c14-c", "text": "however" },
+        { "id": "c14-d", "text": "meanwhile" }
+      ],
+      "answer_key": { "selected_option_ids": ["c14-c"] },
+      "explanation": "前后为转折关系，however 正确。",
+      "max_score_units": 50,
+      "source_ref": "第14空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        { "id": "c15-a", "text": "given up" },
+        { "id": "c15-b", "text": "got over" },
+        { "id": "c15-c", "text": "carried on" },
+        { "id": "c15-d", "text": "put down" }
+      ],
+      "answer_key": { "selected_option_ids": ["c15-d"] },
+      "explanation": "put down to 表示“归因于”。",
+      "max_score_units": 50,
+      "source_ref": "第15空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        { "id": "c16-a", "text": "assessing" },
+        { "id": "c16-b", "text": "supervising" },
+        { "id": "c16-c", "text": "administering" },
+        { "id": "c16-d", "text": "valuing" }
+      ],
+      "answer_key": { "selected_option_ids": ["c16-d"] },
+      "explanation": "重视教育的传统，valuing 正确。",
+      "max_score_units": 50,
+      "source_ref": "第16空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        { "id": "c17-a", "text": "development" },
+        { "id": "c17-b", "text": "origin" },
+        { "id": "c17-c", "text": "consequence" },
+        { "id": "c17-d", "text": "instrument" }
+      ],
+      "answer_key": { "selected_option_ids": ["c17-c"] },
+      "explanation": "遗传隔离的结果，consequence 正确。",
+      "max_score_units": 50,
+      "source_ref": "第17空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        { "id": "c18-a", "text": "linked" },
+        { "id": "c18-b", "text": "integrated" },
+        { "id": "c18-c", "text": "woven" },
+        { "id": "c18-d", "text": "combined" }
+      ],
+      "answer_key": { "selected_option_ids": ["c18-a"] },
+      "explanation": "智力与疾病紧密相关，linked 正确。",
+      "max_score_units": 50,
+      "source_ref": "第18空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        { "id": "c19-a", "text": "limited" },
+        { "id": "c19-b", "text": "subjected" },
+        { "id": "c19-c", "text": "converted" },
+        { "id": "c19-d", "text": "directed" }
+      ],
+      "answer_key": { "selected_option_ids": ["c19-b"] },
+      "explanation": "使他们经受独特的进化压力，subjected to 正确。",
+      "max_score_units": 50,
+      "source_ref": "第19空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        { "id": "c20-a", "text": "paradoxical" },
+        { "id": "c20-b", "text": "incompatible" },
+        { "id": "c20-c", "text": "inevitable" },
+        { "id": "c20-d", "text": "continuous" }
+      ],
+      "answer_key": { "selected_option_ids": ["c20-a"] },
+      "explanation": "高智商与疾病并存是矛盾的，paradoxical 正确。",
+      "max_score_units": 50,
+      "source_ref": "第20空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "t1-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Which of the following is true according to the first two paragraphs?",
+      "options": [
+        { "id": "t1-q1-a", "text": "Women are biologically more vulnerable to stress." },
+        { "id": "t1-q1-b", "text": "Women are still suffering much stress caused by men." },
+        { "id": "t1-q1-c", "text": "Women are more experienced than men in coping with stress." },
+        { "id": "t1-q1-d", "text": "Men and women show different inclinations when faced with stress." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q1-a"] },
+      "explanation": "前两段说明女性在生理上更容易因压力患病。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1-2段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t1-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Dr. Yehuda’s research suggests that women ______",
+      "options": [
+        { "id": "t1-q2-a", "text": "need extra doses of chemicals to handle stress" },
+        { "id": "t1-q2-b", "text": "have limited capacity for tolerating stress" },
+        { "id": "t1-q2-c", "text": "are more capable of avoiding stress" },
+        { "id": "t1-q2-d", "text": "are exposed to more stress" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q2-d"] },
+      "explanation": "女性承受的压力更多。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第3段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t1-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to Paragraph 4, the stress women confront tends to be ______",
+      "options": [
+        { "id": "t1-q3-a", "text": "domestic and temporary" },
+        { "id": "t1-q3-b", "text": "irregular and violent" },
+        { "id": "t1-q3-c", "text": "durable and frequent" },
+        { "id": "t1-q3-d", "text": "trivial and random" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q3-c"] },
+      "explanation": "女性面临的压力倾向于长期和反复。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第4段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t1-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The sentence “I lived from paycheck to paycheck.” (Line 5, Para. 5) shows that ______",
+      "options": [
+        { "id": "t1-q4-a", "text": "Alvarez cared about nothing but making money" },
+        { "id": "t1-q4-b", "text": "Alvarez’s salary barely covered her household expenses" },
+        { "id": "t1-q4-c", "text": "Alvarez got paychecks from different jobs" },
+        { "id": "t1-q4-d", "text": "Alvarez paid practically everything by check" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q4-b"] },
+      "explanation": "说明她的薪水几乎不够家庭开支。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第5段",
+      "tags": ["阅读理解", "推断题"]
+    },
+    {
+      "id": "t1-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Which of the following would be the best title for the text?",
+      "options": [
+        { "id": "t1-q5-a", "text": "Strain of Stress: No Way Out?" },
+        { "id": "t1-q5-b", "text": "Response to Stress: Gender Difference" },
+        { "id": "t1-q5-c", "text": "Stress Analysis: What Chemicals Say?" },
+        { "id": "t1-q5-d", "text": "Gender Inequality: Women Under Stress" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q5-d"] },
+      "explanation": "最佳标题是“性别不平等：压力下的女性”。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 全文",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t2-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "In the first paragraph, the author discusses ______",
+      "options": [
+        { "id": "t2-q1-a", "text": "the background information of journal editing" },
+        { "id": "t2-q1-b", "text": "the publication routine of laboratory reports" },
+        { "id": "t2-q1-c", "text": "the relations of authors with journal publishers" },
+        { "id": "t2-q1-d", "text": "the traditional process of journal publication" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q1-d"] },
+      "explanation": "第一段讨论传统的期刊出版流程。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第1段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t2-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Which of the following is true of the OECD report?",
+      "options": [
+        { "id": "t2-q2-a", "text": "It criticizes government-funded research." },
+        { "id": "t2-q2-b", "text": "It introduces an effective means of publication." },
+        { "id": "t2-q2-c", "text": "It upsets profit-making journal publishers." },
+        { "id": "t2-q2-d", "text": "It benefits scientific research considerably." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q2-c"] },
+      "explanation": "报告让盈利的出版商感到不安。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第2段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t2-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "According to the text, online publication is significant in that ______",
+      "options": [
+        { "id": "t2-q3-a", "text": "it provides an easier access to scientific results" },
+        { "id": "t2-q3-b", "text": "it brings huge profits to scientific researchers" },
+        { "id": "t2-q3-c", "text": "it emphasizes the crucial role of scientific knowledge" },
+        { "id": "t2-q3-d", "text": "it facilitates public investment in scientific research" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q3-a"] },
+      "explanation": "网络出版使获取科研成果更容易。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第2段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t2-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "With the open-access publishing model, the author of a paper is required to ______",
+      "options": [
+        { "id": "t2-q4-a", "text": "bear the cost of publication" },
+        { "id": "t2-q4-b", "text": "subscribe to the journal" },
+        { "id": "t2-q4-c", "text": "allow other online journals to use it freely" },
+        { "id": "t2-q4-d", "text": "complete peer review before submission" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q4-a"] },
+      "explanation": "开放存取出版模式要求作者支付出版费用。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第4段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t2-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Which of the following best summarizes the text?",
+      "options": [
+        { "id": "t2-q5-a", "text": "The Internet is posing a threat to publishers." },
+        { "id": "t2-q5-b", "text": "A new mode of publication is emerging." },
+        { "id": "t2-q5-c", "text": "Authors welcome the new channel for publication." },
+        { "id": "t2-q5-d", "text": "Publication is rendered easily by online service." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q5-b"] },
+      "explanation": "全文主旨是新的出版模式正在出现。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 全文",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t3-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Wilt Chamberlain is cited as an example to ______",
+      "options": [
+        { "id": "t3-q1-a", "text": "illustrate the change of height of NBA players" },
+        { "id": "t3-q1-b", "text": "show the popularity of NBA players in the U.S." },
+        { "id": "t3-q1-c", "text": "compare different generations of NBA players" },
+        { "id": "t3-q1-d", "text": "assess the achievements of famous NBA players" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q1-a"] },
+      "explanation": "用张伯伦的例子说明NBA球员身高的变化。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第1段",
+      "tags": ["阅读理解", "例证题"]
+    },
+    {
+      "id": "t3-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Which of the following plays a key role in body growth according to the text?",
+      "options": [
+        { "id": "t3-q2-a", "text": "Genetic modification." },
+        { "id": "t3-q2-b", "text": "Natural environment." },
+        { "id": "t3-q2-c", "text": "Living standards." },
+        { "id": "t3-q2-d", "text": "Daily exercise." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q2-c"] },
+      "explanation": "生活水平（饮食和健康）对身高增长起关键作用。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第3段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t3-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "On which of the following statements would the author most probably agree?",
+      "options": [
+        { "id": "t3-q3-a", "text": "Non-Americans add to the average height of the nation." },
+        { "id": "t3-q3-b", "text": "Human height is conditioned by the upright posture." },
+        { "id": "t3-q3-c", "text": "Americans are the tallest on average in the world." },
+        { "id": "t3-q3-d", "text": "Larger babies tend to become taller in adulthood." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q3-b"] },
+      "explanation": "人类身高受到直立姿势的限制。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第4段",
+      "tags": ["阅读理解", "观点题"]
+    },
+    {
+      "id": "t3-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "We learn from the last paragraph that in the near future ______",
+      "options": [
+        { "id": "t3-q4-a", "text": "the garment industry will reconsider the uniform size" },
+        { "id": "t3-q4-b", "text": "the design of military uniforms will remain unchanged" },
+        { "id": "t3-q4-c", "text": "genetic testing will be employed in selecting sportsmen" },
+        { "id": "t3-q4-d", "text": "the existing data of human height will still be applicable" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q4-d"] },
+      "explanation": "现有身高数据在不久的将来仍然适用。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第5段",
+      "tags": ["阅读理解", "推断题"]
+    },
+    {
+      "id": "t3-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The text intends to tell us that ______",
+      "options": [
+        { "id": "t3-q5-a", "text": "the change of human height follows a cyclic pattern" },
+        { "id": "t3-q5-b", "text": "human height is becoming even more predictable" },
+        { "id": "t3-q5-c", "text": "Americans have reached their genetic growth limit" },
+        { "id": "t3-q5-d", "text": "the genetic pattern of Americans has altered" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q5-c"] },
+      "explanation": "文章主旨是美国人已达到遗传生长极限。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 全文",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t4-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "George Washington’s dental surgery is mentioned to ______",
+      "options": [
+        { "id": "t4-q1-a", "text": "show the primitive medical practice in the past" },
+        { "id": "t4-q1-b", "text": "demonstrate the cruelty of slavery in his days" },
+        { "id": "t4-q1-c", "text": "stress the role of slaves in the U.S. history" },
+        { "id": "t4-q1-d", "text": "reveal some unknown aspect of his life" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q1-d"] },
+      "explanation": "揭示华盛顿生活中不为人知的一面。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第1段",
+      "tags": ["阅读理解", "例证题"]
+    },
+    {
+      "id": "t4-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "We may infer from the second paragraph that ______",
+      "options": [
+        { "id": "t4-q2-a", "text": "DNA technology has been widely applied to history research" },
+        { "id": "t4-q2-b", "text": "in its early days the U.S. was confronted with delicate situations" },
+        { "id": "t4-q2-c", "text": "historians deliberately made up some stories of Jefferson’s life" },
+        { "id": "t4-q2-d", "text": "political compromises are easily found throughout the U.S. history" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q2-b"] },
+      "explanation": "美国早期面临微妙的处境。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第2段",
+      "tags": ["阅读理解", "推断题"]
+    },
+    {
+      "id": "t4-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "What do we learn about Thomas Jefferson?",
+      "options": [
+        { "id": "t4-q3-a", "text": "His political view changed his attitude towards slavery." },
+        { "id": "t4-q3-b", "text": "His status as a father made him free the child slaves." },
+        { "id": "t4-q3-c", "text": "His attitude towards slavery was complex." },
+        { "id": "t4-q3-d", "text": "His affair with a slave stained his prestige." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q3-c"] },
+      "explanation": "杰斐逊对奴隶制的态度是复杂的。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第3段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t4-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Which of the following is true according to the text?",
+      "options": [
+        { "id": "t4-q4-a", "text": "Some Founding Fathers benefit politically from slavery." },
+        { "id": "t4-q4-b", "text": "Slaves in the old days did not have the right to vote." },
+        { "id": "t4-q4-c", "text": "Slave owners usually had large savings accounts." },
+        { "id": "t4-q4-d", "text": "Slavery was regarded as a peculiar institution." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q4-a"] },
+      "explanation": "一些开国元勋在政治上得益于奴隶制。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第5段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t4-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Washington’s decision to free slaves originated from his ______",
+      "options": [
+        { "id": "t4-q5-a", "text": "moral considerations" },
+        { "id": "t4-q5-b", "text": "military experience" },
+        { "id": "t4-q5-c", "text": "financial conditions" },
+        { "id": "t4-q5-d", "text": "political stand" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q5-b"] },
+      "explanation": "华盛顿释放奴隶的决定源于他的军事经历。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第6段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "nt-41",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 41 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences and corrections. Write on only one side of the paper." },
+        { "id": "nt-b", "text": "After you have already and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It’s probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression." },
+        { "id": "nt-c", "text": "It’s worth remembering, however, that though a clean copy fresh off a printer may look terrible, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems." },
+        { "id": "nt-d", "text": "It makes no difference how you write, just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made." },
+        { "id": "nt-e", "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy’s decision to quit his job. Instead of including that paragraph, she added one that described Lengel’s crabbed response to the girls so that she could lead up to the A & P “policy” he enforces." },
+        { "id": "nt-f", "text": "In the final paragraph about the significance of the setting in “A&P” the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel’s store policies." },
+        { "id": "nt-g", "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don’t use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-d"] },
+      "explanation": "D项说写作方式无所谓，只要开始写，与首段末尾衔接。",
+      "max_score_units": 200,
+      "source_ref": "第41空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-42",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 42 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences and corrections. Write on only one side of the paper." },
+        { "id": "nt-b", "text": "After you have already and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It’s probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression." },
+        { "id": "nt-c", "text": "It’s worth remembering, however, that though a clean copy fresh off a printer may look terrible, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems." },
+        { "id": "nt-d", "text": "It makes no difference how you write, just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made." },
+        { "id": "nt-e", "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy’s decision to quit his job. Instead of including that paragraph, she added one that described Lengel’s crabbed response to the girls so that she could lead up to the A & P “policy” he enforces." },
+        { "id": "nt-f", "text": "In the final paragraph about the significance of the setting in “A&P” the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel’s store policies." },
+        { "id": "nt-g", "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don’t use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-g"] },
+      "explanation": "G项说明初稿是思考手段，不要试图一次写成完美初稿，与后文语法拼写可留待修改衔接。",
+      "max_score_units": 200,
+      "source_ref": "第42空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-43",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 43 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences and corrections. Write on only one side of the paper." },
+        { "id": "nt-b", "text": "After you have already and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It’s probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression." },
+        { "id": "nt-c", "text": "It’s worth remembering, however, that though a clean copy fresh off a printer may look terrible, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems." },
+        { "id": "nt-d", "text": "It makes no difference how you write, just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made." },
+        { "id": "nt-e", "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy’s decision to quit his job. Instead of including that paragraph, she added one that described Lengel’s crabbed response to the girls so that she could lead up to the A & P “policy” he enforces." },
+        { "id": "nt-f", "text": "In the final paragraph about the significance of the setting in “A&P” the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel’s store policies." },
+        { "id": "nt-g", "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don’t use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-a"] },
+      "explanation": "A项建议留宽边距和行距，只写一面，与后文“便于整理，不会丢失背面内容”衔接。",
+      "max_score_units": 200,
+      "source_ref": "第43空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-44",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 44 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences and corrections. Write on only one side of the paper." },
+        { "id": "nt-b", "text": "After you have already and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It’s probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression." },
+        { "id": "nt-c", "text": "It’s worth remembering, however, that though a clean copy fresh off a printer may look terrible, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems." },
+        { "id": "nt-d", "text": "It makes no difference how you write, just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made." },
+        { "id": "nt-e", "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy’s decision to quit his job. Instead of including that paragraph, she added one that described Lengel’s crabbed response to the girls so that she could lead up to the A & P “policy” he enforces." },
+        { "id": "nt-f", "text": "In the final paragraph about the significance of the setting in “A&P” the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel’s store policies." },
+        { "id": "nt-g", "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don’t use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-c"] },
+      "explanation": "C项提到打印稿和保存数据，与后文“打印稿比屏幕更易读”衔接。",
+      "max_score_units": 200,
+      "source_ref": "第44空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-45",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 45 空：从下列句子中选出填入本空的选项",
+      "options": [
+        { "id": "nt-a", "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences and corrections. Write on only one side of the paper." },
+        { "id": "nt-b", "text": "After you have already and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It’s probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression." },
+        { "id": "nt-c", "text": "It’s worth remembering, however, that though a clean copy fresh off a printer may look terrible, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems." },
+        { "id": "nt-d", "text": "It makes no difference how you write, just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made." },
+        { "id": "nt-e", "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy’s decision to quit his job. Instead of including that paragraph, she added one that described Lengel’s crabbed response to the girls so that she could lead up to the A & P “policy” he enforces." },
+        { "id": "nt-f", "text": "In the final paragraph about the significance of the setting in “A&P” the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel’s store policies." },
+        { "id": "nt-g", "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don’t use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-e"] },
+      "explanation": "E项承接上文中学生删去无关段落并添加新段落的例子。",
+      "max_score_units": 200,
+      "source_ref": "第45空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "tr-46",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "He believes that this very difficulty may have had the compensating advantage of forcing him to think long and intently about every sentence, and thus enabling him to detect errors in reasoning and in his own observations.",
+      "answer_key": { "reference_text": "他认为或许正因为（语言表达上的）这种困难，他不得不对自己要说的每句话都经过长时间的认真思考，从而能发现自己在推理和观察中的错误，结果这反而成为他的优点。" },
+      "explanation": "compensating advantage、forcing、enabling 等。",
+      "max_score_units": 200,
+      "source_ref": "第46句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-47",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "He asserted, also, that his power to follow a long and purely abstract train of thought was very limited, for which reason he felt certain that he never could have succeeded with mathematics.",
+      "answer_key": { "reference_text": "他坚持认为自己进行长时间纯抽象思维的能力十分有限，由此他也认定自己在数学方面根本不可能有大的作为。" },
+      "explanation": "for which reason、never could have succeeded。",
+      "max_score_units": 200,
+      "source_ref": "第47句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-48",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "On the other hand, he did not accept as well founded the charge made by some of his critics that, while he was a good observer, he had no power of reasoning.",
+      "answer_key": { "reference_text": "另一方面，某些人批评他虽然善于观察，却不具备推理能力，而他认为这种说法也是缺乏依据的。" },
+      "explanation": "accept as well founded、宾语后置、同位语从句。",
+      "max_score_units": 200,
+      "source_ref": "第48句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-49",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "He adds humbly that perhaps he was “superior to the common run of men in noticing things which easily escape attention, and in observing them carefully.”",
+      "answer_key": { "reference_text": "他又自谦地说，或许自己“在注意到容易被忽略的事物，并对其加以仔细观察方面优于常人”。" },
+      "explanation": "superior to、common run of men、escape attention。",
+      "max_score_units": 200,
+      "source_ref": "第49句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-50",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Darwin was convinced that the loss of these tastes was not only a loss of happiness, but might possibly be injurious to the intellect, and more probably to the moral character.",
+      "answer_key": { "reference_text": "达尔文确信，没有了这些爱好不只是少了乐趣，而且可能会有损于一个人的思维能力，更有可能导致一个人道德品质的下降。" },
+      "explanation": "not only...but (also)、injurious to、moral character。",
+      "max_score_units": 200,
+      "source_ref": "第50句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "writing-a",
+      "section": "Section III · 写作 Part A",
+      "type": "free_text",
+      "stem": "You have just come back from Canada and found a music CD in your luggage that you forgot to return to Bob, your landlord there. Write him a letter to\n1) make an apology, and\n2) suggest a solution.\nYou should write about 100 words on ANSWER SHEET 2.\nDo not sign your own name at the end of the letter. Use “Li Ming” instead.\nDo not write the address. (10 points)",
+      "answer_key": { "reference_text": "Dear Bob,\n\nI am now writing to you from the other side of the ocean. I think I owe you an apology.\n\nHardly had I unpacked my luggage when I realized I made a big mistake. I totally forgot to return your music CD which I borrowed from you the other day. A succession of things before departure drove me so crazy that the CD thing slipped my mind. I will mail it to you via air before it's too late. Or if you feel uncomfortable about the compensation, do feel free to let me know. I am so sorry for my negligence and the trouble I brought to you. I wish you could accept my apology.\n\nWish you great happiness. Best regards!\n\nYours respectfully,\nLi Ming" },
+      "explanation": "道歉信：道歉、说明事由、提出解决方案。",
+      "max_score_units": 1000,
+      "source_ref": "Section III Part A",
+      "tags": ["写作", "应用文"]
+    },
+    {
+      "id": "writing-b",
+      "section": "Section III · 写作 Part B",
+      "type": "free_text",
+      "stem": "Write an essay of 160-200 words based on the following drawing. In your essay, you should\n1) describe the drawing briefly,\n2) explain its intended meaning, and then\n3) give your comments.\n图中显示：两个残疾人丢掉拐杖，互相搀扶，一起快速前进。\nYou should write neatly on ANSWER SHEET 2. (20 points)",
+      "images": [
+        "images/2008/213d51304d8dceeb3633ea7e7f1d97e9436d2065d30b9f0d29838de4c3009d10.jpg"
+      ],
+      "answer_key": { "reference_text": "As is vividly depicted in the picture, two disabled men are running fast through teamwork although each of them has only one leg. Obviously, it is teamwork that makes it possible for them to go anywhere they want to. Simple as it is, what the picture conveys to us is thought-provoking. With the development of economy and society, competition is becoming increasingly fierce. It is impossible for anyone to finish a work all by himself or herself. Hence, people in mounting numbers put great emphasis on teamwork. In fact, it has been universally acknowledged that the ability of teamwork is the most essential qualification that anyone who wants to achieve success should possess.\n\nAccordingly, it is imperative for us to take some measures to enhance the sense of teamwork in our society. We should bear in mind that teamwork is of great significance to both our society and ourselves. Everyone should have the ability of teamwork. Only in this way can we achieve success and only in this way can our society become more harmonious to live in." },
+      "explanation": "看图作文：描述残疾人互助，说明团队合作的重要性，提出建议。",
+      "max_score_units": 2000,
+      "source_ref": "Section III Part B",
+      "tags": ["写作", "短文写作"]
+    }
+  ]
+}

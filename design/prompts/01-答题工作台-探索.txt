@@ -1,0 +1,40 @@
+【产物】
+请设计一张真实可实现的中文学习软件桌面高保真 UI 原图。产品名“拾题”。只输出平面应用界面，禁止电脑外壳、透视、照片、宣传页、悬浮概念卡片。16:9 横版画布，1920×1088。是设计演示，不是真实用户数据。整体主题：有证据的学习，安静专注的阅读与答题工作台。
+
+【视觉系统】
+冷白背景 #F4F7FA，主面板白色 #FFFFFF，深海军蓝文字 #172B42，石板蓝辅助字 #586B80，主色蓝 #245BDB，轻边框 #DCE4ED；提示为浅琥珀色 #FFF3DB。不要紫色渐变，不要米黄色纸张，不要装饰插画，不要大黑侧栏，不要玻璃拟态。中文无衬线，英文文章用清楚的阅读衬线字体，计时器用等宽数字。8px 间距体系，控件圆角8px，不要每块都堆卡片或大阴影。精细、专业、可用、信息层级清楚。
+
+【页面】
+正在做阅读训练的专注页。应用左栏宽约200像素，上方小型蓝色方形书签图标和“拾题”，下方导航严格为“学习台”“题库”“练习记录”“错题复习”“设置”，底部“本地工作区”和“设计演示”。
+顶部栏显示面包屑“阅读专项 / 练习中”，右侧保存状态“已保存到本机”，计时器“用时 12:34”，次级操作“暂停”，主按钮“交卷”。
+顶栏下主区横向分成左侧文章区55%、右侧问题区45%。底部有轻量答题卡导航，布局不要超过画布，不要遮挡正文。
+
+【左侧文章】
+小标签“原创演示材料”，标题“Reading beyond the headline”，下面副标题“阅读理解 · 共 5 题”。英文排版宽松，每行60至80字符，段落侧面有小号 P1、P2、P3 编号。
+正文准确使用以下原创文本，不增加长篇乱码：
+P1: “Online headlines can make a small study sound like a universal rule. Careful readers look beyond the headline and ask who took part in the research.”
+P2: “A result may describe one group without explaining every community. More evidence can change an early conclusion.”
+P3: “Good reading is therefore not a hunt for certainty. It is a habit of matching each claim to the evidence that supports it.”
+第二段中的“one group”用很淡的用户荧光笔黄色背景突出，旁边小提示“你的标注”。不要显示正确答案、答案解析、AI讲解或答案相关提示。
+文章区顶角有字号 A− A+ 按钮和“标注”控制。下方留白合宜。
+
+【右侧问题】
+标题行“第 3 / 5 题”，右侧空心旗标按钮“标记待查”。
+问题正文：“What does the writer suggest about an early conclusion?”
+四个独立清晰选项，圆形单选控件：
+“A. It always applies to every community.”
+“B. It may change when more evidence appears.”
+“C. It should replace the original research.”
+“D. It is useful only when it is certain.”
+选中 A，选中状态只用浅蓝底、蓝色边框和实心圆点，绝不显示对错。B/C/D未选。
+选项下方三段低干扰功能：
+“把握程度（可选）” 单选“猜测”“不确定”“确定”，选择“不确定”。
+“我的思路（可选）”多行输入框，内容“我把 one group 理解成了普遍结论，想再核对一次。”
+轻量提示“交卷前不会显示答案”。
+底部按钮“上一题”“下一题”，下一题为蓝色。
+
+【底部答题卡】
+清晰显示题号 1 2 3 4 5：1、2已作答，3为当前题，4有旗标，5未作答。右侧文字“已答 3 / 5 · 待查 1”，使用文字加形状，不要靠红绿区别。
+
+【质量约束】
+中文标签必须准确清晰；不要另加文字，不要假的复杂数据图表。按钮实际可实现，布局协调，所有文本和控件不重叠。统一图标笔画。页面主要面积留给文章和问题，不要大营销标题。整体感觉像细心设计的专业阅读器，而不是销售仪表盘。

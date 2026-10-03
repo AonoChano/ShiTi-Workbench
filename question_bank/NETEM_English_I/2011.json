@@ -1,0 +1,1084 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2011,
+    "paper": "英语一",
+    "title": "2011年全国硕士研究生招生考试英语（一）试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2011.md",
+    "source_images": "TestPaper/images/2011/",
+    "converted_by": "AI 转换任务 2026-10-01",
+    "converted_at": "2026-10-01T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "原 md 完形第1、12、13题选项缺失，已依据答案 PDF 及标准试题补全；完形第4题答案按标准答案设为 B（sustain），答案 PDF 中该题解析有误；Part B 为排序题，已给 E、G 位置，其余 5 空从 A-G 中选；所有题目解析从略（产生警告，已在此说明）。"
+  },
+  "set": {
+    "title": "2011年全国硕士研究生招生考试英语（一）试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · Use of English",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · Reading Comprehension Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions below each text by choosing A, B, C or D. Mark your answers on ANSWER SHEET 1. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · Reading Comprehension Part B",
+      "part": "Section II · Part B",
+      "title": "新题型",
+      "directions": [
+        "The following paragraphs are given in a wrong order. For questions 41-45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A-G and filling them into the numbered boxes. Paragraphs E and G have been correctly placed. Mark your answers on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · Reading Comprehension Part C",
+      "part": "Section II · Part C",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written clearly on ANSWER SHEET 2. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · Writing Part A",
+      "part": "Section III · Part A",
+      "title": "应用文写作",
+      "directions": [
+        "Write a letter to a friend of yours to",
+        "1) recommend one of your favorite movies and",
+        "2) give reasons for your recommendation.",
+        "You should write about 100 words on ANSWER SHEET 2.",
+        "Do not sign your own name at the end of the letter. Use “Li Ming” instead.",
+        "Do not write the address. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · Writing Part B",
+      "part": "Section III · Part B",
+      "title": "短文写作",
+      "directions": [
+        "Write an essay of 160-200 words based on the following drawing. In your essay, you should",
+        "1) describe the drawing briefly,",
+        "2) explain its intended meaning, and",
+        "3) give your comments.",
+        "You should write neatly on ANSWER SHEET 2. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · Use of English 原文",
+      "section": "Section I · Use of English",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Ancient Greek philosopher Aristotle viewed laughter as “a bodily exercise precious to health.” But __1__ some claims to the contrary, laughing probably has little influence on physical fitness. Laughter does __2__ short-term changes in the function of the heart and its blood vessels, __3__ heart rate and oxygen consumption. But because hard laughter is difficult to __4__, a good laugh is unlikely to have __5__ benefits the way, say, walking or jogging does."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "__6__, instead of straining muscles to build them, as exercise does, laughter apparently accomplishes the __7__. Studies dating back to the 1930s indicate that laughter __8__ muscles, decreasing muscle tone for up to 45 minutes after the laugh dies down."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Such bodily reaction might conceivably help __9__ the effects of psychological stress. Anyway, the act of laughing probably does produce other types of __10__ feedback that improve an individual’s emotional state. __11__ one classical theory of emotion, our feelings are partially rooted __12__ physical reactions. It was argued at the end of the 19th century that humans do not cry __13__ they are sad but that they become sad when the tears begin to flow."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Although sadness also __14__ tears, evidence suggests that emotions can flow __15__ muscular responses. In an experiment published in 1988, social psychologist Fritz Strack of the University of Würzburg in Germany asked volunteers to __16__ a pen either with their teeth – thereby creating an artificial smile – or with their lips, which would produce a(n) __17__ expression. Those forced to exercise their smiling muscles __18__ more enthusiastically to funny cartoons than did those whose mouths were contracted in a frown, __19__ that expressions may influence emotions rather than just the other way around. __20__, the physical act of laughter could improve mood."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · Reading Comprehension Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The decision of the New York Philharmonic to hire Alan Gilbert as its next music director has been the talk of the classical-music world ever since the sudden announcement of his appointment in 2009. For the most part, the response has been favorable, to say the least. “Hooray! At last!” wrote Anthony Tommasini, a sober-sided classical-music critic."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "One of the reasons why the appointment came as such a surprise, however, is that Gilbert is comparatively little known. Even Tommasini, who had advocated Gilbert’s appointment in the Times, calls him “an unpretentious musician with no air of the formidable conductor about him.” As a description of the next music director of an orchestra that has hitherto been led by musicians like Gustav Mahler and Pierre Boulez, that seems likely to have struck at least some Times readers as faint praise."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "For my part, I have no idea whether Gilbert is a great conductor or even a good one. To be sure, he performs an impressive variety of interesting compositions, but it is not necessary for me to visit Avery Fisher Hall, or anywhere else, to hear interesting orchestral music. All I have to do is to go to my CD shelf, or boot up my computer and download still more recorded music from iTunes."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Devoted concertgoers who reply that recordings are no substitute for live performance are missing the point. For the time, attention, and money of the art-loving public, classical instrumentalists must compete not only with opera houses, dance troupes, theater companies, and museums, but also with the recorded performances of the great classical musicians of the 20th century. These recordings are cheap, available everywhere, and very often much higher in artistic quality than today’s live performances; moreover, they can be “consumed” at a time and place of the listener’s choosing. The widespread availability of such recordings has thus brought about a crisis in the institution of the traditional classical concert."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "One possible response is for classical performers to program attractive new music that is not yet available on record. Gilbert’s own interest in new music has been widely noted: Alex Ross, a classical-music critic, has described him as a man who is capable of turning the Philharmonic into “a markedly different, more vibrant organization.” But what will be the nature of that difference? Merely expanding the orchestra’s repertoire will not be enough. If Gilbert and the Philharmonic are to succeed, they must first change the relationship between America’s oldest orchestra and the new audience it hopes to attract."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · Reading Comprehension Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "When Liam McGee departed as president of Bank of America in August, his explanation was surprisingly straight up. Rather than cloaking his exit in the usual vague excuses, he came right out and said he was leaving “to pursue my goal of running a company.” Broadcasting his ambition was “very much my decision,” McGee says. Within two weeks, he was talking for the first time with the board of Hartford Financial Services Group, which named him CEO and chairman on September 29."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "McGee says leaving without a position lined up gave him time to reflect on what kind of company he wanted to run. It also sent a clear message to the outside world about his aspirations. And McGee isn’t alone. In recent weeks the No. 2 executives at Avon and American Express quit with the explanation that they were looking for a CEO post. As boards scrutinize succession plans in response to shareholder pressure, executives who don’t get the nod also may wish to move on. A turbulent business environment also has senior managers cautious of letting vague pronouncements cloud their reputations."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "As the first signs of recovery begin to take hold, deputy chiefs may be more willing to make the jump without a net. In the third quarter, CEO turnover was down 23% from a year ago as nervous boards stuck with the leaders they had, according to Liberum Research. As the economy picks up, opportunities will abound for aspiring leaders."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The decision to quit a senior position to look for a better one is unconventional. For years executives and headhunters have adhered to the rule that the most attractive CEO candidates are the ones who must be poached. Says Korn/Ferry senior partner Dennis Carey: “I can’t think of a single search I’ve done where a board has not instructed me to look at sitting CEOs first.”"
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Those who jumped without a job haven’t always landed in top positions quickly. Ellen Marram quit as chief of Tropicana a decade ago, saying she wanted to be a CEO. It was a year before she became head of a tiny Internet-based commodities exchange. Robert Willumstad left Citigroup in 2005 with ambitions to be a CEO. He finally took that post at a major financial institution three years later."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Many recruiters say the old disgrace is fading for top performers. The financial crisis has made it more acceptable to be between jobs or to leave a bad one. “The traditional rule was it’s safer to stay where you are, but that’s been fundamentally inverted,” says one headhunter. “The people who’ve been hurt the worst are those who’ve stayed too long.”"
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · Reading Comprehension Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The rough guide to marketing success used to be that you got what you paid for. No longer. While traditional “paid” media—such as television commercials and print advertisements – still play a major role, companies today can exploit many alternative forms of media. Consumers passionate about a product may create “earned” media by willingly promoting it to friends, and a company may leverage “owned” media by sending e-mail alerts about products and sales to customers registered with its Web site. The way consumers now approach the process of making purchase decisions means that marketing’s impact stems from a broad range of factors beyond conventional paid media."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Paid and owned media are controlled by marketers promoting their own products. For earned media, such marketers act as the initiator for users’ responses. But in some cases, one marketer’s owned media become another marketer’s paid media – for instance, when an e-commerce retailer sells ad space on its Web site. We define such sold media as owned media whose traffic is so strong that other organizations place their content or e-commerce engines within that environment. This trend, which we believe is still in its infancy, effectively began with retailers and travel providers such as airlines and hotels and will no doubt go further. Johnson & Johnson, for example, has created BabyCenter, a stand-alone media property that promotes complementary and even competitive products. Besides generating income, the presence of other marketers makes the site seem objective, gives companies opportunities to learn valuable information about the appeal of other companies’ marketing, and may help expand user traffic for all companies concerned."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The same dramatic technological changes that have provided marketers with more (and more diverse) communications choices have also increased the risk that passionate consumers will voice their opinions in quicker, more visible, and much more damaging ways. Such hijacked media are the opposite of earned media: an asset or campaign becomes hostage to consumers, other stakeholders, or activists who make negative allegations about a brand or product. Members of social networks, for instance, are learning that they can hijack media to apply pressure on the businesses that originally created them."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "If that happens, passionate consumers would try to persuade others to boycott products, putting the reputation of the target company at risk. In such a case, the company’s response may not be sufficiently quick or thoughtful, and the learning curve has been steep. Toyota Motor, for example, alleviated some of the damage from its recall crisis earlier this year with a relatively quick and well-orchestrated social-media response campaign, which included efforts to engage with consumers directly on sites such as Twitter and the social-news site Digg."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · Reading Comprehension Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "It’s no surprise that Jennifer Senior’s insightful, provocative magazine cover story, “I Love My Children, I Hate My Life,” is arousing much chatter – nothing gets people talking like the suggestion that child rearing is anything less than a completely fulfilling, life-enriching experience. Rather than concluding that children make parents either happy or miserable, Senior suggests we need to redefine happiness: instead of thinking of it as something that can be measured by moment-to-moment joy, we should consider being happy as a past-tense condition. Even though the day-to-day experience of raising kids can be soul-crushingly hard, Senior writes that “the very things that in the moment dampen our moods can later be sources of intense gratification and delight.”"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The magazine cover showing an attractive mother holding a cute baby is hardly the only Madonna-and-child image on newsstands this week. There are also stories about newly adoptive – and newly single – mom Sandra Bullock, as well as the usual “Jennifer Aniston is pregnant” news. Practically every week features at least one celebrity mom, or mom-to-be, smiling on the newsstands."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "In a society that so persistently celebrates procreation, is it any wonder that admitting you regret having children is equivalent to admitting you support kitten-killing? It doesn’t seem quite fair, then, to compare the regrets of parents to the regrets of the childless. Unhappy parents rarely are provoked to wonder if they shouldn’t have had kids, but unhappy childless folks are bothered with the message that children are the single most important thing in the world: obviously their misery must be a direct result of the gaping baby-size holes in their lives."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Of course, the image of parenthood that celebrity magazines like Us Weekly and People present is hugely unrealistic, especially when the parents are single mothers like Bullock. According to several studies concluding that parents are less happy than childless couples, single parents are the least happy of all. No shock there, considering how much work it is to raise a kid without a partner to lean on; yet to hear Sandra and Britney tell it, raising a kid on their “own” (read: with round-the-clock help) is a piece of cake."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "It’s hard to imagine that many people are dumb enough to want children just because Reese and Angelina make it look so glamorous: most adults understand that a baby is not a haircut. But it’s interesting to wonder if the images we see every week of stress-free, happiness-enhancing parenthood aren’t in some small, subconscious way contributing to our own dissatisfactions with the actual experience, in the same way that a small part of us hoped getting “the Rachel” might make us look just a little bit like Jennifer Aniston."
+        }
+      ]
+    },
+    {
+      "id": "newtype",
+      "title": "Section II · Part B 排序题原文",
+      "section": "Section II · Reading Comprehension Part B",
+      "blocks": [
+        {
+          "id": "pA",
+          "type": "paragraph",
+          "text": "[A] No disciplines have seized on professionalism with as much enthusiasm as the humanities. You can, Mr Menand points out, become a lawyer in three years and a medical doctor in four. But the regular time it takes to get a doctoral degree in the humanities is nine years. Not surprisingly, up to half of all doctoral students in English drop out before getting their degrees."
+        },
+        {
+          "id": "pB",
+          "type": "paragraph",
+          "text": "[B] His concern is mainly with the humanities: literature, languages, philosophy and so on. These are disciplines that are going out of style: 22% of American college graduates now major in business compared with only 2% in history and 4% in English. However, many leading American universities want their undergraduates to have a grounding in the basic canon of ideas that every educated person should possess. But most find it difficult to agree on what a “general education” should look like. At Harvard, Mr Menand notes, “the great books are read because they have been read” – they form a sort of social glue."
+        },
+        {
+          "id": "pC",
+          "type": "paragraph",
+          "text": "[C] Equally unsurprisingly, only about half end up with professorships for which they entered graduate school. There are simply too few posts. This is partly because universities continue to produce ever more PhDs. But fewer students want to study humanities subjects: English departments awarded more bachelor’s degrees in 1970-71 than they did 20 years later. Fewer students require fewer teachers. So, at the end of a decade of thesis-writing, many humanities students leave the profession to do something for which they have not been trained."
+        },
+        {
+          "id": "pD",
+          "type": "paragraph",
+          "text": "[D] One reason why it is hard to design and teach such courses is that they cut across the insistence by top American universities that liberal-arts education and professional education should be kept separate, taught in different schools. Many students experience both varieties. Although more than half of Harvard undergraduates end up in law, medicine or business, future doctors and lawyers must study a non-specialist liberal-arts degree before embarking on a professional qualification."
+        },
+        {
+          "id": "pE",
+          "type": "paragraph",
+          "text": "[E] Besides professionalising the professions by this separation, top American universities have professionalised the professor. The growth in public money for academic research has speeded the process: federal research grants rose fourfold between 1960 and 1990, but faculty teaching hours fell by half as research took its toll. Professionalism has turned the acquisition of a doctoral degree into a prerequisite for a successful academic career: as late as 1969 a third of American professors did not possess one. But the key idea behind professionalisation, argues Mr Menand, is that “the knowledge and skills needed for a particular specialisation are transmissible but not transferable.” So disciplines acquire a monopoly not just over the production of knowledge, but also over the production of the producers of knowledge."
+        },
+        {
+          "id": "pF",
+          "type": "paragraph",
+          "text": "[F] The key to reforming higher education, concludes Mr Menand, is to alter the way in which “the producers of knowledge are produced.” Otherwise, academics will continue to think dangerously alike, increasingly detached from the societies which they study, investigate and criticise. “Academic inquiry, at least in some fields, may need to become less exclusionary and more holistic.” Yet quite how that happens, Mr Menand does not say."
+        },
+        {
+          "id": "pG",
+          "type": "paragraph",
+          "text": "[G] The subtle and intelligent little book The Marketplace of Ideas: Reform and Resistance in the American University should be read by every student thinking of applying to take a doctoral degree. They may then decide to go elsewhere. For something curious has been happening in American universities, and Louis Menand, a professor of English at Harvard University, captured it skillfully."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · Part C 翻译原文",
+      "section": "Section II · Reading Comprehension Part C",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "With its theme that “Mind is the master weaver,” creating our inner character and outer circumstances, the book As a Man Thinketh by James Allen is an in-depth exploration of the central idea of self-help writing."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "【46】Allen’s contribution was to take an assumption we all share – that because we are not robots we therefore control our thoughts – and reveal its erroneous nature. Because most of us believe that mind is separate from matter, we think that thoughts can be hidden and made powerless; this allows us to think one way and act another. However, Allen believed that the unconscious mind generates as much action as the conscious mind, and 【47】while we may be able to sustain the illusion of control through the conscious mind alone, in reality we are continually faced with a question: “Why cannot I make myself do this or achieve that?”"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Since desire and will are damaged by the presence of thoughts that do not accord with desire, Allen concluded: “We do not attract what we want, but what we are.” Achievement happens because you as a person embody the external achievement; you don’t “get” success but become it. There is no gap between mind and matter."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Part of the fame of Allen’s book is its contention that “Circumstances do not make a person, they reveal him.” 【48】This seems a justification for neglect of those in need, and a rationalization of exploitation, of the superiority of those at the top and the inferiority of those at the bottom."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "This, however, would be a knee-jerk reaction to a subtle argument. Each set of circumstances, however bad, offers a unique opportunity for growth. If circumstances always determined the life and prospects of people, then humanity would never have progressed. In fact, 【49】circumstances seem to be designed to bring out the best in us, and if we feel that we have been “wronged” then we are unlikely to begin a conscious effort to escape from our situation. Nevertheless, as any biographer knows, a person’s early life and its conditions are often the greatest gift to an individual."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "The sobering aspect of Allen’s book is that we have no one else to blame for our present condition except ourselves. 【50】The upside is the possibilities contained in knowing that everything is up to us; where before we were experts in the array of limitations, now we become authorities of what is possible."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "cloze-01-a", "text": "among" },
+        { "id": "cloze-01-b", "text": "except" },
+        { "id": "cloze-01-c", "text": "despite" },
+        { "id": "cloze-01-d", "text": "like" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-01-c"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "cloze-02-a", "text": "reflect" },
+        { "id": "cloze-02-b", "text": "demand" },
+        { "id": "cloze-02-c", "text": "indicate" },
+        { "id": "cloze-02-d", "text": "produce" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-02-d"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "cloze-03-a", "text": "stabilizing" },
+        { "id": "cloze-03-b", "text": "boosting" },
+        { "id": "cloze-03-c", "text": "impairing" },
+        { "id": "cloze-03-d", "text": "determining" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-03-b"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "cloze-04-a", "text": "transmit" },
+        { "id": "cloze-04-b", "text": "sustain" },
+        { "id": "cloze-04-c", "text": "evaluate" },
+        { "id": "cloze-04-d", "text": "observe" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-04-b"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "cloze-05-a", "text": "measurable" },
+        { "id": "cloze-05-b", "text": "manageable" },
+        { "id": "cloze-05-c", "text": "affordable" },
+        { "id": "cloze-05-d", "text": "renewable" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-05-a"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "cloze-06-a", "text": "In turn" },
+        { "id": "cloze-06-b", "text": "In fact" },
+        { "id": "cloze-06-c", "text": "In addition" },
+        { "id": "cloze-06-d", "text": "In brief" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-06-b"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "cloze-07-a", "text": "opposite" },
+        { "id": "cloze-07-b", "text": "impossible" },
+        { "id": "cloze-07-c", "text": "average" },
+        { "id": "cloze-07-d", "text": "expected" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-07-a"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "cloze-08-a", "text": "hardens" },
+        { "id": "cloze-08-b", "text": "weakens" },
+        { "id": "cloze-08-c", "text": "tightens" },
+        { "id": "cloze-08-d", "text": "relaxes" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-08-d"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "cloze-09-a", "text": "aggravate" },
+        { "id": "cloze-09-b", "text": "generate" },
+        { "id": "cloze-09-c", "text": "moderate" },
+        { "id": "cloze-09-d", "text": "enhance" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-09-c"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "cloze-10-a", "text": "physical" },
+        { "id": "cloze-10-b", "text": "mental" },
+        { "id": "cloze-10-c", "text": "subconscious" },
+        { "id": "cloze-10-d", "text": "internal" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-10-a"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        { "id": "cloze-11-a", "text": "Except for" },
+        { "id": "cloze-11-b", "text": "According to" },
+        { "id": "cloze-11-c", "text": "Due to" },
+        { "id": "cloze-11-d", "text": "As for" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-11-b"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        { "id": "cloze-12-a", "text": "with" },
+        { "id": "cloze-12-b", "text": "on" },
+        { "id": "cloze-12-c", "text": "in" },
+        { "id": "cloze-12-d", "text": "at" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-12-c"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        { "id": "cloze-13-a", "text": "unless" },
+        { "id": "cloze-13-b", "text": "until" },
+        { "id": "cloze-13-c", "text": "if" },
+        { "id": "cloze-13-d", "text": "because" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-13-d"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        { "id": "cloze-14-a", "text": "exhausts" },
+        { "id": "cloze-14-b", "text": "follows" },
+        { "id": "cloze-14-c", "text": "precedes" },
+        { "id": "cloze-14-d", "text": "suppresses" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-14-c"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        { "id": "cloze-15-a", "text": "into" },
+        { "id": "cloze-15-b", "text": "from" },
+        { "id": "cloze-15-c", "text": "towards" },
+        { "id": "cloze-15-d", "text": "beyond" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-15-b"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        { "id": "cloze-16-a", "text": "fetch" },
+        { "id": "cloze-16-b", "text": "bite" },
+        { "id": "cloze-16-c", "text": "pick" },
+        { "id": "cloze-16-d", "text": "hold" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-16-d"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        { "id": "cloze-17-a", "text": "disappointed" },
+        { "id": "cloze-17-b", "text": "excited" },
+        { "id": "cloze-17-c", "text": "joyful" },
+        { "id": "cloze-17-d", "text": "indifferent" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-17-a"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        { "id": "cloze-18-a", "text": "adapted" },
+        { "id": "cloze-18-b", "text": "catered" },
+        { "id": "cloze-18-c", "text": "turned" },
+        { "id": "cloze-18-d", "text": "reacted" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-18-d"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        { "id": "cloze-19-a", "text": "suggesting" },
+        { "id": "cloze-19-b", "text": "requiring" },
+        { "id": "cloze-19-c", "text": "mentioning" },
+        { "id": "cloze-19-d", "text": "supposing" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-19-a"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        { "id": "cloze-20-a", "text": "Eventually" },
+        { "id": "cloze-20-b", "text": "Consequently" },
+        { "id": "cloze-20-c", "text": "Similarly" },
+        { "id": "cloze-20-d", "text": "Conversely" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-20-c"] },
+      "max_score_units": 50
+    },
+    {
+      "id": "t1-q21",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "We learn from Paragraph 1 that Gilbert’s appointment has",
+      "options": [
+        { "id": "t1-q21-a", "text": "incurred criticism." },
+        { "id": "t1-q21-b", "text": "raised suspicion." },
+        { "id": "t1-q21-c", "text": "received acclaim." },
+        { "id": "t1-q21-d", "text": "aroused curiosity." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q21-c"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t1-q22",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Tommasini regards Gilbert as an artist who is",
+      "options": [
+        { "id": "t1-q22-a", "text": "influential." },
+        { "id": "t1-q22-b", "text": "modest." },
+        { "id": "t1-q22-c", "text": "respectable." },
+        { "id": "t1-q22-d", "text": "talented." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q22-b"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t1-q23",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The author believes that the devoted concertgoers",
+      "options": [
+        { "id": "t1-q23-a", "text": "ignore the expenses of live performances." },
+        { "id": "t1-q23-b", "text": "reject most kinds of recorded performances." },
+        { "id": "t1-q23-c", "text": "exaggerate the variety of live performances." },
+        { "id": "t1-q23-d", "text": "overestimate the value of live performances." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q23-d"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t1-q24",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to the text, which of the following is true of recordings?",
+      "options": [
+        { "id": "t1-q24-a", "text": "They are often inferior to live concerts in quality." },
+        { "id": "t1-q24-b", "text": "They are easily accessible to the general public." },
+        { "id": "t1-q24-c", "text": "They help improve the quality of music." },
+        { "id": "t1-q24-d", "text": "They have only covered masterpieces." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q24-b"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t1-q25",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Regarding Gilbert’s role in revitalizing the Philharmonic, the author feels",
+      "options": [
+        { "id": "t1-q25-a", "text": "doubtful." },
+        { "id": "t1-q25-b", "text": "enthusiastic." },
+        { "id": "t1-q25-c", "text": "confident." },
+        { "id": "t1-q25-d", "text": "puzzled." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q25-a"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t2-q26",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "When McGee announced his departure, his manner can best be described as being",
+      "options": [
+        { "id": "t2-q26-a", "text": "arrogant." },
+        { "id": "t2-q26-b", "text": "frank." },
+        { "id": "t2-q26-c", "text": "self-centered." },
+        { "id": "t2-q26-d", "text": "impulsive." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q26-b"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t2-q27",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "According to Paragraph 2, senior executives’ quitting may be spurred by",
+      "options": [
+        { "id": "t2-q27-a", "text": "their expectation of better financial status." },
+        { "id": "t2-q27-b", "text": "their need to reflect on their private life." },
+        { "id": "t2-q27-c", "text": "their strained relations with the boards." },
+        { "id": "t2-q27-d", "text": "their pursuit of new career goals." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q27-d"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t2-q28",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The word “poached” (Line 3, Paragraph 4) most probably means",
+      "options": [
+        { "id": "t2-q28-a", "text": "approved of." },
+        { "id": "t2-q28-b", "text": "attended to." },
+        { "id": "t2-q28-c", "text": "hunted for." },
+        { "id": "t2-q28-d", "text": "guarded against." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q28-c"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t2-q29",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "It can be inferred from the last paragraph that",
+      "options": [
+        { "id": "t2-q29-a", "text": "top performers used to cling to their posts." },
+        { "id": "t2-q29-b", "text": "loyalty of top performers is getting out-dated." },
+        { "id": "t2-q29-c", "text": "top performers care more about reputations." },
+        { "id": "t2-q29-d", "text": "it’s safer to stick to the traditional rules." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q29-a"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t2-q30",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Which of the following is the best title for the text?",
+      "options": [
+        { "id": "t2-q30-a", "text": "CEOs: Where to Go?" },
+        { "id": "t2-q30-b", "text": "CEOs: All the Way Up?" },
+        { "id": "t2-q30-c", "text": "Top Managers Jump without a Net" },
+        { "id": "t2-q30-d", "text": "The Only Way Out for Top Performers" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q30-c"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t3-q31",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Consumers may create “earned” media when they are",
+      "options": [
+        { "id": "t3-q31-a", "text": "obsessed with online shopping at certain Web sites." },
+        { "id": "t3-q31-b", "text": "inspired by product-promoting e-mails sent to them." },
+        { "id": "t3-q31-c", "text": "eager to help their friends promote quality products." },
+        { "id": "t3-q31-d", "text": "enthusiastic about recommending their favorite products." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q31-d"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t3-q32",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "According to Paragraph 2, sold media feature",
+      "options": [
+        { "id": "t3-q32-a", "text": "a safe business environment." },
+        { "id": "t3-q32-b", "text": "random competition." },
+        { "id": "t3-q32-c", "text": "strong user traffic." },
+        { "id": "t3-q32-d", "text": "flexibility in organization." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q32-c"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t3-q33",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The author indicates in Paragraph 3 that earned media",
+      "options": [
+        { "id": "t3-q33-a", "text": "invite constant conflicts with passionate consumers." },
+        { "id": "t3-q33-b", "text": "can be used to produce negative effects in marketing." },
+        { "id": "t3-q33-c", "text": "may be responsible for fiercer competition." },
+        { "id": "t3-q33-d", "text": "deserve all the negative comments about them." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q33-b"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t3-q34",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Toyota Motor’s experience is cited as an example of",
+      "options": [
+        { "id": "t3-q34-a", "text": "responding effectively to hijacked media." },
+        { "id": "t3-q34-b", "text": "persuading customers into boycotting products." },
+        { "id": "t3-q34-c", "text": "cooperating with supportive consumers." },
+        { "id": "t3-q34-d", "text": "taking advantage of hijacked media." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q34-a"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t3-q35",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Which of the following is the text mainly about?",
+      "options": [
+        { "id": "t3-q35-a", "text": "Alternatives to conventional paid media." },
+        { "id": "t3-q35-b", "text": "Conflict between hijacked and earned media." },
+        { "id": "t3-q35-c", "text": "Dominance of hijacked media." },
+        { "id": "t3-q35-d", "text": "Popularity of owned media." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q35-a"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t4-q36",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Jennifer Senior suggests in her article that raising a child can bring",
+      "options": [
+        { "id": "t4-q36-a", "text": "temporary delight." },
+        { "id": "t4-q36-b", "text": "enjoyment in progress." },
+        { "id": "t4-q36-c", "text": "happiness in retrospect." },
+        { "id": "t4-q36-d", "text": "lasting reward." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q36-c"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t4-q37",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "We learn from Paragraph 2 that",
+      "options": [
+        { "id": "t4-q37-a", "text": "celebrity moms are a permanent source for gossip." },
+        { "id": "t4-q37-b", "text": "single mothers with babies deserve greater attention." },
+        { "id": "t4-q37-c", "text": "news about pregnant celebrities is entertaining." },
+        { "id": "t4-q37-d", "text": "having children is highly valued by the public." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q37-d"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t4-q38",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "It is suggested in Paragraph 3 that childless folks",
+      "options": [
+        { "id": "t4-q38-a", "text": "are constantly exposed to criticism." },
+        { "id": "t4-q38-b", "text": "are largely ignored by the media." },
+        { "id": "t4-q38-c", "text": "fail to fulfill their social responsibilities." },
+        { "id": "t4-q38-d", "text": "are less likely to be satisfied with their life." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q38-a"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t4-q39",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to Paragraph 4, the message conveyed by celebrity magazines is",
+      "options": [
+        { "id": "t4-q39-a", "text": "soothing." },
+        { "id": "t4-q39-b", "text": "ambiguous." },
+        { "id": "t4-q39-c", "text": "compensatory." },
+        { "id": "t4-q39-d", "text": "misleading." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q39-d"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "t4-q40",
+      "section": "Section II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Which of the following can be inferred from the last paragraph?",
+      "options": [
+        { "id": "t4-q40-a", "text": "Having children contributes little to the glamour of celebrity moms." },
+        { "id": "t4-q40-b", "text": "Celebrity moms have influenced our attitude towards child rearing." },
+        { "id": "t4-q40-c", "text": "Having children intensifies our dissatisfaction with life." },
+        { "id": "t4-q40-d", "text": "We sometimes neglect the happiness from child rearing." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q40-b"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "nt-41",
+      "section": "Section II · Reading Comprehension Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 41 空：本空应填入的段落是",
+      "options": [
+        { "id": "nt-a", "text": "A. No disciplines have seized on professionalism with as much enthusiasm as the humanities..." },
+        { "id": "nt-b", "text": "B. His concern is mainly with the humanities: literature, languages, philosophy and so on..." },
+        { "id": "nt-c", "text": "C. Equally unsurprisingly, only about half end up with professorships..." },
+        { "id": "nt-d", "text": "D. One reason why it is hard to design and teach such courses is that they cut across..." },
+        { "id": "nt-e", "text": "E. Besides professionalising the professions by this separation, top American universities have professionalised the professor..." },
+        { "id": "nt-f", "text": "F. The key to reforming higher education, concludes Mr Menand, is to alter the way..." },
+        { "id": "nt-g", "text": "G. The subtle and intelligent little book The Marketplace of Ideas..." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-b"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "nt-42",
+      "section": "Section II · Reading Comprehension Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 42 空：本空应填入的段落是",
+      "options": [
+        { "id": "nt-a", "text": "A. No disciplines have seized on professionalism with as much enthusiasm as the humanities..." },
+        { "id": "nt-b", "text": "B. His concern is mainly with the humanities: literature, languages, philosophy and so on..." },
+        { "id": "nt-c", "text": "C. Equally unsurprisingly, only about half end up with professorships..." },
+        { "id": "nt-d", "text": "D. One reason why it is hard to design and teach such courses is that they cut across..." },
+        { "id": "nt-e", "text": "E. Besides professionalising the professions by this separation, top American universities have professionalised the professor..." },
+        { "id": "nt-f", "text": "F. The key to reforming higher education, concludes Mr Menand, is to alter the way..." },
+        { "id": "nt-g", "text": "G. The subtle and intelligent little book The Marketplace of Ideas..." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-d"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "nt-43",
+      "section": "Section II · Reading Comprehension Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 43 空：本空应填入的段落是",
+      "options": [
+        { "id": "nt-a", "text": "A. No disciplines have seized on professionalism with as much enthusiasm as the humanities..." },
+        { "id": "nt-b", "text": "B. His concern is mainly with the humanities: literature, languages, philosophy and so on..." },
+        { "id": "nt-c", "text": "C. Equally unsurprisingly, only about half end up with professorships..." },
+        { "id": "nt-d", "text": "D. One reason why it is hard to design and teach such courses is that they cut across..." },
+        { "id": "nt-e", "text": "E. Besides professionalising the professions by this separation, top American universities have professionalised the professor..." },
+        { "id": "nt-f", "text": "F. The key to reforming higher education, concludes Mr Menand, is to alter the way..." },
+        { "id": "nt-g", "text": "G. The subtle and intelligent little book The Marketplace of Ideas..." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-a"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "nt-44",
+      "section": "Section II · Reading Comprehension Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 44 空：本空应填入的段落是",
+      "options": [
+        { "id": "nt-a", "text": "A. No disciplines have seized on professionalism with as much enthusiasm as the humanities..." },
+        { "id": "nt-b", "text": "B. His concern is mainly with the humanities: literature, languages, philosophy and so on..." },
+        { "id": "nt-c", "text": "C. Equally unsurprisingly, only about half end up with professorships..." },
+        { "id": "nt-d", "text": "D. One reason why it is hard to design and teach such courses is that they cut across..." },
+        { "id": "nt-e", "text": "E. Besides professionalising the professions by this separation, top American universities have professionalised the professor..." },
+        { "id": "nt-f", "text": "F. The key to reforming higher education, concludes Mr Menand, is to alter the way..." },
+        { "id": "nt-g", "text": "G. The subtle and intelligent little book The Marketplace of Ideas..." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-c"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "nt-45",
+      "section": "Section II · Reading Comprehension Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 45 空：本空应填入的段落是",
+      "options": [
+        { "id": "nt-a", "text": "A. No disciplines have seized on professionalism with as much enthusiasm as the humanities..." },
+        { "id": "nt-b", "text": "B. His concern is mainly with the humanities: literature, languages, philosophy and so on..." },
+        { "id": "nt-c", "text": "C. Equally unsurprisingly, only about half end up with professorships..." },
+        { "id": "nt-d", "text": "D. One reason why it is hard to design and teach such courses is that they cut across..." },
+        { "id": "nt-e", "text": "E. Besides professionalising the professions by this separation, top American universities have professionalised the professor..." },
+        { "id": "nt-f", "text": "F. The key to reforming higher education, concludes Mr Menand, is to alter the way..." },
+        { "id": "nt-g", "text": "G. The subtle and intelligent little book The Marketplace of Ideas..." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-f"] },
+      "max_score_units": 200
+    },
+    {
+      "id": "tr-46",
+      "section": "Section II · Reading Comprehension Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Allen’s contribution was to take an assumption we all share – that because we are not robots we therefore control our thoughts – and reveal its erroneous nature.",
+      "answer_key": {
+        "reference_text": "艾伦的贡献在于，他拿出“我们并非机器人，因此能掌控自己的思想”这一公认的假设，并揭示了其谬误所在。"
+      },
+      "max_score_units": 200
+    },
+    {
+      "id": "tr-47",
+      "section": "Section II · Reading Comprehension Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "while we may be able to sustain the illusion of control through the conscious mind alone, in reality we are continually faced with a question: “Why cannot I make myself do this or achieve that?”",
+      "answer_key": {
+        "reference_text": "尽管我们或许可以仅凭意识来维系“控制”这种错觉，现实中我们还是不断要面对一个问题：“我为什么不能让自己做这个或实现那个？”"
+      },
+      "max_score_units": 200
+    },
+    {
+      "id": "tr-48",
+      "section": "Section II · Reading Comprehension Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "This seems a justification for neglect of those in need, and a rationalization of exploitation, of the superiority of those at the top and the inferiority of those at the bottom.",
+      "answer_key": {
+        "reference_text": "这似乎是在为忽视贫困者的行为作辩护，为剥削、为社会上层人群的优越及社会底层人群的卑微找理由。"
+      },
+      "max_score_units": 200
+    },
+    {
+      "id": "tr-49",
+      "section": "Section II · Reading Comprehension Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "circumstances seem to be designed to bring out the best in us, and if we feel that we have been “wronged” then we are unlikely to begin a conscious effort to escape from our situation.",
+      "answer_key": {
+        "reference_text": "环境仿佛就是为了激发我们的最大潜能而设，如果我们觉得自己遭受了“不公”，就不太可能有意识地去努力摆脱自己的处境。"
+      },
+      "max_score_units": 200
+    },
+    {
+      "id": "tr-50",
+      "section": "Section II · Reading Comprehension Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The upside is the possibilities contained in knowing that everything is up to us; where before we were experts in the array of limitations, now we become authorities of what is possible.",
+      "answer_key": {
+        "reference_text": "其正面意义在于，了解了一切都取决于我们自己，即有了诸多可能；此前我们是谙熟各种局限的专家，现在我们成了驾驭各种可能性的权威。"
+      },
+      "max_score_units": 200
+    },
+    {
+      "id": "writing-a",
+      "section": "Section III · Writing Part A",
+      "type": "free_text",
+      "stem": "Write a letter to a friend of yours to\n1) recommend one of your favorite movies and\n2) give reasons for your recommendation.\nYou should write about 100 words on ANSWER SHEET 2.\nDo not sign your own name at the end of the letter. Use “Li Ming” instead.\nDo not write the address. (10 points)",
+      "answer_key": {
+        "reference_text": "Dear Tom,\nI am writing, without hesitation, to share one of my favorite movies, Forrest Gump, with you, which is not only conducive to your study, but also beneficial to your life.\nFor one thing, the beautiful language in this original English movie may contribute to your study of English in listening, speaking, reading and writing. For another thing, the profound cultural elements implicit in the scene will equip you with foreign cultural background and, above all, enrich your daily life.\nWould you like to see this movie after my recommendation? Remember to tell me your opinion about the movie. I am looking forward to your early reply.\nYours,\nLi Ming"
+      },
+      "max_score_units": 1000
+    },
+    {
+      "id": "writing-b",
+      "section": "Section III · Writing Part B",
+      "type": "free_text",
+      "stem": "Write an essay of 160-200 words based on the following drawing. In your essay, you should\n1) describe the drawing briefly,\n2) explain its intended meaning, and\n3) give your comments.\nYou should write neatly on ANSWER SHEET 2. (20 points)\n画面描述：图中两名游客坐在游船上边吃边聊，随手把垃圾扔进满是垃圾的湖里；图画标题为“旅程之‘余’”。",
+      "images": [
+        "images/2011/bcc44da3e0622d3dbd8be87d85b543ddb35154c10f716bc8161d2d0214920a35.jpg"
+      ],
+      "answer_key": {
+        "reference_text": "The terrible scene depicted in the cartoon shows that some people in our life still lack the awareness of environmental protection. The picture illustrates that two tourists are chatting and eating happily on a boat and casually throwing their rubbish into the lake which is full of litter and waste. The drawing sets us thinking too much due to its far-reaching influence. Nowadays, though the awareness of protecting environment is being accepted by more and more people, we can still see many unpleasant scenes especially in scenic spots. Why does this phenomenon arise? Many factors are accounting for it. First and foremost, to some people, the consciousness of protecting environment is still not so strong. They may not think it is a big deal to throw rubbish everywhere. In addition, the environmental management system isn't so satisfying. For example, in some places there're few regulations or the implementation is seldom performed actually.\nFrom what has been discussed above, it is urgent to take some effective and relative measures. In the first place, we should continue to conduct more propaganda in communities and schools so as to let people realize the importance of protecting environment. In the second, more rules should be made and carried out by the government to restrain the conduction of destroying environment. People should work together to create clean and beautiful surroundings."
+      },
+      "max_score_units": 2000
+    }
+  ]
+}

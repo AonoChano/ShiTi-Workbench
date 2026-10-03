@@ -1,0 +1,1211 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2007,
+    "paper": "英语一",
+    "title": "2007年全国硕士研究生招生考试英语（一）试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2007.md",
+    "source_images": "TestPaper/images/2007/",
+    "converted_by": "Assistant（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "完形填空第13题选项在原md中缺失，已根据答案解析补充为[A] as [B] for [C] under [D] against。新题型为小标题匹配。大作文配图已填写。"
+  },
+  "set": {
+    "title": "2007年全国硕士研究生招生考试英语（一）试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · 完形填空",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark [A], [B], [C] or [D] on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 阅读理解 Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions below each text by choosing [A], [B], [C], or [D]. Mark your answers on ANSWER SHEET 1. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · 新题型 Part B",
+      "part": "Section II · Part B",
+      "title": "新题型",
+      "directions": [
+        "You are going to read a list of headings and a text about what parents are supposed to do to guide their children into adulthood. Choose a heading from the list A-G that best fits the meaning of each numbered part of the text (41-45). The first and last paragraphs of the text are not numbered. There are two extra headings that you do not need to use. Mark your answers on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 翻译 Part C",
+      "part": "Section II · Part C",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written neatly on ANSWER SHEET 2. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part A",
+      "part": "Section III · Part A",
+      "title": "应用文写作",
+      "directions": [
+        "Write a letter to your university library, making suggestions for improving its service.",
+        "You should write about 100 words on ANSWER SHEET 2.",
+        "Do not sign your own name at the end of the letter. Use “Li Ming” instead.",
+        "Do not write the address. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part B",
+      "part": "Section III · Part B",
+      "title": "短文写作",
+      "directions": [
+        "Write an essay of 160-200 words based on the following drawing. In your essay, you should",
+        "1) describe the drawing briefly,",
+        "2) explain its intended meaning, and then",
+        "3) support your view with an example/examples.",
+        "You should write neatly on ANSWER SHEET 2. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · 完形填空",
+      "source_ref": "2007.md Section I",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "By 1830, the former Spanish and Portuguese colonies had become independent nations. The roughly 20 million __1__ of these nations looked __2__ to the future. Born in the crisis of the old regime and Iberian colonialism, many of the leaders of independence __3__ the ideals of representative government, careers __4__ to talent, freedom of commerce and trade, the __5__ to private property, and a belief in the individual as the basis of society. __6__ there was a belief that the new nations should be sovereign and independent states, large enough to be economically viable and integrated by a __7__ set of laws."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "On the issue of __8__ of religion and the position of the Church, __9__, there was less agreement __10__ the leadership. Roman Catholicism had been the state religion and the only one __11__ by the Spanish crown. __12__ most leaders sought to maintain Catholicism __13__ the official religion of the new states, some sought to end the __14__ of other faiths. The defense of the Church became a rallying __15__ for the conservative forces."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The ideals of the early leaders of independence were often egalitarian, valuing equality of everything. Bolivar had received aid from Haiti and had __16__ in return to abolish slavery in the areas he liberated. By 1854 slavery had been abolished everywhere except Spain’s __17__ colonies. Early promises to end Indian tribute and taxes on people of mixed origin came much __18__ because the new nations still needed the revenue such policies __19__. Egalitarian sentiments were often tempered by fears that the mass of the population was __20__ self-rule and democracy."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2007.md Text 1",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "If you were to examine the birth certificates of every soccer player in 2006’s World Cup tournament, you would most likely find a noteworthy quirk: elite soccer players are more likely to have been born in the earlier months of the year than in the late months. If you then examined the European national youth teams that feed the World Cup and professional ranks, you would find this strange phenomenon to be ever more pronounced."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "What might account for this strange phenomenon? Here are a few guesses: a) certain astrological signs confer superior soccer skills; b) winter-born babies tend to have higher oxygen capacity, which increases soccer stamina; c) soccer-mad parents are more likely to conceive children in springtime, at the annual peak of soccer mania; d) none of the above."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Anders Ericsson, a 58-year-old psychology professor at Florida State University, says he believes strongly in “none of the above.” Ericsson grew up in Sweden, and studied nuclear engineering until he realized he would have more opportunity to conduct his own research if he switched to psychology. His first experiment, nearly 30 years ago, involved memory: training a person to hear and then repeat a random series of numbers. “With the first subject, after about 20 hours of training, his digit span had risen from 7 to 20,” Ericsson recalls. “He kept improving, and after about 200 hours of training he had risen to over 80 numbers.”"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "This success, coupled with later research showing that memory itself is not genetically determined, led Ericsson to conclude that the act of memorizing is more of a cognitive exercise than an intuitive one. In other words, whatever inborn differences two people may exhibit in their abilities to memorize, those differences are swamped by how well each person “encodes” the information. And the best way to learn how to encode information meaningfully, Ericsson determined, was a process known as deliberate practice. Deliberate practice entails more than simply repeating a task. Rather, it involves setting specific goals, obtaining immediate feedback and concentrating as much on technique as on outcome."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Ericsson and his colleagues have thus taken to studying expert performers in a wide range of pursuits, including soccer. They gather all the data they can, not just performance statistics and biographical details but also the results of their own laboratory experiments with high achievers. Their work makes a rather startling assertion: the trait we commonly call talent is highly overrated. Or, put another way, expert performers—whether in memory or surgery, ballet or computer programming—are nearly always made, not born."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2007.md Text 2",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "For the past several years, the Sunday newspaper supplement Parade has featured a column called “Ask Marilyn.” People are invited to query Marilyn vos Savant, who at age 10 had tested at a mental level of someone about 23 years old; that gave her an IQ of 228—the highest score ever recorded. IQ tests ask you to complete verbal and visual analogies, to envision paper after it has been folded and cut, and to deduce numerical sequences, among other similar tasks. So it is a bit confusing when vos Savant fields such queries from the average Joe (whose IQ is 100) as, What’s the difference between love and fondness? Or what is the nature of luck and coincidence? It’s not obvious how the capacity to visualize objects and to figure out numerical patterns suits one to answer questions that have eluded some of the best poets and philosophers."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Clearly, intelligence encompasses more than a score on a test. Just what does it mean to be smart? How much of intelligence can be specified, and how much can we learn about it from neurology, genetics, computer science and other fields?"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The defining term of intelligence in humans still seems to be the IQ score, even though IQ tests are not given as often as they used to be. The test comes primarily in two forms: the Stanford-Binet Intelligence Scale and the Wechsler Intelligence Scales (both come in adult and children’s version). Generally costing several hundred dollars, they are usually given only by psychologists, although variations of them populate bookstores and the World Wide Web. Superhigh scores like vos Savant’s are no longer possible, because scoring is now based on a statistical population distribution among age peers, rather than simply dividing the mental age by the chronologica age and multiplying by 100. Other standardized tests, such as the Scholastic Assessment Test (SAT) and the Graduate Record Exam (GRE), capture the main aspects of IQ tests."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Such standardized tests may not assess all the important elements necessary to succeed in school and in life, argues Robert J. Sternberg. In his article “How Intelligent Is Intelligence Testing?”, Sternberg notes that traditiona tests best assess analytical and verbal skills but fail to measure creativity and practical knowledge, components also critical to problem solving and life success. Moreover, IQ tests do not necessarily predict so well once populations or situations change. Research has found that IQ predicted leadership skills when the tests were given under low-stress conditions, but under high-stress conditions, IQ was negatively correlated with leadership—that is, it predicted the opposite. Anyone who has toiled through SAT will testify that test-taking skill also matters, whether it’s knowing when to guess or what questions to skip."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2007.md Text 3",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "During the past generation, the American middle-class family that once could count on hard work and fair play to keep itself financially secure has been transformed by economic risk and new realties. Now a pink slip, a bad diagnosis, or a disappearing spouse can reduce a family from solidly middle class to newly poor in a few months."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "In just one generation, millions of mothers have gone to work,transforming basic family economics. Scholars, policymakers, and critics of all stripes have debated the social implications of these changes, but few have looked at the side effect: family risk has risen as well. Today’s families have budgeted to the limits of theirs new two-paycheck status. As a result, they have lost the parachute they once had in times of financial setback—a back-up earner (usually Mom) who could go into the workforce if the primary earner got laid off or fell sick. This “added-worker effect” could support the safety net offered by unemployment insurance or disability insurance to help families weather bad times. But today, a disruption to family fortunes can no longer be made up with extra income from an otherwise-stay-at-home partner."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "During the same period, families have been asked to absorb much more risk in their retirement income. Steelworkers, airline employees, and now those in the auto industry are joining millions of families who must worry about interest rates, stock market fluctuation, and the harsh reality that they may outlive their retirement money. For much of the past year, President Bush campaigned to move Social Security to a savings-account model, with retirees trading much or all of their guaranteed payments for payments depending on investment returns. For younger families, the picture is not any better. Both the absolute cost of healthcare and the share of it borne by families have risen—and newly fashionable health-savings plans are spreading from legislative halls to Wal-Mart workers, with much higher deductibles and a large new dose of investment risk for families’ future healthcare Even demographics are working against the middle class family, as the odds of having a weak elderly parent—and all the attendant need for physical and financial assistance—have jumped eightfold in just one generation"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "From the middle-class family perspective, much of this, understandably, looks far less like an opportunity to exercise more financial responsibility, and a good deal more like a frightening acceleration of the wholesale shift of financial risk onto their already overburdened shoulders. The financial fallout has begun, and the political fallout may not be far behind."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2007.md Text 4",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "It never rains but it pours. Just as bosses and boards have finally sorted out their worst accounting and compliance troubles, and improved their feeble corporation governance, a new problem threatens to earn them—especially in America—the sort of nasty headlines that inevitably lead to heads rolling in the executive suite: data insecurity. Left, until now, to odd, low-level IT staff to put right, and seen as a concern only of data-rich industries such as banking, telecoms and air travel, information protection is now high on the boss’s agenda in businesses of every variety."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Several massive leakages of customer and employee data this year—from organizations as diverse as Time Warner, the American defense contractor Science Applications International Corp and even the University of California, Berkeley—have left managers hurriedly peering into their intricate IT systems and business processes in search of potential vulnerabilities."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "“Data is becoming an asset which needs to be guarded as much as any other asset,” says Haim Mendelson of Stanford University’s business school. “The ability to guard customer data is the key to market value, which the board is responsible for on behalf of shareholders”. Indeed, just as there is the concept of Generally Accepted Accounting Principles (GAAP), perhaps it is time for GASP, Generally Accepted Security Practices, suggested El Noam of New York’s Columbia Business School. “Setting the proper investment level for security, redundancy, and recovery is a management issue, not a technical one,” he says."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The mystery is that this should come as a surprise to any boss. Surely it should be obvious to the dimmest executive that trust, that most valuable of economic assets, is easily destroyed and hugely expensive to restore—and that few things are more likely to destroy trust than a company letting sensitive personal data get into the wrong hands."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "The current state of affairs may have been encouraged—though not justified—by the lack of legal penalty (in America, but not Europe) for data leakage. Until California recently passed a law, American firms did not have to tell anyone, even the victim, when data went astray. That may change fast: lots of proposed data-security legislation is now doing the rounds in Washington, D.C. Meanwhile, the theft of information about some 40 million credit-card accounts in America, disclosed on June 17th, overshadowed a hugely important decision a day earlier by America’s Federal Trade Commission (FTC) that puts corporate America on notice that regulators will act if firms fail to provide adequate data security."
+        }
+      ]
+    },
+    {
+      "id": "newtype",
+      "title": "Section II · 新题型 Part B 短文",
+      "section": "Section II · 新题型 Part B",
+      "source_ref": "2007.md Part B",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Mothers and fathers can do a lot to ensure a safe landing in early adulthood for their kids. Even if a job’s starting salary seems too small to satisfy an emerging adult’s need for rapid content, the transition from school to work can be less of a setback if the start-up adult is ready for the move. Here are a few measures, drawn from my book Ready or Not, Here Life Comes, that parents can take to prevent what I call “work-life unreadiness”:"
+        },
+        { "id": "p2", "type": "paragraph", "text": "__41__" },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "You can start this process when they are 11 or 12. Periodically review their emerging strengths and weaknesses with them and work together on any shortcomings, like difficulty in communicating well or collaborating. Also, identify the kinds of interests they keep coming back to, as these offer clues to the careers that will fit them best."
+        },
+        { "id": "p4", "type": "paragraph", "text": "__42__" },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Kids need a range of authentic role models—as opposed to members of their clique, pop stars and vaunted athletes. Have regular dinner-table discussions about people the family knows and how they got where they are. Discuss the joys and downsides of your own career and encourage your kids to form some ideas about their own future. When asked what they want to do, they should be discouraged from saying “I have no idea.” They can change their minds 200 times, but having only a foggy view of the future is of little good."
+        },
+        { "id": "p6", "type": "paragraph", "text": "__43__" },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "Teachers are responsible for teaching kids how to learn; parents should be responsible for teaching them how to work. Assign responsibilities around the house and make sure homework deadlines are met. Encourage teenagers to take a part-time job. Kids need plenty of practice delaying gratification and deploying effective organizational skills, such as managing time and setting priorities."
+        },
+        { "id": "p8", "type": "paragraph", "text": "__44__" },
+        {
+          "id": "p9",
+          "type": "paragraph",
+          "text": "Playing video games encourages immediate content. And hours of watching TV shows with canned laughter only teaches kids to process information in a passive way. At the same time, listening through earphones to the same monotonous beats for long stretches encourages kids to stay inside their bubble instead of pursuing other endeavors. All these activities can prevent the growth of important communication and thinking skills and make it difficult for kids to develop the kind of sustained concentration they will need for most jobs."
+        },
+        { "id": "p10", "type": "paragraph", "text": "__45__" },
+        {
+          "id": "p11",
+          "type": "paragraph",
+          "text": "They should know how to deal with setbacks, stress and feelings of inadequacy. They should also learn how to solve problems and resolve conflicts, ways to brainstorm and think critically. Discussions at home can help kid practice doing these things and help them apply these skills to everyday life situations."
+        },
+        {
+          "id": "p12",
+          "type": "paragraph",
+          "text": "What about the son or daughter who is grown but seems to be struggling and wandering aimlessly through early adulthood? Parents still have a major role to play, but now it is more delicate. They have to be careful not to come across as disappointed in their child. They should exhibit strong interest and respect for whatever currently interests their fledging adult (as naive or ill conceived as it may seem) while becoming a partner in exploring options for the future. Most of all, these new adults must feel that they are respected and supported by a family that appreciates them."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · 翻译 Part C 原文",
+      "section": "Section II · 翻译 Part C",
+      "source_ref": "2007.md Part C",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The study of law has been recognized for centuries as a basic intellectual discipline in European universities However, only in recent years has it become a feature of undergraduate programs in Canadian universities 【46】Traditionally, legal learning has been viewed in such institutions as the special preserve of lawyers, rather than a necessary part of the intellectual equipment of an educated person. Happily, the older and more continental view of legal education is establishing itself in a number of Canadian universities and some have even begun to offer undergraduate degrees in law."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "If the study of law is beginning to establish itself as part and parcel of a general education, its aims and methods should appeal directly to journalism educators. Law is a discipline which encourages responsibl judgment. On the one hand, it provides opportunities to analyze such ideas as justice, democracy and freedom 【47】On the other, it links these concepts to everyday realities in a manner which is parallel to the links journalists forge on a daily basis as they cover and comment on the news. For example, notions of evidence and fact, of basic rights and public interest are at work in the process ofjournalistic judgment and production just as in courts of law Sharpening judgment by absorbing and reflecting on law is a desirable component of a journalist’s intellectual preparation for his or her career."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "【48】But the idea that the journalist must understand the law more profoundly than an ordinary citizen rests on an understanding of the established conventions and special responsibilities of the news media. Politics or, more broadly, the functioning of the state, is a major subject for journalists. The better informed they are about the way the state works, the better their reporting will be. 【49】In fact, it is difficult to see how journalists who do not have a clear grasp of the basic features of the Canadian Constitution can do a competent job on political stories."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Furthermore, the legal system and the events which occur within it are primary subjects for journalists. While the quality of legal journalism varies greatly, there is an undue reliance amongst many journalists on interpretations supplied to them by lawyers. 【50】While comment and reaction from lawyers may enhance stories, it is preferable for journalists to rely on their own notions of significance and make their own judgments. These can only come from a well-grounded understanding of the legal system."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "natives" },
+        { "id": "c1-b", "text": "inhabitants" },
+        { "id": "c1-c", "text": "peoples" },
+        { "id": "c1-d", "text": "individuals" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-b"] },
+      "explanation": "这些国家的居民，inhabitants 最准确。",
+      "max_score_units": 50,
+      "source_ref": "第1空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "confusedly" },
+        { "id": "c2-b", "text": "cheerfully" },
+        { "id": "c2-c", "text": "worriedly" },
+        { "id": "c2-d", "text": "hopefully" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-d"] },
+      "explanation": "独立后民众满怀希望地展望未来，hopefully 正确。",
+      "max_score_units": 50,
+      "source_ref": "第2空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "shared" },
+        { "id": "c3-b", "text": "forgot" },
+        { "id": "c3-c", "text": "attained" },
+        { "id": "c3-d", "text": "rejected" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-a"] },
+      "explanation": "许多独立领导人共同怀有这些理念，shared 正确。",
+      "max_score_units": 50,
+      "source_ref": "第3空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "related" },
+        { "id": "c4-b", "text": "close" },
+        { "id": "c4-c", "text": "open" },
+        { "id": "c4-d", "text": "devoted" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-c"] },
+      "explanation": "职业对人才开放，open to talent。",
+      "max_score_units": 50,
+      "source_ref": "第4空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "access" },
+        { "id": "c5-b", "text": "succession" },
+        { "id": "c5-c", "text": "right" },
+        { "id": "c5-d", "text": "return" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-c"] },
+      "explanation": "私有财产权，the right to private property。",
+      "max_score_units": 50,
+      "source_ref": "第5空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "Presumably" },
+        { "id": "c6-b", "text": "Incidentally" },
+        { "id": "c6-c", "text": "Obviously" },
+        { "id": "c6-d", "text": "Generally" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-d"] },
+      "explanation": "普遍存在这样的信念，Generally 正确。",
+      "max_score_units": 50,
+      "source_ref": "第6空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "unique" },
+        { "id": "c7-b", "text": "common" },
+        { "id": "c7-c", "text": "particular" },
+        { "id": "c7-d", "text": "typical" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-b"] },
+      "explanation": "通过一套共同的法律统一，common 正确。",
+      "max_score_units": 50,
+      "source_ref": "第7空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "freedom" },
+        { "id": "c8-b", "text": "origin" },
+        { "id": "c8-c", "text": "impact" },
+        { "id": "c8-d", "text": "reform" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-a"] },
+      "explanation": "宗教自由问题，freedom of religion。",
+      "max_score_units": 50,
+      "source_ref": "第8空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "therefore" },
+        { "id": "c9-b", "text": "however" },
+        { "id": "c9-c", "text": "indeed" },
+        { "id": "c9-d", "text": "moreover" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-b"] },
+      "explanation": "与前文形成转折，however 正确。",
+      "max_score_units": 50,
+      "source_ref": "第9空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "with" },
+        { "id": "c10-b", "text": "about" },
+        { "id": "c10-c", "text": "among" },
+        { "id": "c10-d", "text": "by" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-c"] },
+      "explanation": "领导层内部意见不一，among the leadership。",
+      "max_score_units": 50,
+      "source_ref": "第10空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        { "id": "c11-a", "text": "allowed" },
+        { "id": "c11-b", "text": "preached" },
+        { "id": "c11-c", "text": "granted" },
+        { "id": "c11-d", "text": "funded" }
+      ],
+      "answer_key": { "selected_option_ids": ["c11-a"] },
+      "explanation": "西班牙国王允许的唯一宗教，allowed 正确。",
+      "max_score_units": 50,
+      "source_ref": "第11空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        { "id": "c12-a", "text": "Since" },
+        { "id": "c12-b", "text": "If" },
+        { "id": "c12-c", "text": "Unless" },
+        { "id": "c12-d", "text": "While" }
+      ],
+      "answer_key": { "selected_option_ids": ["c12-d"] },
+      "explanation": "While 表示对比，“虽然……但是……”。",
+      "max_score_units": 50,
+      "source_ref": "第12空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        { "id": "c13-a", "text": "as" },
+        { "id": "c13-b", "text": "for" },
+        { "id": "c13-c", "text": "under" },
+        { "id": "c13-d", "text": "against" }
+      ],
+      "answer_key": { "selected_option_ids": ["c13-a"] },
+      "explanation": "maintain Catholicism as the official religion，as 表示“作为”。",
+      "max_score_units": 50,
+      "source_ref": "第13空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        { "id": "c14-a", "text": "spread" },
+        { "id": "c14-b", "text": "interference" },
+        { "id": "c14-c", "text": "exclusion" },
+        { "id": "c14-d", "text": "influence" }
+      ],
+      "answer_key": { "selected_option_ids": ["c14-c"] },
+      "explanation": "结束对其他信仰的排斥，exclusion 正确。",
+      "max_score_units": 50,
+      "source_ref": "第14空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        { "id": "c15-a", "text": "support" },
+        { "id": "c15-b", "text": "cry" },
+        { "id": "c15-c", "text": "plea" },
+        { "id": "c15-d", "text": "wish" }
+      ],
+      "answer_key": { "selected_option_ids": ["c15-b"] },
+      "explanation": "rallying cry 意为“战斗口号”。",
+      "max_score_units": 50,
+      "source_ref": "第15空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        { "id": "c16-a", "text": "urged" },
+        { "id": "c16-b", "text": "intended" },
+        { "id": "c16-c", "text": "expected" },
+        { "id": "c16-d", "text": "promised" }
+      ],
+      "answer_key": { "selected_option_ids": ["c16-d"] },
+      "explanation": "作为回报承诺废除奴隶制，promised 正确。",
+      "max_score_units": 50,
+      "source_ref": "第16空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        { "id": "c17-a", "text": "controlling" },
+        { "id": "c17-b", "text": "former" },
+        { "id": "c17-c", "text": "remaining" },
+        { "id": "c17-d", "text": "original" }
+      ],
+      "answer_key": { "selected_option_ids": ["c17-c"] },
+      "explanation": "西班牙剩余的殖民地，remaining 正确。",
+      "max_score_units": 50,
+      "source_ref": "第17空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        { "id": "c18-a", "text": "slower" },
+        { "id": "c18-b", "text": "faster" },
+        { "id": "c18-c", "text": "easier" },
+        { "id": "c18-d", "text": "tougher" }
+      ],
+      "answer_key": { "selected_option_ids": ["c18-a"] },
+      "explanation": "承诺兑现得更慢，slower 正确。",
+      "max_score_units": 50,
+      "source_ref": "第18空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        { "id": "c19-a", "text": "created" },
+        { "id": "c19-b", "text": "produced" },
+        { "id": "c19-c", "text": "contributed" },
+        { "id": "c19-d", "text": "preferred" }
+      ],
+      "answer_key": { "selected_option_ids": ["c19-b"] },
+      "explanation": "这些政策产生的收入，produced 正确。",
+      "max_score_units": 50,
+      "source_ref": "第19空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        { "id": "c20-a", "text": "puzzled by" },
+        { "id": "c20-b", "text": "hostile to" },
+        { "id": "c20-c", "text": "pessimistic about" },
+        { "id": "c20-d", "text": "unprepared for" }
+      ],
+      "answer_key": { "selected_option_ids": ["c20-d"] },
+      "explanation": "大众还没有为自治和民主做好准备，unprepared for 正确。",
+      "max_score_units": 50,
+      "source_ref": "第20空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "t1-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The word “homogenizing” (Line 2, Paragraph 1) most probably means",
+      "options": [
+        { "id": "t1-q1-a", "text": "identifying" },
+        { "id": "t1-q1-b", "text": "associating" },
+        { "id": "t1-q1-c", "text": "assimilating" },
+        { "id": "t1-q1-d", "text": "monopolizing" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q1-c"] },
+      "explanation": "homogenizing 与 assimilating 同义，表示同化。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1段",
+      "tags": ["阅读理解", "词义题"]
+    },
+    {
+      "id": "t1-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to the author, the department stores of the 19th century ______",
+      "options": [
+        { "id": "t1-q2-a", "text": "played a role in the spread of popular culture" },
+        { "id": "t1-q2-b", "text": "became intimate shops for common consumers" },
+        { "id": "t1-q2-c", "text": "satisfied the needs of a knowledgeable elite" },
+        { "id": "t1-q2-d", "text": "owed its emergence to the culture of consumption" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q2-a"] },
+      "explanation": "19世纪百货商店推动大众文化传播。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t1-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The text suggests that immigrants now in the U.S.",
+      "options": [
+        { "id": "t1-q3-a", "text": "are resistant to homogenization" },
+        { "id": "t1-q3-b", "text": "exert a great influence on American culture" },
+        { "id": "t1-q3-c", "text": "are hardly a threat to the common culture" },
+        { "id": "t1-q3-d", "text": "constitute the majority of the population" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q3-c"] },
+      "explanation": "原文说 hardly poisonous，即几乎不构成威胁。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第2段",
+      "tags": ["阅读理解", "推断题"]
+    },
+    {
+      "id": "t1-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Why are Arnold Schwarzenegger and Garth Brooks mentioned in Paragraph 5?",
+      "options": [
+        { "id": "t1-q4-a", "text": "To prove their popularity around the world." },
+        { "id": "t1-q4-b", "text": "To reveal the public’s fear of immigrants." },
+        { "id": "t1-q4-c", "text": "To give examples of successful immigrants." },
+        { "id": "t1-q4-d", "text": "To show the powerful influence of American culture." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q4-d"] },
+      "explanation": "举例说明美国文化的强大同化/影响力。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第5段",
+      "tags": ["阅读理解", "例证题"]
+    },
+    {
+      "id": "t1-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "In the author’s opinion, the absorption of immigrants into American society is",
+      "options": [
+        { "id": "t1-q5-a", "text": "rewarding" },
+        { "id": "t1-q5-b", "text": "successful" },
+        { "id": "t1-q5-c", "text": "fruitless" },
+        { "id": "t1-q5-d", "text": "harmful" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q5-b"] },
+      "explanation": "作者认为移民同化总体是成功的。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 全文",
+      "tags": ["阅读理解", "观点题"]
+    },
+    {
+      "id": "t2-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "In the first paragraph, the author discusses ______",
+      "options": [
+        { "id": "t2-q1-a", "text": "the background information of journal editing" },
+        { "id": "t2-q1-b", "text": "the publication routine of laboratory reports" },
+        { "id": "t2-q1-c", "text": "the relations of authors with journal publishers" },
+        { "id": "t2-q1-d", "text": "the traditional process of journal publication" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q1-d"] },
+      "explanation": "第一段介绍传统的期刊出版流程。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第1段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t2-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Which of the following is true of the OECD report?",
+      "options": [
+        { "id": "t2-q2-a", "text": "It criticizes government-funded research." },
+        { "id": "t2-q2-b", "text": "It introduces an effective means of publication." },
+        { "id": "t2-q2-c", "text": "It upsets profit-making journal publishers." },
+        { "id": "t2-q2-d", "text": "It benefits scientific research considerably." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q2-c"] },
+      "explanation": "报告让盈利的出版商感到不安。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第2段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t2-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "According to the text, online publication is significant in that ______",
+      "options": [
+        { "id": "t2-q3-a", "text": "it provides an easier access to scientific results" },
+        { "id": "t2-q3-b", "text": "it brings huge profits to scientific researchers" },
+        { "id": "t2-q3-c", "text": "it emphasizes the crucial role of scientific knowledge" },
+        { "id": "t2-q3-d", "text": "it facilitates public investment in scientific research" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q3-a"] },
+      "explanation": "网络出版使获取科研成果更容易。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第2段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t2-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "With the open-access publishing model, the author of a paper is required to ______",
+      "options": [
+        { "id": "t2-q4-a", "text": "bear the cost of publication" },
+        { "id": "t2-q4-b", "text": "subscribe to the journal" },
+        { "id": "t2-q4-c", "text": "allow other online journals to use it freely" },
+        { "id": "t2-q4-d", "text": "complete peer review before submission" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q4-a"] },
+      "explanation": "开放存取出版模式要求作者支付出版费用。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第4段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t2-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Which of the following best summarizes the text?",
+      "options": [
+        { "id": "t2-q5-a", "text": "The Internet is posing a threat to publishers." },
+        { "id": "t2-q5-b", "text": "A new mode of publication is emerging." },
+        { "id": "t2-q5-c", "text": "Authors welcome the new channel for publication." },
+        { "id": "t2-q5-d", "text": "Publication is rendered easily by online service." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q5-b"] },
+      "explanation": "全文主旨是新的出版模式正在出现。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 全文",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t3-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Today’s double-income families are at greater financial risk in that ______",
+      "options": [
+        { "id": "t3-q1-a", "text": "the safety net they used to enjoy has disappeared" },
+        { "id": "t3-q1-b", "text": "their chances of being laid off have greatly increased" },
+        { "id": "t3-q1-c", "text": "they are more vulnerable to changes in family economics" },
+        { "id": "t3-q1-d", "text": "they are deprived of unemployment or disability insurance" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q1-c"] },
+      "explanation": "双收入家庭更容易受到家庭经济变化的影响。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第2段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t3-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "As a result of President Bush’s reform, retired people may have ______",
+      "options": [
+        { "id": "t3-q2-a", "text": "a higher sense of security" },
+        { "id": "t3-q2-b", "text": "less secured payments" },
+        { "id": "t3-q2-c", "text": "less chance to invest" },
+        { "id": "t3-q2-d", "text": "a guaranteed future" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q2-b"] },
+      "explanation": "退休金支付更没保障。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第3段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t3-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "According to the author, health-savings plans will ______",
+      "options": [
+        { "id": "t3-q3-a", "text": "help reduce the cost of healthcare" },
+        { "id": "t3-q3-b", "text": "popularize among the middle class" },
+        { "id": "t3-q3-c", "text": "compensate for the reduced pensions" },
+        { "id": "t3-q3-d", "text": "increase the families’ investment risk" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q3-d"] },
+      "explanation": "健康储蓄计划增加家庭投资风险。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第3段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t3-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "It can be inferred from the last paragraph that ______",
+      "options": [
+        { "id": "t3-q4-a", "text": "financial risks tend to outweigh political risks" },
+        { "id": "t3-q4-b", "text": "the middle class may face greater political challenges" },
+        { "id": "t3-q4-c", "text": "financial problems may bring about political problems" },
+        { "id": "t3-q4-d", "text": "financial responsibility is an indicator of political status" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q4-c"] },
+      "explanation": "经济问题可能带来政治问题。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第4段",
+      "tags": ["阅读理解", "推断题"]
+    },
+    {
+      "id": "t3-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Which of the following is the best title for this text?",
+      "options": [
+        { "id": "t3-q5-a", "text": "The Middle Class on the Alert" },
+        { "id": "t3-q5-b", "text": "The Middle Class on the Cliff" },
+        { "id": "t3-q5-c", "text": "The Middle Class in Conflict" },
+        { "id": "t3-q5-d", "text": "The Middle Class in Ruins" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q5-b"] },
+      "explanation": "最佳标题是“处于危险边缘的中产阶级”。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 全文",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t4-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The statement “It never rains but it pours” is used to introduce ______",
+      "options": [
+        { "id": "t4-q1-a", "text": "the fierce business competition" },
+        { "id": "t4-q1-b", "text": "the feeble boss-board relations" },
+        { "id": "t4-q1-c", "text": "the threat from news reports" },
+        { "id": "t4-q1-d", "text": "the severity of data leakage" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q1-d"] },
+      "explanation": "引出数据泄露的严重性。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第1段",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t4-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to Paragraph 2, some organizations check their systems to find out ______",
+      "options": [
+        { "id": "t4-q2-a", "text": "whether there is any weak point" },
+        { "id": "t4-q2-b", "text": "what sort of data has been stolen" },
+        { "id": "t4-q2-c", "text": "who is responsible for the leakage" },
+        { "id": "t4-q2-d", "text": "how the potential spies can be located" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q2-a"] },
+      "explanation": "检查系统寻找潜在漏洞。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第2段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t4-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "In bringing up the concept of GASP the author is making the point that ______",
+      "options": [
+        { "id": "t4-q3-a", "text": "shareholders’ interests should be properly attended to" },
+        { "id": "t4-q3-b", "text": "information protection should be given due attention" },
+        { "id": "t4-q3-c", "text": "businesses should enhance their level of accounting security" },
+        { "id": "t4-q3-d", "text": "the market value of customer data should be emphasized" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q3-b"] },
+      "explanation": "提出 GASP 是为了说明信息保护应受到适当关注。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第3段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t4-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to Paragraph 4, what puzzles the author is that some bosses fail to ______",
+      "options": [
+        { "id": "t4-q4-a", "text": "see the link between trust and data protection" },
+        { "id": "t4-q4-b", "text": "perceive the sensitivity of personal data" },
+        { "id": "t4-q4-c", "text": "realize the high cost of data restoration" },
+        { "id": "t4-q4-d", "text": "appreciate the economic value of trust" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q4-a"] },
+      "explanation": "作者不解的是老板们没看到信任与数据保护之间的联系。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第4段",
+      "tags": ["阅读理解", "细节题"]
+    },
+    {
+      "id": "t4-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "It can be inferred from Paragraph 5 that ______",
+      "options": [
+        { "id": "t4-q5-a", "text": "data leakage is more severe in Europe" },
+        { "id": "t4-q5-b", "text": "FTC’s decision is essential to data security" },
+        { "id": "t4-q5-c", "text": "California takes the lead in security legislation" },
+        { "id": "t4-q5-d", "text": "legal penalty is a major solution to data leakage" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q5-d"] },
+      "explanation": "法律惩罚是解决数据泄露的主要办法。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第5段",
+      "tags": ["阅读理解", "推断题"]
+    },
+    {
+      "id": "nt-41",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 41 空：从下列小标题中选出最适合本部分的选项",
+      "options": [
+        { "id": "nt-a", "text": "Set a Good Example for Your Kids" },
+        { "id": "nt-b", "text": "Build Your Kids’ Work Skills" },
+        { "id": "nt-c", "text": "Place Time Limits on Leisure Activities" },
+        { "id": "nt-d", "text": "Talk about the Future on a Regular Basis" },
+        { "id": "nt-e", "text": "Help Kids Develop Coping Strategies" },
+        { "id": "nt-f", "text": "Help Your Kids Figure Out Who They Are" },
+        { "id": "nt-g", "text": "Build Your Kids’ Sense of Responsibility" }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-f"] },
+      "explanation": "本部分帮助孩子了解自己的优缺点和兴趣，对应 F。",
+      "max_score_units": 200,
+      "source_ref": "第41空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-42",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 42 空：从下列小标题中选出最适合本部分的选项",
+      "options": [
+        { "id": "nt-a", "text": "Set a Good Example for Your Kids" },
+        { "id": "nt-b", "text": "Build Your Kids’ Work Skills" },
+        { "id": "nt-c", "text": "Place Time Limits on Leisure Activities" },
+        { "id": "nt-d", "text": "Talk about the Future on a Regular Basis" },
+        { "id": "nt-e", "text": "Help Kids Develop Coping Strategies" },
+        { "id": "nt-f", "text": "Help Your Kids Figure Out Who They Are" },
+        { "id": "nt-g", "text": "Build Your Kids’ Sense of Responsibility" }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-d"] },
+      "explanation": "本部分鼓励孩子谈论未来，对应 D。",
+      "max_score_units": 200,
+      "source_ref": "第42空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-43",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 43 空：从下列小标题中选出最适合本部分的选项",
+      "options": [
+        { "id": "nt-a", "text": "Set a Good Example for Your Kids" },
+        { "id": "nt-b", "text": "Build Your Kids’ Work Skills" },
+        { "id": "nt-c", "text": "Place Time Limits on Leisure Activities" },
+        { "id": "nt-d", "text": "Talk about the Future on a Regular Basis" },
+        { "id": "nt-e", "text": "Help Kids Develop Coping Strategies" },
+        { "id": "nt-f", "text": "Help Your Kids Figure Out Who They Are" },
+        { "id": "nt-g", "text": "Build Your Kids’ Sense of Responsibility" }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-b"] },
+      "explanation": "本部分教孩子如何工作，对应 B。",
+      "max_score_units": 200,
+      "source_ref": "第43空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-44",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 44 空：从下列小标题中选出最适合本部分的选项",
+      "options": [
+        { "id": "nt-a", "text": "Set a Good Example for Your Kids" },
+        { "id": "nt-b", "text": "Build Your Kids’ Work Skills" },
+        { "id": "nt-c", "text": "Place Time Limits on Leisure Activities" },
+        { "id": "nt-d", "text": "Talk about the Future on a Regular Basis" },
+        { "id": "nt-e", "text": "Help Kids Develop Coping Strategies" },
+        { "id": "nt-f", "text": "Help Your Kids Figure Out Who They Are" },
+        { "id": "nt-g", "text": "Build Your Kids’ Sense of Responsibility" }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-c"] },
+      "explanation": "本部分讨论限制休闲活动时间，对应 C。",
+      "max_score_units": 200,
+      "source_ref": "第44空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-45",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 45 空：从下列小标题中选出最适合本部分的选项",
+      "options": [
+        { "id": "nt-a", "text": "Set a Good Example for Your Kids" },
+        { "id": "nt-b", "text": "Build Your Kids’ Work Skills" },
+        { "id": "nt-c", "text": "Place Time Limits on Leisure Activities" },
+        { "id": "nt-d", "text": "Talk about the Future on a Regular Basis" },
+        { "id": "nt-e", "text": "Help Kids Develop Coping Strategies" },
+        { "id": "nt-f", "text": "Help Your Kids Figure Out Who They Are" },
+        { "id": "nt-g", "text": "Build Your Kids’ Sense of Responsibility" }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-e"] },
+      "explanation": "本部分教孩子应对挫折和压力，对应 E。",
+      "max_score_units": 200,
+      "source_ref": "第45空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "tr-46",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Traditionally, legal learning has been viewed in such institutions as the special preserve of lawyers, rather than a necessary part of the intellectual equipment of an educated person.",
+      "answer_key": { "reference_text": "长久以来，法律知识在这类学校里一直被视为律师们所专有的，而不是一个受教育者的知识素养的必要组成部分。" },
+      "explanation": "被动语态、rather than 并列结构。",
+      "max_score_units": 200,
+      "source_ref": "第46句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-47",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "On the other, it links these concepts to everyday realities in a manner which is parallel to the links journalists forge on a daily basis as they cover and comment on the news.",
+      "answer_key": { "reference_text": "另一方面，这一学科把这些概念结合到日常生活中，这与新闻记者每天报道和评论新闻时的做法是相同的。" },
+      "explanation": "嵌套定语从句，parallel to 表示类似。",
+      "max_score_units": 200,
+      "source_ref": "第47句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-48",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "But the idea that the journalist must understand the law more profoundly than an ordinary citizen rests on an understanding of the established conventions and special responsibilities of the news media.",
+      "answer_key": { "reference_text": "新闻记者应比普通公民更加透彻地了解法律，而这种看法是基于他们对新闻媒体业已确定的规约和特殊责任的理解。" },
+      "explanation": "同位语从句、rest on。",
+      "max_score_units": 200,
+      "source_ref": "第48句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-49",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "In fact, it is difficult to see how journalists who do not have a clear grasp of the basic features of the Canadian Constitution can do a competent job on political stories.",
+      "answer_key": { "reference_text": "事实上，很难设想那些对加拿大宪法的基本要点缺乏清晰了解的新闻记者何以能胜任政治新闻的报道工作。" },
+      "explanation": "形式主语、定语从句。",
+      "max_score_units": 200,
+      "source_ref": "第49句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-50",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "While comment and reaction from lawyers may enhance stories, it is preferable for journalists to rely on their own notions of significance and make their own judgments.",
+      "answer_key": { "reference_text": "尽管律师的见解和反应会提高报道的质量，但新闻记者最好凭借他们自己对重要性的理解自行做出判断。" },
+      "explanation": "While 让步状语从句、形式主语。",
+      "max_score_units": 200,
+      "source_ref": "第50句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "writing-a",
+      "section": "Section III · 写作 Part A",
+      "type": "free_text",
+      "stem": "Write a letter to your university library, making suggestions for improving its service.\nYou should write about 100 words on ANSWER SHEET 2.\nDo not sign your own name at the end of the letter. Use “Li Ming” instead.\nDo not write the address. (10 points)",
+      "answer_key": { "reference_text": "Dear Sir or Madam,\n\nAs a frequenter of our library, I have greatly benefited from its resources. Now I am writing to present my suggestions on the further improvement of the library service.\n\nFirstly, I would like to suggest that the library should purchase more books recently published, for the outdated materials are of little value to the students' study and research. Secondly, on the library's second floor there is a constant water fall sound which makes reading and concentration almost impossible. Please look into this immediately. Lastly, silent study areas should be always kept noise free. It would be much helpful if the library staff maintain the order on a regular basis.\n\nMany thanks for considering my comments, and I look forward to your response at your earliest convenience.\n\nSincerely Yours,\nLi Ming" },
+      "explanation": "建议信：说明目的、提出具体建议、表达谢意。",
+      "max_score_units": 1000,
+      "source_ref": "Section III Part A",
+      "tags": ["写作", "应用文"]
+    },
+    {
+      "id": "writing-b",
+      "section": "Section III · 写作 Part B",
+      "type": "free_text",
+      "stem": "Write an essay of 160-200 words based on the following drawing. In your essay, you should\n1) describe the drawing briefly,\n2) explain its intended meaning, and then\n3) support your view with an example/examples.\n图中显示：点球大战前，射门者和守门员都把自己想象得很渺小，把对方想象得很大。\nYou should write neatly on ANSWER SHEET 2. (20 points)",
+      "images": [
+        "images/2007/3273b7d9ca6850c180abe8f6156ca7bf724777bec03d4f3be69064e2e35d24cc.jpg"
+      ],
+      "answer_key": { "reference_text": "The cartoon illustrates two football players confronting each other before a penalty kick. The kicker is getting ready to shoot on goal while the goalkeeper is about to defend the shot. At the critical moment, interestingly, both of them have lost heart. The attacker who exaggerates the power of his opponent feels anxious about his inability to shoot in. The defender minimizes himself, making it impossible for him to keep good guard.\n\nThe message conveyed in the picture seems to be that people tend to underestimate their abilities and magnify their difficulties when confronted with challenges. The reason is that they are preoccupied with negative thoughts, which will damage their self-belief, confidence and achievements. However, a strong positive attitude can lead to success and even create miracles.\n\nNumerous examples can demonstrate the power of a positive attitude. For instance, there is a fierce competition among high-school graduates in China to pass the National College Entrance Exam. It is not uncommon to find students with positive thinking often excel in the exam finally. Another case in point is Deng Yaping, the intentionally famous athlete. She is very short, but becomes a legend in the world table-tennis field. Her perseverance and strong will enable her to win not only 18 major world champions but also respects from all over the world." },
+      "explanation": "看图作文：描述点球场景，说明自信的重要性，举例论证。",
+      "max_score_units": 2000,
+      "source_ref": "Section III Part B",
+      "tags": ["写作", "短文写作"]
+    }
+  ]
+}

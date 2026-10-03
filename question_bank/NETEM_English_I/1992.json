@@ -1,0 +1,783 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 1992,
+    "paper": "英语统考卷",
+    "title": "1992年全国硕士研究生入学统一考试英语试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/1992.md",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "1992年为旧题型：Section I 完形填空15题（每题1分）、Part II Reading Comprehension Part A 15题（每题2分）、Part B 英译汉5句（每句3分）、Section III 短文写作1题（15分）。为控制篇幅，客观题未逐题填写 explanation，答案以 answer_key 为准；分值按原卷实际标注。Passage 3 第二段开头在原始 md 中可能有 OCR 缺失（直接以 to their contest 开头），但不影响答题。"
+  },
+  "set": {
+    "title": "1992年全国硕士研究生入学统一考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · Use of English",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "For each numbered blank in the following passage, there are four choices marked [A], [B], [C] and [D]. Choose the best one and put your choice in the ANSWER SHEET. (15 points)"
+      ]
+    },
+    {
+      "id": "Part II · Reading Comprehension Part A",
+      "part": "Part II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Each of the passages below is followed by some questions. For each question four answers are given. Read the passages carefully and choose the best answer to each of the questions. Put your choice in the ANSWER SHEET. (30 points)"
+      ]
+    },
+    {
+      "id": "Part II · Reading Comprehension Part B",
+      "part": "Part II · Part B",
+      "title": "英译汉",
+      "directions": [
+        "Read the following passage carefully and then translate the underlined sentences into Chinese. (15 points)"
+      ]
+    },
+    {
+      "id": "Section III · Writing",
+      "part": "Section III",
+      "title": "短文写作",
+      "directions": [
+        "A. Title: FOR A BETTER UNDERSTANDING BETWEEN PARENT AND CHILD",
+        "B. Time limit: 40 minutes",
+        "C. Word limit: 120-150 words (not including the given opening sentence)",
+        "D. Your composition should be based on the OUTLINE below and should start with the given opening sentence.",
+        "E. Your composition must be written clearly on the ANSWER SHEET.",
+        "OUTLINE:",
+        "1 Present situation: Lack of communication between parent and child",
+        "2 Possible reasons:",
+        "1) Different likes and dislikes; 2) Misunderstanding; 3) Others",
+        "3 Suggestions",
+        "1) For parents; 2) For children"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · Use of English",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The key to the industrialization of space is the U.S. space shuttle. __1__ it, astronauts will acquire a workhouse vehicle __2__ of flying into space and returning many times. __3__ by reusable rockets that can lift a load of 65,000 pounds, the shuttle will carry devices for scientific inquiry, as __4__ as a variety of military hardware. __5__ more significantly, it will __6__ materials and machines into space for industrial purposes __7__ two decades ago when “sputnik” (artificial satellite) was __8__ to the vocabulary. In short, the __9__ importance of the shuttle lies in its __10__ as an economic tool."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "What makes the space shuttle __11__ is that it takes off like a rocket but lands like an airplane. __12__, when it has accomplished its __13__, it can be ready for __14__ trip in about two weeks."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The space shuttle, the world’s first true spaceship, is a magnificent step __15__ making the impossible possible for the benefit and survival of man."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Passage 1",
+      "section": "Part II · Reading Comprehension Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "It is all very well to blame traffic jams, the cost of petrol and the quick pace of modern life, but manners on the roads are becoming horrible. Everybody knows that the nicest men become monsters behind the wheel. It is all very well, again, to have a tiger in the tank, but to have one in the driver’s seat is another matter altogether. You might tolerate the odd road-hog, the rude and inconsiderate driver, but nowadays the well-mannered motorist is the exception to the rule. (Perhaps the situation calls for a “Be Kind to Other Drivers” campaign, otherwise it may get completely out of hand.)"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Road politeness is not only good manners, but good sense too. It takes the most cool-headed and good-tempered of drivers to resist the temptation to revenge when subjected to uncivilized behavior. On the other hand, a little politeness goes a long way towards relieving the tensions of motoring. A friendly nod or a wave of acknowledgment in response to an act of politeness helps to create an atmosphere of goodwill and tolerance so necessary in modern traffic conditions. But such acknowledgments of politeness are all too rare today. Many drivers nowadays don’t even seem able to recognize politeness when they see it."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "However, misplaced politeness can also be dangerous. Typical examples are the driver who brakes violently to allow a car to emerge from a side street at some hazard to following traffic, when a few seconds later the road would be clear anyway; or the man who waves a child across a zebra crossing into the path of oncoming vehicles that may be unable to stop in time. The same goes for encouraging old ladies to cross the road wherever and whenever they care to. It always amazes me that the highways are not covered with the dead bodies of these grannies."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "A veteran driver, whose manners are faultless, told me it would help if motorists learnt to filter correctly into traffic streams one at a time without causing the total blockages that give rise to bad temper. Unfortunately, modern motorists can’t even learn to drive, let alone master the subtler aspects of roadsmanship. Years ago the experts warned us that the car ownership explosion would demand a lot more give-and-take from all road users. It is high time for all of us to take this message to heart."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Passage 2",
+      "section": "Part II · Reading Comprehension Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In the atmosphere, carbon dioxide acts rather like a one-way mirror—the glass in the roof of a greenhouse which allows the sun’s rays to enter but prevents the heat from escaping."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "According to a weather expert’s prediction, the atmosphere will be 3°C warmer in the year 2050 than it is today, if man continues to burn fuels at the present rate. If this warming up took place, the ice caps in the poles would begin to melt, thus raising sea level several metres and severely flooding coastal cities. Also, the increase in atmospheric temperature would lead to great changes in the climate of the northern hemisphere, possibly resulting in an alteration of the earth’s chief food-growing zones."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "In the past, concern about a man-made warming of the earth has concentrated on the Arctic because the Antarctic is much colder and has a much thicker ice sheet. But the weather experts are now paying more attention to West Antarctic, which may be affected by only a few degrees of warming: in other words, by a warming on the scale that will possibly take place in the next fifty years from the burning of fuels."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Satellite pictures show that large areas of Antarctic ice are already disappearing. The evidence available suggests that a warming has taken place. This fits the theory that carbon dioxide warms the earth."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "However, most of the fuel is burnt in the northern hemisphere, where temperatures seem to be falling. Scientists conclude, therefore, that up to now natural influences on the weather have exceeded those caused by man. The question is: Which natural cause has most effect on the weather?"
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "One possibility is the variable behavior of the sun. Astronomers at one research station have studied the hot spots and “cold” spots (that is, the relatively less hot spots) on the sun. As the sun rotates, every 27.5 days, it presents hotter or “colder” faces to the earth, and different aspects to different parts of the earth. This seems to have a considerable effect on the distribution of the earth’s atmospheric pressure, and consequently on wind circulation. The sun is also variable over a long term: its heat output goes up and down in cycles, the latest trend being downward."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "Scientists are now finding mutual relations between models of solar-weather interactions and the actual climate over many thousands of years, including the last Ice Age. The problem is that the models are predicting that the world should be entering a new Ice Age and it is not. One way of solving this theoretical difficulty is to assume a delay of thousands of years while the solar effects overcome the inertia(惯性) of the earth’s climate. If this is right, the warming effect of carbon dioxide might thus be serving as a useful counter-balance to the sun’s diminishing heat."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Passage 3",
+      "section": "Part II · Reading Comprehension Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Some people believe that international sport creates goodwill between the nations and that if countries play games together they will learn to live together. Others say that the opposite is true: that international contests encourage false national pride and lead to misunderstanding and hatred. There is probably some truth in both arguments, but in recent years the Olympic Games have done little to support the view that sports encourage international brotherhood. Not only was there the tragic incident involving the murder of athletes, but the Games were also ruined by lesser incidents caused principally by minor national contests."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "One country received its second-place medals with visible indignation after the hockey(曲棍球) final. There had been noisy scenes at the end of the hockey match, the losers objecting to the final decisions. They were convinced that one of their goals should not have been disallowed and that their opponents’ victory was unfair. Their manager was in a rage when he said: “This wasn’t hockey. Hockey and the International Hockey Federation are finished.” The president of the Federation said later that such behavior could result in the suspension of the team for at least three years."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The game had ended in disturbance. It was thought at first that the United States had won, by a single point, but it was announced that there were three seconds still to play. A Russian player then threw the ball from one end of the court to the other, and another player popped it into the basket. It was the first time the USA had ever lost an Olympic basketball match. An appeal jury debated the matter for four and a half hours before announcing that the result would stand. The American players then voted not to receive the silver medals."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Incidents of this kind will continue as long as sport is played competitively rather than for the love of the game. The suggestion that athletes should compete as individuals or in non-national teams might be too much to hope for. But in the present organization of the Olympics there is far too much that encourages aggressive patriotism."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Part II · Part B · 翻译原文",
+      "section": "Part II · Reading Comprehension Part B",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "“Intelligence” at best is an assumptive construct—the meaning of the word has never been clear. 【31】There is more agreement on the kinds of behavior referred to by the term than there is on how to interpret or classify them. But it is generally agreed that a person of high intelligence is one who can grasp ideas readily, make distinctions, reason logically, and make use of verbal and mathematical symbols in solving problems. An intelligence test is a rough measure of a child’s capacity for learning, particularly for learning the kinds of things required in school. It does not measure character, social adjustment, physical endurance, manual skills, or artistic abilities. It is not supposed to—it was not designed for such purposes. 【32】To criticize it for such failure is roughly comparable to criticizing a thermometer for not measuring wind velocity."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The other thing we have to notice is that the assessment of the intelligence of any subject is essentially a comparative affair."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "【33】Now since the assessment of intelligence is a comparative matter we must be sure that the scale with which we are comparing our subjects provides a “valid” or “fair” comparison. It is here that some of the difficulties which interest us begin. Any test performed involves at least three factors: the intention to do one’s best, the knowledge required for understanding what you have to do, and the intellectual ability to do it. 【34】The first two must be equal for all who are being compared, if any comparison in terms of intelligence is to be made. In school populations in our culture these assumptions can be made fair and reasonable, and the value of intelligence testing has been proved thoroughly. Its value lies, of course, in its providing a satisfactory basis for prediction. No one is in the least interested in the marks a little child gets on his test; What we are interested in is whether we can conclude from his mark on the test that the child will do better or worse than other children of his age at tasks which we think require “general intelligence”. 【35】On the whole such a conclusion can be drawn with a certain degree of confidence, but only if the child can be assumed to have had the same attitude towards the test as the other with whom he is being compared, and only if he was not punished by lack of relevant information which they possessed."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "In" },
+        { "id": "c1-b", "text": "On" },
+        { "id": "c1-c", "text": "By" },
+        { "id": "c1-d", "text": "With" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-d"] },
+      "max_score_units": 100,
+      "source_ref": "第1空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "capable" },
+        { "id": "c2-b", "text": "suitable" },
+        { "id": "c2-c", "text": "efficient" },
+        { "id": "c2-d", "text": "fit" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-a"] },
+      "max_score_units": 100,
+      "source_ref": "第2空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "Served" },
+        { "id": "c3-b", "text": "Powered" },
+        { "id": "c3-c", "text": "Forced" },
+        { "id": "c3-d", "text": "Reinforced" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-b"] },
+      "max_score_units": 100,
+      "source_ref": "第3空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "far" },
+        { "id": "c4-b", "text": "well" },
+        { "id": "c4-c", "text": "much" },
+        { "id": "c4-d", "text": "long" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-b"] },
+      "max_score_units": 100,
+      "source_ref": "第4空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "Then" },
+        { "id": "c5-b", "text": "Or" },
+        { "id": "c5-c", "text": "But" },
+        { "id": "c5-d", "text": "So" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-c"] },
+      "max_score_units": 100,
+      "source_ref": "第5空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "supply" },
+        { "id": "c6-b", "text": "introduce" },
+        { "id": "c6-c", "text": "deliver" },
+        { "id": "c6-d", "text": "transfer" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-c"] },
+      "max_score_units": 100,
+      "source_ref": "第6空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "unimagined" },
+        { "id": "c7-b", "text": "unsettled" },
+        { "id": "c7-c", "text": "uncovered" },
+        { "id": "c7-d", "text": "unsolved" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-a"] },
+      "max_score_units": 100,
+      "source_ref": "第7空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "attributed" },
+        { "id": "c8-b", "text": "contributed" },
+        { "id": "c8-c", "text": "applied" },
+        { "id": "c8-d", "text": "added" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-d"] },
+      "max_score_units": 100,
+      "source_ref": "第8空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "general" },
+        { "id": "c9-b", "text": "essential" },
+        { "id": "c9-c", "text": "prevailing" },
+        { "id": "c9-d", "text": "ultimate" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-d"] },
+      "max_score_units": 100,
+      "source_ref": "第9空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "promise" },
+        { "id": "c10-b", "text": "prosperity" },
+        { "id": "c10-c", "text": "popularity" },
+        { "id": "c10-d", "text": "priority" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-a"] },
+      "max_score_units": 100,
+      "source_ref": "第10空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        { "id": "c11-a", "text": "exceptional" },
+        { "id": "c11-b", "text": "strange" },
+        { "id": "c11-c", "text": "unique" },
+        { "id": "c11-d", "text": "rare" }
+      ],
+      "answer_key": { "selected_option_ids": ["c11-c"] },
+      "max_score_units": 100,
+      "source_ref": "第11空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        { "id": "c12-a", "text": "Thus" },
+        { "id": "c12-b", "text": "Whereas" },
+        { "id": "c12-c", "text": "Nevertheless" },
+        { "id": "c12-d", "text": "Yet" }
+      ],
+      "answer_key": { "selected_option_ids": ["c12-a"] },
+      "max_score_units": 100,
+      "source_ref": "第12空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        { "id": "c13-a", "text": "venture" },
+        { "id": "c13-b", "text": "mission" },
+        { "id": "c13-c", "text": "commission" },
+        { "id": "c13-d", "text": "responsibility" }
+      ],
+      "answer_key": { "selected_option_ids": ["c13-b"] },
+      "max_score_units": 100,
+      "source_ref": "第13空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        { "id": "c14-a", "text": "new" },
+        { "id": "c14-b", "text": "another" },
+        { "id": "c14-c", "text": "certain" },
+        { "id": "c14-d", "text": "subsequent" }
+      ],
+      "answer_key": { "selected_option_ids": ["c14-b"] },
+      "max_score_units": 100,
+      "source_ref": "第14空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        { "id": "c15-a", "text": "for" },
+        { "id": "c15-b", "text": "by" },
+        { "id": "c15-c", "text": "in" },
+        { "id": "c15-d", "text": "through" }
+      ],
+      "answer_key": { "selected_option_ids": ["c15-c"] },
+      "max_score_units": 100,
+      "source_ref": "第15空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "t1-q16",
+      "section": "Part II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to this passage, troubles on the road are primarily caused by ______.",
+      "options": [
+        { "id": "t1-q16-a", "text": "people’s attitude towards the road-hog" },
+        { "id": "t1-q16-b", "text": "the rhythm of modern life" },
+        { "id": "t1-q16-c", "text": "the behavior of the driver" },
+        { "id": "t1-q16-d", "text": "traffic conditions" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q16-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q17",
+      "section": "Part II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The sentence “You might tolerate the odd road-hog...the rule.” (Para.1) implies that ______.",
+      "options": [
+        { "id": "t1-q17-a", "text": "our society is unjust towards well-mannered motorists" },
+        { "id": "t1-q17-b", "text": "rude drivers can be met only occasionally" },
+        { "id": "t1-q17-c", "text": "the well-mannered motorist cannot tolerate the road-hog" },
+        { "id": "t1-q17-d", "text": "nowadays impolite drivers constitute the majority of motorists" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q17-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q18",
+      "section": "Part II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "By “good sense”, the writer means ______.",
+      "options": [
+        { "id": "t1-q18-a", "text": "the driver’s ability to understand and react reasonably" },
+        { "id": "t1-q18-b", "text": "the driver’s prompt response to difficult and severe conditions" },
+        { "id": "t1-q18-c", "text": "the driver’s tolerance of rude or even savage behavior" },
+        { "id": "t1-q18-d", "text": "the driver’s acknowledgment of politeness and regulations" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q18-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q19",
+      "section": "Part II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Experts have long pointed out that in the face of car-ownership explosion, ______.",
+      "options": [
+        { "id": "t1-q19-a", "text": "road users should make more sacrifice" },
+        { "id": "t1-q19-b", "text": "drivers should be ready to yield to each other" },
+        { "id": "t1-q19-c", "text": "drivers should have more communication among themselves" },
+        { "id": "t1-q19-d", "text": "drivers will suffer great loss if they pay no respect to others" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q19-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q20",
+      "section": "Part II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "In the writer’s opinion, ______.",
+      "options": [
+        { "id": "t1-q20-a", "text": "strict traffic regulations are badly needed" },
+        { "id": "t1-q20-b", "text": "drivers should apply road politeness properly" },
+        { "id": "t1-q20-c", "text": "rude drivers should be punished" },
+        { "id": "t1-q20-d", "text": "drivers should avoid traffic jams" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q20-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 全文",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q21",
+      "section": "Part II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "It can be concluded that a concentration of carbon dioxide in the atmosphere would ______.",
+      "options": [
+        { "id": "t2-q21-a", "text": "prevent the sun’s rays from reaching the earth’s surface" },
+        { "id": "t2-q21-b", "text": "mean a warming up in the Arctic" },
+        { "id": "t2-q21-c", "text": "account for great changes in the climate in the northern hemisphere" },
+        { "id": "t2-q21-d", "text": "raise the temperature of the earth’s surface" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q21-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q22",
+      "section": "Part II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The article was written to explain ______.",
+      "options": [
+        { "id": "t2-q22-a", "text": "the greenhouse effect" },
+        { "id": "t2-q22-b", "text": "the solar effects on the earth" },
+        { "id": "t2-q22-c", "text": "the models of solar-weather interactions" },
+        { "id": "t2-q22-d", "text": "the causes affecting weather" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q22-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 全文",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t2-q23",
+      "section": "Part II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Although the fuel consumption is greater in the northern hemisphere, temperatures there seem to be falling. This is ______.",
+      "options": [
+        { "id": "t2-q23-a", "text": "mainly because the levels of carbon dioxide are rising" },
+        { "id": "t2-q23-b", "text": "possibly because the ice caps in the poles are melting" },
+        { "id": "t2-q23-c", "text": "exclusively due to the effect of the inertia of the earth’s climate" },
+        { "id": "t2-q23-d", "text": "partly due to variations in the output of solar energy" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q23-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第5、6段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q24",
+      "section": "Part II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "On the basis of their models, scientists are of the opinion that ______.",
+      "options": [
+        { "id": "t2-q24-a", "text": "the climate of the world should be becoming cooler" },
+        { "id": "t2-q24-b", "text": "it will take thousands of years for the inertia of the earth’s climate to take effect" },
+        { "id": "t2-q24-c", "text": "the man-made warming effect helps to increase the solar effects" },
+        { "id": "t2-q24-d", "text": "the new Ice Age will be delayed by the greenhouse effect" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q24-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第7段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q25",
+      "section": "Part II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "If the assumption about the delay of a new Ice Age is correct, ______.",
+      "options": [
+        { "id": "t2-q25-a", "text": "the best way to overcome the cooling effect would be to burn more fuels" },
+        { "id": "t2-q25-b", "text": "ice would soon cover the northern hemisphere" },
+        { "id": "t2-q25-c", "text": "the increased levels of carbon dioxide in the atmosphere could warm up the earth even more quickly" },
+        { "id": "t2-q25-d", "text": "the greenhouse effect could work to the advantage of the earth" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q25-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第7段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q26",
+      "section": "Part II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "According to the author, recent Olympic Games have ______.",
+      "options": [
+        { "id": "t3-q26-a", "text": "created goodwill between the nations" },
+        { "id": "t3-q26-b", "text": "bred only false national pride" },
+        { "id": "t3-q26-c", "text": "barely showed any international friendship" },
+        { "id": "t3-q26-d", "text": "led to more and more misunderstanding and hatred" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q26-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q27",
+      "section": "Part II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "What did the manager mean by saying, “...Hockey and the International Hockey Federation are finished”?",
+      "options": [
+        { "id": "t3-q27-a", "text": "His team would no longer take part in international games." },
+        { "id": "t3-q27-b", "text": "Hockey and the Federation are both ruined by the unfair decisions." },
+        { "id": "t3-q27-c", "text": "There should be no more hockey matches organized by the Federation." },
+        { "id": "t3-q27-d", "text": "The Federation should be dissolved." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q27-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q28",
+      "section": "Part II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The basketball example implied that ______.",
+      "options": [
+        { "id": "t3-q28-a", "text": "too much patriotism was displayed in the incident" },
+        { "id": "t3-q28-b", "text": "the announcement to prolong the match was wrong" },
+        { "id": "t3-q28-c", "text": "the appeal jury was too hesitant in making the decision" },
+        { "id": "t3-q28-d", "text": "the American team was right in rejecting the silver medals" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q28-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q29",
+      "section": "Part II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The author gives the two examples in paragraphs 2 and 3 to show ______.",
+      "options": [
+        { "id": "t3-q29-a", "text": "how false national pride led to undesirable incidents in international games" },
+        { "id": "t3-q29-b", "text": "that sportsmen have been more obedient than they used to be" },
+        { "id": "t3-q29-c", "text": "that competitiveness in the games discourages international friendship" },
+        { "id": "t3-q29-d", "text": "that unfair decisions are common in Olympic Games" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q29-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第1、4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q30",
+      "section": "Part II · Reading Comprehension Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "What conclusion can be drawn from the passage?",
+      "options": [
+        { "id": "t3-q30-a", "text": "The organization of the Olympic Games must be improved." },
+        { "id": "t3-q30-b", "text": "Athletes should compete as individuals in the Olympic Games." },
+        { "id": "t3-q30-c", "text": "Sport should be played competitively rather than for the love of the game." },
+        { "id": "t3-q30-d", "text": "International contests are liable for misunderstanding between nations." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q30-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "tr-31",
+      "section": "Part II · Reading Comprehension Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "There is more agreement on the kinds of behavior referred to by the term than there is on how to interpret or classify them.",
+      "answer_key": { "reference_text": "人们对智力这个词所指的各种表现意见比较一致，而对这些表现的解释或分类则有不同的看法。" },
+      "max_score_units": 300,
+      "source_ref": "第31句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-32",
+      "section": "Part II · Reading Comprehension Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "To criticize it for such failure is roughly comparable to criticizing a thermometer for not measuring wind velocity.",
+      "answer_key": { "reference_text": "批评智力测试不反映上述情况，就犹如批评温度计不测风速一样。" },
+      "max_score_units": 300,
+      "source_ref": "第32句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-33",
+      "section": "Part II · Reading Comprehension Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Now since the assessment of intelligence is a comparative matter we must be sure that the scale with which we are comparing our subjects provides a “valid” or “fair” comparison.",
+      "answer_key": { "reference_text": "既然对智力的评估是比较而言的，那么我们必须确保，在对我们的对象进行比较时，我们所使用的尺度能提供有效的或公平的比较。" },
+      "max_score_units": 300,
+      "source_ref": "第33句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-34",
+      "section": "Part II · Reading Comprehension Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The first two must be equal for all who are being compared, if any comparison in terms of intelligence is to be made.",
+      "answer_key": { "reference_text": "如果从智力方面进行任何比较的话，那么对所有的被比较者来说，前两个因素必须是一样的。" },
+      "max_score_units": 300,
+      "source_ref": "第34句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-35",
+      "section": "Part II · Reading Comprehension Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "On the whole such a conclusion can be drawn with a certain degree of confidence, but only if the child can be assumed to have had the same attitude towards the test as the other with whom he is being compared, and only if he was not punished by lack of relevant information which they possessed.",
+      "answer_key": { "reference_text": "总的来说，得出这种结论是有一定把握的，但前提是必须两个假定成立：这个孩子对测试的态度和与他相比较的孩子对测试的态度相同；他没有因为缺乏别的孩子已掌握的有关知识而被扣分。" },
+      "max_score_units": 300,
+      "source_ref": "第35句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "writing",
+      "section": "Section III · Writing",
+      "type": "free_text",
+      "stem": "A. Title: FOR A BETTER UNDERSTANDING BETWEEN PARENT AND CHILD\nB. Time limit: 40 minutes\nC. Word limit: 120-150 words (not including the given opening sentence)\nD. Your composition should be based on the OUTLINE below and should start with the given opening sentence.\nE. Your composition must be written clearly on the ANSWER SHEET.\nOUTLINE:\n1 Present situation: Lack of communication between parent and child\n2 Possible reasons:\n1) Different likes and dislikes; 2) Misunderstanding; 3) Others\n3 Suggestions\n1) For parents; 2) For children",
+      "answer_key": {
+        "reference_text": "Nowadays there is often a lack of understanding between parent and child. Parents often complain about their children's “unreasonable” behavior, while children usually think their parents too “old-fashioned.” There is a big generation-gap formed between parent and his or her dearest child.\n\nThere are some possible reasons for the present situation. The most obvious one is that the two generations, having grown up at different times, have different likes and dislikes for the things around them and thus have little in common to talk about. Also parents and children, due to the misunderstanding between them, may even feel it uncomfortable to sit face to face with each other talking. Besides, with the quick pace of modern life, both parent and child are too busy to spare enough time to exchange ideas, even if they find it necessary to communicate. As a result, the gap between them is growing wider and wider.\n\nTo bridge this so-called generation gap, in my opinion, both parent and child should make an effort. The children should respect their seniors. The older generation, on the other hand, should show solicitude for the young. As for their differences, both generations should make allowance for each other. If they will take the first step by actually talking to one another, it won't be long before the arrival of a better understanding between parent and child."
+      },
+      "max_score_units": 1500,
+      "source_ref": "Section III Writing",
+      "tags": ["写作"]
+    }
+  ]
+}

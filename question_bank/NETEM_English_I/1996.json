@@ -1,0 +1,817 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 1996,
+    "paper": "英语统考卷",
+    "title": "1996年全国攻读硕士学位研究生入学考试英语试题",
+    "total_score_units": 8000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/1996.md",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "1996年为统一卷，题面提供完形10题、阅读20题、翻译5题、写作1题，合计80分，故 total_score_units=8000。第26题原md缺C/D选项，据答案解析补全。未逐题提供 explanation，客观题答案依据《1996年考研英语真题答案及解析》。作文仅一题，id=writing-36，max_score_units=1500。"
+  },
+  "set": {
+    "title": "1996年全国攻读硕士学位研究生入学考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Part I · 完形填空",
+      "part": "Part I",
+      "title": "完形填空",
+      "directions": [
+        "For each numbered blank in the following passage, there are four choices marked ［A］, ［B］, ［C］ and [D]. Choose the best one and mark your answer on ANSWER SHEET 1 by blackening the corresponding letter in the brackets. (10 points)"
+      ]
+    },
+    {
+      "id": "Part II · 阅读理解",
+      "part": "Part II",
+      "title": "阅读理解",
+      "directions": [
+        "Each of the passages below is followed by some questions. For each questions there are four answers marked ［A］, ［B］, ［C］ and ［D］. Read the passages carefully and choose the best answer to each of the questions. Then mark your answer on ANSWER SHEET 1 by blackening the corresponding letter in the brackets with a pencil. (40 points)"
+      ]
+    },
+    {
+      "id": "Part III · 英译汉",
+      "part": "Part III",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written clearly on ANSWER SHEET 2. (15 points)"
+      ]
+    },
+    {
+      "id": "Section IV · 短文写作",
+      "part": "Section IV",
+      "title": "短文写作",
+      "directions": [
+        "A. Title: GOOD HEALTH",
+        "B. Time limit: 40minutes",
+        "C. Word limit: 120—150 words (not including the given opening sentence)",
+        "D. Your composition should be based on the “OUTLINE” below and should start with the given opening sentence: “The desire for good health is universal”.",
+        "E. Your composition must be written clearly on the ANSWER SHEET.",
+        "Outline:",
+        "1. Importance of good health.",
+        "2. Ways to keep fit.",
+        "3. My own practices."
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Part I · 完形填空原文",
+      "section": "Part I · 完形填空",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Vitamins are organic compounds necessary in small amounts in the diet for the normal growth and maintenance of life of animals, including man."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "They do not provide energy, __1__ do they construct or build any part of the body. They are needed for __2__ foods into energy and body maintenance. There are thirteen or more of them, and if __3__ is missing a deficiency disease becomes __4__."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Vitamins are similar because they are made of the same elements—usually carbon, hydrogen, oxygen, and __5__ nitrogen. They are different __6__ their elements are arranged differently, and each vitamin __7__ one or more specific functions in the body."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "__8__ enough vitamins is essential to life, although the body has no nutritional use for __9__ vitamins. Many people, __10__, believe in being on the “safe side” and thus take extra vitamins. However, a well balanced diet will usually meet all the body’s vitamin needs."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Tight lipped elders used to say, “It’s not what you want in this world, but what you get.”"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Psychology teaches that you do get what you want if you know what you want and want the right things."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "You can make a mental blueprint of a desire as you would make a blueprint of a house, and each of us is continually making these blueprints in the general routine of everyday living. If we intend to have friends to dinner, we plan the menu, make a shopping list, decide which food to cook first, and such planning is an essential for any type of meal to be served."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Likewise, if you want to find a job, take a sheet of paper, and write a brief account of yourself. In making a blueprint for a job, begin with yourself, for when you know exactly what you have to offer, you can intelligently plan where to sell your services."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "This account of yourself is actually a sketch of your working life and should include education, experience and references. Such an account is valuable. It can be referred to in filling out standard application blanks and is extremely helpful in personal interviews. While talking to you, your could-be employer is deciding whether your education, your experience, and other qualifications will pay him to employ you and your “wares” and abilities must be displayed in an orderly and reasonably connected manner."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "When you have carefully prepared a blueprint of your abilities and desires, you have something tangible to sell. Then you are ready to hunt for a job. Get all the possible information about your could-be job. Make inquiries as to the details regarding the job and the firm. Keep your eyes and ears open, and use your own judgment. Spend a certain amount of time each day seeking the employment you wish for, and keep in mind: Securing a job is your job now."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "With the start of BBC World Service Television, millions of viewers in Asia and America can now watch the Corporation’s news coverage, as well as listen to it."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "And of course in Britain listeners and viewers can tune in to two BBC television channels, five BBC national radio services and dozens of local radio stations. They are brought sport, comedy, drama, music, news and current affairs, education, religion, parliamentary coverage, children’s programmes and films for an annual licence fee of £83 per household."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "It is a remarkable record, stretching back over 70 years — yet the BBC’s future is now in doubt. The Corporation will survive as a publicly funded broadcasting organization, at least for the time being, but its role, its size and its programmes are now the subject of a nation wide debate in Britain."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The debate was launched by the Government, which invited anyone with an opinion of the BBC — including ordinary listeners and viewers — to say what was good or bad about the Corporation, and even whether they thought it was worth keeping. The reason for its inquiry is that the BBC’s royal charter runs out in 1996 and it must decide whether to keep the organization as it is, or to make changes."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Defenders of the Corporation — of whom there are many — are fond of quoting the American slogan “If it ain’t broke, don’t fix it.” The BBC “ain’t broke”, they say, by which they mean it is not broken (as distinct from the word ‘broke’, meaning having no money), so why bother to change it?"
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Yet the BBC will have to change, because the broadcasting world around it is changing. The commercial TV channels —— ITV and Channel 4 —— were required by the Thatcher Government’s Broadcasting Act to become more commercial, competing with each other for advertisers, and cutting costs and jobs. But it is the arrival of new satellite channels — funded partly by advertising and partly by viewers’ subscriptions — which will bring about the biggest changes in the long term."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In the last half of the nineteenth century “capital” and “labour” were enlarging and perfecting their rival organizations on modern lines. Many an old firm was replaced by a limited liability company with a bureaucracy of salaried managers. The change met the technical requirements of the new age by engaging a large professional element and prevented the decline in efficiency that so commonly spoiled the fortunes of family firms in the second and third generation after the energetic founders. It was moreover a step away from individual initiative, towards collectivism and municipal and state-owned business. The railway companies, though still private business managed for the benefit of shareholders, were very unlike old family business. At the same time the great municipalities went into business to supply lighting, trams and other services to the taxpayers."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The growth of the limited liability company and municipal business had important consequences. Such large, impersonal manipulation of capital and industry greatly increased the numbers and importance of shareholders as a class, an element in national life representing irresponsible wealth detached from the land and the duties of the landowners; and almost equally detached from the responsible management of business. All through the nineteenth century, America, Africa, India, Australia and parts of Europe were being developed by British capital, and British shareholders were thus enriched by the world’s movement towards industrialization. Towns like Bournemouth and Eastbourne sprang up to house large “comfortable” classes who had retired on their incomes, and who had no relation to the rest of the community except that of drawing dividends and occasionally attending a shareholders’ meeting to dictate their orders to the management. On the other hand “shareholding” meant leisure and freedom which was used by many of the later Victorians for the highest purpose of a great civilization."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The “shareholders” as such had no knowledge of the lives, thoughts or needs of the workmen employed by the company in which he held shares, and his influence on the relations of capital and labor was not good. The paid manager acting for the company was in more direct relation with the men and their demands, but even he had seldom that familiar personal knowledge of the workmen which the employer had often had under the more patriarchal system of the old family business now passing away. Indeed the mere size of operations and the numbers of workmen involved rendered such personal relations impossible. Fortunately, however, the increasing power and organization of the trade unions, at least in all skilled trades, enabled the workmen to meet on equal terms the managers of the companies who employed them. The cruel discipline of the strike and lockout taught the two parties to respect each other’s strength and understand the value of fair negotiation."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "What accounts for the great outburst of major inventions in early America— breakthroughs such as the telegraph, the steamboat and the weaving machine?"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Among the many shaping factors, I would single out the country’s excellent elementary schools; a labor force that welcomed the new technology; the practice of giving premiums to inventors; and above all the American genius for nonverbal, “spatial” thinking about things technological."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Why mention the elementary schools? Because thanks to these schools our early mechanics, especially in the New England and Middle Atlantic states, were generally literate and at home in arithmetic and in some aspects of geometry and trigonometry."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Acute foreign observers related American adaptiveness and inventiveness to this educational advantage. As a member of a British commission visiting here in 1853 reported, “With a mind prepared by thorough school discipline, the American boy develops rapidly into the skilled workman.”"
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "A further stimulus to invention came from the “premium” system, which preceded our patent system and for years ran parallel with it. This approach, originated abroad, offered inventors medals, cash prizes and other incentives."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "In the United States, multitudes of premiums for new devices were awarded at country fairs and at the industrial fairs in major cities. Americans flocked to these fairs to admire the new machines and thus to renew their faith in the beneficence of technological advance."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "Given this optimistic approach to technological innovation, the American worker took readily to that special kind of nonverbal thinking required in mechanical technology. As Eugene Ferguson has pointed out, “A technologist thinks about objects that cannot be reduced to unambiguous verbal descriptions; they are dealt with in his mind by a visual, nonverbal process … The designer and the inventor … are able to assemble and manipulate in their minds devices that as yet do not exist.”"
+        },
+        {
+          "id": "p8",
+          "type": "paragraph",
+          "text": "This nonverbal “spatial” thinking can be just as creative as painting and writing. Robert Fulton once wrote, “The mechanic should sit down among levers, screws, wedges, wheels, etc, like a poet among the letters of the alphabet, considering them as an exhibition of his thoughts, in which a new arrangement transmits a new idea.”"
+        },
+        {
+          "id": "p9",
+          "type": "paragraph",
+          "text": "When all these shaping forces—schools, open attitudes, the premium system, a genius for spatial thinking —interacted with one another on the rich U.S. mainland, they produced that American characteristic emulation. Today that word implies mere imitation. But in earlier times it meant a friendly but competitive striving for fame and excellence."
+        }
+      ]
+    },
+    {
+      "id": "reading-text5",
+      "title": "Text 5",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Rumor has it that more than 20 books on creationism/evolution are in the publisher’s pipelines. A few have already appeared. The goal of all will be to try to explain to a confused and often unenlightened citizenry that there are not two equally valid scientific theories for the origin and evolution of universe and life. Cosmology, geology, and biology have provided a consistent, unified, and constantly improving account of what happened. “Scientific” creationism, which is being pushed by some for “equal time” in the classrooms whenever the scientific accounts of evolution are given, is based on religion, not science. Virtually all scientists and the majority of nonfundamentalist religious leaders have come to regard “scientific” creationism as bad science and bad religion."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The first four chapters of Kitcher’s book give a very brief introduction to evolution. At appropriate places, he introduces the criticisms of the creationists and provides answers. In the last three chapters, he takes off his gloves and gives the creationists a good beating. He describes their programmes and tactics, and, for those unfamiliar with the ways of creationists, the extent of their deception and distortion may come as an unpleasant surprise. When their basic motivation is religious, one might have expected more Christian behavior."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Kitcher is a philosopher, and this may account, in part, for the clarity and effectiveness of his arguments. The non-specialist will be able to obtain at least a notion of the sorts of data and argument that support evolutionary theory. The final chapters on the creationists will be extremely clear to all. On the dust jacket of this fine book, Stephen Jay Gould says: “This book stands for reason itself.” And so it does - and all would be well were reason the only judge in the creationism/evolution debate."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Part III · 英译汉原文",
+      "section": "Part III · 英译汉",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The differences in relative growth of various areas of scientific research have several causes. 【31】Some of these causes are completely reasonable results of social needs. Others are reasonable consequences of particular advance in science being to some extent self-accelerating. Some, however, are less reasonable processes of different growth in which preconceptions of the form scientific theory ought to take, by persons in authority, act to alter the growth pattern of different areas. This is a new problem probably not yet unavoidable; but it is a frightening trend. 【32】This trend began during the Second World War, when several governments came to the conclusion that the specific demands that a government wants to make of its scientific establishment cannot generally be foreseen in detail. It can be predicted, however, that from time to time questions will arise which will require specific scientific answers. It is therefore generally valuable to treat the scientific establishment as a resource or machine to be kept in functional order. 【33】This seems mostly effectively done by supporting a certain amount of research not related to immediate goals but of possible consequence in the future."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "This kind of support, like all government support, requires decisions about the appropriate recipients of funds. Decisions based on utility as opposed to lack of utility are straightforward. But a decision among projects none of which has immediate utility is more difficult. The goal of the supporting agencies is the praisable one of supporting “good” as opposed to “bad” science, but a valid determination is difficult to make. Generally, the idea of good science tends to become confused with the capacity of the field in question to generate an elegant theory. 【34】However, the world is so made that elegant systems are in principle unable to deal with some of the world’s more fascinating and delightful aspects. 【35】New forms of thought as well as new subjects for thought must arise in the future as they have in the past, giving rise to new standards of elegance."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "either" },
+        { "id": "c1-b", "text": "so" },
+        { "id": "c1-c", "text": "nor" },
+        { "id": "c1-d", "text": "never" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-c"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-02",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "shifting" },
+        { "id": "c2-b", "text": "transferring" },
+        { "id": "c2-c", "text": "altering" },
+        { "id": "c2-d", "text": "transforming" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-d"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-03",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "any" },
+        { "id": "c3-b", "text": "some" },
+        { "id": "c3-c", "text": "anything" },
+        { "id": "c3-d", "text": "something" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-a"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-04",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "serious" },
+        { "id": "c4-b", "text": "apparent" },
+        { "id": "c4-c", "text": "severe" },
+        { "id": "c4-d", "text": "fatal" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-b"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-05",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "mostly" },
+        { "id": "c5-b", "text": "partially" },
+        { "id": "c5-c", "text": "sometimes" },
+        { "id": "c5-d", "text": "rarely" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-c"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-06",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "in that" },
+        { "id": "c6-b", "text": "so that" },
+        { "id": "c6-c", "text": "such that" },
+        { "id": "c6-d", "text": "except that" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-a"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-07",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "undertakes" },
+        { "id": "c7-b", "text": "holds" },
+        { "id": "c7-c", "text": "plays" },
+        { "id": "c7-d", "text": "performs" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-d"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-08",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "Supplying" },
+        { "id": "c8-b", "text": "Getting" },
+        { "id": "c8-c", "text": "Providing" },
+        { "id": "c8-d", "text": "Furnishing" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-b"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-09",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "exceptional" },
+        { "id": "c9-b", "text": "exceeding" },
+        { "id": "c9-c", "text": "excess" },
+        { "id": "c9-d", "text": "external" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-c"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-10",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "nevertheless" },
+        { "id": "c10-b", "text": "therefore" },
+        { "id": "c10-c", "text": "moreover" },
+        { "id": "c10-d", "text": "meanwhile" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-a"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "t1-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "What do the elders mean when they say, “It’s not what you want in this world, but what you get.”?",
+      "options": [
+        { "id": "t1-q1-a", "text": "You’ll certainly get what you want." },
+        { "id": "t1-q1-b", "text": "It’s no use dreaming." },
+        { "id": "t1-q1-c", "text": "You should be dissatisfied with what you have." },
+        { "id": "t1-q1-d", "text": "It’s essential to set a goal for yourself." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q1-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "A blueprint made before inviting a friend to dinner is used in this passage as",
+      "options": [
+        { "id": "t1-q2-a", "text": "an illustration of how to write an application for a job" },
+        { "id": "t1-q2-b", "text": "an indication of how to secure a good job" },
+        { "id": "t1-q2-c", "text": "a guideline for job description" },
+        { "id": "t1-q2-d", "text": "a principle for job evaluation" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q2-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to the passage, one must write an account of himself before starting to find a job because",
+      "options": [
+        { "id": "t1-q3-a", "text": "that is the first step to please the employer" },
+        { "id": "t1-q3-b", "text": "that is the requirement of the employer" },
+        { "id": "t1-q3-c", "text": "it enables him to know when to sell his services" },
+        { "id": "t1-q3-d", "text": "it forces him to become clearly aware of himself" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q3-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "When you have carefully prepared a blueprint of your abilities and desires, you have something",
+      "options": [
+        { "id": "t1-q4-a", "text": "definite to offer" },
+        { "id": "t1-q4-b", "text": "imaginary to provide" },
+        { "id": "t1-q4-c", "text": "practical to supply" },
+        { "id": "t1-q4-d", "text": "desirable to present" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q4-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The world famous BBC now faces",
+      "options": [
+        { "id": "t2-q1-a", "text": "the problem of news coverage" },
+        { "id": "t2-q1-b", "text": "an uncertain prospect" },
+        { "id": "t2-q1-c", "text": "inquiries by the general public" },
+        { "id": "t2-q1-d", "text": "shrinkage of audience" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q1-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "In the passage, which of the following about the BBC is not mentioned as the key issue?",
+      "options": [
+        { "id": "t2-q2-a", "text": "Extension of its TV service to Far East." },
+        { "id": "t2-q2-b", "text": "Programmes as the subject of a nation-wide debate." },
+        { "id": "t2-q2-c", "text": "Potentials for further international co-operations." },
+        { "id": "t2-q2-d", "text": "Its existence as a broadcasting organization." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q2-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The BBC’s “royal charter” (Line 4, Paragraph 4) stands for",
+      "options": [
+        { "id": "t2-q3-a", "text": "the financial support from the royal family." },
+        { "id": "t2-q3-b", "text": "the privileges granted by the Queen." },
+        { "id": "t2-q3-c", "text": "a contract with the Queen." },
+        { "id": "t2-q3-d", "text": "a unique relationship with the royal family." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q3-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The foremost reason why the BBC has to readjust itself is no other than",
+      "options": [
+        { "id": "t2-q4-a", "text": "the emergence of commercial TV channels." },
+        { "id": "t2-q4-b", "text": "the enforcement of Broadcasting Act by the government." },
+        { "id": "t2-q4-c", "text": "the urgent necessity to reduce costs and jobs." },
+        { "id": "t2-q4-d", "text": "the challenge of new satellite channels." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q4-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "It’s true of the old family firms that",
+      "options": [
+        { "id": "t3-q1-a", "text": "they were spoiled by the younger generations" },
+        { "id": "t3-q1-b", "text": "they failed for lack of individual initiative" },
+        { "id": "t3-q1-c", "text": "they lacked efficiency compared with modern companies" },
+        { "id": "t3-q1-d", "text": "they could supply adequate services to the taxpayers" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q1-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The growth of limited liability companies resulted in",
+      "options": [
+        { "id": "t3-q2-a", "text": "the separation of capital from management" },
+        { "id": "t3-q2-b", "text": "the ownership of capital by managers" },
+        { "id": "t3-q2-c", "text": "the emergence of capital and labour as two classes" },
+        { "id": "t3-q2-d", "text": "the participation of shareholders in municipal business" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q2-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "According to the passage, all of the following are true except that .",
+      "options": [
+        { "id": "t3-q3-a", "text": "the shareholders were unaware of the needs of the workers" },
+        { "id": "t3-q3-b", "text": "the old firm owners had a better understanding of their workers" },
+        { "id": "t3-q3-c", "text": "the limited liability companies were too large to run smoothly" },
+        { "id": "t3-q3-d", "text": "the trade unions seemed to play a positive role" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q3-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The author is most critical of",
+      "options": [
+        { "id": "t3-q4-a", "text": "family firm owners" },
+        { "id": "t3-q4-b", "text": "landowners" },
+        { "id": "t3-q4-c", "text": "managers" },
+        { "id": "t3-q4-d", "text": "shareholders" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q4-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to the author, the great outburst of major inventions in early America was in a large part due to",
+      "options": [
+        { "id": "t4-q1-a", "text": "elementary schools" },
+        { "id": "t4-q1-b", "text": "enthusiastic workers" },
+        { "id": "t4-q1-c", "text": "the attractive premium system" },
+        { "id": "t4-q1-d", "text": "a special way of thinking" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q1-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "It is implied that adaptiveness and inventiveness of the early American mechanics",
+      "options": [
+        { "id": "t4-q2-a", "text": "benefited a lot from their mathematical knowledge." },
+        { "id": "t4-q2-b", "text": "shed light on disciplined school management." },
+        { "id": "t4-q2-c", "text": "was brought about by privileged home training." },
+        { "id": "t4-q2-d", "text": "owed a lot to the technological development." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q2-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "A technologist can be compared to an artist because",
+      "options": [
+        { "id": "t4-q3-a", "text": "they are both winners of awards." },
+        { "id": "t4-q3-b", "text": "they are both experts in spatial thinking." },
+        { "id": "t4-q3-c", "text": "they both abandon verbal description" },
+        { "id": "t4-q3-d", "text": "they both use various instruments" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q3-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The best title for this passage might be",
+      "options": [
+        { "id": "t4-q4-a", "text": "Inventive Mind" },
+        { "id": "t4-q4-b", "text": "Effective Schooling" },
+        { "id": "t4-q4-c", "text": "Ways of Thinking" },
+        { "id": "t4-q4-d", "text": "Outpouring of Inventions" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q4-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "“Creationism” in the passage refers to",
+      "options": [
+        { "id": "t5-q1-a", "text": "evolution in its true sense as to the origin of the universe" },
+        { "id": "t5-q1-b", "text": "a notion of the creation of religion" },
+        { "id": "t5-q1-c", "text": "the scientific explanation of the earth formation" },
+        { "id": "t5-q1-d", "text": "the deceptive theory about the origin of the universe" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q1-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "Kitcher’s book is intended to",
+      "options": [
+        { "id": "t5-q2-a", "text": "recommend the views of the evolutionists" },
+        { "id": "t5-q2-b", "text": "expose the true features of creationists" },
+        { "id": "t5-q2-c", "text": "curse bitterly at his opponents" },
+        { "id": "t5-q2-d", "text": "launch a surprise attack on creationists" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q2-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "From the passage we can infer that",
+      "options": [
+        { "id": "t5-q3-a", "text": "reasoning has played a decisive role in the debate" },
+        { "id": "t5-q3-b", "text": "creationists do not base their argument on reasoning" },
+        { "id": "t5-q3-c", "text": "evolutionary theory is too difficult for non-specialists" },
+        { "id": "t5-q3-d", "text": "creationism is supported by scientific findings" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q3-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "This passage appears to be a digest of",
+      "options": [
+        { "id": "t5-q4-a", "text": "a book review" },
+        { "id": "t5-q4-b", "text": "a scientific paper" },
+        { "id": "t5-q4-c", "text": "a magazine feature" },
+        { "id": "t5-q4-d", "text": "a newspaper editorial" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q4-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "tr-31",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Some of these causes are completely reasonable results of social needs. Others are reasonable consequences of particular advance in science being to some extent self-accelerating.",
+      "answer_key": { "reference_text": "在这些原因中，有些纯属社会需求；另一些则是由于科学上某些特定发展在一定程度上自我加速而产生的必然结果。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-32",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "This trend began during the Second World War, when several governments came to the conclusion that the specific demands that a government wants to make of its scientific establishment cannot generally be foreseen in detail.",
+      "answer_key": { "reference_text": "这种趋势始于第二次世界大战期间，当时一些国家的政府得出结论：政府要向其科研机构提出具体的要求通常是无法详尽预见的。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-33",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "This seems mostly effectively done by supporting a certain amount of research not related to immediate goals but of possible consequence in the future.",
+      "answer_key": { "reference_text": "给某些与当前目标无关而将来则可能产生影响的科研予以支持，看来能够有效地解决这个问题。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-34",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "However, the world is so made that elegant systems are in principle unable to deal with some of the world’s more fascinating and delightful aspects.",
+      "answer_key": { "reference_text": "然而，世界就是如此，完美的体系一般而言是无法解决世上某些更加引人入胜的课题的。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-35",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "New forms of thought as well as new subjects for thought must arise in the future as they have in the past, giving rise to new standards of elegance.",
+      "answer_key": { "reference_text": "同过去一样，将来必然出现新的思维方式和新的思维对象，给完美以新的标准。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "writing-36",
+      "section": "Section IV · 短文写作",
+      "type": "free_text",
+      "stem": "A. Title: GOOD HEALTH\nB. Time limit: 40minutes\nC. Word limit: 120—150 words (not including the given opening sentence)\nD. Your composition should be based on the “OUTLINE” below and should start with the given opening sentence: “The desire for good health is universal”.\nE. Your composition must be written clearly on the ANSWER SHEET.\nOutline:\n1. Importance of good health.\n2. Ways to keep fit.\n3. My own practices.",
+      "answer_key": { "reference_text": "GOOD HEALTH\n\nThe desire for good health is universal. Wherever you are and whatever you do, staying healthy precedes a successful career and a happy life. People with good health can do work with full energy and confidence and their progress in turn contributes to their health and happiness. On the contrary, a sick one usually lacks the vigor and interest to fulfill his or her role in life, which deprives him or her of many opportunities to become successful and happy.\n\nRealizing the importance of good health is far from being enough. We must do something effective to keep fit. The best place to begin is at the dinner table. Eating less junk food and having a balanced diet is the first step for most people. The next step is to exercise regularly. Vigorous exercise can benefit not only the muscles but also the organs. Last but not the least, don’t damage the body with drugs, including cigarettes and too much alcohol.\n\nAs far as I am concerned, I am neither indulged in food nor in such harmful substances as cigarettes or alcohol. Moreover, doing exercises is part of my routine life. Therefore, I am in good shape and always energetic." },
+      "max_score_units": 1500,
+      "tags": ["短文写作"]
+    }
+  ]
+}

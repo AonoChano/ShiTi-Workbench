@@ -1,0 +1,795 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 1997,
+    "paper": "英语统考卷",
+    "title": "1997年全国攻读硕士学位研究生入学考试英语试题",
+    "total_score_units": 8000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/1997.md",
+    "source_images": "TestPaper/images/1997/",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T12:30:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "1997年为统一卷，题面提供完形10题、阅读20题、翻译5题、写作1题，合计80分，故 total_score_units=8000。未逐题提供 explanation，客观题答案依据《1997年考研英语真题答案及解析》。作文图片路径为 images/1997/5e7c0a6f13be5c4e2a17dc826dc4127385b7e327e50a4e9b562e7f03971cdc05.jpg。"
+  },
+  "set": {
+    "title": "1997年全国攻读硕士学位研究生入学考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Part I · 完形填空",
+      "part": "Part I",
+      "title": "完形填空",
+      "directions": [
+        "For each numbered blank in the following passage, there are four choices marked ［A］, ［B］, ［C］ and ［D］. Choose the best one and mark your answer on ANSWER SHEET 1 by blackening the corresponding letter in the brackets. (10 points)"
+      ]
+    },
+    {
+      "id": "Part II · 阅读理解",
+      "part": "Part II",
+      "title": "阅读理解",
+      "directions": [
+        "Each of the passages below is followed by some questions. For each question there are four answers marked ［A］, ［B］, ［C］ and ［D］. Read the passages carefully and choose the best answer to each of the questions. Then mark your answer on ANSWER SHEET 1 by blackening the corresponding letter in the brackets. (40 points)"
+      ]
+    },
+    {
+      "id": "Part III · 英译汉",
+      "part": "Part III",
+      "title": "英译汉",
+      "directions": [
+        "Read the following passage carefully and then translate the underlined segments into Chinese. Your translation must be written clearly on ANSWER SHEET 2. (15 points)"
+      ]
+    },
+    {
+      "id": "Section IV · 短文写作",
+      "part": "Section IV",
+      "title": "短文写作",
+      "directions": [
+        "A. Study the following set of pictures carefully and write an essay in no less than 120 words.",
+        "B. Your essay must be written clearly on ANSWER SHEET 2.",
+        "C. Your essay should cover all the information provided and meet the requirements below:",
+        "1. Interpret the following pictures.",
+        "2. Predict the tendency of tobacco consumption and give your reasons."
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Part I · 完形填空原文",
+      "section": "Part I · 完形填空",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Manpower Inc., with 560 000 workers, is the world’s largest temporary employment agency. Every morning, its people __1__ into the offices and factories of America, seeking a day’s work for a day’s pay."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "One day at a time. __2__ industrial giants like General Motors and IBM struggle to survive __3__ reducing the number of employees, Manpower, based in Milwaukee, Wisconsin, is booming."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "__4__ its economy continues to recover, the US is increasingly becoming a nation of part-timers and temporary workers. This “__5__” work force is the most important __6__ in American business today, and it is __7__ changing the relationship between people and their jobs. The phenomenon provides a way for companies to remain globally competitive __8__ avoiding market cycles and the growing burdens __9__ by employment rules, health care costs and pension plans. For workers it can mean an end to the security, benefits and sense of __10__ that came from being a loyal employee."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Passage 1",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "It was 3: 45 in the morning when the vote was finally taken. After six months of arguing and final 16 hours of hot parliamentary debates, Australia’s Northern Territory became the first legal authority in the world to allow doctors to take the lives of incurably ill patients who wish to die. The measure passed by the convincing vote of 15 to 10. Almost immediately word flashed on the Internet and was picked up, half a world away, by John Hofsess, executive director of the Right to Die Society of Canada. He sent it on via the group’s on-line service, Death NET. Says Hofsess: “We posted bulletins all day long, because of course this isn’t just something that happened in Australia. It’s world history.”"
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The full import may take a while to sink in. The NT Rights of the Terminally Ill law has left physicians and citizens alike trying to deal with its moral and practical implications. Some have breathed sighs of relief, others, including churches, right-to-life groups and the Australian Medical Association, bitterly attacked the bill and the haste of its passage. But the tide is unlikely to turn back. In Australia—where an aging population, life-extending technology and changing community attitudes have all played their part—other states are going to consider making a similar law to deal with euthanasia. In the US and Canada, where the right-to-die movement is gathering strength, observers are waiting for the dominoes to start falling."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Under the new Northern Territory law, an adult patient can request death—probably by a deadly injection or pill—to put an end to suffering. The patient must be diagnosed as terminally ill by two doctors. After a “cooling off” period of seven days, the patient can sign a certificate of request. After 48 hours the wish for death can be met. For Lloyd Nickson, a 54-year-old Darwin resident suffering from lung cancer, the NT Rights of Terminally Ill law means he can get on with living without the haunting fear of his suffering: a terrifying death from his breathing condition. “I’m not afraid of dying from a spiritual point of view, but what I was afraid of was how I’d go, because I’ve watched people die in the hospital fighting for oxygen and clawing at their masks, ” he says."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Passage 2",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "A report consistently brought back by visitors to the US is how friendly, courteous, and helpful most Americans were to them. To be fair, this observation is also frequently made of Canada and Canadians, and should best be considered North American. There are, of course, exceptions. Small-minded officials, rude waiters, and ill-mannered taxi drivers are hardly unknown in the US. Yet it is an observation made so frequently that it deserves comment."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "For a long period of time and in many parts of the country, a traveler was a welcome break in an otherwise dull existence. Dullness and loneliness were common problems of the families who generally lived distant from one another. Strangers and travelers were welcome sources of diversion, and brought news of the outside world."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The harsh realities of the frontier also shaped this tradition of hospitality. Someone traveling alone, if hungry, injured, or ill, often had nowhere to turn except to the nearest cabin or settlement. It was not a matter of choice for the traveler or merely a charitable impulse on the part of the settlers. It reflected the harshness of daily life: if you didn’t take in the stranger and take care of him, there was no one else who would. And someday, remember, you might be in the same situation."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Today there are many charitable organizations which specialize in helping the weary traveler. Yet, the old tradition of hospitality to strangers is still very strong in the US, especially in the smaller cities and towns away from the busy tourist trails. “I was just traveling through, got talking with this American, and pretty soon he invited me home for dinner—amazing.” Such observations reported by visitors to the US are not uncommon, but are not always understood properly. The casual friendliness of many Americans should be interpreted neither as superficial nor as artificial, but as the result of a historically developed cultural tradition."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "As is true of any developed society, in America a complex set of cultural signals, assumptions, and conventions underlies all social interrelationships. And, of course, speaking a language does not necessarily mean that someone understands social and cultural patterns. Visitors who fail to “translate” cultural meanings properly often draw wrong conclusions. For example, when an American uses the word “friend”, the cultural implications of the word may be quite different from those it has in the visitor’s language and culture. It takes more than a brief encounter on a bus to distinguish between courteous convention and individual interest. Yet, being friendly is a virtue that many Americans value highly and expect from both neighbors and strangers."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Passage 3",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Technically, any substance other than food that alters our bodily or mental functioning is a drug. Many people mistakenly believe the term drug refers only to some sort of medicine or an illegal chemical taken by drug addicts. They don’t realize that familiar substances such as alcohol and tobacco are also drugs. This is why the more neutral term substance is now used by many physicians and psychologists. The phrase “substance abuse” is often used instead of “drug abuse” to make clear that substances such as alcohol and tobacco can be just as harmfully misused as heroin and cocaine."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "We live in a society in which the medical and social use of substances (drugs) is pervasive: an aspirin to quiet a headache, some wine to be sociable, coffee to get going in the morning, a cigarette for the nerves. When do these socially acceptable and apparently constructive uses of a substance become misuses? First of all, most substances taken in excess will produce negative effects such as poisoning or intense perceptual distortions. Repeated use of a substance can also lead to physical addiction or substance dependence. Dependence is marked first by an increased tolerance, with more and more of the substance required to produce the desired effect, and then by the appearance of unpleasant withdrawal symptoms when the substance is discontinued."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Drugs (substances) that affect the central nervous system and alter perception, mood, and behavior are known as psychoactive substances. Psychoactive substances are commonly grouped according to whether they are stimulants, depressants, or hallucinogens. Stimulants initially speed up or activate the central nervous system, whereas depressants slow it down. Hallucinogens have their primary effect on perception, distorting and altering it in a variety of ways including producing hallucinations. These are the substances often called psychedelic (from the Greek word meaning “mind-manifestation”) because they seemed to radically alter one’s state of consciousness."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Passage 4",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "No company likes to be told it is contributing to the moral decline of a nation. “Is this what you intended to accomplish with your careers?” Senator Robert Dole asked Time Warner executives last week. “You have sold your souls, but must you corrupt our nation and threaten our children as well?” At Time Warner, however, such questions are simply the latest manifestation of the soul-searching that has involved the company ever since the company was born in 1990. It’s a self-examination that has, at various times, involved issues of responsibility, creative freedom and the corporate bottom line."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "At the core of this debate is chairman Gerald Levin, 56, who took over for the late Steve Ross in 1992. On the financial front, Levin is under pressure to raise the stock price and reduce the company’s mountainous debt, which will increase to $ 17.3 billion after two new cable deals close. He has promised to sell off some of the property and restructure the company, but investors are waiting impatiently."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The flap over rap is not making life any easier for him. Levin has consistently defended the company’s rap music on the grounds of expression. In 1992, when Time Warner was under fire for releasing Ice-T’s violent rap song Cop Killer, Levin described rap as a lawful expression of street culture, which deserves an outlet. “The test of any democratic society, ”he wrote in a Wall Street Journal column, “lies not in how well it can control expression but in whether it gives freedom of thought and expression the widest possible latitude, however disputable or irritating the results may sometimes be. We won’t retreat in the face of any threats.”"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Levin would not comment on the debate last week, but there were signs that the chairman was backing off his hard-line stand, at least to some extent. During the discussion of rock singing verses at last month’s stockholders meeting, Levin asserted that “music is not the cause of society’s ills” and even cited his son, a teacher in the Bronx, New York, who uses rap to communicate with students. But he talked as well about the “balanced struggle” between creative freedom and social responsibility, and he announced that the company would launch a drive to develop standards for distribution and labeling of potentially objectionable music."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "The 15-member Time Warner board is generally supportive of Levin and his corporate strategy. But insiders say several of them have shown their concerns in this matter. “Some of us have known for many, many years that the freedoms under the First Amendment are not totally unlimited, ” says Luce. “I think it is perhaps the case that some people associated with the company have only recently come to realize this.”"
+        }
+      ]
+    },
+    {
+      "id": "reading-text5",
+      "title": "Passage 5",
+      "section": "Part II · 阅读理解",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Much of the language used to describe monetary policy, such as “steering the economy to a soft landing” or “a touch on the brakes”, makes it sound like a precise science. Nothing could be further from the truth. The link between interest rates and inflation is uncertain. And there are long, variable lags before policy changes have any effect on the economy. Hence the analogy that likens the conduct of monetary policy to driving a car with a blackened windscreen, a cracked rear-view mirror and a faulty steering wheel."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Given all these disadvantages, central bankers seem to have had much to boast about of late. Average inflation in the big seven industrial economies fell to a mere 2.3% last year, close to its lowest level in 30 years, before rising slightly to 2.5% this July. This is a long way below the double-digit rates which many countries experienced in the 1970s and early 1980s."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "It is also less than most forecasters had predicted. In late 1994 the panel of economists which The Economist polls each month said that America’s inflation rate would average 3.5% in 1995. In fact, it fell to 2.6% in August, and is expected to average only about 3% for the year as a whole. In Britain and Japan inflation is running half a percentage point below the rate predicted at the end of last year. This is no flash in the pan; over the past couple o years, inflation has been consistently lower than expected in Britain and America."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Economists have been particularly surprised by favourable inflation figures in Britain and the United States, since conventional measures suggest that both economies, and especially America’s, have little productive slack. America’s capacity utilisation, for example, hit historically high levels earlier this year, and its jobless rate (5.6% in August) has fallen below most estimates of the natural rate of unemployment—the rate below which inflation has taken off in the past."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Why has inflation proved so mild? The most thrilling explanation is, unfortunately, a little defective. Some economists argue that powerful structural changes in the world have up-ended the old economic models that were based upon the historical link between growth and inflation."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Part III · 英译汉原文",
+      "section": "Part III · 英译汉",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Do animals have rights? This is how the question is usually put. It sounds like a useful, ground-clearing way to start. 【31】Actually, it isn’t, because it assumes that there is an agreed account of human rights, which is something the world does not have."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "On one view of rights, to be sure, it necessarily follows that animals have none. 【32】Some philosophers argue that rights exist only within a social contract, as part of an exchange of duties and entitlements. Therefore animals cannot have rights. The idea of punishing a tiger that kills somebody is absurd, for exactly the same reason, so is the idea that tigers have rights. However, this is only one account, and by no means an uncontested one. It denies rights not only to animals but also to some people—for instance, to infants, the mentally incapable and future generations. In addition, it is unclear what force a contract can have for people who never consented to it: how do you reply to somebody who says “I don’t like this contract”?"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The point is this: without agreement on the rights of people, arguing about the rights of animals is fruitless. 【33】It leads the discussion to extremes at the outset: it invites you to think that animals should be treated either with the consideration humans extend to other humans, or with no consideration at all. This is a false choice. Better to start with another, more fundamental, question: is the way we treat animals a moral issue at all?"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Many deny it. 【34】Arguing from the view that humans are different from animals in every relevant respect, extremists of this kind think that animals lie outside the area of moral choice. Any regard for the suffering of animals is seen as a mistake—a sentimental displacement of feeling that should properly be directed to other humans."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "This view, which holds that torturing a monkey is morally equivalent to chopping wood, may seem bravely “logical”. In fact it is simply shallow: the confused centre is right to reject it. The most elementary form of moral reasoning—the ethical equivalent of learning to crawl—is to weigh other’s interests against one’s own. This in turn requires sympathy and imagination: without which there is no capacity for moral thought. To see an animal in pain is enough, for most, to engage sympathy. 【35】When that happens, it is not a mistake: it is mankind’s instinct for moral reasoning in action, an instinct that should be encouraged rather than laughed at."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "swarm" },
+        { "id": "c1-b", "text": "stride" },
+        { "id": "c1-c", "text": "separate" },
+        { "id": "c1-d", "text": "slip" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-a"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-02",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "For" },
+        { "id": "c2-b", "text": "Because" },
+        { "id": "c2-c", "text": "As" },
+        { "id": "c2-d", "text": "Since" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-c"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-03",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "from" },
+        { "id": "c3-b", "text": "in" },
+        { "id": "c3-c", "text": "on" },
+        { "id": "c3-d", "text": "by" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-d"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-04",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "Even though" },
+        { "id": "c4-b", "text": "Now that" },
+        { "id": "c4-c", "text": "If only" },
+        { "id": "c4-d", "text": "Provided that" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-a"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-05",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "durable" },
+        { "id": "c5-b", "text": "disposable" },
+        { "id": "c5-c", "text": "available" },
+        { "id": "c5-d", "text": "transferable" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-b"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-06",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "approach" },
+        { "id": "c6-b", "text": "flow" },
+        { "id": "c6-c", "text": "fashion" },
+        { "id": "c6-d", "text": "trend" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-d"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-07",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "instantly" },
+        { "id": "c7-b", "text": "reversely" },
+        { "id": "c7-c", "text": "fundamentally" },
+        { "id": "c7-d", "text": "sufficiently" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-c"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-08",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "but" },
+        { "id": "c8-b", "text": "while" },
+        { "id": "c8-c", "text": "and" },
+        { "id": "c8-d", "text": "whereas" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-b"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-09",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "imposed" },
+        { "id": "c9-b", "text": "restricted" },
+        { "id": "c9-c", "text": "illustrated" },
+        { "id": "c9-d", "text": "confined" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-a"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-10",
+      "section": "Part I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "excitement" },
+        { "id": "c10-b", "text": "conviction" },
+        { "id": "c10-c", "text": "enthusiasm" },
+        { "id": "c10-d", "text": "importance" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-d"] },
+      "max_score_units": 100,
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "t1-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "From the second paragraph we learn that",
+      "options": [
+        { "id": "t1-q1-a", "text": "the objection to euthanasia is slow to come in other countries" },
+        { "id": "t1-q1-b", "text": "physicians and citizens share the same view on euthanasia" },
+        { "id": "t1-q1-c", "text": "changing technology is chiefly responsible for the hasty passage of the law" },
+        { "id": "t1-q1-d", "text": "it takes time to realize the significance of the law’s passage" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q1-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "When the author says that observers are waiting for the dominoes to start falling, he means",
+      "options": [
+        { "id": "t1-q2-a", "text": "observers are taking a wait-and-see attitude towards the future of euthanasia" },
+        { "id": "t1-q2-b", "text": "similar bills are likely to be passed in the US, Canada and other countries" },
+        { "id": "t1-q2-c", "text": "observers are waiting to see the result of the game of dominoes" },
+        { "id": "t1-q2-d", "text": "the effect-taking process of the passed bill may finally come to a stop" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q2-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "When Lloyd Nickson dies, he will",
+      "options": [
+        { "id": "t1-q3-a", "text": "face his death with calm characteristic of euthanasia" },
+        { "id": "t1-q3-b", "text": "experience the suffering of a lung cancer patient" },
+        { "id": "t1-q3-c", "text": "have an intense fear of terrible suffering" },
+        { "id": "t1-q3-d", "text": "undergo a cooling off period of seven days" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q3-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The author’s attitude towards euthanasia seems to be that of",
+      "options": [
+        { "id": "t1-q4-a", "text": "opposition" },
+        { "id": "t1-q4-b", "text": "suspicion" },
+        { "id": "t1-q4-c", "text": "approval" },
+        { "id": "t1-q4-d", "text": "indifference" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q4-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "In the eyes of visitors from the outside world, ______.",
+      "options": [
+        { "id": "t2-q1-a", "text": "rude taxi drivers are rarely seen in the US" },
+        { "id": "t2-q1-b", "text": "small-minded officials deserve a serious comment" },
+        { "id": "t2-q1-c", "text": "Canadians are not so friendly as their neighbors" },
+        { "id": "t2-q1-d", "text": "most Americans are ready to offer help" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q1-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "It could be inferred from the last paragraph that ______.",
+      "options": [
+        { "id": "t2-q2-a", "text": "culture exercises an influence over social interrelationship" },
+        { "id": "t2-q2-b", "text": "courteous convention and individual interest are interrelated" },
+        { "id": "t2-q2-c", "text": "various virtues manifest themselves exclusively among friends" },
+        { "id": "t2-q2-d", "text": "social interrelationships equal the complex set of cultural conventions" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q2-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Families in frontier settlements used to entertain strangers",
+      "options": [
+        { "id": "t2-q3-a", "text": "to improve their hard life" },
+        { "id": "t2-q3-b", "text": "in view of their long-distance travel" },
+        { "id": "t2-q3-c", "text": "to add some flavor to their own daily life" },
+        { "id": "t2-q3-d", "text": "out of a charitable impulse" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q3-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The tradition of hospitality to strangers",
+      "options": [
+        { "id": "t2-q4-a", "text": "tends to be superficial and artificial" },
+        { "id": "t2-q4-b", "text": "is generally well kept up in the United States" },
+        { "id": "t2-q4-c", "text": "is always understood properly" },
+        { "id": "t2-q4-d", "text": "has something to do with the busy tourist trails" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q4-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "“Substance abuse”(Line 5, Paragraph 1) is preferable to “drug abuse” in that",
+      "options": [
+        { "id": "t3-q1-a", "text": "substances can alter our bodily or mental functioning if illegally used" },
+        { "id": "t3-q1-b", "text": "“drug abuse” is only related to a limited number of drugtakers" },
+        { "id": "t3-q1-c", "text": "alcohol and tobacco are as fatal as heroin and cocaine" },
+        { "id": "t3-q1-d", "text": "many substances other than heroin or cocaine can also be poisonous" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q1-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The word “pervasive” (Line 1, Paragraph 2) might mean",
+      "options": [
+        { "id": "t3-q2-a", "text": "widespread" },
+        { "id": "t3-q2-b", "text": "overwhelming" },
+        { "id": "t3-q2-c", "text": "piercing" },
+        { "id": "t3-q2-d", "text": "fashionable" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q2-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Physical dependence on certain substances results from",
+      "options": [
+        { "id": "t3-q3-a", "text": "uncontrolled consumption of them over long periods of time" },
+        { "id": "t3-q3-b", "text": "exclusive use of them for social purposes" },
+        { "id": "t3-q3-c", "text": "quantitative application of them to the treatment of diseases" },
+        { "id": "t3-q3-d", "text": "careless employment of them for unpleasant symptoms" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q3-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "From the last paragraph we can infer that",
+      "options": [
+        { "id": "t3-q4-a", "text": "stimulants function positively on the mind" },
+        { "id": "t3-q4-b", "text": "hallucinogens are in themselves harmful to health" },
+        { "id": "t3-q4-c", "text": "depressants are the worst type of psychoactive substances" },
+        { "id": "t3-q4-d", "text": "the three types of psychoactive substances were commonly used in groups" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q4-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Senator Robert Dole criticized Time Warner for",
+      "options": [
+        { "id": "t4-q1-a", "text": "its raising of the corporate stock price" },
+        { "id": "t4-q1-b", "text": "its self-examination of soul" },
+        { "id": "t4-q1-c", "text": "its neglect of social responsibility" },
+        { "id": "t4-q1-d", "text": "its emphasis on creative freedom" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q1-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to the passage, which of the following is TRUE?",
+      "options": [
+        { "id": "t4-q2-a", "text": "Luce is a spokesman of Time Warner." },
+        { "id": "t4-q2-b", "text": "Gerald Levin is liable to compromise." },
+        { "id": "t4-q2-c", "text": "Time Warner is united as one in the face of the debate." },
+        { "id": "t4-q2-d", "text": "Steve Ross is no longer alive" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q2-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "In face of the recent attacks on the company, the chairman",
+      "options": [
+        { "id": "t4-q3-a", "text": "stuck to a strong stand to defend freedom of expression" },
+        { "id": "t4-q3-b", "text": "softened his tone and adopted some new policy" },
+        { "id": "t4-q3-c", "text": "changed his attitude and yielded to objection" },
+        { "id": "t4-q3-d", "text": "received more support from the 15-member board" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q3-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The best title for this passage might be",
+      "options": [
+        { "id": "t4-q4-a", "text": "A Company under Fire" },
+        { "id": "t4-q4-b", "text": "A Debate on Moral Decline" },
+        { "id": "t4-q4-c", "text": "A Lawful Outlet of Street Culture" },
+        { "id": "t4-q4-d", "text": "A Form of Creative Freedom" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q4-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q1",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "From the passage we learn that",
+      "options": [
+        { "id": "t5-q1-a", "text": "there is a definite relationship between inflation and interest rates" },
+        { "id": "t5-q1-b", "text": "economy will always follow certain models" },
+        { "id": "t5-q1-c", "text": "the economic situation is better than expected" },
+        { "id": "t5-q1-d", "text": "economists had foreseen the present economic situation" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q1-c"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q2",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "According to the passage, which of the following is TRUE?",
+      "options": [
+        { "id": "t5-q2-a", "text": "Making monetary policies is comparable to driving a car." },
+        { "id": "t5-q2-b", "text": "An extremely low jobless rate will lead to inflation." },
+        { "id": "t5-q2-c", "text": "A high unemployment rate will result from inflation." },
+        { "id": "t5-q2-d", "text": "Interest rates have an immediate effect on the economy." }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q2-b"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q3",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "The sentence “This is no flash in the pan” (Line 5, Paragraph 3) means that",
+      "options": [
+        { "id": "t5-q3-a", "text": "the low inflation rate will last for some time" },
+        { "id": "t5-q3-b", "text": "the inflation rate will soon rise" },
+        { "id": "t5-q3-c", "text": "the inflation will disappear quickly" },
+        { "id": "t5-q3-d", "text": "there is no inflation at present" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q3-a"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t5-q4",
+      "section": "Part II · 阅读理解",
+      "type": "single_choice",
+      "material_id": "reading-text5",
+      "stem": "The passage shows that the author is ______ the present situation",
+      "options": [
+        { "id": "t5-q4-a", "text": "critical of" },
+        { "id": "t5-q4-b", "text": "puzzled by" },
+        { "id": "t5-q4-c", "text": "disappointed at" },
+        { "id": "t5-q4-d", "text": "amazed at" }
+      ],
+      "answer_key": { "selected_option_ids": ["t5-q4-d"] },
+      "max_score_units": 200,
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "tr-31",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Actually, it isn’t, because it assumes that there is an agreed account of human rights, which is something the world does not have.",
+      "answer_key": { "reference_text": "事实并非如此，因为这种问法是以人们对人的权利有一种共识为基础的，而这种共识并不存在。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-32",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Some philosophers argue that rights exist only within a social contract, as part of an exchange of duties and entitlements.",
+      "answer_key": { "reference_text": "有些哲学家论证说，权利只存在于社会契约中，是责任与权益交换的一部分。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-33",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "It leads the discussion to extremes at the outset: it invites you to think that animals should be treated either with the consideration humans extend to other humans, or with no consideration at all.",
+      "answer_key": { "reference_text": "这种说法从一开始就将讨论引向两个极端，它使人们认为应该这样对待动物：要么像对人类自身一样关切体谅，要么完全冷漠无情。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-34",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Arguing from the view that humans are different from animals in every relevant respect, extremists of this kind think that animals lie outside the area of moral choice.",
+      "answer_key": { "reference_text": "这类人持极端看法，认为人与动物在各相关方面都不相同，对待动物无须考虑道德问题。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "tr-35",
+      "section": "Part III · 英译汉",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "When that happens, it is not a mistake: it is mankind’s instinct for moral reasoning in action, an instinct that should be encouraged rather than laughed at.",
+      "answer_key": { "reference_text": "这种反应并不是错误，这是人类用道德观念进行推理的本能在起作用。这种本能应该得到鼓励，而不应该遭到嘲笑。" },
+      "max_score_units": 300,
+      "tags": ["英译汉"]
+    },
+    {
+      "id": "writing-36",
+      "section": "Section IV · 短文写作",
+      "type": "free_text",
+      "stem": "A. Study the following set of pictures carefully and write an essay in no less than 120 words.\nB. Your essay must be written clearly on ANSWER SHEET 2.\nC. Your essay should cover all the information provided and meet the requirements below:\n1. Interpret the following pictures.\n2. Predict the tendency of tobacco consumption and give your reasons.\n图中信息包括：世界烟草总产量约143.64亿磅（另有数据显示142亿磅）；世界每年吸烟造成经济损失约2000亿美元；世界人口58亿，其中烟民约11亿，约占20%。",
+      "images": ["images/1997/5e7c0a6f13be5c4e2a17dc826dc4127385b7e327e50a4e9b562e7f03971cdc05.jpg"],
+      "answer_key": { "reference_text": "It goes without saying that tobacco consumption and tobacco industry have always been a hot-debated issue in our society. With the increasing scope of the tobacco industry, more and more people become addicted to smoking. The tremendous tobacco consumption not only causes vast economic losses but also threatens people's health. The annual economic loss due to tobacco consumption amounts to 200 billion US dollars, and meanwhile 3 million people worldwide lose their lives because of smoking-related diseases.\n\nTo our great relief, there is a tendency of declining in tobacco consumption—the year between 1994 and 1995, as indicated by chart 1, witnessed a drop in total tobacco production in the world, declining from 14.364 million pounds in 1994 to 14.2 million pounds in 1995. The reason that more and more people begin to quit smoking is mainly people's increasing awareness of the harmful effects of tobacco. If this trend can be maintained, the number of people dying of smoking-related diseases can be significantly reduced. Therefore, great efforts should be made by people in all walks of the society to stop smoking.\n\nNeedless to say, no easy solution can be found to solve the smoking problem. To begin with, the percentage of smokers is too large: according to a survey, there are 1.2 billion tobacco consumers in the world, accounting for approximately 20 percent of the world population. It wouldn't be an easy task to persuade such a large amount of people to give up their smoking habits, especially the heavy smokers. In addition, tobacco industry still plays a very important role in the development of the economy. As a consequence, only with concerted efforts of all people, can this problem be properly dealt with." },
+      "max_score_units": 1500,
+      "tags": ["短文写作"]
+    }
+  ]
+}

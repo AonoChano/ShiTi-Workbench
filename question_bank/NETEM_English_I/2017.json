@@ -1,0 +1,1271 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2017,
+    "paper": "英语一",
+    "title": "2017年全国硕士研究生入学统一考试英语（一）试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2017.md",
+    "source_images": "TestPaper/images/2017/",
+    "converted_by": "Assistant（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "2017年新题型为排序题，B和D已固定；大作文配图已填写。完形填空选项顺序已按题号整理。"
+  },
+  "set": {
+    "title": "2017年全国硕士研究生入学统一考试英语（一）试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · 完形填空",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 阅读理解 Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions below each text by choosing A, B, C or D. Mark your answers on the ANSWER SHEET. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · 新题型 Part B",
+      "part": "Section II · Part B",
+      "title": "新题型",
+      "directions": [
+        "The following paragraphs are given in a wrong order. For Questions 41-45, you are required to reorganize these paragraphs into a coherent article by choosing from the list A-G to fill them into the numbered box. Paragraphs B and D have been correctly placed. Mark your answers on the ANSWER SHEET. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 翻译 Part C",
+      "part": "Section II · Part C",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written neatly on the ANSWER SHEET. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part A",
+      "part": "Section III · Part A",
+      "title": "应用文写作",
+      "directions": [
+        "You are to write an email to James Cook, a newly-arrived Australian professor, recommending some tourist attractions in your city. Please give reasons for your recommendation.",
+        "You should write neatly on the ANSWER SHEET.",
+        "Do not sign your own name at the end of the email. Use “Li Ming” instead.",
+        "Do not write the address. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part B",
+      "part": "Section III · Part B",
+      "title": "短文写作",
+      "directions": [
+        "Write an essay of 160-200 words based on the following pictures. In your essay, you should",
+        "1) describe the pictures briefly,",
+        "2) interpret the meaning, and",
+        "3) give your comments.",
+        "You should write neatly on the ANSWER SHEET. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · 完形填空",
+      "source_ref": "2017.md Section I",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Could a hug a day keep the doctor away? The answer may be a resounding \"yes!\" __1__ helping you feel close and __2__ to people you care about, it turns out that hugs can bring a __3__ of health benefits to your body and mind. Believe it or not, a warm embrace might even help you __4__ getting sick this winter."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "In a recent study __5__ over 400 healthy adults, researchers from Carnegie Mellon University in Pennsylvania examined the effects of perceived social support and the receipt of hugs __6__ the participants' susceptibility to developing the common cold after being __7__ to the virus. People who perceived greater social support were less likely to come __8__ with a cold, and the researchers __9__ that the stress-reducing effects of hugging __10__ about 32 percent of that beneficial effect. __11__ among those who got a cold, the ones who felt greater social support and received more frequent hugs had less severe __12__."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "\"Hugging protects people who are under stress from the __13__ risk for colds that's usually __14__ with stress,\" notes Sheldon Cohen, a professor of psychology at Carnegie. Hugging \"is a marker of intimacy and helps __15__ the feeling that others are there to help __16__ difficulty.\""
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Some experts __17__ the stress-reducing, health-related benefits of hugging to the release of oxytocin, often called \"the bonding hormone\" __18__ it promotes attachment in relationships, including that between mother and their newborn babies. Oxytocin is made primarily in the central lower part of the brain, and some of it is released into the bloodstream. But some of it __19__ in the brain, where it __20__ mood, behavior and physiology."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2017.md Text 1",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "First two hours, now three hours—this is how far in advance authorities are recommending people show up to catch a domestic flight, at least at some major U.S. airports with increasingly massive security lines."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Americans are willing to tolerate time-consuming security procedures in return for increased safety. The crash of Egypt Air Flight 804, which terrorists may have downed over the Mediterranean Sea, provides another tragic reminder of why. But demanding too much of air travelers or providing too little security in return undermines public support for the process. And it should: Wasted time is a drag on Americans' economic and private lives, not to mention infuriating."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Last year, the Transportation Security Administration (TSA) found in a secret check that undercover investigators were able to sneak weapons—both fake and real—past airport security nearly every time they tried. Enhanced security measures since then, combined with a rise in airline travel due to the improving economy and low oil prices, have resulted in long waits at major airports such as Chicago's O'Hare International. It is not yet clear how much more effective airline security has become—but the lines are obvious."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Part of the issue is that the government did not anticipate the steep increase in airline travel, so the TSA is now rushing to get new screeners on the line. Part of the issue is that airports have only so much room for screening lanes. Another factor may be that more people are trying to overpack their carry-on bags to avoid checked-baggage fees, though the airlines strongly dispute this."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "There is one step the TSA could take that would not require remodeling airports or rushing to hire: Enroll more people in the PreCheck program. PreCheck is supposed to be a win-win for travelers and the TSA. Passengers who pass a background check are eligible to use expedited screening lanes. This allows the TSA to focus on travelers who are higher risk, saving time for everyone involved. The TSA wants to enroll 25 million people in PreCheck."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "It has not gotten anywhere close to that, and one big reason is sticker shock: Passengers must pay $85 every five years to process their background checks. Since the beginning, this price tag has been PreCheck's fatal flaw. Upcoming reforms might bring the price to a more reasonable level. But Congress should look into doing so directly, by helping to finance PreCheck enrollment or to cut costs in other ways."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "The TSA cannot continue diverting resources into underused PreCheck lanes while most of the traveling public suffers in unnecessary lines. It is long past time to make the program work."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2017.md Text 2",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "\"The ancient Hawaiians were astronomers,\" wrote Queen Liliuokalani, Hawaii's last reigning monarch, in 1897. Star watchers were among the most esteemed members of Hawaiian society. Sadly, all is not well with astronomy in Hawaii today. Protests have erupted over construction of the Thirty Meter Telescope (TMT), a giant observatory that promises to revolutionize humanity's view of the cosmos."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "At issue is the TMT's planned location on Mauna Kea, a dormant volcano worshiped by some Hawaiians as the piko, that connects the Hawaiian Islands to the heavens. But Mauna Kea is also home to some of the world's most powerful telescopes. Rested in the Pacific Ocean, Mauna Kea's peak rises above the bulk of our planet's dense atmosphere, where conditions allow telescopes to obtain images of unsurpassed clarity."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Opposition to telescopes on Mauna Kea is nothing new. A small but vocal group of Hawaiians and environmentalists have long viewed their presence as disrespect for sacred land and a painful reminder of the occupation of what was once a sovereign nation."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Some blame for the current controversy belongs to astronomers. In their eagerness to build bigger telescopes, they forgot that science is not the only way of understanding the world. They did not always prioritize the protection of Mauna Kea's fragile ecosystems or its holiness to the island's inhabitants. Hawaiian culture is not a relic of the past; it is a living culture undergoing a renaissance today."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Yet science has a cultural history, too, with roots going back to the dawn of civilization. The same curiosity to find what lies beyond the horizon that first brought early Polynesians to Hawaii's shores inspires astronomers today to explore the heavens. Calls to disassemble all telescopes on Mauna Kea or to ban future development there ignore the reality that astronomy and Hawaiian culture both seek to answer big questions about who we are, where we come from and where we are going. Perhaps that is why we explore the starry skies, as if answering a primal calling to know ourselves and our true ancestral homes."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "The astronomy community is making compromises to change its use of Mauna Kea. The TMT site was chosen to minimize the telescope's visibility around the island and to avoid archaeological and environmental impact. To limit the number of telescopes on Mauna Kea, old ones will be removed at the end of their lifetimes and their sites returned to a natural state. There is no reason why everyone cannot be welcomed on Mauna Kea to embrace their cultural heritage and to study the stars."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2017.md Text 3",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Robert F. Kennedy once said that a country's GDP measures \"everything except that which makes life worthwhile.\" With Britain voting to leave the European Union, and GDP already predicted to slow as a result, it is now a timely moment to assess what he was referring to."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The question of GDP and its usefulness has annoyed policymakers for over half a century. Many argue that it is a flawed concept. It measures things that do not matter and misses things that do. By most recent measures, the UK's GDP has been the envy of the Western world, with record low unemployment and high growth figures. If everything was going so well, then why did over 17 million people vote for Brexit, despite the warnings about what it could do to their country's economic prospects?"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "A recent annual study of countries and their ability to convert growth into well-being sheds some light on that question. Across the 163 countries measured, the UK is one of the poorest performers in ensuring that economic growth is translated into meaningful improvements for its citizens. Rather than just focusing on GDP, over 40 different sets of criteria from health, education and civil society engagement have been measured to get a more rounded assessment of how countries are performing."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "While all of these countries face their own challenges, there are a number of consistent themes. Yes, there has been a budding economic recovery since the 2008 global crash, but in key indicators in areas such as health and education, major economies have continued to decline. Yet this isn't the case with all countries. Some relatively poor European countries have seen huge improvements across measures including civil society, income equality and environment."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "This is a lesson that rich countries can learn: When GDP is no longer regarded as the sole measure of a country's success, the world looks very different."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "So, what Kennedy was referring to was that while GDP has been the most common method for measuring the economic activity of nations, as a measure, it is no longer enough. It does not include important factors such as environmental quality or education outcomes – all things that contribute to a person's sense of well-being."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "The sharp hit to growth predicted around the world and in the UK could lead to a decline in the everyday services we depend on for our well-being and for growth. But policymakers who refocus efforts on improving well-being rather than simply worrying about GDP figures could avoid the forecasted doom and may even see progress."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2017.md Text 4",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In a rare unanimous ruling, the U.S Supreme Court has overturned the corruption conviction of a former Virginia governor, Robert McDonnell. But it did so while holding its nose at the ethics of his conduct, which included accepting gifts such as a Rolex watch and a Ferrari Automobile from a company seeking access to government."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The high court's decision said the judge in Mr. McDonnell's trial failed to tell a jury that it must look only at his \"official acts,\" or the former governor's decisions on \"specific\" and \"unsettled\" issues related to his duties."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Merely helping a gift-giver gain access to other officials, unless done with clear intent to pressure those officials, is not corruption, the justices found."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The court did suggest that accepting favors in return for opening doors is \"distasteful\" and \"nasty.\" But under anti-bribery laws, proof must be made of concrete benefits, such as approval of a contract or regulation. Simply arranging a meeting, making a phone call, or hosting an event is not an \"official act\"."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "The court's ruling is legally sound in defining a kind of favoritism that is not criminal. Elected leaders must be allowed to help supporters deal with bureaucratic problems without fear of prosecution of bribery. \"The basic compact underlying representative government,\" wrote Chief Justice John Roberts for the court, \"assumes that public officials will hear from their constituents and act on their concerns.\""
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "But the ruling reinforces the need for citizens and their elected representatives, not the courts, to ensure equality of access to government. Officials must not be allowed to play favorites in providing information or in arranging meetings simply because an individual or group provides a campaign donation or a personal gift. This type of integrity requires well-enforced laws in government transparency, such as records of official meetings, rules on lobbying, and information about each elected leader's source of wealth."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "Favoritism in official access can fan public perceptions of corruption. But it is not always corruption. Rather officials must avoid double standards, or different types of access for average people and the wealthy. If connections can be bought, a basic premise of democratic society—that all are equal in treatment by government—is undermined. Good governance rests on an understanding of the inherent worth of each individual."
+        },
+        {
+          "id": "p8",
+          "type": "paragraph",
+          "text": "The court's ruling is a step forward in the struggle against both corruption and official favoritism."
+        }
+      ]
+    },
+    {
+      "id": "newtype",
+      "title": "Section II · 新题型 Part B 待排序段落",
+      "section": "Section II · 新题型 Part B",
+      "source_ref": "2017.md Part B",
+      "blocks": [
+        {
+          "id": "pA",
+          "type": "paragraph",
+          "text": "[A] The first published sketch, \"A Dinner at Poplar Walk\" brought tears to Dickens's eyes when he discovered it in the pages of The Monthly Magazine. From then on his sketches, which appeared under the pen name \"Boz\" in The Evening Chronicle, earned him a modest reputation."
+        },
+        {
+          "id": "pB",
+          "type": "paragraph",
+          "text": "[B] The runaway success of The Pickwick Papers, as it is generally known today, secured Dickens's fame. There were Pickwick coats and Pickwick cigars, and the plump, spectacled hero, Samuel Pickwick, became a national figure."
+        },
+        {
+          "id": "pC",
+          "type": "paragraph",
+          "text": "[C] Soon after Sketches by Boz appeared, a publishing firm approached Dickens to write a story in monthly installments, as a backdrop for a series of woodcuts by the then-famous artist Robert Seymour, who had originated the idea for the story. With characteristic confidence, Dickens successfully insisted that Seymour's pictures illustrate his own story instead. After the first installment, Dickens wrote to the artist and asked him to correct a drawing Dickens felt was not faithful enough to his prose. Seymour made the change, went into his backyard, and expressed his displeasure by committing suicide. Dickens and his publishers simply pressed on with a new artist. The comic novel, The Posthumous Papers of the Pickwick Club, appeared serially in 1836 and 1837, and was first published in book form in 1837."
+        },
+        {
+          "id": "pD",
+          "type": "paragraph",
+          "text": "[D] Charles Dickens is probably the best-known and, to many people, the greatest English novelist of the 19th century. A moralist, satirist, and social reformer, Dickens crafted complex plots and striking characters that capture the panorama of English society."
+        },
+        {
+          "id": "pE",
+          "type": "paragraph",
+          "text": "[E] Soon after his father's release from prison, Dickens got a better job as errand boy in law offices. He taught himself shorthand to get an even better job later as a court stenographer and as a reporter in Parliament. At the same time, Dickens, who had a reporter's eye for transcribing the life around him especially anything comic or odd, submitted short sketches to obscure magazines."
+        },
+        {
+          "id": "pF",
+          "type": "paragraph",
+          "text": "[F] Dickens was born in Portsmouth, on England's southern coast. His father was a clerk in the British navy pay office – a respectable position, but with little social status. His paternal grandparents, a steward and a housekeeper possessed even less status, having been servants, and Dickens later concealed their background. Dickens's mother supposedly came from a more respectable family. Yet two years before Dickens's birth, his mother's father was caught stealing and fled to Europe, never to return. The family's increasing poverty forced Dickens out of school at age 12 to work in Warren's Blacking Warehouse, a shoe-polish factory, where the other working boys mocked him as \"the young gentleman.\" His father was then imprisoned for debt. The humiliations of his father's imprisonment and his labor in the blacking factory formed Dickens's greatest wound and became his deepest secret. He could not confide them even to his wife, although they provide the unacknowledged foundation of his fiction."
+        },
+        {
+          "id": "pG",
+          "type": "paragraph",
+          "text": "[G] After Pickwick, Dickens plunged into a bleaker world. In Oliver Twist, he traces an orphan's progress from the workhouse to the criminal slums of London. Nicholas Nickleby, his next novel, combines the darkness of Oliver Twist with the sunlight of Pickwick. The popularity of these novels consolidated Dickens' as a nationally and internationally celebrated man of letters."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · 翻译 Part C 原文",
+      "section": "Section II · 翻译 Part C",
+      "source_ref": "2017.md Part C",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The growth of the use of English as the world's primary language for international communication has obviously been continuing for several decades. 【46】But even as the number of English speakers expands further there are signs that the global predominance of the language may fade within the foreseeable future."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Complex international, economic, technological and culture change could start to diminish the leading position of English as the language of the world market, and UK interests which enjoy advantage from the breadth of English usage would consequently face new pressures. Those realistic possibilities are highlighted in the study presented by David Graddol. 【47】His analysis should therefore end any self-contentedness among those who may believe that the global position of English is so stable that the young generation of the United Kingdom do not need additional language capabilities."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "David Graddol concludes that monoglot English graduates face a bleak economic future as qualified multilingual youngsters from other countries are proving to have a competitive advantage over their British counterparts in global companies and organizations. Alongside that, 【48】many countries are introducing English into the primary-school curriculum but British schoolchildren and students do not appear to be gaining greater encouragement to achieve fluency in other languages."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "If left to themselves, such trends will diminish the relative strength of the English language in international education markets as the demand for educational resources in languages, such as Spanish, Arabic or Mandarin grows and international business process outsourcing in other language such as Japanese, French and German, spreads."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "【49】The changes identified by David Graddol all present clear and major challenges to UK's providers of English language teaching to people of other countries and to broader education business sectors. The English language teaching sector directly earns nearly ₤1.3 billion for the UK in invisible exports and our other education related explores earn up to ₤10 billion a year more. As the international education market expands, the recent slowdown in the number of international students studying in the main English-speaking countries is likely to continue, especially if there are no effective strategic policies to prevent such slippage."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "The anticipation of possible shifts in demand provided by this study is significant: 【50】It gives a basis to all organizations which seek to promote the learning and use of English, a basis for planning to meet the possibilities of what could be a very different operating environment. That is a necessary and practical approach. In this as in much else, those who wish to influence the future must prepare for it."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "Unlike" },
+        { "id": "c1-b", "text": "Besides" },
+        { "id": "c1-c", "text": "Throughout" },
+        { "id": "c1-d", "text": "Despite" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-b"] },
+      "explanation": "递进关系，Besides。",
+      "max_score_units": 50,
+      "source_ref": "第1空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "equal" },
+        { "id": "c2-b", "text": "restricted" },
+        { "id": "c2-c", "text": "connected" },
+        { "id": "c2-d", "text": "inferior" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-c"] },
+      "explanation": "与 close 并列，connected。",
+      "max_score_units": 50,
+      "source_ref": "第2空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "host" },
+        { "id": "c3-b", "text": "view" },
+        { "id": "c3-c", "text": "lesson" },
+        { "id": "c3-d", "text": "choice" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-a"] },
+      "explanation": "a host of 许多。",
+      "max_score_units": 50,
+      "source_ref": "第3空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "recall" },
+        { "id": "c4-b", "text": "forget" },
+        { "id": "c4-c", "text": "avoid" },
+        { "id": "c4-d", "text": "keep" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-c"] },
+      "explanation": "避免生病，avoid。",
+      "max_score_units": 50,
+      "source_ref": "第4空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "collecting" },
+        { "id": "c5-b", "text": "affecting" },
+        { "id": "c5-c", "text": "guiding" },
+        { "id": "c5-d", "text": "involving" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-d"] },
+      "explanation": "涉及，involving。",
+      "max_score_units": 50,
+      "source_ref": "第5空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "on" },
+        { "id": "c6-b", "text": "in" },
+        { "id": "c6-c", "text": "at" },
+        { "id": "c6-d", "text": "of" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-a"] },
+      "explanation": "effects on 固定搭配。",
+      "max_score_units": 50,
+      "source_ref": "第6空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "devoted" },
+        { "id": "c7-b", "text": "exposed" },
+        { "id": "c7-c", "text": "lost" },
+        { "id": "c7-d", "text": "attracted" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-b"] },
+      "explanation": "接触病毒，exposed。",
+      "max_score_units": 50,
+      "source_ref": "第7空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "across" },
+        { "id": "c8-b", "text": "along" },
+        { "id": "c8-c", "text": "down" },
+        { "id": "c8-d", "text": "out" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-c"] },
+      "explanation": "come down with a cold 患感冒。",
+      "max_score_units": 50,
+      "source_ref": "第8空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "imagined" },
+        { "id": "c9-b", "text": "denied" },
+        { "id": "c9-c", "text": "doubted" },
+        { "id": "c9-d", "text": "calculated" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-d"] },
+      "explanation": "计算出，calculated。",
+      "max_score_units": 50,
+      "source_ref": "第9空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "served" },
+        { "id": "c10-b", "text": "explained" },
+        { "id": "c10-c", "text": "restored" },
+        { "id": "c10-d", "text": "required" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-b"] },
+      "explanation": "解释了，explained。",
+      "max_score_units": 50,
+      "source_ref": "第10空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        { "id": "c11-a", "text": "Thus" },
+        { "id": "c11-b", "text": "Still" },
+        { "id": "c11-c", "text": "Rather" },
+        { "id": "c11-d", "text": "Even" }
+      ],
+      "answer_key": { "selected_option_ids": ["c11-d"] },
+      "explanation": "让步关系，Even。",
+      "max_score_units": 50,
+      "source_ref": "第11空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        { "id": "c12-a", "text": "defeats" },
+        { "id": "c12-b", "text": "symptoms" },
+        { "id": "c12-c", "text": "errors" },
+        { "id": "c12-d", "text": "tests" }
+      ],
+      "answer_key": { "selected_option_ids": ["c12-b"] },
+      "explanation": "症状，symptoms。",
+      "max_score_units": 50,
+      "source_ref": "第12空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        { "id": "c13-a", "text": "highlighted" },
+        { "id": "c13-b", "text": "minimized" },
+        { "id": "c13-c", "text": "controlled" },
+        { "id": "c13-d", "text": "increased" }
+      ],
+      "answer_key": { "selected_option_ids": ["c13-d"] },
+      "explanation": "增加的风险，increased。",
+      "max_score_units": 50,
+      "source_ref": "第13空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        { "id": "c14-a", "text": "associated" },
+        { "id": "c14-b", "text": "equipped" },
+        { "id": "c14-c", "text": "presented" },
+        { "id": "c14-d", "text": "compared" }
+      ],
+      "answer_key": { "selected_option_ids": ["c14-a"] },
+      "explanation": "与压力相关，associated。",
+      "max_score_units": 50,
+      "source_ref": "第14空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        { "id": "c15-a", "text": "assess" },
+        { "id": "c15-b", "text": "moderate" },
+        { "id": "c15-c", "text": "generate" },
+        { "id": "c15-d", "text": "record" }
+      ],
+      "answer_key": { "selected_option_ids": ["c15-c"] },
+      "explanation": "产生感觉，generate。",
+      "max_score_units": 50,
+      "source_ref": "第15空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        { "id": "c16-a", "text": "in the face of" },
+        { "id": "c16-b", "text": "in the form of" },
+        { "id": "c16-c", "text": "in the way of" },
+        { "id": "c16-d", "text": "in the name of" }
+      ],
+      "answer_key": { "selected_option_ids": ["c16-a"] },
+      "explanation": "面对困难，in the face of。",
+      "max_score_units": 50,
+      "source_ref": "第16空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        { "id": "c17-a", "text": "attribute" },
+        { "id": "c17-b", "text": "commit" },
+        { "id": "c17-c", "text": "transfer" },
+        { "id": "c17-d", "text": "return" }
+      ],
+      "answer_key": { "selected_option_ids": ["c17-a"] },
+      "explanation": "归因于，attribute。",
+      "max_score_units": 50,
+      "source_ref": "第17空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        { "id": "c18-a", "text": "unless" },
+        { "id": "c18-b", "text": "because" },
+        { "id": "c18-c", "text": "though" },
+        { "id": "c18-d", "text": "until" }
+      ],
+      "answer_key": { "selected_option_ids": ["c18-b"] },
+      "explanation": "因果关系，because。",
+      "max_score_units": 50,
+      "source_ref": "第18空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        { "id": "c19-a", "text": "emerges" },
+        { "id": "c19-b", "text": "vanishes" },
+        { "id": "c19-c", "text": "remains" },
+        { "id": "c19-d", "text": "decreases" }
+      ],
+      "answer_key": { "selected_option_ids": ["c19-c"] },
+      "explanation": "留在大脑中，remains。",
+      "max_score_units": 50,
+      "source_ref": "第19空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        { "id": "c20-a", "text": "experiences" },
+        { "id": "c20-b", "text": "combines" },
+        { "id": "c20-c", "text": "justifies" },
+        { "id": "c20-d", "text": "influences" }
+      ],
+      "answer_key": { "selected_option_ids": ["c20-d"] },
+      "explanation": "影响情绪行为生理，influences。",
+      "max_score_units": 50,
+      "source_ref": "第20空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "t1-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The crash of Egypt Air Flight 804 is mentioned to",
+      "options": [
+        { "id": "t1-q1-a", "text": "stress the urgency to strengthen security worldwide." },
+        { "id": "t1-q1-b", "text": "explain Americans’ tolerance of current security checks." },
+        { "id": "t1-q1-c", "text": "highlight the necessity of upgrading major U.S. airports." },
+        { "id": "t1-q1-d", "text": "emphasis the importance of privacy protection." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q1-b"] },
+      "explanation": "解释美国人为何容忍当前安检。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Which of the following contributes to long waits at major airports?",
+      "options": [
+        { "id": "t1-q2-a", "text": "New restrictions on carry-on bags." },
+        { "id": "t1-q2-b", "text": "The declining efficiency of the TSA." },
+        { "id": "t1-q2-c", "text": "An increase in the number of travelers." },
+        { "id": "t1-q2-d", "text": "Frequent unexpected secret checks." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q2-c"] },
+      "explanation": "旅客人数增加。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The word “expedited” (Line 4, Para. 5) is closest in meaning to",
+      "options": [
+        { "id": "t1-q3-a", "text": "quieter" },
+        { "id": "t1-q3-b", "text": "faster" },
+        { "id": "t1-q3-c", "text": "wider" },
+        { "id": "t1-q3-d", "text": "cheaper" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q3-b"] },
+      "explanation": "更快的。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第5段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "One problem with the PreCheck program is",
+      "options": [
+        { "id": "t1-q4-a", "text": "a dramatic reduction of its scale." },
+        { "id": "t1-q4-b", "text": "its wrongly-directed implementation." },
+        { "id": "t1-q4-c", "text": "the government’s reluctance to back it." },
+        { "id": "t1-q4-d", "text": "an unreasonable price for enrollment." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q4-d"] },
+      "explanation": "注册价格不合理。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第6段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Which of the following would be the best title for the text?",
+      "options": [
+        { "id": "t1-q5-a", "text": "Getting Stuck in Security Lines" },
+        { "id": "t1-q5-b", "text": "PreCheck—a Belated Solution" },
+        { "id": "t1-q5-c", "text": "Less Screening for More Safety" },
+        { "id": "t1-q5-d", "text": "Underused PreCheck Lanes" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q5-a"] },
+      "explanation": "受困于安检队伍。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 全文",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Queen Liliuokalani’s remark in Paragraph 1 indicates",
+      "options": [
+        { "id": "t2-q1-a", "text": "her conservative view on the historical role of astronomy." },
+        { "id": "t2-q1-b", "text": "the importance of astronomy in ancient Hawaiian society." },
+        { "id": "t2-q1-c", "text": "the regrettable decline of astronomy in ancient times." },
+        { "id": "t2-q1-d", "text": "her appreciation of star watchers’ feats in her time." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q1-b"] },
+      "explanation": "天文学在古代夏威夷社会的重要性。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Mauna Kea is deemed as an ideal astronomical site due to",
+      "options": [
+        { "id": "t2-q2-a", "text": "its geographical features" },
+        { "id": "t2-q2-b", "text": "its protective surroundings." },
+        { "id": "t2-q2-c", "text": "its religious implications." },
+        { "id": "t2-q2-d", "text": "its existing infrastructure." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q2-a"] },
+      "explanation": "地理特征。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The construction of the TMT is opposed by some locals partly because",
+      "options": [
+        { "id": "t2-q3-a", "text": "it may risk ruining their intellectual life." },
+        { "id": "t2-q3-b", "text": "it reminds them of a humiliating history." },
+        { "id": "t2-q3-c", "text": "their culture will lose a chance of revival." },
+        { "id": "t2-q3-d", "text": "they fear losing control of Mauna Kea." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q3-b"] },
+      "explanation": "使他们想起屈辱历史。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "It can be inferred from Paragraph 5 that progress in today’s astronomy",
+      "options": [
+        { "id": "t2-q4-a", "text": "is fulfilling the dreams of ancient Hawaiians." },
+        { "id": "t2-q4-b", "text": "helps spread Hawaiian culture across the world." },
+        { "id": "t2-q4-c", "text": "may uncover the origin of Hawaiian culture." },
+        { "id": "t2-q4-d", "text": "will eventually soften Hawaiians’ hostility." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q4-a"] },
+      "explanation": "正在实现古代夏威夷人的梦想。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第5段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The author’s attitude toward choosing Mauna Kea as the TMT site is one of",
+      "options": [
+        { "id": "t2-q5-a", "text": "severe criticism." },
+        { "id": "t2-q5-b", "text": "passive acceptance." },
+        { "id": "t2-q5-c", "text": "slight hesitancy." },
+        { "id": "t2-q5-d", "text": "full approval." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q5-d"] },
+      "explanation": "完全赞成。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第6段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Robert F. Kennedy is cited because he",
+      "options": [
+        { "id": "t3-q1-a", "text": "praised the UK for its GDP." },
+        { "id": "t3-q1-b", "text": "identified GDP with happiness." },
+        { "id": "t3-q1-c", "text": "misinterpreted the role of GDP." },
+        { "id": "t3-q1-d", "text": "had a low opinion of GDP." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q1-d"] },
+      "explanation": "对GDP评价不高。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "It can be inferred from Paragraph 2 that",
+      "options": [
+        { "id": "t3-q2-a", "text": "the UK is reluctant to remold its economic pattern." },
+        { "id": "t3-q2-b", "text": "GDP as the measure of success is widely defied in the UK." },
+        { "id": "t3-q2-c", "text": "the UK will contribute less to the world economy." },
+        { "id": "t3-q2-d", "text": "policymakers in the UK are paying less attention to GDP." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q2-b"] },
+      "explanation": "GDP作为成功衡量标准在英国被广泛抵制。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Which of the following is true about the recent annual study?",
+      "options": [
+        { "id": "t3-q3-a", "text": "It is sponsored by 163 countries." },
+        { "id": "t3-q3-b", "text": "It excludes GDP as an indicator." },
+        { "id": "t3-q3-c", "text": "Its criteria are questionable." },
+        { "id": "t3-q3-d", "text": "Its results are enlightening." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q3-d"] },
+      "explanation": "结果具有启发性。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "In the last two paragraphs, the author suggests that",
+      "options": [
+        { "id": "t3-q4-a", "text": "the UK is preparing for an economic boom." },
+        { "id": "t3-q4-b", "text": "high GDP foreshadows an economic decline." },
+        { "id": "t3-q4-c", "text": "it is essential to consider factors beyond GDP." },
+        { "id": "t3-q4-d", "text": "it requires caution to handle economic issues." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q4-c"] },
+      "explanation": "必须考虑GDP以外的因素。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第6-7段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Which of the following is the best title for the text?",
+      "options": [
+        { "id": "t3-q5-a", "text": "High GDP But Inadequate Well-being, a UK Lesson" },
+        { "id": "t3-q5-b", "text": "GDP Figures, a Window on Global Economic Health" },
+        { "id": "t3-q5-c", "text": "Robert F. Kennedy, a Terminator of GDP" },
+        { "id": "t3-q5-d", "text": "Brexit, the UK’s Gateway to Well-being" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q5-a"] },
+      "explanation": "高GDP但缺乏幸福感，英国的教训。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 全文",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The underlined sentence (Para. 1) most probably shows that the court",
+      "options": [
+        { "id": "t4-q1-a", "text": "avoided defining the extent of McDonnell’s duties." },
+        { "id": "t4-q1-b", "text": "made no compromise in convicting McDonnell." },
+        { "id": "t4-q1-c", "text": "was contemptuous of McDonnell’s conduct." },
+        { "id": "t4-q1-d", "text": "refused to comment on McDonnell’s ethics." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q1-c"] },
+      "explanation": "鄙视麦克唐奈的行为。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to Paragraph 4, an official act is deemed corruptive only if it involves",
+      "options": [
+        { "id": "t4-q2-a", "text": "leaking secrets intentionally." },
+        { "id": "t4-q2-b", "text": "sizable gains in the form of gifts." },
+        { "id": "t4-q2-c", "text": "concrete returns for gift-givers." },
+        { "id": "t4-q2-d", "text": "breaking contracts officially." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q2-c"] },
+      "explanation": "为送礼者提供具体回报。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The court’s ruling is based on the assumption that public officials are",
+      "options": [
+        { "id": "t4-q3-a", "text": "justified in addressing the needs of their constituents." },
+        { "id": "t4-q3-b", "text": "qualified to deal independently with bureaucratic issues." },
+        { "id": "t4-q3-c", "text": "allowed to focus on the concerns of their supporters." },
+        { "id": "t4-q3-d", "text": "exempt from conviction on the charge of favoritism." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q3-a"] },
+      "explanation": "有正当理由满足选民需要。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第5段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Well-enforced laws in government transparency are needed to",
+      "options": [
+        { "id": "t4-q4-a", "text": "awaken the conscience of officials." },
+        { "id": "t4-q4-b", "text": "guarantee fair play in official access." },
+        { "id": "t4-q4-c", "text": "allow for certain kinds of lobbying." },
+        { "id": "t4-q4-d", "text": "inspire hopes in average people." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q4-b"] },
+      "explanation": "保证与官方接触的公平性。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第6段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The author’s attitude toward the court’s ruling is",
+      "options": [
+        { "id": "t4-q5-a", "text": "sarcastic." },
+        { "id": "t4-q5-b", "text": "tolerant." },
+        { "id": "t4-q5-c", "text": "skeptical." },
+        { "id": "t4-q5-d", "text": "supportive" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q5-d"] },
+      "explanation": "支持。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第8段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "nt-41",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 41 空：本空应填入的段落是",
+      "options": [
+        { "id": "nt-a", "text": "[A] The first published sketch, “A Dinner at Poplar Walk” ..." },
+        { "id": "nt-b", "text": "[B] The runaway success of The Pickwick Papers ..." },
+        { "id": "nt-c", "text": "[C] Soon after Sketches by Boz appeared ..." },
+        { "id": "nt-d", "text": "[D] Charles Dickens is probably the best-known ..." },
+        { "id": "nt-e", "text": "[E] Soon after his father’s release from prison ..." },
+        { "id": "nt-f", "text": "[F] Dickens was born in Portsmouth ..." },
+        { "id": "nt-g", "text": "[G] After Pickwick, Dickens plunged into a bleaker world ..." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-f"] },
+      "explanation": "F段介绍狄更斯出生及早年。",
+      "max_score_units": 200,
+      "source_ref": "第41空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-42",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 42 空：本空应填入的段落是",
+      "options": [
+        { "id": "nt-a", "text": "[A] The first published sketch, “A Dinner at Poplar Walk” ..." },
+        { "id": "nt-b", "text": "[B] The runaway success of The Pickwick Papers ..." },
+        { "id": "nt-c", "text": "[C] Soon after Sketches by Boz appeared ..." },
+        { "id": "nt-d", "text": "[D] Charles Dickens is probably the best-known ..." },
+        { "id": "nt-e", "text": "[E] Soon after his father’s release from prison ..." },
+        { "id": "nt-f", "text": "[F] Dickens was born in Portsmouth ..." },
+        { "id": "nt-g", "text": "[G] After Pickwick, Dickens plunged into a bleaker world ..." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-e"] },
+      "explanation": "E段承接父亲出狱。",
+      "max_score_units": 200,
+      "source_ref": "第42空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-43",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 43 空：本空应填入的段落是",
+      "options": [
+        { "id": "nt-a", "text": "[A] The first published sketch, “A Dinner at Poplar Walk” ..." },
+        { "id": "nt-b", "text": "[B] The runaway success of The Pickwick Papers ..." },
+        { "id": "nt-c", "text": "[C] Soon after Sketches by Boz appeared ..." },
+        { "id": "nt-d", "text": "[D] Charles Dickens is probably the best-known ..." },
+        { "id": "nt-e", "text": "[E] Soon after his father’s release from prison ..." },
+        { "id": "nt-f", "text": "[F] Dickens was born in Portsmouth ..." },
+        { "id": "nt-g", "text": "[G] After Pickwick, Dickens plunged into a bleaker world ..." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-a"] },
+      "explanation": "A段讲第一篇发表的小品文。",
+      "max_score_units": 200,
+      "source_ref": "第43空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-44",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 44 空：本空应填入的段落是",
+      "options": [
+        { "id": "nt-a", "text": "[A] The first published sketch, “A Dinner at Poplar Walk” ..." },
+        { "id": "nt-b", "text": "[B] The runaway success of The Pickwick Papers ..." },
+        { "id": "nt-c", "text": "[C] Soon after Sketches by Boz appeared ..." },
+        { "id": "nt-d", "text": "[D] Charles Dickens is probably the best-known ..." },
+        { "id": "nt-e", "text": "[E] Soon after his father’s release from prison ..." },
+        { "id": "nt-f", "text": "[F] Dickens was born in Portsmouth ..." },
+        { "id": "nt-g", "text": "[G] After Pickwick, Dickens plunged into a bleaker world ..." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-c"] },
+      "explanation": "C段承接《博兹札记》。",
+      "max_score_units": 200,
+      "source_ref": "第44空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-45",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 45 空：本空应填入的段落是",
+      "options": [
+        { "id": "nt-a", "text": "[A] The first published sketch, “A Dinner at Poplar Walk” ..." },
+        { "id": "nt-b", "text": "[B] The runaway success of The Pickwick Papers ..." },
+        { "id": "nt-c", "text": "[C] Soon after Sketches by Boz appeared ..." },
+        { "id": "nt-d", "text": "[D] Charles Dickens is probably the best-known ..." },
+        { "id": "nt-e", "text": "[E] Soon after his father’s release from prison ..." },
+        { "id": "nt-f", "text": "[F] Dickens was born in Portsmouth ..." },
+        { "id": "nt-g", "text": "[G] After Pickwick, Dickens plunged into a bleaker world ..." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-g"] },
+      "explanation": "G段在《匹克威克外传》之后。",
+      "max_score_units": 200,
+      "source_ref": "第45空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "tr-46",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "But even as the number of English speakers expands further there are signs that the global predominance of the language may fade within the foreseeable future.",
+      "answer_key": { "reference_text": "但是即使当下英语使用者的人群还在进一步扩大，有迹象表明：在可预见的未来，英语可能会逐渐失去其全球主导地位。" },
+      "explanation": "同位语从句。",
+      "max_score_units": 200,
+      "source_ref": "第46句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-47",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "His analysis should therefore end any self-contentedness among those who may believe that the global position of English is so stable that the young generation of the United Kingdom do not need additional language capabilities.",
+      "answer_key": { "reference_text": "因此，对于那些认为英语的国际地位无懈可击、甚至觉得他们的年青后辈们不需要学习其他语言的人而言，他的分析可能会给他们的骄傲自大画上一个句号。" },
+      "explanation": "定语从句、宾语从句、结果状语从句。",
+      "max_score_units": 200,
+      "source_ref": "第47句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-48",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Many countries are introducing English into the primary-school curriculum but British schoolchildren and students do not appear to be gaining greater encouragement to achieve fluency in other languages.",
+      "answer_key": { "reference_text": "众多国家正在将英语引进小学课程，但是，英国学童和学生似乎没有受到更多的鼓励去学会流利地使用其他语言。" },
+      "explanation": "转折并列句。",
+      "max_score_units": 200,
+      "source_ref": "第48句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-49",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The changes identified by David Graddol all present clear and major challenges to UK's providers of English language teaching to people of other countries and to broader education business sectors.",
+      "answer_key": { "reference_text": "大卫·葛拉尔多所发现的变化给教授他国人士英语的英国机构以及更广阔的教育市场带来了显而易见的巨大挑战。" },
+      "explanation": "过去分词作定语，并列结构。",
+      "max_score_units": 200,
+      "source_ref": "第49句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-50",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "It gives a basis to all organizations which seek to promote the learning and use of English, a basis for planning to meet the possibilities of what could be a very different operating environment.",
+      "answer_key": { "reference_text": "这给所有致力于推广英语学习和使用的机构提供了一个制定规划的依据，让我们能够应对未来完全不同的操作环境里出现的各种可能性。" },
+      "explanation": "定语从句、同位语、宾语从句。",
+      "max_score_units": 200,
+      "source_ref": "第50句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "writing-a",
+      "section": "Section III · 写作 Part A",
+      "type": "free_text",
+      "stem": "You are to write an email to James Cook, a newly-arrived Australian professor, recommending some tourist attractions in your city. Please give reasons for your recommendation.\nYou should write neatly on the ANSWER SHEET.\nDo not sign your own name at the end of the email. Use “Li Ming” instead.\nDo not write the address. (10 points)",
+      "answer_key": { "reference_text": "Dear James Cook,\n\nWelcome to China! I'm writing this email to recommend some scenic spots in Beijing to you so that you can have a wonderful time here.\n\nFirst of all, you could have a visit to the Summer Palace and Forbidden City, which are renowned for its old buildings and diverse cultures. After that, it is advisable to go to Wang Fujing, where you can have a taste of some delicious local food while enjoying the traditional culture. Finally, you can go to the National Museum, in which some traditional art exhibitions are being held. What do you think of my plan?\n\nI sincerely hope that you could enjoy yourselves in Beijing and it will be my pleasure to be your guide.\n\nYours sincerely,\nLi Ming" },
+      "explanation": "推荐旅游景点邮件。",
+      "max_score_units": 1000,
+      "source_ref": "Section III Part A",
+      "tags": ["写作", "应用文"]
+    },
+    {
+      "id": "writing-b",
+      "section": "Section III · 写作 Part B",
+      "type": "free_text",
+      "stem": "Write an essay of 160-200 words based on the following pictures. In your essay, you should\n1) describe the pictures briefly,\n2) interpret the meaning, and\n3) give your comments.\n图一：一个人躺在椅子上，看着满满一书架的书，满足地说“我有这么多书”；图二：一个人下定决心“今年我要读20本书”。\nYou should write neatly on the ANSWER SHEET. (20 points)",
+      "images": [
+        "images/2017/9e4034260921de14dc3741e302495684eccedcfb602c343877defa8a88b17c29.jpg"
+      ],
+      "answer_key": { "reference_text": "Portrayed in the two cartoons is a thought-provoking scenario: In the left one, a young man, comfortably lounging on the chair, is looking at his huge bookshelf full of books contentedly, while the other, in the right drawing, is determined to finish reading 20 books in a year.\n\nBy this scenario, the cartoonist is trying to awaken us to the importance of reading and sticking to our goals. It is universally held that with the advance of modern society, only those equipped with updated knowledge are most likely to reach the summit of their success, which can only be achieved through constant reading. Nevertheless, without actions, our objectives are bound to be a fantasy. Indeed, people fail always because they stop trying, not because they encounter invincible difficulties.\n\nFrom what has been mentioned above, we may reasonably arrive at the conclusion that only those who keep learning and cherish the spirit of persistence have opportunities to succeed. Action always speaks louder than words. If you understand and adhere to this principle in your study and work, you will definitely benefit greatly." },
+      "explanation": "看图作文：读书与行动。",
+      "max_score_units": 2000,
+      "source_ref": "Section III Part B",
+      "tags": ["写作", "短文写作"]
+    }
+  ]
+}

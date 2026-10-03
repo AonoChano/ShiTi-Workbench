@@ -1,0 +1,967 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2003,
+    "paper": "英语统考卷",
+    "title": "2003年全国硕士研究生入学统一考试英语试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2003.md",
+    "source_images": "TestPaper/images/2003/",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T15:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "翻译原文末尾截断，已按答案PDF补全；写作配图引用原图路径；完形填空选项顺序已按题号整理。"
+  },
+  "set": {
+    "title": "2003年全国硕士研究生入学统一考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · 完形填空",
+      "part": "Section I",
+      "title": "英语知识运用（完形填空）",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C OR D on ANSWER SHEET 1. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 阅读理解 Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions below each text by choosing [A], [B], [C] or [D]. Mark your answers on ANSWER SHEET 1. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · 翻译 Part B",
+      "part": "Section II · Part B",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written clearly on ANSWER SHEET 2. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作",
+      "part": "Section III",
+      "title": "短文写作",
+      "directions": [
+        "Study the following set of drawings carefully and write an essay entitled “温室花朵经不起风雨” in which you should",
+        "1) describe the set of drawings, interpret its meaning, and",
+        "2) point out its implications in our life.",
+        "You should write about 200 words neatly on ANSWER SHEET 2. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · 完形填空",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Teachers need to be aware of the emotional, intellectual, and physical changes that young adults experience. And they also need to give serious __1__ to how they can best __2__ such changes. Growing bodies need movement and __3__, but not just in ways that emphasize competition. __4__ they are adjusting to their new bodies and a whole host of new intellectual and emotional challenges, teenagers are especially self-conscious and need the __5__ that comes from achieving success and knowing that their accomplishments are __6__ by others. However, the typical teenage lifestyle is already filled with so much competition that it would be __7__ to plan activities in which there are more winners than losers, __8__, publishing newsletters with many student-written book reviews, __9__ student artwork, and sponsoring book discussion clubs. A variety of small clubs can provide __10__ opportunities for leadership, as well as for practice in successful __11__ dynamics. Making friends is extremely important to teenagers, and many shy students need the __12__ of some kind of organization with a supportive adult __13__ visible in the background."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "In these activities, it is important to remember that the young teens have __14__ attention spans. A variety of activities should be organized __15__ participants can remain active as long as they want and then go on to __16__ else without feeling guilty and without letting the other participants __17__. This does not mean that adults must accept irresponsibility. __18__ they can help students acquire a sense of commitment by __19__ for roles that are within their __20__ and their attention spans and by having clearly stated rules."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Wild Bill Donovan would have loved the Internet. The American spymaster who built the Office of Strategic Services in the World War II and later laid the roots for the CIA was fascinated with information. Donovan believed in using whatever tools came to hand in the “great game” of espionage—spying as a “profession.” These days the Net, which has already re-made such everyday pastimes as buying books and sending mail, is reshaping Donovan’s vocation as well."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The latest revolution isn’t simply a matter of gentlemen reading other gentlemen’s e-mail. That kind of electronic spying has been going on for decades. In the past three or four years, the World Wide Web has given birth to a whole industry of point-and-click spying. The spooks call it “open source intelligence,” and as the Net grows, it is becoming increasingly influential. In 1995 the CIA held a contest to see who could compile the most data about Burundi. The winner, by a large margin, was a tiny Virginia company called Open-Source Solutions, whose clear advantage was its mastery of the electronic world."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Among the firms making the biggest splash in the new world is Straitford, Inc., a private intelligence-analysis firm based in Austin, Texas. Straitford makes money by selling the results of spying (covering nations from Chile to Russia) to corporations like energy-services firm McDermott International. Many of its predictions are available online at ."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Straiford president George Friedman says he sees the online world as a kind of mutually reinforcing tool for both information collection and distribution, a spymaster’s dream. Last week his firm was busy vacuuming up data bits from the far corners of the world and predicting a crisis in Ukraine. “As soon as that report runs, we’ll suddenly get 500 new internet sign-ups from Ukraine,” says Friedman, a former political science professor. “And we’ll hear back from some of them.” Open-source spying does have its risks, of course, since it can be difficult to tell good information from bad. That’s where Straitford earns its keep."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Friedman relies on a lean staff of 20 in Austin. Several of his staff members have military-intelligence backgrounds. He sees the firm’s outsider status as the key to its success. Straitford’s briefs don’t sound like the usual Washington back-and-forthing, whereby agencies avoid dramatic declarations on the chance they might be wrong. Straitford, says Friedman, takes pride in its independent voice."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "To paraphrase 18th-century statesman Edmund Burke, “all that is needed for the triumph of a misguided cause is that good people do nothing.” One such cause now seeks to end biomedical research because of the theory that animals have rights ruling out their use in research. Scientists need to respond forcefully to animal rights advocates, whose arguments are confusing the public and thereby threatening advances in health knowledge and care. Leaders of the animal rights movement target biomedical research because it depends on public funding, and few people understand the process of health care research. Hearing allegations of cruelty to animals in research settings, many are perplexed that anyone would deliberately harm an animal."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "For example, a grandmotherly woman staffing an animal rights booth at a recent street fair was distributing a brochure that encouraged readers not to use anything that comes from or is tested in animals—no meat, no fur, no medicines. Asked if she opposed immunizations, she wanted to know if vaccines come from animal research. When assured that they do, she replied, “Then I would have to say yes.” Asked what will happen when epidemics return, she said, “Don’t worry, scientists will find some way of using computers.” Such well-meaning people just don’t understand."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Scientists must communicate their message to the public in a compassionate, understandable way—in human terms, not in the language of molecular biology. We need to make clear the connection between animal research and grandmother’s hip replacement, a father’s bypass operation, a baby’s vaccinations, and even a pet’s shots. To those who are unaware that animal research was needed to produce these treatments, as well as new treatments and vaccines, animal research seems wasteful at best and cruel at worst."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Much can be done. Scientists could “adopt” middle school classes and present their own research. They should be quick to respond to letters to the editor, lest animal rights misinformation go unchallenged and acquire a deceptive appearance of truth. Research institutions could be opened to tours, to show that laboratory animals receive humane care. Finally, because the ultimate stakeholders are patients, the health research community should actively recruit to its cause not only well-known personalities such as Stephen Cooper, who has made courageous statements about the value of animal research, but all who receive medical treatment. If good people do nothing, there is a real possibility that an uninformed citizenry will extinguish the precious embers of medical progress."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In recent years, railroads have been combining with each other, merging into supersystems, causing heightened concerns about monopoly. As recently as 1995, the top four railroads accounted for under 70 percent of the total ton-miles moved by rails. Next year, after a series of mergers is completed, just four railroads will control well over 90 percent of all the freight moved by major rail carriers."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Supporters of the new supersystems argue that these mergers will allow for substantial cost reductions and better coordinated service. Any threat of monopoly, they argue, is removed by fierce competition from trucks. But many shippers complain that for heavy bulk commodities traveling long distances, such as coal, chemicals, and grain, trucking is too costly and the railroads therefore have them by the throat."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The vast consolidation within the rail industry means that most shippers are served by only one rail company. Railroads typically charge such “captive” shippers 20 to 30 percent more than they do when another railroad is competing for the business. Shippers who feel they are being overcharged have the right to appeal to the federal government’s Surface Transportation Board for rate relief, but the process is expensive, time consuming, and will work only in truly extreme cases."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Railroads justify rate discrimination against captive shippers on the grounds that in the long run it reduces everyone’s cost. If railroads charged all customers the same average rate, they argue, shippers who have the option of switching to trucks or other forms of transportation would do so, leaving remaining customers to shoulder the cost of keeping up the line. It’s a theory to which many economists subscribe, but in practice it often leaves railroads in the position of determining which companies will flourish and which will fail. “Do we really want railroads to be the arbiters of who wins and who loses in the marketplace?” asks Martin Bercovici, a Washington lawyer who frequently represents shipper."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Many captive shippers also worry they will soon be hit with a round of huge rate increases. The railroad industry as a whole, despite its brightening fortunes, still does not earn enough to cover the cost of the capital it must invest to keep up with its surging traffic. Yet railroads continue to borrow billions to acquire one another, with Wall Street cheering them on. Consider the $10.2 billion bid by Norfolk Southern and CSX to acquire Conrail this year. Conrail’s net railway operating income in 1996 was just $427 million, less than half of the carrying costs of the transaction. Who’s going to pay for the rest of the bill? Many captive shippers fear that they will, as Norfolk Southern and CSX increase their grip on the market."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · 阅读理解 Part A",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "It is said that in England death is pressing, in Canada inevitable and in California optional. Small wonder. Americans’ life expectancy has nearly doubled over the past century. Failing hips can be replaced, clinical depression controlled, cataracts removed in a 30-minute surgical procedure. Such advances offer the aging population a quality of life that was unimaginable when I entered medicine 50 years ago. But not even a great health-care system can cure death—and our failure to confront that reality now threatens this greatness of ours."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Death is normal; we are genetically programmed to disintegrate and perish, even under ideal conditions. We all understand that at some level, yet as medical consumers we treat death as a problem to be solved. Shielded by third-party payers from the cost of our care, we demand everything that can possibly be done for us, even if it’s useless. The most obvious example is late-stage cancer care. Physicians—frustrated by their inability to cure the disease and fearing loss of hope in the patient—too often offer aggressive treatment far beyond what is scientifically justified."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "In 1950, the US spent $12.7 billion on health care. In 2002, the cost will be $1,540 billion. Anyone can see this trend is unsustainable. Yet few seem willing to try to reverse it. Some scholars conclude that a government with finite resources should simply stop paying for medical care that sustains life beyond a certain age—say 83 or so. Former Colorado governor Richard Lamm has been quoted as saying that the old and infirm “have a duty to die and get out of the way”, so that younger, healthier people can realize their potential."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "I would not go that far. Energetic people now routinely work through their 60s and beyond, and remain dazzlingly productive. At 78, Viacom chairman Sumner Redstone jokingly claims to be 53. Supreme Court Justice Sandra Day O’Connor is in her 70s, and former surgeon general C. Everett Koop chairs an Internet start-up in his 80s. These leaders are living proof that prevention works and that we can manage the health problems that come naturally with age. As a mere 68-year-old, I wish to age as productively as they have."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Yet there are limits to what a society can spend in this pursuit. As a physician, I know the most costly and dramatic measures may be ineffective and painful. I also know that people in Japan and Sweden, countries that spend far less on medical care, have achieved longer, healthier lives than we have. As a nation, we may be overfunding the quest for unlikely cures while underfunding research on humbler therapies that could improve people’s lives."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · 翻译 Part B 原文",
+      "section": "Section II · 翻译 Part B",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Almost all our major problems involve human behavior, and they cannot be solved by physical and biological technology alone. What is needed is a technology of behavior, but we have been slow to develop the science from which such a technology might be drawn. 【41】One difficulty is that almost all of what is called behavioral science continues to trace behavior to states of mind, feelings, traits of character, human nature, and so on. Physics and biology once followed similar practices and advanced only when they discarded them. 【42】The behavioral sciences have been slow to change partly because the explanatory items often seem to be directly observed and partly because other kinds of explanations have been hard to find. The environment is obviously important, but its role has remained obscure. It does not push or pull, it selects, and this function is difficult to discover and analyze. 【43】The role of natural selection in evolution was formulated only a little more than a hundred years ago, and the selective role of the environment in shaping and maintaining the behavior of the individual is only beginning to be recognized and studied. As the interaction between organism and environment has come to be understood, however, effects once assigned to states of mind, feelings, and traits are beginning to be traced to accessible conditions, and a technology of behavior may therefore become available. It will not solve our problems, however, until it replaces traditional prescientific views, and these are strongly entrenched. Freedom and dignity illustrate the difficulty. 【44】They are the possessions of the autonomous (self-governing) man of traditional theory, and they are essential to practices in which a person is held responsible for his conduct and given credit for his achievements. A scientific analysis shifts both the responsibility and the achievement to the environment. It also raises questions concerning “values”. Who will use a technology and to what ends? 【45】Until these issues are resolved, a technology of behavior will continue to be rejected, and with it possibly the only way to solve our problems."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "thought" },
+        { "id": "c1-b", "text": "idea" },
+        { "id": "c1-c", "text": "opinion" },
+        { "id": "c1-d", "text": "advice" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-a"] },
+      "explanation": "give serious thought to 为固定搭配，表示认真思考。",
+      "max_score_units": 50,
+      "source_ref": "第1空"
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "strengthen" },
+        { "id": "c2-b", "text": "accommodate" },
+        { "id": "c2-c", "text": "stimulate" },
+        { "id": "c2-d", "text": "enhance" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-b"] },
+      "explanation": "accommodate such changes 表示适应这些变化。",
+      "max_score_units": 50,
+      "source_ref": "第2空"
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "care" },
+        { "id": "c3-b", "text": "nutrition" },
+        { "id": "c3-c", "text": "exercise" },
+        { "id": "c3-d", "text": "leisure" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-c"] },
+      "explanation": "与 movement 并列，且可通过竞赛方式实现，选 exercise。",
+      "max_score_units": 50,
+      "source_ref": "第3空"
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "If" },
+        { "id": "c4-b", "text": "Although" },
+        { "id": "c4-c", "text": "Whereas" },
+        { "id": "c4-d", "text": "Because" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-d"] },
+      "explanation": "前后为因果关系：因为正在适应变化，所以自我意识强。",
+      "max_score_units": 50,
+      "source_ref": "第4空"
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "assistance" },
+        { "id": "c5-b", "text": "guidance" },
+        { "id": "c5-c", "text": "confidence" },
+        { "id": "c5-d", "text": "tolerance" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-c"] },
+      "explanation": "从成功中获得的是 confidence（自信）。",
+      "max_score_units": 50,
+      "source_ref": "第5空"
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "claimed" },
+        { "id": "c6-b", "text": "admired" },
+        { "id": "c6-c", "text": "ignored" },
+        { "id": "c6-d", "text": "surpassed" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-b"] },
+      "explanation": "自己的成就受到别人羡慕，选 admired。",
+      "max_score_units": 50,
+      "source_ref": "第6空"
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "improper" },
+        { "id": "c7-b", "text": "risky" },
+        { "id": "c7-c", "text": "fair" },
+        { "id": "c7-d", "text": "wise" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-d"] },
+      "explanation": "在充满竞争的生活中，策划胜者多败者少的活动是明智的。",
+      "max_score_units": 50,
+      "source_ref": "第7空"
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "in effect" },
+        { "id": "c8-b", "text": "as a result" },
+        { "id": "c8-c", "text": "for example" },
+        { "id": "c8-d", "text": "in a sense" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-c"] },
+      "explanation": "后文是具体活动的举例，选 for example。",
+      "max_score_units": 50,
+      "source_ref": "第8空"
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "displaying" },
+        { "id": "c9-b", "text": "describing" },
+        { "id": "c9-c", "text": "creating" },
+        { "id": "c9-d", "text": "exchanging" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-a"] },
+      "explanation": "展示学生艺术作品，选 displaying。",
+      "max_score_units": 50,
+      "source_ref": "第9空"
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "durable" },
+        { "id": "c10-b", "text": "excessive" },
+        { "id": "c10-c", "text": "surplus" },
+        { "id": "c10-d", "text": "multiple" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-d"] },
+      "explanation": "多种多样的俱乐部提供多种机会，选 multiple。",
+      "max_score_units": 50,
+      "source_ref": "第10空"
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        { "id": "c11-a", "text": "group" },
+        { "id": "c11-b", "text": "individual" },
+        { "id": "c11-c", "text": "personnel" },
+        { "id": "c11-d", "text": "corporation" }
+      ],
+      "answer_key": { "selected_option_ids": ["c11-a"] },
+      "explanation": "俱乐部活动是团体动态关系，选 group。",
+      "max_score_units": 50,
+      "source_ref": "第11空"
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        { "id": "c12-a", "text": "consent" },
+        { "id": "c12-b", "text": "insurance" },
+        { "id": "c12-c", "text": "admission" },
+        { "id": "c12-d", "text": "security" }
+      ],
+      "answer_key": { "selected_option_ids": ["c12-d"] },
+      "explanation": "腼腆的学生需要团体提供的安全感，选 security。",
+      "max_score_units": 50,
+      "source_ref": "第12空"
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        { "id": "c13-a", "text": "particularly" },
+        { "id": "c13-b", "text": "barely" },
+        { "id": "c13-c", "text": "definitely" },
+        { "id": "c13-d", "text": "rarely" }
+      ],
+      "answer_key": { "selected_option_ids": ["c13-b"] },
+      "explanation": "成人支持在幕后几乎看不见，选 barely。",
+      "max_score_units": 50,
+      "source_ref": "第13空"
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        { "id": "c14-a", "text": "similar" },
+        { "id": "c14-b", "text": "long" },
+        { "id": "c14-c", "text": "different" },
+        { "id": "c14-d", "text": "short" }
+      ],
+      "answer_key": { "selected_option_ids": ["c14-d"] },
+      "explanation": "青少年注意力持续时间短，选 short。",
+      "max_score_units": 50,
+      "source_ref": "第14空"
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        { "id": "c15-a", "text": "if only" },
+        { "id": "c15-b", "text": "now that" },
+        { "id": "c15-c", "text": "so that" },
+        { "id": "c15-d", "text": "even if" }
+      ],
+      "answer_key": { "selected_option_ids": ["c15-c"] },
+      "explanation": "组织多样活动是为了让参与者保持活跃，表目的，选 so that。",
+      "max_score_units": 50,
+      "source_ref": "第15空"
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        { "id": "c16-a", "text": "everything" },
+        { "id": "c16-b", "text": "anything" },
+        { "id": "c16-c", "text": "nothing" },
+        { "id": "c16-d", "text": "something" }
+      ],
+      "answer_key": { "selected_option_ids": ["c16-d"] },
+      "explanation": "转而参与其他某种活动，选 something else。",
+      "max_score_units": 50,
+      "source_ref": "第16空"
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        { "id": "c17-a", "text": "off" },
+        { "id": "c17-b", "text": "down" },
+        { "id": "c17-c", "text": "out" },
+        { "id": "c17-d", "text": "alone" }
+      ],
+      "answer_key": { "selected_option_ids": ["c17-b"] },
+      "explanation": "let others down 表示让其他人失望。",
+      "max_score_units": 50,
+      "source_ref": "第17空"
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        { "id": "c18-a", "text": "On the contrary" },
+        { "id": "c18-b", "text": "On the average" },
+        { "id": "c18-c", "text": "On the whole" },
+        { "id": "c18-d", "text": "On the other hand" }
+      ],
+      "answer_key": { "selected_option_ids": ["c18-a"] },
+      "explanation": "前后意思相反，选 On the contrary。",
+      "max_score_units": 50,
+      "source_ref": "第18空"
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        { "id": "c19-a", "text": "making" },
+        { "id": "c19-b", "text": "standing" },
+        { "id": "c19-c", "text": "planning" },
+        { "id": "c19-d", "text": "taking" }
+      ],
+      "answer_key": { "selected_option_ids": ["c19-c"] },
+      "explanation": "plan for roles 表示为角色做计划。",
+      "max_score_units": 50,
+      "source_ref": "第19空"
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        { "id": "c20-a", "text": "capability" },
+        { "id": "c20-b", "text": "responsibility" },
+        { "id": "c20-c", "text": "proficiency" },
+        { "id": "c20-d", "text": "efficiency" }
+      ],
+      "answer_key": { "selected_option_ids": ["c20-a"] },
+      "explanation": "within one’s capabilities 表示在能力范围内。",
+      "max_score_units": 50,
+      "source_ref": "第20空"
+    },
+    {
+      "id": "t1-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The emergence of the Net has ______.",
+      "options": [
+        { "id": "t1-q1-a", "text": "received support from fans like Donovan" },
+        { "id": "t1-q1-b", "text": "remolded the intelligence services" },
+        { "id": "t1-q1-c", "text": "restored many common pastimes" },
+        { "id": "t1-q1-d", "text": "revived spying as a profession" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q1-b"] },
+      "explanation": "互联网正在重塑多诺汶曾从事的间谍职业。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1段"
+    },
+    {
+      "id": "t1-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Donovan’s story is mentioned in the text to ______.",
+      "options": [
+        { "id": "t1-q2-a", "text": "introduce the topic of online spying" },
+        { "id": "t1-q2-b", "text": "show how he fought for the US" },
+        { "id": "t1-q2-c", "text": "give an episode of the information war" },
+        { "id": "t1-q2-d", "text": "honor his unique services to the CIA" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q2-a"] },
+      "explanation": "以多诺汶的故事引出网络间谍这一话题。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1段"
+    },
+    {
+      "id": "t1-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The phrase “making the biggest splash” (Line 1, Paragraph 3) most probably means ______.",
+      "options": [
+        { "id": "t1-q3-a", "text": "causing the biggest trouble" },
+        { "id": "t1-q3-b", "text": "exerting the greatest effort" },
+        { "id": "t1-q3-c", "text": "achieving the greatest success" },
+        { "id": "t1-q3-d", "text": "enjoying the widest popularity" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q3-c"] },
+      "explanation": "make the biggest splash 意为取得最大成功、引起最大轰动。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第3段"
+    },
+    {
+      "id": "t1-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "It can be learned from Paragraph 4 that ______.",
+      "options": [
+        { "id": "t1-q4-a", "text": "Straitford’s prediction about Ukraine has proved true" },
+        { "id": "t1-q4-b", "text": "Straitford guarantees the truthfulness of its information" },
+        { "id": "t1-q4-c", "text": "Straitford’s business is characterized by unpredictability" },
+        { "id": "t1-q4-d", "text": "Straitford is able to provide fairly reliable information" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q4-d"] },
+      "explanation": "公开来源间谍活动风险在于真假难辨，而该公司靠辨别真伪赚钱，暗示其能提供较可靠情报。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第4段"
+    },
+    {
+      "id": "t1-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Straitford is most proud of its ______.",
+      "options": [
+        { "id": "t1-q5-a", "text": "official status" },
+        { "id": "t1-q5-b", "text": "nonconformist image" },
+        { "id": "t1-q5-c", "text": "efficient staff" },
+        { "id": "t1-q5-d", "text": "military background" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q5-b"] },
+      "explanation": "公司为其独立的声音感到自豪，即不随大流的形象。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第5段"
+    },
+    {
+      "id": "t2-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The author begins his article with Edmund Burke’s words to ______.",
+      "options": [
+        { "id": "t2-q1-a", "text": "call on scientists to take some actions" },
+        { "id": "t2-q1-b", "text": "criticize the misguided cause of animal rights" },
+        { "id": "t2-q1-c", "text": "warn of the doom of biomedical research" },
+        { "id": "t2-q1-d", "text": "show the triumph of the animal rights movement" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q1-a"] },
+      "explanation": "引用柏克的话是为了呼吁科学家采取行动。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第1段"
+    },
+    {
+      "id": "t2-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Misled people tend to think that using an animal in research is ______.",
+      "options": [
+        { "id": "t2-q2-a", "text": "cruel but natural" },
+        { "id": "t2-q2-b", "text": "inhuman and unacceptable" },
+        { "id": "t2-q2-c", "text": "inevitable but vicious" },
+        { "id": "t2-q2-d", "text": "pointless and wasteful" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q2-b"] },
+      "explanation": "被误导的人认为动物实验不人道、不可接受。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第1段"
+    },
+    {
+      "id": "t2-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The example of the grandmotherly woman is used to show the public’s ______.",
+      "options": [
+        { "id": "t2-q3-a", "text": "discontent with animal research" },
+        { "id": "t2-q3-b", "text": "ignorance about medical science" },
+        { "id": "t2-q3-c", "text": "indifference to epidemics" },
+        { "id": "t2-q3-d", "text": "anxiety about animal rights" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q3-b"] },
+      "explanation": "老奶奶的例子说明公众对医学科学的无知。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第2段"
+    },
+    {
+      "id": "t2-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The author believes that, in face of the challenge from animal rights advocates, scientists should ______.",
+      "options": [
+        { "id": "t2-q4-a", "text": "communicate more with the public" },
+        { "id": "t2-q4-b", "text": "employ hi-tech means in research" },
+        { "id": "t2-q4-c", "text": "feel no shame for their cause" },
+        { "id": "t2-q4-d", "text": "strive to develop new cures" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q4-a"] },
+      "explanation": "作者认为科学家应多与公众沟通。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第3段"
+    },
+    {
+      "id": "t2-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "From the text we learn that Stephen Cooper is ______.",
+      "options": [
+        { "id": "t2-q5-a", "text": "a well-known humanist" },
+        { "id": "t2-q5-b", "text": "a medical practitioner" },
+        { "id": "t2-q5-c", "text": "an enthusiast in animal rights" },
+        { "id": "t2-q5-d", "text": "a supporter of animal research" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q5-d"] },
+      "explanation": "Stephen Cooper 对动物研究的价值做了勇敢的肯定，是支持者。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第4段"
+    },
+    {
+      "id": "t3-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "According to those who support mergers, railway monopoly is unlikely because ______.",
+      "options": [
+        { "id": "t3-q1-a", "text": "cost reduction is based on competition" },
+        { "id": "t3-q1-b", "text": "services call for cross-trade coordination" },
+        { "id": "t3-q1-c", "text": "outside competitors will continue to exist" },
+        { "id": "t3-q1-d", "text": "shippers will have the railway by the throat" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q1-c"] },
+      "explanation": "支持者认为来自卡车的激烈竞争消除了垄断威胁。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第2段"
+    },
+    {
+      "id": "t3-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "What is many captive shippers’ attitude towards the consolidation in the rail industry?",
+      "options": [
+        { "id": "t3-q2-a", "text": "Indifferent." },
+        { "id": "t3-q2-b", "text": "Supportive." },
+        { "id": "t3-q2-c", "text": "Indignant." },
+        { "id": "t3-q2-d", "text": "Apprehensive." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q2-d"] },
+      "explanation": "被控制的托运商担心会面临大幅涨价，态度是忧虑的。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第5段"
+    },
+    {
+      "id": "t3-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "It can be inferred from Paragraph 3 that ______.",
+      "options": [
+        { "id": "t3-q3-a", "text": "shippers will be charged less without a rival railroad" },
+        { "id": "t3-q3-b", "text": "there will soon be only one railroad company nationwide" },
+        { "id": "t3-q3-c", "text": "overcharged shippers are unlikely to appeal for rate relief" },
+        { "id": "t3-q3-d", "text": "a government board ensures fair play in railway business" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q3-c"] },
+      "explanation": "申诉过程昂贵、耗时，且只在极端情况下有效，因此托运商不太可能申诉。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第3段"
+    },
+    {
+      "id": "t3-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The word “arbiters” (Line 7, Paragraph 4) most probably refers to those ______.",
+      "options": [
+        { "id": "t3-q4-a", "text": "who work as coordinators" },
+        { "id": "t3-q4-b", "text": "who function as judges" },
+        { "id": "t3-q4-c", "text": "who supervise transactions" },
+        { "id": "t3-q4-d", "text": "who determine the price" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q4-b"] },
+      "explanation": "arbiters 意为裁决者，即起法官作用的人。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第4段"
+    },
+    {
+      "id": "t3-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "According to the text, the cost increase in the rail industry is mainly caused by ______.",
+      "options": [
+        { "id": "t3-q5-a", "text": "the continuing acquisition" },
+        { "id": "t3-q5-b", "text": "the growing traffic" },
+        { "id": "t3-q5-c", "text": "the cheering Wall Street" },
+        { "id": "t3-q5-d", "text": "the shrinking market" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q5-a"] },
+      "explanation": "铁路公司继续借款相互收购，导致成本增加。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第5段"
+    },
+    {
+      "id": "t4-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "What is implied in the first sentence?",
+      "options": [
+        { "id": "t4-q1-a", "text": "Americans are better prepared for death than other people." },
+        { "id": "t4-q1-b", "text": "Americans enjoy a higher life quality than ever before." },
+        { "id": "t4-q1-c", "text": "Americans are over-confident of their medical technology." },
+        { "id": "t4-q1-d", "text": "Americans take a vain pride in their long life expectancy." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q1-c"] },
+      "explanation": "第一句暗示美国人对其医疗技术过于自信，认为死亡可以选择。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第1段"
+    },
+    {
+      "id": "t4-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The author uses the example of cancer patients to show that ______.",
+      "options": [
+        { "id": "t4-q2-a", "text": "medical resources are often wasted" },
+        { "id": "t4-q2-b", "text": "doctors are helpless against fatal diseases" },
+        { "id": "t4-q2-c", "text": "some treatments are too aggressive" },
+        { "id": "t4-q2-d", "text": "medical costs are becoming unaffordable" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q2-a"] },
+      "explanation": "晚期癌症治疗例子说明医疗资源常被浪费。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第2段"
+    },
+    {
+      "id": "t4-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The author’s attitude toward Richard Lamm’s remark is one of ______.",
+      "options": [
+        { "id": "t4-q3-a", "text": "strong disapproval" },
+        { "id": "t4-q3-b", "text": "reserved consent" },
+        { "id": "t4-q3-c", "text": "slight contempt" },
+        { "id": "t4-q3-d", "text": "enthusiastic support" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q3-b"] },
+      "explanation": "作者说“我不会那么极端”，表明有保留地赞同。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第3-4段"
+    },
+    {
+      "id": "t4-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "In contrast to the US, Japan and Sweden are funding their medical care ______.",
+      "options": [
+        { "id": "t4-q4-a", "text": "more flexibly" },
+        { "id": "t4-q4-b", "text": "more extravagantly" },
+        { "id": "t4-q4-c", "text": "more cautiously" },
+        { "id": "t4-q4-d", "text": "more reasonably" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q4-d"] },
+      "explanation": "日本和瑞典医疗花费少但寿命更长，说明其资助更合理。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第5段"
+    },
+    {
+      "id": "t4-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The text intends to express the idea that ______.",
+      "options": [
+        { "id": "t4-q5-a", "text": "medicine will further prolong people’s lives" },
+        { "id": "t4-q5-b", "text": "life beyond a certain limit is not worth living" },
+        { "id": "t4-q5-c", "text": "death should be accepted as a fact of life" },
+        { "id": "t4-q5-d", "text": "excessive demands increase the cost of health care" }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q5-c"] },
+      "explanation": "全文主旨是死亡应被接受为生命的事实。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 全文"
+    },
+    {
+      "id": "tr-41",
+      "section": "Section II · 翻译 Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "One difficulty is that almost all of what is called behavioral science continues to trace behavior to states of mind, feelings, traits of character, human nature, and so on.",
+      "answer_key": {
+        "reference_text": "难题之一在于所谓的行为科学几乎全都依然从心态、情感、性格特征、人性等方面去寻找行为的根源。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第41句"
+    },
+    {
+      "id": "tr-42",
+      "section": "Section II · 翻译 Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The behavioral sciences have been slow to change partly because the explanatory items often seem to be directly observed and partly because other kinds of explanations have been hard to find.",
+      "answer_key": {
+        "reference_text": "行为科学之所以发展缓慢，部分原因是用来解释行为的依据似乎往往是直接观察到的，部分原因是其他的解释方式一直难以找到。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第42句"
+    },
+    {
+      "id": "tr-43",
+      "section": "Section II · 翻译 Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The role of natural selection in evolution was formulated only a little more than a hundred years ago, and the selective role of the environment in shaping and maintaining the behavior of the individual is only beginning to be recognized and studied.",
+      "answer_key": {
+        "reference_text": "自然选择在进化中的作用仅在一百多年前才得以阐明，而环境在塑造和保持个体行为时的选择作用则刚刚开始被认识和研究。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第43句"
+    },
+    {
+      "id": "tr-44",
+      "section": "Section II · 翻译 Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "They are the possessions of the autonomous (self-governing) man of traditional theory, and they are essential to practices in which a person is held responsible for his conduct and given credit for his achievements.",
+      "answer_key": {
+        "reference_text": "它们是传统理论定义的自主人拥有的，是要求一个人对自己的行为负责并因其业绩而给予肯定的必不可少的前提。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第44句"
+    },
+    {
+      "id": "tr-45",
+      "section": "Section II · 翻译 Part B",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Until these issues are resolved, a technology of behavior will continue to be rejected, and with it possibly the only way to solve our problems.",
+      "answer_key": {
+        "reference_text": "（如果）这些问题得不到解决，研究行为的技术手段就会继续受到排斥，解决问题的惟一方式可能也随之继续受到排斥。"
+      },
+      "max_score_units": 200,
+      "source_ref": "第45句"
+    },
+    {
+      "id": "writing-46",
+      "section": "Section III · 写作",
+      "type": "free_text",
+      "stem": "Study the following set of drawings carefully and write an essay entitled “温室花朵经不起风雨” in which you should\n1) describe the set of drawings, interpret its meaning, and\n2) point out its implications in our life.\nYou should write about 200 words neatly on ANSWER SHEET 2. (20 points)\n画面文字描述：第一幅图是一朵花在温室中茁壮成长，外面狂风暴雨；第二幅图是这朵花被移到温室外，在风雨中凋谢。",
+      "images": [
+        "images/2003/1419bebf04c853d26706c6fff2c399a94468548dbb750836ffef3ab5febcc137.jpg",
+        "images/2003/2b09e122babf375a57046c73671302187e5d5afbf7974450022e921951823485.jpg"
+      ],
+      "answer_key": {
+        "reference_text": "The two pictures show us the relationship between the circumstance and one’s growth. At the beginning, under the protection of the greenhouse, the flower grows well and thrives. However, once removed away from the shelter, the flower withers and its petals fall in the thunderstorm. From the pictures we can see that a flower kept in a greenhouse can never survive the harsh conditions.\n\nIt is an obvious fact that the development of a person is similar to the growth of a flower. A child under the complete protection of parents can never learn to face the challenge on his own. This is particularly true of children born after the 1980s, who grew up in a time of fast economic growth and in increasingly wealthy families. Being the only child in the family and the focus of the parents and grandparents, the so-called little emperor or empress has not the least idea of what hardship and harshness means. As soon as he grows up and walks out of the protection, he will have difficulty coping with life, and what’s more, will be at a loss when making his own decisions. What concerns us beyond individual growth is that sooner or later our country will be passed to the hands of the younger generation.\n\nThis problem is directly related to our concept of family education. As we all know, the role that a home plays in the overall development of a child is more crucial than that of the school. The responsibility of parents is much more than providing the child with a comfortable life. Parents should treat their child as an individual who will become independent sooner or later and thus encourage him or her to think and act independently. Until this right concept of parenting is installed, we shall continue to have children like greenhouse flowers, beautiful but fragile and unable to stand up to life’s real challenges."
+      },
+      "max_score_units": 2000,
+      "source_ref": "Section III Writing 46"
+    }
+  ]
+}

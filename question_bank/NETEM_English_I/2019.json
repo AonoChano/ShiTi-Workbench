@@ -1,0 +1,1265 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 2019,
+    "paper": "英语一",
+    "title": "2019年全国硕士研究生入学统一考试英语（一）试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/2019.md",
+    "source_images": "TestPaper/images/2019/",
+    "converted_by": "Assistant（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "2019年新题型为排序题，C和F已固定；大作文配图已填写。完形填空原文空位已统一为 __N__ 格式。翻译原文划线句标记为【46】-【50】。"
+  },
+  "set": {
+    "title": "2019年全国硕士研究生入学统一考试英语（一）试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · 完形填空",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 阅读理解 Part A",
+      "part": "Section II · Part A",
+      "title": "阅读理解",
+      "directions": [
+        "Read the following four texts. Answer the questions below each text by choosing A, B, C or D. Mark your answers on the ANSWER SHEET. (40 points)"
+      ]
+    },
+    {
+      "id": "Section II · 新题型 Part B",
+      "part": "Section II · Part B",
+      "title": "新题型",
+      "directions": [
+        "The following paragraphs are given in a wrong order. For Questions 41-45, you are required to reorganize these paragraphs into a coherent article by choosing from the list A-G and filling them into the numbered boxes. Paragraphs C and F have been correctly placed. Mark your answers on the ANSWER SHEET. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · 翻译 Part C",
+      "part": "Section II · Part C",
+      "title": "英译汉",
+      "directions": [
+        "Read the following text carefully and then translate the underlined segments into Chinese. Your translation should be written neatly on the ANSWER SHEET. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part A",
+      "part": "Section III · Part A",
+      "title": "应用文写作",
+      "directions": [
+        "Suppose you are working for the “Aiding Rural Primary School” project of your university. Write an email to answer the inquiry from an international student volunteer, specifying the details of the project.",
+        "You should write about 100 words neatly on the ANSWER SHEET.",
+        "Do not use your own name in the email. Use “Li Ming” instead. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · 写作 Part B",
+      "part": "Section III · Part B",
+      "title": "短文写作",
+      "directions": [
+        "Write an essay of 160-200 words based on the picture below. In your essay, you should",
+        "1) describe the pictures briefly,",
+        "2) interpret the implied meaning, and",
+        "3) give your comments.",
+        "You should write neatly on the ANSWER SHEET. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · 完形填空",
+      "source_ref": "2019.md Section I",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Today we live in a world where GPS systems, digital maps, and other navigation apps are available on our smart phone. __1__ of us just walk straight into the woods without a phone. But phones __2__ on batteries, and batteries can die faster than we realize. __3__ you get lost without a phone or a compass, and you __4__ can’t find north, we have a few tricks to help you navigate __5__ to civilization, one of which is to follow the land."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "When you find yourself well __6__ a trail, but not in a completely __7__ area, you have to answer two questions: Which __8__ is downhill, in this particular area? And where is the nearest water source? Humans overwhelmingly live in valleys, and on supplies of fresh water. __9__, if you head downhill, and follow any H2O you find, you should __10__ see signs of people."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "If you’ve explored the area before, keep an eye out for familiar sights—you may be __11__ how quickly identifying a distinctive rock or tree can restore your bearings."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Another __12__: Climb high and look for signs of human habitation. __13__, even in dense forest, you should be able to __14__ gaps in the tree line due to roads, train tracks, and other paths people carve __15__ the woods. Head toward these __16__ to find a way out. At night, scan the horizon for __17__ light sources, such as fires and streetlights, then walk toward the glow of light pollution."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "__18__, assuming you’re lost in an area humans tend to frequent, look for the __19__ we leave on the landscape. Trail blazes, tire tracks, and other features can __20__ you to civilization."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2019.md Text 1",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Financial regulators in Britain have imposed a rather unusual rule on the bosses of big banks. Starting next year, any guaranteed bonus of top executives could be delayed 10 years if their banks are under investigation for wrongdoing. The main purpose of this “clawback” rule is to hold bankers accountable for harmful risk-taking and to restore public trust in financial institutions. Yet officials also hope for a much larger benefit: more long-term decision-making, not only by banks but by all corporations, to build a stronger economy for future generations."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "“Short-termism” or the desire for quick profits, has worsened in publicly traded companies, says the Bank of England’s top economist, Andrew Haldane. He quotes a giant of classical economics, Alfred Marshall, in describing this financial impatience as acting like “children who pick the plums out of their pudding to eat them at once” rather than putting them aside to be eaten last."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The average time for holding a stock in both the United States and Britain, he notes, has dropped from seven years to seven months in recent decades. Transient investors, who demand high quarterly profits from companies, can hinder a firm’s efforts to invest in long-term research or to build up customer loyalty. This has been dubbed “quarterly capitalism”."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "In addition, new digital technologies have allowed more rapid trading of equities, quicker use of information, and thus shorter attention spans in financial markets. “There seems to be a predominance of short-term thinking at the expense of long-term investing,” said Commissioner Daniel Gallagher of the US Securities and Exchange Commission in a speech this week."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "In the US, the Sarbanes-Oxley Act of 2002 has pushed most public companies to defer performance bonuses for senior executives by about a year, slightly helping reduce “short-termism.” In its latest survey of CEO pay, The Wall Street Journal finds that “a substantial part” of executive pay is now tied to performance."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Much more could be done to encourage “long-termism,” such as changes in the tax code and quicker disclosure of stock acquisitions. In France, shareholders who hold onto a company investment for at least two years can sometimes earn more voting rights in a company."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "Within companies, the right compensation design can provide incentives for executives to think beyond their own time at the company and on behalf of all stakeholders. Britain’s new rule is a reminder to bankers that society has an interest in their performance, not just for the short term but for the long term."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2019.md Text 2",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Grade forgiveness allows students to retake a course in which they received a low grade, and the most recent grade or the highest grade is the only one that counts in calculating a student’s overall GPA."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The use of this little-known practice has accelerated in recent years, as colleges continue to do their utmost to keep students in school (and paying tuition) and improve their graduation rates. When this practice first started decades ago, it was usually limited to freshmen, to give them a second chance to take a class in their first year if they struggled in their transition to college-level courses. But now most colleges, save for many selective campuses, allow all undergraduates, and even graduate students, to get their low grades forgiven."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "College officials tend to emphasize that the goal of grade forgiveness is less about the grade itself and more about encouraging students to retake courses critical to their degree program and graduation without incurring a big penalty. “Ultimately,” said Jack Miner, Ohio State University’s registrar, “we see students achieve more success because they retake a course and do better in subsequent contents or master the content that allows them to graduate on time.”"
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "That said, there is a way in which grade forgiveness satisfies colleges’ own needs as well. For public institutions, state funds are sometimes tied partly to their success on metrics such as graduation rates and student retention—so better grades can, by boosting figures like those, mean more money. And anything that raises GPAs will likely make students—who, at the end of the day, are paying the bill—feel they’ve gotten a better value for their tuition dollars, which is another big concern for colleges."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Indeed, grade forgiveness is just another way that universities are responding to consumers’ expectations for higher education. Since students and parents expect a college degree to lead to a job, it is in the best interest of a school to turn out graduates who are as qualified as possible—or at least appear to be. On this, students’ and colleges’ incentives seem to be aligned."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2019.md Text 3",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "This year marks exactly two centuries since the publication of “Frankenstein; or, The Modern Prometheus,” by Mary Shelley. Even before the invention of the electric light bulb, the author produced a remarkable work of speculative fiction that would foreshadow many ethical questions to be raised by technologies yet to come."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Today the rapid growth of artificial intelligence (AI) raises fundamental questions: “What is intelligence, identity, or consciousness? What makes humans humans?”"
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "What is being called artificial general intelligence, machines that would imitate the way humans think, continues to evade scientists. Yet humans remain fascinated by the idea of robots that would look, move, and respond like humans, similar to those recently depicted on popular sci-fi TV series such as “Westworld” and “Humans”."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Just how people think is still far too complex to be understood, let alone reproduced, says David Eagleman, a Stanford University neuroscientist. “We are just in a situation where there are no good theories explaining what consciousness actually is and how you could ever build a machine to get there.”"
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "But that doesn’t mean crucial ethical issues involving AI aren’t at hand. The coming use of autonomous vehicles, for example, poses thorny ethical questions. Human drivers sometimes must make split-second decisions. Their reactions may be a complex combination of instant reflexes, input from past driving experiences, and what their eyes and ears tell them in that moment. AI “vision” today is not nearly as sophisticated as that of humans. And to anticipate every imaginable driving situation is a difficult programming problem."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Whenever decisions are based on masses of data, “you quickly get into a lot of ethical questions,” notes Tan Kiat How, chief executive of a Singapore-based agency that is helping the government develop a voluntary code for the ethical use of AI. Along with Singapore, other governments and mega-corporations are beginning to establish their own guidelines. Britain is setting up a data ethics center. India released its AI ethics strategy this spring."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "On June 7 Google pledged not to “design or deploy AI” that would cause “overall harm,” or to develop AI-directed weapons or use AI for surveillance that would violate international norms. It also pledged not to deploy AI whose use would violate international laws or human rights."
+        },
+        {
+          "id": "p8",
+          "type": "paragraph",
+          "text": "While the statement is vague, it represents one starting point. So does the idea that decisions made by AI systems should be explainable, transparent, and fair."
+        },
+        {
+          "id": "p9",
+          "type": "paragraph",
+          "text": "To put it another way: How can we make sure that the thinking of intelligent machines reflects humanity’s highest values? Only then will they be useful servants and not Frankenstein’s out-of-control monster."
+        }
+      ]
+    },
+    {
+      "id": "reading-text4",
+      "title": "Text 4",
+      "section": "Section II · 阅读理解 Part A",
+      "source_ref": "2019.md Text 4",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "States will be able to force more people to pay sales tax when they make online purchases under a Supreme Court decision Thursday that will leave shoppers with lighter wallets but is a big financial win for states."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The Supreme Court’s opinion Thursday overruled a pair of decades-old decisions that states said cost them billions of dollars in lost revenue annually. The decisions made it more difficult for states to collect sales tax on certain online purchases."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The cases the court overturned said that if a business was shipping a customer’s purchase to a state where the business didn’t have a physical presence such as a warehouse or office, the business didn’t have to collect sales tax for the state. Customers were generally responsible for paying the sales tax to the state themselves if they weren’t charged it, but most didn’t realize they owed it and few paid."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Justice Anthony Kennedy wrote that the previous decisions were flawed. “Each year the physical presence rule becomes further removed from economic reality and results in significant revenue losses to the States,” he wrote in an opinion joined by four other justices. Kennedy wrote that the rule “limited states’ ability to seek long-term prosperity and has prevented market participants from competing on an even playing field.”"
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "The ruling is a victory for big chains with a presence in many states, since they usually collect sales tax on online purchases already. Now, rivals will be charging sales tax where they hadn’t before. Big chains have been collecting sales tax nationwide because they typically have physical stores in whatever state a purchase is being shipped to. Amazon.com, with its network of warehouses, also collects sales tax in every state that charges it, though third-party sellers who use the site don’t have to."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Until now, many sellers that have a physical presence in only a single state or a few states have been able to avoid charging sales taxes when they ship to addresses outside those states. Sellers that use eBay and Etsy, which provide platforms for smaller sellers, also haven’t been collecting sales tax nationwide. Under the ruling Thursday, states can pass laws requiring out-of-state sellers to collect the state’s sales tax from customers and send it to the state."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "Retail trade groups praised the ruling, saying it levels the playing field for local and online businesses. The losers, said retail analyst Neil Saunders, are online-only retailers, especially smaller ones. Those retailers may face headaches complying with various state sales tax laws. The Small Business & Entrepreneurship Council advocacy group said in a statement, “Small businesses and internet entrepreneurs are not well served at all by this decision.”"
+        }
+      ]
+    },
+    {
+      "id": "newtype",
+      "title": "Section II · 新题型 Part B 待排序段落",
+      "section": "Section II · 新题型 Part B",
+      "source_ref": "2019.md Part B",
+      "blocks": [
+        {
+          "id": "pA",
+          "type": "paragraph",
+          "text": "[A] These tools can help you win every argument—not in the unhelpful sense of beating your opponents but in the better sense of learning about the issues that divide people. Learning why they disagree with us and learning to talk and work together with them. If we readjust our view of arguments – from a verbal fight or tennis game to a reasoned exchange through which we all gain mutual respect, and understanding—then we change the very nature of what it means to “win” an argument."
+        },
+        {
+          "id": "pB",
+          "type": "paragraph",
+          "text": "[B] Of course, many discussions are not so successful. Still, we need to be careful not to accuse opponents of bad arguments too quickly. We need to learn how to evaluate them properly. A large part of evaluation is calling out bad arguments, but we also need to admit good arguments by opponents and to apply the same critical standards to ourselves. Humility requires you to recognize weakness in your own arguments and sometimes also to accept reasons on the opposite side."
+        },
+        {
+          "id": "pC",
+          "type": "paragraph",
+          "text": "[C] None of these will be easy but you can start even if others refuse to. Next time you state your position, formulate an argument for what you claim and honestly ask yourself whether your argument is any good. Next time you talk with someone who takes a stand, ask them to give you a reason for their view. Spell out their argument fully and charitably. Assess its strength impartially. Raise objections and listen carefully to their replies."
+        },
+        {
+          "id": "pD",
+          "type": "paragraph",
+          "text": "[D] Carnegie would be right if arguments were fights, which is how we often think of them. Like physical fights, verbal fights can leave both sides bloodied. Even when you win, you end up no better off. Your prospects would be almost as dismal if arguments were even just competitions—like, say, tennis games. Pairs of opponents hit the ball back and forth until one winner emerges from all who entered. Everybody else loses. This kind of thinking is why so many people try to avoid arguments, especially about politics and religion."
+        },
+        {
+          "id": "pE",
+          "type": "paragraph",
+          "text": "[E] In his 1936 work How to Win Friends and Influence People, Dale Carnegie wrote: “There is only one way... to get the best of an argument—and that is to avoid it.” This aversion to arguments is common, but it depends on a mistaken view of arguments that causes profound problems for our personal and social lives—and in many ways misses the point of arguing in the first place."
+        },
+        {
+          "id": "pF",
+          "type": "paragraph",
+          "text": "[F] These views of arguments also undermine reason. If you see a conversation as a fight or competition, you can win by cheating as long as you don’t get caught. You will be happy to convince people with bad arguments. You can call their views stupid, or joke about how ignorant they are. None of these tricks will help you understand them, their positions or the issues that divide you, but they can help you win—in one way."
+        },
+        {
+          "id": "pG",
+          "type": "paragraph",
+          "text": "[G] There is a better way to win arguments. Imagine that you favor increasing the minimum wage in our state, and I do not. If you yell, “Yes,” and I yell, “No,” neither of us learns anything. We neither understand nor respect each other, and we have no basis for compromise or cooperation. In contrast, suppose you give a reasonable argument: that full-time workers should not have to live in poverty. Then I counter with another reasonable argument: that a higher minimum wage will force businesses to employ fewer people for less time. Now we can understand each other’s positions and recognize our shared values, since we both care about needy workers."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section II · 翻译 Part C 原文",
+      "section": "Section II · 翻译 Part C",
+      "source_ref": "2019.md Part C",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "It was only after I started to write a weekly column about the medical journals, and began to read scientific papers from beginning to end, that I realized just how bad the medical literature frequently was. I came to recognise various signs of a bad paper: the kind of paper that purports to show that people who eat more than one kilo of broccoli a week were 1.17 times more likely than those who eat less to suffer late in life from pernicious anaemia. 【46】There is a great deal of this kind of nonsense in the medical journals which, when taken up by broadcasters and the lay press, generates both health scares and short-lived dietary enthusiasms."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Why is so much bad science published? A recent paper, titled “The Natural Selection of Bad Science”, published on the Royal Society’s open science website, attempts to answer this intriguing and important question. It says that the problem is not merely that people do bad science, but that our current system of career advancement positively encourages it. What is important is not truth, but publication, which has become almost an end in itself. There has been a kind of inflationary process at work: 【47】nowadays anyone applying for a research post has to have published twice the number of papers that would have been required for the same post only 10 years ago. Never mind the quality, then, count the number."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "【48】Attempts have been made to curb this tendency, for example, by trying to incorporate some measure of quality as well as quantity into the assessment of an applicant’s papers. This is the famed citation index, that is to say the number of times a paper has been quoted elsewhere in the scientific literature, the assumption being that an important paper will be cited more often than one of small account. 【49】This would be reasonable if it were not for the fact that scientists can easily arrange to cite themselves in their future publications, or get associates to do so for them in return for similar favors."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Boiling down an individual’s output to simple metrics, such as number of publications or journal impacts, entails considerable savings in time, energy and ambiguity. Unfortunately, the long-term costs of using simple quantitative metrics to assess researcher merit are likely to be quite great. 【50】If we are serious about ensuring that our science is both meaningful and reproducible, we must ensure that our institutions encourage that kind of science."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "Some" },
+        { "id": "c1-b", "text": "Most" },
+        { "id": "c1-c", "text": "Few" },
+        { "id": "c1-d", "text": "All" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-c"] },
+      "explanation": "很少有人不带手机就走进森林。",
+      "max_score_units": 50,
+      "source_ref": "第1空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "put" },
+        { "id": "c2-b", "text": "take" },
+        { "id": "c2-c", "text": "run" },
+        { "id": "c2-d", "text": "come" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-c"] },
+      "explanation": "手机靠电池运转，run on。",
+      "max_score_units": 50,
+      "source_ref": "第2空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "Since" },
+        { "id": "c3-b", "text": "If" },
+        { "id": "c3-c", "text": "Though" },
+        { "id": "c3-d", "text": "Until" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-b"] },
+      "explanation": "假设条件，If。",
+      "max_score_units": 50,
+      "source_ref": "第3空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "formally" },
+        { "id": "c4-b", "text": "relatively" },
+        { "id": "c4-c", "text": "gradually" },
+        { "id": "c4-d", "text": "literally" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-d"] },
+      "explanation": "确实找不到北，literally。",
+      "max_score_units": 50,
+      "source_ref": "第4空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "back" },
+        { "id": "c5-b", "text": "next" },
+        { "id": "c5-c", "text": "around" },
+        { "id": "c5-d", "text": "away" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-a"] },
+      "explanation": "返回文明社会，back。",
+      "max_score_units": 50,
+      "source_ref": "第5空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "onto" },
+        { "id": "c6-b", "text": "off" },
+        { "id": "c6-c", "text": "across" },
+        { "id": "c6-d", "text": "alone" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-b"] },
+      "explanation": "偏离小路，off。",
+      "max_score_units": 50,
+      "source_ref": "第6空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "unattractive" },
+        { "id": "c7-b", "text": "uncrowded" },
+        { "id": "c7-c", "text": "unchanged" },
+        { "id": "c7-d", "text": "unfamiliar" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-d"] },
+      "explanation": "不熟悉的区域，unfamiliar。",
+      "max_score_units": 50,
+      "source_ref": "第7空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "site" },
+        { "id": "c8-b", "text": "point" },
+        { "id": "c8-c", "text": "way" },
+        { "id": "c8-d", "text": "place" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-c"] },
+      "explanation": "哪个方向，way。",
+      "max_score_units": 50,
+      "source_ref": "第8空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "So" },
+        { "id": "c9-b", "text": "Yet" },
+        { "id": "c9-c", "text": "Instead" },
+        { "id": "c9-d", "text": "Besides" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-a"] },
+      "explanation": "因此，So。",
+      "max_score_units": 50,
+      "source_ref": "第9空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "immediately" },
+        { "id": "c10-b", "text": "intentionally" },
+        { "id": "c10-c", "text": "unexpectedly" },
+        { "id": "c10-d", "text": "eventually" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-d"] },
+      "explanation": "最终，eventually。",
+      "max_score_units": 50,
+      "source_ref": "第10空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        { "id": "c11-a", "text": "surprised" },
+        { "id": "c11-b", "text": "annoyed" },
+        { "id": "c11-c", "text": "frightened" },
+        { "id": "c11-d", "text": "confused" }
+      ],
+      "answer_key": { "selected_option_ids": ["c11-a"] },
+      "explanation": "惊讶于，surprised。",
+      "max_score_units": 50,
+      "source_ref": "第11空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        { "id": "c12-a", "text": "problem" },
+        { "id": "c12-b", "text": "option" },
+        { "id": "c12-c", "text": "view" },
+        { "id": "c12-d", "text": "result" }
+      ],
+      "answer_key": { "selected_option_ids": ["c12-b"] },
+      "explanation": "另一种选择，option。",
+      "max_score_units": 50,
+      "source_ref": "第12空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        { "id": "c13-a", "text": "Above all" },
+        { "id": "c13-b", "text": "In contrast" },
+        { "id": "c13-c", "text": "On average" },
+        { "id": "c13-d", "text": "For example" }
+      ],
+      "answer_key": { "selected_option_ids": ["c13-d"] },
+      "explanation": "例如，For example。",
+      "max_score_units": 50,
+      "source_ref": "第13空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        { "id": "c14-a", "text": "bridge" },
+        { "id": "c14-b", "text": "avoid" },
+        { "id": "c14-c", "text": "spot" },
+        { "id": "c14-d", "text": "separate" }
+      ],
+      "answer_key": { "selected_option_ids": ["c14-c"] },
+      "explanation": "发现，spot。",
+      "max_score_units": 50,
+      "source_ref": "第14空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        { "id": "c15-a", "text": "form" },
+        { "id": "c15-b", "text": "through" },
+        { "id": "c15-c", "text": "beyond" },
+        { "id": "c15-d", "text": "under" }
+      ],
+      "answer_key": { "selected_option_ids": ["c15-b"] },
+      "explanation": "穿过森林，through。",
+      "max_score_units": 50,
+      "source_ref": "第15空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-16",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 16 空：",
+      "options": [
+        { "id": "c16-a", "text": "posts" },
+        { "id": "c16-b", "text": "links" },
+        { "id": "c16-c", "text": "shades" },
+        { "id": "c16-d", "text": "breaks" }
+      ],
+      "answer_key": { "selected_option_ids": ["c16-d"] },
+      "explanation": "缺口，breaks。",
+      "max_score_units": 50,
+      "source_ref": "第16空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-17",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 17 空：",
+      "options": [
+        { "id": "c17-a", "text": "artificial" },
+        { "id": "c17-b", "text": "mysterious" },
+        { "id": "c17-c", "text": "hidden" },
+        { "id": "c17-d", "text": "limited" }
+      ],
+      "answer_key": { "selected_option_ids": ["c17-a"] },
+      "explanation": "人造光源，artificial。",
+      "max_score_units": 50,
+      "source_ref": "第17空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-18",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 18 空：",
+      "options": [
+        { "id": "c18-a", "text": "Finally" },
+        { "id": "c18-b", "text": "Consequently" },
+        { "id": "c18-c", "text": "Incidentally" },
+        { "id": "c18-d", "text": "Generally" }
+      ],
+      "answer_key": { "selected_option_ids": ["c18-a"] },
+      "explanation": "最后，Finally。",
+      "max_score_units": 50,
+      "source_ref": "第18空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-19",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 19 空：",
+      "options": [
+        { "id": "c19-a", "text": "memories" },
+        { "id": "c19-b", "text": "marks" },
+        { "id": "c19-c", "text": "notes" },
+        { "id": "c19-d", "text": "belongings" }
+      ],
+      "answer_key": { "selected_option_ids": ["c19-b"] },
+      "explanation": "痕迹，marks。",
+      "max_score_units": 50,
+      "source_ref": "第19空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-20",
+      "section": "Section I · 完形填空",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 20 空：",
+      "options": [
+        { "id": "c20-a", "text": "restrict" },
+        { "id": "c20-b", "text": "adopt" },
+        { "id": "c20-c", "text": "lead" },
+        { "id": "c20-d", "text": "expose" }
+      ],
+      "answer_key": { "selected_option_ids": ["c20-c"] },
+      "explanation": "引领你到文明社会，lead。",
+      "max_score_units": 50,
+      "source_ref": "第20空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "t1-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "According to Paragraph 1, one motive in imposing the new rule is to",
+      "options": [
+        { "id": "t1-q1-a", "text": "enhance bankers’ sense of responsibility" },
+        { "id": "t1-q1-b", "text": "help corporations achieve larger profits" },
+        { "id": "t1-q1-c", "text": "build a new system of financial regulation" },
+        { "id": "t1-q1-d", "text": "guarantee the bonuses of top executives" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q1-a"] },
+      "explanation": "增强银行家的责任感。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Alfred Marshall is quoted to indicate",
+      "options": [
+        { "id": "t1-q2-a", "text": "the conditions for generating quick profits." },
+        { "id": "t1-q2-b", "text": "governments’ impatience in decision-making." },
+        { "id": "t1-q2-c", "text": "the solid structure of publicly traded companies." },
+        { "id": "t1-q2-d", "text": "“short-termism” in economic activities." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q2-d"] },
+      "explanation": "经济活动中的“短期主义”。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "It is argued that the influence of transient investment on public companies can be",
+      "options": [
+        { "id": "t1-q3-a", "text": "indirect." },
+        { "id": "t1-q3-b", "text": "adverse." },
+        { "id": "t1-q3-c", "text": "minimal." },
+        { "id": "t1-q3-d", "text": "temporary." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q3-b"] },
+      "explanation": "不利的。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The US and France examples are used to illustrate",
+      "options": [
+        { "id": "t1-q4-a", "text": "the obstacles to preventing “short-termism”." },
+        { "id": "t1-q4-b", "text": "the significance of long-term thinking." },
+        { "id": "t1-q4-c", "text": "the approaches to promoting “long-termism”." },
+        { "id": "t1-q4-d", "text": "the prevalence of short-term thinking." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q4-c"] },
+      "explanation": "促进“长期主义”的方法。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 第5-6段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Which of the following would be the best title for the text?",
+      "options": [
+        { "id": "t1-q5-a", "text": "Failure of Quarterly Capitalism" },
+        { "id": "t1-q5-b", "text": "Patience as a Corporate Virtue" },
+        { "id": "t1-q5-c", "text": "Decisiveness Required of Top Executives" },
+        { "id": "t1-q5-d", "text": "Frustration of Risk-taking Bankers" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q5-b"] },
+      "explanation": "耐心，企业的美德。",
+      "max_score_units": 200,
+      "source_ref": "Text 1 全文",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "What is commonly regarded as the cause of grade inflation?",
+      "options": [
+        { "id": "t2-q1-a", "text": "The change of course catalogs." },
+        { "id": "t2-q1-b", "text": "Students’ indifference to GPAs." },
+        { "id": "t2-q1-c", "text": "Colleges’ neglect of GPAs." },
+        { "id": "t2-q1-d", "text": "The influence of consumer culture." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q1-d"] },
+      "explanation": "消费者文化的影响。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "What was the original purpose of grade forgiveness?",
+      "options": [
+        { "id": "t2-q2-a", "text": "To help freshmen adapt to college learning." },
+        { "id": "t2-q2-b", "text": "To maintain colleges’ graduation rates." },
+        { "id": "t2-q2-c", "text": "To prepare graduates for a challenging future." },
+        { "id": "t2-q2-d", "text": "To increase universities’ income from tuition." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q2-a"] },
+      "explanation": "帮助新生适应大学学习。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "According to Paragraph 5, grade forgiveness enables colleges to",
+      "options": [
+        { "id": "t2-q3-a", "text": "obtain more financial support." },
+        { "id": "t2-q3-b", "text": "boost their student enrollments." },
+        { "id": "t2-q3-c", "text": "improve their teaching quality." },
+        { "id": "t2-q3-d", "text": "meet local governments’ needs." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q3-a"] },
+      "explanation": "获得更多财政支持。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "What does the phrase “to be aligned” (Line 5, Para. 5) most probably mean?",
+      "options": [
+        { "id": "t2-q4-a", "text": "To counterbalance each other." },
+        { "id": "t2-q4-b", "text": "To complement each other." },
+        { "id": "t2-q4-c", "text": "To be identical with each other." },
+        { "id": "t2-q4-d", "text": "To be contradictory to each other." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q4-c"] },
+      "explanation": "彼此一致。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 第5段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The author examines the practice of grade forgiveness by",
+      "options": [
+        { "id": "t2-q5-a", "text": "assessing its feasibility." },
+        { "id": "t2-q5-b", "text": "analyzing the causes behind it." },
+        { "id": "t2-q5-c", "text": "comparing different views on it." },
+        { "id": "t2-q5-d", "text": "listing its long-run effects." }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q5-b"] },
+      "explanation": "分析其背后的原因。",
+      "max_score_units": 200,
+      "source_ref": "Text 2 全文",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Mary Shelley’s novel Frankenstein is mentioned because it",
+      "options": [
+        { "id": "t3-q1-a", "text": "fascinates AI scientists all over the world." },
+        { "id": "t3-q1-b", "text": "has remained popular for as long as 200 years." },
+        { "id": "t3-q1-c", "text": "involves some concerns raised by AI today." },
+        { "id": "t3-q1-d", "text": "has sparked serious ethical controversies." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q1-c"] },
+      "explanation": "涉及AI目前引发的一些担忧。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "In David Eagleman’s opinion, our current knowledge of consciousness",
+      "options": [
+        { "id": "t3-q2-a", "text": "helps explain artificial intelligence." },
+        { "id": "t3-q2-b", "text": "can be misleading to robot making." },
+        { "id": "t3-q2-c", "text": "inspires popular sci-fi TV series." },
+        { "id": "t3-q2-d", "text": "is too limited for us to reproduce it." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q2-d"] },
+      "explanation": "太有限而无法复制意识。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The solution to the ethical issues brought by autonomous vehicles",
+      "options": [
+        { "id": "t3-q3-a", "text": "can hardly ever be found." },
+        { "id": "t3-q3-b", "text": "is still beyond our capacity." },
+        { "id": "t3-q3-c", "text": "causes little public concern." },
+        { "id": "t3-q3-d", "text": "has aroused much curiosity." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q3-b"] },
+      "explanation": "仍在我们能力之外。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第5段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The author’s attitude toward Google’s pledges is one of",
+      "options": [
+        { "id": "t3-q4-a", "text": "affirmation" },
+        { "id": "t3-q4-b", "text": "skepticism." },
+        { "id": "t3-q4-c", "text": "contempt" },
+        { "id": "t3-q4-d", "text": "respect." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q4-a"] },
+      "explanation": "肯定。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 第8段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Which of the following would be the best title for the text?",
+      "options": [
+        { "id": "t3-q5-a", "text": "AI’s Future: In the Hands of Tech Giants" },
+        { "id": "t3-q5-b", "text": "Frankenstein, the Novel Predicting the Age of AI" },
+        { "id": "t3-q5-c", "text": "The Conscience of AI: Complex But Inevitable" },
+        { "id": "t3-q5-d", "text": "AI Shall Be Killers Once Out of Control" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q5-c"] },
+      "explanation": "AI的良知：复杂但不可避免。",
+      "max_score_units": 200,
+      "source_ref": "Text 3 全文",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q1",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "The Supreme Court decision Thursday will",
+      "options": [
+        { "id": "t4-q1-a", "text": "better business’ revolutions with states." },
+        { "id": "t4-q1-b", "text": "put most online business in a dilemma." },
+        { "id": "t4-q1-c", "text": "make more online shoppers pay sales tax." },
+        { "id": "t4-q1-d", "text": "force some states to cut sales tax." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q1-c"] },
+      "explanation": "让更多在线购物者支付销售税。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q2",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "It can be learned from paragraphs 2 and 3 that the overruled decisions",
+      "options": [
+        { "id": "t4-q2-a", "text": "have led to the dominance of e-commerce." },
+        { "id": "t4-q2-b", "text": "have cost consumers a lot over the years." },
+        { "id": "t4-q2-c", "text": "were widely criticized by online purchases." },
+        { "id": "t4-q2-d", "text": "were considered unfavorable by states." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q2-d"] },
+      "explanation": "被各州认为不利。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第2-3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q3",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "According to Justice Anthony Kennedy, the physical presence rule has",
+      "options": [
+        { "id": "t4-q3-a", "text": "hindered economic development." },
+        { "id": "t4-q3-b", "text": "brought prosperity to the country." },
+        { "id": "t4-q3-c", "text": "harmed fair market competition." },
+        { "id": "t4-q3-d", "text": "boosted growth in states’ revenue." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q3-c"] },
+      "explanation": "损害了公平市场竞争。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q4",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "Who are most likely to welcome the Supreme Court ruling?",
+      "options": [
+        { "id": "t4-q4-a", "text": "Internet entrepreneurs." },
+        { "id": "t4-q4-b", "text": "Big-chain owners." },
+        { "id": "t4-q4-c", "text": "Third-party sellers." },
+        { "id": "t4-q4-d", "text": "Small retailers." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q4-b"] },
+      "explanation": "大型连锁店主。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 第5段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t4-q5",
+      "section": "Section II · 阅读理解 Part A",
+      "type": "single_choice",
+      "material_id": "reading-text4",
+      "stem": "In dealing with the Supreme Court decision Thursday, the author",
+      "options": [
+        { "id": "t4-q5-a", "text": "gives a factual account of it and discusses its consequences." },
+        { "id": "t4-q5-b", "text": "describes the long and complicated process of its making." },
+        { "id": "t4-q5-c", "text": "presents its main points with conflicting views on them." },
+        { "id": "t4-q5-d", "text": "cites some cases related to it and analyzes their implications." }
+      ],
+      "answer_key": { "selected_option_ids": ["t4-q5-a"] },
+      "explanation": "对其进行客观描述并讨论了其影响。",
+      "max_score_units": 200,
+      "source_ref": "Text 4 全文",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "nt-41",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 41 空：本空应填入的段落是",
+      "options": [
+        { "id": "nt-a", "text": "[A] These tools can help you win every argument..." },
+        { "id": "nt-b", "text": "[B] Of course, many discussions are not so successful..." },
+        { "id": "nt-c", "text": "[C] None of these will be easy but you can start even if others refuse to..." },
+        { "id": "nt-d", "text": "[D] Carnegie would be right if arguments were fights..." },
+        { "id": "nt-e", "text": "[E] In his 1936 work How to Win Friends and Influence People..." },
+        { "id": "nt-f", "text": "[F] These views of arguments also undermine reason..." },
+        { "id": "nt-g", "text": "[G] There is a better way to win arguments..." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-e"] },
+      "explanation": "E段以卡耐基观点引入，适合作为首段。",
+      "max_score_units": 200,
+      "source_ref": "第41空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-42",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 42 空：本空应填入的段落是",
+      "options": [
+        { "id": "nt-a", "text": "[A] These tools can help you win every argument..." },
+        { "id": "nt-b", "text": "[B] Of course, many discussions are not so successful..." },
+        { "id": "nt-c", "text": "[C] None of these will be easy but you can start even if others refuse to..." },
+        { "id": "nt-d", "text": "[D] Carnegie would be right if arguments were fights..." },
+        { "id": "nt-e", "text": "[E] In his 1936 work How to Win Friends and Influence People..." },
+        { "id": "nt-f", "text": "[F] These views of arguments also undermine reason..." },
+        { "id": "nt-g", "text": "[G] There is a better way to win arguments..." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-d"] },
+      "explanation": "D段对卡耐基观点进行评论。",
+      "max_score_units": 200,
+      "source_ref": "第42空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-43",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 43 空：本空应填入的段落是",
+      "options": [
+        { "id": "nt-a", "text": "[A] These tools can help you win every argument..." },
+        { "id": "nt-b", "text": "[B] Of course, many discussions are not so successful..." },
+        { "id": "nt-c", "text": "[C] None of these will be easy but you can start even if others refuse to..." },
+        { "id": "nt-d", "text": "[D] Carnegie would be right if arguments were fights..." },
+        { "id": "nt-e", "text": "[E] In his 1936 work How to Win Friends and Influence People..." },
+        { "id": "nt-f", "text": "[F] These views of arguments also undermine reason..." },
+        { "id": "nt-g", "text": "[G] There is a better way to win arguments..." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-g"] },
+      "explanation": "G段提出更好的方法。",
+      "max_score_units": 200,
+      "source_ref": "第43空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-44",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 44 空：本空应填入的段落是",
+      "options": [
+        { "id": "nt-a", "text": "[A] These tools can help you win every argument..." },
+        { "id": "nt-b", "text": "[B] Of course, many discussions are not so successful..." },
+        { "id": "nt-c", "text": "[C] None of these will be easy but you can start even if others refuse to..." },
+        { "id": "nt-d", "text": "[D] Carnegie would be right if arguments were fights..." },
+        { "id": "nt-e", "text": "[E] In his 1936 work How to Win Friends and Influence People..." },
+        { "id": "nt-f", "text": "[F] These views of arguments also undermine reason..." },
+        { "id": "nt-g", "text": "[G] There is a better way to win arguments..." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-b"] },
+      "explanation": "B段讨论许多讨论并不成功。",
+      "max_score_units": 200,
+      "source_ref": "第44空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "nt-45",
+      "section": "Section II · 新题型 Part B",
+      "type": "single_choice",
+      "material_id": "newtype",
+      "stem": "第 45 空：本空应填入的段落是",
+      "options": [
+        { "id": "nt-a", "text": "[A] These tools can help you win every argument..." },
+        { "id": "nt-b", "text": "[B] Of course, many discussions are not so successful..." },
+        { "id": "nt-c", "text": "[C] None of these will be easy but you can start even if others refuse to..." },
+        { "id": "nt-d", "text": "[D] Carnegie would be right if arguments were fights..." },
+        { "id": "nt-e", "text": "[E] In his 1936 work How to Win Friends and Influence People..." },
+        { "id": "nt-f", "text": "[F] These views of arguments also undermine reason..." },
+        { "id": "nt-g", "text": "[G] There is a better way to win arguments..." }
+      ],
+      "answer_key": { "selected_option_ids": ["nt-a"] },
+      "explanation": "A段总结这些工具能帮助你赢得争论。",
+      "max_score_units": 200,
+      "source_ref": "第45空",
+      "tags": ["新题型"]
+    },
+    {
+      "id": "tr-46",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "There is a great deal of this kind of nonsense in the medical journals which, when taken up by broadcasters and the lay press, generates both health scares and short-lived dietary enthusiasms.",
+      "answer_key": { "reference_text": "医学期刊中存在大量此类无稽之谈，一经广播公司和非专业媒体报道，就会引发健康恐慌并激起短暂的健康饮食热潮。" },
+      "explanation": "定语从句、状语从句省略结构、并列结构。",
+      "max_score_units": 200,
+      "source_ref": "第46句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-47",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Nowadays anyone applying for a research post has to have published twice the number of papers that would have been required for the same post only 10 years ago.",
+      "answer_key": { "reference_text": "如今，任何研究职位申请者所必须发表的论文数量是近10年前同一职位所需论文数量的两倍。" },
+      "explanation": "分词定语、定语从句、比较结构。",
+      "max_score_units": 200,
+      "source_ref": "第47句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-48",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Attempts have been made to curb this tendency, for example, by trying to incorporate some measure of quality as well as quantity into the assessment of an applicant’s papers.",
+      "answer_key": { "reference_text": "（科学界）已做出尝试来遏制这一趋势，例如，试图将某种数量和质量衡量标准纳入申请者论文评估活动中。" },
+      "explanation": "被动语态、方式状语。",
+      "max_score_units": 200,
+      "source_ref": "第48句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-49",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "This would be reasonable if it were not for the fact that scientists can easily arrange to cite themselves in their future publications, or get associates to do so for them in return for similar favors.",
+      "answer_key": { "reference_text": "如果不是因为科学家极有可能会在其未来出版作品中引用自己论文或是让同事为了回报类似帮助而引用自己论文，这倒也合理。" },
+      "explanation": "虚拟条件句、同位语从句。",
+      "max_score_units": 200,
+      "source_ref": "第49句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-50",
+      "section": "Section II · 翻译 Part C",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "If we are serious about ensuring that our science is both meaningful and reproducible, we must ensure that our institutions encourage that kind of science.",
+      "answer_key": { "reference_text": "如果我们真想确保科学既有意义又具有可复制性，我们就必须确保我们的制度激励这种科学才行。" },
+      "explanation": "条件状语从句、宾语从句。",
+      "max_score_units": 200,
+      "source_ref": "第50句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "writing-a",
+      "section": "Section III · 写作 Part A",
+      "type": "free_text",
+      "stem": "Suppose you are working for the “Aiding Rural Primary School” project of your university. Write an email to answer the inquiry from an international student volunteer, specifying the details of the project.\nYou should write about 100 words neatly on the ANSWER SHEET.\nDo not use your own name in the email. Use “Li Ming” instead. (10 points)",
+      "answer_key": { "reference_text": "Dear William,\n\nI am exceedingly delighted to receive your letter in which you inquired something about the \"Aiding Rural Primary Schools\". I, as a member of the project, am writing you this letter for the purpose of informing you some of the necessary information.\n\nFirst and foremost, the theme of the project is to help those rural primary schools in remote areas by arranging some activities, such as sending various kinds of books about different aspects to those lovely students, which can not only broaden their horizon and enrich their life, but also cultivate their ability of thinking and learning independently and critically. In addition, the volunteers should have the character of diligence, coupled with an optimistic and pleasant personality, which will assure them of positive attitude when facing some setbacks during the process of these activities.\n\nIf you have any question about this project, please contact me without any hesitation at aidingruralprimaryschools@edu.cn.\n\nYours sincerely,\nLi Ming" },
+      "explanation": "回复国际学生志愿者关于项目详情的邮件。",
+      "max_score_units": 1000,
+      "source_ref": "Section III Part A",
+      "tags": ["写作", "应用文"]
+    },
+    {
+      "id": "writing-b",
+      "section": "Section III · 写作 Part B",
+      "type": "free_text",
+      "stem": "Write an essay of 160-200 words based on the picture below. In your essay, you should\n1) describe the pictures briefly,\n2) interpret the implied meaning, and\n3) give your comments.\n图中显示：两个人一起爬山，一个人坐在台阶上，背着包，说“我累了，不想爬了”；另一个人背着包赶上来，递给他一瓶水，说“来，休息一下再继续爬”。图下方文字为“途中”。\nYou should write neatly on the ANSWER SHEET. (20 points)",
+      "images": [
+        "images/2019/aa48a8b3ee75e523079c1c501fb3e93ef31ec0a3e8730004054c7202c19a3866.jpg"
+      ],
+      "answer_key": { "reference_text": "As is vividly portrayed in the cartoon, two people are climbing the mountain together. One of them sits on a higher step with his backpack beside his feet and complains, \"I'm tired, I don't want to climb anymore.\" However, the partner carrying a bag catches up with him and hands him a bottle of water, he says, \"Come on, take a break then continue to climb.\" Under the picture lies a caption: On the Way.\n\nThe impressive drawing has profoundly revealed that the process of our life is just like the mountain-climbing and only by adjusting our own pace and persisting in our goals can we reach a higher life realm — realizing the dreams for which we are always longing. For one thing, all kinds of interference make us give up sticking to dreams. For another, we haven't integrated dreams into our life because of being anxious for success. The most common instance is that when we want to improve our health or obtain a better figure, majority of us may determine to do exercise, but often end in laziness and various excuses. As the saying goes, the end of man is the beginning of God, only those who do their best can get the favor of heaven and enjoy the joy of victory. It is advisable for us, positive climbers, to view persistence and struggle as a lifestyle. Only by taking these approvals into action can we enjoy the richness and beauty of life." },
+      "explanation": "看图作文：途中——坚持与互助。",
+      "max_score_units": 2000,
+      "source_ref": "Section III Part B",
+      "tags": ["写作", "短文写作"]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "is_demo": true,
+  "runtime_note": "离线协议样本，无运行中的文件监听器；展示假定已接受一次合法编辑后的状态。",
+  "attempt_id": "demo-attempt-001",
+  "status": "valid",
+  "review_status": "complete",
+  "accepted_revision": 1,
+  "accepted_sha256": "769951a172ca425b4b05098b95d72f66dc7b6fa3cb58784d2a201d0e2a59d59e",
+  "current_context_revision": 1,
+  "current_context_sha256": "c15e6ca539426fb630a0289c549c8aaf7bf7638fc237586ea5e167b22b74fdd1",
+  "current_context_json_sha256": "46f7847b74345f0610a95d0c42d4ca2ac0f3c7037cda74362f23329803f8debb",
+  "context_status": "ready",
+  "observed_file_sha256": "769951a172ca425b4b05098b95d72f66dc7b6fa3cb58784d2a201d0e2a59d59e",
+  "last_checked_at": "2026-09-29T20:25:00+08:00",
+  "projection_status": "ready",
+  "errors": [],
+  "next_edit_instruction": "下一次编辑前读取本文件，把新review.md的base_revision设为1；当前文件中的0表示上一轮基于修订0提交，不应被系统自动改写。"
+}

@@ -1,0 +1,786 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 1993,
+    "paper": "英语统考卷",
+    "title": "1993年全国硕士研究生入学统一考试英语试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/1993.md",
+    "converted_by": "Claude（转换任务 2026-10-03）",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "1993年为旧题型：Section I 完形填空15题（每题1分）、Section II 阅读理解3篇15题（每题2分）、Part III 英译汉5句（每句3分）、写作1题（15分）。原 md 中完形填空第8、9、11题选项缺失，已根据《1991-1995年考研英语真题答案及解析》恢复选项文本与答案；客观题未逐题填写 explanation，答案以 answer_key 为准；分值按原卷实际标注。"
+  },
+  "set": {
+    "title": "1993年全国硕士研究生入学统一考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · Use of English",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "For each numbered blank in the following passage there are four choices labelled [A], [B], [C] and [D]. Choose the best one and put your choice in the ANSWER SHEET. (15 points)"
+      ]
+    },
+    {
+      "id": "Section II · Reading Comprehension",
+      "part": "Section II",
+      "title": "阅读理解",
+      "directions": [
+        "Each of the passages below is followed by some questions. For each question four answers are given. Read the passages carefully and choose the best answer to each of the questions. Put your choice in the ANSWER SHEET. (30 points)"
+      ]
+    },
+    {
+      "id": "Part III · English-Chinese Translation",
+      "part": "Part III",
+      "title": "英译汉",
+      "directions": [
+        "Read the following passage carefully and then translate the underlined sentences into Chinese. (15 points)"
+      ]
+    },
+    {
+      "id": "Part IV · Writing",
+      "part": "Part IV",
+      "title": "短文写作",
+      "directions": [
+        "A. Title: ADVERTISEMENT ON TV",
+        "B. Time limit: 40 minutes",
+        "C. Word limit: 120 - 150 words (not including the given opening sentence)",
+        "D. Your composition should be based on the OUTLINE below and should start with the given opening sentence: “Today more and more advertisements are seen on the TV screen.”",
+        "E. Your composition must be written clearly on the ANSWER SHEET.",
+        "OUTLINE:",
+        "1. Present state",
+        "2. Reasons",
+        "3. My comments"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · 完形填空原文",
+      "section": "Section I · Use of English",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Although interior design has existed since the beginning of architecture, its development into a specialized field is really quite recent. Interior designers have become important partly because of the many functions that might be __1__ in a single large building."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The importance of interior design becomes __2__ when we realize how much time we __3__ surrounded by four walls. Whenever we need to be indoors, we want our surroundings to be __4__ attractive and comfortable as possible. We also expect __5__ place to be appropriate to its use. You would be __6__ if the inside of your bedroom were suddenly changed to look __7__ the inside of a restaurant. And you wouldn’t feel __8__ in a business office that has the appearance of a school."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "It soon becomes clear that the interior designer’s most important basic __9__ is the function of the particular __10__. For example, a theater with poor sight lines, poor sound-shaping qualities, and __11__ few entries and exits will not work for __12__ purpose, no matter how beautifully it might be __13__. Nevertheless, for any kind of space, the designer has to make many of the same kind of __14__. He or she must coordinate the shapes, lighting and decoration of everything from ceiling to floor. __15__ addition, the designer must usually select furniture or design built-in furniture, according to the functions that need to be served."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Passage 1",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Is language, like food, a basic human need without which a child at a critical period of life can be starved and damaged? Judging from the drastic experiment of Frederick Ⅰ in the thirteenth century, it may be. Hoping to discover what language a child would speak if he heard no mother tongue, he told the nurses to keep silent."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "All the infants died before the first year. But clearly there was more than lack of language here. What was missing was good mothering. Without good mothering, in the first year of life especially, the capacity to survive is seriously affected."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Today no such severe lack exists as that ordered by Frederick. Nevertheless, some children are still backward in speaking. Most often the reason for this is that the mother is insensitive to the signals of the infant, whose brain is programmed to learn language rapidly. If these sensitive periods are neglected, the ideal time for acquiring skills passes and they might never be learned so easily again. A bird learns to sing and to fly rapidly at the right time, but the process is slow and hard once the critical stage has passed."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Experts suggest that speech stages are reached in a fixed sequence and at a constant age, but there are cases where speech has started late in a child who eventually turns out to be of high IQ. At twelve weeks a baby smiles and makes vowel-like sounds; at twelve months he can speak simple words and understand simple commands; at eighteen months he has a vocabulary of three to fifty words. At three he knows about 1,000 words which he can put into sentences, and at four his language differs from that of his parents in style rather than grammar."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Recent evidence suggests that an infant is born with the capacity to speak. What is special about man’s brain, compared with that of the monkey, is the complex system which enables a child to connect the sight and feel of, say, a toy-bear with the sound pattern “toy-bear”. And even more incredible is the young brain’s ability to pick out an order in language from the mixture of sound around him, to analyze, to combine and recombine the parts of a language in new ways."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "But speech has to be induced, and this depends on interaction between the mother and the child, where the mother recognizes the signals in the child’s babbling (咿呀学语), grasping and smiling, and responds to them. Insensitivity of the mother to these signals dulls the interaction because the child gets discouraged and sends out only the obvious signals. Sensitivity to the child’s non-verbal signals is essential to the growth and development of language."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Passage 2",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In general, our society is becoming one of giant enterprises directed by a bureaucratic (官僚主义的) management in which man becomes a small, well-oiled cog in the machinery. The oiling is done with higher wages, well-ventilated factories and piped music, and by psychologists and “human-relations” experts; yet all this oiling does not alter the fact that man has become powerless, that he does not wholeheartedly participate in his work and that he is bored with it. In fact, the blue- and the white-collar workers have become economic puppets who dance to the tune of automated machines and bureaucratic management."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "The worker and employee are anxious, not only because they might find themselves out of a job; they are anxious also because they are unable to acquire any real satisfaction or interest in life. They live and die without ever having confronted the fundamental realities of human existence as emotionally and intellectually independent and productive human beings."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Those higher up on the social ladder are no less anxious. Their lives are no less empty than those of their subordinates. They are even more insecure in some respects. They are in a highly competitive race. To be promoted or to fall behind is not a matter of salary but even more a matter of self-respect. When they apply for their first job, they are tested for intelligence as well as for the right mixture of submissiveness and independence. From that moment on they are tested again and again by the psychologists, for whom testing is a big business, and by their superiors, who judge their behavior, sociability, capacity to get along, etc. This constant need to prove that one is as good as or better than one’s fellow competitor creates constant anxiety and stress, the very causes of unhappiness and illness."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Am I suggesting that we should return to the pre-industrial mode of production or to nineteenth-century “free enterprise” capitalism? Certainly not. Problems are never solved by returning to a stage which one has already outgrown. I suggest transforming our social system from a bureaucratically managed industrialism in which maximal production and consumption are ends in themselves into a humanist industrialism in which man and full development of his potentialities—those of love and of reason—are the aims of all social arrangements. Production and consumption should serve only as means to this end, and should be prevented from ruling man."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Passage 3",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "When an invention is made, the inventor has three possible courses of action open to him: he can give the invention to the world by publishing it, keep the idea secret, or patent it."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "A granted patent is the result of a bargain struck between an inventor and the state, by which the inventor gets a limited period of monopoly (垄断) and publishes full details of his invention to the public after that period terminates."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Only in the most exceptional circumstances is the lifespan of a patent extended to alter this normal process of events."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "The longest extension ever granted was to Georges Valensi; his 1939 patent for color TV receiver circuitry was extended until 1971 because for most of the patent’s normal life there was no color TV to receive and thus no hope of reward for the invention."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Because a patent remains permanently public after it has terminated, the shelves of the library attached to the patent office contain details of literally millions of ideas that are free for anyone to use and, if older than half a century, sometimes even re-patent. Indeed, patent experts often advise anyone wishing to avoid the high cost of conducting a search through live patents that the one sure way of avoiding violation of any other inventor’s right is to plagiarize a dead patent. Likewise, because publication of an idea in any other form permanently invalidates further patents on that idea, it is traditionally safe to take ideas from other areas of print. Much modern technological advance is based on these presumptions of legal security."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Anyone closely involved in patents and inventions soon learns that most “new ideas” are, in fact, as old as the hills. It is their reduction to commercial practice, either through necessity or dedication, or through the availability of new technology, that makes news and money. The basic patent for the theory of magnetic recording dates back to 1886. Many of the original ideas behind television originate from the late 19th and early 20th century. Even the Volkswagen rear engine car was anticipated by a 1904 patent for a cart with the horse at the rear."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Part III · 翻译原文",
+      "section": "Part III · English-Chinese Translation",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The method of scientific investigation is nothing but the expression of the necessary mode of working of the human mind; it is simply the mode by which all phenomena are reasoned about and given precise and exact explanation. There is no more difference, but there is just the same kind of difference, between the mental operations of a man of science and those of an ordinary person, as there is between the operations and methods of a baker or of a butcher weighing out his goods in common scales, and the operations of a chemist in performing a difficult and complex analysis by means of his balance and finely graded weights. 【32】It is not that the scales in the one case, and the balance in the other, differ in the principles of their construction or manner of working; but that the latter is a much finer apparatus and of course much more accurate in its measurement than the former."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "You will understand this better, perhaps, if I give you some familiar examples. 【33】You have all heard it repeated that men of science work by means of induction (归纳法) and deduction, that by the help of these operations, they, in a sort of sense, manage to extract from Nature certain natural laws, and that out of these, by some special skill of their own, they build up their theories. 【34】And it is imagined by many that the operations of the common mind can be by no means compared with these processes, and that they have to be acquired by a sort of special training. To hear all these large words, you would think that the mind of a man of science must be constituted differently from that of his fellow men; but if you will not be frightened by terms, you will discover that you are quite wrong, and that all these terrible apparatus are being used by yourselves every day and every hour of your lives."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "There is a well-known incident in one of Moliere’s plays, where the author makes the hero express unbounded delight on being told that he had been talking prose (散文) during the whole of his life. In the same way, I trust that you will take comfort, and be delighted with yourselves, on the discovery that you have been acting on the principles of inductive and deductive philosophy during the same period. 【35】Probably there is not one here who has not in the course of the day had occasion to set in motion a complex train of reasoning, of the very same kind, though differing in degree, as that which a scientific man goes through in tracing the causes of natural phenomena."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "c1-a", "text": "consisted" },
+        { "id": "c1-b", "text": "contained" },
+        { "id": "c1-c", "text": "composed" },
+        { "id": "c1-d", "text": "comprised" }
+      ],
+      "answer_key": { "selected_option_ids": ["c1-b"] },
+      "max_score_units": 100,
+      "source_ref": "第1空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "c2-a", "text": "obscure" },
+        { "id": "c2-b", "text": "attractive" },
+        { "id": "c2-c", "text": "appropriate" },
+        { "id": "c2-d", "text": "evident" }
+      ],
+      "answer_key": { "selected_option_ids": ["c2-d"] },
+      "max_score_units": 100,
+      "source_ref": "第2空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "c3-a", "text": "spend" },
+        { "id": "c3-b", "text": "require" },
+        { "id": "c3-c", "text": "settle" },
+        { "id": "c3-d", "text": "retain" }
+      ],
+      "answer_key": { "selected_option_ids": ["c3-a"] },
+      "max_score_units": 100,
+      "source_ref": "第3空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "c4-a", "text": "so" },
+        { "id": "c4-b", "text": "as" },
+        { "id": "c4-c", "text": "thus" },
+        { "id": "c4-d", "text": "such" }
+      ],
+      "answer_key": { "selected_option_ids": ["c4-b"] },
+      "max_score_units": 100,
+      "source_ref": "第4空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "c5-a", "text": "some" },
+        { "id": "c5-b", "text": "any" },
+        { "id": "c5-c", "text": "this" },
+        { "id": "c5-d", "text": "each" }
+      ],
+      "answer_key": { "selected_option_ids": ["c5-d"] },
+      "max_score_units": 100,
+      "source_ref": "第5空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "c6-a", "text": "amused" },
+        { "id": "c6-b", "text": "interested" },
+        { "id": "c6-c", "text": "shocked" },
+        { "id": "c6-d", "text": "frightened" }
+      ],
+      "answer_key": { "selected_option_ids": ["c6-c"] },
+      "max_score_units": 100,
+      "source_ref": "第6空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "c7-a", "text": "like" },
+        { "id": "c7-b", "text": "for" },
+        { "id": "c7-c", "text": "at" },
+        { "id": "c7-d", "text": "into" }
+      ],
+      "answer_key": { "selected_option_ids": ["c7-a"] },
+      "max_score_units": 100,
+      "source_ref": "第7空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "c8-a", "text": "correct" },
+        { "id": "c8-b", "text": "proper" },
+        { "id": "c8-c", "text": "right" },
+        { "id": "c8-d", "text": "suitable" }
+      ],
+      "answer_key": { "selected_option_ids": ["c8-c"] },
+      "max_score_units": 100,
+      "source_ref": "第8空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "c9-a", "text": "care" },
+        { "id": "c9-b", "text": "concern" },
+        { "id": "c9-c", "text": "attention" },
+        { "id": "c9-d", "text": "intention" }
+      ],
+      "answer_key": { "selected_option_ids": ["c9-b"] },
+      "max_score_units": 100,
+      "source_ref": "第9空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "c10-a", "text": "circumstance" },
+        { "id": "c10-b", "text": "environment" },
+        { "id": "c10-c", "text": "surroundings" },
+        { "id": "c10-d", "text": "space" }
+      ],
+      "answer_key": { "selected_option_ids": ["c10-d"] },
+      "max_score_units": 100,
+      "source_ref": "第10空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-11",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 11 空：",
+      "options": [
+        { "id": "c11-a", "text": "too" },
+        { "id": "c11-b", "text": "so" },
+        { "id": "c11-c", "text": "such" },
+        { "id": "c11-d", "text": "few" }
+      ],
+      "answer_key": { "selected_option_ids": ["c11-a"] },
+      "max_score_units": 100,
+      "source_ref": "第11空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-12",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 12 空：",
+      "options": [
+        { "id": "c12-a", "text": "their" },
+        { "id": "c12-b", "text": "its" },
+        { "id": "c12-c", "text": "those" },
+        { "id": "c12-d", "text": "that" }
+      ],
+      "answer_key": { "selected_option_ids": ["c12-b"] },
+      "max_score_units": 100,
+      "source_ref": "第12空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-13",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 13 空：",
+      "options": [
+        { "id": "c13-a", "text": "painted" },
+        { "id": "c13-b", "text": "covered" },
+        { "id": "c13-c", "text": "ornamented" },
+        { "id": "c13-d", "text": "decorated" }
+      ],
+      "answer_key": { "selected_option_ids": ["c13-d"] },
+      "max_score_units": 100,
+      "source_ref": "第13空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-14",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 14 空：",
+      "options": [
+        { "id": "c14-a", "text": "solutions" },
+        { "id": "c14-b", "text": "conclusions" },
+        { "id": "c14-c", "text": "decisions" },
+        { "id": "c14-d", "text": "determinations" }
+      ],
+      "answer_key": { "selected_option_ids": ["c14-c"] },
+      "max_score_units": 100,
+      "source_ref": "第14空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "cloze-15",
+      "section": "Section I · Use of English",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 15 空：",
+      "options": [
+        { "id": "c15-a", "text": "For" },
+        { "id": "c15-b", "text": "In" },
+        { "id": "c15-c", "text": "As" },
+        { "id": "c15-d", "text": "with" }
+      ],
+      "answer_key": { "selected_option_ids": ["c15-b"] },
+      "max_score_units": 100,
+      "source_ref": "第15空",
+      "tags": ["完形填空"]
+    },
+    {
+      "id": "t1-q16",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The purpose of Frederick Ⅰ’s experiment was ______.",
+      "options": [
+        { "id": "t1-q16-a", "text": "to prove that children are born with the ability to speak" },
+        { "id": "t1-q16-b", "text": "to discover what language a child would speak without hearing any human speech" },
+        { "id": "t1-q16-c", "text": "to find out what role careful nursing would play in teaching a child to speak" },
+        { "id": "t1-q16-d", "text": "to prove that a child could be damaged without learning a language" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q16-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q17",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "The reason some children are backward in speaking is most probably that ______.",
+      "options": [
+        { "id": "t1-q17-a", "text": "they are incapable of learning language rapidly" },
+        { "id": "t1-q17-b", "text": "they are exposed to too much language at once" },
+        { "id": "t1-q17-c", "text": "their mothers respond inadequately to their attempts to speak" },
+        { "id": "t1-q17-d", "text": "their mothers are not intelligent enough to help them" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q17-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q18",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "What is exceptionally remarkable about a child is that ______.",
+      "options": [
+        { "id": "t1-q18-a", "text": "he is born with the capacity to speak" },
+        { "id": "t1-q18-b", "text": "he has a brain more complex than an animal’s" },
+        { "id": "t1-q18-c", "text": "he can produce his own sentences" },
+        { "id": "t1-q18-d", "text": "he owes his speech ability to good nursing" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q18-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第5段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q19",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Which of the following can NOT be inferred from the passage?",
+      "options": [
+        { "id": "t1-q19-a", "text": "The faculty of speech is inborn in man." },
+        { "id": "t1-q19-b", "text": "Encouragement is anything but essential to a child in language learning." },
+        { "id": "t1-q19-c", "text": "The child’s brain is highly selective." },
+        { "id": "t1-q19-d", "text": "Most children learn their language in definite stages." }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q19-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 全文",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t1-q20",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "If a child starts to speak later than others, he will ______.",
+      "options": [
+        { "id": "t1-q20-a", "text": "have a high IQ" },
+        { "id": "t1-q20-b", "text": "be less intelligent" },
+        { "id": "t1-q20-c", "text": "be insensitive to verbal signals" },
+        { "id": "t1-q20-d", "text": "not necessarily be backward" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q20-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 1 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q21",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "By “a well-oiled cog in the machinery” the author intends to render the idea that man is ______.",
+      "options": [
+        { "id": "t2-q21-a", "text": "a necessary part of the society though each individual’s function is negligible" },
+        { "id": "t2-q21-b", "text": "working in complete harmony with the rest of the society" },
+        { "id": "t2-q21-c", "text": "an unimportant part in comparison with the rest of the society, though functioning smoothly" },
+        { "id": "t2-q21-d", "text": "a humble component of the society, especially when working smoothly" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q21-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第1段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q22",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The real cause of the anxiety of the workers and employees is that ______.",
+      "options": [
+        { "id": "t2-q22-a", "text": "they are likely to lose their jobs" },
+        { "id": "t2-q22-b", "text": "they have no genuine satisfaction or interest in life" },
+        { "id": "t2-q22-c", "text": "they are faced with the fundamental realities of human existence" },
+        { "id": "t2-q22-d", "text": "they are deprived of their individuality and independence" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q22-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q23",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "From the passage we can infer that real happiness of life belongs to those ______.",
+      "options": [
+        { "id": "t2-q23-a", "text": "who are at the bottom of the society" },
+        { "id": "t2-q23-b", "text": "who are higher up in their social status" },
+        { "id": "t2-q23-c", "text": "who prove better than their fellow-competitors" },
+        { "id": "t2-q23-d", "text": "who could keep far away from this competitive world" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q23-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第3段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q24",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "To solve the present social problems the author suggests that we should ______.",
+      "options": [
+        { "id": "t2-q24-a", "text": "resort to the production mode of our ancestors" },
+        { "id": "t2-q24-b", "text": "offer higher wages to the workers and employees" },
+        { "id": "t2-q24-c", "text": "enable man to fully develop his potentialities" },
+        { "id": "t2-q24-d", "text": "take the fundamental realities for granted" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q24-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t2-q25",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The author’s attitude towards industrialism might best be summarized as one of ______.",
+      "options": [
+        { "id": "t2-q25-a", "text": "approval" },
+        { "id": "t2-q25-b", "text": "dissatisfaction" },
+        { "id": "t2-q25-c", "text": "suspicion" },
+        { "id": "t2-q25-d", "text": "tolerance" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q25-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 2 全文",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q26",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The passage is mainly about ______.",
+      "options": [
+        { "id": "t3-q26-a", "text": "an approach to patents" },
+        { "id": "t3-q26-b", "text": "the application for patents" },
+        { "id": "t3-q26-c", "text": "the use of patents" },
+        { "id": "t3-q26-d", "text": "the access to patents" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q26-d"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 全文",
+      "tags": ["阅读理解", "主旨题"]
+    },
+    {
+      "id": "t3-q27",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "Which of the following is TRUE according to the passage?",
+      "options": [
+        { "id": "t3-q27-a", "text": "When a patent becomes out of effect, it can be re-patented or extended if necessary." },
+        { "id": "t3-q27-b", "text": "It is necessary for an inventor to apply for a patent before he makes his invention public." },
+        { "id": "t3-q27-c", "text": "A patent holder must publicize the details of his invention when its legal period is over." },
+        { "id": "t3-q27-d", "text": "One can get all the details of a patented invention from a library attached to the patent office." }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q27-c"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第2段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q28",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "George Valensi’s patent lasted until 1971 because ______.",
+      "options": [
+        { "id": "t3-q28-a", "text": "nobody would offer any reward for his patent prior to that time" },
+        { "id": "t3-q28-b", "text": "his patent could not be put to use for an unusually long time" },
+        { "id": "t3-q28-c", "text": "there were not enough TV stations to provide color programmes" },
+        { "id": "t3-q28-d", "text": "the color TV receiver was not available until that time" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q28-b"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第4段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q29",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The word “plagiarize” (line 8, Para. 5) most probably means “______”.",
+      "options": [
+        { "id": "t3-q29-a", "text": "steal and use" },
+        { "id": "t3-q29-b", "text": "give reward to" },
+        { "id": "t3-q29-c", "text": "make public" },
+        { "id": "t3-q29-d", "text": "take and change" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q29-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第5段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "t3-q30",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "From the passage we learn that ______.",
+      "options": [
+        { "id": "t3-q30-a", "text": "an invention will not benefit the inventor unless it is reduced to commercial practice" },
+        { "id": "t3-q30-b", "text": "products are actually inventions which were made a long time ago" },
+        { "id": "t3-q30-c", "text": "it is much cheaper to buy an old patent than a new one" },
+        { "id": "t3-q30-d", "text": "patent experts often recommend patents to others by conducting a search through dead" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q30-a"] },
+      "max_score_units": 200,
+      "source_ref": "Passage 3 第6段",
+      "tags": ["阅读理解"]
+    },
+    {
+      "id": "tr-31",
+      "section": "Part III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "The method of scientific investigation is nothing but the expression of the necessary mode of working of the human mind; it is simply the mode by which all phenomena are reasoned about and given precise and exact explanation.",
+      "answer_key": { "reference_text": "科学研究的方法不过是人类思维活动的必要表达方式，也就是对一切现象进行思索并给以精确而严谨解释的表达方式。" },
+      "max_score_units": 300,
+      "source_ref": "第31句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-32",
+      "section": "Part III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "It is not that the scales in the one case, and the balance in the other, differ in the principles of their construction or manner of working; but that the latter is a much finer apparatus and of course much more accurate in its measurement than the former.",
+      "answer_key": { "reference_text": "这并不是说面包师或卖肉者所用的磅秤和化学家所用的天平的构造原理或工作方式上存在差别，而是说与前者相比，后者是一种更精密的装置，因而在计量上必然更准确。" },
+      "max_score_units": 300,
+      "source_ref": "第32句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-33",
+      "section": "Part III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "You have all heard it repeated that men of science work by means of induction (归纳法) and deduction, that by the help of these operations, they, in a sort of sense, manage to extract from Nature certain natural laws, and that out of these, by some special skill of their own, they build up their theories.",
+      "answer_key": { "reference_text": "你们都多次听说过，科学家是用归纳法和演绎法工作的，他们用这些方法，在某种意义上说，力求从自然界找出某些自然规律，然后他们根据这些规律，用自己的某种非同一般的本领，建立起他们的理论。" },
+      "max_score_units": 300,
+      "source_ref": "第33句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-34",
+      "section": "Part III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "And it is imagined by many that the operations of the common mind can be by no means compared with these processes, and that they have to be acquired by a sort of special training.",
+      "answer_key": { "reference_text": "许多人以为，普通人的思维活动根本无法与科学家的思维过程相比，认为这些思维过程必须经过某种专门训练才能获得。" },
+      "max_score_units": 300,
+      "source_ref": "第34句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "tr-35",
+      "section": "Part III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Probably there is not one here who has not in the course of the day had occasion to set in motion a complex train of reasoning, of the very same kind, though differing in degree, as that which a scientific man goes through in tracing the causes of natural phenomena.",
+      "answer_key": { "reference_text": "在座的诸位中，大概不会有人一整天都没有机会进行一连串复杂的思考活动，这些思考活动与科学家在探索自然现象原因时所经历的思考活动，尽管复杂程度不同，但在类型上是完全一样的。" },
+      "max_score_units": 300,
+      "source_ref": "第35句",
+      "tags": ["翻译"]
+    },
+    {
+      "id": "writing",
+      "section": "Part IV · Writing",
+      "type": "free_text",
+      "stem": "A. Title: ADVERTISEMENT ON TV\nB. Time limit: 40 minutes\nC. Word limit: 120 - 150 words (not including the given opening sentence)\nD. Your composition should be based on the OUTLINE below and should start with the given opening sentence: “Today more and more advertisements are seen on the TV screen.”\nE. Your composition must be written clearly on the ANSWER SHEET.\nOUTLINE:\n1. Present state\n2. Reasons\n3. My comments",
+      "answer_key": {
+        "reference_text": "Today more and more advertisements are seen on the TV screen. It is difficult to find a program without insertion of ads on TV. Food, clothes, books and so on are presented on television. From time to time, we can also see some public welfare ads, appealing to people to protect the environment. No matter you like it or not, TV advertisement has become an efficient means of information dissemination in our market economy.\n\nThere are several reasons contributing to this increasingly prosperous advertisement industry. Because of the rapid development of economy, many manufacturers have realized the important role of advertisements in that they can stimulate production and win the market. In our competitive society consumers usually have the choice of several brands of the same product. Moreover, some advertisements are so attractive that they can not only provide lots of first-hand information about new products, but also channel the viewer to the pleasure of watching TV.\n\nAs we know every coin has two sides, so does the advertisement on TV. For one thing, high quality TV advertisements bring the viewers not only vast information but also sensuous enjoyment. For another thing, too many advertisements in low quality may spoil both the TV program and viewers' mood. However, the viewer has the rights to switch the channel if he does not like the program."
+      },
+      "max_score_units": 1500,
+      "source_ref": "Part IV Writing",
+      "tags": ["写作"]
+    }
+  ]
+}

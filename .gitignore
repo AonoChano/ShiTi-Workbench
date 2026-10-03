@@ -1,0 +1,29 @@
+# 运行数据与认证不进入源码仓库
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+/runtime-data/
+/workspaces/
+/backups/
+/logs/
+
+# 未来开发产物
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.log
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# design 与 examples 均为本次原创交付，必须保留，不能忽略

@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0.0",
+  "is_demo": true,
+  "attempt_id": "demo-attempt-001",
+  "question_set_id": "demo-reading-001",
+  "question_set_version": 1,
+  "context_revision": 1,
+  "context_markdown_sha256": "c15e6ca539426fb630a0289c549c8aaf7bf7638fc237586ea5e167b22b74fdd1",
+  "grade_revision": 1,
+  "mode": "training",
+  "status": "submitted",
+  "started_at": "2026-09-29T20:00:00+08:00",
+  "submitted_at": "2026-09-29T20:18:42+08:00",
+  "timezone": "Asia/Shanghai",
+  "source": "本项目原创虚构演示；参考答案由样本作者提供，非官方真题。",
+  "material": {
+    "id": "mat-demo", "version": 1, "title": "Reading beyond the headline",
+    "blocks": [
+      {"id": "mat-demo-p1", "label": "P1", "text": "Online headlines can make a small study sound like a universal rule. Careful readers look beyond the headline and ask who took part in the research."},
+      {"id": "mat-demo-p2", "label": "P2", "text": "A result may describe one group without explaining every community. More evidence can change an early conclusion."},
+      {"id": "mat-demo-p3", "label": "P3", "text": "Good reading is therefore not a hunt for certainty. It is a habit of matching each claim to the evidence that supports it."}
+    ]
+  },
+  "questions": [
+    {
+      "id": "q01", "version": 1, "order": 1, "type": "single_choice", "material_id": "mat-demo",
+      "stem": "What is the writer's main concern about online headlines?",
+      "options": [
+        {"id": "opt-a", "label": "A", "text": "They report every detail of a study."},
+        {"id": "opt-b", "label": "B", "text": "They may make limited findings sound universal."},
+        {"id": "opt-c", "label": "C", "text": "They never mention research."},
+        {"id": "opt-d", "label": "D", "text": "They describe only large communities."}
+      ],
+      "answer": {"selected_option_ids": ["opt-b"]},
+      "answer_key": {"selected_option_ids": ["opt-b"]},
+      "confidence": "certain", "reasoning": "标题可能把小研究说成普遍规律。", "flagged": false,
+      "max_score_units": 200, "earned_score_units": 200, "correctness": "correct", "grading_status": "graded",
+      "rule": "single-choice-exact@1", "active_seconds": 150,
+      "answer_history": [null, ["opt-b"]],
+      "explanation": "P1第一句指出small study会被写得像universal rule。B保留了“可能”和“有限发现”的范围；其他项均没有原文支持。",
+      "evidence_ids": ["question-q01", "ans-q01", "grade-q01", "mat-demo-p1"]
+    },
+    {
+      "id": "q02", "version": 1, "order": 2, "type": "single_choice", "material_id": "mat-demo",
+      "stem": "According to the passage, what should a careful reader ask?",
+      "options": [
+        {"id": "opt-a", "label": "A", "text": "How popular is the headline?"},
+        {"id": "opt-b", "label": "B", "text": "Which conclusion sounds most certain?"},
+        {"id": "opt-c", "label": "C", "text": "Who took part in the research?"},
+        {"id": "opt-d", "label": "D", "text": "How can every detail be ignored?"}
+      ],
+      "answer": {"selected_option_ids": ["opt-c"]},
+      "answer_key": {"selected_option_ids": ["opt-c"]},
+      "confidence": "guessed", "reasoning": null, "flagged": false,
+      "max_score_units": 200, "earned_score_units": 200, "correctness": "correct", "grading_status": "graded",
+      "rule": "single-choice-exact@1", "active_seconds": 180,
+      "answer_history": [null, ["opt-c"]],
+      "explanation": "P1末句直接给出who took part in the research。猜对不扣分，但不能据此推断用户已经稳定理解。",
+      "evidence_ids": ["question-q02", "ans-q02", "grade-q02", "mat-demo-p1"]
+    },
+    {
+      "id": "q03", "version": 1, "order": 3, "type": "single_choice", "material_id": "mat-demo",
+      "stem": "What does the writer suggest about an early conclusion?",
+      "options": [
+        {"id": "opt-a", "label": "A", "text": "It always applies to every community."},
+        {"id": "opt-b", "label": "B", "text": "It may change when more evidence appears."},
+        {"id": "opt-c", "label": "C", "text": "It should replace the original research."},
+        {"id": "opt-d", "label": "D", "text": "It is useful only when it is certain."}
+      ],
+      "answer": {"selected_option_ids": ["opt-a"]},
+      "answer_key": {"selected_option_ids": ["opt-b"]},
+      "confidence": "uncertain", "reasoning": "我把 one group 理解成了普遍结论，想再核对一次。", "flagged": false,
+      "max_score_units": 200, "earned_score_units": 0, "correctness": "incorrect", "grading_status": "graded",
+      "rule": "single-choice-exact@1", "active_seconds": 210,
+      "answer_history": [null, ["opt-b"], ["opt-a"]],
+      "explanation": "P2说明一组研究对象不能解释所有群体，且更多证据可能改变早期结论。B是直接同义表达；A加入always和every扩大适用范围；C、D原文未支持。",
+      "annotations": [{"id": "annotation-q03-1", "block_id": "mat-demo-p2", "quote": "one group"}],
+      "evidence_ids": ["question-q03", "ans-q03", "grade-q03", "mat-demo-p2", "annotation-q03-1"]
+    },
+    {
+      "id": "q04", "version": 1, "order": 4, "type": "single_choice", "material_id": "mat-demo",
+      "stem": "What does good reading involve, according to the final paragraph?",
+      "options": [
+        {"id": "opt-a", "label": "A", "text": "Treating every early result as final."},
+        {"id": "opt-b", "label": "B", "text": "Avoiding all conclusions."},
+        {"id": "opt-c", "label": "C", "text": "Looking for certainty in every headline."},
+        {"id": "opt-d", "label": "D", "text": "Matching claims to the evidence that supports them."}
+      ],
+      "answer": {"selected_option_ids": ["opt-d"]},
+      "answer_key": {"selected_option_ids": ["opt-d"]},
+      "confidence": "uncertain", "reasoning": "最后一句说要把结论和证据对应起来。", "flagged": true,
+      "max_score_units": 200, "earned_score_units": 200, "correctness": "correct", "grading_status": "graded",
+      "rule": "single-choice-exact@1", "active_seconds": 160,
+      "answer_history": [null, ["opt-d"]],
+      "explanation": "P3末句直接定义good reading。D保留claim/evidence对应关系，C反而使用被not否定的certainty。",
+      "evidence_ids": ["question-q04", "ans-q04", "grade-q04", "mat-demo-p3"]
+    },
+    {
+      "id": "q05", "version": 1, "order": 5, "type": "single_choice", "material_id": "mat-demo",
+      "stem": "Why does the writer contrast \"one group\" with \"every community\"?",
+      "options": [
+        {"id": "opt-a", "label": "A", "text": "To show that a finding can have a limited scope."},
+        {"id": "opt-b", "label": "B", "text": "To prove that all communities are identical."},
+        {"id": "opt-c", "label": "C", "text": "To suggest that evidence is unnecessary."},
+        {"id": "opt-d", "label": "D", "text": "To claim that every early conclusion is false."}
+      ],
+      "answer": null,
+      "answer_key": {"selected_option_ids": ["opt-a"]},
+      "confidence": null, "reasoning": null, "flagged": false,
+      "max_score_units": 200, "earned_score_units": 0, "correctness": "unanswered", "grading_status": "graded",
+      "rule": "single-choice-exact@1", "active_seconds": 80,
+      "answer_history": [null],
+      "explanation": "P2的对比说明研究结果的适用范围有限。A与原文一致；其他项增加了原文没有的极端结论。",
+      "evidence_ids": ["question-q05", "ans-q05", "grade-q05", "mat-demo-p2"]
+    }
+  ],
+  "aggregate": {"total_count": 5, "answered_count": 4, "correct_count": 3, "incorrect_count": 1, "unanswered_count": 1, "partial_count": 0, "pending_count": 0, "invalid_count": 0, "earned_score_units": 600, "graded_max_score_units": 1000, "total_max_score_units": 1000, "pending_max_score_units": 0, "objective_accuracy_percent": 60.0, "answered_accuracy_percent": 75.0},
+  "timing": {"elapsed_seconds": 1122, "active_seconds": 960, "item_seconds": 780, "material_seconds": 180, "unattributed_seconds": 0, "paused_seconds": 162, "hidden_seconds": 0, "unknown_seconds": 0, "quality": "complete"},
+  "timeline": [
+    {"start": "2026-09-29T20:00:00+08:00", "end": "2026-09-29T20:03:00+08:00", "kind": "material", "seconds": 180},
+    {"start": "2026-09-29T20:03:00+08:00", "end": "2026-09-29T20:05:30+08:00", "kind": "item", "question_id": "q01", "seconds": 150},
+    {"start": "2026-09-29T20:05:30+08:00", "end": "2026-09-29T20:08:30+08:00", "kind": "item", "question_id": "q02", "seconds": 180},
+    {"start": "2026-09-29T20:08:30+08:00", "end": "2026-09-29T20:12:00+08:00", "kind": "item", "question_id": "q03", "seconds": 210, "note": "先B后A"},
+    {"start": "2026-09-29T20:12:00+08:00", "end": "2026-09-29T20:14:42+08:00", "kind": "pause", "seconds": 162, "note": "用户暂停，正文遮挡"},
+    {"start": "2026-09-29T20:14:42+08:00", "end": "2026-09-29T20:17:22+08:00", "kind": "item", "question_id": "q04", "seconds": 160},
+    {"start": "2026-09-29T20:17:22+08:00", "end": "2026-09-29T20:18:42+08:00", "kind": "item", "question_id": "q05", "seconds": 80, "note": "无作答"},
+    {"at": "2026-09-29T20:18:42+08:00", "kind": "submitted", "seconds": 0, "note": "确认未答后手动交卷，不重复计时"}
+  ],
+  "interpretation_limits": ["Q03改选的真实动机未记录", "Q05未答原因未记录，80秒不能证明不会做或时间不足", "不能从本样本推断整体词汇能力、智力或人格", "只记录业务级答案变化，不含逐键录制", "前台有效时间不等于真实思考时间"],
+  "accepted_actions": [],
+  "attachments": []
+}

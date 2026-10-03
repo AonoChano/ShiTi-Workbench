@@ -1,0 +1,611 @@
+{
+  "spec_version": "1.1",
+  "meta": {
+    "year": 1988,
+    "paper": "英语统考卷",
+    "title": "1988年全国硕士研究生入学统一考试英语试题",
+    "total_score_units": 10000,
+    "duration_minutes": 180,
+    "source_file": "TestPaper/1988.md",
+    "converted_by": "AI 转换任务 2026-10-03",
+    "converted_at": "2026-10-03T12:00:00+08:00",
+    "license_note": "个人学习使用",
+    "notes": "本文件由 1988.md 转换。原卷含完形填空（10题，10分）、阅读理解（3篇共10题，10分）、英译汉（8句，20分），满分40分，无写作题。按原卷实际题数建模；meta.total_score_units 按规格建议值填 10000，各题 max_score_units 按原卷分值折算。原卷翻译部分在 md 中同时以 21-28 和 61-68 两套编号重复出现，本 JSON 采用 21-28。答案与解析来自 1986-1990 年真题答案 PDF。"
+  },
+  "set": {
+    "title": "1988年全国硕士研究生入学统一考试英语试题"
+  },
+  "sections": [
+    {
+      "id": "Section I · Cloze Test",
+      "part": "Section I",
+      "title": "完形填空",
+      "directions": [
+        "For each numbered blank in the following passage there are four choices labeled [A], [B], [C] and [D]. Choose the best one and put your choice in the ANSWER SHEET. Read the whole passage before making your choice. (10 points)"
+      ]
+    },
+    {
+      "id": "Section II · Reading Comprehension",
+      "part": "Section II",
+      "title": "阅读理解",
+      "directions": [
+        "Each of the two passages below is followed by five questions. For each question there are four answers. Read the passages carefully and choose the best answer to each of the questions. Put your choice in the brackets on the left. (10 points)"
+      ]
+    },
+    {
+      "id": "Section III · English-Chinese Translation",
+      "part": "Section III",
+      "title": "英译汉",
+      "directions": [
+        "Translate the following passage into Chinese. Only the underlined sentences are to be translated. (20 points)"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "cloze",
+      "title": "Section I · Cloze Test 原文",
+      "section": "Section I · Cloze Test",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "In 1620, a small sailboat named the Mayflower left England for the New World. The Mayflower headed for the Jamestown colony on the warm shore of Virginia. Its one hundred passengers were the Pilgrims. They were looking for a place where they could worship God __1__. Because of strong winds and severe storms, the Mayflower lost its __2__. The brave group of colonists finally had to land at Plymouth on the rocky coast of Massachusetts in December 1620. It was the middle of the stern northern winter. __3__ months of starvation, disease, and death were ahead of them. Only the strongest of the pilgrims __4__ that winter. Many women gave their own pitiful rations to their children and died for lack of food for themselves. Living __5__ began to improve in the spring of 1621. There were wild vegetables. There were berries and fruit. Fish and game were plentiful. Therefore, they were able to get enough fresh meat despite their lack of skill or experience in hunting and fishing. The colonists’ health __6__ with the warm weather and their better diet."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "In the fall, they look back __7__ the past year. They were both regretful and thankful. Only fifty of the original one hundred passengers remained. The price in human life and tragedy had been great. On the other hand, they saw new hope for the future. A splendid harvest was __8__ them. They were ready for the second winter with confidence. They had eleven crude houses for protection against the severe winter. Seven were for families, and four were for communal use. __9__, they had established a treaty of friendship with their Indian neighbors under Chief Massasoit in the summer."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "The woods and forests became safe. When the Mayflower returned to England that summer, there were no colonists __10__. At the end of their first year in their new home, the Pilgrims wanted to celebrate with a real holiday. It was their first Thanksgiving Day."
+        }
+      ]
+    },
+    {
+      "id": "reading-text1",
+      "title": "Text 1",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "It doesn’t come as a surprise to you to realize that it makes no difference what you read or study if you can’t remember it. You just waste your valuable time. Maybe you have already discovered some clever ways to keep yourself from forgetting."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "One dependable aid that does help you remember what you study is to have a specific purpose or reason for reading. You remember better what you read when you know why you’re reading."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Why does a clerk in a store go away and leave you when your reply to her offer to help is, “No, thank you. I’m just looking”? Both you and she know that if you aren’t sure what you want, you are not likely to find it. But suppose you say instead, “Yes, thank you. I want a pair of sun glasses.” She says, “Right this way, please.” And you and she are off -- both eager to look for exactly what you want."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "It’s quite the same with your studying. If you chose a book at random, “just looking” for nothing in particular, you are likely to get just that -- nothing. But if you do know what you want, and if you have the right book, you are almost sure to get it. Your reasons will vary; they will include reading or studying “to find out more about”, “to understand the reasons for”, “to find out how”. A good student has a clear purpose or reason for what he is doing."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "This is the way it works. Before you start to study, you say to yourself something like this, “I want to know why Stephen Vincent Benet happened to write about America. I’m reading this article to find out.” Or, “I’m going to skim this story to see what life was like in medieval England.” Because you know why you are reading or studying, you relate the information to your purpose and remember it better."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "Reading is not one single activity. At least two important processes go on at the same time. As you read, you take in ideas rapidly and accurately. But at the same time you express your own ideas to yourself as you react to what you read. You have a kind of mental conversation with the author. If you expressed your ideas orally, they might sound like this: “Yes, I agree. That’s my opinion too.” or “Ummmm, I thought that record was broken much earlier. I’d better check those dates,” or “But there are some other facts to be considered!” You don’t just sit there taking in ideas -- you do something else, and that something else is very important."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "This additional process of thinking about what you read includes evaluating it, relating it to what you already know, and using it for your own purposes. In other words, a good reader is a critical reader. One part of critical reading, as you have discovered, is distinguishing between facts and opinions. Facts can be checked by evidence. Opinions are one’s own personal reactions."
+        },
+        {
+          "id": "p8",
+          "type": "paragraph",
+          "text": "Another part of critical reading is judging sources. Still another part is drawing accurate inferences."
+        }
+      ]
+    },
+    {
+      "id": "reading-text2",
+      "title": "Text 2",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "If you live in a large city, you are quite familiar with some of the problems of noise, but because of some of its harmful effects, you may not be aware of the extent of its influence on human behavior. Although everyone more or less knows what noise is, i.e., it is sounds that one would rather not hear, it is perhaps best to define it more precisely for scientific purposes. One such definition is that noise is sounds that are unrelated to the task at hand. Thus stimuli that at one time might be considered relevant will at another time be considered noise, depending on what one is doing at the moment. In recent years there has been a great deal of interest in the effects of noise on human behavior, and concepts such as “noise pollution” have arisen, together with movements to reduce noise."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Exposure to loud noises can definitely produce a partial or complete loss of hearing, depending on the intensity, duration, and frequency composition of the noise. Many jobs present noise hazards, such as working in factories and around jet aircraft, driving farm tractors, and working (or sitting) in music halls where rock bands are playing. In general, continuous exposure to sounds of over 80 decibels (a measure of the loudness of sound) can be considered dangerous. Decibel values correspond to various sounds. Sounds above about 85 decibels may, if exposure is for a sufficient period of time, produce significant hearing loss. Actual loss will depend upon the particular frequencies to which one is exposed, and whether the sound is continuous or intermittent."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Noise can have unexpected harmful effects on performance of certain kinds of tasks, for instance, if one is performing a watch keeping task that requires vigilance, in which he is responsible for detecting weak signals of some kind (e.g., watching a radar screen for the appearance of aircraft)."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "Communicating with other people is unfavorably affected by noise. If you have ridden in the rear of a jet transport, you may have noticed that it was difficult to carry on a conversation at first, and that, eventually, you adjusted the loudness of your speech to compensate for the effect. The problem is noise."
+        }
+      ]
+    },
+    {
+      "id": "reading-text3",
+      "title": "Text 3",
+      "section": "Section II · Reading Comprehension",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "The traditional belief that a woman’s place is in the home and that a woman ought not to go out to work can hardly be reasonably maintained in present conditions. It is said that it is a woman’s task to care for the children, but families today tend to be small and with a year or two between children. Thus a woman’s whole period of childbearing may occur within five years. Furthermore, with compulsory education from the age of five or six her role as chief educator of her children soon ceases. Thus, even if we agree that a woman should stay at home to look after her children before they are of school age, for many women, this period would extend only for about ten years."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "It might be argued that the house-proud woman would still find plenty to do about the home. That may be so, but it is certainly no longer necessary for a woman to spend her whole life cooking, cleaning, mending and sewing. Washing machines take the drudgery out of laundry, the latest models being entirely automatic and able to wash and dry a large quantity of clothes in a few minutes. Refrigerators have made it possible to store food for long periods and many pre-cooked foods are obtainable in tins. Shopping, instead of being a daily task, can be completed in one day a week. The new man-made fibers are more hardwearing than natural fibers and greatly reduce mending, while good ready-made clothes are cheap and plentiful."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Apart from women’s own happiness, the needs of the community must be considered. Modern society cannot do well without the contribution that women can make in professions and other kinds of work. There is a serious shortage of nurses and teachers, to mention only two of the occupations followed by women. It is extremely wasteful to give years of training at public expense only to have the qualified teacher or nurse marry after a year or two and be lost forever to her profession. The training, it is true, will help her in duties as a mother, but if she continued to work, her service would be more widely useful. Many factories and shops, too, are largely staffed by women, many of them married. While here the question of training is not so important, industry and trade would be seriously short of staff if married women did not work."
+        }
+      ]
+    },
+    {
+      "id": "translate",
+      "title": "Section III · 英译汉原文",
+      "section": "Section III · English-Chinese Translation",
+      "blocks": [
+        {
+          "id": "p1",
+          "type": "paragraph",
+          "text": "Seated behind the front desk at a New York firm, the receptionist was efficient."
+        },
+        {
+          "id": "p2",
+          "type": "paragraph",
+          "text": "Stylishly dressed, the firm’s newest employee had a pleasant telephone voice and a natural charm that put clients at ease. The company was pleased: 【21】Clearly, this was a person who took considerable pride in personal appearance. David King, the receptionist, is unusual, but by no means unique. 【22】Just as all truck drivers and construction workers are no longer necessarily men, all secretaries and receptionists are no longer automatically women. The number of men in women-dominated fields is still small and they haven’t attracted the attention that has often followed women advancing into male-dominated fields, but men are moving into more and more jobs that have traditionally been held by women."
+        },
+        {
+          "id": "p3",
+          "type": "paragraph",
+          "text": "Strictly speaking, the phenomenon is not new. For the past several decades, men have been quietly entering fields such as nursing, social work and elementary education. But today no job seems off-limits. Men serve coffee in offices and meals on airplanes. 【23】These changes are helping to influence some of the long-standing traditions about the types of work men and women can do -- but they also produce some undeniable problems for the men who are entering those fields formerly dominated by women."
+        },
+        {
+          "id": "p4",
+          "type": "paragraph",
+          "text": "What kinds of men venture into these so-called “women’s fields”? All kinds. 【24】“I don’t know of any definite answers I’d be comfortable with,” explains Joseph Pleck, Ph.D., of the Wellesley College Centre for Research on Women."
+        },
+        {
+          "id": "p5",
+          "type": "paragraph",
+          "text": "Sam Ormont, for example, a thirty-year-old nurse at a Boston hospital, went into nursing because the army had trained him as a medical worker. 【25】“I found that work very interesting.” he recalled, “and when I got out of the service it just seemed natural for me to go into something medical. I wasn’t really interested in becoming a doctor.” Thirty-five-year-old David King, an out-of-work actor, found a job as a receptionist because he was having trouble landing roles in Broadway plays and he needed to pay the rent."
+        },
+        {
+          "id": "p6",
+          "type": "paragraph",
+          "text": "【26】In other words, men enter “female” jobs out of the same consideration for personal interest and economic necessity that motivates anyone looking for work. But similarities often end there. Men in female-dominated jobs are conspicuous. As a group, their work histories differ in most respects from those of their female colleagues, and they are frequently treated differently by the people with whom they are in professional contact."
+        },
+        {
+          "id": "p7",
+          "type": "paragraph",
+          "text": "The question naturally arises: Why are there still approximately ninety-nine female secretaries for every one male? There is also a more serious issue. Most men don’t want to be receptionists, nurses, secretaries or sewing workers. Put simply, these are not generally considered very masculine jobs. 【27】To choose such a line of work is to invite ridicule."
+        },
+        {
+          "id": "p8",
+          "type": "paragraph",
+          "text": "“There was kidding in the beginning,” recalls Ormont. “Kids coming from school ask what I am, and when I say ‘A nurse,’ they laugh at me. I just smile and say, ‘You know, there are female doctors, too.’”"
+        },
+        {
+          "id": "p9",
+          "type": "paragraph",
+          "text": "Still, there are encouraging signs. Years ago, male grade school teachers were as rare as male nurses. Today more than one elementary school teacher in six is male."
+        },
+        {
+          "id": "p10",
+          "type": "paragraph",
+          "text": "【28】Can we anticipate a day when secretaries will be an even mix of men and women — or when the mention of a male nurse will no longer raise eyebrows? It’s probably coming -- but not very soon."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "cloze-01",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 1 空：",
+      "options": [
+        { "id": "cloze-01-a", "text": "in their own style" },
+        { "id": "cloze-01-b", "text": "in their own way" },
+        { "id": "cloze-01-c", "text": "on their own" },
+        { "id": "cloze-01-d", "text": "of their own" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-01-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-02",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 2 空：",
+      "options": [
+        { "id": "cloze-02-a", "text": "course" },
+        { "id": "cloze-02-b", "text": "route" },
+        { "id": "cloze-02-c", "text": "passage" },
+        { "id": "cloze-02-d", "text": "channel" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-02-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-03",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 3 空：",
+      "options": [
+        { "id": "cloze-03-a", "text": "Uncomfortable" },
+        { "id": "cloze-03-b", "text": "Bad" },
+        { "id": "cloze-03-c", "text": "Unfavourable" },
+        { "id": "cloze-03-d", "text": "Terrible" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-03-d"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-04",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 4 空：",
+      "options": [
+        { "id": "cloze-04-a", "text": "passed" },
+        { "id": "cloze-04-b", "text": "sustained" },
+        { "id": "cloze-04-c", "text": "survived" },
+        { "id": "cloze-04-d", "text": "spent" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-04-c"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-05",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 5 空：",
+      "options": [
+        { "id": "cloze-05-a", "text": "situations" },
+        { "id": "cloze-05-b", "text": "environments" },
+        { "id": "cloze-05-c", "text": "conditions" },
+        { "id": "cloze-05-d", "text": "circumstances" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-05-c"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-06",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 6 空：",
+      "options": [
+        { "id": "cloze-06-a", "text": "strengthened" },
+        { "id": "cloze-06-b", "text": "regained" },
+        { "id": "cloze-06-c", "text": "recovered" },
+        { "id": "cloze-06-d", "text": "improved" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-06-d"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-07",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 7 空：",
+      "options": [
+        { "id": "cloze-07-a", "text": "in" },
+        { "id": "cloze-07-b", "text": "of" },
+        { "id": "cloze-07-c", "text": "over" },
+        { "id": "cloze-07-d", "text": "at" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-07-c"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-08",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 8 空：",
+      "options": [
+        { "id": "cloze-08-a", "text": "on" },
+        { "id": "cloze-08-b", "text": "behind" },
+        { "id": "cloze-08-c", "text": "for" },
+        { "id": "cloze-08-d", "text": "beyond" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-08-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-09",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 9 空：",
+      "options": [
+        { "id": "cloze-09-a", "text": "Best of all" },
+        { "id": "cloze-09-b", "text": "For the best" },
+        { "id": "cloze-09-c", "text": "To their best" },
+        { "id": "cloze-09-d", "text": "All in all" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-09-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "cloze-10",
+      "section": "Section I · Cloze Test",
+      "type": "single_choice",
+      "material_id": "cloze",
+      "stem": "第 10 空：",
+      "options": [
+        { "id": "cloze-10-a", "text": "ashore" },
+        { "id": "cloze-10-b", "text": "around" },
+        { "id": "cloze-10-c", "text": "about" },
+        { "id": "cloze-10-d", "text": "aboard" }
+      ],
+      "answer_key": { "selected_option_ids": ["cloze-10-d"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t1-q11",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "If you cannot remember what you read or study, ____.",
+      "options": [
+        { "id": "t1-q11-a", "text": "it is no surprise" },
+        { "id": "t1-q11-b", "text": "it means you have not really learned anything" },
+        { "id": "t1-q11-c", "text": "it means you have not chosen the right book" },
+        { "id": "t1-q11-d", "text": "you realize it is of no importance" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q11-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t1-q12",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Before you start reading, it is important ____.",
+      "options": [
+        { "id": "t1-q12-a", "text": "to make sure why you are reading" },
+        { "id": "t1-q12-b", "text": "to relate the information to your purpose" },
+        { "id": "t1-q12-c", "text": "to remember what you read" },
+        { "id": "t1-q12-d", "text": "to choose an interesting book" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q12-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t1-q13",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "Reading activity involves ____.",
+      "options": [
+        { "id": "t1-q13-a", "text": "only two simultaneous processes" },
+        { "id": "t1-q13-b", "text": "primarily learning about ideas and evaluating them critically" },
+        { "id": "t1-q13-c", "text": "merely distinguishing between facts and opinions" },
+        { "id": "t1-q13-d", "text": "mainly drawing accurate inferences" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q13-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t1-q14",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text1",
+      "stem": "A good reader is one who ____.",
+      "options": [
+        { "id": "t1-q14-a", "text": "relates what he reads to his own knowledge about the subject matter" },
+        { "id": "t1-q14-b", "text": "does lots of thinking in his reading" },
+        { "id": "t1-q14-c", "text": "takes a critical attitude in his reading" },
+        { "id": "t1-q14-d", "text": "is able to check the facts presented against what he has already known" }
+      ],
+      "answer_key": { "selected_option_ids": ["t1-q14-c"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t2-q15",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "Noise differs from sound in that ____.",
+      "options": [
+        { "id": "t2-q15-a", "text": "it is sounds that interfere with the task being done" },
+        { "id": "t2-q15-b", "text": "it is a special type of loud sound" },
+        { "id": "t2-q15-c", "text": "it is usually unavoidable in big cities" },
+        { "id": "t2-q15-d", "text": "it can be defined more precisely than the latter" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q15-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t2-q16",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "One of the harmful effects of noise on human performance is that ____.",
+      "options": [
+        { "id": "t2-q16-a", "text": "it reduces one’s sensitivity" },
+        { "id": "t2-q16-b", "text": "it renders the victim helpless" },
+        { "id": "t2-q16-c", "text": "it deprives one of the enjoyment of music" },
+        { "id": "t2-q16-d", "text": "it drowns out conversations at worksites" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q16-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t2-q17",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text2",
+      "stem": "The purpose of this passage is ____.",
+      "options": [
+        { "id": "t2-q17-a", "text": "to define the effects of noise on human behavior" },
+        { "id": "t2-q17-b", "text": "to warn people of the danger of noise pollution" },
+        { "id": "t2-q17-c", "text": "to give advice as to how to prevent hearing loss" },
+        { "id": "t2-q17-d", "text": "to tell the difference between noise and sound" }
+      ],
+      "answer_key": { "selected_option_ids": ["t2-q17-a"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t3-q18",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "The author holds that ____.",
+      "options": [
+        { "id": "t3-q18-a", "text": "the right place for all women, married or otherwise, is the home, not elsewhere" },
+        { "id": "t3-q18-b", "text": "all married women should have some occupation outside the home" },
+        { "id": "t3-q18-c", "text": "a married woman should give first priority to her duties as a mother" },
+        { "id": "t3-q18-d", "text": "it is desirable for uneducated married women to stay at home and take care of the family" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q18-b"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t3-q19",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "A house-proud woman ____.",
+      "options": [
+        { "id": "t3-q19-a", "text": "would devote her whole life to her family" },
+        { "id": "t3-q19-b", "text": "would take her own happiness and that of her family as her chief concern" },
+        { "id": "t3-q19-c", "text": "would still need some special training at public expense to help her in her duties as a housewife" },
+        { "id": "t3-q19-d", "text": "would take full advantage of modern household appliances" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q19-d"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "t3-q20",
+      "section": "Section II · Reading Comprehension",
+      "type": "single_choice",
+      "material_id": "reading-text3",
+      "stem": "According to the author, modern society ____.",
+      "options": [
+        { "id": "t3-q20-a", "text": "can operate just as well even without women participation" },
+        { "id": "t3-q20-b", "text": "has been greatly hampered in its development by the shortage of women nurses and women teachers" },
+        { "id": "t3-q20-c", "text": "cannot operate properly without the contribution of women" },
+        { "id": "t3-q20-d", "text": "will be seriously affected by the continuing shortage of working women in heavy industries and international trade" }
+      ],
+      "answer_key": { "selected_option_ids": ["t3-q20-c"] },
+      "max_score_units": 100
+    },
+    {
+      "id": "tr-21",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Clearly, this was a person who took considerable pride in personal appearance.",
+      "answer_key": {
+        "reference_text": "显然，他是个对自己的仪表感到相当自豪的人。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-22",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Just as all truck drivers and construction workers are no longer necessarily men, all secretaries and receptionists are no longer automatically women.",
+      "answer_key": {
+        "reference_text": "正像卡车司机和建筑工人再没必要都是男的一样，所有秘书和接待员再也不一定都是女的。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-23",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "These changes are helping to influence some of the long-standing traditions about the types of work men and women can do -- but they also produce some undeniable problems for the men who are entering those fields formerly dominated by women.",
+      "answer_key": {
+        "reference_text": "这些变化正影响着长期存在的传统观念中关于男女各可以干哪几类工作的看法，但这对于进入原先以妇女为主的那些领域的男人来说，无疑也带来一些问题。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-24",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "“I don’t know of any definite answers I’d be comfortable with,” explains Joseph Pleck, Ph.D., of the Wellesley College Centre for Research on Women.",
+      "answer_key": {
+        "reference_text": "我还没听说过有任何使我感到满意的确切答案。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-25",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "“I found that work very interesting.” he recalled, “and when I got out of the service it just seemed natural for me to go into something medical. I wasn’t really interested in becoming a doctor.”",
+      "answer_key": {
+        "reference_text": "他回忆说：“我觉得那种工作十分有趣，当我退役时，对我来说，去干某种医务工作，似乎是极其自然的。我对于成为医生并不真的感兴趣。”"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-26",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "In other words, men enter “female” jobs out of the same consideration for personal interest and economic necessity that motivates anyone looking for work.",
+      "answer_key": {
+        "reference_text": "换句话说，男人干起了“女人干的”工作，其动机是同任何找工作干的人一样，既出于个人的兴趣，也出于经济上需要的考虑。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-27",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "To choose such a line of work is to invite ridicule.",
+      "answer_key": {
+        "reference_text": "选定这一类工作是会惹人笑话的。"
+      },
+      "max_score_units": 250
+    },
+    {
+      "id": "tr-28",
+      "section": "Section III · English-Chinese Translation",
+      "type": "free_text",
+      "material_id": "translate",
+      "stem": "Can we anticipate a day when secretaries will be an even mix of men and women — or when the mention of a male nurse will no longer raise eyebrows?",
+      "answer_key": {
+        "reference_text": "我们是否能预见到这么一天：那时当秘书的男女各占一半或有人提到某个男人当护士时，人们不会再感到吃惊？"
+      },
+      "max_score_units": 250
+    }
+  ]
+}
