@@ -76,5 +76,5 @@ docs/05/AGENT_HANDOFF.md 等为早期设计阶段文档，范围表述以本 REA
 
 ## 版权
 
-- **代码**：本仓库代码仅供学习交流，未附开源许可证前保留所有权利
+- **代码**：以 [MIT License](LICENSE) 发布
 - **真题内容**：考研试题著作权归命题机构所有，`question_bank/` 内的转录产物仅限个人学习使用，请勿商用或再分发，详见[版权说明](question_bank/NETEM_English_I/_版权与使用说明.md)
