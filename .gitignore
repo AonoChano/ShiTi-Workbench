@@ -27,3 +27,5 @@ Thumbs.db
 .DS_Store
 
 # design 与 examples 均为本次原创交付，必须保留，不能忽略
+# 本地设计分析笔记，不入库
+/UI-STYLE-ANALYSIS.md
