@@ -51,7 +51,7 @@ const FEATURES: Feature[] = [
     shot: "S3",
     eyebrow: "Review",
     title: "交卷之后，给你一份能带走的复盘",
-    body: "客观题由程序判分，规则是确定的——同一份作答，什么时候判结果都一样。每次练习都会生成一份完整的 Markdown 复盘报告：逐题对错、用时、你的作答。愿意的话，还可以把整个答题过程打包，交给你信任的 AI 做深度复盘。",
+    body: "客观题由程序判分，规则是确定的——同一份作答，什么时候判结果都一样。每次练习都会生成一份完整的复盘报告：逐题对错、用时、你的作答。愿意的话，还可以把整个答题过程打包，交给你信任的 AI 做深度复盘。",
     bullets: [
       { icon: Check, text: "确定性判分，不靠运气" },
       { icon: FileText, text: "Markdown 报告，随手带走" },
@@ -66,7 +66,7 @@ const FEATURES: Feature[] = [
     title: "35 份真题，1986 到 2020，一份不少",
     body: "按年份范围和科目筛选，常做的卷子可以收藏。列表就是一整张白纸，年份是大号衬线数字——找一份卷子，不需要搜索引擎。",
     bullets: [
-      { icon: Library, text: "35 份年份卷已入库" },
+      { icon: Library, text: "35 份年份卷全部收录" },
       { icon: CalendarDays, text: "按年份范围、科目筛选" },
       { icon: Star, text: "收藏常做的卷子" },
       { icon: Search, text: "Ctrl K，全局搜索" },
@@ -77,7 +77,7 @@ const FEATURES: Feature[] = [
     shot: "S1",
     eyebrow: "Overview",
     title: "每天记一笔，知道自己走到哪了",
-    body: "今日目标、连续天数、学习日历、近 7 / 30 天的趋势线、最近三份练习——都在登录后的第一屏。不是为了打榜，只是帮你看见自己的节奏。",
+    body: "今日目标、连续天数、学习日历、近 7 / 30 天的趋势线、最近三份练习——都在登录后的第一屏，只帮你看见自己的节奏。",
     bullets: [
       { icon: Target, text: "今日目标：一个环，描完就是今天" },
       { icon: TrendingUp, text: "近 7 / 30 天答题量与正确率" },
@@ -90,8 +90,7 @@ const FEATURES: Feature[] = [
 const SECTION_HEAD = {
   eyebrow: "What it does",
   title: "它做的事不多：选题、做题、复盘、记一笔",
-  lede: "下面是实机截图。界面里没有什么需要学习的东西，看一眼就知道哪是纸、哪是笔。",
-  meta: ["1440 × 900 桌面视口", "实机截图", "非渲染图"],
+  lede: "界面里没有什么需要学习的东西，看一眼就知道哪是纸、哪是笔。",
 };
 
 export function Features() {

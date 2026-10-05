@@ -54,9 +54,8 @@ export function ScreenshotFrame({ id, className }: { id: ScreenshotId; className
       </div>
 
       <figcaption className="meta border-t border-divider px-4 py-2.5">
-        <span className="tnum">{shot.id}</span>
         <span>{shot.title}</span>
-        <span className="hidden sm:inline-flex">1440 × 900 实机截图</span>
+        <span className="hidden sm:inline-flex">实机截图</span>
       </figcaption>
     </figure>
   );

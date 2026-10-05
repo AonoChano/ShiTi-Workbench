@@ -16,7 +16,7 @@ const ENTRIES: Entry[] = [
     tone: "icon-sage",
     eyebrow: "Reading",
     title: "阅读",
-    desc: "材料和题目并排放着，边读边答，不用来回翻页。",
+    desc: "材料和题目并排放着，边读边答。",
   },
   {
     icon: ListChecks,

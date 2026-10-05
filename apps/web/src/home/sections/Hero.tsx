@@ -26,7 +26,7 @@ export function Hero() {
           <Reveal index={2}>
             <p className="lede mt-5 max-w-[520px]">
               拾题是一个本地的真题练习工具。{SITE.yearFrom} 到 {SITE.yearTo} 年的 {SITE.paperCount}{" "}
-              份年份卷已经入库：选题、作答、自动保存、交卷判分、复盘报告，整个过程都发生在你的电脑里——没有云端，没有上传，也没有人催你。
+              份年份卷全部收录：选题、作答、自动保存、交卷判分、复盘报告，从头到尾是一条完整的流程。
             </p>
           </Reveal>
           <Reveal index={3} className="mt-7 flex flex-wrap items-center gap-3">
@@ -43,7 +43,6 @@ export function Hero() {
             <span className="tnum">
               {SITE.yearFrom}–{SITE.yearTo}
             </span>
-            <span>数据只存在本机</span>
             <span>代码公开</span>
           </Reveal>
         </div>
@@ -58,7 +57,7 @@ export function Hero() {
             />
           </Reveal>
           <Reveal index={3} className="meta mt-3 justify-center">
-            <span>上面是动画示意，不是截图</span>
+            <span>上面是动效演示</span>
             <span>
               实机界面见{" "}
               <a href="#features" className="text-action underline-offset-2 hover:underline">

@@ -11,7 +11,7 @@ const QA: [string, string][] = [
   ["我的数据存在哪里？", "都在本机：题库、答题记录、学习计划、复盘报告。没有同步，没有上传。"],
   [
     "有哪些年份的题？",
-    `${SITE.yearFrom} 到 ${SITE.yearTo} 年的 ${SITE.paperCount} 份年份卷，已经入库。在题库里按年份范围和科目筛选就能找到。`,
+    `${SITE.yearFrom} 到 ${SITE.yearTo} 年的 ${SITE.paperCount} 份年份卷都收录了。在题库里按年份范围和科目筛选就能找到。`,
   ],
   [
     "判分准吗？",

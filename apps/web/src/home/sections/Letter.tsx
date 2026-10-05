@@ -35,7 +35,7 @@ export function Letter() {
           <div>
             <div className="text-[13.5px] font-semibold text-heading">{SITE.author}</div>
             <div className="meta">
-              <span>{SITE.name} 的作者</span>
+              <span>{SITE.name}的作者</span>
               <span>独立维护</span>
             </div>
           </div>

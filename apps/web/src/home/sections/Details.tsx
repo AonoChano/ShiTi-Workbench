@@ -28,7 +28,7 @@ const DETAILS: Detail[] = [
     spec: GOAL_SPEC,
     label: "演示动画：今日目标的环在 1.3 秒内描到 18/25，然后轻轻按下打卡，连续天数加一。",
     title: "目标环",
-    desc: "今日目标是一个环，1.3 秒描完。打卡只是轻轻一下，没有烟花。",
+    desc: "今日目标是一个环，一天描一圈。打卡只是轻轻一下，没有烟花。",
   },
   {
     component: TrendLine,
@@ -45,7 +45,7 @@ export function Details() {
       <SectionHead
         eyebrow="Small things"
         title="一些我们在意的小地方"
-        lede="它们不会出现在功能列表里，但你每天都会碰到。下面三段是用 Remotion 重现的界面动效，节奏和实际界面一致。"
+        lede="它们不会出现在功能列表里，但你每天都会碰到。下面三段是界面动效的实况演示，和真实界面同一节奏。"
       />
       <div className="mt-10 grid gap-4 md:grid-cols-3">
         {DETAILS.map((item, i) => (

@@ -19,8 +19,8 @@ const STEPS = [
   {
     n: "03",
     title: "交卷、复盘",
-    desc: "程序判分，生成 Markdown 报告。需要的话，打包交给 AI 看一遍。",
-    meta: ["确定性判分", "Markdown 报告"],
+    desc: "程序判分，生成复盘报告。需要的话，打包交给 AI 看一遍。",
+    meta: ["确定性判分", "复盘报告"],
   },
 ];
 
@@ -28,7 +28,7 @@ export function Steps() {
   return (
     <section id="how" className="border-t border-rule bg-material">
       <div className="wrap py-16 md:py-24">
-        <SectionHead eyebrow="How it works" title="三步，开始一份卷子" lede="没有向导，没有设置页要先填。注册之后，第一屏就是题库。" />
+        <SectionHead eyebrow="How it works" title="三步，开始一份卷子" lede="注册之后，第一屏就是题库，直接挑一份开始。" />
 
         <ol className="paper-list panel mt-10 grid md:grid-cols-3 md:[&>*+*]:border-l md:[&>*+*]:border-t-0 md:[&>*+*]:border-divider">
           {STEPS.map((step, i) => (
@@ -53,7 +53,6 @@ export function Steps() {
             注册，开始第一份
             <ArrowUpRight className="arrow" size={15} strokeWidth={1.7} />
           </a>
-          <span className="text-[12px] text-muted">注册只是为了把你的记录存在你自己的电脑上。</span>
         </Reveal>
       </div>
     </section>

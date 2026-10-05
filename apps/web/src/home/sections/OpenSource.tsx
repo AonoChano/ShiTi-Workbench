@@ -46,7 +46,7 @@ export function OpenSource() {
                 <div className="meta mt-2">
                   <span>作者 {SITE.author}</span>
                   <span>本地运行</span>
-                  <span>养成英语套题</span>
+                  <span>考研英语套卷</span>
                   <span className="tnum">
                     {SITE.yearFrom}–{SITE.yearTo}
                   </span>
@@ -88,8 +88,6 @@ export function OpenSource() {
         <Reveal index={2} className="meta mt-4">
           <Lightbulb size={14} strokeWidth={1.7} className="text-chart" aria-hidden />
           <span>Star 数来自 GitHub 公开接口</span>
-          <span>只请求一次，10 分钟内不重复</span>
-          <span>可以在配置里关闭</span>
         </Reveal>
       </div>
     </section>

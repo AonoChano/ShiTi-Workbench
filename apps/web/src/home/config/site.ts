@@ -68,7 +68,7 @@ export const AUTH = Object.freeze({
 /** 主导航锚点 */
 export const NAV = Object.freeze([
   { href: "#features", label: "它能做什么" },
-  { href: "#details", label: "小细节" },
+  { href: "#details", label: "在意的小地方" },
   { href: "#how", label: "怎么用" },
   { href: "#design", label: "为什么是绿色" },
   { href: "#opensource", label: "开源" },
