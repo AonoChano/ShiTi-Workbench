@@ -172,61 +172,92 @@ function StaticRow({ feature, index }: { feature: Feature; index: number }) {
 }
 
 /* ------------------------------------------------------------------ */
-/* 滚动驱动的粘性叙事（scrollytelling）+ 节点跳转                        */
+/* 粘性叙事（scrollytelling）：只读滚动，不劫持滚动                     */
 /*                                                                      */
-/* 整段只有一条时间线：轨道高 = 场景数 × 90vh + 100vh，舞台 sticky 钉在   */
-/* 视口里（让出 60px 的站点顶栏）。滚动进度 p ∈ [0,1] 由轨道位置归一化    */
-/* 得出，所有可见样式都由 p 一次性算出（scrub），可倒着滚、不经过时间动画。*/
-/*                                                                      */
-/* 节点：进度条的 0% / 25% / 50% / 75% / 100%，即各场景交接完成的位置。    */
-/* 过渡全部收在节点前的最后一个窗口里：旧场景整体向上快速浮出并淡化，      */
-/* 新场景同时逐行浮现（图框先落位，eyebrow → 标题 → 正文 → 条目依次错峰），*/
-/* 两者在节点处同时完成——节点上永远是完整场景，台上没有全空的一刻。       */
-/*                                                                      */
-/* 手势跳转：停在节点上时，滚动约 10px 即提交一次换节——向下换下一节点，   */
-/* 向上回弹上一节点，过渡动效在滑动的减速段里播放；滑动期间吞掉后续输入。  */
-/* 到站后有短暂冷却（等触控板惯性停），期间若惯性把页面带离节点，回弹到    */
-/* 最近的节点。0% 向上、100% 向下不拦截，自然滚出章节。                   */
-/* 顶栏锚点平滑滚动穿过本段时（点击导航后 2.5s 内）跳过全部拦截。         */
+/* 轨道高保持 n*90+100vh 不变，span=n*90vh。时间线切成 n 个 dwell +       */
+/* n-1 个 trans：dwell 40vh 静读（带 14px 缓慢上浮，保证滚动总有反馈），  */
+/* trans ~66.7vh 交接（旧场景整体上浮淡出，新场景逐行浮现）。             */
+/* p ∈ [0,1] 由轨道位置归一化得出，所有样式由 p 一次性算出，可倒滚。      */
+/* 不做节点跳转/惯性回弹/锚点定时 hack，键盘、触控板、锚点全是原生行为。  */
 /* ------------------------------------------------------------------ */
 
-const SLOT = 1 / FEATURES.length; // 每个场景占的时间片
-const XOUT = 0.05; // 交接窗：旧场景上浮淡出 + 新场景逐行浮现，恰好在节点处收尾
-const LINE = 0.02; // 单行文字浮现所占的进度
-const RISE = 56; // 退场整体上浮距离（px）
-const DROP = 10; // 单行入场的起始下坠（px）
-const GESTURE = 10; // 触发换节的最小滚动量（px）
-const EPS = 0.004; // 判定“停在节点上”的进度容差
-const STICKY_TOP = 60; // 与 home.css .site-header 的高度一致
-const NODES = [...FEATURES.map((_, i) => i / FEATURES.length), 1]; // 0% 25% 50% 75% 100%
+const DWELL_VH = 40; // 每个场景静读段（vh）
+const RISE = 48; // 退场整体上浮距离（px）
+const DRIFT = 14; // dwell 段内缓慢上移（px）
+const DROP = 12; // 单行入场起始下坠（px）
+const LINE_T = 0.28; // 单行浮现占整个过渡的比例
+const STICKY_TOP_FALLBACK = 60; // 与 home.css .site-header 高度一致，实测失败时回落
 
 const clamp01 = (v: number) => Math.min(1, Math.max(0, v));
 
+// 时间线分数：总高度不变，dwell 固定 40vh，剩余均分给过渡段
+const _N = FEATURES.length;
+const _SPAN_VH = _N * 90;
+const _TRANS_RAW = _N > 1 ? (_SPAN_VH - _N * DWELL_VH) / (_N - 1) / _SPAN_VH : 0;
+const TRANS_F = _TRANS_RAW > 0.02 ? _TRANS_RAW : _N > 1 ? 0.6 / _N : 0;
+const DWELL_F = _N > 0 ? (1 - (_N - 1) * TRANS_F) / _N : 1;
+
+type ScrollySeg = {
+  dwellStart: number;
+  dwellEnd: number;
+  transStart: number;
+  transEnd: number;
+};
+
+const SEGS: ScrollySeg[] = (() => {
+  const n = FEATURES.length;
+  const segs: ScrollySeg[] = [];
+  let cursor = 0;
+  for (let i = 0; i < n; i++) {
+    const dwellStart = cursor;
+    const dwellEnd = i === n - 1 ? 1 : Math.min(1, dwellStart + DWELL_F);
+    let transStart = dwellEnd;
+    let transEnd = dwellEnd;
+    if (i < n - 1) {
+      transStart = dwellEnd;
+      transEnd = Math.min(1, transStart + TRANS_F);
+      cursor = transEnd;
+    } else {
+      cursor = dwellEnd;
+    }
+    segs.push({ dwellStart, dwellEnd, transStart, transEnd });
+  }
+  return segs;
+})();
+
 function ScrollyStage() {
   const trackRef = useRef<HTMLDivElement>(null);
+  const stickyRef = useRef<HTMLDivElement>(null);
   const railRef = useRef<HTMLDivElement>(null);
   const sceneRefs = useRef<Array<HTMLDivElement | null>>([]);
 
   useEffect(() => {
     const track = trackRef.current;
-    if (!track) return;
+    const sticky = stickyRef.current;
+    if (!track || !sticky) return;
     const n = FEATURES.length;
+    if (n === 0) return;
+
     // 每个场景里参与逐行入场的元素（DOM 序 = 图框、eyebrow、标题、正文、各条目）
-    const lines = sceneRefs.current.map((el) =>
-      el ? Array.from(el.querySelectorAll<HTMLElement>("[data-reveal]")) : [],
-    );
-    const step = (XOUT - LINE) / Math.max(1, Math.max(1, ...lines.map((l) => l.length)) - 1);
+    const lines = Array.from({ length: n }, (_, i) => {
+      const el = sceneRefs.current[i];
+      return el ? Array.from(el.querySelectorAll<HTMLElement>("[data-reveal]")) : [];
+    });
+    const steps = lines.map((l) => (l.length > 1 ? (1 - LINE_T) / (l.length - 1) : 0));
 
     let raf = 0;
-    let glideRaf = 0;
-    let gliding = false;
-    let armTimer = 0;
-    let passThrough = false; // 锚点平滑滚动穿越期间不拦截
-    let passTimer = 0;
-    let armed = true;
-    let node = 0; // 当前节点序号（0..n）
-    let acc = 0; // 手势累计滚动量
-    let lastY = window.scrollY;
+
+    const measureSticky = () => {
+      let top = STICKY_TOP_FALLBACK;
+      const header = document.querySelector(".site-header") as HTMLElement | null;
+      if (header) {
+        const h = Math.round(header.getBoundingClientRect().height);
+        if (Number.isFinite(h) && h >= 40 && h <= 160) top = h;
+      }
+      const vh = window.innerHeight;
+      sticky.style.top = `${top}px`;
+      sticky.style.height = `${Math.max(0, vh - top)}px`;
+    };
 
     const paint = () => {
       raf = 0;
@@ -239,102 +270,69 @@ function ScrollyStage() {
       for (let i = 0; i < n; i++) {
         const el = sceneRefs.current[i];
         if (!el) continue;
-        const bIn = i * SLOT;
-        const bOut = (i + 1) * SLOT;
-        const eOut = i === n - 1 ? 0 : clamp01((p - (bOut - XOUT)) / XOUT);
-        const opacity = 1 - eOut;
-        const active = p >= bIn - XOUT - 0.002 && p <= bOut + 0.002;
-
-        el.style.opacity = opacity.toFixed(3);
-        el.style.transform = `translate3d(0, ${(-RISE * eOut).toFixed(2)}px, 0)`;
-        el.style.visibility = !active || opacity <= 0.001 ? "hidden" : "visible";
-        el.setAttribute("aria-hidden", !active || opacity < 0.05 ? "true" : "false");
-
-        if (!active) continue;
+        const s = SEGS[i];
+        const prev = i > 0 ? SEGS[i - 1] : null;
         const sceneLines = lines[i];
-        for (let k = 0; k < sceneLines.length; k++) {
-          const x = i === 0 ? 1 : clamp01((p - (bIn - XOUT + k * step)) / LINE);
-          const line = sceneLines[k];
-          line.style.opacity = x.toFixed(3);
-          line.style.transform = `translate3d(0, ${((1 - x) * DROP).toFixed(2)}px, 0)`;
-        }
-      }
-    };
+        const st = steps[i];
 
-    /* —— 节点跳转 —— */
-    const cancelGlide = () => {
-      if (glideRaf) cancelAnimationFrame(glideRaf);
-      glideRaf = 0;
-      gliding = false;
-    };
+        let mode: "dwell" | "out" | "in" | "hidden" = "hidden";
+        let cOpacity = 0;
+        let cY = 0;
+        let t = 0;
 
-    const nearestNode = (p: number) => {
-      let best = 0;
-      for (let k = 1; k < NODES.length; k++) {
-        if (Math.abs(NODES[k] - p) < Math.abs(NODES[best] - p)) best = k;
-      }
-      return best;
-    };
-
-    const glideTo = (targetY: number, onDone?: () => void) => {
-      cancelGlide();
-      const startY = window.scrollY;
-      const dist = targetY - startY;
-      if (Math.abs(dist) < 2) {
-        onDone?.();
-        return;
-      }
-      const dur = Math.min(650, 240 + Math.abs(dist) * 0.3);
-      let start = 0;
-      gliding = true;
-      const stepGlide = (ts: number) => {
-        if (!gliding) return;
-        if (!start) start = ts;
-        const t = Math.min(1, (ts - start) / dur);
-        window.scrollTo(0, startY + dist * (1 - Math.pow(1 - t, 3)));
-        if (t < 1) {
-          glideRaf = requestAnimationFrame(stepGlide);
+        if (p >= s.dwellStart - 0.000001 && p <= s.dwellEnd + 0.000001) {
+          mode = "dwell";
+          const d = DWELL_F > 0 ? clamp01((p - s.dwellStart) / DWELL_F) : 1;
+          cOpacity = 1;
+          cY = -d * DRIFT;
+        } else if (i < n - 1 && p > s.dwellEnd && p <= s.transEnd + 0.000001) {
+          mode = "out";
+          t = TRANS_F > 0 ? clamp01((p - s.transStart) / TRANS_F) : 1;
+          cOpacity = 1 - t;
+          cY = -DRIFT - t * RISE;
+        } else if (prev && p >= prev.transStart - 0.000001 && p < s.dwellStart) {
+          mode = "in";
+          t = TRANS_F > 0 ? clamp01((p - prev.transStart) / TRANS_F) : 1;
+          if (t <= 0.001) {
+            mode = "hidden";
+            cOpacity = 0;
+            cY = 0;
+          } else {
+            cOpacity = 1;
+            cY = 0;
+          }
         } else {
-          gliding = false;
-          glideRaf = 0;
-          onDone?.();
+          mode = "hidden";
+          cOpacity = 0;
+          cY = 0;
         }
-      };
-      glideRaf = requestAnimationFrame(stepGlide);
-    };
 
-    const glideToNode = (k: number, onDone?: () => void) => {
-      const vh = window.innerHeight;
-      const span = track.offsetHeight - vh;
-      const trackTop = track.getBoundingClientRect().top + window.scrollY;
-      glideTo(trackTop + NODES[k] * span, onDone);
-    };
+        const visible = mode !== "hidden" && cOpacity > 0.001;
+        el.style.opacity = cOpacity.toFixed(3);
+        el.style.transform = `translate3d(0, ${cY.toFixed(2)}px, 0)`;
+        el.style.visibility = visible ? "visible" : "hidden";
+        if (!visible) {
+          el.style.pointerEvents = "none";
+          el.setAttribute("aria-hidden", "true");
+          continue;
+        }
+        el.setAttribute("aria-hidden", cOpacity >= 0.05 ? "false" : "true");
 
-    /** 到站冷却：等滚动（触控板惯性）完全安静后重新武装 */
-    const cooldown = () => {
-      armed = false;
-      window.clearTimeout(armTimer);
-      armTimer = window.setTimeout(arm, 180);
-    };
-
-    /** 重新武装：校准当前节点；惯性把页面带离了节点就回弹 */
-    const arm = () => {
-      if (passThrough) {
-        armTimer = window.setTimeout(arm, 300);
-        return;
-      }
-      lastY = window.scrollY;
-      acc = 0;
-      armed = true;
-      const vh = window.innerHeight;
-      const rect = track.getBoundingClientRect();
-      if (rect.top <= 0 && rect.bottom >= vh && track.offsetHeight > vh) {
-        const span = track.offsetHeight - vh;
-        const p = clamp01(-rect.top / span);
-        node = nearestNode(p);
-        if (Math.abs(NODES[node] - p) > EPS) {
-          armed = false;
-          glideToNode(node, () => cooldown());
+        if (mode === "in") {
+          for (let k = 0; k < sceneLines.length; k++) {
+            const x = clamp01((t - k * st) / LINE_T);
+            const line = sceneLines[k];
+            line.style.opacity = x.toFixed(3);
+            line.style.transform = `translate3d(0, ${((1 - x) * DROP).toFixed(2)}px, 0)`;
+          }
+          el.style.pointerEvents = t > 0.4 ? "auto" : "none";
+        } else {
+          for (let k = 0; k < sceneLines.length; k++) {
+            const line = sceneLines[k];
+            line.style.opacity = "1";
+            line.style.transform = "translate3d(0, 0px, 0)";
+          }
+          el.style.pointerEvents = mode === "dwell" ? "auto" : t < 0.6 ? "auto" : "none";
         }
       }
     };
@@ -342,86 +340,32 @@ function ScrollyStage() {
     const request = () => {
       if (!raf) raf = requestAnimationFrame(paint);
     };
-
-    const onScroll = () => {
+    const onScroll = () => request();
+    const onResize = () => {
+      measureSticky();
       request();
-      if (gliding) return; // 换节滑动期间吞掉后续滚动
-      const y = window.scrollY;
-      const dy = y - lastY;
-      lastY = y;
-
-      if (!armed) {
-        window.clearTimeout(armTimer);
-        armTimer = window.setTimeout(arm, 180);
-        return;
-      }
-
-      const rect = track.getBoundingClientRect();
-      const vh = window.innerHeight;
-      if (rect.top > 0 || rect.bottom < vh || track.offsetHeight <= vh) {
-        acc = 0; // 舞台没钉满视口：不判手势
-        return;
-      }
-
-      if (dy * acc < 0) acc = 0; // 方向反转，重新累计
-      acc += dy;
-
-      const span = track.offsetHeight - vh;
-      node = nearestNode(clamp01(-rect.top / span)); // 以实际位置校准节点
-
-      if (acc >= GESTURE && node < n) {
-        node += 1;
-        armed = false;
-        glideToNode(node, () => cooldown());
-      } else if (acc <= -GESTURE && node > 0) {
-        node -= 1;
-        armed = false;
-        glideToNode(node, () => cooldown());
-      }
     };
 
-    // 顶栏锚点（href="#..."）的平滑滚动会穿过本段，点击后 2.5s 内跳过拦截
-    const onDocClick = (e: MouseEvent) => {
-      const target = e.target as HTMLElement | null;
-      if (!target?.closest('a[href^="#"]')) return;
-      passThrough = true;
-      armed = false;
-      cancelGlide();
-      window.clearTimeout(armTimer);
-      window.clearTimeout(passTimer);
-      passTimer = window.setTimeout(() => {
-        passThrough = false;
-      }, 2500);
-    };
-
-    const onResize = () => request();
-
-    // 初始：按当前位置校准节点，不自动滑动
-    {
-      const vh = window.innerHeight;
-      const rect = track.getBoundingClientRect();
-      if (track.offsetHeight > vh && rect.top <= 0 && rect.bottom >= vh) {
-        node = nearestNode(clamp01(-rect.top / (track.offsetHeight - vh)));
-      }
-    }
+    measureSticky();
     paint();
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onResize);
-    document.addEventListener("click", onDocClick, true);
+    let ro: ResizeObserver | null = null;
+    if (typeof ResizeObserver !== "undefined") {
+      ro = new ResizeObserver(() => request());
+      ro.observe(track);
+    }
     return () => {
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onResize);
-      document.removeEventListener("click", onDocClick, true);
-      window.clearTimeout(armTimer);
-      window.clearTimeout(passTimer);
-      cancelGlide();
+      if (ro) ro.disconnect();
       if (raf) cancelAnimationFrame(raf);
     };
   }, []);
 
   return (
     <div ref={trackRef} className="relative" style={{ height: `${FEATURES.length * 90 + 100}vh` }}>
-      <div className="sticky flex items-center overflow-hidden" style={{ top: STICKY_TOP, height: `calc(100vh - ${STICKY_TOP}px)` }}>
+      <div ref={stickyRef} className="sticky flex items-center overflow-hidden" style={{ top: STICKY_TOP_FALLBACK, height: `calc(100vh - ${STICKY_TOP_FALLBACK}px)` }}>
         {/* 进度轨：与场景共用同一条滚动进度，只作位置提示 */}
         <div className="absolute inset-x-0 bottom-7 flex justify-center" aria-hidden>
           <div className="h-px w-28 overflow-hidden rounded-full bg-watermark">
