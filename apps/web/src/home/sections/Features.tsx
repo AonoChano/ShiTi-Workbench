@@ -172,19 +172,27 @@ function StaticRow({ feature, index }: { feature: Feature; index: number }) {
 }
 
 /* ------------------------------------------------------------------ */
-/* 滚动驱动的粘性叙事（scrollytelling）                                  */
+/* 滚动驱动的粘性叙事（scrollytelling）+ 节点吸附                        */
 /*                                                                      */
 /* 整段只有一条时间线：轨道高 = 场景数 × 90vh + 100vh，舞台 sticky 钉在   */
 /* 视口里（让出 60px 的站点顶栏）。滚动进度 p ∈ [0,1] 由轨道位置归一化    */
-/* 得出，每个场景占 1/n 的时间片，片内三段：                             */
-/*   淡入（自右侧 DRIFT px 移入）→ 停留 → 淡出（向左移出）               */
-/* 首场景开场即在台上，末场景不退场。所有样式都由 p 一次性算出（scrub）， */
+/* 得出，每个场景占 1/n 的时间片，所有可见样式都由 p 一次性算出（scrub），*/
 /* 不经过任何时间动画，可倒着滚、可停在任何位置。                        */
+/*                                                                      */
+/* 场景交接：旧场景整体向上浮出并淡化（快速），新场景同时开始逐行浮现     */
+/* （图框先落位，eyebrow → 标题 → 正文 → 条目依次错峰，与全站 Reveal     */
+/* 同一种入场语汇）。交接窗互相重叠，台上永远不会有全空的一刻。           */
+/*                                                                      */
+/* 节点吸附：滚动停下时若停在交接窗内，自动滑向最近的完整停留节点；       */
+/* 停在某个场景的停留区里则不挪动。滑动可被滚轮/触摸/按键随时打断。       */
 /* ------------------------------------------------------------------ */
 
 const SLOT = 1 / FEATURES.length; // 每个场景占的时间片
-const FADE = 0.08; // 一次淡入或淡出占整条时间线的比例
-const DRIFT = 26; // 进出场水平位移（px）
+const EXIT = 0.04; // 旧场景上浮淡出占整条时间线的比例（快速）
+const LINE = 0.024; // 单行文字浮现所占的进度
+const STEP = 0.008; // 相邻两行的错峰间隔
+const RISE = 56; // 退场整体上浮距离（px）
+const DROP = 10; // 单行入场的起始下坠（px）
 const STICKY_TOP = 60; // 与 home.css .site-header 的高度一致
 
 const clamp01 = (v: number) => Math.min(1, Math.max(0, v));
@@ -198,40 +206,133 @@ function ScrollyStage() {
     const track = trackRef.current;
     if (!track) return;
     const n = FEATURES.length;
+    // 每个场景里参与逐行入场的元素（DOM 序 = 图框、eyebrow、标题、正文、各条目）
+    const lines = sceneRefs.current.map((el) =>
+      el ? Array.from(el.querySelectorAll<HTMLElement>("[data-reveal]")) : [],
+    );
+    const tail = (Math.max(1, ...lines.map((l) => l.length)) - 1) * STEP + LINE;
     let raf = 0;
+    let settleTimer = 0;
+    let glideRaf = 0;
+    let gliding = false;
 
     const paint = () => {
       raf = 0;
-      const span = track.offsetHeight - window.innerHeight;
+      const vh = window.innerHeight;
+      const span = track.offsetHeight - vh;
       const p = span > 0 ? clamp01(-track.getBoundingClientRect().top / span) : 0;
 
       if (railRef.current) railRef.current.style.transform = `scaleX(${p.toFixed(4)})`;
 
-      FEATURES.forEach((_, i) => {
+      for (let i = 0; i < n; i++) {
         const el = sceneRefs.current[i];
-        if (!el) return;
-        const eIn = i === 0 ? 1 : clamp01((p - i * SLOT) / FADE);
-        const eOut = i === n - 1 ? 0 : clamp01((p - ((i + 1) * SLOT - FADE)) / FADE);
-        const opacity = eIn * (1 - eOut);
-        const x = (1 - eIn) * DRIFT - eOut * DRIFT;
-        const scale = 1 - 0.015 * (1 - eIn + eOut);
+        if (!el) continue;
+        const bIn = i * SLOT;
+        const bOut = (i + 1) * SLOT;
+        const eOut = i === n - 1 ? 0 : clamp01((p - (bOut - EXIT)) / EXIT);
+        const opacity = 1 - eOut;
+        const active = p >= bIn - EXIT - 0.002 && p <= bOut + 0.002;
+
         el.style.opacity = opacity.toFixed(3);
-        el.style.transform = `translate3d(${x.toFixed(2)}px, 0, 0) scale(${scale.toFixed(4)})`;
-        el.style.visibility = opacity <= 0.001 ? "hidden" : "visible";
-        el.setAttribute("aria-hidden", opacity < 0.05 ? "true" : "false");
-      });
+        el.style.transform = `translate3d(0, ${(-RISE * eOut).toFixed(2)}px, 0)`;
+        el.style.visibility = !active || opacity <= 0.001 ? "hidden" : "visible";
+        el.setAttribute("aria-hidden", !active || opacity < 0.05 ? "true" : "false");
+
+        if (!active) continue;
+        const sceneLines = lines[i];
+        for (let k = 0; k < sceneLines.length; k++) {
+          const x = i === 0 ? 1 : clamp01((p - (bIn - EXIT + k * STEP)) / LINE);
+          const line = sceneLines[k];
+          line.style.opacity = x.toFixed(3);
+          line.style.transform = `translate3d(0, ${((1 - x) * DROP).toFixed(2)}px, 0)`;
+        }
+      }
+    };
+
+    /* —— 节点吸附 —— */
+    const cancelGlide = () => {
+      if (glideRaf) cancelAnimationFrame(glideRaf);
+      glideRaf = 0;
+      gliding = false;
+    };
+
+    /** 场景 i 完整停留区中点对应的文档坐标 */
+    const nodeScrollY = (i: number, trackTop: number, span: number) => {
+      const holdStart = i * SLOT + (tail - EXIT);
+      const holdEnd = i === n - 1 ? 1 : (i + 1) * SLOT - EXIT;
+      return trackTop + ((holdStart + holdEnd) / 2) * span;
+    };
+
+    const glideTo = (targetY: number) => {
+      cancelGlide();
+      const startY = window.scrollY;
+      const dist = targetY - startY;
+      if (Math.abs(dist) < 2) return;
+      const dur = Math.min(700, 260 + Math.abs(dist) * 0.35);
+      let start = 0;
+      gliding = true;
+      const step = (ts: number) => {
+        if (!gliding) return;
+        if (!start) start = ts;
+        const t = Math.min(1, (ts - start) / dur);
+        window.scrollTo(0, startY + dist * (1 - Math.pow(1 - t, 3)));
+        if (t < 1) {
+          glideRaf = requestAnimationFrame(step);
+        } else {
+          gliding = false;
+          glideRaf = 0;
+        }
+      };
+      glideRaf = requestAnimationFrame(step);
+    };
+
+    const settle = () => {
+      cancelGlide();
+      const vh = window.innerHeight;
+      const rect = track.getBoundingClientRect();
+      if (rect.top > 0 || rect.bottom < vh) return; // 舞台没钉满视口时不吸附
+      const span = track.offsetHeight - vh;
+      if (span <= 0) return;
+      const p = clamp01(-rect.top / span);
+      const trackTop = rect.top + window.scrollY;
+      for (let i = 1; i < n; i++) {
+        const b = i * SLOT;
+        if (p > b - EXIT - 0.003 && p < b + (tail - EXIT) + 0.003) {
+          const cur = window.scrollY;
+          const before = nodeScrollY(i - 1, trackTop, span);
+          const after = nodeScrollY(i, trackTop, span);
+          glideTo(Math.abs(before - cur) <= Math.abs(after - cur) ? before : after);
+          return;
+        }
+      }
     };
 
     const request = () => {
       if (!raf) raf = requestAnimationFrame(paint);
     };
+    const onScroll = () => {
+      request();
+      if (gliding) return; // 吸附滑动自身触发的滚动不再排程吸附
+      window.clearTimeout(settleTimer);
+      settleTimer = window.setTimeout(settle, 150);
+    };
+    const onResize = () => request();
+    const onUserInput = () => cancelGlide();
 
     paint();
-    window.addEventListener("scroll", request, { passive: true });
-    window.addEventListener("resize", request);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onResize);
+    window.addEventListener("wheel", onUserInput, { passive: true });
+    window.addEventListener("touchstart", onUserInput, { passive: true });
+    window.addEventListener("keydown", onUserInput);
     return () => {
-      window.removeEventListener("scroll", request);
-      window.removeEventListener("resize", request);
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onResize);
+      window.removeEventListener("wheel", onUserInput);
+      window.removeEventListener("touchstart", onUserInput);
+      window.removeEventListener("keydown", onUserInput);
+      window.clearTimeout(settleTimer);
+      cancelGlide();
       if (raf) cancelAnimationFrame(raf);
     };
   }, []);
@@ -259,19 +360,25 @@ function ScrollyStage() {
               aria-hidden={i === 0 ? undefined : "true"}
             >
               <div className="wrap grid w-full items-center gap-8 lg:grid-cols-12 lg:gap-12">
-                <div className={cn("lg:col-span-7", imageRight && "lg:order-2")}>
+                <div data-reveal className={cn("lg:col-span-7", imageRight && "lg:order-2")}>
                   {/* 真图放到 public/screenshots/ 即自动替换，编号见 FEATURES 数组内的 SCREENSHOT-PLACEHOLDER 注释 */}
                   <ScreenshotFrame id={feature.shot} />
                 </div>
                 <div className={cn("lg:col-span-5", imageRight && "lg:order-1")}>
-                  <span className="eyebrow">{feature.eyebrow}</span>
-                  <h3 className="h-section mt-3">{feature.title}</h3>
-                  <p className="lede mt-4">{feature.body}</p>
+                  <span data-reveal className="eyebrow">
+                    {feature.eyebrow}
+                  </span>
+                  <h3 data-reveal className="h-section mt-3">
+                    {feature.title}
+                  </h3>
+                  <p data-reveal className="lede mt-4">
+                    {feature.body}
+                  </p>
                   <ul className="mt-6 space-y-2.5">
                     {feature.bullets.map((bullet) => {
                       const Icon = bullet.icon;
                       return (
-                        <li key={bullet.text} className="flex items-center gap-3 text-[13.5px] text-option">
+                        <li data-reveal key={bullet.text} className="flex items-center gap-3 text-[13.5px] text-option">
                           <span className="icon-block icon-sage h-7 w-7 rounded-[7px]">
                             <Icon size={14} strokeWidth={1.7} />
                           </span>
