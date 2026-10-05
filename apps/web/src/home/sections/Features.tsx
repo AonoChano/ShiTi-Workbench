@@ -172,28 +172,33 @@ function StaticRow({ feature, index }: { feature: Feature; index: number }) {
 }
 
 /* ------------------------------------------------------------------ */
-/* 滚动驱动的粘性叙事（scrollytelling）+ 节点吸附                        */
+/* 滚动驱动的粘性叙事（scrollytelling）+ 节点跳转                        */
 /*                                                                      */
 /* 整段只有一条时间线：轨道高 = 场景数 × 90vh + 100vh，舞台 sticky 钉在   */
 /* 视口里（让出 60px 的站点顶栏）。滚动进度 p ∈ [0,1] 由轨道位置归一化    */
-/* 得出，每个场景占 1/n 的时间片，所有可见样式都由 p 一次性算出（scrub），*/
-/* 不经过任何时间动画，可倒着滚、可停在任何位置。                        */
+/* 得出，所有可见样式都由 p 一次性算出（scrub），可倒着滚、不经过时间动画。*/
 /*                                                                      */
-/* 场景交接：旧场景整体向上浮出并淡化（快速），新场景同时开始逐行浮现     */
-/* （图框先落位，eyebrow → 标题 → 正文 → 条目依次错峰，与全站 Reveal     */
-/* 同一种入场语汇）。交接窗互相重叠，台上永远不会有全空的一刻。           */
+/* 节点：进度条的 0% / 25% / 50% / 75% / 100%，即各场景交接完成的位置。    */
+/* 过渡全部收在节点前的最后一个窗口里：旧场景整体向上快速浮出并淡化，      */
+/* 新场景同时逐行浮现（图框先落位，eyebrow → 标题 → 正文 → 条目依次错峰），*/
+/* 两者在节点处同时完成——节点上永远是完整场景，台上没有全空的一刻。       */
 /*                                                                      */
-/* 节点吸附：滚动停下时若停在交接窗内，自动滑向最近的完整停留节点；       */
-/* 停在某个场景的停留区里则不挪动。滑动可被滚轮/触摸/按键随时打断。       */
+/* 手势跳转：停在节点上时，滚动约 10px 即提交一次换节——向下换下一节点，   */
+/* 向上回弹上一节点，过渡动效在滑动的减速段里播放；滑动期间吞掉后续输入。  */
+/* 到站后有短暂冷却（等触控板惯性停），期间若惯性把页面带离节点，回弹到    */
+/* 最近的节点。0% 向上、100% 向下不拦截，自然滚出章节。                   */
+/* 顶栏锚点平滑滚动穿过本段时（点击导航后 2.5s 内）跳过全部拦截。         */
 /* ------------------------------------------------------------------ */
 
 const SLOT = 1 / FEATURES.length; // 每个场景占的时间片
-const EXIT = 0.04; // 旧场景上浮淡出占整条时间线的比例（快速）
-const LINE = 0.024; // 单行文字浮现所占的进度
-const STEP = 0.008; // 相邻两行的错峰间隔
+const XOUT = 0.05; // 交接窗：旧场景上浮淡出 + 新场景逐行浮现，恰好在节点处收尾
+const LINE = 0.02; // 单行文字浮现所占的进度
 const RISE = 56; // 退场整体上浮距离（px）
 const DROP = 10; // 单行入场的起始下坠（px）
+const GESTURE = 10; // 触发换节的最小滚动量（px）
+const EPS = 0.004; // 判定“停在节点上”的进度容差
 const STICKY_TOP = 60; // 与 home.css .site-header 的高度一致
+const NODES = [...FEATURES.map((_, i) => i / FEATURES.length), 1]; // 0% 25% 50% 75% 100%
 
 const clamp01 = (v: number) => Math.min(1, Math.max(0, v));
 
@@ -210,11 +215,18 @@ function ScrollyStage() {
     const lines = sceneRefs.current.map((el) =>
       el ? Array.from(el.querySelectorAll<HTMLElement>("[data-reveal]")) : [],
     );
-    const tail = (Math.max(1, ...lines.map((l) => l.length)) - 1) * STEP + LINE;
+    const step = (XOUT - LINE) / Math.max(1, Math.max(1, ...lines.map((l) => l.length)) - 1);
+
     let raf = 0;
-    let settleTimer = 0;
     let glideRaf = 0;
     let gliding = false;
+    let armTimer = 0;
+    let passThrough = false; // 锚点平滑滚动穿越期间不拦截
+    let passTimer = 0;
+    let armed = true;
+    let node = 0; // 当前节点序号（0..n）
+    let acc = 0; // 手势累计滚动量
+    let lastY = window.scrollY;
 
     const paint = () => {
       raf = 0;
@@ -229,9 +241,9 @@ function ScrollyStage() {
         if (!el) continue;
         const bIn = i * SLOT;
         const bOut = (i + 1) * SLOT;
-        const eOut = i === n - 1 ? 0 : clamp01((p - (bOut - EXIT)) / EXIT);
+        const eOut = i === n - 1 ? 0 : clamp01((p - (bOut - XOUT)) / XOUT);
         const opacity = 1 - eOut;
-        const active = p >= bIn - EXIT - 0.002 && p <= bOut + 0.002;
+        const active = p >= bIn - XOUT - 0.002 && p <= bOut + 0.002;
 
         el.style.opacity = opacity.toFixed(3);
         el.style.transform = `translate3d(0, ${(-RISE * eOut).toFixed(2)}px, 0)`;
@@ -241,7 +253,7 @@ function ScrollyStage() {
         if (!active) continue;
         const sceneLines = lines[i];
         for (let k = 0; k < sceneLines.length; k++) {
-          const x = i === 0 ? 1 : clamp01((p - (bIn - EXIT + k * STEP)) / LINE);
+          const x = i === 0 ? 1 : clamp01((p - (bIn - XOUT + k * step)) / LINE);
           const line = sceneLines[k];
           line.style.opacity = x.toFixed(3);
           line.style.transform = `translate3d(0, ${((1 - x) * DROP).toFixed(2)}px, 0)`;
@@ -249,60 +261,80 @@ function ScrollyStage() {
       }
     };
 
-    /* —— 节点吸附 —— */
+    /* —— 节点跳转 —— */
     const cancelGlide = () => {
       if (glideRaf) cancelAnimationFrame(glideRaf);
       glideRaf = 0;
       gliding = false;
     };
 
-    /** 场景 i 完整停留区中点对应的文档坐标 */
-    const nodeScrollY = (i: number, trackTop: number, span: number) => {
-      const holdStart = i * SLOT + (tail - EXIT);
-      const holdEnd = i === n - 1 ? 1 : (i + 1) * SLOT - EXIT;
-      return trackTop + ((holdStart + holdEnd) / 2) * span;
+    const nearestNode = (p: number) => {
+      let best = 0;
+      for (let k = 1; k < NODES.length; k++) {
+        if (Math.abs(NODES[k] - p) < Math.abs(NODES[best] - p)) best = k;
+      }
+      return best;
     };
 
-    const glideTo = (targetY: number) => {
+    const glideTo = (targetY: number, onDone?: () => void) => {
       cancelGlide();
       const startY = window.scrollY;
       const dist = targetY - startY;
-      if (Math.abs(dist) < 2) return;
-      const dur = Math.min(700, 260 + Math.abs(dist) * 0.35);
+      if (Math.abs(dist) < 2) {
+        onDone?.();
+        return;
+      }
+      const dur = Math.min(650, 240 + Math.abs(dist) * 0.3);
       let start = 0;
       gliding = true;
-      const step = (ts: number) => {
+      const stepGlide = (ts: number) => {
         if (!gliding) return;
         if (!start) start = ts;
         const t = Math.min(1, (ts - start) / dur);
         window.scrollTo(0, startY + dist * (1 - Math.pow(1 - t, 3)));
         if (t < 1) {
-          glideRaf = requestAnimationFrame(step);
+          glideRaf = requestAnimationFrame(stepGlide);
         } else {
           gliding = false;
           glideRaf = 0;
+          onDone?.();
         }
       };
-      glideRaf = requestAnimationFrame(step);
+      glideRaf = requestAnimationFrame(stepGlide);
     };
 
-    const settle = () => {
-      cancelGlide();
+    const glideToNode = (k: number, onDone?: () => void) => {
+      const vh = window.innerHeight;
+      const span = track.offsetHeight - vh;
+      const trackTop = track.getBoundingClientRect().top + window.scrollY;
+      glideTo(trackTop + NODES[k] * span, onDone);
+    };
+
+    /** 到站冷却：等滚动（触控板惯性）完全安静后重新武装 */
+    const cooldown = () => {
+      armed = false;
+      window.clearTimeout(armTimer);
+      armTimer = window.setTimeout(arm, 180);
+    };
+
+    /** 重新武装：校准当前节点；惯性把页面带离了节点就回弹 */
+    const arm = () => {
+      if (passThrough) {
+        armTimer = window.setTimeout(arm, 300);
+        return;
+      }
+      lastY = window.scrollY;
+      acc = 0;
+      armed = true;
       const vh = window.innerHeight;
       const rect = track.getBoundingClientRect();
-      if (rect.top > 0 || rect.bottom < vh) return; // 舞台没钉满视口时不吸附
-      const span = track.offsetHeight - vh;
-      if (span <= 0) return;
-      const p = clamp01(-rect.top / span);
-      const trackTop = rect.top + window.scrollY;
-      for (let i = 1; i < n; i++) {
-        const b = i * SLOT;
-        if (p > b - EXIT - 0.003 && p < b + (tail - EXIT) + 0.003) {
-          const cur = window.scrollY;
-          const before = nodeScrollY(i - 1, trackTop, span);
-          const after = nodeScrollY(i, trackTop, span);
-          glideTo(Math.abs(before - cur) <= Math.abs(after - cur) ? before : after);
-          return;
+      if (rect.top <= 0 && rect.bottom >= vh && track.offsetHeight > vh) {
+        const span = track.offsetHeight - vh;
+        const p = clamp01(-rect.top / span);
+        node = nearestNode(p);
+        if (Math.abs(NODES[node] - p) > EPS) {
+          armed = false;
+          glideToNode(node, () => cooldown());
         }
       }
     };
@@ -310,28 +342,78 @@ function ScrollyStage() {
     const request = () => {
       if (!raf) raf = requestAnimationFrame(paint);
     };
+
     const onScroll = () => {
       request();
-      if (gliding) return; // 吸附滑动自身触发的滚动不再排程吸附
-      window.clearTimeout(settleTimer);
-      settleTimer = window.setTimeout(settle, 150);
-    };
-    const onResize = () => request();
-    const onUserInput = () => cancelGlide();
+      if (gliding) return; // 换节滑动期间吞掉后续滚动
+      const y = window.scrollY;
+      const dy = y - lastY;
+      lastY = y;
 
+      if (!armed) {
+        window.clearTimeout(armTimer);
+        armTimer = window.setTimeout(arm, 180);
+        return;
+      }
+
+      const rect = track.getBoundingClientRect();
+      const vh = window.innerHeight;
+      if (rect.top > 0 || rect.bottom < vh || track.offsetHeight <= vh) {
+        acc = 0; // 舞台没钉满视口：不判手势
+        return;
+      }
+
+      if (dy * acc < 0) acc = 0; // 方向反转，重新累计
+      acc += dy;
+
+      const span = track.offsetHeight - vh;
+      node = nearestNode(clamp01(-rect.top / span)); // 以实际位置校准节点
+
+      if (acc >= GESTURE && node < n) {
+        node += 1;
+        armed = false;
+        glideToNode(node, () => cooldown());
+      } else if (acc <= -GESTURE && node > 0) {
+        node -= 1;
+        armed = false;
+        glideToNode(node, () => cooldown());
+      }
+    };
+
+    // 顶栏锚点（href="#..."）的平滑滚动会穿过本段，点击后 2.5s 内跳过拦截
+    const onDocClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (!target?.closest('a[href^="#"]')) return;
+      passThrough = true;
+      armed = false;
+      cancelGlide();
+      window.clearTimeout(armTimer);
+      window.clearTimeout(passTimer);
+      passTimer = window.setTimeout(() => {
+        passThrough = false;
+      }, 2500);
+    };
+
+    const onResize = () => request();
+
+    // 初始：按当前位置校准节点，不自动滑动
+    {
+      const vh = window.innerHeight;
+      const rect = track.getBoundingClientRect();
+      if (track.offsetHeight > vh && rect.top <= 0 && rect.bottom >= vh) {
+        node = nearestNode(clamp01(-rect.top / (track.offsetHeight - vh)));
+      }
+    }
     paint();
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onResize);
-    window.addEventListener("wheel", onUserInput, { passive: true });
-    window.addEventListener("touchstart", onUserInput, { passive: true });
-    window.addEventListener("keydown", onUserInput);
+    document.addEventListener("click", onDocClick, true);
     return () => {
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onResize);
-      window.removeEventListener("wheel", onUserInput);
-      window.removeEventListener("touchstart", onUserInput);
-      window.removeEventListener("keydown", onUserInput);
-      window.clearTimeout(settleTimer);
+      document.removeEventListener("click", onDocClick, true);
+      window.clearTimeout(armTimer);
+      window.clearTimeout(passTimer);
       cancelGlide();
       if (raf) cancelAnimationFrame(raf);
     };
