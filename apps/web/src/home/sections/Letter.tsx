@@ -20,7 +20,18 @@ export function Letter() {
           <p>祝你顺利。</p>
         </div>
         <div className="mt-8 flex items-center gap-3 border-t border-divider pt-6">
-          <span className="icon-block icon-sage font-serif text-[16px]">A</span>
+          <span className="icon-block icon-sage overflow-hidden">
+            <img
+              src="/images/aonochano-avatar.png"
+              alt=""
+              width={38}
+              height={38}
+              loading="lazy"
+              decoding="async"
+              draggable={false}
+              className="h-full w-full object-cover"
+            />
+          </span>
           <div>
             <div className="text-[13.5px] font-semibold text-heading">{SITE.author}</div>
             <div className="meta">
