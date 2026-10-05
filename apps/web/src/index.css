@@ -20,18 +20,23 @@
   --green: #536f43;
 }
 
-* { box-sizing: border-box; }
-body { margin: 0; min-width: 320px; }
-button, input, select, textarea { font: inherit; }
-button { cursor: pointer; -webkit-tap-highlight-color: transparent; }
-button:disabled { cursor: default; }
-button, a, input, select, textarea { outline-offset: 4px; }
-button:focus-visible, a:focus-visible { outline: 2px solid #87a96b; }
-input::placeholder, textarea::placeholder { color: #a5ab9c; }
-input, textarea { outline-color: #8ca575; }
-button { border: 0; background: none; }
-svg { flex-shrink: 0; }
-h1, h2, h3, h4, p { margin: 0; }
+/* 基础重置放进 @layer base：无 layer 的样式永远压过 Tailwind 的 @layer utilities，
+   曾导致登录按钮 .bg-action 被 button{background:none} 打掉（白底白字隐形）。
+   与 Tailwind preflight 同层且靠后，仍覆盖 preflight；工具类从此能正常赢过重置 */
+@layer base {
+  * { box-sizing: border-box; }
+  body { margin: 0; min-width: 320px; }
+  button, input, select, textarea { font: inherit; }
+  button { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  button:disabled { cursor: default; }
+  button, a, input, select, textarea { outline-offset: 4px; }
+  button:focus-visible, a:focus-visible { outline: 2px solid #87a96b; }
+  input::placeholder, textarea::placeholder { color: #a5ab9c; }
+  input, textarea { outline-color: #8ca575; }
+  button { border: 0; background: none; }
+  svg { flex-shrink: 0; }
+  h1, h2, h3, h4, p { margin: 0; }
+}
 ::selection { background: #dce8cc; color: #3c5033; }
 /* 滚动条：4px 圆头细杆浮于内容上，悬停显色、按下最深。@supports not 包裹是给
    Firefox 的降级——Chromium 121+ 一旦命中标准 scrollbar-width/color 就会禁用
