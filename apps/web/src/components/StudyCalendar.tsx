@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ArrowRight, Check, ChevronLeft, ChevronRight, Plus } from 'lucide-react';
-import { daysAgo, localDate } from '../demo';
-import type { StudyTask } from '../demo';
+import { daysAgo, localDate } from '../model';
+import type { StudyTask } from '../model';
 
 interface StudyCalendarProps {
   tasks: StudyTask[];

@@ -1037,3 +1037,117 @@ button.sidebar-close, button.mobile-menu-button, .sidebar-scrim { display: none;
 /* 概览「按题型练习」跳转专项后的定位高光：脉冲两次后保持描边，5 秒自动消退 */
 .specialty-module.is-focus { outline: 2px solid #87a96b; outline-offset: 4px; animation: module-focus 1.5s ease 2; }
 @keyframes module-focus { 0%, 100% { outline-color: #87a96b; } 50% { outline-color: #b7cba3; outline-offset: 8px; } }
+
+/* ═══════════════════════════════════════════════════════════════
+   登录 / 注册页（auth 模块）设计令牌
+   鼠尾草绿谱系 + 陶土 / 麦色"铅笔批注"色，与主界面同一色系血脉。
+   ═══════════════════════════════════════════════════════════════ */
+@theme static {
+  --font-serif: Georgia, "Times New Roman", "Noto Sans SC", "PingFang SC", serif;
+
+  /* 纸色三阶 */
+  --color-paper: #f7f8f4;
+  --color-material: #fafbf6;
+  --color-card: #ffffff;
+
+  /* 边框 / 分隔 */
+  --color-line: #e7ebdf;
+  --color-line-strong: #dae1cd;
+  --color-hairline: #f0f3e9;
+
+  /* 文字：墨绿灰一路淡下去 */
+  --color-heading: #465b39;
+  --color-heading-deep: #333e2e;
+  --color-body: #5a6850;
+  --color-option: #657b51;
+  --color-muted: #7f9070;
+  --color-faint: #a4b392;
+  --color-placeholder: #b2bea3;
+  --color-picked: #3c5033;
+
+  /* 动作绿 */
+  --color-brand: #4b6c45;
+  --color-action: #526f43;
+  --color-action-hover: #4a6540;
+  --color-focus: #87a96b;
+
+  /* 填充与状态 */
+  --color-leaf: #819c65;
+  --color-fill: #a9c491;
+  --color-fill-soft: #b3c998;
+  --color-wash: #edf2e7;
+  --color-tint: #dce8cc;
+  --color-sage-block: #e9eedf;
+
+  /* 陶土：错误（不是警报红，是铅笔批注） */
+  --color-clay: #c4a08c;
+  --color-clay-ink: #a4694c;
+  --color-clay-wash: #fbf4ef;
+  --color-clay-line: #eedacd;
+
+  /* 麦色：警告 / 提示 */
+  --color-wheat: #c1aa8e;
+  --color-wheat-ink: #8f7650;
+  --color-wheat-wash: #fbf8f0;
+  --color-wheat-line: #ebdfca;
+
+  /* 圆角阶梯 3 → 5 → 8 → 9 → 12 */
+  --radius-xs: 3px;
+  --radius-input: 5px;
+  --radius-chip: 8px;
+  --radius-card: 9px;
+  --radius-panel: 12px;
+
+  /* 阴影只给真正悬浮的东西，带绿黑调 */
+  --shadow-float: 0 28px 70px -32px #23391733, 0 2px 6px -2px #2339170f;
+  --shadow-button: 0 6px 14px -4px #42573055;
+  --shadow-bead: 0 0 0 3px #fff, 0 4px 10px -2px #42573055;
+
+  /* 小字刻度 */
+  --text-micro: 9px;
+  --text-meta: 10px;
+  --text-small: 11px;
+  --text-ui: 12px;
+  --text-control: 13px;
+
+  --ease-paper: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* ── auth 模块组件类：全部收在 .auth-root 作用域内，避免与主界面同名类互染 ── */
+.auth-root {
+  font-family: var(--font-sans);
+  background: var(--color-paper);
+  color: #303a2e;
+  min-height: 100vh;
+}
+.auth-root .auth-eyebrow,
+.auth-root .eyebrow { font-size: 9px; font-weight: 600; letter-spacing: 1.8px; text-transform: uppercase; color: var(--color-leaf); }
+.auth-root .meta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 8px; }
+.auth-root .meta-row > span + span::before { content: ""; display: inline-block; width: 2px; height: 2px; margin-right: 8px; border-radius: 9999px; background: currentColor; opacity: 0.6; vertical-align: middle; }
+.auth-root .stem-mark { background: linear-gradient(177deg, transparent 54%, var(--color-tint) 54%); border-bottom: 2px solid var(--color-fill-soft); padding: 0 1px; }
+.auth-root .ruled-bg { background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 37px, #eef1e6 37px, #eef1e6 38px); }
+.auth-root .reveal { animation: auth-reveal 450ms var(--ease-paper) both; animation-delay: calc(var(--i, 0) * 70ms); }
+.auth-root .reveal-fast { animation: auth-reveal 260ms var(--ease-paper) both; animation-delay: calc(var(--i, 0) * 40ms); }
+.auth-root .draw-check path { stroke-dasharray: 24; stroke-dashoffset: 24; animation: auth-draw 420ms 60ms var(--ease-paper) forwards; }
+.auth-root :focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+/* 浏览器自动填充：去掉默认的黄 / 蓝底，保持纸色 */
+.auth-root input:-webkit-autofill,
+.auth-root input:-webkit-autofill:hover,
+.auth-root input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #303a2e;
+  -webkit-box-shadow: 0 0 0 40px #fff inset;
+  caret-color: #303a2e;
+  transition: background-color 9999s ease-out 0s;
+}
+@keyframes auth-reveal { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes auth-draw { to { stroke-dashoffset: 0; } }
+@keyframes auth-splash { 0% { transform: translateX(-110%); } 100% { transform: translateX(310%); } }
+@media (prefers-reduced-motion: reduce) {
+  .auth-root *, .auth-root *::before, .auth-root *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

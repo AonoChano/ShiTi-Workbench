@@ -230,6 +230,10 @@ export function readPreferences(userJson: string): UserPreferences {
 export function updatePreferences(h: DbHandle, userId: string, patch: UserPreferences): UserPreferences {
   const row = h.db.prepare('SELECT preferences_json FROM users WHERE id = ?').get(userId) as { preferences_json: string };
   const next = { ...readPreferences(row.preferences_json), ...patch };
+  // 空串 / undefined 的字段表示清除该偏好
+  for (const key of Object.keys(next) as Array<keyof UserPreferences>) {
+    if (next[key] === '' || next[key] === undefined) delete next[key];
+  }
   h.db.prepare('UPDATE users SET preferences_json = ?, updated_at = ? WHERE id = ?').run(JSON.stringify(next), nowIso(), userId);
   return next;
 }

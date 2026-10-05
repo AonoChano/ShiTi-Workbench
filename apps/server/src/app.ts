@@ -362,7 +362,8 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
     }
     if (body?.['target_date'] !== undefined) {
       const d = String(body['target_date']);
-      if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) throw badRequest('INVALID_TARGET_DATE', '目标日期格式应为 YYYY-MM-DD');
+      // 允许空串 = 清除目标日
+      if (d !== '' && !/^\d{4}-\d{2}-\d{2}$/.test(d)) throw badRequest('INVALID_TARGET_DATE', '目标日期格式应为 YYYY-MM-DD');
       patch.target_date = d;
     }
     if (patch.nickname) {

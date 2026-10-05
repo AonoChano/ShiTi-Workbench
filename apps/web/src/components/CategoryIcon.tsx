@@ -1,7 +1,7 @@
 import type { LucideIcon } from 'lucide-react';
 import { AlignLeft, BookOpen, Languages, PenLine } from 'lucide-react';
-import { categories } from '../demo';
-import type { CategoryKey } from '../demo';
+import { categories } from '../model';
+import type { CategoryKey } from '../model';
 
 export const categoryIcons: Record<CategoryKey, LucideIcon> = { reading: BookOpen, cloze: AlignLeft, translation: Languages, writing: PenLine };
 

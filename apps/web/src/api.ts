@@ -1,5 +1,7 @@
 /** 极简 API 客户端：同源 /api/v1，统一错误体处理。 */
 
+import { UNAUTHORIZED_EVENT } from './auth/api/http';
+
 export interface ApiError extends Error {
   code: string;
   status: number;
@@ -14,6 +16,7 @@ export async function api<T = unknown>(method: string, path: string, body?: unkn
   });
   const json = (await res.json().catch(() => ({}))) as Record<string, unknown>;
   if (!res.ok) {
+    if (res.status === 401) window.dispatchEvent(new Event(UNAUTHORIZED_EVENT)); // 会话过期 → 回登录页
     const err = (json['error'] ?? {}) as Record<string, unknown>;
     const e = new Error(String(err['message'] ?? `请求失败（${res.status}）`)) as ApiError;
     e.code = String(err['code'] ?? 'UNKNOWN');

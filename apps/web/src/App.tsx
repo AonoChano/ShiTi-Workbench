@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
-import { AlignLeft, ArrowRight, ArrowUpRight, Bell, BookOpen, CalendarDays, Check, ChevronDown, ChevronRight, CircleHelp, GraduationCap, LayoutDashboard, Menu, NotebookTabs, PenLine, Search, Settings2, Sprout, Target, X } from 'lucide-react';
+import { AlignLeft, ArrowRight, ArrowUpRight, Bell, BookOpen, CalendarDays, Check, ChevronDown, ChevronRight, CircleHelp, GraduationCap, LayoutDashboard, LogOut, Menu, NotebookTabs, PenLine, Search, Settings2, Sprout, Target, X } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { api } from './api';
 import Modal from './components/Modal';
@@ -8,8 +8,12 @@ import { ProductTour } from './components/ProductTour';
 import type { TourStep } from './components/ProductTour';
 import { ToastProvider, useToast } from './components/Toast';
 import { usePersistedState } from './hooks';
-import { initialProfile, localDate } from './demo';
-import type { ExamType, Page, Profile } from './demo';
+import { localDate } from './model';
+import type { ExamType, Page } from './model';
+import { ProfileProvider, useProfile, type Profile } from './profile';
+import { AuthProvider, useAuth } from './auth/AuthContext';
+import LoginPage from './auth/pages/LoginPage';
+import SessionSplash from './auth/pages/SessionSplash';
 import { navigate, usePath } from './router';
 import { Overview } from './pages/Overview';
 import { Papers, yearOf } from './pages/Papers';
@@ -45,7 +49,7 @@ const TOUR_STEPS: TourStep[] = [
   { selector: '[data-tour="nav-mistakes"]', title: '错题会自己找上门', body: '交卷判分后，错题自动收进错题本，附上你的作答与参考答案，复盘不用翻卷子。' },
   { selector: '.header-search', title: 'Ctrl + K 全局搜索', body: '任何页面按下 Ctrl + K（或点搜索框），按年份或卷名直达试卷；Esc 关闭弹窗。' },
   { selector: '.exam-switch', title: '英语一 / 英语二', body: '在概览页右上角即可切换备考科目，真题库同样支持按科目筛选。' },
-  { selector: '.sidebar-profile', title: '数据都在这台电脑', body: '点这里设置昵称与目标考试日；所有作答与报告仅保存在本地工作区，不联网上传。' },
+  { selector: '.sidebar-profile', title: '账号与学习设置', body: '点这里修改昵称、备考科目与每日目标；所有作答与报告都保存在这台电脑的本地工作区里。' },
   { selector: '.sidebar-help', title: '随时再看这份导览', body: '点左下角「使用帮助」可以随时重新打开导览。准备好了，就从一份真题开始吧！' },
 ];
 
@@ -72,9 +76,10 @@ interface SearchSet { set_id: string; title: string; question_count: number; cur
 function Shell({ path }: { path: string }) {
   const { notify } = useToast();
   const page = pageFromPath(path);
+  const { user, signOut } = useAuth();
+  const { profile, save: saveProfile } = useProfile();
   const [mobileMenu, setMobileMenu] = useState(false);
-  const [profile, setProfile] = usePersistedState<Profile>('shiti-profile-v1', initialProfile);
-  const [settingsDraft, setSettingsDraft] = useState(profile);
+  const [settingsDraft, setSettingsDraft] = useState<Profile | null>(null);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [tourOpen, setTourOpen] = useState(false);
   const [notificationRead, setNotificationRead] = usePersistedState('shiti-notification-read-v1', false);
@@ -87,6 +92,7 @@ function Shell({ path }: { path: string }) {
   const notificationContainer = useRef<HTMLDivElement>(null);
 
   const currentPageLabel = navigation.find((item) => item.id === page)?.label || '备考指南';
+  const displayName = profile.nickname || user?.nickname || '拾题同学';
 
   // 首次访问自动进入功能导览；跳过或完成后不再自动弹出（左下角「使用帮助」可随时手动打开）
   useEffect(() => {
@@ -155,29 +161,38 @@ function Shell({ path }: { path: string }) {
       <span className="nav-caption">我的学习空间</span>
       <nav className="main-nav" aria-label="主导航">{navigation.map(({ id, label, icon: Icon }) => <button key={id} data-tour={`nav-${id}`} className={`nav-item ${page === id ? 'is-active' : ''}`} onClick={() => go(id)} aria-current={page === id ? 'page' : undefined}><Icon size={19} strokeWidth={1.65} /><span>{label}</span><span className="nav-active-dot" /></button>)}</nav>
       <div className="sidebar-secondary"><span className="nav-caption">更多</span><button className={`nav-item ${page === 'guide' ? 'is-active' : ''}`} onClick={() => go('guide')}><GraduationCap size={19} strokeWidth={1.65} /><span>备考指南</span><ArrowUpRight size={14} className="nav-end-icon" /></button></div>
-      <div className="sidebar-bottom"><div className="sidebar-encouragement"><Sprout size={28} strokeWidth={1.2} /><p>保持热爱，也保持耐心。</p><span>你走的每一步，都算数。</span></div><button className="sidebar-help" onClick={() => setTourOpen(true)}><CircleHelp size={17} /><span>使用帮助</span><ArrowUpRight size={13} /></button><button className="sidebar-profile" onClick={() => { setSettingsDraft(profile); setSettingsOpen(true); }}><span className="avatar">{profile.name.slice(0, 1)}</span><span className="profile-copy"><strong>{profile.name}</strong><span>{profile.exam} · 本地工作区</span></span><Settings2 size={16} /></button></div>
+      <div className="sidebar-bottom"><div className="sidebar-encouragement"><Sprout size={28} strokeWidth={1.2} /><p>保持热爱，也保持耐心。</p><span>你走的每一步，都算数。</span></div><button className="sidebar-help" onClick={() => setTourOpen(true)}><CircleHelp size={17} /><span>使用帮助</span><ArrowUpRight size={13} /></button><button className="sidebar-profile" onClick={() => { setSettingsDraft(profile); setSettingsOpen(true); }}><span className="avatar">{displayName.slice(0, 1)}</span><span className="profile-copy"><strong>{displayName}</strong><span>{profile.exam} · 已登录</span></span><Settings2 size={16} /></button></div>
     </aside>
 
     <div className="workspace">
-      <header className="topbar"><div className="breadcrumb"><button className="icon-button mobile-menu-button" aria-label="打开导航" onClick={() => setMobileMenu(true)}><Menu size={20} /></button><span>学习空间</span><ChevronRight size={13} /><strong>{currentPageLabel}</strong></div><div className="topbar-actions"><div className="header-search-wrap" ref={searchContainer}><div className="header-search"><Search size={16} /><input ref={searchInput} aria-label="搜索真题" placeholder="搜索真题、年份..." value={searchQuery} onFocus={() => setSearchOpen(true)} onChange={(event) => { setSearchQuery(event.target.value); setSearchOpen(true); }} onKeyDown={(event) => { if (event.key === 'Enter') { go('papers'); } }} /><kbd>Ctrl K</kbd></div>{showSearch && <div className="search-results"><div className="popover-heading">找到你的下一份真题</div>{searchSets.length ? searchSets.map((s) => <button className="search-result" key={s.set_id} onClick={() => { go('papers'); }}><span className="category-icon sage" style={{ width: 32, height: 32, borderRadius: 6 }}><BookOpen size={16} /></span><span>{s.title}<small>{s.question_count} 题</small></span><ArrowUpRight size={15} /></button>) : <p className="search-empty"><img className="state-mascot" src="/images/mascots/no_results.png" alt="" />暂时没有匹配的试卷，试试年份如 “2010”。</p>}<button className="all-search-results" onClick={() => go('papers')}>查看全部题库<ArrowRight size={14} /></button></div>}</div><span className="topbar-divider" /><div className="notification-wrap" ref={notificationContainer}><button className={`icon-button notification-button ${notificationsOpen ? 'is-active' : ''}`} aria-label="通知" aria-expanded={notificationsOpen} onClick={() => setNotificationsOpen((open) => !open)}><Bell size={19} strokeWidth={1.6} />{!notificationRead && <span className="notification-dot" />}</button>{notificationsOpen && <div className="notification-popover"><div className="popover-heading"><strong>学习消息</strong><button className="text-link" onClick={() => { setNotificationRead(true); notify('所有消息已标记为已读'); }}>{notificationRead ? '已全部读完' : '全部已读'}</button></div><button className="notice-item" onClick={() => { setNotificationRead(true); go('plan'); }}><span className="notice-icon"><CalendarDays size={18} /></span><span><strong>今天的学习计划已就绪</strong><small>从一个小目标开始，进入专注状态。</small><em>今天</em></span></button><button className="notice-item" onClick={() => { setNotificationRead(true); go('papers'); }}><span className="notice-icon peach"><BookOpen size={18} /></span><span><strong>真题题库持续入库中</strong><small>新试卷会自动加入题库，无需手动导入。</small><em>题库</em></span></button></div>}</div><button className="header-profile" onClick={() => { setSettingsDraft(profile); setSettingsOpen(true); }} aria-label="个人设置"><span className="avatar avatar-small">{profile.name.slice(0, 1)}</span><ChevronDown size={12} /></button></div></header>
+      <header className="topbar"><div className="breadcrumb"><button className="icon-button mobile-menu-button" aria-label="打开导航" onClick={() => setMobileMenu(true)}><Menu size={20} /></button><span>学习空间</span><ChevronRight size={13} /><strong>{currentPageLabel}</strong></div><div className="topbar-actions"><div className="header-search-wrap" ref={searchContainer}><div className="header-search"><Search size={16} /><input ref={searchInput} aria-label="搜索真题" placeholder="搜索真题、年份..." value={searchQuery} onFocus={() => setSearchOpen(true)} onChange={(event) => { setSearchQuery(event.target.value); setSearchOpen(true); }} onKeyDown={(event) => { if (event.key === 'Enter') { go('papers'); } }} /><kbd>Ctrl K</kbd></div>{showSearch && <div className="search-results"><div className="popover-heading">找到你的下一份真题</div>{searchSets.length ? searchSets.map((s) => <button className="search-result" key={s.set_id} onClick={() => { go('papers'); }}><span className="category-icon sage" style={{ width: 32, height: 32, borderRadius: 6 }}><BookOpen size={16} /></span><span>{s.title}<small>{s.question_count} 题</small></span><ArrowUpRight size={15} /></button>) : <p className="search-empty"><img className="state-mascot" src="/images/mascots/no_results.png" alt="" />暂时没有匹配的试卷，试试年份如 “2010”。</p>}<button className="all-search-results" onClick={() => go('papers')}>查看全部题库<ArrowRight size={14} /></button></div>}</div><span className="topbar-divider" /><div className="notification-wrap" ref={notificationContainer}><button className={`icon-button notification-button ${notificationsOpen ? 'is-active' : ''}`} aria-label="通知" aria-expanded={notificationsOpen} onClick={() => setNotificationsOpen((open) => !open)}><Bell size={19} strokeWidth={1.6} />{!notificationRead && <span className="notification-dot" />}</button>{notificationsOpen && <div className="notification-popover"><div className="popover-heading"><strong>学习消息</strong><button className="text-link" onClick={() => { setNotificationRead(true); notify('所有消息已标记为已读'); }}>{notificationRead ? '已全部读完' : '全部已读'}</button></div><button className="notice-item" onClick={() => { setNotificationRead(true); go('plan'); }}><span className="notice-icon"><CalendarDays size={18} /></span><span><strong>今天的学习计划已就绪</strong><small>从一个小目标开始，进入专注状态。</small><em>今天</em></span></button><button className="notice-item" onClick={() => { setNotificationRead(true); go('papers'); }}><span className="notice-icon peach"><BookOpen size={18} /></span><span><strong>真题题库持续入库中</strong><small>新试卷会自动加入题库，无需手动导入。</small><em>题库</em></span></button></div>}</div><button className="header-profile" onClick={() => { setSettingsDraft(profile); setSettingsOpen(true); }} aria-label="个人设置"><span className="avatar avatar-small">{displayName.slice(0, 1)}</span><ChevronDown size={12} /></button></div></header>
 
       <main className="main-content">
         {page !== 'drill' && <div className="page-heading">
-          <div><h1>{page === 'overview' ? <>{getGreeting()}，{profile.name}<span className="heading-period">.</span></> : pageTitles[page].title}</h1><p>{page === 'overview' ? '备考是一场长跑，今天也为自己积攒一点底气。' : pageTitles[page].subtitle}</p></div>
-          <div className="page-heading-extra">{page === 'overview' ? <><span className="today-label"><CalendarDays size={14} />{new Date().toLocaleDateString('zh-CN', { month: 'long', day: 'numeric', weekday: 'long' })}</span><select className="exam-switch" aria-label="当前考试类型" value={profile.exam} onChange={(event) => setProfile({ ...profile, exam: event.target.value as ExamType })}><option>英语一</option><option>英语二</option></select></> : null}</div>
+          <div><h1>{page === 'overview' ? <>{getGreeting()}，{displayName}<span className="heading-period">.</span></> : pageTitles[page].title}</h1><p>{page === 'overview' ? '备考是一场长跑，今天也为自己积攒一点底气。' : pageTitles[page].subtitle}</p></div>
+          <div className="page-heading-extra">{page === 'overview' ? <><span className="today-label"><CalendarDays size={14} />{new Date().toLocaleDateString('zh-CN', { month: 'long', day: 'numeric', weekday: 'long' })}</span><select className="exam-switch" aria-label="当前考试类型" value={profile.exam} onChange={(event) => { void saveProfile({ exam: event.target.value as ExamType }); }}><option>英语一</option><option>英语二</option></select></> : null}</div>
         </div>}
         <div key={page} className="page-enter">{content}</div>
         <footer className="workspace-footer"><span><Sprout size={13} />拾题，让每一次努力都有回响。</span><span>本地工作区 · 学习数据保存在此电脑</span></footer>
       </main>
     </div>
 
-    {settingsOpen && <Modal title="我的学习设置" subtitle="目标很远，但你每天都在靠近。" onClose={() => setSettingsOpen(false)}>
-      <form className="modal-form" onSubmit={(event) => { event.preventDefault(); setProfile({ ...settingsDraft, name: settingsDraft.name.trim() || '拾题同学' }); setSettingsOpen(false); notify('学习设置已保存'); }}>
-        <label>怎么称呼你<input autoFocus required maxLength={12} value={settingsDraft.name} onChange={(event) => setSettingsDraft({ ...settingsDraft, name: event.target.value })} placeholder="你的昵称" /></label>
-        <label>备考科目<select value={settingsDraft.exam} onChange={(event) => setSettingsDraft({ ...settingsDraft, exam: event.target.value as ExamType })}><option>英语一</option><option>英语二</option></select></label>
-        <label>目标考试日<input type="date" required value={settingsDraft.targetDate} onChange={(event) => setSettingsDraft({ ...settingsDraft, targetDate: event.target.value })} /></label>
-        <p className="form-note">目标日期由你设定，并非官方考试时间。所有学习数据仅保存在此电脑。</p>
-        <div className="form-actions"><button type="button" className="button button-quiet" onClick={() => setSettingsOpen(false)}>取消</button><button className="button button-primary" type="submit">保存设置<Check size={15} /></button></div>
+    {settingsOpen && settingsDraft && <Modal title="我的学习设置" subtitle="目标很远，但你每天都在靠近。" onClose={() => setSettingsOpen(false)}>
+      <form className="modal-form" onSubmit={(event) => {
+        event.preventDefault();
+        const nickname = settingsDraft.nickname.trim() || '拾题同学';
+        void saveProfile({ nickname, exam: settingsDraft.exam, dailyTarget: settingsDraft.dailyTarget, targetDate: settingsDraft.targetDate })
+          .then(() => { setSettingsOpen(false); notify('学习设置已保存'); })
+          .catch(() => notify('保存失败，请稍后再试'));
+      }}>
+        <label>怎么称呼你<input autoFocus required maxLength={16} value={settingsDraft.nickname} onChange={(event) => setSettingsDraft({ ...settingsDraft, nickname: event.target.value })} placeholder="你的昵称" /></label>
+        <div className="form-grid">
+          <label>备考科目<select value={settingsDraft.exam} onChange={(event) => setSettingsDraft({ ...settingsDraft, exam: event.target.value as ExamType })}><option>英语一</option><option>英语二</option></select></label>
+          <label>每日目标（题）<input type="number" min={1} max={500} required value={settingsDraft.dailyTarget} onChange={(event) => setSettingsDraft({ ...settingsDraft, dailyTarget: Number(event.target.value) })} /></label>
+        </div>
+        <label>目标考试日<input type="date" value={settingsDraft.targetDate} onChange={(event) => setSettingsDraft({ ...settingsDraft, targetDate: event.target.value })} /></label>
+        <p className="form-note">目标日期由你设定，并非官方考试时间。登录账号：{user?.email || profile.username || displayName}</p>
+        <div className="form-actions"><button type="button" className="button button-quiet" onClick={() => { void signOut(); }}><LogOut size={14} />退出登录</button><span style={{ flex: 1 }} /><button className="button button-primary" type="submit">保存设置<Check size={15} /></button></div>
       </form>
     </Modal>}
 
@@ -186,13 +201,29 @@ function Shell({ path }: { path: string }) {
 }
 
 export function App() {
+  return (
+    <AuthProvider>
+      <AuthGate />
+    </AuthProvider>
+  );
+}
+
+/** 认证闸门：启动时确认会话；未登录只看到登录页，主应用不加载 */
+function AuthGate() {
+  const { status } = useAuth();
+  if (status === 'checking') return <SessionSplash />;
+  if (status === 'anonymous') return <div className="auth-root"><LoginPage /></div>;
+  return <MainApp />;
+}
+
+function MainApp() {
   const path = usePath();
   // 答题界面沉浸模式：不渲染全局外壳，练习页独占视口
-  if (/^\/practice\//.test(path)) return <ToastProvider><Practice path={path} /></ToastProvider>;
+  if (/^\/practice\//.test(path)) return <ProfileProvider><ToastProvider><Practice path={path} /></ToastProvider></ProfileProvider>;
   if (path.startsWith('/attempts/') && path.endsWith('/report')) {
-    return <ToastProvider><ShellInner title="复盘报告"><Report path={path} /></ShellInner></ToastProvider>;
+    return <ProfileProvider><ToastProvider><ShellInner title="复盘报告"><Report path={path} /></ShellInner></ToastProvider></ProfileProvider>;
   }
-  return <ToastProvider><Shell path={path} /></ToastProvider>;
+  return <ProfileProvider><ToastProvider><Shell path={path} /></ToastProvider></ProfileProvider>;
 }
 
 function ShellInner({ children, title }: { children: ReactNode; title: string }) {

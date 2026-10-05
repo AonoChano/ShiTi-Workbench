@@ -1,29 +1,60 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { CalendarDays, Check, ChevronRight, Clock3, Flag, Plus, Trash2 } from 'lucide-react';
 import Modal from '../components/Modal';
 import StudyCalendar from '../components/StudyCalendar';
-import { usePersistedState } from '../hooks';
 import { useToast } from '../components/Toast';
-import { categories, initialProfile, initialTasks, localDate } from '../demo';
-import type { CategoryKey, Profile, StudyTask } from '../demo';
+import { categories, localDate } from '../model';
+import type { CategoryKey, StudyTask } from '../model';
+import { useProfile } from '../profile';
+import { api } from '../api';
 import { navigate } from '../router';
+
+function daysToTargetLabel(targetDate: string) {
+  if (!targetDate) return null;
+  const today = localDate();
+  const days = Math.ceil((new Date(`${targetDate}T00:00:00`).getTime() - new Date(`${today}T00:00:00`).getTime()) / 86400000);
+  return days >= 0 ? days : null;
+}
 
 export function Plan() {
   const { notify } = useToast();
-  const [profile] = usePersistedState<Profile>('shiti-profile-v1', initialProfile);
-  const [tasks, setTasks] = usePersistedState<StudyTask[]>('shiti-tasks-v1', initialTasks);
+  const { profile } = useProfile();
+  const [tasks, setTasks] = useState<StudyTask[]>([]);
+  const [loaded, setLoaded] = useState(false);
   const [selectedDate, setSelectedDate] = useState(localDate());
   const [planFilter, setPlanFilter] = useState<'all' | 'pending' | 'done'>('all');
   const [modal, setModal] = useState(false);
   const [taskDraft, setTaskDraft] = useState({ title: '', date: localDate(), category: 'reading' as CategoryKey, minutes: '20' });
 
+  useEffect(() => {
+    let alive = true;
+    api<StudyTask[]>('GET', '/tasks').then((d) => { if (alive) { setTasks(d); setLoaded(true); } }).catch(() => { if (alive) setLoaded(true); });
+    return () => { alive = false; };
+  }, []);
+
   const today = localDate();
-  const daysToTarget = Math.max(0, Math.ceil((new Date(`${profile.targetDate}T00:00:00`).getTime() - new Date(`${today}T00:00:00`).getTime()) / 86400000));
+  const daysToTarget = daysToTargetLabel(profile.targetDate);
   const dateTasks = tasks.filter((task) => task.date === selectedDate);
   const visibleTasks = dateTasks.filter((task) => planFilter === 'all' || (planFilter === 'done' ? task.done : !task.done));
 
   function toggleTask(id: string) {
+    const target = tasks.find((task) => task.id === id);
+    if (!target) return;
     setTasks((items) => items.map((task) => task.id === id ? { ...task, done: !task.done } : task));
+    api('PATCH', `/tasks/${id}`, { done: !target.done }).catch(() => {
+      setTasks((items) => items.map((task) => task.id === id ? { ...task, done: target.done } : task));
+      notify('没能更新这项计划，请稍后再试');
+    });
+  }
+
+  function removeTask(id: string) {
+    const snapshot = tasks;
+    setTasks((items) => items.filter((item) => item.id !== id));
+    notify('已删除这项学习计划');
+    api('DELETE', `/tasks/${id}`).catch(() => {
+      setTasks(snapshot);
+      notify('删除没成功，请稍后再试');
+    });
   }
 
   function addTask() {
@@ -46,17 +77,28 @@ export function Plan() {
           <button className={`task-checkbox ${task.done ? 'is-checked' : ''}`} onClick={() => toggleTask(task.id)} aria-label={`${task.done ? '取消完成' : '完成'}${task.title}`} aria-pressed={task.done}>{task.done && <Check size={13} />}</button>
           <div><h3>{task.title}</h3><p><span>{categories.find((c) => c.id === task.category)?.name}</span><Clock3 size={13} />约 {task.minutes} 分钟</p></div>
           <button className="button button-quiet" onClick={() => navigate('/papers')}>{task.done ? '再练一次' : '开始'}<ChevronRight size={14} /></button>
-          <button className="icon-button delete-task" onClick={() => { setTasks((items) => items.filter((item) => item.id !== task.id)); notify('已删除这项学习计划'); }} aria-label={`删除${task.title}`}><Trash2 size={15} /></button>
-        </div>) : <div className="empty-state"><img className="state-mascot" src="/images/mascots/no_tasks.png" alt="" /><h3>{planFilter === 'done' ? '进步，等待你的第一步' : '给这一天留一个小目标'}</h3><p>{planFilter === 'done' ? '完成一个小计划，收获就会出现在这里。' : '用一个简单、可实现的计划，让学习轻一点。'}</p><button className="button button-primary" onClick={addTask}>添加学习计划</button></div>}
+          <button className="icon-button delete-task" onClick={() => removeTask(task.id)} aria-label={`删除${task.title}`}><Trash2 size={15} /></button>
+        </div>) : loaded ? <div className="empty-state"><img className="state-mascot" src="/images/mascots/no_tasks.png" alt="" /><h3>{planFilter === 'done' ? '进步，等待你的第一步' : '给这一天留一个小目标'}</h3><p>{planFilter === 'done' ? '完成一个小计划，收获就会出现在这里。' : '用一个简单、可实现的计划，让学习轻一点。'}</p><button className="button button-primary" onClick={addTask}>添加学习计划</button></div> : null}
       </div>
       <button className="add-plan-row" onClick={addTask}><Plus size={17} />添加一个小目标</button>
     </section>
     <aside>
       <StudyCalendar tasks={tasks} selectedDate={selectedDate} onSelectDate={setSelectedDate} onToggleTask={toggleTask} onStartTask={() => navigate('/papers')} onAddTask={addTask} onViewPlan={() => navigate('/plan')} />
-      <div className="target-note"><Flag size={17} /><span>距离你的目标日还有 <strong>{daysToTarget}</strong> 天</span></div>
+      {daysToTarget !== null && <div className="target-note"><Flag size={17} /><span>距离你的目标日还有 <strong>{daysToTarget}</strong> 天</span></div>}
     </aside>
     {modal && <Modal title="添加一个小目标" subtitle="把想做的事，变成能够完成的一步。" onClose={() => setModal(false)}>
-      <form className="modal-form" onSubmit={(event) => { event.preventDefault(); if (!taskDraft.title.trim()) return; setTasks((items) => [...items, { id: `task-${Date.now()}`, title: taskDraft.title.trim(), date: taskDraft.date, category: taskDraft.category, minutes: Number(taskDraft.minutes), done: false }]); setSelectedDate(taskDraft.date); setModal(false); notify('新的小目标已加入学习计划'); }}>
+      <form className="modal-form" onSubmit={(event) => {
+        event.preventDefault();
+        if (!taskDraft.title.trim()) return;
+        api<StudyTask>('POST', '/tasks', { title: taskDraft.title.trim(), date: taskDraft.date, category: taskDraft.category, minutes: Number(taskDraft.minutes) })
+          .then((created) => {
+            setTasks((items) => [...items, created]);
+            setSelectedDate(taskDraft.date);
+            setModal(false);
+            notify('新的小目标已加入学习计划');
+          })
+          .catch(() => notify('没能添加计划，请稍后再试'));
+      }}>
         <label>计划内容<input autoFocus required maxLength={40} placeholder="例如：精读一篇阅读理解" value={taskDraft.title} onChange={(event) => setTaskDraft({ ...taskDraft, title: event.target.value })} /></label>
         <div className="form-grid">
           <label>学习日期<input type="date" required value={taskDraft.date} onChange={(event) => setTaskDraft({ ...taskDraft, date: event.target.value })} /></label>
