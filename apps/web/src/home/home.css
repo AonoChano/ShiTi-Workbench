@@ -197,6 +197,10 @@ html:has(.home-root) { scroll-behavior: smooth; }
     padding-inline: 18px;
     font-size: 14px;
   }
+  .home-root .btn-pill {
+    border-radius: 999px;
+    padding-inline: 22px;
+  }
   .home-root .arrow {
     transition: transform 0.18s ease;
   }
