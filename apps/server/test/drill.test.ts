@@ -4,22 +4,25 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { buildApp } from '../src/app.js';
 import type { FastifyInstance } from 'fastify';
+import { TEST_ADMIN_PASSWORD, loginCookie } from './helpers.js';
 
 const sample = readFileSync(join(import.meta.dirname ?? '.', '..', '..', '..', 'samples', 'golden-five.json'), 'utf8');
 
 let dataDir: string;
 let app: FastifyInstance & { h: unknown; runWorkerOnce: () => 'idle' | 'ran' };
+let cookie = '';
 
 async function api(method: string, url: string, body?: unknown, headers?: Record<string, string>) {
-  const res = await app.inject({ method: method as never, url, payload: body, headers });
+  const res = await app.inject({ method: method as never, url, payload: body, headers: { cookie, ...headers } });
   return { status: res.statusCode, json: res.json() as Record<string, unknown> };
 }
 const data = (r: { json: Record<string, unknown> }) => r.json['data'] as Record<string, unknown>;
 
 beforeEach(async () => {
   dataDir = mkdtempSync(join(tmpdir(), 'shiti-drill-'));
-  app = await buildApp({ dataDir, serveWebDist: false });
+  app = await buildApp({ dataDir, serveWebDist: false, adminPassword: TEST_ADMIN_PASSWORD });
   await app.ready();
+  cookie = await loginCookie(app);
   const imp = await api('POST', '/api/v1/imports', { content: sample });
   const importId = data(imp)['import_id'] as string;
   await api('POST', `/api/v1/imports/${importId}/commit`, { confirmed_warnings: [] }, { 'idempotency-key': 'commit-1' });

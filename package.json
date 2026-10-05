@@ -15,7 +15,8 @@
     "typecheck": "npm run typecheck -w packages/shared && npm run typecheck -w apps/server && npm run typecheck -w apps/web",
     "test": "npm run test -w packages/shared && npm run test -w apps/server",
     "check-json": "tsx scripts/check-json.ts",
-    "start": "npm run start -w apps/server"
+    "start": "npm run start -w apps/server",
+    "reset-password": "tsx scripts/reset-password.ts"
   },
   "devDependencies": {
     "typescript": "^5.9.2",

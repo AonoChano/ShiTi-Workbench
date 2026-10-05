@@ -4,6 +4,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { buildApp } from '../src/app.js';
 import type { FastifyInstance } from 'fastify';
+import { TEST_ADMIN_PASSWORD, loginCookie } from './helpers.js';
 
 const sample = readFileSync(join(__dirname_fix(), '..', '..', '..', 'samples', 'golden-five.json'), 'utf8');
 function __dirname_fix(): string {
@@ -12,17 +13,19 @@ function __dirname_fix(): string {
 
 let dataDir: string;
 let app: FastifyInstance & { h: unknown; runWorkerOnce: () => 'idle' | 'ran' };
+let cookie = '';
 
 async function api(method: string, url: string, body?: unknown, headers?: Record<string, string>) {
-  const res = await app.inject({ method: method as never, url, payload: body, headers });
+  const res = await app.inject({ method: method as never, url, payload: body, headers: { cookie, ...headers } });
   return { status: res.statusCode, json: res.json() as Record<string, unknown> };
 }
 const data = (r: { json: Record<string, unknown> }) => r.json['data'] as Record<string, unknown>;
 
 beforeEach(async () => {
   dataDir = mkdtempSync(join(tmpdir(), 'shiti-test-'));
-  app = await buildApp({ dataDir, serveWebDist: false });
+  app = await buildApp({ dataDir, serveWebDist: false, adminPassword: TEST_ADMIN_PASSWORD });
   await app.ready();
+  cookie = await loginCookie(app);
 });
 afterAll(async () => {
   await app?.close();
@@ -142,7 +145,7 @@ describe('M1 端到端（黄金样本）', () => {
     expect(run1).toBe('ran');
     const rep = await api('GET', `/api/v1/reports/${reportRevId}`);
     expect(data(rep)['status']).toBe('ready');
-    const dl = await app.inject({ method: 'GET', url: `/api/v1/reports/${reportRevId}/download?format=md` });
+    const dl = await app.inject({ method: 'GET', url: `/api/v1/reports/${reportRevId}/download?format=md`, headers: { cookie } });
     expect(dl.statusCode).toBe(200);
     const md = dl.body;
     expect(md).toContain('**6 / 10 分**');
@@ -151,7 +154,7 @@ describe('M1 端到端（黄金样本）', () => {
     expect(md).toContain('前台有效 00:00'); // 未发心跳/聚焦段 duration 0 — 见下方说明
     expect(md.endsWith('\n')).toBe(true);
     expect(md).not.toContain('C:\\');
-    const dl2 = await app.inject({ method: 'GET', url: `/api/v1/reports/${reportRevId}/download?format=md` });
+    const dl2 = await app.inject({ method: 'GET', url: `/api/v1/reports/${reportRevId}/download?format=md`, headers: { cookie } });
     expect(dl2.body).toBe(md); // 字节级一致
     expect(existsSync(join(dataDir, 'reports', attemptId, 'manifest.json'))).toBe(true);
 

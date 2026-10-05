@@ -4,12 +4,14 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { buildApp } from '../src/app.js';
 import type { FastifyInstance } from 'fastify';
+import { TEST_ADMIN_PASSWORD, loginCookie } from './helpers.js';
 
 let dataDir: string;
 let bankDir: string;
 let app: FastifyInstance & { h: { dataDir: string }; runWorkerOnce: () => 'idle' | 'ran'; rescanBank: () => unknown };
 let attemptId = '';
 let agentDir = '';
+let cookie = '';
 
 const demo = JSON.stringify({
   spec_version: '1.1',
@@ -25,7 +27,7 @@ const demo = JSON.stringify({
 });
 
 async function api(method: string, url: string, body?: unknown, headers?: Record<string, string>) {
-  const res = await app.inject({ method: method as never, url: `/api/v1${url}`, payload: body, headers });
+  const res = await app.inject({ method: method as never, url: `/api/v1${url}`, payload: body, headers: { cookie, ...headers } });
   return { status: res.statusCode, json: res.json() as Record<string, unknown> };
 }
 const data = (r: { json: Record<string, unknown> }) => r.json['data'] as Record<string, unknown>;
@@ -35,8 +37,9 @@ beforeEach(async () => {
   bankDir = mkdtempSync(join(tmpdir(), 'shiti-rev-bank-'));
   mkdirSync(join(bankDir, 'S'));
   writeFileSync(join(bankDir, 'S', 'demo.json'), demo);
-  app = await buildApp({ dataDir, bankDir, serveWebDist: false });
+  app = await buildApp({ dataDir, bankDir, serveWebDist: false, adminPassword: TEST_ADMIN_PASSWORD });
   await app.ready();
+  cookie = await loginCookie(app);
   // 走完整流程到 submitted
   app.rescanBank();
   const sets = data(await api('GET', '/sets')) as Array<Record<string, unknown>>;

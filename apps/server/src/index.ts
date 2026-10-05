@@ -1,7 +1,18 @@
+import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildApp } from './app.js';
 import { startReviewWatcher, stopReviewWatcher } from './review-service.js';
+
+// 读取仓库根目录的 .env（如存在；不入库）。环境变量优先于文件。
+const repoRoot = fileURLToPath(new URL('../../..', import.meta.url));
+const envFile = join(repoRoot, '.env');
+if (existsSync(envFile)) {
+  for (const line of readFileSync(envFile, 'utf8').split(/\r?\n/)) {
+    const m = line.match(/^\s*([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*)\s*$/);
+    if (m?.[1] && !(m[1] in process.env)) process.env[m[1]] = (m[2] ?? '').replace(/^["']|["']$/g, '');
+  }
+}
 
 const dataDir = process.env['SHITI_DATA_DIR']
   ?? join(process.env['LOCALAPPDATA'] ?? join('C:', 'Users', 'Public'), 'ShitiWorkbench', 'workspaces', 'default');
@@ -9,7 +20,7 @@ const dataDir = process.env['SHITI_DATA_DIR']
 const bankDir = process.env['SHITI_BANK_DIR']
   ?? fileURLToPath(new URL('../../../question_bank', import.meta.url));
 
-const app = await buildApp({ dataDir, bankDir, serveWebDist: true });
+const app = await buildApp({ dataDir, bankDir, serveWebDist: true, adminPassword: process.env['SHITI_ADMIN_PASSWORD'] });
 const port = Number(process.env['SHITI_PORT'] ?? 8210);
 
 await app.ready();

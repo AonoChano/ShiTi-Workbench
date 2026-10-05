@@ -4,6 +4,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { buildApp } from '../src/app.js';
 import type { FastifyInstance } from 'fastify';
+import { TEST_ADMIN_PASSWORD, loginCookie } from './helpers.js';
 
 const demoPayload = JSON.stringify({
   spec_version: '1.1',
@@ -20,6 +21,7 @@ const demoPayload = JSON.stringify({
 let dataDir: string;
 let bankDir: string;
 let app: FastifyInstance & { h: unknown; runWorkerOnce: () => 'idle' | 'ran'; rescanBank: () => unknown };
+let cookie = '';
 const subjectDir = () => join(bankDir, 'TEST_SUBJECT');
 
 beforeEach(() => {
@@ -27,9 +29,10 @@ beforeEach(() => {
   bankDir = mkdtempSync(join(tmpdir(), 'shiti-bank-src-'));
   mkdirSync(subjectDir());
   writeFileSync(join(subjectDir(), 'demo.json'), demoPayload);
-  return buildApp({ dataDir, bankDir, serveWebDist: false }).then(async (a) => {
+  return buildApp({ dataDir, bankDir, serveWebDist: false, adminPassword: TEST_ADMIN_PASSWORD }).then(async (a) => {
     app = a;
     await a.ready();
+    cookie = await loginCookie(a);
   });
 });
 afterAll(async () => {
@@ -43,7 +46,7 @@ describe('题库目录自动识别', () => {
     // 1. 首次扫描 → 入库
     const s1 = app.rescanBank() as { scanned: number; imported: number; skipped: number };
     expect(s1.imported).toBe(1);
-    const sets1 = JSON.parse((await app.inject({ method: 'GET', url: '/api/v1/sets' })).body).data as Array<Record<string, unknown>>;
+    const sets1 = JSON.parse((await app.inject({ method: 'GET', url: '/api/v1/sets', headers: { cookie } })).body).data as Array<Record<string, unknown>>;
     expect(sets1).toHaveLength(1);
     const setId = sets1[0]['set_id'] as string;
     expect(sets1[0]['question_count']).toBe(1);
@@ -59,7 +62,7 @@ describe('题库目录自动识别', () => {
     writeFileSync(join(subjectDir(), 'demo.json'), changed);
     const s3 = app.rescanBank() as { changed: number; imported: number };
     expect(s3.changed).toBe(1);
-    const detail = JSON.parse((await app.inject({ method: 'GET', url: `/api/v1/sets/${setId}` })).body).data as { version: number };
+    const detail = JSON.parse((await app.inject({ method: 'GET', url: `/api/v1/sets/${setId}`, headers: { cookie } })).body).data as { version: number };
     expect(detail.version).toBe(2);
 
     // 4. 未变化的文件不重复扫描（mtime/size 命中即跳过）
@@ -74,13 +77,13 @@ describe('题库目录自动识别', () => {
     writeFileSync(join(subjectDir(), '_规格说明.json'), JSON.stringify({ anything: true }));
     const s = app.rescanBank() as { imported: number; errors: number };
     expect(s.errors).toBe(1);
-    const status = JSON.parse((await app.inject({ method: 'GET', url: '/api/v1/bank/status' })).body).data as { files: Array<{ path: string; status: string }> };
+    const status = JSON.parse((await app.inject({ method: 'GET', url: '/api/v1/bank/status', headers: { cookie } })).body).data as { files: Array<{ path: string; status: string }> };
     const broken = status.files.find((f) => f.path.endsWith('broken.json'));
     expect(broken?.status).toBe('error');
     // 下划线文件不进状态表
     expect(status.files.some((f) => f.path.includes('_规格说明'))).toBe(false);
     // broken 不产生题集；demo.json 正常入库
-    const sets = JSON.parse((await app.inject({ method: 'GET', url: '/api/v1/sets' })).body).data as Array<unknown>;
+    const sets = JSON.parse((await app.inject({ method: 'GET', url: '/api/v1/sets', headers: { cookie } })).body).data as Array<unknown>;
     expect(sets).toHaveLength(1);
   });
 });

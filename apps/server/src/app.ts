@@ -14,12 +14,36 @@ import { openWorkspace, sha256Stable, type DbHandle } from './db.js';
 import { runQueuedJobOnce, loadAttemptItems, timingSummaryFor, snapshotAndGrade } from './report-service.js';
 import { scanBank, listBankStatus } from './bank.js';
 import { createSetFromPayload } from './content-service.js';
-import { drillFacets, buildDrill } from './practice-service.js';
+import { drillFacets, buildDrill, normalizeSection } from './practice-service.js';
 import { ensureAgentPackage } from './agent-workspace.js';
 import { addSseClient, removeSseClient, listExternalReview, reviewCheckNow } from './review-service.js';
+import {
+  ADMIN_ID,
+  AuthError,
+  attemptLogin,
+  clearedSessionCookie,
+  createSession,
+  destroySession,
+  ensureAdminUser,
+  readPreferences,
+  registerUser,
+  resolveSession,
+  readSessionCookie,
+  sessionCookie,
+  updatePreferences,
+  type SessionUser,
+  type UserPreferences,
+} from './auth-service.js';
 import { badRequest, conflict, fail, HttpError, notFound, nowIso, ok, unprocessable } from './util.js';
 
 const LEASE_MS = 30_000;
+
+declare module 'fastify' {
+  interface FastifyRequest {
+    /** 鉴权钩子填充；公开端点（/health、/auth/*）上为空 */
+    user?: SessionUser;
+  }
+}
 
 export interface BuildOptions {
   dataDir: string;
@@ -28,6 +52,8 @@ export interface BuildOptions {
   papersDir?: string;
   serveWebDist?: boolean;
   port?: number;
+  /** 管理员种子密码（SHITI_ADMIN_PASSWORD）；缺省时随机生成并落盘 admin-credentials.txt */
+  adminPassword?: string;
 }
 
 /** 主观题在库里以空数组存储选项位；对外一律归一为 null，前端据此区分选项题/作答题。 */
@@ -60,13 +86,97 @@ function parseSectionsJson(json: string | null): SetSection[] {
 
 const IMAGE_MIME: Record<string, string> = { '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.gif': 'image/gif', '.webp': 'image/webp', '.svg': 'image/svg+xml' };
 
+/** 本地日期（服务器时区 = 用户机器时区；与打卡/学习计划的 YYYY-MM-DD 一致） */
+function todayLocal(): string {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
+/** 把作答/参考答案渲染成给人看的标签：选项题出字母，判断题出 T/F，其余原样 */
+function answerLabel(answer: unknown, options: Array<{ id: string; text: string }> | null): string | null {
+  if (!answer || typeof answer !== 'object') return null;
+  const a = answer as Record<string, unknown>;
+  if (Array.isArray(a['selected_option_ids'])) {
+    const ids = a['selected_option_ids'] as string[];
+    if (options) {
+      return ids.map((id) => {
+        const idx = options.findIndex((o) => o.id === id);
+        return idx >= 0 ? String.fromCharCode(65 + idx) : id;
+      }).join(', ');
+    }
+    return ids.join(', ');
+  }
+  if (typeof a['value'] === 'boolean') return a['value'] ? 'T' : 'F';
+  if (Array.isArray(a['blanks'])) return (a['blanks'] as Array<{ text?: string }>).map((b) => String(b.text ?? '')).filter(Boolean).join(' ｜ ') || null;
+  if (typeof a['text'] === 'string' && a['text']) return a['text'];
+  return null;
+}
+
+/**
+ * 交卷事务内调用：判分错的客观题按 (user, question) 聚合进错题本（答错重新激活），
+ * 答对的自动结清。无参考答案的题跳过（无法对照）。
+ */
+function collectMistakes(
+  h: DbHandle,
+  attemptId: string,
+  userId: string,
+  items: Array<{ attempt_item_id: string; question_id: string; question_version_id: string; type: string; correctness: string | null }>,
+  submittedIso: string,
+): void {
+  const itemStmt = h.db.prepare('SELECT snapshot_json FROM attempt_items WHERE id = ?');
+  const snapStmt = h.db.prepare('SELECT submitted_answer_json FROM answer_snapshots WHERE attempt_item_id = ?');
+  const upsert = h.db.prepare(
+    `INSERT INTO mistake_book (id, user_id, question_id, question_version_id, attempt_id, attempt_item_id, type, section, stem, options_json, my_answer_json, answer_key_json, explanation, wrong_count, resolved, first_wrong_at, last_wrong_at)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 1, 0, ?, ?)
+     ON CONFLICT(user_id, question_id) DO UPDATE SET
+       question_version_id = excluded.question_version_id, attempt_id = excluded.attempt_id, attempt_item_id = excluded.attempt_item_id,
+       type = excluded.type, section = excluded.section, stem = excluded.stem, options_json = excluded.options_json,
+       my_answer_json = excluded.my_answer_json, answer_key_json = excluded.answer_key_json, explanation = excluded.explanation,
+       wrong_count = wrong_count + 1, resolved = 0, last_wrong_at = excluded.last_wrong_at`,
+  );
+  const resolve = h.db.prepare("UPDATE mistake_book SET resolved = 1 WHERE user_id = ? AND question_id = ? AND resolved = 0");
+  for (const it of items) {
+    if (it.correctness === 'correct') {
+      resolve.run(userId, it.question_id);
+      continue;
+    }
+    if (it.correctness !== 'incorrect' && it.correctness !== 'partial') continue;
+    const itemRow = itemStmt.get(it.attempt_item_id) as { snapshot_json: string } | undefined;
+    if (!itemRow) continue;
+    const snapshot = JSON.parse(itemRow.snapshot_json) as { stem: string; options: Array<{ id: string; text: string }> | null; section?: string | null; answer_key: unknown; explanation: string | null };
+    if (snapshot.answer_key == null) continue;
+    const snapRow = snapStmt.get(it.attempt_item_id) as { submitted_answer_json: string | null } | undefined;
+    upsert.run(
+      `mb-${it.attempt_item_id}`, userId, it.question_id, it.question_version_id, attemptId, it.attempt_item_id,
+      it.type, snapshot.section ?? null, snapshot.stem,
+      snapshot.options ? JSON.stringify(snapshot.options) : null,
+      snapRow?.submitted_answer_json ?? null,
+      JSON.stringify(snapshot.answer_key), snapshot.explanation,
+      submittedIso, submittedIso,
+    );
+  }
+}
+
 export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { h: DbHandle; runWorkerOnce: () => 'idle' | 'ran'; rescanBank: () => ReturnType<typeof scanBank> }> {
   const h = openWorkspace(opts.dataDir);
   const bankDir = opts.bankDir ?? null;
   const app = Fastify({ bodyLimit: 12 * 1024 * 1024, trustProxy: false, logger: { level: 'error' } }) as unknown as FastifyInstance & { h: DbHandle; runWorkerOnce: () => 'idle' | 'ran'; rescanBank: () => ReturnType<typeof scanBank> };
   app.h = h;
+  // 管理员种子：首次启动创建固定 id 的管理员账号，存量数据经迁移默认值归属该账号
+  const seeded = ensureAdminUser(h, opts.adminPassword);
+  if (seeded.created && !opts.adminPassword) {
+    app.log.warn(`管理员账号已初始化，随机密码见：${seeded.credentialsFile ?? '<写入失败，请用 SHITI_ADMIN_PASSWORD 重置>'}`);
+  }
   app.runWorkerOnce = () => runQueuedJobOnce(h);
   app.rescanBank = () => (bankDir ? scanBank(h, bankDir) : { scanned: 0, imported: 0, changed: 0, errors: 0, skipped: 0, failures: [] });
+
+  /** 这些端点匿名可达：健康检查 + 认证入口本身 */
+  const PUBLIC_API = new Set([
+    '/api/v1/health',
+    '/api/v1/auth/login',
+    '/api/v1/auth/register',
+    '/api/v1/auth/password/forgot',
+  ]);
 
   app.addHook('onRequest', async (req, reply) => {
     // 同源即放行（Chromium 对同源子资源也可能带 Origin 头）；带 Origin 但主机不匹配 → 拒绝
@@ -80,6 +190,12 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
         return fail(reply, 403, 'ORIGIN_NOT_ALLOWED', 'Origin 头无法解析');
       }
     }
+    // API 鉴权：Cookie 会话；静态资源放行（其中的 API 调用各自受保护）
+    const path = (req.raw.url ?? '').split('?')[0] ?? '';
+    if (!path.startsWith('/api/') || PUBLIC_API.has(path)) return;
+    const user = resolveSession(h, readSessionCookie(req));
+    if (!user) return fail(reply, 401, 'UNAUTHORIZED', '请先登录后再继续');
+    req.user = user;
   });
 
   app.addHook('onClose', async () => {
@@ -89,6 +205,9 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
   app.setErrorHandler((err, req, reply) => {
     if (err instanceof HttpError) {
       return fail(reply, err.status, err.code, err.message, err.extra);
+    }
+    if (err instanceof AuthError) {
+      return fail(reply, err.status, err.code, err.message, err.fieldErrors ? { fieldErrors: err.fieldErrors } : undefined);
     }
     if ((err as { statusCode?: number }).statusCode === 413) {
       return fail(reply, 413, 'TOO_LARGE', '请求体超过限制');
@@ -118,8 +237,15 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
 
   const getAttempt = (id: string) =>
     h.db.prepare('SELECT * FROM attempts WHERE id = ?').get(id) as
-      | { id: string; workspace_id: string; set_version_id: string; mode: 'training' | 'timed'; state: string; started_at: string | null; submitted_at: string | null; item_order_json: string; revision: number; writer_epoch: number; lease_client: string | null; lease_until: number | null; created_at: string }
+      | { id: string; workspace_id: string; user_id: string; set_version_id: string; mode: 'training' | 'timed'; state: string; started_at: string | null; submitted_at: string | null; item_order_json: string; revision: number; writer_epoch: number; lease_client: string | null; lease_until: number | null; created_at: string }
       | undefined;
+
+  /** 练习按用户隔离：别人的练习一律按不存在处理（不泄露 id 存在性） */
+  const getOwnedAttempt = (id: string, userId: string) => {
+    const at = getAttempt(id);
+    if (!at || at.user_id !== userId) throw notFound('练习不存在');
+    return at;
+  };
 
   const getSetVersion = (id: string) =>
     h.db.prepare('SELECT sv.*, s.title AS set_title, s.is_demo FROM question_set_versions sv JOIN question_sets s ON s.id = sv.set_id WHERE sv.id = ?').get(id) as
@@ -158,6 +284,92 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
       data_dir: h.dataDir, // 本机用户需要知道数据在哪（docs/01 §3：可复制路径）
       data_dir_basis: '数据保存在此电脑；清理浏览器不会删除已保存记录',
     });
+  });
+
+  // ---------- 认证 ----------
+
+  app.post('/api/v1/auth/login', async (req, reply) => {
+    const body = req.body as { account?: unknown; password?: unknown; remember?: unknown } | null;
+    const account = typeof body?.['account'] === 'string' ? body['account'].trim() : '';
+    const password = typeof body?.['password'] === 'string' ? body['password'] : '';
+    const remember = body?.['remember'] === true;
+    if (!account || !password) {
+      throw new AuthError(422, 'VALIDATION_FAILED', '请输入账号和密码', !account ? { account: '请输入邮箱或用户名' } : { password: '请输入密码' });
+    }
+    const user = attemptLogin(h, account, password);
+    const { token } = createSession(h, user.id, remember, req.headers['user-agent']);
+    h.db.prepare('DELETE FROM auth_sessions WHERE expires_at_ms < ?').run(Date.now()); // 顺手清理过期会话
+    reply.header('set-cookie', sessionCookie(token, remember));
+    return ok(reply, { user });
+  });
+
+  app.post('/api/v1/auth/register', async (req, reply) => {
+    const body = req.body as { nickname?: unknown; email?: unknown; password?: unknown } | null;
+    const user = registerUser(h, {
+      nickname: String(body?.['nickname'] ?? ''),
+      email: String(body?.['email'] ?? ''),
+      password: String(body?.['password'] ?? ''),
+    });
+    const { token } = createSession(h, user.id, true, req.headers['user-agent']);
+    reply.header('set-cookie', sessionCookie(token, true));
+    return reply.code(201).send({ data: { user }, meta: { request_id: reply.request.id } });
+  });
+
+  app.post('/api/v1/auth/password/forgot', async (_req, reply) => {
+    // 本部署未配置邮件服务：如实告知，而不是假装发送成功（避免用户苦等一封不存在的邮件）
+    return fail(reply, 503, 'EMAIL_NOT_CONFIGURED', '此部署未配置邮件服务，请联系管理员重置密码。');
+  });
+
+  app.get('/api/v1/auth/me', async (req, reply) => ok(reply, { user: req.user }));
+
+  app.post('/api/v1/auth/logout', async (req, reply) => {
+    destroySession(h, readSessionCookie(req));
+    reply.header('set-cookie', clearedSessionCookie);
+    return ok(reply, { ok: true });
+  });
+
+  // ---------- 个人资料与偏好 ----------
+
+  app.get('/api/v1/profile', async (req, reply) => {
+    const row = h.db.prepare('SELECT id, username, email, nickname, role, preferences_json, created_at FROM users WHERE id = ?')
+      .get(req.user!.id) as { id: string; username: string; email: string; nickname: string; role: string; preferences_json: string; created_at: string };
+    const prefs = readPreferences(row.preferences_json);
+    return ok(reply, {
+      id: row.id, username: row.username, email: row.email, nickname: row.nickname, role: row.role, created_at: row.created_at,
+      exam: prefs.exam ?? '英语一',
+      daily_target: prefs.daily_target ?? 20,
+      target_date: prefs.target_date ?? null,
+    });
+  });
+
+  app.put('/api/v1/profile', async (req, reply) => {
+    const body = req.body as Record<string, unknown> | null;
+    const patch: { nickname?: string } & UserPreferences = {};
+    if (body?.['nickname'] !== undefined) {
+      const nickname = String(body['nickname']).trim();
+      if (nickname.length < 1 || nickname.length > 16) throw badRequest('INVALID_NICKNAME', '昵称需要 1–16 个字符');
+      patch.nickname = nickname;
+    }
+    if (body?.['exam'] !== undefined) {
+      const exam = String(body['exam']);
+      if (exam !== '英语一' && exam !== '英语二') throw badRequest('INVALID_EXAM', '备考科目只能是英语一或英语二');
+      patch.exam = exam;
+    }
+    if (body?.['daily_target'] !== undefined) {
+      const n = Number(body['daily_target']);
+      if (!Number.isInteger(n) || n < 1 || n > 500) throw badRequest('INVALID_DAILY_TARGET', '每日目标需要是 1–500 的整数');
+      patch.daily_target = n;
+    }
+    if (body?.['target_date'] !== undefined) {
+      const d = String(body['target_date']);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(d)) throw badRequest('INVALID_TARGET_DATE', '目标日期格式应为 YYYY-MM-DD');
+      patch.target_date = d;
+    }
+    if (patch.nickname) {
+      h.db.prepare('UPDATE users SET nickname = ?, updated_at = ? WHERE id = ?').run(patch.nickname, nowIso(), req.user!.id);
+    }
+    const prefs = updatePreferences(h, req.user!.id, patch);
+    return ok(reply, { saved: true, exam: prefs.exam ?? '英语一', daily_target: prefs.daily_target ?? 20, target_date: prefs.target_date ?? null });
   });
 
   // ---------- 导入 ----------
@@ -288,7 +500,7 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
 
   // ---------- 练习 ----------
   /** 由题集版本创建训练 Attempt（题目版本快照进入 attempt_items）。 */
-  function createAttemptForVersion(setVersionId: string, mode: 'training'): { attempt_id: string; mode: string; state: string; server_time: number } {
+  function createAttemptForVersion(setVersionId: string, mode: 'training', userId: string): { attempt_id: string; mode: string; state: string; server_time: number } {
     const sv = getSetVersion(setVersionId);
     if (!sv) throw notFound('题集版本不存在');
     const entries = JSON.parse(sv.entries_json) as Array<{ question_version_id: string; order: number }>;
@@ -298,8 +510,8 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
     const now = nowIso();
     const nowMs = Date.now();
     const tx = h.db.transaction(() => {
-      h.db.prepare("INSERT INTO attempts (id, workspace_id, set_version_id, mode, state, item_order_json, created_at, updated_at) VALUES (?, ?, ?, ?, 'draft', ?, ?, ?)")
-        .run(attemptId, 'ws-default', setVersionId, mode, JSON.stringify(entries.map((e) => e.order)), now, now);
+      h.db.prepare("INSERT INTO attempts (id, workspace_id, user_id, set_version_id, mode, state, item_order_json, created_at, updated_at) VALUES (?, ?, ?, ?, ?, 'draft', ?, ?, ?)")
+        .run(attemptId, 'ws-default', userId, setVersionId, mode, JSON.stringify(entries.map((e) => e.order)), now, now);
       const itemStmt = h.db.prepare('INSERT INTO attempt_items (id, attempt_id, question_id, question_version_id, "order", snapshot_json, max_score_units) VALUES (?, ?, ?, ?, ?, ?, ?)');
       const qvStmt = h.db.prepare('SELECT * FROM question_versions WHERE id = ?');
       const matStmt = h.db.prepare('SELECT * FROM materials WHERE id = ?');
@@ -339,7 +551,7 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
         ? unprocessable('MODE_NOT_SUPPORTED_M1', '严格限时模式将在 M2 提供，当前仅支持训练模式')
         : badRequest('INVALID_BODY', '请求体需要 { set_version_id, mode: "training" }');
     }
-    return ok(reply, createAttemptForVersion(setVersionId, 'training'));
+    return ok(reply, createAttemptForVersion(setVersionId, 'training', req.user!.id));
   });
 
   // 专项练习：按大题/题型从当前题库抽题，生成内部 drill 题集版本并直接建练习
@@ -359,7 +571,7 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
     }
     const tx = h.db.transaction(() => buildDrill(h, { section: (section as string) ?? null, sections: (sections as string[]) ?? null, type: (type as string) ?? null, count: (count as number) ?? null }, { now: nowIso() }));
     const drill = tx();
-    const created = createAttemptForVersion(drill.set_version_id, 'training');
+    const created = createAttemptForVersion(drill.set_version_id, 'training', req.user!.id);
     return ok(reply, { attempt_id: created.attempt_id, mode: created.mode, state: created.state, question_count: drill.question_count, label: drill.label, type: drill.type, server_time: created.server_time });
   });
 
@@ -367,8 +579,7 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
     const { id } = req.params as { id: string };
     const key = req.headers['idempotency-key'] as string | undefined;
     return withIdempotency(reply, key, `attempts/${id}/start`, () => {
-      const at = getAttempt(id);
-      if (!at) throw notFound('练习不存在');
+      const at = getOwnedAttempt(id, req.user!.id);
       if (at.state === 'in_progress' || at.state === 'paused' || at.state === 'submitted' || at.state === 'abandoned') {
         return { status: 200, body: { data: { attempt_id: id, state: at.state, already_started: true, writer_epoch: at.writer_epoch } } };
       }
@@ -384,8 +595,7 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
 
   app.get('/api/v1/attempts/:id', async (req, reply) => {
     const { id } = req.params as { id: string };
-    const at = getAttempt(id);
-    if (!at) throw notFound('练习不存在');
+    const at = getOwnedAttempt(id, req.user!.id);
     if (at.state === 'submitted' || at.state === 'abandoned') {
       const sub = h.db.prepare('SELECT * FROM submissions WHERE attempt_id = ?').get(id) as { submitted_at: string } | undefined;
       const rep = h.db.prepare('SELECT id, version, status FROM report_revisions WHERE attempt_id = ? ORDER BY version DESC LIMIT 1').get(id) as { id: string; version: number; status: string } | undefined;
@@ -425,8 +635,7 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
 
   app.post('/api/v1/attempts/:id/lease', async (req, reply) => {
     const { id } = req.params as { id: string };
-    const at = getAttempt(id);
-    if (!at) throw notFound('练习不存在');
+    const at = getOwnedAttempt(id, req.user!.id);
     if (at.state !== 'in_progress' && at.state !== 'paused') throw conflict('ATTEMPT_STATE', `状态 ${at.state} 不能持有写租约`);
     const body = req.body as { client_instance_id?: string; takeover?: boolean } | null;
     if (!body || typeof body['client_instance_id'] !== 'string') throw badRequest('INVALID_BODY', '需要 client_instance_id');
@@ -443,8 +652,7 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
 
   app.post('/api/v1/attempts/:id/actions', async (req, reply) => {
     const { id } = req.params as { id: string };
-    const at = getAttempt(id);
-    if (!at) throw notFound('练习不存在');
+    const at = getOwnedAttempt(id, req.user!.id);
     const body = req.body as {
       writer_epoch?: number;
       actions?: Array<{
@@ -553,8 +761,7 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
   });
 
   function pauseResume(id: string, req: import('fastify').FastifyRequest, reply: import('fastify').FastifyReply, kind: 'pause' | 'resume'): import('fastify').FastifyReply {
-    const at = getAttempt(id);
-    if (!at) throw notFound('练习不存在');
+    const at = getOwnedAttempt(id, req.user!.id);
     const body = req.body as { writer_epoch?: number; expected_revision?: number } | null;
     if (!body || body['writer_epoch'] !== at.writer_epoch) throw conflict('LEASE_LOST', '写租约不匹配');
     if (body['expected_revision'] !== at.revision) throw conflict('REVISION_CONFLICT', '练习状态已在别处更新', { conflict_revision: at.revision });
@@ -582,8 +789,7 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
     const { id } = req.params as { id: string };
     const key = req.headers['idempotency-key'] as string | undefined;
     return withIdempotency(reply, key, `attempts/${id}/submit`, () => {
-      const at = getAttempt(id);
-      if (!at) throw notFound('练习不存在');
+      const at = getOwnedAttempt(id, req.user!.id);
       const body = req.body as { expected_revision?: number } | null;
       if (at.state === 'submitted') {
         const sub = h.db.prepare('SELECT * FROM submissions WHERE attempt_id = ?').get(id) as { idempotency_key: string; submitted_at: string };
@@ -623,6 +829,8 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
         // 7. 状态
         h.db.prepare("UPDATE attempts SET state = 'submitted', submitted_at = ?, revision = revision + 1, updated_at = ? WHERE id = ?")
           .run(submittedIso, submittedIso, id);
+        // 8. 错题自动收录：判分版答错的客观题进错题本，答对的自动结清（同一事务保证与判分一致）
+        collectMistakes(h, id, req.user!.id, items, submittedIso);
       });
       tx();
       return {
@@ -634,8 +842,7 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
 
   app.post('/api/v1/attempts/:id/abandon', async (req, reply) => {
     const { id } = req.params as { id: string };
-    const at = getAttempt(id);
-    if (!at) throw notFound('练习不存在');
+    const at = getOwnedAttempt(id, req.user!.id);
     const body = req.body as { confirmation?: boolean; expected_revision?: number } | null;
     if (!body || body['confirmation'] !== true) throw badRequest('CONFIRMATION_REQUIRED', '放弃练习需要显式确认 confirmation=true');
     if (body['expected_revision'] !== at.revision) throw conflict('REVISION_CONFLICT', '练习状态已在别处更新', { conflict_revision: at.revision });
@@ -648,8 +855,8 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
     const q = req.query as { state?: string; cursor?: string; limit?: string };
     const limit = Math.min(Math.max(Number(q['limit'] ?? 30), 1), 100);
     let sql = 'SELECT * FROM attempts';
-    const where: string[] = [];
-    const params: unknown[] = [];
+    const where: string[] = ['user_id = ?'];
+    const params: unknown[] = [req.user!.id];
     if (q['state']) { where.push('state = ?'); params.push(q['state']); }
     if (q['cursor']) {
       const [ts, id] = Buffer.from(q['cursor'], 'base64url').toString('utf8').split('|');
@@ -678,8 +885,7 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
   // ---------- 结果 / 评分 / 报告 ----------
   app.get('/api/v1/attempts/:id/results', async (req, reply) => {
     const { id } = req.params as { id: string };
-    const at = getAttempt(id);
-    if (!at) throw notFound('练习不存在');
+    const at = getOwnedAttempt(id, req.user!.id);
     if (at.state !== 'submitted') throw conflict('ATTEMPT_NOT_SUBMITTED', '练习尚未交卷，不能读取答案与评分');
     const grade = h.db.prepare('SELECT * FROM grade_revisions WHERE attempt_id = ? ORDER BY version DESC LIMIT 1').get(id) as { id: string; version: number; items_json: string; aggregate_json: string; rule_version: string };
     const data = loadAttemptItems(h, id);
@@ -758,10 +964,210 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
     return ok(reply, job);
   });
 
+  // ---------- 学习数据：概览 / 学习计划 / 打卡 / 错题本 ----------
+
+  app.get('/api/v1/overview', async (req, reply) => {
+    const userId = req.user!.id;
+    const today = todayLocal();
+    const prefRow = h.db.prepare('SELECT preferences_json FROM users WHERE id = ?').get(userId) as { preferences_json: string };
+    const prefs = readPreferences(prefRow.preferences_json);
+    const dailyTarget = Number.isInteger(prefs.daily_target) ? (prefs.daily_target as number) : 20;
+
+    // 今日答题量：今天有过更新的练习里，已作答的题目数（含未交卷的草稿）
+    const dailyCount = (h.db.prepare(`
+      SELECT COUNT(*) AS n FROM answer_drafts d
+      JOIN attempt_items ai ON ai.id = d.attempt_item_id
+      JOIN attempts a ON a.id = ai.attempt_id
+      WHERE a.user_id = ? AND d.answer_json IS NOT NULL AND date(a.updated_at, 'localtime') = ?`).get(userId, today) as { n: number }).n;
+
+    const checkins = (h.db.prepare('SELECT date FROM check_ins WHERE user_id = ? ORDER BY date').all(userId) as Array<{ date: string }>).map((r) => r.date);
+    const learningRows = h.db.prepare(`
+      SELECT DISTINCT date(s.submitted_at, 'localtime') AS d FROM submissions s JOIN attempts a ON a.id = s.attempt_id
+      WHERE a.user_id = ? ORDER BY d`).all(userId) as Array<{ d: string }>;
+
+    // 近 30 天答题量（按当天作答的草稿计）与正确率（按当天交卷的判分计）
+    const sinceDate = (() => {
+      const d = new Date();
+      d.setDate(d.getDate() - 29);
+      return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+    })();
+    const countRows = h.db.prepare(`
+      SELECT date(a.updated_at, 'localtime') AS d, COUNT(*) AS n FROM answer_drafts d2
+      JOIN attempt_items ai ON ai.id = d2.attempt_item_id
+      JOIN attempts a ON a.id = ai.attempt_id
+      WHERE a.user_id = ? AND d2.answer_json IS NOT NULL AND date(a.updated_at, 'localtime') >= ?
+      GROUP BY d`).all(userId, sinceDate) as Array<{ d: string; n: number }>;
+    const countsByDate = new Map(countRows.map((r) => [r.d, r.n] as const));
+    const gradeRows = h.db.prepare(`
+      SELECT g.items_json, date(s.submitted_at, 'localtime') AS d
+      FROM grade_revisions g JOIN attempts a ON a.id = g.attempt_id JOIN submissions s ON s.attempt_id = a.id
+      WHERE a.user_id = ? AND g.version = 1 AND date(s.submitted_at, 'localtime') >= ?`).all(userId, sinceDate) as Array<{ items_json: string; d: string }>;
+    const accByDate = new Map<string, { c: number; n: number }>();
+    for (const row of gradeRows) {
+      const graded = JSON.parse(row.items_json) as Array<{ correctness: string | null }>;
+      const cur = accByDate.get(row.d) ?? { c: 0, n: 0 };
+      for (const g of graded) {
+        if (g.correctness === 'correct' || g.correctness === 'incorrect' || g.correctness === 'partial') {
+          cur.n += 1;
+          if (g.correctness === 'correct') cur.c += 1;
+        }
+      }
+      accByDate.set(row.d, cur);
+    }
+    const counts: number[] = [];
+    const accuracy: Array<number | null> = [];
+    for (let i = 29; i >= 0; i--) {
+      const d = (() => {
+        const dd = new Date();
+        dd.setDate(dd.getDate() - i);
+        return `${dd.getFullYear()}-${String(dd.getMonth() + 1).padStart(2, '0')}-${String(dd.getDate()).padStart(2, '0')}`;
+      })();
+      counts.push(countsByDate.get(d) ?? 0);
+      const acc = accByDate.get(d);
+      accuracy.push(acc && acc.n > 0 ? Math.round(acc.c / acc.n * 100) : null);
+    }
+
+    // 最近练习（任意状态 3 条；已交卷的带正确率与用时）
+    const recentRows = h.db.prepare(`
+      SELECT a.id, a.state, a.started_at, a.submitted_at, a.updated_at, s.title AS set_title
+      FROM attempts a
+      JOIN question_set_versions sv ON sv.id = a.set_version_id
+      JOIN question_sets s ON s.id = sv.set_id
+      WHERE a.user_id = ? ORDER BY a.updated_at DESC LIMIT 3`).all(userId) as Array<{ id: string; state: string; started_at: string | null; submitted_at: string | null; updated_at: string; set_title: string }>;
+    const recent = recentRows.map((r) => {
+      const total = (h.db.prepare('SELECT COUNT(*) AS n FROM attempt_items WHERE attempt_id = ?').get(r.id) as { n: number }).n;
+      let correct: number | null = null;
+      let totalGraded: number | null = null;
+      let minutes: number | null = null;
+      if (r.state === 'submitted') {
+        const agg = h.db.prepare('SELECT aggregate_json FROM grade_revisions WHERE attempt_id = ? ORDER BY version DESC LIMIT 1').get(r.id) as { aggregate_json: string } | undefined;
+        if (agg) {
+          const a = JSON.parse(agg.aggregate_json) as { answered_correct_rate: { num: number; den: number } | null };
+          if (a.answered_correct_rate) { correct = a.answered_correct_rate.num; totalGraded = a.answered_correct_rate.den; }
+        }
+        if (r.started_at && r.submitted_at) minutes = Math.max(1, Math.round((Date.parse(r.submitted_at) - Date.parse(r.started_at)) / 60000));
+      }
+      return { attempt_id: r.id, title: r.set_title, state: r.state, updated_at: r.updated_at, submitted_at: r.submitted_at, total, correct, total_graded: totalGraded, minutes };
+    });
+
+    return ok(reply, {
+      daily: { date: today, count: dailyCount, target: dailyTarget },
+      checkins,
+      learning_dates: learningRows.map((r) => r.d),
+      series: { counts, accuracy },
+      recent,
+    });
+  });
+
+  // 学习计划任务
+  const TASK_CATEGORIES = ['reading', 'cloze', 'translation', 'writing'];
+  const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+
+  app.get('/api/v1/tasks', async (req, reply) => {
+    const rows = h.db.prepare('SELECT * FROM study_tasks WHERE user_id = ? ORDER BY date, created_at LIMIT 500').all(req.user!.id) as Array<Record<string, unknown>>;
+    return ok(reply, rows.map((r) => ({ ...r, done: r['done'] === 1 })));
+  });
+
+  app.post('/api/v1/tasks', async (req, reply) => {
+    const body = req.body as Record<string, unknown> | null;
+    const title = String(body?.['title'] ?? '').trim();
+    const category = String(body?.['category'] ?? 'reading');
+    const date = String(body?.['date'] ?? '');
+    const minutes = Number(body?.['minutes'] ?? 20);
+    if (!title || title.length > 40) throw badRequest('INVALID_TITLE', '计划内容需要 1–40 个字符');
+    if (!TASK_CATEGORIES.includes(category)) throw badRequest('INVALID_CATEGORY', `题型必须是 ${TASK_CATEGORIES.join(' / ')}`);
+    if (!DATE_RE.test(date)) throw badRequest('INVALID_DATE', '学习日期格式应为 YYYY-MM-DD');
+    if (!Number.isInteger(minutes) || minutes < 1 || minutes > 180) throw badRequest('INVALID_MINUTES', '预计用时需要是 1–180 的整数');
+    const id = uuidv7();
+    const now = nowIso();
+    h.db.prepare('INSERT INTO study_tasks (id, user_id, title, category, date, minutes, done, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, 0, ?, ?)')
+      .run(id, req.user!.id, title, category, date, minutes, now, now);
+    return reply.code(201).send({ data: { id, title, category, date, minutes, done: false }, meta: { request_id: reply.request.id } });
+  });
+
+  app.patch('/api/v1/tasks/:id', async (req, reply) => {
+    const { id } = req.params as { id: string };
+    const row = h.db.prepare('SELECT * FROM study_tasks WHERE id = ? AND user_id = ?').get(id, req.user!.id) as { id: string } | undefined;
+    if (!row) throw notFound('学习计划不存在');
+    const body = req.body as Record<string, unknown> | null;
+    const sets: string[] = [];
+    const params: unknown[] = [];
+    if (body?.['title'] !== undefined) {
+      const title = String(body['title']).trim();
+      if (!title || title.length > 40) throw badRequest('INVALID_TITLE', '计划内容需要 1–40 个字符');
+      sets.push('title = ?'); params.push(title);
+    }
+    if (body?.['done'] !== undefined) { sets.push('done = ?'); params.push(body['done'] === true || body['done'] === 1 ? 1 : 0); }
+    if (body?.['date'] !== undefined) {
+      const date = String(body['date']);
+      if (!DATE_RE.test(date)) throw badRequest('INVALID_DATE', '学习日期格式应为 YYYY-MM-DD');
+      sets.push('date = ?'); params.push(date);
+    }
+    if (body?.['category'] !== undefined) {
+      const category = String(body['category']);
+      if (!TASK_CATEGORIES.includes(category)) throw badRequest('INVALID_CATEGORY', `题型必须是 ${TASK_CATEGORIES.join(' / ')}`);
+      sets.push('category = ?'); params.push(category);
+    }
+    if (body?.['minutes'] !== undefined) {
+      const minutes = Number(body['minutes']);
+      if (!Number.isInteger(minutes) || minutes < 1 || minutes > 180) throw badRequest('INVALID_MINUTES', '预计用时需要是 1–180 的整数');
+      sets.push('minutes = ?'); params.push(minutes);
+    }
+    if (sets.length === 0) throw badRequest('EMPTY_PATCH', '没有需要更新的字段');
+    sets.push('updated_at = ?'); params.push(nowIso(), id, req.user!.id);
+    h.db.prepare(`UPDATE study_tasks SET ${sets.join(', ')} WHERE id = ? AND user_id = ?`).run(...params);
+    return ok(reply, { saved: true });
+  });
+
+  app.delete('/api/v1/tasks/:id', async (req, reply) => {
+    const { id } = req.params as { id: string };
+    const r = h.db.prepare('DELETE FROM study_tasks WHERE id = ? AND user_id = ?').run(id, req.user!.id);
+    if (r.changes === 0) throw notFound('学习计划不存在');
+    return ok(reply, { deleted: true });
+  });
+
+  // 每日打卡（幂等：同一天重复打卡只记一次）
+  app.post('/api/v1/checkins', async (req, reply) => {
+    const body = req.body as { date?: unknown } | null;
+    const date = String(body?.['date'] ?? todayLocal());
+    if (!DATE_RE.test(date)) throw badRequest('INVALID_DATE', '打卡日期格式应为 YYYY-MM-DD');
+    h.db.prepare('INSERT OR IGNORE INTO check_ins (user_id, date, created_at) VALUES (?, ?, ?)').run(req.user!.id, date, nowIso());
+    const dates = (h.db.prepare('SELECT date FROM check_ins WHERE user_id = ? ORDER BY date').all(req.user!.id) as Array<{ date: string }>).map((r) => r.date);
+    return ok(reply, { dates });
+  });
+
+  // 错题本
+  app.get('/api/v1/mistakes', async (req, reply) => {
+    const rows = h.db.prepare('SELECT * FROM mistake_book WHERE user_id = ? AND resolved = 0 ORDER BY last_wrong_at DESC LIMIT 200')
+      .all(req.user!.id) as Array<Record<string, unknown>>;
+    return ok(reply, rows.map((r) => {
+      const options = r['options_json'] ? JSON.parse(r['options_json'] as string) as Array<{ id: string; text: string }> : null;
+      const myAnswer = r['my_answer_json'] ? JSON.parse(r['my_answer_json'] as string) : null;
+      const answerKey = r['answer_key_json'] ? JSON.parse(r['answer_key_json'] as string) : null;
+      return {
+        id: r['id'],
+        area: normalizeSection((r['section'] as string | null) ?? null, r['type'] as string),
+        title: r['stem'],
+        picked: answerLabel(myAnswer, options),
+        answer: answerLabel(answerKey, options),
+        explanation: r['explanation'] ?? null,
+        wrong_count: r['wrong_count'],
+        added_at: String(r['last_wrong_at']).slice(0, 10),
+      };
+    }));
+  });
+
+  app.post('/api/v1/mistakes/:id/resolve', async (req, reply) => {
+    const { id } = req.params as { id: string };
+    const r = h.db.prepare('UPDATE mistake_book SET resolved = 1 WHERE id = ? AND user_id = ?').run(id, req.user!.id);
+    if (r.changes === 0) throw notFound('错题不存在');
+    return ok(reply, { resolved: true });
+  });
+
   // ---------- 外部 Agent 文件驱动复盘（docs/05） ----------
   app.get('/api/v1/attempts/:id/agent-package', async (req, reply) => {
     const { id } = req.params as { id: string };
-    if (!getAttempt(id)) throw notFound('练习不存在');
+    getOwnedAttempt(id, req.user!.id);
     const hasCtx = h.db.prepare('SELECT id FROM agent_context_revisions WHERE attempt_id = ? LIMIT 1').get(id);
     if (!hasCtx) return ok(reply, { status: 'none', attempt_id: id });
     const pkg = ensureAgentPackage(h, h.dataDir, id);
@@ -772,6 +1178,7 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
     const { id } = req.params as { id: string };
     const key = req.headers['idempotency-key'] as string | undefined;
     return withIdempotency(reply, key, `attempts/${id}/agent-package`, () => {
+      getOwnedAttempt(id, req.user!.id);
       const pkg = ensureAgentPackage(h, h.dataDir, id);
       return { status: 200, body: { data: { status: 'ready', attempt_id: id, ...pkg } } };
     });
@@ -779,13 +1186,13 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
 
   app.get('/api/v1/attempts/:id/external-review', async (req, reply) => {
     const { id } = req.params as { id: string };
-    if (!getAttempt(id)) throw notFound('练习不存在');
+    getOwnedAttempt(id, req.user!.id);
     return ok(reply, listExternalReview(h, id));
   });
 
   app.post('/api/v1/attempts/:id/external-review/rescan', async (req, reply) => {
     const { id } = req.params as { id: string };
-    if (!getAttempt(id)) throw notFound('练习不存在');
+    getOwnedAttempt(id, req.user!.id);
     const r = await reviewCheckNow(h, h.dataDir, id);
     return ok(reply, r);
   });
