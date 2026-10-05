@@ -50,7 +50,7 @@ npm run typecheck  # 类型检查
 npm run check-json -- question_bank/NETEM_English_I/2000.json   # 校验试卷 JSON
 ```
 
-练习数据保存在 `%LOCALAPPDATA%\ShitiWorkbench\workspaces\default`。页面只与本机 API 通信，服务端没有外联请求；导出报告或使用外部 Agent 复盘时，内容由你主动带出应用。
+练习数据保存在 `%LOCALAPPDATA%\ShitiWorkbench\workspaces\default`。应用内页面只与本机 API 通信，服务端没有外联请求；公开主页仅可能请求 GitHub 公开 API 读取 Star 数（构建时可用 `VITE_GITHUB_STARS_ENDPOINT=off` 关闭）；导出报告或使用外部 Agent 复盘时，内容由你主动带出应用。
 
 ## Question Bank
 

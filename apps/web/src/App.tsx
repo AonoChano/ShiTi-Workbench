@@ -14,7 +14,8 @@ import { ProfileProvider, useProfile, type Profile } from './profile';
 import { AuthProvider, useAuth } from './auth/AuthContext';
 import LoginPage from './auth/pages/LoginPage';
 import SessionSplash from './auth/pages/SessionSplash';
-import { navigate, usePath } from './router';
+import Home from './home/Home';
+import { navigate, redirect, usePath } from './router';
 import { Overview } from './pages/Overview';
 import { Papers, yearOf } from './pages/Papers';
 import { Drill } from './pages/Drill';
@@ -208,11 +209,21 @@ export function App() {
   );
 }
 
-/** 认证闸门：启动时确认会话；未登录只看到登录页，主应用不加载 */
+/** 认证闸门：启动时确认会话；未登录访客看公开主页，/login、/register 是登录页的两个入口模式 */
 function AuthGate() {
   const { status } = useAuth();
+  const path = usePath();
+  useEffect(() => {
+    if (status === 'authenticated' && /^\/(login|register)$/.test(path)) redirect('/');
+    // 深链到应用内页面但未登录：一律回主页（replace，不留回退死循环）
+    if (status === 'anonymous' && !/^\/(?:login|register)$/.test(path)) redirect('/');
+  }, [status, path]);
   if (status === 'checking') return <SessionSplash />;
-  if (status === 'anonymous') return <div className="auth-root"><LoginPage /></div>;
+  if (status === 'anonymous') {
+    if (path === '/login') return <div className="auth-root"><LoginPage initialMode="login" /></div>;
+    if (path === '/register') return <div className="auth-root"><LoginPage initialMode="register" /></div>;
+    return <Home />;
+  }
   return <MainApp />;
 }
 

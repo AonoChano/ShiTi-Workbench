@@ -1,0 +1,390 @@
+/* 钉死 layer 顺序（与 index.css 相同的声明）：dev 模式下本表可能先于 index.css
+   注入文档，若不在此重申顺序，components 会排到 base 之前被 preflight 压掉 */
+@layer theme, base, components, utilities;
+
+/* ------------------------------------------------------------------
+   主页（公开营销页）样式 —— 移植自 MainPage。
+   组件类全部收在 .home-root 作用域内；与登录/主界面共名的语义令牌
+   （muted / clay / sage-block / serif 字体栈）在 .home-root 上覆盖为
+   主页自己的值，两边互不影响。令牌词表见 index.css 的 @theme。
+   ------------------------------------------------------------------ */
+.home-root {
+  --color-muted: #a4b392;
+  --color-sage-block: #edf2e7;
+  --color-clay: #bc9b87;
+  --font-serif: Georgia, "Times New Roman", "Songti SC", "Noto Serif SC", serif;
+  --shadow-float: 0 24px 90px #23391726;
+
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.7;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-synthesis: none;
+}
+/* 主页有 sticky 头部，锚点跳转要平滑滚到 78px 偏移之下；应用页面不受影响 */
+html:has(.home-root) { scroll-behavior: smooth; }
+.home-root [id] { scroll-margin-top: 78px; }
+.home-root :focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; border-radius: var(--radius-xs); }
+.home-root a { color: inherit; text-decoration: none; }
+@media (prefers-reduced-motion: reduce) {
+  html:has(.home-root) { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+  }
+}
+
+@layer components {
+
+  .home-root .wrap {
+    width: 100%;
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+  }
+  @media (min-width: 768px) {
+    .home-root .wrap {
+      padding-inline: 32px;
+    }
+  }
+
+  /* eyebrow + 标题 + meta 行：几乎每个模块的排版骨架 */
+  .home-root .eyebrow {
+    font-size: 10px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--color-muted);
+  }
+
+  .home-root .meta {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 12px;
+    color: var(--color-muted);
+    line-height: 1.6;
+  }
+  .home-root .meta > span {
+    display: inline-flex;
+    align-items: center;
+  }
+  /* 全站辨识度最高的小签名：2px 圆点分隔 */
+  .home-root .meta > span + span::before {
+    content: "";
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: var(--color-muted);
+    margin-inline: 8px;
+    flex: none;
+  }
+
+  .home-root .h-display {
+    font-size: clamp(30px, 4.3vw, 46px);
+    line-height: 1.18;
+    letter-spacing: -0.8px;
+    font-weight: 600;
+    color: var(--color-title);
+  }
+  .home-root .h-section {
+    font-size: clamp(22px, 2.6vw, 28px);
+    line-height: 1.28;
+    letter-spacing: -0.4px;
+    font-weight: 600;
+    color: var(--color-heading);
+  }
+  .home-root .lede {
+    font-size: 15px;
+    line-height: 1.85;
+    color: var(--color-body);
+  }
+  .home-root .tnum {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* 分层靠 1px 边框，不靠阴影 */
+  .home-root .panel {
+    background: var(--color-card);
+    border: 1px solid var(--color-rule);
+    border-radius: var(--radius-xl);
+  }
+  .home-root .paper {
+    background: var(--color-material);
+    border: 1px solid var(--color-rule);
+    border-radius: var(--radius-xl);
+  }
+  /* 一整块白卡内部画分隔线 */
+  .home-root .paper-list > * + * {
+    border-top: 1px solid var(--color-divider);
+  }
+
+  .home-root .card-hover {
+    transition:
+      transform 0.22s ease,
+      border-color 0.22s ease;
+  }
+  .home-root .card-hover:hover {
+    transform: translateY(-3px);
+    border-color: var(--color-progress);
+  }
+
+  /* 按钮三级：primary / outline / quiet，禁用一律 45% 透明 */
+  .home-root .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    height: 36px;
+    padding-inline: 14px;
+    border-radius: var(--radius-md);
+    border: 1px solid transparent;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    transition:
+      transform 0.18s ease,
+      background-color 0.18s ease,
+      border-color 0.18s ease,
+      color 0.18s ease;
+  }
+  .home-root .btn:disabled, .home-root 
+  .home-root .btn[aria-disabled="true"] {
+    opacity: 0.45;
+    pointer-events: none;
+  }
+  .home-root .btn-primary {
+    background: var(--color-action);
+    color: #fff;
+  }
+  .home-root .btn-primary:hover {
+    background: var(--color-action-deep);
+    transform: translateY(-1px);
+  }
+  .home-root .btn-outline {
+    border-color: #cfdac1;
+    color: var(--color-heading);
+    background: transparent;
+  }
+  .home-root .btn-outline:hover {
+    border-color: var(--color-action);
+    color: var(--color-action);
+  }
+  .home-root .btn-quiet {
+    background: var(--color-active);
+    color: var(--color-heading);
+  }
+  .home-root .btn-quiet:hover {
+    background: var(--color-selected);
+  }
+  .home-root .btn-sm {
+    height: 31px;
+    padding-inline: 11px;
+    font-size: 12px;
+  }
+  .home-root .btn-lg {
+    height: 42px;
+    padding-inline: 18px;
+    font-size: 14px;
+  }
+  .home-root .arrow {
+    transition: transform 0.18s ease;
+  }
+  .home-root .btn:hover .arrow, .home-root 
+  .home-root .link-arrow:hover .arrow {
+    transform: translate(2px, -2px);
+  }
+  .home-root .link-arrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-action);
+  }
+
+  .home-root .nav-link {
+    font-size: 13px;
+    color: var(--color-body);
+    padding: 6px 9px;
+    border-radius: 6px;
+    transition:
+      color 0.18s ease,
+      background-color 0.18s ease;
+  }
+  .home-root .nav-link:hover {
+    color: var(--color-heading);
+    background: var(--color-active);
+  }
+
+  .home-root .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background: var(--color-paper);
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  /* 粉彩图标块：32–43px，lucide stroke 1.65–1.7 */
+  .home-root .icon-block {
+    width: 38px;
+    height: 38px;
+    border-radius: var(--radius-lg);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+  }
+  .home-root .icon-sage {
+    background: var(--color-sage-block);
+    color: var(--color-sage-ink);
+  }
+  .home-root .icon-peach {
+    background: var(--color-peach-block);
+    color: var(--color-peach-ink);
+  }
+  .home-root .icon-lavender {
+    background: var(--color-lavender-block);
+    color: var(--color-lavender-ink);
+  }
+  .home-root .icon-blue {
+    background: var(--color-blue-block);
+    color: var(--color-blue-ink);
+  }
+
+  /* 入场只有一个母题：opacity + 8px translateY，错峰 70ms。
+     用 animation（fill: backwards）而不是 transition，这样不会和 .card-hover 的 hover 过渡打架。 */
+  .home-root .reveal {
+    opacity: 0;
+  }
+  .home-root .reveal.is-in {
+    opacity: 1;
+    animation: home-module-reveal 0.42s ease backwards;
+    animation-delay: calc(var(--i, 0) * 70ms);
+  }
+  @keyframes home-module-reveal {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  /* 荧光笔：只涂字的下半部 + 底部 2px */
+  .home-root .stem-mark {
+    background: linear-gradient(to bottom, transparent 54%, var(--color-selected) 54%);
+    border-bottom: 2px solid var(--color-progress);
+    padding: 0 1px;
+  }
+
+  /* 横线稿纸 */
+  .home-root .lined {
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 37px,
+      var(--color-rule-soft) 37px,
+      var(--color-rule-soft) 38px
+    );
+    line-height: 38px;
+  }
+  .home-root .placeholder-lines {
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 23px,
+      var(--color-divider) 23px,
+      var(--color-divider) 24px
+    );
+  }
+
+  /* 专项卡大数字：Georgia 31px 水印色 */
+  .home-root .watermark-num {
+    font-family: var(--font-serif);
+    font-size: 31px;
+    line-height: 1;
+    color: var(--color-watermark);
+    letter-spacing: -0.5px;
+  }
+
+  /* GitHub 徽标 */
+  .home-root .gh-badge {
+    display: inline-flex;
+    align-items: stretch;
+    height: 31px;
+    border: 1px solid var(--color-rule);
+    border-radius: var(--radius-md);
+    background: var(--color-card);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color-heading);
+    overflow: hidden;
+    transition:
+      border-color 0.18s ease,
+      transform 0.18s ease;
+  }
+  .home-root .gh-badge:hover {
+    border-color: var(--color-progress);
+    transform: translateY(-1px);
+  }
+  .home-root .gh-badge > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding-inline: 10px;
+  }
+  .home-root .gh-badge > span + span {
+    border-left: 1px solid var(--color-divider);
+    background: var(--color-material);
+    font-variant-numeric: tabular-nums;
+    min-width: 40px;
+    justify-content: center;
+  }
+
+  /* FAQ */
+  .home-root .faq summary {
+    list-style: none;
+    cursor: pointer;
+  }
+  .home-root .faq summary::-webkit-details-marker {
+    display: none;
+  }
+  .home-root .faq .chev {
+    transition: transform 0.2s ease;
+  }
+  .home-root .faq[open] .chev {
+    transform: rotate(180deg);
+  }
+
+  /* 色板 */
+  .home-root .swatch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-divider);
+    background: var(--color-card);
+  }
+  .home-root .swatch i {
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
+    border: 1px solid #0000000d;
+    flex: none;
+  }
+
+}

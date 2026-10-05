@@ -135,10 +135,10 @@ function LegalLinks() {
  * 登录页
  * ------------------------------------------------------------------ */
 
-export default function LoginPage() {
+export default function LoginPage({ initialMode = "login" }: { initialMode?: AuthMode }) {
   const { signIn } = useAuth();
 
-  const [mode, setMode] = useState<AuthMode>("login");
+  const [mode, setMode] = useState<AuthMode>(initialMode);
   const [values, setValues] = useState<FormValues>(INITIAL_VALUES);
   const [errors, setErrors] = useState<FieldErrors>({});
   const [formError, setFormError] = useState<string | null>(null);
