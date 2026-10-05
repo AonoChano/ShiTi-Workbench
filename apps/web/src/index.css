@@ -680,10 +680,6 @@ button.sidebar-close, button.mobile-menu-button, .sidebar-scrim { display: none;
   .library-toolbar { gap: 12px; }
   .filter-button { font-size: 0; gap: 0; }
   .library-filters { flex-direction: column; align-items: stretch; gap: 13px; padding: 14px; margin-top: 16px; }
-  .library-filters > div:first-child { gap: 16px; justify-content: space-between; }
-  .library-filters label { font-size: 9px; }
-  .library-filters select { width: 109px; }
-  .library-search { width: 100%; }
   .paper-row { grid-template-columns: 33px minmax(0,1fr) 26px; gap: 11px; padding: 18px 14px; }
   .paper-row > .category-icon { width: 32px; height: 32px; }
   .paper-info h3 { font-size: 10px; }
@@ -783,8 +779,6 @@ button.sidebar-close, button.mobile-menu-button, .sidebar-scrim { display: none;
   .header-search { width: 137px; }
   .page-heading h1 { font-size: 20px; }
   .module-card { padding-left: 15px; }
-  .library-filters select { width: 96px; }
-  .library-filters > div:first-child { gap: 10px; }
   .plan-filter-bar .category-tabs { gap: 12px; }
   .notification-popover { position: fixed; top: 57px; right: 12px; left: 12px; width: auto; }
 }
@@ -1155,4 +1149,16 @@ button.sidebar-close, button.mobile-menu-button, .sidebar-scrim { display: none;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* 窄屏题库筛选：≤900px 起筛选区竖排，筛选项改两列网格，下拉自适应填满格子。
+   放在文件尾部以覆盖前面 .range-select 的 138px 定宽（媒体查询不加特异性，
+   必须靠位置取胜），避免"排序"被截出屏幕 */
+@media (max-width: 900px) {
+  .library-filters { flex-direction: column; align-items: stretch; gap: 13px; padding: 14px; margin-top: 16px; }
+  .library-filters > div:first-child { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 18px; }
+  .library-filters label { min-width: 0; }
+  .library-filters select { width: auto; flex: 1; min-width: 0; }
+  .library-filters select.range-select { width: auto; }
+  .library-search { width: 100%; }
 }
