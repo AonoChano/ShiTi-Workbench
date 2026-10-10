@@ -1,99 +1,103 @@
 # 拾题 · Shiti Workbench
 
-本地优先的考研英语真题练习工作台。1986–2020 年英语（一）真题已全量入库，做题、判分、专项和复盘都在自己电脑上完成。
+拾题(ShiTi Workbench) 是一款本地的考研英语练习平台。
 
-![学习概览](docs/images/overview.png)
+![拾题学习概览](docs/images/overview.png)
 
-题库来自一份[转换规格](question_bank/NETEM_English_I/_规格说明.md)：把年份原卷交给 AI 按规格产出结构化 JSON，放进 `question_bank/` 就会自动入库。网页端负责做题与复盘，不需要联网，也没有内置 AI 聊天。
+## 现在能做什么
 
-## Features
+- 按年份找整卷练习，也可以按题型跨年份组专项；支持筛选、搜索和收藏。
+- 作答会自动保存到本机工作区，训练中途可以暂停，之后接着做。
+- 客观题按题目规则判分；翻译、写作等主观题不会被假装自动打分，会标为待评。
+- 交卷后可以查看逐题报告，导出 Markdown 或 JSON；答错的客观题会收进错题本。
+- 学习概览里有每日目标、日历、学习趋势和计划清单。
 
-- **真题题库**：35 份英语（一）真题，按科目与五年年份范围筛选，支持搜索、收藏和排序
-- **整卷训练**：按原卷结构作答。完形填空一屏连做，新题型选完自动回填空位，翻译和写作有独立作答区
-- **专项练习**：按题型跨年份抽题组卷，材料整组保留，题序与原卷一致
-- **自动保存**：答案实时写入本地数据库，中途关闭页面后回来可以接着做
-- **判分与复盘**：客观题交卷即判分，主观题标记待评。报告可导出 Markdown/JSON，也可以让本地 Agent 按文件协议写复盘、网页实时刷新
+仓库目前附带 1986–2020 年英语（一）真题，共 35 份结构化试卷。专项练习会按题型从已有题库组卷：
 
-## Screenshots
+![专项练习页面](docs/images/drill-focus.png)
 
-![专项练习](docs/images/drill-focus.png)
+## 本地运行
 
-从概览页的题型卡片跳转过来时，对应的专项卡会高亮定位。
-
-## Tech Stack
-
-| Package | Stack |
-|---|---|
-| `apps/web` | React 19 · Vite 6 · TypeScript |
-| `apps/server` | Fastify 5 · better-sqlite3 |
-| `packages/shared` | 前后端共享的领域逻辑：导入校验、判分、报告 |
-
-## Getting Started
-
-需要 Node.js 与 npm（本项目在 Node 22 下开发）。
+开发环境以 **Node.js 22 和 npm** 为准。在仓库根目录执行：
 
 ```bash
 git clone https://github.com/AonoChano/ShiTi-Workbench.git
 cd ShiTi-Workbench
-npm install
+npm ci
 npm run dev
 ```
 
-`npm run dev` 会同时启动网页（127.0.0.1:5173）和 API（127.0.0.1:8210），打开 http://127.0.0.1:5173 即可使用。
+打开 <http://127.0.0.1:5173>。开发模式会同时启动网页和 API；第一次进入可以注册一个本地账号。
 
-其他常用命令：
+第一次启动还会初始化管理员账号，可以用 `AonoChano` 或 `CYChano@outlook.com` 登录。若没有设置 `SHITI_ADMIN_PASSWORD`，随机密码会写在数据目录的 `admin-credentials.txt` 里。要预先指定密码，可以把 `.env.example` 复制为 `.env`，在里面填写 `SHITI_ADMIN_PASSWORD`。目前没有邮件找回密码；需要时可在本机重置（新密码至少 8 位，且包含字母和数字）：
 
 ```bash
-npm run build      # 生产构建，由服务端单端口托管
-npm test           # shared 与 server 测试
-npm run typecheck  # 类型检查
-npm run check-json -- question_bank/NETEM_English_I/2000.json   # 校验试卷 JSON
+npm run reset-password -- AonoChano MyNewPass123
 ```
 
-练习数据保存在 `%LOCALAPPDATA%\ShitiWorkbench\workspaces\default`。应用内页面只与本机 API 通信，服务端没有外联请求；公开主页仅可能请求 GitHub 公开 API 读取 Star 数（构建时可用 `VITE_GITHUB_STARS_ENDPOINT=off` 关闭）；导出报告或使用外部 Agent 复盘时，内容由你主动带出应用。
+`MyNewPass123` 只是示例，记得换成自己的密码。
 
-## Question Bank
+生产构建和常用检查：
 
-试卷内容不是手工录入的。[_规格说明.md](question_bank/NETEM_English_I/_规格说明.md) 定义了 JSON 格式，把年份原卷交给 AI 按规格转换：
+```bash
+npm run build       # 构建 shared、server 和 web
+npm start            # 本机启动生产版，打开 http://127.0.0.1:8210
+npm run typecheck    # 三个 workspace 的 TypeScript 检查
+npm test             # shared 与 server 测试
+```
+
+### 数据放在哪里
+
+Windows 默认数据目录是 `%LOCALAPPDATA%\ShitiWorkbench\workspaces\default`，里面有 SQLite 数据库、报告和复盘文件。题库默认从仓库里的 `question_bank/` 读取。需要换目录或端口时，可在根目录 `.env` 中设置：
+
+| 变量 | 用途 | 默认值 |
+|---|---|---|
+| `SHITI_DATA_DIR` | 练习数据目录 | Windows 的 `%LOCALAPPDATA%\ShitiWorkbench\workspaces\default` |
+| `SHITI_BANK_DIR` | 题库目录 | 仓库根目录下的 `question_bank/` |
+| `SHITI_PORT` | API 端口 | `8210` |
+| `SHITI_ADMIN_PASSWORD` | 首次启动时管理员账号的初始密码 | 未设置时随机生成，并写入数据目录 |
+
+如果要备份练习数据，先停止服务，再复制整个数据目录。macOS 或 Linux 上运行时，建议显式设置 `SHITI_DATA_DIR`，不要沿用 Windows 默认路径。
+
+## 用自己的题目
+
+题库按 JSON 管理。格式和字段约定写在[英语一试卷规格](question_bank/NETEM_English_I/_规格说明.md)里；准备好文件后可以先校验：
+
+```bash
+npm run check-json -- question_bank/NETEM_English_I/2000.json
+```
+
+服务启动时会扫描题库，之后每 5 秒检查一次。通过校验的新文件会自动入库；修改后的文件也通过校验，才会生成新版本。已经开始的练习仍保留原来的题目快照。也可以在网页的题库管理里导入 JSON。
+
+有些看图作文在 JSON 里引用了原图，但图片资源不随仓库提供；没有配置相应的本机图片目录时，这些图不会显示。
+
+仓库内的英语真题仅供个人学习使用，不得商用或公开再分发；详细边界见[题库版权说明](question_bank/NETEM_English_I/_版权与使用说明.md)。
+
+## 把复盘交给外部 Agent
+
+交卷后，在报告页点「准备复盘目录」，拾题会在本机生成题目、作答和证据上下文，并放好 `AGENTS.md`、`CLAUDE.md` 和待填写的 `review.md`。让有权限访问该目录的本机 Agent 按说明编辑 `review.md`，拾题会读取有效更新并显示在报告页。原始答案和分数不会因此改变，Agent 给的建议也不会自动变成你的学习计划。
+
+如果你用的是网页版 AI，可以自行导出 Markdown 再粘贴过去；这一步由你决定，内容会按所选服务的方式处理。文件格式和校验规则见[外部 Agent 文件协议](docs/05-外部Agent文件协议.md)。
+
+## 本机服务
+
+API 默认只监听本机 `127.0.0.1`。公开主页显示的仓库 Star 数来自 GitHub API；需要关闭时，在构建环境设置 `VITE_GITHUB_STARS_ENDPOINT=off`。
+
+## 项目结构
 
 ```text
-规格说明 + 原卷 Markdown
-        ↓
-<年份>.json
-        ↓
-check-json 校验
-        ↓
-放入 question_bank/ 自动扫描入库
-        ↓
-版本化题库（内容修订生成新版本，已答练习不受影响）
+apps/web          React 前端
+apps/server       Fastify API、本地 SQLite、题库扫描与复盘文件监听
+packages/shared   前后端共用的导入校验、判分和报告逻辑
+question_bank/    试卷 JSON
+samples/          用于演示和测试的样本
+scripts/          开发辅助脚本
 ```
 
-真题内容版权归命题机构所有，收录与使用边界见[版权说明](question_bank/NETEM_English_I/_版权与使用说明.md)。
+技术栈：React 19、Vite 6、Fastify 5、TypeScript、better-sqlite3。
 
-## Project Structure
+产品交互和数据约定放在 [`docs/`](docs/)；开发启动细节见 [`DEVELOPMENT.md`](DEVELOPMENT.md)，产品规划见 [`WHITEPAPER.md`](WHITEPAPER.md)。
 
-```
-apps/web          网页前端（页面、组件、样式）
-apps/server       API 服务：题库扫描、导入校验、练习会话、复盘协议
-packages/shared   前后端共享的领域逻辑
-question_bank/    转换产出的试卷 JSON
-docs/             交互规格、数据契约、复盘协议、验收记录
-design/           设计原图与迭代过程
-```
+## 许可证
 
-## Documentation
-
-| 文档 | 内容 |
-|---|---|
-| [WHITEPAPER.md](WHITEPAPER.md) | 产品白皮书与阶段规划 |
-| [交互与页面规格](docs/01-交互与页面规格.md) | 页面、操作、状态、错误文案 |
-| [数据与接口契约](docs/02-数据与接口契约.md) | 实体、判分、计时、HTTP 契约 |
-| [Markdown 与 AI 复盘协议](docs/03-Markdown与AI复盘协议.md) | context / review / report 的分工 |
-| [外部 Agent 文件协议](docs/05-外部Agent文件协议.md) | 文件驱动复盘契约 |
-| [AGENT_HANDOFF.md](AGENT_HANDOFF.md) | 设计阶段交接说明 |
-
-## License
-
-[MIT](LICENSE)。
-
-考研真题内容的著作权归命题机构所有。`question_bank/` 内的转录产物仅限个人学习使用，详见[版权说明](question_bank/NETEM_English_I/_版权与使用说明.md)。
+软件代码采用 [MIT 许可证](LICENSE)。`question_bank/` 中的真题内容另有版权和使用限制，详见[题库版权说明](question_bank/NETEM_English_I/_版权与使用说明.md)。
