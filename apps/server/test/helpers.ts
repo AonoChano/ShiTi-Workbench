@@ -8,7 +8,7 @@ export async function loginCookie(app: FastifyInstance): Promise<string> {
   const res = await app.inject({
     method: 'POST',
     url: '/api/v1/auth/login',
-    payload: { account: 'AonoChano', password: TEST_ADMIN_PASSWORD, remember: false },
+    payload: { account: 'admin', password: TEST_ADMIN_PASSWORD, remember: false },
   });
   if (res.statusCode !== 200) throw new Error(`测试登录失败：${res.statusCode} ${res.body}`);
   const raw = res.headers['set-cookie'];
