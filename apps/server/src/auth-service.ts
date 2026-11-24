@@ -36,6 +36,14 @@ interface UserRow {
 }
 
 export const ADMIN_ID = 'u-admin';
+/** 内置管理员的默认登录名与邮箱：只是本机默认账号，不指向任何个人，也不接收邮件。 */
+export const ADMIN_USERNAME = 'admin';
+export const ADMIN_EMAIL = 'admin@shiti.local';
+export const ADMIN_NICKNAME = '管理员';
+/** 早期版本播种时误用了维护者的个人账号，升级后统一改回默认 admin。 */
+const LEGACY_ADMIN_IDENTITIES: Array<{ username: string; email: string }> = [
+  { username: 'AonoChano', email: 'CYChano@outlook.com' },
+];
 
 // ---------- 密码 ----------
 
@@ -192,11 +200,14 @@ export function registerUser(h: DbHandle, input: RegisterInput): SessionUser {
 
 /**
  * 管理员种子：首次启动时创建固定 id 的管理员（u-admin），存量 attempts 通过迁移默认值归属该账号。
+ * 登录名固定为 admin（邮箱 admin@shiti.local 只是占位，不能收信）。
  * 密码优先取 SHITI_ADMIN_PASSWORD 环境变量；没有则随机生成并写入数据目录下的 admin-credentials.txt。
  */
-export function ensureAdminUser(h: DbHandle, adminPassword?: string): { created: boolean; credentialsFile?: string } {
-  const existing = h.db.prepare('SELECT id FROM users WHERE id = ?').get(ADMIN_ID);
-  if (existing) return { created: false };
+export function ensureAdminUser(h: DbHandle, adminPassword?: string): { created: boolean; renamed: boolean; credentialsFile?: string } {
+  const existing = h.db.prepare('SELECT id, username, email FROM users WHERE id = ?').get(ADMIN_ID) as
+    | { id: string; username: string; email: string }
+    | undefined;
+  if (existing) return { created: false, renamed: normalizeAdminIdentity(h, existing) };
   const now = nowIso();
   let password = adminPassword;
   let credentialsFile: string | undefined;
@@ -205,15 +216,38 @@ export function ensureAdminUser(h: DbHandle, adminPassword?: string): { created:
     try {
       mkdirSync(h.dataDir, { recursive: true });
       credentialsFile = join(h.dataDir, 'admin-credentials.txt');
-      writeFileSync(credentialsFile, `拾题管理员账号\n用户名：AonoChano\n邮箱：CYChano@outlook.com\n密码：${password}\n\n首次启动时自动生成；请妥善保管本文件，登录成功后可删除。\n`, 'utf8');
+      writeFileSync(credentialsFile, `拾题管理员账号\n用户名：${ADMIN_USERNAME}\n邮箱：${ADMIN_EMAIL}（占位，不接收邮件）\n密码：${password}\n\n首次启动时自动生成；请妥善保管本文件，登录成功后可删除。\n`, 'utf8');
     } catch {
       // 写不进去就只在启动日志里提醒一次，账号仍可用环境变量重置
     }
   }
   h.db.prepare(
     'INSERT INTO users (id, username, email, nickname, password_hash, role, status, preferences_json, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
-  ).run(ADMIN_ID, 'AonoChano', 'CYChano@outlook.com', 'AonoChano', hashPassword(password), 'admin', 'active', '{}', now, now);
-  return { created: true, credentialsFile };
+  ).run(ADMIN_ID, ADMIN_USERNAME, ADMIN_EMAIL, ADMIN_NICKNAME, hashPassword(password), 'admin', 'active', '{}', now, now);
+  return { created: true, renamed: false, credentialsFile };
+}
+
+/**
+ * 把旧版播种出来的管理员账号改回默认身份。
+ * 只认得旧版用过的那组个人账号，避免误改用户自己改名后的管理员；新身份已被占用时也保持原样。
+ */
+function normalizeAdminIdentity(h: DbHandle, row: { username: string; email: string }): boolean {
+  const legacy = LEGACY_ADMIN_IDENTITIES.some(
+    (it) => it.username.toLowerCase() === row.username.toLowerCase() && it.email.toLowerCase() === row.email.toLowerCase(),
+  );
+  if (!legacy) return false;
+  const usernameTaken = h.db
+    .prepare('SELECT id FROM users WHERE username = ? COLLATE NOCASE AND id <> ?')
+    .get(ADMIN_USERNAME, ADMIN_ID);
+  const emailTaken = h.db
+    .prepare('SELECT id FROM users WHERE email = ? COLLATE NOCASE AND id <> ?')
+    .get(ADMIN_EMAIL, ADMIN_ID);
+  if (usernameTaken || emailTaken) return false;
+  // 昵称仍是播种时的旧用户名时才一起换，用户自己改过就保留
+  h.db
+    .prepare('UPDATE users SET username = ?, email = ?, nickname = CASE WHEN nickname = ? THEN ? ELSE nickname END, updated_at = ? WHERE id = ?')
+    .run(ADMIN_USERNAME, ADMIN_EMAIL, row.username, ADMIN_NICKNAME, nowIso(), ADMIN_ID);
+  return true;
 }
 
 /** 用户偏好（备考科目/每日目标/目标日期）存 preferences_json */

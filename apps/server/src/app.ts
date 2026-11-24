@@ -18,7 +18,9 @@ import { drillFacets, buildDrill, normalizeSection } from './practice-service.js
 import { ensureAgentPackage } from './agent-workspace.js';
 import { addSseClient, removeSseClient, listExternalReview, reviewCheckNow } from './review-service.js';
 import {
+  ADMIN_EMAIL,
   ADMIN_ID,
+  ADMIN_USERNAME,
   AuthError,
   attemptLogin,
   clearedSessionCookie,
@@ -165,7 +167,10 @@ export async function buildApp(opts: BuildOptions): Promise<FastifyInstance & { 
   // 管理员种子：首次启动创建固定 id 的管理员账号，存量数据经迁移默认值归属该账号
   const seeded = ensureAdminUser(h, opts.adminPassword);
   if (seeded.created && !opts.adminPassword) {
-    app.log.warn(`管理员账号已初始化，随机密码见：${seeded.credentialsFile ?? '<写入失败，请用 SHITI_ADMIN_PASSWORD 重置>'}`);
+    app.log.warn(`管理员账号已初始化（用户名 ${ADMIN_USERNAME}），随机密码见：${seeded.credentialsFile ?? '<写入失败，请用 SHITI_ADMIN_PASSWORD 重置>'}`);
+  }
+  if (seeded.renamed) {
+    app.log.warn(`管理员账号已统一为默认账号 ${ADMIN_USERNAME}（${ADMIN_EMAIL}），旧用户名不再可用。`);
   }
   app.runWorkerOnce = () => runQueuedJobOnce(h);
   app.rescanBank = () => (bankDir ? scanBank(h, bankDir) : { scanned: 0, imported: 0, changed: 0, errors: 0, skipped: 0, failures: [] });

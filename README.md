@@ -29,10 +29,15 @@ npm run dev
 
 打开 <http://127.0.0.1:5173>。开发模式会同时启动网页和 API；第一次进入可以注册一个本地账号。
 
-第一次启动还会初始化管理员账号，可以用 `AonoChano` 或 `CYChano@outlook.com` 登录。若没有设置 `SHITI_ADMIN_PASSWORD`，随机密码会写在数据目录的 `admin-credentials.txt` 里。要预先指定密码，可以把 `.env.example` 复制为 `.env`，在里面填写 `SHITI_ADMIN_PASSWORD`。目前没有邮件找回密码；需要时可在本机重置（新密码至少 8 位，且包含字母和数字）：
+第一次启动会自动建好一个本机管理员账号，登录名是 `admin`（`admin@shiti.local` 只是占位邮箱，不能收信）。初始密码有两种给法：
+
+- 自己指定：把 `.env.example` 复制为 `.env`，填写 `SHITI_ADMIN_PASSWORD` 后再启动，首次登录后可以删掉这一行。
+- 让它生成：不设置时，服务会随机生成一个密码，写在数据目录的 `admin-credentials.txt` 里；登录后即可删除该文件。
+
+没有邮件找回密码。忘记时在本机重置（新密码至少 8 位，且包含字母和数字）：
 
 ```bash
-npm run reset-password -- AonoChano MyNewPass123
+npm run reset-password -- admin MyNewPass123
 ```
 
 `MyNewPass123` 只是示例，记得换成自己的密码。
@@ -55,7 +60,7 @@ Windows 默认数据目录是 `%LOCALAPPDATA%\ShitiWorkbench\workspaces\default`
 | `SHITI_DATA_DIR` | 练习数据目录 | Windows 的 `%LOCALAPPDATA%\ShitiWorkbench\workspaces\default` |
 | `SHITI_BANK_DIR` | 题库目录 | 仓库根目录下的 `question_bank/` |
 | `SHITI_PORT` | API 端口 | `8210` |
-| `SHITI_ADMIN_PASSWORD` | 首次启动时管理员账号的初始密码 | 未设置时随机生成，并写入数据目录 |
+| `SHITI_ADMIN_PASSWORD` | 内置管理员账号（登录名 `admin`）的初始密码 | 未设置时随机生成，并写入数据目录 |
 
 如果要备份练习数据，先停止服务，再复制整个数据目录。macOS 或 Linux 上运行时，建议显式设置 `SHITI_DATA_DIR`，不要沿用 Windows 默认路径。
 

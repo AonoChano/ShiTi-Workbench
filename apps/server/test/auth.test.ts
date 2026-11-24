@@ -3,13 +3,14 @@ import { mkdtempSync, readFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { buildApp } from '../src/app.js';
+import type { DbHandle } from '../src/db.js';
 import type { FastifyInstance } from 'fastify';
 import { TEST_ADMIN_PASSWORD, loginCookie } from './helpers.js';
 
 const sample = readFileSync(join(import.meta.dirname ?? '.', '..', '..', '..', 'samples', 'golden-five.json'), 'utf8');
 
 let dataDir: string;
-let app: FastifyInstance & { h: unknown; runWorkerOnce: () => 'idle' | 'ran' };
+let app: FastifyInstance & { h: DbHandle; runWorkerOnce: () => 'idle' | 'ran' };
 let cookie = '';
 
 async function api(method: string, url: string, body?: unknown, headers?: Record<string, string>) {
@@ -77,15 +78,15 @@ describe('认证', () => {
   });
 
   it('登录成功/失败；me 与 logout 闭环', async () => {
-    const bad = await app.inject({ method: 'POST', url: '/api/v1/auth/login', payload: { account: 'AonoChano', password: 'wrong-pass1' } });
+    const bad = await app.inject({ method: 'POST', url: '/api/v1/auth/login', payload: { account: 'admin', password: 'wrong-pass1' } });
     expect(bad.statusCode).toBe(401);
     expect((bad.json() as Record<string, unknown>)['error']).toMatchObject({ code: 'INVALID_CREDENTIALS' });
 
     // 邮箱大小写不敏感 + 用户名均可登录
-    const byEmail = await app.inject({ method: 'POST', url: '/api/v1/auth/login', payload: { account: 'cychano@outlook.com', password: TEST_ADMIN_PASSWORD, remember: true } });
+    const byEmail = await app.inject({ method: 'POST', url: '/api/v1/auth/login', payload: { account: 'ADMIN@SHITI.LOCAL', password: TEST_ADMIN_PASSWORD, remember: true } });
     expect(byEmail.statusCode).toBe(200);
     const meRes = await app.inject({ method: 'GET', url: '/api/v1/auth/me', headers: { cookie: loginHeader(byEmail.headers['set-cookie']) } });
-    expect((meRes.json() as Record<string, unknown>)['data']).toMatchObject({ user: { username: 'AonoChano', role: 'admin' } });
+    expect((meRes.json() as Record<string, unknown>)['data']).toMatchObject({ user: { username: 'admin', role: 'admin' } });
 
     // 登出后 me → 401
     const token = loginHeader(byEmail.headers['set-cookie']);
@@ -96,7 +97,7 @@ describe('认证', () => {
   });
 
   it('注册：成功 → 重复邮箱 409；校验失败 422 带 fieldErrors', async () => {
-    const dup = await app.inject({ method: 'POST', url: '/api/v1/auth/register', payload: { nickname: '张三', email: 'CYchano@outlook.com', password: 'passw0rd8' } });
+    const dup = await app.inject({ method: 'POST', url: '/api/v1/auth/register', payload: { nickname: '张三', email: 'ADMIN@SHITI.LOCAL', password: 'passw0rd8' } });
     expect(dup.statusCode).toBe(409);
     expect((dup.json() as Record<string, unknown>)['error']).toMatchObject({ code: 'EMAIL_TAKEN' });
 
@@ -116,9 +117,31 @@ describe('认证', () => {
   });
 
   it('找回密码：未配置邮件服务时如实报错而不是假装发送', async () => {
-    const r = await api('POST', '/api/v1/auth/password/forgot', { email: 'cychano@outlook.com' });
+    const r = await api('POST', '/api/v1/auth/password/forgot', { email: 'admin@shiti.local' });
     expect(r.status).toBe(503);
     expect(errCode(r)).toBe('EMAIL_NOT_CONFIGURED');
+  });
+
+  it('旧版播种的管理员账号，升级后统一为默认 admin', async () => {
+    const dir = mkdtempSync(join(tmpdir(), 'shiti-admin-rename-'));
+    const before = await buildApp({ dataDir: dir, serveWebDist: false, adminPassword: TEST_ADMIN_PASSWORD });
+    await before.ready();
+    // 还原旧版本播种出来的身份（维护者个人用户名/邮箱）
+    before.h.db
+      .prepare("UPDATE users SET username = 'AonoChano', email = 'CYChano@outlook.com', nickname = 'AonoChano' WHERE id = 'u-admin'")
+      .run();
+    await before.close();
+
+    const after = await buildApp({ dataDir: dir, serveWebDist: false, adminPassword: TEST_ADMIN_PASSWORD });
+    await after.ready();
+    const byAdmin = await after.inject({ method: 'POST', url: '/api/v1/auth/login', payload: { account: 'admin', password: TEST_ADMIN_PASSWORD, remember: false } });
+    expect(byAdmin.statusCode).toBe(200);
+    const byLegacy = await after.inject({ method: 'POST', url: '/api/v1/auth/login', payload: { account: 'AonoChano', password: TEST_ADMIN_PASSWORD, remember: false } });
+    expect(byLegacy.statusCode).toBe(401);
+    const row = after.h.db.prepare('SELECT username, email, nickname FROM users WHERE id = ?').get('u-admin') as Record<string, string>;
+    expect(row).toMatchObject({ username: 'admin', email: 'admin@shiti.local', nickname: '管理员' });
+    await after.close();
+    rmSync(dir, { recursive: true, force: true, maxRetries: 8, retryDelay: 250 });
   });
 });
 
@@ -213,7 +236,7 @@ describe('学习数据接口', () => {
 
   it('资料读写：昵称与偏好', async () => {
     const p1 = data(await api('GET', '/api/v1/profile')) as Record<string, unknown>;
-    expect(p1).toMatchObject({ username: 'AonoChano', exam: '英语一', daily_target: 20 });
+    expect(p1).toMatchObject({ username: 'admin', exam: '英语一', daily_target: 20 });
     const p2 = await api('PUT', '/api/v1/profile', { nickname: '阿诺', exam: '英语二', daily_target: 30, target_date: '2027-12-19' });
     expect(p2.status).toBe(200);
     const p3 = data(await api('GET', '/api/v1/profile')) as Record<string, unknown>;
